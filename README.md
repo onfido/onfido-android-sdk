@@ -9,7 +9,7 @@ This SDK provides a drop-in set of screens and tools for Android applications:
 
 The SDK utilises the Onfido API to evaluate and submit images.  To use the API, an Onfido API token is required.
 
-**TODO: screenshot**
+*TODO: screenshot*
 
 ## Setup
 
@@ -43,8 +43,6 @@ In your AndroidManifest.xml file, in your root project, add:
 Your API token is available on the [Settings](https://onfido.com/dashboard/settings/api) page of the Onfido dashboard.
 
 ## Usage
-
-- **`token {String} required`**
 
 ### 1. Get an Onfido client instance
 
@@ -131,19 +129,19 @@ startActivityForResult(intent, 1);
 To receive the result from the check flow/process, you should override the method **onActivityResult** and extract the Check object, which contains the result state, using the method **extractCheckResult**:
 
 ```java
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        ...
-        if (requestCode == 1) { // customise as needed
-            if (resultCode == RESULT_OK) {
-                final Check check = onfido.extractCheckResult(data);
-                // Success: user finished the flow. Check the result object
-            } else {
-                // Failed: user cancelled the flow
-            }
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    ...
+    if (requestCode == 1) { // customise as needed
+        if (resultCode == RESULT_OK) {
+            final Check check = onfido.extractCheckResult(data);
+            // Success: user finished the flow. Check the result object
+        } else {
+            // Failed: user cancelled the flow
         }
-        ...
     }
+    ...
+}
 ```
 
 From those examples you can see that we used two methods that are provided by the Onfido class:
