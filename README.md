@@ -44,6 +44,8 @@ Your API token is available on the [Settings](https://onfido.com/dashboard/setti
 
 ## Usage
 
+*TODO: diagram of flow*
+
 ### 1. Get an Onfido client instance
 
 To use the SDK, you need to obtain an instance of the client object:
@@ -105,7 +107,7 @@ list.add(address);
 applicant.setAddresses(list);
 ```
 
-### 3. Start the background check
+### 3. Start the SDK flow
 
 To start the SDK flow, you should first obtain an *Intent* from the client and use it to start the SDK's activity that runs the background check process. We recommend using **startActivityForResult** to receive the result of the process (to know if the user finished or cancelled the check process).
 
