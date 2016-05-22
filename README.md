@@ -13,6 +13,8 @@ The SDK utilises the Onfido API to evaluate and submit images.  To use the API, 
 
 ## Setup
 
+*TODO: minimum requirements (SDK level, Android version, etc)*
+
 ### 1. Adding the SDK dependency
 
 You can download a JAR from Github's [releases page](https://github.com/onfido/onfido-android-sdk/releases)
