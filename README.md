@@ -158,6 +158,11 @@ Creates an Intent to start the Activity that will run the background check. You 
 ##### `extractCheckResult(Intent)`
 You should use this method to extract the result (Check object) of the background check.
 
+### 4. Callbacks and Results
+
+*TODO: how callbacks work for async/unavailable results*
+
+
 ## More Information
 
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
