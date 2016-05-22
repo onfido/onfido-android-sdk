@@ -2,7 +2,7 @@
 
 ## Overview
 
-This SDK provides a drop-in set of screens and tools for Android applications:
+This SDK provides a drop-in set of screens and tools for Android applications to:
 
 1. Take and evaluate the quality of document and face captures
 2. Initialise identity verification checks through Onfido's API
