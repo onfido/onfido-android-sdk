@@ -128,7 +128,9 @@ final Intent intent = onfido.createIntent(config);
 startActivityForResult(intent, 1);
 ```
 
-To receive the result from the check flow/process, you should override the method **onActivityResult** and extract the Check object, which contains the result state, using the method **extractCheckResult**:
+To receive the result from the check flow/process, you should override the method **onActivityResult**.
+
+If your check was processed synchronously, the Check object, which contains the result state, can be extracted using the method **extractCheckResult**:
 
 ```java
 @Override
@@ -145,6 +147,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     ...
 }
 ```
+
+*TODO: document different result conditions*
 
 From those examples you can see that we used two methods that are provided by the Onfido class:
 
