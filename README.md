@@ -1,4 +1,4 @@
-# :camera: Onfido Android SDK
+# Onfido Android SDK
 
 ## Overview
 
