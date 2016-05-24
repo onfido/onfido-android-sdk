@@ -9,7 +9,7 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 The SDK utilises the Onfido API to evaluate and submit images.  To use the API, an Onfido API token is required.
 
-*TODO: screenshot*
+![Various views from the SDK](screenshots.png "")
 
 ## Setup
 
