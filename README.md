@@ -13,7 +13,7 @@ The SDK utilises the Onfido API to evaluate and submit images.  To use the API, 
 
 ## Setup
 
-*TODO: minimum requirements (SDK level, Android version, etc)*
+The SDK supports API level 16 and above ([distribution stats](https://developer.android.com/about/dashboards/index.html))
 
 ### 1. Adding the SDK dependency
 
@@ -162,8 +162,9 @@ You should use this method to extract the result (Check object) of the backgroun
 
 ### 4. Callbacks and Results
 
-*TODO: how callbacks work for async/unavailable results*
+If you've elected to process checks asynchronously, you'll need to setup a webhook on your backend to receive these results and process them appropriately.
 
+You can register to (receive webhook events)[https://onfido.com/documentation#webhooks] using the Onfido API.  These can also be configured on the Onfido dashboard.
 
 ## More Information
 
