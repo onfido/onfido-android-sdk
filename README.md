@@ -1,5 +1,7 @@
 # Onfido Android SDK
 
+Latest version on Bintray: [ ![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg) ](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
+
 ## Overview
 
 This SDK provides a drop-in set of screens and tools for Android applications to:
@@ -35,7 +37,7 @@ Note:
 
 Until this package gets approved to be included in JCenter, the following snippet must be used to instruct gradle to search for it on Bintray:
 
-```
+```gradle
 repositories {
   maven {
     url  "https://dl.bintray.com/onfido/maven"
