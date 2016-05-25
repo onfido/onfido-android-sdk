@@ -27,7 +27,19 @@ repositories {
 }
 
 dependencies {
-  compile 'com.onfido.capture-sdk-android:capture-sdk-android:0.1.1'
+  compile 'com.onfido.sdk.capture:onfido-capture-sdk:+'
+}
+```
+
+Note:
+
+Until this package gets approved to be included in JCenter, the following snippet must be used to instruct gradle to search for it on Bintray:
+
+```
+repositories {
+  maven {
+    url  "https://dl.bintray.com/onfido/maven"
+  }
 }
 ```
 
@@ -45,8 +57,6 @@ In your AndroidManifest.xml file, in your root project, add:
 Your API token is available on the [Settings](https://onfido.com/dashboard/settings/api) page of the Onfido dashboard.
 
 ## Usage
-
-*TODO: diagram of flow*
 
 ### 1. Get an Onfido client instance
 
