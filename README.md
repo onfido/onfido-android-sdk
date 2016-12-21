@@ -71,27 +71,18 @@ Onfido onfido = OnfidoFactory.create(context).getClient();
 
 ### 2. Create the SDK configuration
 
-The SDK provides several configuration options.  These are detailed below.
+The SDK provides several configuration options.
 
 ```java
 final OnfidoConfig config = OnfidoConfig.builder()
-            .withShouldCollectDetails(true)
-            .withAsyncCheck(false)
-            .withSyncWaitTime(30) //seconds
             .withApplicant(applicant)
+            .withCustomFlow(steps)
             .build();
 ```
 
-##### `withShouldCollectDetails(boolean)`
-Determines whether the SDK will collect applicant details from the user, such as name and address
+Descriptions on each method are described below.
 
-##### `withAsyncCheck(boolean)`
-Determines whether the check will be processed asynchronously.  Not to be confused with an async network call, as every call is asynchronous.
-
-##### `withSyncWaitTime(int)`
-Specify (in seconds) how long the SDK should wait for an answer from the server when doing a synchronous check.
-
-##### `withApplicant(Applicant)`
+#### `withApplicant(Applicant)`
 When `withShouldCollectDetails` is `false`, then you must provide applicant details to the SDK.
 
 The following code shows an example of how to create an Applicant object:
@@ -108,18 +99,56 @@ Depending on the reports you wish to request, you may also want to add an addres
 
 ```java
 Address address = Address.builder()
-            .withFlatNumber("15")
-            .withCountry(Locale.UK)
-            .withPostcode("FR4 333")
-            .withTown("London")
-            ...
-            .build();
+                         .withCountry(Locale.UK)
+                         .withBuildingName("40")
+                         .withStreet("Long Acre")
+                         .withTown("London")
+                         .withPostcode("WC2E 9LG")
+                         .build()
 
 List<Address> list = new LinkedList<>();
 list.add(address);
 
 applicant.setAddresses(list);
 ```
+
+#### `withCustomFlow(FlowStep[])`
+Specifies the flow of the SDK. With it you can remove, add and shift around steps of the SDK flow.
+
+```java
+final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
+    new MessageScreenStep("Welcome Screen","Welcome Description","Start"), //Optional
+    FlowStep.MESSAGE_IDENTIFY_VERIFICATION, //Identity Verification Intro Step, Optional
+    FlowStep.CAPTURE_DOCUMENT,              //Document Capture Step
+    FlowStep.MESSAGE_FACE_VERIFICATION,     //Face Capture Intro Step, Optional
+    FlowStep.CAPTURE_FACE,                  //Face Capture Step
+    FlowStep.FINAL                          //Final Screen Step, Optional
+};
+
+final OnfidoConfig config = OnfidoConfig.builder()
+    .withCustomFlow(defaultStepsWithWelcomeScreen)
+    .withApplicant(applicant)
+    .build();
+```
+
+##### Document Capture Step
+In this step the user can pick which type of document to capture and then use the phone camera to capture it.
+
+##### Face Capture Step
+In this step the user can capture a photo of his face, by use of the front camera.
+
+##### Message Screen Step (Optional)
+This screen can be used to create a customized information step. It can be inserted anywhere in the flow multiple times.
+It can be instantiated with the following constructor:`MessageScreenStep(String, String, String)`
+
+##### Final Screen Step (Optional)
+This is a form of **Message Screen Step**. It should be used at the end of the flow, but it's not necessary.
+
+##### Identity Verification Intro Step (Optional)
+This is a form of **Message Screen Step**. It explains to the user the purpose of the identity verification flow.
+
+##### Face Capture Intro Step (Optional)
+This is a form of **Message Screen Step**. It explains to the user the purpose of the face capture step which should follow this one.
 
 ### 3. Start the SDK flow
 
@@ -133,46 +162,63 @@ final Onfido onfido = OnfidoFactory.create(this).getClient();
 // create your config
 final OnfidoConfig config = ...
 
-final Intent intent = onfido.createIntent(config);
-
-// customise the intent if necessary
-...
-
 // start the flow. 1 should be your request code (customise as needed)
-startActivityForResult(intent, 1);
+onfido.startActivityForResult(this,         /*must be an activity*/
+                              1,            /*this request code will be consumed later on Activity Result*/
+                              onfidoConfig);
 ```
 
-To receive the result from the check flow/process, you should override the method **onActivityResult**.
-
-If your check was processed synchronously, the Check object, which contains the result state, can be extracted using the method **extractCheckResult**:
+To receive the result from the flow, you should override the method **onActivityResult**.
 
 ```java
 @Override
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     ...
-    if (requestCode == 1) { // customise as needed
-        if (resultCode == RESULT_OK) {
-            final Check check = onfido.extractCheckResult(data);
-            // Success: user finished the flow. Check the result object
-        } else {
-            // Failed: user cancelled the flow
+    client.handleActivityResult(requestCode, resultCode, data, new Onfido.OnfidoResultListener() {
+        @Override
+        public void success(Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
+            startCheck(onfidoConfig, applicant, onfidoAPI);
         }
-    }
-    ...
+
+        @Override
+        public void userExited(Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
+            //User left the sdk flow without completing it
+        }
+    });
 }
 ```
 
-*TODO: document different result conditions*
+You can then initiate a check in the following manner:
+
+```java
+private void startCheck(OnfidoConfig config, Applicant applicant, OnfidoAPI onfidoAPI){
+    ...
+    final List<Report> currentReports = new ArrayList<>();
+    currentReports.add(new Report(Report.Type.DOCUMENT));
+    currentReports.add(new Report(Report.Type.IDENTITY));
+
+    onfidoAPI.check(applicant, Check.Type.EXPRESS, currentReports, new OnfidoAPI.Listener<Check>() {
+        @Override
+        public void onSuccess(Check check) {
+            //check request has been successful, the result of the check is passed
+        }
+
+        @Override
+        public void onFailure() {
+            //Failed to execute the request
+        }
+
+        @Override
+        public void onError(ErrorData errorData) {
+            //request was done, but the onfido api returned an error
+        }
+    });
+}
+```
 
 From those examples you can see that we used two methods that are provided by the Onfido class:
 
-##### `createIntent(OnfidoConfig)`
-Creates an Intent to start the Activity that will run the background check. You should provide an OnfidoConfig class with the SDK configuration.
-
-##### `extractCheckResult(Intent)`
-You should use this method to extract the result (Check object) of the background check.
-
-### 4. Callbacks and Results
+### 4. Check Results and Callbacks
 
 If you've elected to process checks asynchronously, you'll need to setup a webhook on your backend to receive these results and process them appropriately.
 
