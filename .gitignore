@@ -1,9 +1,5 @@
-/secrets
-/projectFilesBackup
-/onfido-capture-sdk
-/local.properties
-/build
-/bintray.properties
-/android-capture-sdk.iml
-/.idea
-/.gradle
+*
+!CHANGELOG.MD
+!.gitignore
+!screenshots.png
+!README.md
