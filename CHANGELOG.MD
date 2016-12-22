@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+
+## [0.3.1]
+
+### Added
+-Internal: if the captured document is not a passport, its backside is also requested.
+
+
 ## [0.3.0]
 
 ### Added
