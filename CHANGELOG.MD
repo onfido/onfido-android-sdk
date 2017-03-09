@@ -1,11 +1,40 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.5.0]
+
+### Changed
+- Public: The SDK flow now exits with a code, depending on the way that the user abandoned it.
+
+### Fixed
+- Public: Crash bug fixed when the user denies camera permission.
+- Internal: Fixed crash bug caused when the main activity got recreated and its applicant became null, which caused exceptions.
+- Internal: Fixed the crash problem when another appp is using the camera in the background and the user opens the capture step at the same time. This fix informs the user of the problem, in hope the user will correct the situation.
+
+
+## [0.4.0]
+
+### Added
+- Internal: A confirmation step shows up before sending the photo for validation.
+- Public: Added both `withBaseUrl(String)` and `withToken(String)`, which allow to customize the base url used when communicating to the backend and the possibility to set the authorization token used when communicating with said back-end.
+
+### Changed
+- Internal: Changed copy of validation error dialog.
+- Public: Deprecated `getOnfidoConfigFrom(Intent)`, `getApplicantFrom(Intent)`, `createOnfidoApiClient()` in favour of the more comprehensive api `handleActivityResult(...)`.
+
+### Fixed
+- Public: Removed the colorAccent resource, which was causing dialog buttons to disappear.
+- Internal: Auto focus before capture has been removed, due to problems found on some devices.
+- Internal: Fixed crash on devices without flash mode.
+- Internal: Removed unused image assets.
+- Internal: autoFocus crash bug exception fixed.
+- Internal: Fixed null pointer exception crash when focus mode gets reverted in certain scenarios.
+
 
 ## [0.3.1]
 
 ### Added
--Internal: if the captured document is not a passport, its backside is also requested.
+- Internal: if the captured document is not a passport, its backside is also requested.
 
 
 ## [0.3.0]

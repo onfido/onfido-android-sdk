@@ -51,9 +51,17 @@ In your AndroidManifest.xml file, in your root project, add:
 
 ```xml
 <application>
-  <meta-data android:name="onfido_api_token" android:value="<your token>"/>
+  <meta-data android:name="onfido_api_token" android:value="YOUR_TOKEN"/>
   <!-- and so on -->
 </application>
+```
+
+You can also specify the token at runtime, by adding it to the OnfidoConfig:
+
+```java
+final OnfidoConfig config = OnfidoConfig.builder()
+            .withToken("YOUR_TOKEN")
+            ...
 ```
 
 Your API token is available on the [Settings](https://onfido.com/dashboard/settings/api) page of the Onfido dashboard.
@@ -181,7 +189,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         }
 
         @Override
-        public void userExited(Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
+        public void userExited(ExitCode exitCode, Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
             //User left the sdk flow without completing it
         }
     });
