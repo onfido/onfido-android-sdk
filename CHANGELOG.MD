@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.6.0]
+
+### Fixed
+- Internal: Fixed crash bug that could happen if the user clicked on the confirm button too quickly (easier to reproduce on older phones)
+- Public: Fixed Glide conflict. Glide is now a standard dependency (instead of prebundled).
+
+### Removed
+- Public: Removed launcher icon from resources and manifest
+
+
 ## [0.5.0]
 
 ### Changed
