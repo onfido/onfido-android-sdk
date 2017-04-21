@@ -142,6 +142,19 @@ final OnfidoConfig config = OnfidoConfig.builder()
 ##### Document Capture Step
 In this step the user can pick which type of document to capture and then use the phone camera to capture it.
 
+You can also specify a particular document type that the user is allowed to upload by replacing this step with a `CaptureScreenStep` containing the desired type and country code:
+
+```java
+final FlowStep[] flowStepsWithOptions = new FlowStep[]{
+                FlowStep.MESSAGE_IDENTIFY_VERIFICATION,
+                new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, "IND"),
+                FlowStep.MESSAGE_FACE_VERIFICATION,
+                FlowStep.CAPTURE_FACE,
+                FlowStep.FINAL
+        };
+```
+      
+This way, the document type selection view will not be visible prior to capturing the document.
 ##### Face Capture Step
 In this step the user can capture a photo of his face, by use of the front camera.
 
@@ -157,6 +170,18 @@ This is a form of **Message Screen Step**. It explains to the user the purpose o
 
 ##### Face Capture Intro Step (Optional)
 This is a form of **Message Screen Step**. It explains to the user the purpose of the face capture step which should follow this one.
+
+#### `withMetrics(boolean)`
+Specifies whether SDK-only metrics may be taken. 
+By default, Onfido capture anonymous SDK usage metrics to help us improve the product itself. No information is included which would allow individual user or host application to be identified.
+
+```java
+final OnfidoConfig config = OnfidoConfig.builder()
+    .withCustomFlow(defaultStepsWithWelcomeScreen)
+    .withApplicant(applicant)
+    .withMetrics(true)
+    .build();
+```
 
 ### 3. Start the SDK flow
 

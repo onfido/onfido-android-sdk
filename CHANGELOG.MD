@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.7.0-rc.1]
+
+### Changed
+- Public: introduced allowMetrics, which allows the developer to choose whether SDK-only metrics may be taken.
+- Public: introduced CaptureScreenStep, which allows preselection of the document type on the flow configuration, hiding the document type selection view during the flow.
+- Public: `createIntent` was undeprecated, this is helpful when initiating the sdk from fragments.
+- Public: deprecated methods were removed
+- Public: `requestCode` was removed from `handleActivityResult(...)` since handling it should be the host app's responsibility.
+
 ## [0.6.0]
 
 ### Fixed
