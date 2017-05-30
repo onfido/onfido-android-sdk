@@ -1,13 +1,30 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## [0.7.0-rc.1]
+## [0.7.1]
 
 ### Changed
+- Internal: If country and document type selected is india and national id card, only the front of the document will be asked of the user.
+
+### Fixed
+- Internal: Crash On RuntimeException for "Could not find requested camera". A message is now presented to the user in such cases. letting him now the camera is not available.
+- Internal: Crash On RuntimeException for "takePicture failed". A message is now presented to the user when this happens.
+- Internal: Crash on IllegalArgumentException for "meteringAreas is invalid NumFocusAreas must < 4". For devices that have a limit on the number of areas a safeguard clause was added to the code.
+
+### Removed
+- Internal: Glide was removed as a dependency. This reduced the method count to a value lower than on 0.6.0 (if code was run through Proguard).
+
+## [0.7.0-rc.1]
+
+### Added
 - Public: introduced allowMetrics, which allows the developer to choose whether SDK-only metrics may be taken.
 - Public: introduced CaptureScreenStep, which allows preselection of the document type on the flow configuration, hiding the document type selection view during the flow.
 - Public: `createIntent` was undeprecated, this is helpful when initiating the sdk from fragments.
+
+### Removed
 - Public: deprecated methods were removed
+
+### Changed
 - Public: `requestCode` was removed from `handleActivityResult(...)` since handling it should be the host app's responsibility.
 
 ## [0.6.0]
