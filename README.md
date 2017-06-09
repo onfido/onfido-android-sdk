@@ -19,8 +19,6 @@ The SDK supports API level 16 and above ([distribution stats](https://developer.
 
 ### 1. Adding the SDK dependency
 
-You can download a JAR from Github's [releases page](https://github.com/onfido/onfido-android-sdk/releases)
-
 Alternatively, use Gradle:
 
 ```gradle
@@ -47,24 +45,17 @@ repositories {
 
 ### 2. Specifying your API token
 
-In your AndroidManifest.xml file, in your root project, add:
-
-```xml
-<application>
-  <meta-data android:name="onfido_api_token" android:value="YOUR_TOKEN"/>
-  <!-- and so on -->
-</application>
-```
-
-You can also specify the token at runtime, by adding it to the OnfidoConfig:
+You can specify the mobile token at runtime, by adding it to the OnfidoConfig:
 
 ```java
 final OnfidoConfig config = OnfidoConfig.builder()
-            .withToken("YOUR_TOKEN")
+            .withToken("YOUR_MOBILE_TOKEN")
             ...
 ```
 
-Your API token is available on the [Settings](https://onfido.com/dashboard/settings/api) page of the Onfido dashboard.
+Your mobile API token is available on the [Settings](https://onfido.com/dashboard/settings/api) page of the Onfido dashboard.
+
+**Warning:** You **MUST** use the *mobile token* and not the master token. If you cannot find one in the dashboard, please contact tech support.
 
 ## Usage
 
@@ -207,10 +198,10 @@ To receive the result from the flow, you should override the method **onActivity
 @Override
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     ...
-    client.handleActivityResult(requestCode, resultCode, data, new Onfido.OnfidoResultListener() {
+    onfido.handleActivityResult(resultCode, data, new Onfido.OnfidoResultListener() {
         @Override
         public void success(Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
-            startCheck(onfidoConfig, applicant, onfidoAPI);
+            //communicate with your backend and initiate the check
         }
 
         @Override
@@ -220,42 +211,6 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     });
 }
 ```
-
-You can then initiate a check in the following manner:
-
-```java
-private void startCheck(OnfidoConfig config, Applicant applicant, OnfidoAPI onfidoAPI){
-    ...
-    final List<Report> currentReports = new ArrayList<>();
-    currentReports.add(new Report(Report.Type.DOCUMENT));
-    currentReports.add(new Report(Report.Type.IDENTITY));
-
-    onfidoAPI.check(applicant, Check.Type.EXPRESS, currentReports, new OnfidoAPI.Listener<Check>() {
-        @Override
-        public void onSuccess(Check check) {
-            //check request has been successful, the result of the check is passed
-        }
-
-        @Override
-        public void onFailure() {
-            //Failed to execute the request
-        }
-
-        @Override
-        public void onError(ErrorData errorData) {
-            //request was done, but the onfido api returned an error
-        }
-    });
-}
-```
-
-From those examples you can see that we used two methods that are provided by the Onfido class:
-
-### 4. Check Results and Callbacks
-
-If you've elected to process checks asynchronously, you'll need to setup a webhook on your backend to receive these results and process them appropriately.
-
-You can register to (receive webhook events)[https://onfido.com/documentation#webhooks] using the Onfido API.  These can also be configured on the Onfido dashboard.
 
 ## More Information
 
