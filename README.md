@@ -116,8 +116,7 @@ Specifies the flow of the SDK. With it you can remove, add and shift around step
 
 ```java
 final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
-    new MessageScreenStep("Welcome Screen","Welcome Description","Start"), //Optional
-    FlowStep.MESSAGE_IDENTIFY_VERIFICATION, //Identity Verification Intro Step, Optional
+    FlowStep.WELCOME,                       //Welcome step with a step summary, Optional
     FlowStep.CAPTURE_DOCUMENT,              //Document Capture Step
     FlowStep.MESSAGE_FACE_VERIFICATION,     //Face Capture Intro Step, Optional
     FlowStep.CAPTURE_FACE,                  //Face Capture Step
@@ -131,13 +130,13 @@ final OnfidoConfig config = OnfidoConfig.builder()
 ```
 
 ##### Document Capture Step
-In this step the user can pick which type of document to capture and then use the phone camera to capture it.
+In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
 
-You can also specify a particular document type that the user is allowed to upload by replacing this step with a `CaptureScreenStep` containing the desired type and country code:
+You can also specify a particular document type and country that the user is allowed to upload by replacing this step with a `CaptureScreenStep` containing the desired type and country code:
 
 ```java
 final FlowStep[] flowStepsWithOptions = new FlowStep[]{
-                FlowStep.MESSAGE_IDENTIFY_VERIFICATION,
+                FlowStep.WELCOME,
                 new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, "IND"),
                 FlowStep.MESSAGE_FACE_VERIFICATION,
                 FlowStep.CAPTURE_FACE,
@@ -145,9 +144,13 @@ final FlowStep[] flowStepsWithOptions = new FlowStep[]{
         };
 ```
       
-This way, the document type selection view will not be visible prior to capturing the document.
+This way, the document type and country selection screens will not be visible prior to capturing the document.
+
+##### Welcome Step
+In this step the user is presented with a summary of the capture steps he/she is about to pass through.
+
 ##### Face Capture Step
-In this step the user can capture a photo of his face, by use of the front camera.
+In this step the user can capture a photo of his/her face, by use of the front camera.
 
 ##### Message Screen Step (Optional)
 This screen can be used to create a customized information step. It can be inserted anywhere in the flow multiple times.
@@ -212,6 +215,63 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-## More Information
 
+### 4. SDK Theme Customization
+
+Developers are allowed to customize the SDK UI, by defining certain colors on their own `colors.xml` file, which should be overriden with 
+the host app's own colors to enhance the user experience during the transitions between the host application and the SDK:
+
+`onfidoColorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
+
+`onfidoColorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
+
+`onfidoTextColorPrimary`: Defines the color of the text on the `Toolbar`
+
+`onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
+alert dialogs shown during the flow
+
+
+## More Information
+You can then initiate a check in the following manner:
+
+```java
+private void startCheck(OnfidoConfig config, Applicant applicant, OnfidoAPI onfidoAPI){
+    ...
+    final List<Report> currentReports = new ArrayList<>();
+    currentReports.add(new Report(Report.Type.DOCUMENT));
+    currentReports.add(new Report(Report.Type.IDENTITY));
+
+    onfidoAPI.check(applicant, Check.Type.EXPRESS, currentReports, new OnfidoAPI.Listener<Check>() {
+        @Override
+        public void onSuccess(Check check) {
+            //check request has been successful, the result of the check is passed
+        }
+
+        @Override
+        public void onFailure() {
+            //Failed to execute the request
+        }
+
+        @Override
+        public void onError(ErrorData errorData) {
+            //request was done, but the onfido api returned an error
+        }
+    });
+}
+```
+
+From those examples you can see that we used two methods that are provided by the Onfido class.
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
+
+
+### 4. SDK Theme Customization
+
+By default, the SDK will inherit the color of its elements from the host application's `Theme`, to enhance the user experience on the transition between that application and the SDK.
+ Concretely, the following attributes are inherited:
+
+`colorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
+
+`colorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
+
+`colorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
+alert dialogs shown during the flow

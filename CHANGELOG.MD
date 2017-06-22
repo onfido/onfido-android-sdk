@@ -1,10 +1,40 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.8.0]
+
+### Changed
+- Public: Deprecated `MESSAGE_IDENTIFY_VERIFICATION` `FlowStep`, since it is too specific for the purpose of the SDK, which should stay as generic as possible
+- Public: Changed the default flow, accessible through `FlowStep.getDefaultFlow()` to include a welcome step, also accessible as `FlowStep.WELCOME`
+- Public: Document capture step, accessible through `FlowStep.CAPTURE_DOCUMENT` now features 3 different screens. First, a document type selection screen is shown, followed by a country selection screen
+for the document origin country to be chosen. Finally, the camera screen for the document capture
+- Public: Redesign of the message screen which results from a `MessageScreenStep`
+
+- Internal: `FlowStep.WELCOME` and `FlowStep.MESSAGE_FACE_VERIFICATION` now have a bullet points layout with new copy
+- Internal: Added a toolbar as part of the flow UI, with a title describing the current step and the ability to return to the previous step
+- Internal: Added bottom sheet on Country Selection screen showing instructions for when the user can not find the origin country of his/her document
+- Internal: Updated Kotlin version to `1.1.1`
+
+### Fixed
+- Internal: Crash on NullPointerException when trying to upload document which came as `null` from the camera. A `null` check is now performed after the picture is taken, and an error
+message is shown in case it is `null`
+- Internal: If country and document type selected is India and national id card, only the front of the document will be asked of the user. There was a mistake where this behaviour was happening with the driver's license instead.
+
+### Removed
+- Public: Removed `FlowStep.MESSAGE` step. Developers should add a `MessageScreenStep(String title, String subtitle, String nextButtonText)` to a custom flow instead, specifying
+which information they want to show on the screen.
+- Internal: Removed unused `.png` drawables
+- Internal: Removed unneeded `theme` from the `<application>` tag, which could cause conflicts with the host app's `theme`
+
+### Added
+- Public: Added the ability for host applications to override the flow components' colors
+- Internal: Added the document type and country to the document capture screen, and only the document type on passport captures
+
 ## [0.7.1]
 
 ### Changed
 - Internal: If country and document type selected is india and national id card, only the front of the document will be asked of the user.
+- Internal: Changed side information on document captures to show only on back side captures from two-sided card documents (not Passport)
 
 ### Fixed
 - Internal: Crash On RuntimeException for "Could not find requested camera". A message is now presented to the user in such cases. letting him now the camera is not available.
