@@ -195,7 +195,7 @@ onfido.startActivityForResult(this,         /*must be an activity*/
                               onfidoConfig);
 ```
 
-To receive the result from the flow, you should override the method **onActivityResult**.
+To receive the result from the flow, you should override the method **onActivityResult**. The `Captures` object contains information about the document captures made during the flow.
 
 ```java
 @Override
@@ -203,66 +203,17 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     ...
     onfido.handleActivityResult(resultCode, data, new Onfido.OnfidoResultListener() {
         @Override
-        public void success(Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
+        public void success(Applicant applicant, Captures captures) {
             //communicate with your backend and initiate the check
         }
 
         @Override
-        public void userExited(ExitCode exitCode, Applicant applicant, OnfidoAPI onfidoApi, OnfidoConfig config) {
+        public void userExited(Applicant applicant, ExitCode exitCode) {
             //User left the sdk flow without completing it
         }
     });
 }
 ```
-
-
-### 4. SDK Theme Customization
-
-Developers are allowed to customize the SDK UI, by defining certain colors on their own `colors.xml` file, which should be overriden with 
-the host app's own colors to enhance the user experience during the transitions between the host application and the SDK:
-
-`onfidoColorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
-
-`onfidoColorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
-
-`onfidoTextColorPrimary`: Defines the color of the text on the `Toolbar`
-
-`onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
-alert dialogs shown during the flow
-
-
-## More Information
-You can then initiate a check in the following manner:
-
-```java
-private void startCheck(OnfidoConfig config, Applicant applicant, OnfidoAPI onfidoAPI){
-    ...
-    final List<Report> currentReports = new ArrayList<>();
-    currentReports.add(new Report(Report.Type.DOCUMENT));
-    currentReports.add(new Report(Report.Type.IDENTITY));
-
-    onfidoAPI.check(applicant, Check.Type.EXPRESS, currentReports, new OnfidoAPI.Listener<Check>() {
-        @Override
-        public void onSuccess(Check check) {
-            //check request has been successful, the result of the check is passed
-        }
-
-        @Override
-        public void onFailure() {
-            //Failed to execute the request
-        }
-
-        @Override
-        public void onError(ErrorData errorData) {
-            //request was done, but the onfido api returned an error
-        }
-    });
-}
-```
-
-From those examples you can see that we used two methods that are provided by the Onfido class.
-Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
-
 
 ### 4. SDK Theme Customization
 
@@ -275,3 +226,8 @@ By default, the SDK will inherit the color of its elements from the host applica
 
 `colorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
+
+
+## More Information
+
+Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).

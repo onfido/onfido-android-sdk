@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.9.0]
+
+### Changed
+- Internal: Changed API client to use Onfido API v2 instead of v1
+
+### Removed
+- Public: Removed unused `OnfidoConfig` object from callbacks `userCompleted()` and `userExited()` which signal whether the user completed the proposed flow or not
+
+### Added
+- Public: Added a `Captures` object on the `userCompleted()` callback method, which contains information about the document captures made during the flow
+- Internal: Added two parameters, `sdk_source` and `sdk_version`, specifying the sdk name and version to every document or face upload calls using the API
+
 ## [0.8.0]
 
 ### Changed
