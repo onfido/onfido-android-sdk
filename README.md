@@ -1,6 +1,7 @@
 # Onfido Android SDK
 
 [![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg) ](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
+[![Build Status](https://www.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)](https://www.bitrise.io/app/0d3fe90349e46fbe)
 
 ## Table of contents
 
@@ -207,6 +208,34 @@ By default, the SDK will inherit the color of its elements from the host applica
 
 `colorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
+
+### 3. Multi-APK split
+
+Onfido Android SDK is written mostly in Java and Kotlin, but also relies on some C++ code to evaluate the quality of the document and face captures. C++ code needs to be compiled
+for each of the CPU architectures (known as "ABIs") present on the Android environment. Currently, the SDK supports the following ABIs:
+
+* `armeabiv-v7a`: Version 7 or higher of the ARM processor. Most recent Android phones use this
+* `arm64-v8a`: 64-bit ARM processors. Found on new generation devices
+* `x86`: Most tablets and emulators
+* `x86_64`: Used by 64-bit tablets
+
+The SDK binary contains a copy of the native `.so` file for each of these four platforms. 
+You can considerably reduce the size of your `.apk` by applying APK split by ABI, editing your `build.gradle` as the following:
+
+```gradle
+android {
+  
+  splits {
+    abi {
+        enable true
+        reset()
+        include 'x86', 'x86_64', 'arm64-v8a', 'armeabi-v7a'
+        universalApk false
+    }
+  }
+}
+```
+More information on the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits)
 
 ## Creating checks
 

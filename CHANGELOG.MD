@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.9.1]
+
+### Added
+- Internal: Introduced glare detection feature for documents, bundled as JNI code. Check out README.md for more information
+- UI: Added a dialog warning the user when glare is detected on a document after taking a photo
+
+### Changed
+- UI: Enhanced document, live photo and confirmation screens
+- Internal: Changed analytics to a more client-oriented approach
+
 ## [0.9.0]
 
 ### Changed
@@ -45,11 +55,11 @@ which information they want to show on the screen.
 ## [0.7.1]
 
 ### Changed
-- Internal: If country and document type selected is india and national id card, only the front of the document will be asked of the user.
+- Internal: If country and document type selected is India and national ID card, only the front of the document will be asked of the user.
 - Internal: Changed side information on document captures to show only on back side captures from two-sided card documents (not Passport)
 
 ### Fixed
-- Internal: Crash On RuntimeException for "Could not find requested camera". A message is now presented to the user in such cases. letting him now the camera is not available.
+- Internal: Crash On RuntimeException for "Could not find requested camera". A message is now presented to the user in such cases, letting him know the camera is not available.
 - Internal: Crash On RuntimeException for "takePicture failed". A message is now presented to the user when this happens.
 - Internal: Crash on IllegalArgumentException for "meteringAreas is invalid NumFocusAreas must < 4". For devices that have a limit on the number of areas a safeguard clause was added to the code.
 
