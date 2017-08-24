@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.9.2]
+
+### Changed
+- Internal: Now supporting Android Support Library in version 24 and above
+
+### Fixed
+- Internal: Fixed an old bug where the camera preview was stretched on some devices
+- Internal: Fixed toolbar color customisation on document and face capture confirmation screens
+
 ## [0.9.1]
 
 ### Added

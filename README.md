@@ -198,13 +198,15 @@ This is a form of **Message Screen Step**. It explains to the user the purpose o
 
 ### 2. Theme customisation
 
-By default, the SDK will inherit the color of its elements from the host application's `Theme`, to enhance the user experience on the transition between that application and the SDK. You can, however, provide further customisation by defining certain colors inside your own `colors.xml` file:
+In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own `colors.xml` file:
 
 `colorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
 
 `colorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
 
-`textColorPrimary`: Defines the color of the text on the `Toolbar`
+`textColorPrimary`: Defines the color of the title on the `Toolbar`
+
+`textColorSecondary`: Defines the color of the subtitle on the `Toolbar` 
 
 `colorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
