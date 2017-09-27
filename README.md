@@ -11,6 +11,7 @@
 * [Customising SDK](#customising-sdk)
 * [Creating checks](#creating-checks)
 * [Going live](#going-live)
+* [Migrating](#migrating)
 * [More information](#more-information)
 
 ## Overview
@@ -216,7 +217,7 @@ alert dialogs shown during the flow
 Onfido Android SDK is written mostly in Java and Kotlin, but also relies on some C++ code to evaluate the quality of the document and face captures. C++ code needs to be compiled
 for each of the CPU architectures (known as "ABIs") present on the Android environment. Currently, the SDK supports the following ABIs:
 
-* `armeabiv-v7a`: Version 7 or higher of the ARM processor. Most recent Android phones use this
+* `armeabi-v7a`: Version 7 or higher of the ARM processor. Most recent Android phones use this
 * `arm64-v8a`: 64-bit ARM processors. Found on new generation devices
 * `x86`: Most tablets and emulators
 * `x86_64`: Used by 64-bit tablets
@@ -280,6 +281,12 @@ A few things to check before you go live:
 - Make sure you have set up webhooks to receive live events
 - Make sure you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/)
 
+## Migrating
+
+You can find the migration guide in [MIGRATION.md](MIGRATION.md) file.
+
 ## More information
 
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
+
+Copyright 2017 Onfido, Ltd. All rights reserved.

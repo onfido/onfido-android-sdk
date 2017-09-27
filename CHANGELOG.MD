@@ -1,6 +1,26 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [1.0.0]
+
+**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found at [MIGRATION.md](MIGRATION.md)
+
+### Added
+- UI: Added live edge detection for passport captures
+- UI: Added residence permit card as an identity verification method 
+
+### Changed
+- UI: Glare detection changed from post-capture dialog warning to real-time feedback via a bubble notification
+- UI: Dialogs cancellation feature has been removed, user has to explicitly take an action
+- Internal: Improved analytics by introducing more granular tracking
+
+### Removed
+- Public: Removed `allowMetrics(boolean)` method from the `OnfidoConfig.Builder` object
+- Public: Removed previously deprecated `FlowStep.MESSAGE_IDENTIFY_VERIFICATION` enum instance
+
 ## [0.9.2]
 
 ### Changed
@@ -217,6 +237,3 @@ which information they want to show on the screen.
 - Build: Now supports local maven in order to test locally developed dependencies
 - Public: Made the `NextActionListener` interface public to allow clients to use the `MessageFragment` in their own code
 - UI: created a `MessageDarkButtonStyle` and two button backgrounds, dark and light
-
-
-The standard for this change log can be found [here](http://keepachangelog.com/).
