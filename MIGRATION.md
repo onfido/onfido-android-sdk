@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `1.0.0` -> `2.0.0`
+
+### Breaking changes
+- Removed `FlowStep.MESSAGE_FACE_VERIFICATION`, which is now automatically added before any face capture with the variant `FaceCaptureVariant.PHOTO`.
+This way, any inclusion of this step in a custom flow should be removed
+
 ## `0.9.2` -> `1.0.0`
 
 ### Breaking changes

@@ -4,9 +4,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.0.0]
+
+**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Added
+- Public: Added `FaceCaptureStep(FaceCaptureVariant variant)`, which is a custom object to add a face capture step to the flow,
+with a variant of either `FaceCaptureVariant.PHOTO` or `FaceCaptureVariant.VIDEO`. Currently, the previous `FlowStep.CAPTURE_FACE`
+is still available and is equivalent to `new FaceCaptureStep(FaceCaptureVariant.PHOTO)`
+- UI: Added new video face capture screen as an alternative to photo face capture screen
+- Permissions: We now require the `android.permission.RECORD_AUDIO` permission, in order to capture audio from video Face captures 
+- UI: Added Spanish translation
+
+
+### Removed
+- Public: Removed `FlowStep.MESSAGE_FACE_VERIFICATION`, which is now automatically added before any face capture with the variant `FaceCaptureVariant.PHOTO`
+
+### Changed
+- UI: Changed countries' names on document country selection screen so that every country's name is presented in its native language.
+
 ## [1.0.0]
 
-**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found at [MIGRATION.md](MIGRATION.md)
+**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
 
 ### Added
 - UI: Added live edge detection for passport captures

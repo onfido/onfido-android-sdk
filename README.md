@@ -138,7 +138,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-When the user has successfully completed the flow, and the captured photos have been uploaded, the `success` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object. Based on the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
+When the user has successfully completed the flow, and the captured photos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object. Based on the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
 
 ## Customising SDK
 
@@ -150,7 +150,6 @@ You can customise the flow of the SDK via the `withCustomFlow(FlowStep[])` metho
 final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
     FlowStep.WELCOME,                       //Welcome step with a step summary, Optional
     FlowStep.CAPTURE_DOCUMENT,              //Document Capture Step
-    FlowStep.MESSAGE_FACE_VERIFICATION,     //Face Capture Intro Step, Optional
     FlowStep.CAPTURE_FACE,                  //Face Capture Step
     FlowStep.FINAL                          //Final Screen Step, Optional
 };
@@ -170,7 +169,6 @@ You can also specify a particular document type and country that the user is all
 final FlowStep[] flowStepsWithOptions = new FlowStep[]{
                 FlowStep.WELCOME,
                 new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, "IND"),
-                FlowStep.MESSAGE_FACE_VERIFICATION,
                 FlowStep.CAPTURE_FACE,
                 FlowStep.FINAL
         };
@@ -182,7 +180,11 @@ This way, the document type and country selection screens will not be visible pr
 In this step the user is presented with a summary of the capture steps he/she is about to pass through.
 
 #### Face Capture Step
-In this step the user can capture a photo of his/her face, by use of the front camera.
+In this step the user can capture either a photo of his/her face, or a live video by using the front camera. In case of choosing the second option,
+the user will be prompted to perform some simple challenges. The photo option can be instantiated with `FlowStep.CAPTURE_FACE` or 
+`new FaceCaptureStep(FaceCaptureVariant.PHOTO)` and the video option with `new FaceCaptureStep(FaceCaptureVariant.VIDEO)`. 
+In case both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
+with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
 
 #### Message Screen Step (Optional)
 This screen can be used to create a customised information step. It can be inserted anywhere in the flow multiple times.
@@ -193,9 +195,6 @@ This is a form of **Message Screen Step**. It should be used at the end of the f
 
 #### Identity Verification Intro Step (Optional)
 This is a form of **Message Screen Step**. It explains to the user the purpose of the identity verification flow.
-
-#### Face Capture Intro Step (Optional)
-This is a form of **Message Screen Step**. It explains to the user the purpose of the face capture step which should follow this one.
 
 ### 2. Theme customisation
 
