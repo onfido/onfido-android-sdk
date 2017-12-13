@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.1.0]
+
+### Added
+- Public: Added `withApplicant(String id)` method to `OnfidoConfig.Builder`, in order to allow users to start a flow with a previously-created `Applicant`.
+- Documentation: Added SDK localisation instructions in the `README.md`.
+
+### Deprecated
+- Public: Deprecated `withApplicant(Applicant applicant)` method on `OnfidoConfig.Builder`, in favor of newly-created `withApplicant(String id)`.
+From now on, applicants should not be created inside the SDK, but using the backend instead. Flow should be started using the applicant's id only.
+
+### Changed
+- Public: Reduced SDK size
+
 ## [2.0.0]
 
 **Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
@@ -15,7 +28,6 @@ is still available and is equivalent to `new FaceCaptureStep(FaceCaptureVariant.
 - UI: Added new video face capture screen as an alternative to photo face capture screen
 - Permissions: We now require the `android.permission.RECORD_AUDIO` permission, in order to capture audio from video Face captures 
 - UI: Added Spanish translation
-
 
 ### Removed
 - Public: Removed `FlowStep.MESSAGE_FACE_VERIFICATION`, which is now automatically added before any face capture with the variant `FaceCaptureVariant.PHOTO`

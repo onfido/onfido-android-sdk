@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `2.0.0` -> `2.1.0`
+
+### Deprecations
+- Deprecated `withApplicant(Applicant applicant)` method. We now recommend that you create an Onfido applicant yourself on your backend and 
+the `withApplicant(String id)` method should be called with the id of the created applicant.
+
 ## `1.0.0` -> `2.0.0`
 
 ### Breaking changes

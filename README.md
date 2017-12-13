@@ -72,23 +72,33 @@ final Context context = ...;
 Onfido onfido = OnfidoFactory.create(context).getClient();
 ```
 
-### 4. Creating the SDK configuration
+### 4. Creating an applicant
 
-Create an `OnfidoConfig` using your sandbox mobile SDK token, along with the applicant details:
+You must create an Onfido [applicant](https://documentation.onfido.com/#applicants) before you start the flow.
+
+You must create applicants on your server. For a document or face check, the minimum applicant details required are `first_name` and `last_name`:
+
+```shell
+$ curl https://api.onfido.com/v2/applicants \
+    -H 'Authorization: Token token=YOUR_API_TOKEN' \
+    -d 'first_name=Theresa' \
+    -d 'last_name=May'
+```
+
+The JSON response has an `id` field containing an UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos uploaded by that instance of the SDK will be associated with that applicant.
+
+### 5. Creating the SDK configuration
+
+Create an `OnfidoConfig` using your sandbox mobile SDK token, along with the applicant id:
 
 ```java
-Applicant applicant = Applicant.builder()
-            .withFirstName("John")
-            .withLastName("Smith")
-            .build();
-
 final OnfidoConfig config = OnfidoConfig.builder()
             .withToken("YOUR_MOBILE_TOKEN")
-            .withApplicant(applicant)
+            .withApplicant("YOUR_APPLICANT_ID")
             .build();
 ```
 
-### 5. Starting the flow
+### 6. Starting the flow
 
 ```java
 // start the flow. 1 should be your request code (customise as needed)
@@ -138,7 +148,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-When the user has successfully completed the flow, and the captured photos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object. Based on the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
+When the user has successfully completed the flow, and the captured photos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object, or will be `null` in case an `applicantId` was used to initialize the flow through `withApplicant(String id)`. 
+With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
 
 ## Customising SDK
 
@@ -156,7 +167,7 @@ final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
 
 final OnfidoConfig config = OnfidoConfig.builder()
     .withCustomFlow(defaultStepsWithWelcomeScreen)
-    .withApplicant(applicant)
+    .withApplicant(applicantId)
     .build();
 ```
 
@@ -239,6 +250,14 @@ android {
 ```
 More information on the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits)
 
+### 4. Localisation
+
+Onfido Android SDK already comes with out-of-the-box translations for the following locales:
+- English (en) :uk:
+- Spanish (es) :es:
+
+In case you would like us to add translations for some other locales we don't provide yet, please contact us through [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+
 ## Creating checks
 
 As the SDK is only responsible for capturing and uploading photos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
@@ -251,7 +270,7 @@ Refer to the [Authentication](https://documentation.onfido.com/#authentication) 
 
 ### 2. Creating a check
 
-You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id available from the SDK [callbacks](#handling-callbacks). If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verify a document and a face photo, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity).
+You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verify a document and a face photo, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity).
 
 ```shell
 $ curl https://api.onfido.com/v2/applicants/YOUR_APPLICANT_ID/checks \
