@@ -16,14 +16,14 @@
 
 ## Overview
 
-This SDK provides a drop-in set of screens and tools for Android applications to allow capturing of identity documents and face photos for the purpose of identity verification. The SDK offers a number of benefits to help you create the best onboarding / identity verification experience for your customers:
+This SDK provides a drop-in set of screens and tools for Android applications to allow capturing of identity documents and face photos/live videos for the purpose of identity verification. The SDK offers a number of benefits to help you create the best onboarding/identity verification experience for your customers:
 
-- Carefully designed UI to guide your customers through the entire photo-capturing process
-- Modular design to help you seamlessly integrate the photo-capturing process into your application flow
+- Carefully designed UI to guide your customers through the entire photo/video-capturing process
+- Modular design to help you seamlessly integrate the photo/video-capturing process into your application flow
 - Advanced image quality detection technology to ensure the quality of the captured images meets the requirement of the Onfido identity verification process, guaranteeing the best success rate
 - Direct image upload to the Onfido service, to simplify integration\*
 
-\* Note: the SDK is only responsible for capturing and uploading photos. You still need to access the [Onfido API](https://documentation.onfido.com/) to create and manage checks.
+\* Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to create and manage checks.
 
 ![Various views from the SDK](screenshots.png "")
 
@@ -85,7 +85,7 @@ $ curl https://api.onfido.com/v2/applicants \
     -d 'last_name=May'
 ```
 
-The JSON response has an `id` field containing an UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos uploaded by that instance of the SDK will be associated with that applicant.
+The JSON response has an `id` field containing an UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos/videos uploaded by that instance of the SDK will be associated with that applicant.
 
 ### 5. Creating the SDK configuration
 
@@ -148,7 +148,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-When the user has successfully completed the flow, and the captured photos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object, or will be `null` in case an `applicantId` was used to initialize the flow through `withApplicant(String id)`. 
+When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object, or will be `null` in case an `applicantId` was used to initialize the flow through `withApplicant(String id)`. 
 With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
 
 ## Customising SDK
@@ -260,7 +260,7 @@ In case you would like us to add translations for some other locales we don't pr
 
 ## Creating checks
 
-As the SDK is only responsible for capturing and uploading photos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
+As the SDK is only responsible for capturing and uploading photos/videos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
 
 ### 1. Obtaining an API token
 
@@ -270,14 +270,15 @@ Refer to the [Authentication](https://documentation.onfido.com/#authentication) 
 
 ### 2. Creating a check
 
-You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verify a document and a face photo, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity).
+You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity) with the corresponding variants: `standard` for the photo option and `video` for the video option.
 
 ```shell
 $ curl https://api.onfido.com/v2/applicants/YOUR_APPLICANT_ID/checks \
     -H 'Authorization: Token token=YOUR_API_TOKEN' \
     -d 'type=express' \
     -d 'reports[][name]=document' \
-    -d 'reports[][name]=facial_similarity'
+    -d 'reports[][name]=facial_similarity' \
+    -d 'reports[][variant]=standard'
 ```
 
 Note: you can also submit the POST request in JSON format.

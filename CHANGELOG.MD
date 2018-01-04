@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.2.0]
+
+### Changed
+- Internal: Recorded face videos are now erased from device after the flow ends.
+- UI: Replaced every FAB on the UI with a flat button.
+- UI: Changed face capture intro screen (copy) and introduced icons instead of the previous arrows.
+
+### Fixed
+- UI: Fixed bug causing overlapping screens when using 26+ support library versions
+
 ## [2.1.0]
 
 ### Added
@@ -26,7 +36,7 @@ From now on, applicants should not be created inside the SDK, but using the back
 with a variant of either `FaceCaptureVariant.PHOTO` or `FaceCaptureVariant.VIDEO`. Currently, the previous `FlowStep.CAPTURE_FACE`
 is still available and is equivalent to `new FaceCaptureStep(FaceCaptureVariant.PHOTO)`
 - UI: Added new video face capture screen as an alternative to photo face capture screen
-- Permissions: We now require the `android.permission.RECORD_AUDIO` permission, in order to capture audio from video Face captures 
+- Permissions: We now require the `android.permission.RECORD_AUDIO` permission, in order to capture audio from video Face captures
 - UI: Added Spanish translation
 
 ### Removed
@@ -41,7 +51,7 @@ is still available and is equivalent to `new FaceCaptureStep(FaceCaptureVariant.
 
 ### Added
 - UI: Added live edge detection for passport captures
-- UI: Added residence permit card as an identity verification method 
+- UI: Added residence permit card as an identity verification method
 
 ### Changed
 - UI: Glare detection changed from post-capture dialog warning to real-time feedback via a bubble notification
