@@ -211,15 +211,15 @@ This is a form of **Message Screen Step**. It explains to the user the purpose o
 
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own `colors.xml` file:
 
-`colorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
+`onfidoColorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
 
-`colorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
+`onfidoColorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
 
-`textColorPrimary`: Defines the color of the title on the `Toolbar`
+`onfidoTextColorPrimary`: Defines the color of the title on the `Toolbar`
 
-`textColorSecondary`: Defines the color of the subtitle on the `Toolbar` 
+`onfidoTextColorSecondary`: Defines the color of the subtitle on the `Toolbar` 
 
-`colorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
+`onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
 
 ### 3. Multi-APK split

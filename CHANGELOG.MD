@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.3.0]
+
+### Added
+- UI: Added country suggestion and search feature on the country selection screen.
+- Public: Added ability to change `onfido` colors without having to change the host app default color values.
+
+## Changed
+- UI: Improved validation errors copy for document and face uploads.
+
+### Removed
+- Internal: Removed Play Services Vision dependency
+- UI: Removed country availability text on document selection screen.
+
 ## [2.2.0]
 
 ### Changed
