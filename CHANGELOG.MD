@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [2.4.0]
+
+### Added
+- UI: Added auto-capture feature for passport
+- UI: Added loader on country suggestion (in case of slow network)
+- UI: Added French language support
+- Internal: Added new translations mechanism
+
+### Fixed
+- Internal: Fixed bug on choosing the video recording resolution
+- Internal: Fixed crash when sending the SDK to background with the `Don't keep activities` option enabled
+
+### Removed
+- UI: Removed the open mouth challenge from the set of available video capture challenges
+
 ## [2.3.0]
 
 ### Added

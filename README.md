@@ -255,6 +255,7 @@ More information on the [Android documentation](http://tools.android.com/tech-do
 Onfido Android SDK already comes with out-of-the-box translations for the following locales:
 - English (en) :uk:
 - Spanish (es) :es:
+- French  (fr) :fr:
 
 In case you would like us to add translations for some other locales we don't provide yet, please contact us through [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
