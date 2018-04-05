@@ -11,6 +11,7 @@
 * [Customising SDK](#customising-sdk)
 * [Creating checks](#creating-checks)
 * [Going live](#going-live)
+* [Cross platform frameworks](#cross-platform-frameworks)
 * [Migrating](#migrating)
 * [More information](#more-information)
 
@@ -51,7 +52,7 @@ dependencies {
 }
 ```
 
-Note:
+Notes:
 
 Until this package gets approved to be included in JCenter, the following snippet must be used to instruct gradle to search for it on Bintray:
 
@@ -60,6 +61,18 @@ repositories {
   maven {
     url  "https://dl.bintray.com/onfido/maven"
   }
+}
+```
+
+**Warning:** In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
+According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running 
+Android API 20+.
+In case you need to support devices older than that in your integration with the Onfido Android SDK, we need to access Google Play Services to install the latest security updates, which enable this support.
+As such, if you don't use Google Play Services on your integration yet, we require you to add the following dependency:
+
+```gradle
+compile ('com.google.android.gms:play-services-base:x.y.z') {
+           exclude group: 'com.android.support' // to avoid conflicts with your current support library
 }
 ```
 
@@ -116,6 +129,9 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         
         @Override
         public void userExited(ExitCode exitCode, Applicant applicant) {}
+        
+        @Override
+        public void onError(OnfidoException exception, Applicant applicant) {}
     });
 }
 ```
@@ -143,6 +159,11 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         @Override
         public void userExited(ExitCode exitCode, Applicant applicant) {
             //User left the sdk flow without completing it
+        }
+        
+        @Override
+        public void onError(OnfidoException exception, Applicant applicant) {
+            // An exception occurred during the flow
         }
     });
 }
@@ -300,6 +321,16 @@ A few things to check before you go live:
 
 - Make sure you have set up webhooks to receive live events
 - Make sure you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/)
+
+## Cross platform frameworks
+
+We provide integration guides and sample applications to help customers integrate the Onfido Android SDK with applications built using the following cross-platform frameworks:
+
+- [Xamarin](https://github.com/onfido/onfido-xamarin-sample-app)
+- [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
+
+We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks. 
+Any issue or question about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Migrating
 

@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2018-04-05
+
+**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Added
+- UI: Added post capture blur detection for every document type
+- UI: Added zoom & pan feature for document and face on confirmation screen
+- Public: Added cross platform frameworks section in [README.md](README.md)
+- Public: Added support for Singaporean residence permits as identity documents
+- Public: Added `onError(OnfidoException exception, Applicant applicant)` callback on the `Onfido` interface,
+used to track flow completion
+
+### Changed
+- UI: Changed confirmation screen layout and buttons
+- UI: Refactored colours across UI elements on the whole flow.
+- Internal: Upgraded API client to make use of enhanced document detection feature on backend
+- Internal: Restricted support for TLS 1.2 only on every network call, improving communication security
+
+### Fixed
+- Internal: Fixed crash on returning from the capture screen to the country list and to the document selection right after
+- Internal: Fixed crash occasionally happening when closing the camera view (https://github.com/onfido/onfido-android-sdk/issues/12)
+- Internal: Fixed crash when requesting focus repeatedly on capture screen
+- Internal: Fixed crash occasionally happening when opening the camera view (https://github.com/onfido/onfido-android-sdk/issues/10)
+- Internal: Fixed crash occasionally happening when starting the camera preview (https://github.com/onfido/onfido-android-sdk/issues/11)
+- Internal: Fixed crash occasionally happening when the host app background process is killed while the SDK was running (https://github.com/onfido/onfido-android-sdk/issues/9)
+
 ## [2.4.0]
 
 ### Added
@@ -163,6 +189,18 @@ which information they want to show on the screen.
 
 ### Removed
 - Internal: Glide was removed as a dependency. This reduced the method count to a value lower than on 0.6.0 (if code was run through Proguard).
+
+## [0.7.0-rc.3] - 2018-03-28
+
+### Fixed
+- Public: Fixed a bug on the confirmation screen where button layout would break when font size was set to the highest size
+- Public: Fixed a bug which caused the capture and confirmation screens camera view aspect ratio to be different
+- Public: Fixed a bug happening when an upload error had no hash to be parsed
+
+## [0.7.0-rc.2] - 2018-02-16
+
+### Removed
+- Internal: Removed play services dependency (with respect to 0.7.0-rc.1)
 
 ## [0.7.0-rc.1]
 

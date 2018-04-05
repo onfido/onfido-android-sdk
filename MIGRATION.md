@@ -1,5 +1,21 @@
 # Onfido Android SDK Migration Guide
 
+## `2.4.0` -> `3.0.0`
+- Added `onError(OnfidoException exception, Applicant applicant)` method on the `Onfido` object, 
+used to get the result of the identity verification flow. This callback will be called whenever an exception that the end-user 
+should not be able to overcome by itself occurs during the flow.
+The new method should be implemented and the exception handled accordingly.
+
+- Upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only. According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running 
+Android API 20+. In case you need to support devices older than that in your integration with the Onfido Android SDK, we need to access Google Play Services to install the latest security updates, which enable this support.
+  As such, if you don't use Google Play Services on your integration yet, we require you to add the following dependency:
+  
+  ```gradle
+  compile ('com.google.android.gms:play-services-base:x.y.z') {
+             exclude group: 'com.android.support' // to avoid conflicts with your current support library
+  }
+  ```
+
 ## `2.0.0` -> `2.1.0`
 
 ### Deprecations
