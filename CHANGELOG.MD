@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [4.0.0] - 2018-04-23
+
+**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Changed
+- Public: Updated dependencies to the following:
+  - `compileSdkVersion = 27`
+  - `targetSdkVersion = 27`
+  - `Android Support Library = 27.1.0`
+  
+### Fixed
+- Public: Fixed crash happening when a corrupted flow result `Intent` is passed to the `handleActivityResult()` method on an `Onfido` instance.
+- Internal: Fixed bug hiding the flow toolbar title when the SDK process was recreated after being killed by the system
+
 ## [3.0.0] - 2018-04-05
 
 **Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)

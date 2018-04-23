@@ -30,7 +30,15 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 ## Getting started
 
-The SDK supports API level 16 and above ([distribution stats](https://developer.android.com/about/dashboards/index.html))
+The SDK supports API level 16 and above ([distribution stats](https://developer.android.com/about/dashboards/index.html)).
+
+Our configuration is currently set to the following:
+
+- `minSdkVersion = 16`
+- `compileSdkVersion = 27`
+- `targetSdkVersion = 27`
+- `Android Support Library = 27.1.0`
+- `Kotlin = 1.1+`
 
 ### 1. Obtaining tokens
 
@@ -65,7 +73,7 @@ repositories {
 ```
 
 **Warning:** In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
-According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running 
+According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running
 Android API 20+.
 In case you need to support devices older than that in your integration with the Onfido Android SDK, we need to access Google Play Services to install the latest security updates, which enable this support.
 As such, if you don't use Google Play Services on your integration yet, we require you to add the following dependency:
@@ -126,12 +134,12 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         public void userCompleted(Applicant applicant, Captures captures) {
             Toast.makeText(getActivity(), "Flow successfully completed", Toast.LENGTH_LONG).show();
         }
-        
+
         @Override
         public void userExited(ExitCode exitCode, Applicant applicant) {}
-        
+
         @Override
-        public void onError(OnfidoException exception, Applicant applicant) {}
+        public void onError(OnfidoException exception, @Nullable Applicant applicant) {}
     });
 }
 ```
@@ -160,16 +168,16 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         public void userExited(ExitCode exitCode, Applicant applicant) {
             //User left the sdk flow without completing it
         }
-        
+
         @Override
-        public void onError(OnfidoException exception, Applicant applicant) {
+        public void onError(OnfidoException exception, @Nullable Applicant applicant) {
             // An exception occurred during the flow
         }
     });
 }
 ```
 
-When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object, or will be `null` in case an `applicantId` was used to initialize the flow through `withApplicant(String id)`. 
+When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object, or will be `null` in case an `applicantId` was used to initialize the flow through `withApplicant(String id)`.
 With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
 
 ## Customising SDK
@@ -205,7 +213,7 @@ final FlowStep[] flowStepsWithOptions = new FlowStep[]{
                 FlowStep.FINAL
         };
 ```
-      
+
 This way, the document type and country selection screens will not be visible prior to capturing the document.
 
 #### Welcome Step
@@ -213,8 +221,8 @@ In this step the user is presented with a summary of the capture steps he/she is
 
 #### Face Capture Step
 In this step the user can capture either a photo of his/her face, or a live video by using the front camera. In case of choosing the second option,
-the user will be prompted to perform some simple challenges. The photo option can be instantiated with `FlowStep.CAPTURE_FACE` or 
-`new FaceCaptureStep(FaceCaptureVariant.PHOTO)` and the video option with `new FaceCaptureStep(FaceCaptureVariant.VIDEO)`. 
+the user will be prompted to perform some simple challenges. The photo option can be instantiated with `FlowStep.CAPTURE_FACE` or
+`new FaceCaptureStep(FaceCaptureVariant.PHOTO)` and the video option with `new FaceCaptureStep(FaceCaptureVariant.VIDEO)`.
 In case both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
 with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
 
@@ -238,7 +246,7 @@ In order to enhance the user experience on the transition between your applicati
 
 `onfidoTextColorPrimary`: Defines the color of the title on the `Toolbar`
 
-`onfidoTextColorSecondary`: Defines the color of the subtitle on the `Toolbar` 
+`onfidoTextColorSecondary`: Defines the color of the subtitle on the `Toolbar`
 
 `onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
@@ -253,12 +261,12 @@ for each of the CPU architectures (known as "ABIs") present on the Android envir
 * `x86`: Most tablets and emulators
 * `x86_64`: Used by 64-bit tablets
 
-The SDK binary contains a copy of the native `.so` file for each of these four platforms. 
+The SDK binary contains a copy of the native `.so` file for each of these four platforms.
 You can considerably reduce the size of your `.apk` by applying APK split by ABI, editing your `build.gradle` as the following:
 
 ```gradle
 android {
-  
+
   splits {
     abi {
         enable true
@@ -316,7 +324,7 @@ Refer to the [Webhooks](https://documentation.onfido.com/#webhooks) section in t
 ## Going live
 
 Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile SDK token. We will have to replace the sandbox tokens in your code with the live tokens.
- 
+
 A few things to check before you go live:
 
 - Make sure you have set up webhooks to receive live events
@@ -329,7 +337,7 @@ We provide integration guides and sample applications to help customers integrat
 - [Xamarin](https://github.com/onfido/onfido-xamarin-sample-app)
 - [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
 
-We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks. 
+We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
 Any issue or question about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Migrating
@@ -340,4 +348,12 @@ You can find the migration guide in [MIGRATION.md](MIGRATION.md) file.
 
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
 
-Copyright 2017 Onfido, Ltd. All rights reserved.
+### Support
+
+Please open an issue through [GitHub](https://github.com/onfido/onfido-android-sdk/issues). Please be as detailed as you can. Remember **not** to submit your token in the issue. Also check the closed issues to check whether it has been previously raised and answered.
+
+If you have any issues that contain sensitive information please send us an email with the ISSUE: at the start of the subject to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+
+Previous version of the SDK will be supported for a month after a new major version release. Note that when the support period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further notice).
+
+Copyright 2018 Onfido, Ltd. All rights reserved.

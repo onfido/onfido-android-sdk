@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `3.0.0` -> `4.0.0`
+- Changed the `Applicant` parameter on the `userCompleted(Applicant applicant, Captures captures)` callback to be a non-nullable field,
+meaning that we guarantee this field will always contain information about the applicant whenever this callback is called. Any null check being applied may now be deleted.
+- Changed the `Applicant` parameter on the `onError(OnfidoException exception, @Nullable Applicant applicant)` callback to be a nullable value,
+meaning that depending on the error originating the callback, the applicant details might be `null`. Therefore, developers should add the correspondent null check before accessing its information.
+
 ## `2.4.0` -> `3.0.0`
 - Added `onError(OnfidoException exception, Applicant applicant)` method on the `Onfido` object, 
 used to get the result of the identity verification flow. This callback will be called whenever an exception that the end-user 
