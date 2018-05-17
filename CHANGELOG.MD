@@ -4,8 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [4.0.0] - 2018-04-23
+**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.1.0] - 2018-05-17
+
+### Added
+- Public: Added post capture barcode detection for United States driving license captures
+- Public: Added `strings.xml` as a public file, in order to enable custom localisation. More information can be found in our [README.md](README.md#4-localisation)
+- Public: Added out-of-the-box Portuguese (`pt`) translation
+
+### Changed
+- Internal: Added `onfido` prefix and lint rule for every resource
+
+### Fixed
+- Public: Fixed a crash happening when the first camera frame was being processed before the camera screen UI was drawn.
+- Public: Fixed a bug happening when the first flow step is a capture step and the back button is pressed, causing the user to exit the flow.
+
+## [4.0.0] - 2018-04-23
 **Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
 
 ### Changed

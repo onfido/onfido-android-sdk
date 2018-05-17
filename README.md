@@ -1,6 +1,6 @@
 # Onfido Android SDK
 
-[![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg) ](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
+[![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg)](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
 [![Build Status](https://www.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)](https://www.bitrise.io/app/0d3fe90349e46fbe)
 
 ## Table of contents
@@ -285,8 +285,13 @@ Onfido Android SDK already comes with out-of-the-box translations for the follow
 - English (en) :uk:
 - Spanish (es) :es:
 - French  (fr) :fr:
+- Portuguese (pt) 🇵🇹
 
 In case you would like us to add translations for some other locales we don't provide yet, please contact us through [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+
+You could also provide custom translations for locales that we don't currently support, by having an additional XML strings file inside your resources folder for the desired locale (e.g. `res/values-it/onfido_strings.xml` for :it: translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
+
+**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a locale translated you can also get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Creating checks
 
