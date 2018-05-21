@@ -1,0 +1,53 @@
+
+
+						ONFIDO ANDROID SDK LICENCE 
+
+1. INTERPRETATION
+
+1.1	The definitions and rules of interpretation in this paragraph apply in this licence. 
+
+Licensee: any natural or legal person downloading the Software from this repository.
+
+Maintenance Release: a release of the Software that corrects faults, adds functionality or otherwise amends or upgrades the Software.
+
+Software: The Onfido Android SDK which provides a drop-in set of screens and tools for Android applications to take document and face captures and initialise identity verification checks.
+
+Source Code Materials: the source code of the Software, and all technical information and documentation required from Onfido to enable the Licensee to integrate the Software into the App.
+
+Territory: Worldwide.
+
+2.	LICENCE
+
+2.1	Onfido grants to the Licensee a limited scope, non-exclusive, non-transferable, irrevocable licence to use the Software in the Territory, provided that:
+
+2.2.1	use of the Software will be restricted to use of the Software in object code form for the purpose of testing its document and facial recognition features and potential compatibility with an App;
+
+2.2.2	the Licensee may not use the Software other than as specified in paragraph 2.2.1 without the prior written consent of Onfido;
+
+2.2.2	the Licensee will not make backup copies of the Software; 
+
+2.2.3	the Licensee has no right (and will not permit any third party) to copy, adapt, reverse engineer, decompile, disassemble, modify, adapt or make error corrections to the Software in whole or in part except for any part that is under a license that so permits;
+
+2.3     	The Licensee will not use any information in relation to the integration or use of the Software to create any software whose expression is the same as or substantially similar to that of the Software nor use such information in any manner which would be restricted by any copyright subsisting in it;
+
+2.4     The Licensee will not: (1) sub-license, assign or novate the benefit or burden of this licence in whole or in part; (2) allow the Software to become the subject of any charge, lien or encumbrance; or (3) deal in any other manner with any or all of its rights and obligations under this Agreement, without the prior written consent of Onfido;
+
+2.5     The Licensee will notify Onfido in writing as soon as it becomes aware of any, or suspects any unauthorized use of the Software by any person;
+
+4.	MAINTENANCE
+
+4.1	Onfido will not directly provide the Licensee with any Maintenance Releases generally made available to its Clients. Maintenance releases may be made available in the repository. 
+
+5.	USE OF THE SOFTWARE
+
+5.1	The Licensee will only use the Software for the permitted purposes under this Licence. 
+
+5.2	Onfido does not: (1) provide any warranties in relation to the performance of any third party software and will not be liable in the case of a fault caused in relation to the Software that arises from any other third party software, or any actions of the Licensee or a third party; (2) warrant that the use of the Software will be uninterrupted or error-free.
+
+5.3	In the event of detection of a fault or defect, the Licensee can provide information that may be necessary to assist Onfido in resolving such fault or defect, including a documented example of any fault or defect, or sufficient information to enable Onfido to re-create the fault or defect.
+
+6.	INTELLECTUAL PROPERTY RIGHTS
+The Licensee acknowledges that all Intellectual Property Rights in the Source Code Materials, the Software and any Maintenance Releases belong and will belong to Onfido, and the Licensee will have no rights in or to the Software other than the right to use it in accordance with the terms of this licence.
+
+7.	DURATION AND TERMINATION
+This Licence will terminate on termination of the Order Form or in accordance with the terms of the Agreement, upon which (1) all rights granted to the Licensee under this licence will cease; (2) the Licensee will immediately pay to Onfido any sums due to Onfido under this licence (if any); and (3) the Licensee will immediately destroy or return to Onfido (at Onfido's option) all copies of the Software and related documents then in its possession, custody or control and, in the case of destruction, certify to Onfido that it has done so.
