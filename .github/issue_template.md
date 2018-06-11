@@ -16,6 +16,8 @@
 
 #### Onfido Flow initialization code:
 
+#### Issue severity information (number of users/crashes if applicable):
+
 #### Additional LogCat output:
 
 #### Other useful info:
