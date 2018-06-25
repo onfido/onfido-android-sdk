@@ -48,7 +48,7 @@ In order to start integration, you will need the **API token** and the **mobile 
 
 ### 2. Adding the SDK dependency
 
-Starting on version [INSERT-CORE-RELEASE-VERSION], we now offer a modularised SDK, which means you can integrate it in two different ways:
+Starting on version `4.2.0`, we now offer a modularised SDK, which means you can integrate it in two different ways:
 
 ```gradle
 repositories {
