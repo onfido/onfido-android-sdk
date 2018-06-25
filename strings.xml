@@ -57,6 +57,8 @@
     <string name="onfido_message_side_document_back_national_id">Back of card</string>
     <string name="onfido_no_document">No document found</string>
     <string name="onfido_no_face">No face found</string>
+    <string name="onfido_multiple_faces">Multiple faces found</string>
+    <string name="onfido_message_validation_error_multiple_faces">Only your face can be in the selfie</string>
     <string name="onfido_message_validation_error_face">Make sure your face is fully visible</string>
     <string name="onfido_message_validation_error_document">Make sure all the document is in the photo</string>
     <string name="onfido_message_capture_error_face">Face capture didn\'t work. Please try again.</string>
@@ -119,6 +121,8 @@
     <string name="onfido_video_recorded">Your video has been recorded</string>
     <string name="onfido_submit_video">Submit video</string>
     <string name="onfido_liveness_video_not_found">Your video can\'t be found on your device. Please retake it.</string>
+    <string name="onfido_liveness_storage_threshold_title">Your device is full</string>
+    <string name="onfido_liveness_storage_threshold_message">Free some storage space and record your video again</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_suggested_country">Suggested country</string>

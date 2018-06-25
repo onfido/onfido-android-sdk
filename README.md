@@ -48,7 +48,7 @@ In order to start integration, you will need the **API token** and the **mobile 
 
 ### 2. Adding the SDK dependency
 
-Alternatively, use Gradle:
+Starting on version [INSERT-CORE-RELEASE-VERSION], we now offer a modularised SDK, which means you can integrate it in two different ways:
 
 ```gradle
 repositories {
@@ -56,13 +56,69 @@ repositories {
 }
 
 dependencies {
-  compile 'com.onfido.sdk.capture:onfido-capture-sdk:+'
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:+'
+  // OR
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk-core:+'
 }
 ```
 
+#### 2.1 `onfido-capture-sdk`
+Complete, input quality-focused solution suited for better captures and faster IDV flows. This is the **recommended** integrated option.
+This version provides advanced on-device, real-time glare and blur detection as well as auto-capture (passport only) on top of a set of basic image validations.
+
+Due to the advanced validation support stated above, in the form of C++ code, we recommend that the integrator app performs [multi-APK split](#211-multi-apk-split)
+to optimise the app size for individual architectures.
+
+##### 2.1.1 Multi-APK split
+
+C++ code needs to be compiled for each of the CPU architectures (known as "ABIs") present on the Android environment. Currently, the SDK supports the following ABIs:
+
+* `armeabi-v7a`: Version 7 or higher of the ARM processor. Most recent Android phones use this
+* `arm64-v8a`: 64-bit ARM processors. Found on new generation devices
+* `x86`: Most tablets and emulators
+* `x86_64`: Used by 64-bit tablets
+
+The SDK binary contains a copy of the native `.so` file for each of these four platforms.
+You can considerably reduce the size of your `.apk` by applying APK split by ABI, editing your `build.gradle` as the following:
+
+```gradle
+android {
+
+  splits {
+    abi {
+        enable true
+        reset()
+        include 'x86', 'x86_64', 'arm64-v8a', 'armeabi-v7a'
+        universalApk false
+    }
+  }
+}
+```
+More information on the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits)
+
+Average size (with Proguard enabled):
+
+| ABI         |  Size   |
+| ----------- | :-----: |
+| armeabi-v7a | 6 Mb    |
+| arm64-v8a   | 6.8 Mb  |
+| x86         | 14.3 Mb |
+| x86_64      | 15.9 Mb |
+
+
+#### 2.2 `onfido-capture-sdk-core`
+Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
+Since there are no real-time validations on-device, ABI split is not needed.
+
+Average size (with Proguard enabled):
+
+| ABI         |  Size   |
+| ----------- | :-----: |
+| universal   | 3.6 Mb  |
+
 Notes:
 
-Until this package gets approved to be included in JCenter, the following snippet must be used to instruct gradle to search for it on Bintray:
+Until these packages get approved to be included in JCenter, the following snippet must be used to instruct gradle to search for them on Bintray:
 
 ```gradle
 repositories {
@@ -126,22 +182,6 @@ final OnfidoConfig config = OnfidoConfig.builder()
 onfido.startActivityForResult(this,         /*must be an activity*/
                               1,            /*this request code will be important for you on onActivityResult() to identity the onfido callback*/
                               config);
-
-@Override
-protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-    onfido.handleActivityResult(resultCode, data, new Onfido.OnfidoResultListener() {
-        @Override
-        public void userCompleted(Applicant applicant, Captures captures) {
-            Toast.makeText(getActivity(), "Flow successfully completed", Toast.LENGTH_LONG).show();
-        }
-
-        @Override
-        public void userExited(ExitCode exitCode, Applicant applicant) {}
-
-        @Override
-        public void onError(OnfidoException exception, @Nullable Applicant applicant) {}
-    });
-}
 ```
 
 Congratulations! You have successfully started the flow. Carry on reading the next sections to learn how to:
@@ -250,34 +290,6 @@ In order to enhance the user experience on the transition between your applicati
 
 `onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
-
-### 3. Multi-APK split
-
-Onfido Android SDK is written mostly in Java and Kotlin, but also relies on some C++ code to evaluate the quality of the document and face captures. C++ code needs to be compiled
-for each of the CPU architectures (known as "ABIs") present on the Android environment. Currently, the SDK supports the following ABIs:
-
-* `armeabi-v7a`: Version 7 or higher of the ARM processor. Most recent Android phones use this
-* `arm64-v8a`: 64-bit ARM processors. Found on new generation devices
-* `x86`: Most tablets and emulators
-* `x86_64`: Used by 64-bit tablets
-
-The SDK binary contains a copy of the native `.so` file for each of these four platforms.
-You can considerably reduce the size of your `.apk` by applying APK split by ABI, editing your `build.gradle` as the following:
-
-```gradle
-android {
-
-  splits {
-    abi {
-        enable true
-        reset()
-        include 'x86', 'x86_64', 'arm64-v8a', 'armeabi-v7a'
-        universalApk false
-    }
-  }
-}
-```
-More information on the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits)
 
 ### 4. Localisation
 

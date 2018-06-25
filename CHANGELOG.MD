@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.2.0] - 2018-06-25
+
+### Added:
+- Public: Added error state for multiple faces detected during a face capture step
+- Public: Added a storage space monitoring strategy during liveness video recording
+- UI: Added the Onfido logo on the bottom of every bulleted message screen
+- Internal: Added tracking for the unreadable barcode warning
+
+### Changed:
+- UI: Changed post upload validation errors UI to appear as an overlay bubble instead of a system dialog
+
+### Removed
+- Public: Removed the need for the `WRITE_EXTERNAL_STORAGE` permission, by writing liveness recording videos to the internal storage
+
+### Fixed
+- Public: Fixed bug which caused an unexpected behaviour when pressing back during a preselected document as first flow step
+- Public: Fixed bug causing a crash when an unexpected error body is returned from the API
+- UI: Fixed bug during autocapture causing the information bottom sheet to enter an inconsistent state whenever the app was sent to background after the manual fallback threshold was triggered
+
 ## [4.1.0] - 2018-05-17
 
 ### Added
@@ -15,6 +34,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Internal: Added `onfido` prefix and lint rule for every resource
+- UI: Changed glare bubble layout to comply with the new post capture validation bubble
 
 ### Fixed
 - Public: Fixed a crash happening when the first camera frame was being processed before the camera screen UI was drawn.
