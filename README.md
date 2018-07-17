@@ -353,8 +353,8 @@ A few things to check before you go live:
 
 We provide integration guides and sample applications to help customers integrate the Onfido Android SDK with applications built using the following cross-platform frameworks:
 
-- [Xamarin](https://github.com/onfido/onfido-xamarin-sample-app)
-- [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
+- Xamarin - [sample app](https://github.com/onfido/onfido-xamarin-sample-app)
+- React Native - [sample app](https://github.com/onfido/onfido-sdk-react-native-sample-app) / [documentation](/documentation/ReactNative.md)
 
 We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
 Any issue or question about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
