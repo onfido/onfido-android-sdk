@@ -1,4 +1,7 @@
 <resources>
+    <!-- Locale identifier -->
+    <string name="onfido_locale">en</string>
+    
     <!-- General -->
     <string name="onfido_thank_you">Thank you</string>
     <string name="onfido_next">Next</string>

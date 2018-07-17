@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.3.0] - 2018-07-17
+
+### Added:
+- Internal: Added the language displayed by the SDK as a parameter on the live video upload, for speech analysis purposes
+
+### Changed:
+- UI: Moved the camera and microphone permissions request from the flow start to the capture screen
+- Internal: Changed country suggestion to fetch the country code from the SIM country instead of geo IP
+- Internal: Reduced frame size for glare detection, in order to make it more accurate
+
+### Fixed:
+- Public: Fixed a crash happening when the host app forces a support library version below ours `27.1.0`
+- UI: Fixed a bug which allowed users to dismiss the bottom sheet on the country selection screen
+- UI: Fixed a bug of misalignment of video capture instructions happening when a longer than usual custom translation is provided
+- UI: Fixed a bug which caused a crop on the document validation bubble when non-regular font sizes are set
+
 ## [4.2.0] - 2018-06-25
 
 ### Added:

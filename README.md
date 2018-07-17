@@ -100,10 +100,10 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6 Mb    |
-| arm64-v8a   | 6.8 Mb  |
-| x86         | 14.3 Mb |
-| x86_64      | 15.9 Mb |
+| armeabi-v7a | 5.9 Mb  |
+| arm64-v8a   | 6.7 Mb  |
+| x86         | 14.2 Mb |
+| x86_64      | 15.8 Mb |
 
 
 #### 2.2 `onfido-capture-sdk-core`
@@ -114,7 +114,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.6 Mb  |
+| universal   | 3.5 Mb  |
 
 Notes:
 
@@ -303,7 +303,9 @@ In case you would like us to add translations for some other locales we don't pr
 
 You could also provide custom translations for locales that we don't currently support, by having an additional XML strings file inside your resources folder for the desired locale (e.g. `res/values-it/onfido_strings.xml` for :it: translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
 
-**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a locale translated you can also get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+**Notes**:
+- If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a locale translated you can also get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+- When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). In particular, `onfido_locale`, which identifies the current locale being added, must be included. E.g. when adding a translations file inside `values_ru`, the `onfido_locale` key should have `ru` as its value.
 
 ## Creating checks
 
