@@ -3,6 +3,7 @@
 !.gitignore
 !screenshots.png
 !README.md
+!documentation/*.md
 !.github/
 !.github/issue_template.md
 !strings.xml
