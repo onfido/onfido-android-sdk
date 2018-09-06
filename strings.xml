@@ -1,11 +1,12 @@
 <resources>
     <!-- Locale identifier -->
     <string name="onfido_locale">en</string>
-    
+
     <!-- General -->
     <string name="onfido_thank_you">Thank you</string>
     <string name="onfido_next">Next</string>
     <string name="onfido_continue">Continue</string>
+    <string name="onfido_cancel">Cancel</string>
 
     <!-- Loading -->
     <string name="onfido_message_loading">Loading</string>
@@ -83,7 +84,7 @@
     <string name="onfido_glare_detected_subtitle">Try moving away from direct light</string>
 
     <!-- Final Screen -->
-    <string name="onfido_final_screen_subtitle">Continue to submit verification</string>
+    <string name="onfido_submit_verification">Submit verification</string>
 
     <!-- Generic Error -->
     <string name="onfido_error_dialog_title">Connection lost</string>
@@ -111,8 +112,8 @@
     <string name="onfido_liveness_intro_third_subtitle_some_actions">Some will involve speaking out loud</string>
     <string name="onfido_start">Start</string>
     <string name="onfido_liveness_challenge_digits_title">Say each digit out loud</string>
-    <string name="onfido_liveness_challenge_turn_left_title">Look over your left shoulder</string>
-    <string name="onfido_liveness_challenge_turn_right_title">Look over your right shoulder</string>
+    <string name="onfido_liveness_challenge_turn_left_title">Look over your left shoulder and back</string>
+    <string name="onfido_liveness_challenge_turn_right_title">Look over your right shoulder and back</string>
     <string name="onfido_liveness_challenge_open_mouth_title">Open and close your mouth</string>
     <string name="onfido_liveness_challenge_next">When you\'re done, press next</string>
     <string name="onfido_liveness_challenge_stop">When you’re done, press stop</string>
@@ -159,4 +160,46 @@
     <string name="onfido_submit_my_picture">Submit my picture</string>
 
     <string name="onfido_message_document_passport">Passport face page</string>
+
+    <!-- General Permissions -->
+    <string name="onfido_allow_one_instructions">Tap %1$s on the popup that will appear on the next screen</string>
+    <string name="onfido_allow_two_instructions">Tap %1$s on the 2 popups that will appear on the next screens</string>
+    <string name="onfido_allow">Allow</string>
+    <string name="onfido_go_settings">Go to settings</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_allow_camera_access">Allow camera access</string>
+    <string name="onfido_allow_camera_selfie_extended">Enable your camera to take pictures with your mobile</string>
+    <string name="onfido_allow_camera_video_extended">Enable your camera to take a video</string>
+    <string name="onfido_allow_camera_access_selfie_deny_explanation">If you deny camera access, you won’t be able to take pictures and complete the verification process</string>
+    <string name="onfido_allow_camera_access_video_deny_explanation">If you deny camera access, you won’t be able to take a video and complete the verification process</string>
+    <string name="onfido_enable_camera">Enable camera</string>
+
+    <string name="onfido_camera_access_denied">Camera access is denied</string>
+    <string name="onfido_camera_access_selfie_recover">Recover camera access to take pictures and complete the verification process</string>
+    <string name="onfido_camera_access_video_recover">Recover camera access to take a video and complete the verification process</string>
+    <string name="onfido_camera_access_recover_instructions_title">Go to your device settings to recover %1$s camera access</string>
+    <string name="onfido_camera_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the camera</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_allow_mic_access">Allow microphone access</string>
+    <string name="onfido_allow_mic_extended">Enable your microphone to take a video</string>
+    <string name="onfido_allow_mic_access_deny_explanation">If you deny microphone access, you won’t be able to take a video and complete the verification process</string>
+    <string name="onfido_enable_mic">Enable microphone</string>
+
+    <string name="onfido_mic_access_denied">Microphone access is denied</string>
+    <string name="onfido_mic_access_recover">Recover microphone access to take a video and complete the verification process</string>
+    <string name="onfido_mic_access_recover_instructions_title">Go to your device settings to recover %1$s microphone access</string>
+    <string name="onfido_mic_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the microphone</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_allow_camera_mic_access">Allow camera and microphone access</string>
+    <string name="onfido_allow_camera_mic_extended">Enable your camera and microphone to take a video</string>
+    <string name="onfido_allow_camera_mic_access_deny_explanation">If you deny camera and microphone access, you won’t be able to take a video and complete the verification process</string>
+    <string name="onfido_enable_camera_mic">Enable camera and mic</string>
+
+    <string name="onfido_camera_mic_access_denied">Camera permissions are denied</string>
+    <string name="onfido_camera_mic_access_recover">Recover camera and microphone access to take a video and complete the verification process</string>
+    <string name="onfido_camera_mic_access_recover_instructions_title">Go to your device settings to recover %1$s camera and microphone access</string>
+    <string name="onfido_camera_mic_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the camera and microphone</string>
 </resources>

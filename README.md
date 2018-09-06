@@ -1,7 +1,7 @@
 # Onfido Android SDK
 
 [![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg)](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
-[![Build Status](https://app.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)](https://app.bitrise.io/app/0d3fe90349e46fbe)
+![Build Status](https://app.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)
 
 ## Table of contents
 
@@ -13,7 +13,9 @@
 * [Going live](#going-live)
 * [Cross platform frameworks](#cross-platform-frameworks)
 * [Migrating](#migrating)
+* [Get notified about releases](#get-notified-about-releases)
 * [More information](#more-information)
+* [Licensing](#licensing)
 
 ## Overview
 
@@ -100,10 +102,10 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.9 Mb  |
-| arm64-v8a   | 6.7 Mb  |
-| x86         | 14.2 Mb |
-| x86_64      | 15.8 Mb |
+| armeabi-v7a | 6   Mb  |
+| arm64-v8a   | 6.8 Mb  |
+| x86         | 14.3 Mb |
+| x86_64      | 15.9 Mb |
 
 
 #### 2.2 `onfido-capture-sdk-core`
@@ -114,7 +116,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.5 Mb  |
+| universal   | 3.6 Mb  |
 
 Notes:
 
@@ -291,6 +293,13 @@ In order to enhance the user experience on the transition between your applicati
 `onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
 alert dialogs shown during the flow
 
+`onfidoPrimaryButtonColor`: Defines the background color of the primary action buttons (e.g. proceed to the next flow step, confirm picture/video, etc),
+the color of the text on the secondary action buttons (e.g. retake picture/video) and the background color of some icons and markers during the flow
+
+`onfidoPrimaryButtonColorPressed`: Defines the background color of the primary action buttons when pressed
+
+`onfidoPrimaryButtonTextColor`: Defines the color of the text inside the primary action buttons
+
 ### 4. Localisation
 
 Onfido Android SDK already comes with out-of-the-box translations for the following locales:
@@ -353,8 +362,8 @@ A few things to check before you go live:
 
 We provide integration guides and sample applications to help customers integrate the Onfido Android SDK with applications built using the following cross-platform frameworks:
 
-- Xamarin - [sample app](https://github.com/onfido/onfido-xamarin-sample-app)
-- React Native - [sample app](https://github.com/onfido/onfido-sdk-react-native-sample-app) / [documentation](/documentation/ReactNative.md)
+- [Xamarin](https://github.com/onfido/onfido-xamarin-sample-app)
+- [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
 
 We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
 Any issue or question about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
@@ -363,9 +372,20 @@ Any issue or question about the existing integrations should be raised on the co
 
 You can find the migration guide in [MIGRATION.md](MIGRATION.md) file.
 
+## Get notified about releases
+
+In case you want to get notified about our releases, feel free to access our [Bintray page](https://bintray.com/onfido/maven/onfido-capture-sdk) and click the `Watch` button.
+
 ## More information
 
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
+
+## Licensing
+
+Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies as repackaged versions of the original libraries. 
+For those, we include the licensing information inside our `.aar`, namely on the `res/raw/onfido_licenses.json`. 
+This file contains a summary of our bundled dependencies and all the licensing information required, including links to the relevant license texts contained in the same folder.
+Integrators of our library are then responsible for keeping this information along with their integrations.
 
 ### Support
 

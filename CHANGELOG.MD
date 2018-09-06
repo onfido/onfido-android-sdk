@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.4.0]
+
+### Added:
+- Public: Added the ability to customise action buttons and icons colors
+- Public: Added instructions for integrators to get notified about releases
+- UI: Added permission request and recovery screens for camera and microphone permissions
+- Internal: Now bundling Proguard rules with the SDK, removing the need for the host application to specify those rules for themselves
+
+## Changed:
+- UI: Revamped flow final screen
+- UI: Revamped the flat action button according to a new, more accessible design specification
+- Internal: Changed our analytics solution from an external provider to an in-house service
+
+### Fixed:
+- Public: Fixed build time warnings
+
 ## [4.3.0] - 2018-07-17
 
 ### Added:
@@ -64,7 +80,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   - `compileSdkVersion = 27`
   - `targetSdkVersion = 27`
   - `Android Support Library = 27.1.0`
-  
+
 ### Fixed
 - Public: Fixed crash happening when a corrupted flow result `Intent` is passed to the `handleActivityResult()` method on an `Onfido` instance.
 - Internal: Fixed bug hiding the flow toolbar title when the SDK process was recreated after being killed by the system
