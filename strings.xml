@@ -89,6 +89,7 @@
     <!-- Generic Error -->
     <string name="onfido_error_dialog_title">Connection lost</string>
     <string name="onfido_error_connection_message">There was a network error. Please check your connection.</string>
+    <string name="onfido_generic_error_message">Something went wrong. Please try again later.</string>
 
     <!-- Face/Document Confirmation -->
     <string name="onfido_confirm_passport">My passport is readable</string>
@@ -102,7 +103,6 @@
     <string name="onfido_discard_face_short">Take new</string>
 
     <!-- Liveness -->
-    <string name="onfido_liveness_preparation_subtitle">Press the record button and follow the instructions</string>
     <string name="onfido_liveness_intro_title">Let\'s make sure nobody\'s impersonating you</string>
     <string name="onfido_liveness_intro_subtitle_1_action">We\'ll ask you to film yourself performing one simple action</string>
     <string name="onfido_liveness_intro_subtitle_2_actions">We\'ll ask you to film yourself performing two simple actions</string>
@@ -127,6 +127,12 @@
     <string name="onfido_liveness_video_not_found">Your video can\'t be found on your device. Please retake it.</string>
     <string name="onfido_liveness_storage_threshold_title">Your device is full</string>
     <string name="onfido_liveness_storage_threshold_message">Free some storage space and record your video again</string>
+    <string name="onfido_check_selfie_video">Check selfie video</string>
+    <string name="onfido_turn_sound_on">Turn sound on</string>
+    <string name="onfido_start_recording">Start recording</string>
+    <string name="onfido_finish_recording">Finish recording</string>
+    <string name="onfido_next_step">Next step</string>
+    <string name="onfido_liveness_media_player_error">There was an error with your video. Please retake it</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_suggested_country">Suggested country</string>
@@ -142,16 +148,6 @@
     <!-- Blur Detection -->
     <string name="onfido_blur_detection_title">Picture is not clear</string>
     <string name="onfido_blur_detection_subtitle">Make sure there is no blur or glare</string>
-
-    <!-- Privacy Policy -->
-    <string name="onfido_privacy_policy_title">You\'re about to take a photo of your identity document</string>
-    <string name="onfido_privacy_policy_position_doc">Position your document in the frame</string>
-    <string name="onfido_privacy_policy_avoid_light">Avoid light reflections</string>
-    <string name="onfido_privacy_policy_auto_capture">The photo will be taken automatically</string>
-    <string name="onfido_privacy_policy_terms_extended">By continuing, you agree to the %1$s and understand that your information, including your facial identifiers, will be processed in accordance with the %2$s</string>
-    <string name="onfido_terms_of_use">Onfido Terms of Use</string>
-    <string name="onfido_privacy_policy">Onfido Privacy Policy</string>
-    <string name="onfido_decline">Decline</string>
 
     <!-- US DL Barcode Detector -->
     <string name="onfido_barcode_error_title">Barcode must be clear</string>
@@ -202,4 +198,6 @@
     <string name="onfido_camera_mic_access_recover">Recover camera and microphone access to take a video and complete the verification process</string>
     <string name="onfido_camera_mic_access_recover_instructions_title">Go to your device settings to recover %1$s camera and microphone access</string>
     <string name="onfido_camera_mic_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the camera and microphone</string>
+
+    <string name="onfido_wrong_side">Wrong side</string>
 </resources>

@@ -6,6 +6,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.5.0]
+
+### Added:
+- Public: Added the ability to preselect just a document type, without specifying any info about the country of origin nor ask the user to select it
+- UI: Added video review feature after live video recording
+- UI: Added face detection and automatic recording on liveness capture
+- UI: Added live face tracking during liveness challenges recording
+
+### Changed:
+- UI: Revamped liveness control buttons to provide a more explicit and easy to follow flow
+- Internal: Simplified analytics by removing lifecycle-aware events
+- Internal: Improved the repackaging method for our 3rd party dependencies
+- Internal: Updated the map for the supported countries for each document
+
+### Fixed:
+- Public: Fixed crash spotted when displaying the liveness challenges
+- Public: Fixed a crash when the search view on the country selection screen could not be properly loaded
+- Public: Fixed conflict between Kotlin enums and the jetify process required to work with AndroidX
+
+### Deprecated:
+- Public: Deprecated the custom `MessageScreenStep`, previously used to introduce custom messages in the flow
+
 ## [4.4.0]
 
 ### Added:
@@ -14,9 +36,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: Added permission request and recovery screens for camera and microphone permissions
 - Internal: Now bundling Proguard rules with the SDK, removing the need for the host application to specify those rules for themselves
 
-## Changed:
+### Changed:
 - UI: Revamped flow final screen
 - UI: Revamped the flat action button according to a new, more accessible design specification
+- UI: Revamped liveness control buttons to provide a more explicit and easy to follow flow
 - Internal: Changed our analytics solution from an external provider to an in-house service
 
 ### Fixed:

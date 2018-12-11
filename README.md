@@ -13,9 +13,9 @@
 * [Going live](#going-live)
 * [Cross platform frameworks](#cross-platform-frameworks)
 * [Migrating](#migrating)
-* [Get notified about releases](#get-notified-about-releases)
-* [More information](#more-information)
+* [Getting notified about releases](#getting-notified-about-releases)
 * [Licensing](#licensing)
+* [More information](#more-information)
 
 ## Overview
 
@@ -28,7 +28,8 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 \* Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to create and manage checks.
 
-![Various views from the SDK](screenshots.png "")
+![Various views from the SDK](screenshots.jpg "")
+![Various views from the SDK](gifs.gif "")
 
 ## Getting started
 
@@ -102,10 +103,10 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6   Mb  |
-| arm64-v8a   | 6.8 Mb  |
-| x86         | 14.3 Mb |
-| x86_64      | 15.9 Mb |
+| armeabi-v7a | 6.2 Mb  |
+| arm64-v8a   | 7 Mb    |
+| x86         | 14.5 Mb |
+| x86_64      | 16.1 Mb |
 
 
 #### 2.2 `onfido-capture-sdk-core`
@@ -116,7 +117,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.6 Mb  |
+| universal   | 3.8 Mb  |
 
 Notes:
 
@@ -245,12 +246,17 @@ final OnfidoConfig config = OnfidoConfig.builder()
 #### Document Capture Step
 In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
 
-You can also specify a particular document type and country that the user is allowed to upload by replacing this step with a `CaptureScreenStep` containing the desired type and country code:
+By replacing this step with a `CaptureScreenStep`, you are allowed to specify a particular document type and one of two country options regarding the country of origin of this document:
+- Specify an actual country, using the `CountryCode` enum, e.g. `new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB)`
+- Specify that no country should be used, with the `CountryAlternatives.NO_COUNTRY` option, e.g. `new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryAlternatives.NO_COUNTRY)`
+
+Please be aware that we don't support every document - country combination, and unsupported documents will not be verified. So if you decide to bypass the default country selection screen by replacing the `FlowStep.CAPTURE_DOCUMENT` with a `CaptureScreenStep`, please make sure that you are specifying a supported document.
+We provide an up-to-date list of the documents we support [here](https://onfido.com/supported-documents/)
 
 ```java
 final FlowStep[] flowStepsWithOptions = new FlowStep[]{
                 FlowStep.WELCOME,
-                new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, "IND"),
+                new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB),
                 FlowStep.CAPTURE_FACE,
                 FlowStep.FINAL
         };
@@ -268,15 +274,11 @@ the user will be prompted to perform some simple challenges. The photo option ca
 In case both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
 with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
 
-#### Message Screen Step (Optional)
-This screen can be used to create a customised information step. It can be inserted anywhere in the flow multiple times.
-It can be instantiated with the following constructor:`MessageScreenStep(String, String, String)`
-
 #### Final Screen Step (Optional)
-This is a form of **Message Screen Step**. It should be used at the end of the flow, but it's not necessary.
+It should be used at the end of the flow, but it's not necessary.
 
 #### Identity Verification Intro Step (Optional)
-This is a form of **Message Screen Step**. It explains to the user the purpose of the identity verification flow.
+It explains to the user the purpose of the identity verification flow.
 
 ### 2. Theme customisation
 
@@ -372,13 +374,9 @@ Any issue or question about the existing integrations should be raised on the co
 
 You can find the migration guide in [MIGRATION.md](MIGRATION.md) file.
 
-## Get notified about releases
+## Getting notified about releases
 
 In case you want to get notified about our releases, feel free to access our [Bintray page](https://bintray.com/onfido/maven/onfido-capture-sdk) and click the `Watch` button.
-
-## More information
-
-Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
 
 ## Licensing
 
@@ -386,6 +384,10 @@ Due to API-design constraints, and to avoid possible conflicts during the integr
 For those, we include the licensing information inside our `.aar`, namely on the `res/raw/onfido_licenses.json`. 
 This file contains a summary of our bundled dependencies and all the licensing information required, including links to the relevant license texts contained in the same folder.
 Integrators of our library are then responsible for keeping this information along with their integrations.
+
+## More information
+
+Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
 
 ### Support
 
