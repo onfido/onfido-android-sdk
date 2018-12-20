@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.5.1-rc.1]
+
+### Changed:
+- UI: Removed all the hardcoded colour codes and now referencing the resource for every UI element with our primary UI colour
+
+### Fixed:
+- Public: Fixed crash when initialising our face detector
+- Internal: Fixed bug when launching two consecutive flows with two distinct tokens
+
 ## [4.5.0]
 
 ### Added:
