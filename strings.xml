@@ -28,7 +28,7 @@
     <string name="onfido_welcome_view_time">It will take less than 2 minutes</string>
     <string name="onfido_welcome_view_document_capture_title">Take a picture of an identity document</string>
     <string name="onfido_welcome_view_face_capture_title">Take a selfie</string>
-    <string name="onfido_welcome_view_liveness_capture_title">Record a short selfie video</string>
+    <string name="onfido_welcome_view_liveness_capture_title">Record a selfie video</string>
 
     <!-- Document Selection Screen -->
     <string name="onfido_document_selection_title">Select a document</string>
@@ -87,6 +87,7 @@
     <string name="onfido_submit_verification">Submit verification</string>
 
     <!-- Generic Error -->
+    <string name="onfido_error">Error</string>
     <string name="onfido_error_dialog_title">Connection lost</string>
     <string name="onfido_error_connection_message">There was a network error. Please check your connection.</string>
     <string name="onfido_generic_error_message">Something went wrong. Please try again later.</string>

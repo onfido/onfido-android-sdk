@@ -6,10 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
-## [4.5.1-rc.1]
+## [4.5.1-rc.2]
 
 ### Changed:
 - UI: Removed all the hardcoded colour codes and now referencing the resource for every UI element with our primary UI colour
+- UI: Redesign according to the Onfido rebranding
+- Internal: Improved the face detection algorithm during liveness pre-recording to better match the oval on the screen
+
+### Fixed:
+- Public: Fixed crash when requesting camera focus after the host app was killed by the system
+- Public: Fixed crash when trying to fetch the dimensions of a view on the capture screen before it was measured for the first time
+
+## [4.5.1-rc.1]
 
 ### Fixed:
 - Public: Fixed crash when initialising our face detector
