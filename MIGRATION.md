@@ -1,5 +1,38 @@
 # Onfido Android SDK Migration Guide
 
+## `4.5.1` -> `4.6.0`
+
+### Added Strings:
+- `onfido_label_doc_type_visa`
+- `onfido_label_doc_type_visa_up`
+- `onfido_message_document_visa`
+- `onfido_message_check_readability_subtitle_visa`
+- `onfido_confirm_visa`
+- `onfido_liveness_intro_subtitle`
+- `onfido_liveness_intro_step_1_title`
+- `onfido_liveness_intro_step_2_title`
+- `onfido_liveness_intro_loading_video`
+- `onfido_reload`
+- `onfido_unable_load_unstable_network`
+- `onfido_unable_load_offline`
+
+### Removed strings:
+- `onfido_next`
+- `onfido_liveness_intro_title`
+- `onfido_liveness_intro_subtitle_1_action`
+- `onfido_liveness_intro_subtitle_2_actions`
+- `onfido_liveness_intro_subtitle_some_actions`
+- `onfido_liveness_intro_third_subtitle_1_action`
+- `onfido_liveness_intro_third_subtitle_2_actions`
+- `onfido_liveness_intro_third_subtitle_some_actions`
+- `onfido_liveness_challenge_open_mouth_title`
+- `onfido_liveness_challenge_next`
+- `onfido_liveness_challenge_stop`
+- `onfido_stop`
+- `onfido_liveness_challenge_recording`
+- `onfido_video_recorded`
+- `onfido_camera_access_recover_instructions_subtitle`
+
 ## `3.0.0` -> `4.0.0`
 - Changed the `Applicant` parameter on the `userCompleted(Applicant applicant, Captures captures)` callback to be a non-nullable field,
 meaning that we guarantee this field will always contain information about the applicant whenever this callback is called. Any null check being applied may now be deleted.

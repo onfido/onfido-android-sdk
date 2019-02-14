@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.6.0]
+
+### Added:
+- Public: Added support for preselection of Visa documents, through the `DocumentType.VISA` enum value
+- UI: Redesigned the liveness introduction screen to show an example video of the actions to perform
+
+### Changed:
+- UI: Redesigned the secondary action button to make it customisable
+- UI: Added improvements to font size display when device accessibility features are enabled
+
 ## [4.5.1]
 *No changes since the previous release candidate version*
 

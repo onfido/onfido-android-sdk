@@ -4,7 +4,6 @@
 
     <!-- General -->
     <string name="onfido_thank_you">Thank you</string>
-    <string name="onfido_next">Next</string>
     <string name="onfido_continue">Continue</string>
     <string name="onfido_cancel">Cancel</string>
 
@@ -21,6 +20,8 @@
     <string name="onfido_label_doc_type_id_card_up">National Identity Card</string>
     <string name="onfido_label_doc_type_residence_permit_up">Residence Permit Card</string>
     <string name="onfido_label_doc_type_residence_permit_short">permit</string>
+    <string name="onfido_label_doc_type_visa">visa</string>
+    <string name="onfido_label_doc_type_visa_up">Visa</string>
 
     <!-- Welcome Screen -->
     <string name="onfido_welcome_view_toolbar_title">Identity verification</string>
@@ -59,6 +60,7 @@
     <string name="onfido_message_side_document_back_residence_permit">Back of permit</string>
     <string name="onfido_message_side_document_front_national_id">Front of card</string>
     <string name="onfido_message_side_document_back_national_id">Back of card</string>
+    <string name="onfido_message_document_visa">Visa page</string>
     <string name="onfido_no_document">No document found</string>
     <string name="onfido_no_face">No face found</string>
     <string name="onfido_multiple_faces">Multiple faces found</string>
@@ -72,6 +74,7 @@
     <string name="onfido_message_check_readability_subtitle_residence_permit">Make sure your permit details are clear to read, with no blur or glare</string>
     <string name="onfido_message_check_readability_subtitle_driving_license">Make sure your license details are clear to read, with no blur or glare</string>
     <string name="onfido_message_check_readability_subtitle_national_id">Make sure your card details are clear to read, with no blur or glare</string>
+    <string name="onfido_message_check_readability_subtitle_visa">Make sure your visa details are clear to read, with no blur or glare</string>
     <string name="onfido_message_document_capture_info_front_residence_permit">Position the front of your permit in the frame</string>
     <string name="onfido_message_document_capture_info_back_residence_permit">Position the back of your permit in the frame</string>
     <string name="onfido_message_document_capture_info_front_driving_license">Position the front of your license in the frame</string>
@@ -97,6 +100,7 @@
     <string name="onfido_confirm_residence_permit">My permit is readable</string>
     <string name="onfido_confirm_driving_license">My license is readable</string>
     <string name="onfido_confirm_national_id">My card is readable</string>
+    <string name="onfido_confirm_visa">My visa is readable</string>
     <string name="onfido_confirm_face_long">Confirm my selfie</string>
     <string name="onfido_confirm_face_short">Confirm</string>
     <string name="onfido_discard">Take a new picture</string>
@@ -104,26 +108,17 @@
     <string name="onfido_discard_face_short">Take new</string>
 
     <!-- Liveness -->
-    <string name="onfido_liveness_intro_title">Let\'s make sure nobody\'s impersonating you</string>
-    <string name="onfido_liveness_intro_subtitle_1_action">We\'ll ask you to film yourself performing one simple action</string>
-    <string name="onfido_liveness_intro_subtitle_2_actions">We\'ll ask you to film yourself performing two simple actions</string>
-    <string name="onfido_liveness_intro_subtitle_some_actions">We\'ll ask you to film yourself performing some simple actions</string>
-    <string name="onfido_liveness_intro_third_subtitle_1_action">One will involve speaking out loud</string>
-    <string name="onfido_liveness_intro_third_subtitle_2_actions">Two will involve speaking out loud</string>
-    <string name="onfido_liveness_intro_third_subtitle_some_actions">Some will involve speaking out loud</string>
+    <string name="onfido_liveness_intro_subtitle">Let\'s make sure nobody\'s impersonating you</string>
+    <string name="onfido_liveness_intro_step_1_title">Speak out loud and move your head</string>
+    <string name="onfido_liveness_intro_step_2_title">Finish actions in under %1$d seconds</string>
+    <string name="onfido_liveness_intro_loading_video">Loading example</string>
     <string name="onfido_start">Start</string>
     <string name="onfido_liveness_challenge_digits_title">Say each digit out loud</string>
     <string name="onfido_liveness_challenge_turn_left_title">Look over your left shoulder and back</string>
     <string name="onfido_liveness_challenge_turn_right_title">Look over your right shoulder and back</string>
-    <string name="onfido_liveness_challenge_open_mouth_title">Open and close your mouth</string>
-    <string name="onfido_liveness_challenge_next">When you\'re done, press next</string>
-    <string name="onfido_liveness_challenge_stop">When you’re done, press stop</string>
-    <string name="onfido_stop">stop</string>
-    <string name="onfido_liveness_challenge_recording">Recording</string>
     <string name="onfido_liveness_timeout_exceeded_title">Looks like you took too long</string>
     <string name="onfido_liveness_timeout_exceeded_description">Remember to press "stop" when you\'re done</string>
     <string name="onfido_retake_video">Retake video</string>
-    <string name="onfido_video_recorded">Your video has been recorded</string>
     <string name="onfido_submit_video">Submit video</string>
     <string name="onfido_liveness_video_not_found">Your video can\'t be found on your device. Please retake it.</string>
     <string name="onfido_liveness_storage_threshold_title">Your device is full</string>
@@ -134,6 +129,9 @@
     <string name="onfido_finish_recording">Finish recording</string>
     <string name="onfido_next_step">Next step</string>
     <string name="onfido_liveness_media_player_error">There was an error with your video. Please retake it</string>
+    <string name="onfido_reload">Reload</string>
+    <string name="onfido_unable_load_unstable_network">Unable to load due to unstable network</string>
+    <string name="onfido_unable_load_offline">Unable to load because you\'re offline</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_suggested_country">Suggested country</string>
@@ -176,7 +174,6 @@
     <string name="onfido_camera_access_selfie_recover">Recover camera access to take pictures and complete the verification process</string>
     <string name="onfido_camera_access_video_recover">Recover camera access to take a video and complete the verification process</string>
     <string name="onfido_camera_access_recover_instructions_title">Go to your device settings to recover %1$s camera access</string>
-    <string name="onfido_camera_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the camera</string>
 
     <!-- Microphone Permissions -->
     <string name="onfido_allow_mic_access">Allow microphone access</string>
