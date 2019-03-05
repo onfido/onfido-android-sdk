@@ -316,7 +316,14 @@ You could also provide custom translations for locales that we don't currently s
 
 **Notes**:
 - If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a locale translated you can also get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
-- When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). In particular, `onfido_locale`, which identifies the current locale being added, must be included. E.g. when adding a translations file inside `values_ru`, the `onfido_locale` key should have `ru` as its value.
+- When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml).
+In particular, `onfido_locale`, which identifies the current locale being added, must be included.
+The value for this string should be the [ISO 639-1](http://www.loc.gov/standards/iso639-2/php/code_list.php) 2-letter language code corresponding to the translation being added.
+Examples:
+    - When adding a translations file inside `values-ru` (russian translation), the `onfido_locale` key should have `ru` as its value.
+    - When adding a translations file inside `values-en-rUS` (american english translation), the `onfido_locale` key should have `en` as its value.
+
+Without this string correctly translated, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
 
 ## Creating checks
 

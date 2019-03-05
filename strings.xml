@@ -36,9 +36,9 @@
     <string name="onfido_document_selection_subtitle">You will take a picture of it in the next step</string>
 
     <!-- Country Selection Screen -->
-    <string name="onfido_country_selection_toolbar_title">Select your country</string>
+    <string name="onfido_country_selection_toolbar_title">Select issuing country</string>
     <string name="onfido_unsupported_document_title">Can\'t find your country?</string>
-    <string name="onfido_unsupported_document_description">We don\'t support documents from all countries yet. Please select another document.</string>
+    <string name="onfido_unsupported_document_description">Sorry about that. Use an alternative document instead.</string>
     <string name="onfido_close">Close</string>
     <string name="onfido_select_another_document">Select another document</string>
 

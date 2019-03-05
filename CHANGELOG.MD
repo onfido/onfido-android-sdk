@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.7.0]
+
+### Changed:
+- Public: Improved the documentation about adding custom translations and the `onfido_locale` string
+- UI: Linked text views to the Onfido design system
+
+### Fixed:
+- Public: Fixed crash when the SDK was wrongly doing operations with unknown request codes when transitioning from the capture screen to the flow screen
+- Public: Fixed crash when the SDK tries to access a view after the app was sent to background
+- Public: Fixed a crash when uploading the liveness video when the filename contains characters not supported by OkHttp
+- Public: Fixed a crash happening when face detection or tracking started on a device/emulator without Play Services
+- Public: Fixed a crash when reporting an error during the video recording back to the user while the error callback is `null`
+- Public: Fixed crash when checking for front camera support for selfie/video purposes throws a `RuntimeException`
+- UI: Fixed the issue of text getting cropped when going over 2 lines in bullet views.
+The text can now go up to 3 lines and shows an ellipsis if the content is longer than that.
+
 ## [4.6.0]
 
 ### Added:

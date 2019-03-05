@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `4.6.0` -> `4.7.0`
+
+### Changed Strings:
+- `onfido_country_selection_toolbar_title`
+- `onfido_unsupported_document_description`
+
 ## `4.5.1` -> `4.6.0`
 
 ### Added Strings:
