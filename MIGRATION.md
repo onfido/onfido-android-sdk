@@ -1,5 +1,22 @@
 # Onfido Android SDK Migration Guide
 
+## `4.7.0` -> `4.8.0`
+
+### Added strings:
+- `onfido_label_doc_type_work_permit_up`
+- `onfido_message_side_document_front_generic`
+- `onfido_message_side_document_back_generic`
+- `onfido_message_check_readability_subtitle_generic`
+- `onfido_message_document_capture_info_front_generic`
+- `onfido_message_document_capture_info_back_generic`
+- `onfido_confirm_generic_document`
+
+### Removed strings:
+- `onfido_label_doc_type_passport`
+- `onfido_label_doc_type_driving_license`
+- `onfido_label_doc_type_id_card`
+- `onfido_label_doc_type_visa`
+
 ## `4.6.0` -> `4.7.0`
 
 ### Changed Strings:

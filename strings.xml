@@ -11,17 +11,14 @@
     <string name="onfido_message_loading">Loading</string>
 
     <!-- Document Types -->
-    <string name="onfido_label_doc_type_passport">passport</string>
     <string name="onfido_label_doc_type_passport_up">Passport</string>
-    <string name="onfido_label_doc_type_driving_license">driver\'s license</string>
     <string name="onfido_label_doc_type_driving_license_up">Driver\'s License</string>
     <string name="onfido_label_doc_type_driving_license_short">license</string>
-    <string name="onfido_label_doc_type_id_card">card</string>
     <string name="onfido_label_doc_type_id_card_up">National Identity Card</string>
     <string name="onfido_label_doc_type_residence_permit_up">Residence Permit Card</string>
     <string name="onfido_label_doc_type_residence_permit_short">permit</string>
-    <string name="onfido_label_doc_type_visa">visa</string>
     <string name="onfido_label_doc_type_visa_up">Visa</string>
+    <string name="onfido_label_doc_type_work_permit_up">Work Permit</string>
 
     <!-- Welcome Screen -->
     <string name="onfido_welcome_view_toolbar_title">Identity verification</string>
@@ -60,6 +57,8 @@
     <string name="onfido_message_side_document_back_residence_permit">Back of permit</string>
     <string name="onfido_message_side_document_front_national_id">Front of card</string>
     <string name="onfido_message_side_document_back_national_id">Back of card</string>
+    <string name="onfido_message_side_document_front_generic">Front of document</string>
+    <string name="onfido_message_side_document_back_generic">Back of document</string>
     <string name="onfido_message_document_visa">Visa page</string>
     <string name="onfido_no_document">No document found</string>
     <string name="onfido_no_face">No face found</string>
@@ -75,12 +74,15 @@
     <string name="onfido_message_check_readability_subtitle_driving_license">Make sure your license details are clear to read, with no blur or glare</string>
     <string name="onfido_message_check_readability_subtitle_national_id">Make sure your card details are clear to read, with no blur or glare</string>
     <string name="onfido_message_check_readability_subtitle_visa">Make sure your visa details are clear to read, with no blur or glare</string>
+    <string name="onfido_message_check_readability_subtitle_generic">Make sure your document details are clear to read, with no blur or glare</string>
     <string name="onfido_message_document_capture_info_front_residence_permit">Position the front of your permit in the frame</string>
     <string name="onfido_message_document_capture_info_back_residence_permit">Position the back of your permit in the frame</string>
     <string name="onfido_message_document_capture_info_front_driving_license">Position the front of your license in the frame</string>
     <string name="onfido_message_document_capture_info_back_driving_license">Position the back of your license in the frame</string>
     <string name="onfido_message_document_capture_info_front_national_id">Position the front of your card in the frame</string>
     <string name="onfido_message_document_capture_info_back_national_id">Position the back of your card in the frame</string>
+    <string name="onfido_message_document_capture_info_front_generic">Position the front of your document in the frame</string>
+    <string name="onfido_message_document_capture_info_back_generic">Position the back of your document in the frame</string>
 
     <!-- Glare Detection -->
     <string name="onfido_glare_detected_title">Glare is detected</string>
@@ -101,6 +103,7 @@
     <string name="onfido_confirm_driving_license">My license is readable</string>
     <string name="onfido_confirm_national_id">My card is readable</string>
     <string name="onfido_confirm_visa">My visa is readable</string>
+    <string name="onfido_confirm_generic_document">My document is readable</string>
     <string name="onfido_confirm_face_long">Confirm my selfie</string>
     <string name="onfido_confirm_face_short">Confirm</string>
     <string name="onfido_discard">Take a new picture</string>

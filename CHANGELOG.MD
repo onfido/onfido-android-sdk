@@ -6,6 +6,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.8.0]
+
+### Added:
+- Public: Added the ability to skip the selfie intro screen by adding the `FaceCaptureVariantPhoto` that can be passed
+as an argument to a `FaceCaptureStep`
+- Public: Added the ability for integrators to specify a `Locale` for the flow to be displayed with, instead of inferring it from the device settings
+- Public: Added the ability for integrators to enable an "exit when sent to background" mode in the SDK flow through the `exitWhenSentToBackground()` in the `OnfidoConfig.Builder`.
+This mode enforces that the flow will automatically exit through the `userExited()` callback whenever the app is sent to background mid-flow
+- Public: Added support for preselection of work permit documents, through the `DocumentType.WORK_PERMIT` enum value. This is a beta feature
+
+### Changed:
+- Internal: Upgraded OpenCV version to 3.4.5
+- Internal: Now asking for the capture of both sides of the `DocumentType.NATIONAL_IDENTITY_CARD` from `CountryCode.IN` (indian national identity card)
+
+### Fixed:
+- Public: Fixed crash when initialising the capture screen and system returned a null camera to the SDK
+- Public: Fixed crash in the liveness confirmation screen, related with the usage of a vector drawable as the background of a button
+- Public: Fixed a crash when initialising the capture screen and we are not able to retrieve the camera parameters from the system
+- Public: Fixed crash happening when the activity `android:label` property is required to be non-blank
+
 ## [4.7.0]
 
 ### Changed:

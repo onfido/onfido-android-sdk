@@ -103,10 +103,10 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.9 Mb  |
-| arm64-v8a   | 6.7 Mb  |
-| x86         | 14.2 Mb |
-| x86_64      | 15.8 Mb |
+| armeabi-v7a | 5.8 Mb  |
+| arm64-v8a   | 6.6 Mb  |
+| x86         | 14.1 Mb |
+| x86_64      | 15.7 Mb |
 
 
 #### 2.2 `onfido-capture-sdk-core`
@@ -117,7 +117,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.5 Mb  |
+| universal   | 3.4 Mb  |
 
 Notes:
 
@@ -243,6 +243,9 @@ final OnfidoConfig config = OnfidoConfig.builder()
     .build();
 ```
 
+Also, by calling the `exitWhenSentToBackground()` method of the `OnfidoConfig.Builder`, you can determine that the flow should be exited whenever the user sends the app to background.
+This exit action will invoke the `userExited(ExitCode exitCode, Applicant applicant)` callback described in the [handling callbacks section](#handling-callbacks).
+
 #### Document Capture Step
 In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
 
@@ -271,6 +274,9 @@ In this step the user is presented with a summary of the capture steps he/she is
 In this step the user can capture either a photo of his/her face, or a live video by using the front camera. In case of choosing the second option,
 the user will be prompted to perform some simple challenges. The photo option can be instantiated with `FlowStep.CAPTURE_FACE` or
 `new FaceCaptureStep(FaceCaptureVariant.PHOTO)` and the video option with `new FaceCaptureStep(FaceCaptureVariant.VIDEO)`.
+
+By default both face and video variants show an introduction screen. You can disable the intro for the photo variant using `new FaceCaptureStep(new PhotoCaptureVariant(false))`.
+
 In case both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
 with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
 
@@ -313,6 +319,9 @@ Onfido Android SDK already comes with out-of-the-box translations for the follow
 In case you would like us to add translations for some other locales we don't provide yet, please contact us through [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 You could also provide custom translations for locales that we don't currently support, by having an additional XML strings file inside your resources folder for the desired locale (e.g. `res/values-it/onfido_strings.xml` for :it: translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
+
+By default, we infer the language to use from the device settings.
+However, you can also use the `withLocale(Locale)` method of the `OnfidoConfig.Builder` to select a specific language.
 
 **Notes**:
 - If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a locale translated you can also get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
