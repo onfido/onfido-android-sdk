@@ -45,7 +45,7 @@ Our configuration is currently set to the following:
 
 ### 1. Obtaining tokens
 
-In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
 **Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
 
@@ -103,11 +103,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.8 Mb  |
-| arm64-v8a   | 6.6 Mb  |
-| x86         | 14.1 Mb |
-| x86_64      | 15.7 Mb |
-
+| armeabi-v7a | 4.7 Mb  |
+| arm64-v8a   | 5.5 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -117,7 +114,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.4 Mb  |
+| universal   | 2.2 Mb  |
 
 Notes:
 
@@ -346,7 +343,7 @@ Refer to the [Authentication](https://documentation.onfido.com/#authentication) 
 
 ### 2. Creating a check
 
-You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity) with the corresponding variants: `standard` for the photo option and `video` for the video option.
+You will need to create an *express* check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-report) with the corresponding variants: `standard` for the photo option and `video` for the video option.
 
 ```shell
 $ curl https://api.onfido.com/v2/applicants/YOUR_APPLICANT_ID/checks \
@@ -361,7 +358,7 @@ Note: you can also submit the POST request in JSON format.
 
 You will receive a response containing the check id instantly. As document and facial similarity reports do not always return actual [results](https://documentation.onfido.com/#results) straightaway, you need to set up a webhook to get notified when the results are ready.
 
-Finally, as you are testing with the sandbox token, please be aware that the results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#sandbox-responses).
+Finally, as you are testing with the sandbox token, please be aware that the results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#pre-determined-responses).
 
 ### 3. Setting up webhooks
 
