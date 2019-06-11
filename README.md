@@ -116,6 +116,10 @@ Average size (with Proguard enabled):
 | ----------- | :-----: |
 | universal   | 2.2 Mb  |
 
+The sizes stated above were measured by building the minimum possible wrappers around our SDK,
+using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
+Different versions of dependencies such as Gradle or NDK may result in slightly different values.
+
 Notes:
 
 Until these packages get approved to be included in JCenter, the following snippet must be used to instruct gradle to search for them on Bintray:

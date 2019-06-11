@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.9.0]
+
+### Added:
+- Public: Added United States' driver's license autocapture as an experimental feature. Can be enabled by calling `withUSDLAutocapture()` in the `OnfidoConfig.Builder`
+
+### Changed:
+- UI: Optimised liveness intro videos resolution and duration, reducing overall size
+
+### Fixed:
+- Public: Fixed a crash when the host app was being killed by the system after sent to background and then recovered from, e.g., the recent apps list
+- Public: Fixed a crash rarely happening when a user navigates through the liveness challenges flow
+
 ## [4.8.1]
 
 ### Changed:
