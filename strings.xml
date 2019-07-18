@@ -201,4 +201,8 @@
     <string name="onfido_camera_mic_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the camera and microphone</string>
 
     <string name="onfido_wrong_side">Wrong side</string>
+    <string name="onfido_liveness_fetch_challenge_error_button_title">Reload instructions</string>
+    <string name="onfido_liveness_fetch_challenge_error_title">Connection timeout</string>
+    <string name="onfido_liveness_fetch_challenge_error_description">Check that your connection is stable, then try again</string>
+    <string name="onfido_back">Back</string>
 </resources>
