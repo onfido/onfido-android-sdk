@@ -13,6 +13,7 @@
 * [Going live](#going-live)
 * [Cross platform frameworks](#cross-platform-frameworks)
 * [Migrating](#migrating)
+* [Security](#security)
 * [Getting notified about releases](#getting-notified-about-releases)
 * [Licensing](#licensing)
 * [More information](#more-information)
@@ -390,6 +391,15 @@ Any issue or question about the existing integrations should be raised on the co
 ## Migrating
 
 You can find the migration guide in [MIGRATION.md](MIGRATION.md) file.
+
+## Security
+
+This section is dedicated to every security aspect of the SDK
+
+### Certificate Pinning
+We provide integrators the ability to pin any communications between our SDK and server, through a `.withCertificatePinning()` method in
+our `OnfidoConfig.Builder` configuration builder. This method accepts as parameter an `Array<String>` with sha-1/sha-256 hashes of certificates' public keys.
+In case you are interested in using this feature, for more information about the hashes, please reach out to us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Getting notified about releases
 

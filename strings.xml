@@ -205,4 +205,9 @@
     <string name="onfido_liveness_fetch_challenge_error_title">Connection timeout</string>
     <string name="onfido_liveness_fetch_challenge_error_description">Check that your connection is stable, then try again</string>
     <string name="onfido_back">Back</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_accessibility_liveness_video_example">Example video showing how to record a selfie video</string>
+    <string name="onfido_accessibility_camera_face_capture_view">View from selfie camera</string>
+
 </resources>
