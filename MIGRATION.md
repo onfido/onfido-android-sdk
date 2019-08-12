@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `4.8.0` -> `4.11.0`
+
+### Added strings:
+- `onfido_accessibility_liveness_video_example`
+- `onfido_accessibility_camera_face_capture_view`
+
 ## `4.7.0` -> `4.8.0`
 
 ### Added strings:

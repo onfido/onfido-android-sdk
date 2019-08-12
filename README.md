@@ -104,8 +104,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 4.7 Mb  |
-| arm64-v8a   | 5.6 Mb  |
+| armeabi-v7a | 4.9 Mb  |
+| arm64-v8a   | 5.8 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -115,7 +115,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.3 Mb  |
+| universal   | 2.4 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).

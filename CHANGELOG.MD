@@ -6,10 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [4.11.0]
+*No changes since the previous release candidate version*
+
 ## [4.11.0-rc.1]
 
 ### Added:
 - Internal: Support new token format
+- Public: Added certificate pinning support. For more information, please visit our [README.md](README.md#security)
 
 ### Changed:
 - Internal: Performance improvements to our liveness face tracking feature
