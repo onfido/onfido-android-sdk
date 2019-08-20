@@ -44,11 +44,9 @@ Our configuration is currently set to the following:
 - `Android Support Library = 27.1.0`
 - `Kotlin = 1.3+`
 
-### 1. Obtaining tokens
+### 1. Obtaining an API token
 
-In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
-
-**Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
+In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
 ### 2. Adding the SDK dependency
 
@@ -104,7 +102,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 4.9 Mb  |
+| armeabi-v7a | 5.0 Mb  |
 | arm64-v8a   | 5.8 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
@@ -115,7 +113,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.4 Mb  |
+| universal   | 2.5 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -145,16 +143,7 @@ compile ('com.google.android.gms:play-services-base:x.y.z') {
 }
 ```
 
-### 3. Instantiating the client
-
-To use the SDK, you need to obtain an instance of the client object:
-
-```java
-final Context context = ...;
-Onfido onfido = OnfidoFactory.create(context).getClient();
-```
-
-### 4. Creating an applicant
+### 3. Creating an applicant
 
 You must create an Onfido [applicant](https://documentation.onfido.com/#applicants) before you start the flow.
 
@@ -169,15 +158,64 @@ $ curl https://api.onfido.com/v2/applicants \
 
 The JSON response has an `id` field containing an UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos/videos uploaded by that instance of the SDK will be associated with that applicant.
 
-### 5. Creating the SDK configuration
 
-Create an `OnfidoConfig` using your sandbox mobile SDK token, along with the applicant id:
+### 4. Configuring SDK with Tokens
+
+We now support two token mechanisms:
+
+`SDK token`   
+`Mobile token`
+
+We strongly recommend using a SDK token. It provides a more secure means of integration, as the token is temporary and applicant id-bound. Note that, if you're using an SDK token, you shouldn't call withApplicantId function.
+
+#### 4.1 SDK Token
+
+You will need to generate and include a short-lived JSON Web Token (JWT) every time you initialise the SDK. To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
+
+To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
+
+```
+$ curl https://api.onfido.com/v2/sdk_token \
+  -H 'Authorization: Token token=YOUR_API_TOKEN' \
+  -F 'applicant_id=YOUR_APPLICANT_ID' \
+  -F 'application_id=YOUR_APPLICATION_BUNDLE_IDENTIFIER'
+```
+
+Make a note of the token value in the response, as you will need it later on when initialising the SDK.
+
+**Warning:** SDK tokens expire 90 minutes after creation.
+
+##### Example Usage
+
+##### Kotlin
+
+```kotlin
+val config = OnfidoConfig.builder(context)
+    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+```
+
+##### Java
 
 ```java
-final OnfidoConfig config = OnfidoConfig.builder()
-            .withToken("YOUR_MOBILE_TOKEN")
-            .withApplicant("YOUR_APPLICANT_ID")
-            .build();
+OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
+                .withSDKToken("YOUR_SDK_TOKEN");
+```
+
+#### 4.2 Mobile Token
+
+**Note:**  Mobile token usage is still supported, but it **will be removed** in the future. If you are starting a project, we would strongly recommend that you use SDK tokens instead.
+
+In order to start integration, you will need the **API token** and the **mobile SDK token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+
+**Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
+
+### 5. Instantiating the client
+
+To use the SDK, you need to obtain an instance of the client object:
+
+```java
+final Context context = ...;
+Onfido onfido = OnfidoFactory.create(context).getClient();
 ```
 
 ### 6. Starting the flow
@@ -205,17 +243,17 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     ...
     onfido.handleActivityResult(resultCode, data, new Onfido.OnfidoResultListener() {
         @Override
-        public void userCompleted(Applicant applicant, Captures captures) {
+        public void userCompleted(Captures captures) {
             //communicate with your backend and initiate the check
         }
 
         @Override
-        public void userExited(ExitCode exitCode, Applicant applicant) {
+        public void userExited(ExitCode exitCode) {
             //User left the sdk flow without completing it
         }
 
         @Override
-        public void onError(OnfidoException exception, @Nullable Applicant applicant) {
+        public void onError(OnfidoException exception) {
             // An exception occurred during the flow
         }
     });
@@ -241,12 +279,12 @@ final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
 
 final OnfidoConfig config = OnfidoConfig.builder()
     .withCustomFlow(defaultStepsWithWelcomeScreen)
-    .withApplicant(applicantId)
+    .withSDKToken("YOUR_SDK_TOKEN")
     .build();
 ```
 
 Also, by calling the `exitWhenSentToBackground()` method of the `OnfidoConfig.Builder`, you can determine that the flow should be exited whenever the user sends the app to background.
-This exit action will invoke the `userExited(ExitCode exitCode, Applicant applicant)` callback described in the [handling callbacks section](#handling-callbacks).
+This exit action will invoke the `userExited(ExitCode exitCode)` callback described in the [handling callbacks section](#handling-callbacks).
 
 #### Document Capture Step
 In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.

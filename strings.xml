@@ -144,17 +144,15 @@
     <string name="onfido_country_selection_empty_state_message">We don\'t support documents from all countries yet. If your country isn\'t on the list, please select another document.</string>
 
     <!-- Autocapture -->
-    <string name="onfido_autocapture_info">Your picture will be taken automatically</string>
-    <string name="onfido_press_button_capture">Press the button to take a picture</string>
+    <string name="onfido_autocapture_manual_fallback_title">Auto-capture is too slow</string>
+    <string name="onfido_autocapture_manual_fallback_description">Press button to capture manually</string>
 
     <!-- Blur Detection -->
     <string name="onfido_blur_detection_title">Picture is not clear</string>
     <string name="onfido_blur_detection_subtitle">Make sure there is no blur or glare</string>
 
     <!-- US DL Barcode Detector -->
-    <string name="onfido_barcode_error_title">Barcode must be clear</string>
-    <string name="onfido_barcode_error_subtitle">Move to a well lit area</string>
-    <string name="onfido_barcode_error_third_title">Make sure your card is close to the frame</string>
+    <string name="onfido_barcode_error_title">Barcode is not readable</string>
     <string name="onfido_submit_my_picture">Submit my picture</string>
 
     <string name="onfido_message_document_passport">Passport face page</string>

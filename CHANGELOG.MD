@@ -1,10 +1,24 @@
-# Change Log
+# Change Log 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
+
+## [5.0.0]
+
+### Added:
+- Public: Added SDK token support (EU region)
+
+### Changed:
+- Public: Removed Applicant parameter from `OnfidoResultListener` callback methods
+- Internal: ApplicantId became mandatory parameter for 'OnfidoConfig' for `mobileToken` preferences
+
+### Removed
+- Public: Removed the `withUSDLAutocapture()` method from the `OnfidoConfig.Builder`. The autocapture of the United States' driving license is now enabled by default
+- Public: Removed applicant creation using the SDK, along with the `withApplicant(Applicant)` method of the `OnfidoConfig.Builder`. 
+The applicant should always from now on be created outside of the SDK and its id used to initialise the flow `withApplicant(String)` on the `OnfidoConfig.Builder`
 
 ## [4.11.0]
 *No changes since the previous release candidate version*

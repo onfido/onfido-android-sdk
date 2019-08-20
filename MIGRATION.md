@@ -1,5 +1,20 @@
 # Onfido Android SDK Migration Guide
 
+## `4.11.0` -> `5.0.0`
+
+### Added strings:
+- `onfido_autocapture_manual_fallback_title`
+- `onfido_autocapture_manual_fallback_description`
+
+### Removed strings:
+- `onfido_autocapture_info`
+- `onfido_press_button_capture`
+- `onfido_barcode_error_subtitle`
+- `onfido_barcode_error_third_title`
+
+### Changed Strings:
+- `onfido_barcode_error_title`
+
 ## `4.8.0` -> `4.11.0`
 
 ### Added strings:
