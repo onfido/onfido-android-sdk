@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [5.0.1]
+### Changed:
+- Public: Improvements on our source code obfuscation strategy 
+
 ## [5.0.0]
 
 ### Added:
