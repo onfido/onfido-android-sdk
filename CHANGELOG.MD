@@ -4,9 +4,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+
+## [5.1.0]
+
+### Added:
+- Public: Added SDK token support for US region
+- Public: Added ability to refresh SDK token when it expired. For more information, please visit our [README.md](README.md#4.1 SDK Token) 
+- Internal: Basic device information started to logging
+
+### Changed:
+- Public: `onfido-api-client` dependency now bundled with the SDK, instead of getting downloaded as a transitive dependency.
+- Public: Added option to disable liveness intro video (`FaceCaptureStep(FaceCaptureVariantVideo(showIntroVideo = false))`)   
+
+### Removed:
+- Public: Removed `check()` and `checkStatus()` functions from `OnfidoAPI`  
+
 ## [5.0.1]
+
 ### Changed:
 - Public: Improvements on our source code obfuscation strategy 
 

@@ -183,23 +183,44 @@ $ curl https://api.onfido.com/v2/sdk_token \
 
 Make a note of the token value in the response, as you will need it later on when initialising the SDK.
 
-**Warning:** SDK tokens expire 90 minutes after creation.
+**Warning:** SDK tokens expire 90 minutes after creation. The SDK token configurator function has an optional `tokenExpirationHandler` parameter. It will be called when sdk token expires and you can use it to pass a new one.
 
 ##### Example Usage
 
 ##### Kotlin
 
 ```kotlin
+
+class ExpirationHandler : TokenExpirationHandler {
+
+        override fun refreshToken(tokenRefreshedWith: (String?) -> Unit) {
+            TODO("Your network request logic to retrieve SDK token goes here")
+            injectNewToken("NEW_SDK_TOKEN") // if you pass `null` sdk exit with token expired error 
+        }
+    }
+
 val config = OnfidoConfig.builder(context)
-    .withSDKToken("YOUR_SDK_TOKEN_HERE")
+    .withSDKToken("YOUR_SDK_TOKEN_HERE", tokenExpirationHandler = ExpirationHandler()) // ExpirationHandler is optional
 ```
 
 ##### Java
 
 ```java
+
+class ExpirationHandler implements TokenExpirationHandler {
+
+    @Override
+    public void refreshToken(@NotNull Function1<? super String, Unit> tokenRefreshedWith) {
+        //Your network request logic to retrieve SDK token goes here
+        injectNewToken.invoke("NEW_SDK_TOKEN"); // if you pass `null`  sdk exit with token expired error
+    }
+}
+
 OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
-                .withSDKToken("YOUR_SDK_TOKEN");
+                .withSDKToken("YOUR_SDK_TOKEN", new ExpirationHandler()); // ExpirationHandler is optional
 ```
+
+**Note:** If you want to use `tokenExpirationHandler` you should pass concrete class instance, you should not pass an **anonymous** or **activity** class instance.  
 
 #### 4.2 Mobile Token
 
