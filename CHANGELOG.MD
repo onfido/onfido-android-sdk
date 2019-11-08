@@ -41,6 +41,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Public: Removed applicant creation using the SDK, along with the `withApplicant(Applicant)` method of the `OnfidoConfig.Builder`. 
 The applicant should always from now on be created outside of the SDK and its id used to initialise the flow `withApplicant(String)` on the `OnfidoConfig.Builder`
 
+## [4.11.1]
+**Note** Changes in this version are the changes applied on [v5.0.1](CHANGELOG.MD#501) to 4.11.0
+
+### Changed:
+- Public: Improvements on our source code obfuscation strategy
+
 ## [4.11.0]
 *No changes since the previous release candidate version*
 
