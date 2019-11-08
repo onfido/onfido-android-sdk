@@ -44,6 +44,9 @@ The applicant should always from now on be created outside of the SDK and its id
 ## [4.11.1]
 **Note** Changes in this version are the changes applied on [v5.0.1](CHANGELOG.MD#501) to 4.11.0
 
+### Added:
+- Internal: Improved RxJava2 error handling
+
 ### Changed:
 - Public: Improvements on our source code obfuscation strategy
 
