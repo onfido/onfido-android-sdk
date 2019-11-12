@@ -219,5 +219,6 @@
     <string name="onfido_accessibility_liveness_right">Right</string>
     <string name="onfido_accessibility_liveness_play_pause">Play or pause</string>
     <string name="onfido_accessibility_take_picture">Take a picture</string>
+    <string name="onfido_accessibility_liveness_face_detected">Face detected</string>
 
 </resources>

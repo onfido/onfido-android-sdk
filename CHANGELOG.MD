@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [5.2.0]
+
+### Added:
+- UI: `java.lang.Deprecated` annotation added additionally for the deprecated functions 
+
+### Changed:
+- UI: Updated README to clarify `APPLICATION_ID` term and how to obtain sandbox token
+- UI: Manual capture button showed after the user click retake or back button for passport and US DL
+- UI: For passports and US Driving Licenses (DL) the manual capture button is shown after the user clicks on retake or on the back button.   
+- UI: The manual fallback countdown changed
+- Internal: Changed token expiration identifier for the `onfido-api-client`
 
 ## [5.1.0]
 
@@ -23,6 +34,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Public: Removed `check()` and `checkStatus()` functions from `OnfidoAPI`  
 
 ## [5.0.1]
+
+### Added:
+- Internal: Improved RxJava2 error handling
 
 ### Changed:
 - Public: Improvements on our source code obfuscation strategy 

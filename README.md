@@ -1,6 +1,6 @@
 # Onfido Android SDK
 
-[ ![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk-core/images/download.svg?version=5.1.0) ](https://bintray.com/onfido/maven/onfido-capture-sdk-core/5.1.0/link)
+[![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg)](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
 ![Build Status](https://app.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)
 
 ## Table of contents
@@ -46,7 +46,7 @@ Our configuration is currently set to the following:
 
 ### 1. Obtaining an API token
 
-In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
 
 ### 2. Adding the SDK dependency
 
@@ -102,8 +102,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.0 Mb  |
-| arm64-v8a   | 5.8 Mb  |
+| armeabi-v7a | 5.1 Mb  |
+| arm64-v8a   | 5.9 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -113,7 +113,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.5 Mb  |
+| universal   | 2.6 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -166,7 +166,7 @@ We now support two token mechanisms:
 `SDK token`   
 `Mobile token`
 
-We strongly recommend using a SDK token. It provides a more secure means of integration, as the token is temporary and applicant id-bound. Note that, if you're using an SDK token, you shouldn't call withApplicantId function.
+We strongly recommend using a **SDK token**. It provides a more secure means of integration, as the token is temporary and applicant id-bound. Note that, if you're using an SDK token, you shouldn't call **withApplicantId** function.
 
 #### 4.1 SDK Token
 
@@ -178,7 +178,7 @@ To generate an SDK Token you should perform a request to the SDK Token endpoint 
 $ curl https://api.onfido.com/v2/sdk_token \
   -H 'Authorization: Token token=YOUR_API_TOKEN' \
   -F 'applicant_id=YOUR_APPLICANT_ID' \
-  -F 'application_id=YOUR_APPLICATION_BUNDLE_IDENTIFIER'
+  -F 'application_id=YOUR_APPLICATION_ID'
 ```
 
 Make a note of the token value in the response, as you will need it later on when initialising the SDK.
@@ -281,7 +281,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow, while the `Applicant` object contains information about the newly created applicant object, or will be `null` in case an `applicantId` was used to initialize the flow through `withApplicant(String id)`.
+When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow.
 With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
 
 ## Customising SDK
