@@ -1,5 +1,14 @@
 # Onfido Android SDK Migration Guide
 
+
+## `5.2.0` -> `5.3.0`
+
+### Added strings:
+- `onfido_label_doc_type_generic_up`
+
+### Changed Strings:
+- `onfido_accessibility_liveness_video_example`
+
 ## `5.1.0` -> `5.2.0`
 
 ### Added strings:
@@ -25,7 +34,6 @@
 
 ### Changed
 - No longer obfuscating `com.monadtek.mvp` package
-
 
 ## `4.11.0` -> `5.0.0`
 

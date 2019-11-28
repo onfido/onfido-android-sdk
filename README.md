@@ -1,7 +1,7 @@
 # Onfido Android SDK
 
 [![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg)](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
-
+![Build Status](https://app.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)
 
 ## Table of contents
 
@@ -313,6 +313,18 @@ In this step the user can pick which type of document to capture, the document o
 By replacing this step with a `CaptureScreenStep`, you are allowed to specify a particular document type and one of two country options regarding the country of origin of this document:
 - Specify an actual country, using the `CountryCode` enum, e.g. `new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB)`
 - Specify that no country should be used, with the `CountryAlternatives.NO_COUNTRY` option, e.g. `new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryAlternatives.NO_COUNTRY)`
+
+The supported document types are:
+
+- Passport: `DocumentType.PASSPORT`
+- National Identity Card: `DocumentType.NATIONAL_IDENTITY_CARD`
+- Driving Licence: `DocumentType.DRIVING_LICENCE`
+- Residence Permit: `DocumentType.RESIDENCE_PERMIT`
+- Visa: `DocumentType.VISA`
+- Work Permit: `DocumentType.WORK_PERMIT`
+- Generic: `DocumentType.GENERIC`
+
+**Note** `DocumentType.GENERIC` doesn't offer an optimised capture experience for a desired document type. 
 
 Please be aware that we don't support every document - country combination, and unsupported documents will not be verified. So if you decide to bypass the default country selection screen by replacing the `FlowStep.CAPTURE_DOCUMENT` with a `CaptureScreenStep`, please make sure that you are specifying a supported document.
 We provide an up-to-date list of the documents we support [here](https://onfido.com/supported-documents/)

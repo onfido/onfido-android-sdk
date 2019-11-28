@@ -205,7 +205,7 @@
     <string name="onfido_back">Back</string>
 
     <!-- Accessibility strings for screen readers -->
-    <string name="onfido_accessibility_liveness_video_example">Example video showing how to record a selfie video</string>
+    <string name="onfido_accessibility_liveness_video_example">To record a selfie video, face the front camera and keep your phone slightly away from your face. You'll then need to recite some numbers and turn your head according to the instructions on screen</string>
     <string name="onfido_accessibility_camera_document_capture_view">View from camera</string>
     <string name="onfido_accessibility_camera_face_capture_view">View from selfie camera</string>
     <string name="onfido_accessibility_face_confirmation_view">Photo of your face</string>

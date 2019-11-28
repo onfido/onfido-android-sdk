@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [5.3.0]
+
+### Added:
+- Public: `DocumentType.GENERIC` type added. For more information, please visit our [README.md](README.md#document-capture-step) 
+
+### Changed:
+- UI: Liveness intro video accessibility string improved
+
 ## [5.2.0]
 
 ### Added:
