@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+
+## [5.3.1]
+
+### Fixed:
+- UI: Fixed a crash when inflating the `onfido_ic_watermark`
+- UI: Fixed a bug that was preventing the Onfido logo to be visible
+
 ## [5.3.0]
 
 ### Added:
