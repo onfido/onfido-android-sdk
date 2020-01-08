@@ -1,5 +1,10 @@
 # Onfido Android SDK Migration Guide
 
+## `4.5.0-F5` -> `5.3.2` - [enterprise]
+
+### Breaking changes
+- Removed `OnfidoCertificatePinningSettings` class which has `ONFIDO_API` parameter to provide root certificate's hash value.
+For more information, please visit our [README.md](README.md#certificate-pinning) 
 
 ## `5.2.0` -> `5.3.0`
 
