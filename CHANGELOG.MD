@@ -8,34 +8,48 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
 
-## [5.3.3]
+## [5.4.0] - 2020-01-23
+
+### Added:
+- Public: `Face` property added into `Captures` class
+- Public: Added `sample-app` directory, in order to show sample usage of the sdk
+- UI: Added folded document template for French driving license and Italian identity document
+- UI: Updated [README.md](README.md) to clarify mobile token usage
+
+### Changed:
+- Internal: Updated Kotlin version to `1.3.50`
+- UI: Changed camera overlay background color's opacity to enhance accessibility support 
+
+## [5.3.3] - 2020-01-08
 
 ### Fixed:
 - Public: Fixed a crash when using sdkToken with proguard enabled
 
-## [5.3.2] - [enterprise]
+## [5.3.2] - [enterprise] - 2019-12-18
 
 ### Added:
 - Public: Migration guide updated regarding to `OnfidoCertificatePinningSettings` changes
 
-## [5.3.1]
+## [5.3.1] - 2019-12-16
 
 ### Fixed:
 - UI: Fixed a crash when inflating the `onfido_ic_watermark`
 - UI: Fixed a bug that was preventing the Onfido logo to be visible
 
-## [5.3.0]
+## [5.3.0] - 2019-11-28
 
 ### Added:
 - Public: `DocumentType.GENERIC` type added. For more information, please visit our [README.md](README.md#document-capture-step) 
 
 ### Changed:
 - UI: Liveness intro video accessibility string improved
+- UI: Added folded paper document support for French driving license and Italian identity document
 
-## [5.2.0]
+## [5.2.0] - 2019-11-12
 
 ### Added:
 - UI: `java.lang.Deprecated` annotation added additionally for the deprecated functions 
+- Internal: Improved RxJava2 error handling
 
 ### Changed:
 - UI: Updated README to clarify `APPLICATION_ID` term and how to obtain sandbox token
@@ -44,7 +58,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - UI: The manual fallback countdown changed
 - Internal: Changed token expiration identifier for the `onfido-api-client`
 
-## [5.1.0]
+## [5.1.0] - 2019-10-14
 
 ### Added:
 - Public: Added SDK token support for US region
@@ -58,15 +72,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed:
 - Public: Removed `check()` and `checkStatus()` functions from `OnfidoAPI`  
 
-## [5.0.1]
-
-### Added:
-- Internal: Improved RxJava2 error handling
+## [5.0.1] - 2019-09-06
 
 ### Changed:
 - Public: Improvements on our source code obfuscation strategy 
 
-## [5.0.0]
+## [5.0.0] - 2019-08-20
 
 ### Added:
 - Public: Added SDK token support (EU region)
@@ -80,7 +91,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Public: Removed applicant creation using the SDK, along with the `withApplicant(Applicant)` method of the `OnfidoConfig.Builder`. 
 The applicant should always from now on be created outside of the SDK and its id used to initialise the flow `withApplicant(String)` on the `OnfidoConfig.Builder`
 
-## [4.11.1]
+## [4.11.1] - 2019-11-07 
 **Note** Changes in this version are the changes applied on [v5.0.1](CHANGELOG.MD#501) to 4.11.0
 
 ### Added:
@@ -89,10 +100,10 @@ The applicant should always from now on be created outside of the SDK and its id
 ### Changed:
 - Public: Improvements on our source code obfuscation strategy
 
-## [4.11.0]
+## [4.11.0] - 2019-08-12
 *No changes since the previous release candidate version*
 
-## [4.11.0-rc.1]
+## [4.11.0-rc.1] - 2019-08-09
 
 ### Added:
 - Internal: Support new token format
@@ -101,7 +112,7 @@ The applicant should always from now on be created outside of the SDK and its id
 ### Changed:
 - Internal: Performance improvements to our liveness face tracking feature
 
-## [4.10.0]
+## [4.10.0] - 2019-07-18
 
 ### Added:
 - Public: Added support for Gradle 5 and Android Studio Gradle plugin 3.4.x
@@ -109,7 +120,7 @@ The applicant should always from now on be created outside of the SDK and its id
 ### Changed:
 - UI: Improved the video capture challenge generation and added error handling
 
-## [4.9.0]
+## [4.9.0] - 2019-06-11
 
 ### Added:
 - Public: Added United States' driver's license autocapture as an experimental feature. Can be enabled by calling `withUSDLAutocapture()` in the `OnfidoConfig.Builder`
@@ -121,7 +132,7 @@ The applicant should always from now on be created outside of the SDK and its id
 - Public: Fixed a crash when the host app was being killed by the system after sent to background and then recovered from, e.g., the recent apps list
 - Public: Fixed a crash rarely happening when a user navigates through the liveness challenges flow
 
-## [4.8.1]
+## [4.8.1] - 2019-06-20
 
 ### Changed:
 - Internal: Removed the strict requirement for the device to support autofocus in order to run the SDK.
@@ -129,7 +140,7 @@ The applicant should always from now on be created outside of the SDK and its id
 ### Fixed:
 - Public: Fixed a bug that was causing the `onfidoPrimaryButtonTextColor` attribute to have no effect in the main button customisation
 
-## [4.8.0]
+## [4.8.0] - 2019-04-04
 
 ### Added:
 - Public: Added the ability to skip the selfie intro screen by adding the `FaceCaptureVariantPhoto` that can be passed
@@ -149,7 +160,7 @@ This mode enforces that the flow will automatically exit through the `userExited
 - Public: Fixed a crash when initialising the capture screen and we are not able to retrieve the camera parameters from the system
 - Public: Fixed crash happening when the activity `android:label` property is required to be non-blank
 
-## [4.7.0]
+## [4.7.0] - 2019-03-05
 
 ### Changed:
 - Public: Improved the documentation about adding custom translations and the `onfido_locale` string
@@ -165,7 +176,7 @@ This mode enforces that the flow will automatically exit through the `userExited
 - UI: Fixed the issue of text getting cropped when going over 2 lines in bullet views.
 The text can now go up to 3 lines and shows an ellipsis if the content is longer than that.
 
-## [4.6.0]
+## [4.6.0] - 2019-02-14
 
 ### Added:
 - Public: Added support for preselection of Visa documents, through the `DocumentType.VISA` enum value
@@ -175,10 +186,10 @@ The text can now go up to 3 lines and shows an ellipsis if the content is longer
 - UI: Redesigned the secondary action button to make it customisable
 - UI: Added improvements to font size display when device accessibility features are enabled
 
-## [4.5.1]
+## [4.5.1] - 2019-01-28
 *No changes since the previous release candidate version*
 
-## [4.5.1-rc.2]
+## [4.5.1-rc.2] - 2019-01-25
 
 ### Changed:
 - UI: Removed all the hardcoded colour codes and now referencing the resource for every UI element with our primary UI colour
@@ -189,13 +200,13 @@ The text can now go up to 3 lines and shows an ellipsis if the content is longer
 - Public: Fixed crash when requesting camera focus after the host app was killed by the system
 - Public: Fixed crash when trying to fetch the dimensions of a view on the capture screen before it was measured for the first time
 
-## [4.5.1-rc.1]
+## [4.5.1-rc.1] - 2018-12-20
 
 ### Fixed:
 - Public: Fixed crash when initialising our face detector
 - Internal: Fixed bug when launching two consecutive flows with two distinct tokens
 
-## [4.5.0]
+## [4.5.0] - 2018-12-12
 
 ### Added:
 - Public: Added the ability to preselect just a document type, without specifying any info about the country of origin nor ask the user to select it
@@ -217,7 +228,7 @@ The text can now go up to 3 lines and shows an ellipsis if the content is longer
 ### Deprecated:
 - Public: Deprecated the custom `MessageScreenStep`, previously used to introduce custom messages in the flow
 
-## [4.4.0]
+## [4.4.0] - 2018-09-06
 
 ### Added:
 - Public: Added the ability to customise action buttons and icons colors

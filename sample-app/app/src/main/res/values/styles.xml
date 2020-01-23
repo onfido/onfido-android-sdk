@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="OnboardingItem">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="OnboardingItemLogo" parent="OnboardingItem">
+        <item name="android:src">@drawable/logo</item>
+        <item name="android:width">@dimen/onfido_logo_medium_width</item>
+        <item name="android:height">@dimen/onfido_logo_medium_height</item>
+    </style>
+
+    <style name="OnboardingItemText" parent="OnboardingItem">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/onfido_fs_normal</item>
+    </style>
+
+    <style name="OnboardingItemTextCAPS" parent="OnboardingItemText">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="OnboardingItemButton" >
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SummaryTitle" parent="OnfidoTitleMessageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SummaryItem" parent="OnfidoMessageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="SummaryItemLabel" parent="SummaryItem">
+        <item name="android:textSize">@dimen/onfido_fs_small</item>
+    </style>
+
+    <style name="SummaryItemValue" parent="SummaryItem">
+        <item name="android:layout_marginBottom">8.5dp</item>
+    </style>
+
+</resources>

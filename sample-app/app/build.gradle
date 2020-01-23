@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+def sdkVersion = '5.4.0'
+def versionCodeNumber = 540
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.onfido.sampleapp"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode versionCodeNumber
+        versionName "$versionCode-sdk:$sdkVersion"
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            universalApk true //generate an additional APK that contains all the ABIs
+        }
+    }
+}
+
+repositories {
+    maven { url "https://dl.bintray.com/onfido/maven" }
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.onfido.sdk.capture:onfido-capture-sdk:$sdkVersion"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    testImplementation 'junit:junit:4.12'
+
+    // only required to support TLSv1.2 for devices with Android API lower than 5.x
+    implementation('com.google.android.gms:play-services-base:11.8.0') {
+        exclude group: 'com.android.support' // to avoid conflicts with your current support library
+    }
+}

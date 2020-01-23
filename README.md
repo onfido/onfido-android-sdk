@@ -230,6 +230,24 @@ In order to start integration, you will need the **API token** and the **mobile 
 
 **Warning:** You **MUST** use the **mobile SDK token** and not the **API token** when configuring the SDK itself.
 
+##### Example Usage
+
+##### Kotlin
+
+```kotlin
+val config = OnfidoConfig.builder(context)
+    .withToken("YOUR_MOBILE_TOKEN_HERE")
+    .withApplicant("YOUR_APPLICANT_ID_HERE")
+```
+
+##### Java
+
+```java
+OnfidoConfig.Builder config = new OnfidoConfig.Builder(this)
+                    .withToken("YOUR_MOBILE_TOKEN_HERE")
+                    .withApplicant("YOUR_APPLICANT_ID_HERE");
+```
+
 ### 5. Instantiating the client
 
 To use the SDK, you need to obtain an instance of the client object:
@@ -283,6 +301,17 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow.
 With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
+
+Sample of a `Captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT` and `FlowStep.CAPTURE_FACE`:
+```
+Document: 
+        Front: DocumentSide(id=document_id, side=FRONT, type=DRIVING_LICENCE)
+        Back: DocumentSide(id=document_id, side=BACK, type=DRIVING_LICENCE)
+        Type: DRIVING_LICENCE
+Face:
+    Face(id=face_id, variant=PHOTO)
+```
+**Note** `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
 ## Customising SDK
 
@@ -485,6 +514,11 @@ Integrators of our library are then responsible for keeping this information alo
 
 ## More information
 
+### Sample App
+
+We have included sample app to show how to integrate the Onfido SDK. Please checkout [our sample app](sample-app) 
+
+### API Documentation
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
 
 ### Support

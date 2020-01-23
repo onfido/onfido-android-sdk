@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/onboarding_background">
+
+  <ImageView
+      style="@style/OnboardingItemLogo"
+      android:layout_marginBottom="11dp" />
+
+  <TextView
+      android:text="@string/bank_app"
+      style="@style/OnboardingItemTextCAPS"/>
+
+  <TextView
+      android:text="@string/example"
+      style="@style/OnboardingItemTextCAPS"/>
+
+  <TextView
+      android:text="@string/bank_instructions"
+      style="@style/OnboardingItemText"
+      android:layout_marginTop="75dp"
+      android:layout_marginBottom="33.5dp"
+      android:layout_marginLeft="@dimen/bank_intrusctions_side_margin"
+      android:layout_marginRight="@dimen/bank_intrusctions_side_margin"/>
+
+  <Button
+      android:id="@+id/next"
+      android:text="Next"
+      style="@style/OnboardingItemButton"/>
+
+</LinearLayout>

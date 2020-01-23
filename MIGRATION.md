@@ -1,5 +1,25 @@
 # Onfido Android SDK Migration Guide
 
+## `5.3.3` -> `5.4.20`
+
+### Added strings:
+- `onfido_italian_id_capture_title`
+- `onfido_french_driving_license_capture_title`
+- `onfido_folded_paper_option`
+- `onfido_plastic_card_option`
+- `onfido_driving_license_type_selection_title`
+- `onfido_national_identity_type_selection_title`
+- `onfido_folded_paper_front_capture_title`
+- `onfido_folded_paper_front_capture_subtitle`
+- `onfido_folded_paper_back_capture_title`
+- `onfido_folded_paper_back_capture_subtitle`
+- `onfido_folded_paper_confirmation_title`
+- `onfido_upload_photo`
+- `onfido_retake_photo`
+
+#### Deprecation
+- Deprecated properties of `DocumentType` class
+
 ## `4.5.0-F5` -> `5.3.2` - [enterprise]
 
 ### Breaking changes
