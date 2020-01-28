@@ -1,6 +1,6 @@
 # Onfido Android SDK Migration Guide
 
-## `5.3.3` -> `5.4.20`
+## `5.3.3` -> `5.4.0`
 
 ### Added strings:
 - `onfido_italian_id_capture_title`
