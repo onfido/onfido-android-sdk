@@ -1,5 +1,92 @@
 # Onfido Android SDK Migration Guide
 
+## '5.5.0' -> '5.6.0'
+
+#### Deprecation
+- The `CaptureScreenStep` class is deprecated. We now recommend `DocumentCaptureStepBuilder` to customise document capture steps
+
+#####before
+
+###### Java
+
+```java
+new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB);
+```
+
+###### Kotlin
+
+```kotlin
+CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB)
+```
+
+#####after
+
+###### Java
+
+```java
+DocumentCaptureStepBuilder.forNationalIdentity()
+                .withCountry(CountryCode.GB)
+                .build();
+``` 
+
+###### Kotlin
+
+```kotlin
+DocumentCaptureStepBuilder.forNationalIdentity()
+                .withCountry(CountryCode.GB)
+                .build()
+```
+
+- The `FaceCaptureStep` class is deprecated. We now recommend `FaceCaptureStepBuilder` to customise face capture steps
+
+#####before
+
+###### Java
+
+```java
+FlowStep selfieCaptureStep = new FaceCaptureStep(new FaceCaptureVariantPhoto(false));
+
+FlowStep videoCaptureStep = new FaceCaptureStep(new FaceCaptureVariantVideo(false));
+```
+
+###### Kotlin
+
+```kotlin
+val selfieCaptureStep = FaceCaptureStep(FaceCaptureVariantPhoto(false))
+
+val videoCaptureStep = FaceCaptureStep(FaceCaptureVariantVideo(false))
+```
+
+#####after
+
+###### Java
+
+```java
+FlowStep selfieCaptureStep = FaceCaptureStepBuilder.forPhoto()
+                .withIntro(false)
+                .build();
+
+FlowStep videoCaptureStep = FaceCaptureStepBuilder.forVideo()
+                .withIntro(false)
+                .build();
+```
+
+###### Kotlin
+
+```kotlin
+val selfieCaptureStep = FaceCaptureStepBuilder.forPhoto()
+                .withIntro(false)
+                .build()
+
+        val videoCaptureStep = FaceCaptureStepBuilder.forVideo()
+                .withIntro(false)
+                .build()
+```
+
+### Added strings:
+- `onfido_mrz_not_detected_title`
+- `onfido_mrz_not_detected_subtitle`
+
 ## `5.3.3` -> `5.4.0`
 
 ### Added strings:

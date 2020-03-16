@@ -1,4 +1,4 @@
-# Change Log 
+# Change Log
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
@@ -7,6 +7,42 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [5.6.0] - 2020-03-16
+
+### Added:
+- Public: Added `Fragment` support to be able to start the SDK using a `Fragment` instance
+- Public: Added integrator defined event hook to allow integrators to collect user analytics
+- Public: Added `DocumentCaptureStepBuilder` and `FaceCaptureStepBuilder` to create `FlowStep` in order to customise SDK flow. For more information, please visit our [README.md](README.md#customising-sdk)  
+- UI: Now showing error message when passport MRZ is cut off in captured image
+
+### Changed:
+- Public: Updated code snippets and descriptions related to API V3 in README
+- Public: Changed 'mobile sdk token' expression with 'mobile token' in README to prevent confusion
+- Public: Updated full and core SDK implementation code snippets in README
+- Internal: Updated the following network libraries on `onfido-api-client`:
+  - `com.squareup.retrofit2:retrofit:2.1.0 -> com.squareup.retrofit2:retrofit:2.6.4`
+  - `com.squareup.okhttp3:okhttp:3.3.0 -> com.squareup.okhttp3:okhttp:3.12.8`
+  - `com.jakewharton.retrofit:retrofit2-rxjava2-adapter-> io.reactivex.rxjava2:rxandroid:2.1.1`
+- UI: Now using grey Onfido logo with higher contrast for accessibility
+- UI: Screen reader order has been changed for better accessibility
+- UI: Document guide overlay will be kept on the screen for longer
+
+### Deprecated:
+- Public: The `CaptureScreenStep` class deprecated. For more information, please visit our [MIGRATION.md](MIGRATION.md)
+- Public: The `FaceCaptureStep` class deprecated. For more information, please visit our [MIGRATION.md](MIGRATION.md)
+
+### Fixed:
+- Public: Fixed wrong document type in `Captures` class for preselected `DocumentType.RESIDENCE_PERMIT`
+- Public: Fixed the `TokenExpirationHandler` class's java compatibility 
+
+## [5.5.1] - [enterprise] - 2020-03-06
+
+### Added:
+- Internal: Added ENTERPRISE_README.md
+- Internal: Added `publish-configuration.properties` file to manage publishing artifact
+
+### Changed:
+- UI: Onfido logo hidden instead using transparent `onfido_ic_watermark`
 
 ## [5.5.0] - 2020-02-17
 
@@ -23,7 +59,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed:
 - Internal: Updated Kotlin version to `1.3.50`
-- UI: Changed camera overlay background color's opacity to enhance accessibility support 
+- UI: Changed camera overlay background color's opacity to enhance accessibility support
 
 ## [5.3.3] - 2020-01-08
 
@@ -44,7 +80,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [5.3.0] - 2019-11-28
 
 ### Added:
-- Public: `DocumentType.GENERIC` type added. For more information, please visit our [README.md](README.md#document-capture-step) 
+- Public: `DocumentType.GENERIC` type added. For more information, please visit our [README.md](README.md#document-capture-step)
 
 ### Changed:
 - UI: Liveness intro video accessibility string improved
@@ -53,7 +89,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [5.2.0] - 2019-11-12
 
 ### Added:
-- UI: `java.lang.Deprecated` annotation added additionally for the deprecated functions 
+- UI: `java.lang.Deprecated` annotation added additionally for the deprecated functions
 - Internal: Improved RxJava2 error handling
 
 ### Changed:
@@ -67,7 +103,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added:
 - Public: Added SDK token support for US region
-- Public: Added ability to refresh SDK token when it expired. For more information, please visit our [README.md](README.md#4.1 SDK Token) 
+- Public: Added ability to refresh SDK token when it expired. For more information, please visit our [README.md](README.md#4.1 SDK Token)
 - Internal: Basic device information started to logging
 
 ### Changed:
@@ -80,7 +116,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [5.0.1] - 2019-09-06
 
 ### Changed:
-- Public: Improvements on our source code obfuscation strategy 
+- Public: Improvements on our source code obfuscation strategy
 
 ## [5.0.0] - 2019-08-20
 
@@ -93,10 +129,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Removed
 - Public: Removed the `withUSDLAutocapture()` method from the `OnfidoConfig.Builder`. The autocapture of the United States' driving license is now enabled by default
-- Public: Removed applicant creation using the SDK, along with the `withApplicant(Applicant)` method of the `OnfidoConfig.Builder`. 
+- Public: Removed applicant creation using the SDK, along with the `withApplicant(Applicant)` method of the `OnfidoConfig.Builder`.
 The applicant should always from now on be created outside of the SDK and its id used to initialise the flow `withApplicant(String)` on the `OnfidoConfig.Builder`
 
-## [4.11.1] - 2019-11-07 
+## [4.11.1] - 2019-11-07
 **Note** Changes in this version are the changes applied on [v5.0.1](CHANGELOG.MD#501) to 4.11.0
 
 ### Added:
