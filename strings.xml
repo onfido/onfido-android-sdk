@@ -1,4 +1,22 @@
 <resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_italian_id_capture_title">Italian identity card</string>
+    <string name="onfido_french_driving_license_capture_title">French driver\'s license</string>
+    <string name="onfido_folded_paper_option">Folded paper</string>
+    <string name="onfido_plastic_card_option">Plastic card</string>
+    <string name="onfido_driving_license_type_selection_title">What type of license do you have?</string>
+    <string name="onfido_national_identity_type_selection_title">What type of identity card do you have?</string>
+    <string name="onfido_folded_paper_front_capture_title">Profile photo side</string>
+    <string name="onfido_folded_paper_front_capture_subtitle">Lay your document flat, include all inner pages (must contain your photo)</string>
+    <string name="onfido_folded_paper_back_capture_title">Outer pages</string>
+    <string name="onfido_folded_paper_back_capture_subtitle">Lay your document flat, include all outer pages</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_folded_paper_confirmation_title">Make sure your document is fully unfolded and the photo is clear</string>
+    <string name="onfido_upload_photo">Upload photo</string>
+    <string name="onfido_retake_photo">Retake photo</string>
+
     <!-- Locale identifier -->
     <string name="onfido_locale">en</string>
 
@@ -19,6 +37,7 @@
     <string name="onfido_label_doc_type_residence_permit_short">permit</string>
     <string name="onfido_label_doc_type_visa_up">Visa</string>
     <string name="onfido_label_doc_type_work_permit_up">Work Permit</string>
+    <string name="onfido_label_doc_type_generic_up">Document</string>
 
     <!-- Welcome Screen -->
     <string name="onfido_welcome_view_toolbar_title">Identity verification</string>
@@ -205,7 +224,7 @@
     <string name="onfido_back">Back</string>
 
     <!-- Accessibility strings for screen readers -->
-    <string name="onfido_accessibility_liveness_video_example">To record a selfie video, face the front camera and keep your phone slightly away from your face. You'll then need to recite some numbers and turn your head according to the instructions on screen</string>
+    <string name="onfido_accessibility_liveness_video_example">To record a selfie video, face the front camera and keep your phone slightly away from your face. You\'ll then need to recite some numbers and turn your head according to the instructions on screen</string>
     <string name="onfido_accessibility_camera_document_capture_view">View from camera</string>
     <string name="onfido_accessibility_camera_face_capture_view">View from selfie camera</string>
     <string name="onfido_accessibility_face_confirmation_view">Photo of your face</string>
@@ -220,5 +239,10 @@
     <string name="onfido_accessibility_liveness_play_pause">Play or pause</string>
     <string name="onfido_accessibility_take_picture">Take a picture</string>
     <string name="onfido_accessibility_liveness_face_detected">Face detected</string>
+
+    <!-- Document Error -->
+    <string name="onfido_mrz_not_detected_title">Bottom two lines not visible</string>
+    <string name="onfido_mrz_not_detected_subtitle">Make sure full document is shown</string>
+
 
 </resources>
