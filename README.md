@@ -15,6 +15,7 @@
 * [Cross platform frameworks](#cross-platform-frameworks)
 * [Migrating](#migrating)
 * [Security](#security)
+* [Accessibility](#accessibility)
 * [Getting notified about releases](#getting-notified-about-releases)
 * [Licensing](#licensing)
 * [More information](#more-information)
@@ -48,6 +49,10 @@ Our configuration is currently set to the following:
 ### 1. Obtaining an API token
 
 In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
+
+#### 1.1 Regions
+
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in the API documentation for token format and API base URL information.
 
 ### 2. Adding the SDK dependency
 
@@ -101,8 +106,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.2 Mb  |
-| arm64-v8a   | 6.1 Mb  |
+| armeabi-v7a | 5.25 Mb  |
+| arm64-v8a   | 6.12 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -122,7 +127,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.7 Mb  |
+| universal   | 2.80 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -325,6 +330,8 @@ Face:
 ```
 **Note** `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
+As part of `userCompleted` method, the `DocumentType` property can only contain the values which are supported by Onfido backend APIs. Please check out [our API documentation](https://documentation.onfido.com/#document-types)
+
 ## Customising SDK
 
 ### 1. Flow customisation
@@ -350,8 +357,8 @@ This exit action will invoke the `userExited(ExitCode exitCode)` callback descri
 
 #### Document Capture Step
 In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
- 
-To customise a document capture step you can use `DocumentCaptureStepBuilder` class's functions for the corresponding document types. 
+
+To customise a document capture step you can use `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
 
 | Document Type         | Configuration function| Configurable Properties    |
 |-----------------------|-----------------------|----------------------------|
@@ -391,9 +398,9 @@ val drivingLicenceCaptureStep = DocumentCaptureStepBuilder.forDrivingLicence()
 
 ##### Configuring Document Format
 
-This configuration allows you to specify format of document such as ***Card*** and ***Folded*** 
+This configuration allows you to specify format of document such as ***Card*** and ***Folded***
 
-**Note**: You can specify ***folded*** document format for only Italian driving licence and French national identity. If you would configure the SDK with unsupported
+**Note**: You can specify ***folded*** document format for only French driving licence and Italian national identity. If you would configure the SDK with unsupported
 country configuration the SDK will throw `InvalidDocumentFormatAndCountryCombinationException`   
 
 If you would like to specify country and document format for driving license
@@ -472,7 +479,7 @@ Onfido Android SDK already comes with out-of-the-box translations for the follow
 - English (en) :uk:
 - Spanish (es) :es:
 - French  (fr) :fr:
-- Portuguese (pt) 🇵🇹
+- German  (de) :de:
 
 In case you would like us to add translations for some other locales we don't provide yet, please contact us through [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
@@ -491,6 +498,15 @@ Examples:
     - When adding a translations file inside `values-en-rUS` (american english translation), the `onfido_locale` key should have `en` as its value.
 
 Without this string correctly translated, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
+
+### 5. Enterprise Features
+
+If your account is configured with custom enterprise features and you are using an SDK token, you can call the `withEnterpriseFeatures(EnterpriseFeatures)` method of the`OnfidoConfig.Builder` and apply the desired features via an EnterpriseFeatures object
+
+#### hideOnfidoLogo
+
+Enable the hideOnfidoLogo feature by constructing an EnterpriseFeatures object with the first parameter set to true `new EnterpriseFeatures(true)`
+This will provide you with a white labeled version of the SDK where the "powered by Onfido" logo will not be displayed anywhere
 
 ## Creating checks
 
@@ -593,6 +609,15 @@ We provide integrators the ability to pin any communications between our SDK and
 our `OnfidoConfig.Builder` configuration builder. This method accepts as parameter an `Array<String>` with sha-1/sha-256 hashes of certificates' public keys.
 In case you are interested in using this feature, for more information about the hashes, please reach out to us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
+## Accessibility
+
+The Onfido Android SDK has been optimised to provide the following accessibility support by default:
+
+- Screen reader support: accessible labels for textual and non-textual elements available to aid TalkBack navigation, including dynamic alerts
+- Dynamic font size support: all elements scale automatically according to the device's font size setting
+- Sufficient color contrast: default colors have been tested to meet the recommended level of contrast
+- Sufficient touch target size: all interactive elements have been designed to meet the recommended touch target size
+
 ## Getting notified about releases
 
 In case you want to get notified about our releases, feel free to access our [Bintray page](https://bintray.com/onfido/maven/onfido-capture-sdk) and click the `Watch` button.
@@ -608,7 +633,7 @@ Integrators of our library are then responsible for keeping this information alo
 
 ### Sample App
 
-We have included sample app to show how to integrate the Onfido SDK. Please checkout [our sample app](sample-app)
+We have included sample app to show how to integrate the Onfido SDK. Please check out [our sample app](sample-app)
 
 ### API Documentation
 Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).

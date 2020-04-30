@@ -239,10 +239,11 @@
     <string name="onfido_accessibility_liveness_play_pause">Play or pause</string>
     <string name="onfido_accessibility_take_picture">Take a picture</string>
     <string name="onfido_accessibility_liveness_face_detected">Face detected</string>
+    <string name="onfido_accessibility_video_pause">Pause video</string>
+    <string name="onfido_accessibility_video_play">Play video</string>
 
     <!-- Document Error -->
     <string name="onfido_mrz_not_detected_title">Bottom two lines not visible</string>
     <string name="onfido_mrz_not_detected_subtitle">Make sure full document is shown</string>
-
 
 </resources>

@@ -13,7 +13,7 @@ DOCUMENT_CAPTURE_BACK - User reached the “document capture” screen for the b
 DOCUMENT_CAPTURE_CONFIRMATION - User reached the “document confirmation” screen (for one-sided document) 
  
 DOCUMENT_CAPTURE_CONFIRMATION_FRONT - User reached the “document confirmation” screen for the front side (for two-sided document) 
-
+ 
 DOCUMENT_CAPTURE_CONFIRMATION_BACK - User reached the “document confirmation” screen for the back side (for two-sided document) 
  
 DOCUMENT_UPLOAD - User's document is uploading 

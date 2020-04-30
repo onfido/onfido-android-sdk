@@ -1,5 +1,15 @@
 # Onfido Android SDK Migration Guide
 
+## '5.6.0' -> '6.0.0'
+
+### Breaking changes
+- Removed out-of-the-box Portuguese (`pt`) translation. If you would like to keep supporting Portuguese by providing your own XML files, please see [README](https://github.com/onfido/onfido-android-sdk#4-localisation)
+- SDK will return `DocumentType.UNKNOWN` to mirror the Onfido API response as part of the `Captures` object which is provided by `handleActivityResult` if `residence permit` or `generic` is selected
+
+### Added strings:
+- `onfido_accessibility_video_pause`
+- `onfido_accessibility_video_play`
+
 ## '5.5.0' -> '5.6.0'
 
 #### Deprecation
@@ -27,7 +37,7 @@ CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB)
 DocumentCaptureStepBuilder.forNationalIdentity()
                 .withCountry(CountryCode.GB)
                 .build();
-``` 
+```
 
 ###### Kotlin
 

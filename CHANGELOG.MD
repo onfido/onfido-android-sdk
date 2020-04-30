@@ -7,12 +7,35 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [6.0.0] - 2020-04-30
+
+### Added:
+- UI: Added play and pause to the liveness intro auto-play view in order to improve accessibility
+- UI: Added German language support
+- UI: Added dynamic enterprise feature configuration (e.g. hiding Onfido logo) - [enterprise]
+- Public: Added information on api/token regions to documentation
+
+### Changed:
+- Public: Now using [API v3](https://documentation.onfido.com/v3/) for communication with the backend
+- Internal: Extended basic device information logging to all relevant API requests
+
+### Removed:
+- Public: Removed out-of-the-box Portuguese (`pt`) translation
+
+### Fixed:
+- UI: Fixed document template overlay and edge detection message overlapping issue
+- UI: Fixed a bug that caused the `no face found` warning to not display on the selfie capture screen
+- Public: Fixed localization problems on liveness instructions
+- Public: Fixed supported folded document types explanation on README
+- Public: Fixed a bug that threw `InvalidDocumentFormatAndCountryCombinationException` on `NationalIdentityCaptureStepBuilder` and `DrivingLicenceCaptureStepBuilder` when configured with country code and document format except CountryCode.FR and CountryCode.IT  
+- Public: Fixed a bug that was causing sending not supported document type property to the Onfido backend.
+
 ## [5.6.0] - 2020-03-16
 
 ### Added:
 - Public: Added `Fragment` support to be able to start the SDK using a `Fragment` instance
 - Public: Added integrator defined event hook to allow integrators to collect user analytics
-- Public: Added `DocumentCaptureStepBuilder` and `FaceCaptureStepBuilder` to create `FlowStep` in order to customise SDK flow. For more information, please visit our [README.md](README.md#customising-sdk)  
+- Public: Added `DocumentCaptureStepBuilder` and `FaceCaptureStepBuilder` to create `FlowStep` in order to customise SDK flow. For more information, please visit our [README.md](README.md#customising-sdk)
 - UI: Now showing error message when passport MRZ is cut off in captured image
 
 ### Changed:
@@ -33,7 +56,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed:
 - Public: Fixed wrong document type in `Captures` class for preselected `DocumentType.RESIDENCE_PERMIT`
-- Public: Fixed the `TokenExpirationHandler` class's java compatibility 
+- Public: Fixed the `TokenExpirationHandler` class's java compatibility
 
 ## [5.5.1] - [enterprise] - 2020-03-06
 
