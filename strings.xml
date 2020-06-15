@@ -163,8 +163,8 @@
     <string name="onfido_country_selection_empty_state_message">We don\'t support documents from all countries yet. If your country isn\'t on the list, please select another document.</string>
 
     <!-- Autocapture -->
-    <string name="onfido_autocapture_manual_fallback_title">Auto-capture is too slow</string>
-    <string name="onfido_autocapture_manual_fallback_description">Press button to capture manually</string>
+    <string name="onfido_autocapture_manual_fallback_title">Try taking photo manually</string>
+    <string name="onfido_autocapture_manual_fallback_description">Align document, then press button</string>
 
     <!-- Blur Detection -->
     <string name="onfido_blur_detection_title">Picture is not clear</string>

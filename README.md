@@ -41,9 +41,9 @@ The SDK supports API level 16 and above ([distribution stats](https://developer.
 Our configuration is currently set to the following:
 
 - `minSdkVersion = 16`
-- `compileSdkVersion = 27`
-- `targetSdkVersion = 27`
-- `Android Support Library = 27.1.0`
+- `compileSdkVersion = 28`
+- `targetSdkVersion = 28`
+- `android.useAndroidX=true`
 - `Kotlin = 1.3+`
 
 ### 1. Obtaining an API token
@@ -106,8 +106,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.25 Mb  |
-| arm64-v8a   | 6.12 Mb  |
+| armeabi-v7a | 5.43 Mb  |
+| arm64-v8a   | 6.30 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -127,7 +127,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.80 Mb  |
+| universal   | 2.98 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -520,7 +520,7 @@ Refer to the [Authentication](https://documentation.onfido.com/#authentication) 
 
 ### 2. Creating a check
 
-You will need to create a check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-report) with the corresponding values: `facial_similarity_photo` for the photo option and `facial_similarity_video` for the video option.
+You will need to create a check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-reports) with the corresponding values: `facial_similarity_photo` for the photo option and `facial_similarity_video` for the video option.
 
 ```shell
 $ curl https://api.onfido.com/v3/checks \

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [7.0.0] - 2020-06-15
+
+### Changed:
+- UI: Changed Onfido watermark design
+- UI: Realtime glare detection is disabled for the backside of Romanian national identity card
+- UI: Updated auto-capture manual fallback alert
+- Internal: Migrated to AndroidX. For more information, please visit our [MIGRATION.md](MIGRATION.md)
+- Internal: Bump OkHttp version to 3.12.12 to avoid potential Android 11 issues
+
+### Fixed:
+- UI: Fixed Xiaomi specific zoom issue on the video preview
+
 ## [6.0.0] - 2020-04-30
 
 ### Added:

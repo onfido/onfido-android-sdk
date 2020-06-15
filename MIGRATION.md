@@ -1,5 +1,14 @@
 # Onfido Android SDK Migration Guide
 
+## '6.0.0' -> '7.0.0'
+
+### Breaking changes
+- Migrated to AndroidX. If your app hasn't completed AndroidX migration yet, please see [AndroidX Migration](https://developer.android.com/jetpack/androidx/migrate).
+
+### Changed Strings:
+- `onfido_autocapture_manual_fallback_title`
+- `onfido_autocapture_manual_fallback_description`
+
 ## '5.6.0' -> '6.0.0'
 
 ### Breaking changes
