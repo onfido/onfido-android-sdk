@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [7.1.0] - 25.06.2020
+
+### Added:
+- UI: Added co-branding feature - [enterprise]
+
+### Removed:
+- Internal: Removed `RxJavaPlugins.setErrorHandler` usage that was causing `IllegalStateException` when `RxJavaPlugins.setErrorHandler` used on host app
+
+### Fixed:
+- UI: Fixed infinite loader issue that was happening during video upload operation
+
 ## [7.0.0] - 2020-06-15
 
 ### Changed:

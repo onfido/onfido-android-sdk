@@ -106,8 +106,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.43 Mb  |
-| arm64-v8a   | 6.30 Mb  |
+| armeabi-v7a | 5.44 Mb  |
+| arm64-v8a   | 6.31 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -127,7 +127,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.98 Mb  |
+| universal   | 2.99 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -505,8 +505,45 @@ If your account is configured with custom enterprise features and you are using 
 
 #### hideOnfidoLogo
 
-Enable the hideOnfidoLogo feature by constructing an EnterpriseFeatures object with the first parameter set to true `new EnterpriseFeatures(true)`
+Enable the hideOnfidoLogo feature by constructing an EnterpriseFeatures object with the hideOnfidoLogo option.
+
+##### Kotlin
+
+```kotlin
+EnterpriseFeatures.builder()
+    .withHideOnfidoLogo(true)
+    .build()
+```
+
+###### Java
+
+```java
+EnterpriseFeatures.builder().withHideOnfidoLogo(true).build();
+```
+
 This will provide you with a white labeled version of the SDK where the "powered by Onfido" logo will not be displayed anywhere
+
+#### cobrand
+
+Enable the `cobrand` feature by constructing an EnterpriseFeatures object with the cobrand text option set with your desired brand name
+
+###### Kotlin
+
+```kotlin
+EnterpriseFeatures.builder()
+    .withCobrandingText("MyCompany")
+    .build()
+```
+
+###### Java
+
+```java
+EnterpriseFeatures.builder()
+    .withCobrandingText("MyCompany")
+    .build();
+```
+
+This will provide you with a co-branded version of the Onfido logo in the SDK where the logo will display "<Company name> powered by Onfido"
 
 ## Creating checks
 

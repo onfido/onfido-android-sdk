@@ -1,5 +1,32 @@
 # Onfido Android SDK Migration Guide
 
+## '7.0.0' -> '7.1.0'
+
+#### Deprecation
+- EnterpriseFeatures class' constructor is deprecated. Please use `EnterpriseFeatures.Builder` instead.
+
+#####before
+
+###### Kotlin
+```kotlin
+EnterpriseFeatures(true)
+```
+###### Java
+```java
+new EnterpriseFeatures(true);
+```
+
+#####after
+
+###### Kotlin
+```kotlin
+val enterpriseFeatures: EnterpriseFeatures = EnterpriseFeatures.Builder().withHideOnfidoLogo(true).build()
+```
+###### Java
+```java
+EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder().withHideOnfidoLogo(true).build();
+```
+
 ## '6.0.0' -> '7.0.0'
 
 ### Breaking changes
