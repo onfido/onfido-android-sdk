@@ -1,6 +1,6 @@
 # Onfido Android SDK Migration Guide
 
-## '7.0.0' -> '7.1.0'
+## `7.0.0` -> `7.1.0`
 
 #### Deprecation
 - EnterpriseFeatures class' constructor is deprecated. Please use `EnterpriseFeatures.Builder` instead.
@@ -27,7 +27,7 @@ val enterpriseFeatures: EnterpriseFeatures = EnterpriseFeatures.Builder().withHi
 EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder().withHideOnfidoLogo(true).build();
 ```
 
-## '6.0.0' -> '7.0.0'
+## `6.0.0` -> `7.0.0`
 
 ### Breaking changes
 - Migrated to AndroidX. If your app hasn't completed AndroidX migration yet, please see [AndroidX Migration](https://developer.android.com/jetpack/androidx/migrate).
@@ -36,7 +36,7 @@ EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder().withHideOnf
 - `onfido_autocapture_manual_fallback_title`
 - `onfido_autocapture_manual_fallback_description`
 
-## '5.6.0' -> '6.0.0'
+## `5.6.0` -> `6.0.0`
 
 ### Breaking changes
 - Removed out-of-the-box Portuguese (`pt`) translation. If you would like to keep supporting Portuguese by providing your own XML files, please see [README](https://github.com/onfido/onfido-android-sdk#4-localisation)
@@ -46,7 +46,7 @@ EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder().withHideOnf
 - `onfido_accessibility_video_pause`
 - `onfido_accessibility_video_play`
 
-## '5.5.0' -> '5.6.0'
+## `5.5.0` -> `5.6.0`
 
 #### Deprecation
 - The `CaptureScreenStep` class is deprecated. We now recommend `DocumentCaptureStepBuilder` to customise document capture steps

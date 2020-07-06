@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [7.2.0] - 06.07.2020
+
+### Changed:
+- Public: Improved US Driver Licence auto-capture performance
+
+### Fixed:
+- Public: Fixed an issue which was causing a false positive and improved MRZ detection on passports
+- Public: Fixed some rare crashes related to CameraAPI
+
+### Removed:
+- Internal: Removed the zxing library dependency
+
 ## [7.1.0] - 25.06.2020
 
 ### Added:
