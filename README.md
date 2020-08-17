@@ -499,52 +499,6 @@ Examples:
 
 Without this string correctly translated, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
 
-### 5. Enterprise Features
-
-If your account is configured with custom enterprise features and you are using an SDK token, you can call the `withEnterpriseFeatures(EnterpriseFeatures)` method of the`OnfidoConfig.Builder` and apply the desired features via an EnterpriseFeatures object
-
-#### hideOnfidoLogo
-
-Enable the hideOnfidoLogo feature by constructing an EnterpriseFeatures object with the hideOnfidoLogo option.
-
-##### Kotlin
-
-```kotlin
-EnterpriseFeatures.builder()
-    .withHideOnfidoLogo(true)
-    .build()
-```
-
-###### Java
-
-```java
-EnterpriseFeatures.builder().withHideOnfidoLogo(true).build();
-```
-
-This will provide you with a white labeled version of the SDK where the "powered by Onfido" logo will not be displayed anywhere
-
-#### cobrand
-
-Enable the `cobrand` feature by constructing an EnterpriseFeatures object with the cobrand text option set with your desired brand name
-
-###### Kotlin
-
-```kotlin
-EnterpriseFeatures.builder()
-    .withCobrandingText("MyCompany")
-    .build()
-```
-
-###### Java
-
-```java
-EnterpriseFeatures.builder()
-    .withCobrandingText("MyCompany")
-    .build();
-```
-
-This will provide you with a co-branded version of the Onfido logo in the SDK where the logo will display "<Company name> powered by Onfido"
-
 ## Creating checks
 
 As the SDK is only responsible for capturing and uploading photos/videos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
