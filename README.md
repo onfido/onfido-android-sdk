@@ -106,8 +106,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.29 Mb  |
-| arm64-v8a   | 7.33 Mb  |
+| armeabi-v7a | 6.31 Mb  |
+| arm64-v8a   | 7.34 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -127,7 +127,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.84 Mb  |
+| universal   | 3.86 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -360,15 +360,15 @@ In this step the user can pick which type of document to capture, the document o
 
 To customise a document capture step you can use `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
 
-| Document Type         | Configuration function| Configurable Properties    |
-|-----------------------|-----------------------|----------------------------|
-| Passport              | forPassport()         |                            |
-| National Identity Card| forNationalIdentity() | - country<br> - documentFormat |
-| Driving Licence       | forDrivingLicence()   | - country<br> - documentFormat |
-| Residence Permit      | forDrivingLicence()   | - country                  |
-| Visa                  | forVisa()             | - country                  |
-| Work Permit           | forWorkPermit()       | - country                  |
-| Generic               | forGenericDocument()  | - country                  |
+| Document Type           | Configuration function  | Configurable Properties        |
+| ----------------------- | ----------------------- | ----------------------------   |
+| Passport                | forPassport()           |                                |
+| National Identity Card  | forNationalIdentity()   | - country<br> - documentFormat |
+| Driving Licence         | forDrivingLicence()     | - country<br> - documentFormat |
+| Residence Permit        | forDrivingLicence()     | - country                      |
+| Visa                    | forVisa()               | - country                      |
+| Work Permit             | forWorkPermit()         | - country                      |
+| Generic                 | forGenericDocument()    | - country                      |
 
 **Note** `GENERIC` document type doesn't offer an optimised capture experience for a desired document type.
 
@@ -480,8 +480,6 @@ Onfido Android SDK already comes with out-of-the-box translations for the follow
 - Spanish (es) :es:
 - French  (fr) :fr:
 - German  (de) :de:
-
-In case you would like us to add translations for some other locales we don't provide yet, please contact us through [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 You could also provide custom translations for locales that we don't currently support, by having an additional XML strings file inside your resources folder for the desired locale (e.g. `res/values-it/onfido_strings.xml` for :it: translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
 
@@ -608,6 +606,8 @@ The Onfido Android SDK has been optimised to provide the following accessibility
 - Dynamic font size support: all elements scale automatically according to the device's font size setting
 - Sufficient color contrast: default colors have been tested to meet the recommended level of contrast
 - Sufficient touch target size: all interactive elements have been designed to meet the recommended touch target size
+
+Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-accessibility-statement) for more details.
 
 ## Getting notified about releases
 
