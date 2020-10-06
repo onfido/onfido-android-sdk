@@ -185,7 +185,7 @@ We strongly recommend using a **SDK token**. It provides a more secure means of 
 
 #### 4.1 SDK Token
 
-You will need to generate and include a short-lived JSON Web Token (JWT) every time you initialise the SDK. To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
+You will need to generate and include a short-lived JSON Web Token (JWT) every time you initialise the SDK.
 
 To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
 
