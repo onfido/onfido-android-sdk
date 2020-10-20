@@ -106,8 +106,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.31 Mb  |
-| arm64-v8a   | 7.34 Mb  |
+| armeabi-v7a | 6.32 Mb  |
+| arm64-v8a   | 7.36 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -127,7 +127,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.86 Mb  |
+| universal   | 3.87 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -186,8 +186,6 @@ We strongly recommend using a **SDK token**. It provides a more secure means of 
 #### 4.1 SDK Token
 
 You will need to generate and include a short-lived JSON Web Token (JWT) every time you initialise the SDK. To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
-
-To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
 
 ```
 $ curl https://api.onfido.com/v3/sdk_token \
@@ -400,7 +398,7 @@ val drivingLicenceCaptureStep = DocumentCaptureStepBuilder.forDrivingLicence()
 
 This configuration allows you to specify format of document such as ***Card*** and ***Folded***
 
-**Note**: You can specify ***folded*** document format for only French driving licence and Italian national identity. If you would configure the SDK with unsupported
+**Note**: You can specify ***folded*** document format for only French driving licence, South African national identity and Italian national identity. If you would configure the SDK with unsupported
 country configuration the SDK will throw `InvalidDocumentFormatAndCountryCombinationException`   
 
 If you would like to specify country and document format for driving license

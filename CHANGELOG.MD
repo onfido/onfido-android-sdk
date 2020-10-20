@@ -7,17 +7,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [7.4.0] - 2020-10-20
+
+### Added
+
+- Public: Added support for South African ID folded paper document capture
+
+### Changed
+
+- Public: Renamed most of the localisation keys. Now, names are more explicit in which screens they are being used. Please visit our [MIGRATION.md](MIGRATION.md#730---740)
+- Public: Remove duplication in the README file
+
 ## [7.3.0] - 2020-08-27
 
 ### Added
 
-- Public: Added config to enable manual liveness capture
+- Public: Added config to enable manual liveness capture 
 
 ### Changed
 
 - UI: Removed Singapore endonym
 
-## [7.2.0] - 06.07.2020
+## [7.2.0] - 2020.07.06
 
 ### Changed:
 - Public: Improved US Driver Licence auto-capture performance
@@ -29,7 +40,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed:
 - Internal: Removed the zxing library dependency
 
-## [7.1.0] - 25.06.2020
+## [7.1.0] - 2020.06.25
 
 ### Added:
 - UI: Added co-branding feature - [enterprise]

@@ -1,5 +1,17 @@
 # Onfido Android SDK Migration Guide
 
+## `7.3.0` -> `7.4.0`
+
+### Added Strings:
+- `onfido_app_title_doc_capture_id_za`
+
+### Changed Strings:
+- ⚠️ Most of the localisation keys have been renamed. If you have customised any of the Onfido SDK's strings in your project, you may use [migrate-keys.rb](key_migration/migrate-keys.rb) script and key mapping file [key_migration_7_3_0_mapping.json](key_migration/key_migration_7_3_0_mapping.json) to migrate from 7.3.0 to 7.4.0
+
+```bash
+  migrate-keys.rb --files-path <app/src/main/res/> --platform android --key-mapping-file key_migration_7_3_0_mapping.json
+```
+
 ## `7.0.0` -> `7.1.0`
 
 #### Deprecation

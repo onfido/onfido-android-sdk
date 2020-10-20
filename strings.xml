@@ -1,249 +1,286 @@
 <resources>
 
     <!-- Document Capture -->
-    <string name="onfido_italian_id_capture_title">Italian identity card</string>
-    <string name="onfido_french_driving_license_capture_title">French driver\'s license</string>
-    <string name="onfido_folded_paper_option">Folded paper</string>
-    <string name="onfido_plastic_card_option">Plastic card</string>
-    <string name="onfido_driving_license_type_selection_title">What type of license do you have?</string>
-    <string name="onfido_national_identity_type_selection_title">What type of identity card do you have?</string>
-    <string name="onfido_folded_paper_front_capture_title">Profile photo side</string>
-    <string name="onfido_folded_paper_front_capture_subtitle">Lay your document flat, include all inner pages (must contain your photo)</string>
-    <string name="onfido_folded_paper_back_capture_title">Outer pages</string>
-    <string name="onfido_folded_paper_back_capture_subtitle">Lay your document flat, include all outer pages</string>
+    <string name="onfido_app_title_doc_capture_id_it">Italian identity card</string>
+    <string name="onfido_app_title_doc_capture_id_za">South African identity card</string>
+    <string name="onfido_app_title_doc_capture_license_fr">French driver\'s license</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Paper document</string>
+    <string name="onfido_doc_capture_prompt_button_card">Plastic card</string>
+    <string name="onfido_doc_capture_prompt_title_license">What type of license do you have?</string>
+    <string name="onfido_doc_capture_prompt_title_id">What type of identity card do you have?</string>
+    <string name="onfido_doc_capture_header_folded_doc_front">Profile photo side</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Lay your document flat, include all inner pages (must contain your photo)</string>
+    <string name="onfido_doc_capture_header_folded_doc_back">Outer pages</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Lay your document flat, include all outer pages</string>
 
     <!-- Document Confirmation -->
-    <string name="onfido_folded_paper_confirmation_title">Make sure your document is fully unfolded and the photo is clear</string>
-    <string name="onfido_upload_photo">Upload photo</string>
-    <string name="onfido_retake_photo">Retake photo</string>
+    <string name="onfido_doc_confirmation_body_folded_doc">Make sure your document is fully unfolded and the photo is clear</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Upload photo</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Retake photo</string>
 
     <!-- Locale identifier -->
     <string name="onfido_locale">en</string>
 
     <!-- General -->
-    <string name="onfido_thank_you">Thank you</string>
+    <string name="onfido_outro_title">Thank you</string>
     <string name="onfido_continue">Continue</string>
-    <string name="onfido_cancel">Cancel</string>
+    <string name="onfido_video_intro_button_primary">Continue</string>
+    <string name="onfido_selfie_intro_button_primary">Continue</string>
+    <string name="onfido_permission_recovery_button_secondary_cam">Cancel</string>
+    <string name="onfido_permission_recovery_button_secondary_mic">Cancel</string>
+    <string name="onfido_permission_recovery_button_secondary_both">Cancel</string>
 
     <!-- Loading -->
-    <string name="onfido_message_loading">Loading</string>
+    <string name="onfido_generic_loading">Loading</string>
 
     <!-- Document Types -->
-    <string name="onfido_label_doc_type_passport_up">Passport</string>
-    <string name="onfido_label_doc_type_driving_license_up">Driver\'s License</string>
+    <string name="onfido_doc_select_button_passport">Passport</string>
+    <string name="onfido_app_title_doc_capture_passport">Passport</string>
+    <string name="onfido_doc_select_button_license">Driver\'s License</string>
+    <string name="onfido_app_title_doc_capture_license">Driver\'s License</string>
     <string name="onfido_label_doc_type_driving_license_short">license</string>
-    <string name="onfido_label_doc_type_id_card_up">National Identity Card</string>
-    <string name="onfido_label_doc_type_residence_permit_up">Residence Permit Card</string>
+    <string name="onfido_doc_select_button_id">National Identity Card</string>
+    <string name="onfido_app_title_doc_capture_id">National Identity Card</string>
+    <string name="onfido_doc_select_button_permit">Residence Permit Card</string>
+    <string name="onfido_app_title_doc_capture_permit">Residence Permit Card</string>
     <string name="onfido_label_doc_type_residence_permit_short">permit</string>
-    <string name="onfido_label_doc_type_visa_up">Visa</string>
-    <string name="onfido_label_doc_type_work_permit_up">Work Permit</string>
-    <string name="onfido_label_doc_type_generic_up">Document</string>
+    <string name="onfido_app_title_doc_capture_visa">Visa</string>
+    <string name="onfido_app_title_doc_capture_permit_work">Work Permit</string>
+    <string name="onfido_app_title_doc_capture_generic">Document</string>
 
     <!-- Welcome Screen -->
-    <string name="onfido_welcome_view_toolbar_title">Identity verification</string>
-    <string name="onfido_welcome_view_title">Verify your identity</string>
-    <string name="onfido_welcome_view_time">It will take less than 2 minutes</string>
-    <string name="onfido_welcome_view_document_capture_title">Take a picture of an identity document</string>
-    <string name="onfido_welcome_view_face_capture_title">Take a selfie</string>
-    <string name="onfido_welcome_view_liveness_capture_title">Record a selfie video</string>
+    <string name="onfido_app_title_welcome">Identity verification</string>
+    <string name="onfido_app_title_doc_select">Identity verification</string>
+    <string name="onfido_welcome_title">Verify your identity</string>
+    <string name="onfido_welcome_subtitle">It will take less than 2 minutes</string>
+    <string name="onfido_welcome_list_item_doc">Take a picture of an identity document</string>
+    <string name="onfido_welcome_list_item_selfie">Take a selfie</string>
+    <string name="onfido_selfie_capture_button_accessibility">Take a selfie</string>
+    <string name="onfido_selfie_intro_title">Take a selfie</string>
+    <string name="onfido_welcome_list_item_video">Record a selfie video</string>
+    <string name="onfido_video_intro_title">Record a selfie video</string>
 
     <!-- Document Selection Screen -->
-    <string name="onfido_document_selection_title">Select a document</string>
-    <string name="onfido_document_selection_subtitle">You will take a picture of it in the next step</string>
+    <string name="onfido_doc_select_title">Select a document</string>
+    <string name="onfido_doc_select_subtitle">You will take a picture of it in the next step</string>
 
     <!-- Country Selection Screen -->
-    <string name="onfido_country_selection_toolbar_title">Select issuing country</string>
-    <string name="onfido_unsupported_document_title">Can\'t find your country?</string>
-    <string name="onfido_unsupported_document_description">Sorry about that. Use an alternative document instead.</string>
-    <string name="onfido_close">Close</string>
-    <string name="onfido_select_another_document">Select another document</string>
+    <string name="onfido_app_title_country_select">Select issuing country</string>
+    <string name="onfido_country_select_bottom_sheet_title">Can\'t find your country?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Sorry about that. Use an alternative document instead.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Close</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Select another document</string>
 
     <!-- Capture Face Intro -->
-    <string name="onfido_capture_face_subtitle">We will compare the photo in your document with your selfie</string>
-    <string name="onfido_capture_face_step_1">Please, keep a straight face</string>
-    <string name="onfido_capture_face_step_2">Wearing glasses? Make sure we can clearly see your eyes</string>
+    <string name="onfido_selfie_intro_subtitle">We will compare the photo in your document with your selfie</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Please, keep a straight face</string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Wearing glasses? Make sure we can clearly see your eyes</string>
 
     <!-- Capture Document/Face -->
-    <string name="onfido_message_capture_face">Position your face in the oval</string>
-    <string name="onfido_retry">Retry</string>
-    <string name="onfido_message_capture_camera_unavailable">There is no camera available in this device</string>
-    <string name="onfido_message_capture_camera_unavailable_runtime">Camera is unavailable. There might be another application using it at the same time.</string>
-    <string name="onfido_message_confirm_face_subtitle">Make sure your selfie clearly shows your face</string>
-    <string name="onfido_message_passport_capture_subtitle">Position the page with your photo in the frame</string>
-    <string name="onfido_message_side_document_front_driving_license">Front of driver\'s license</string>
-    <string name="onfido_message_side_document_back_driving_license">Back of driver\'s license</string>
-    <string name="onfido_message_side_document_front_residence_permit">Front of permit</string>
-    <string name="onfido_message_side_document_back_residence_permit">Back of permit</string>
-    <string name="onfido_message_side_document_front_national_id">Front of card</string>
-    <string name="onfido_message_side_document_back_national_id">Back of card</string>
-    <string name="onfido_message_side_document_front_generic">Front of document</string>
-    <string name="onfido_message_side_document_back_generic">Back of document</string>
-    <string name="onfido_message_document_visa">Visa page</string>
-    <string name="onfido_no_document">No document found</string>
-    <string name="onfido_no_face">No face found</string>
-    <string name="onfido_multiple_faces">Multiple faces found</string>
-    <string name="onfido_message_validation_error_multiple_faces">Only your face can be in the selfie</string>
-    <string name="onfido_message_validation_error_face">Make sure your face is fully visible</string>
-    <string name="onfido_message_validation_error_document">Make sure all the document is in the photo</string>
-    <string name="onfido_message_capture_error_face">Face capture didn\'t work. Please try again.</string>
-    <string name="onfido_message_capture_error_document">Document capture didn\'t work. Please try again.</string>
-    <string name="onfido_message_capture_error_video">Video capture didn\'t work. Please try again.</string>
-    <string name="onfido_message_check_readability_subtitle_passport">Make sure your passport details are clear to read, with no blur or glare</string>
-    <string name="onfido_message_check_readability_subtitle_residence_permit">Make sure your permit details are clear to read, with no blur or glare</string>
-    <string name="onfido_message_check_readability_subtitle_driving_license">Make sure your license details are clear to read, with no blur or glare</string>
-    <string name="onfido_message_check_readability_subtitle_national_id">Make sure your card details are clear to read, with no blur or glare</string>
-    <string name="onfido_message_check_readability_subtitle_visa">Make sure your visa details are clear to read, with no blur or glare</string>
-    <string name="onfido_message_check_readability_subtitle_generic">Make sure your document details are clear to read, with no blur or glare</string>
-    <string name="onfido_message_document_capture_info_front_residence_permit">Position the front of your permit in the frame</string>
-    <string name="onfido_message_document_capture_info_back_residence_permit">Position the back of your permit in the frame</string>
-    <string name="onfido_message_document_capture_info_front_driving_license">Position the front of your license in the frame</string>
-    <string name="onfido_message_document_capture_info_back_driving_license">Position the back of your license in the frame</string>
-    <string name="onfido_message_document_capture_info_front_national_id">Position the front of your card in the frame</string>
-    <string name="onfido_message_document_capture_info_back_national_id">Position the back of your card in the frame</string>
-    <string name="onfido_message_document_capture_info_front_generic">Position the front of your document in the frame</string>
-    <string name="onfido_message_document_capture_info_back_generic">Position the back of your document in the frame</string>
+    <string name="onfido_selfie_capture_body">Position your face in the oval</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Retry</string>
+    <string name="onfido_generic_error_camera_unavailable">There is no camera available in this device</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Camera is unavailable. There might be another application using it at the same time.</string>
+    <string name="onfido_selfie_confirmation_body">Make sure your selfie clearly shows your face</string>
+    <string name="onfido_doc_capture_detail_passport_auto">Position the page with your photo in the frame</string>
+    <string name="onfido_doc_capture_detail_visa_front">Position the page with your photo in the frame</string>
+    <string name="onfido_doc_capture_detail_visa_back">Position the page with your photo in the frame</string>
+    <string name="onfido_doc_capture_header_license_front">Front of driver\'s license</string>
+    <string name="onfido_doc_capture_header_license_back">Back of driver\'s license</string>
+    <string name="onfido_doc_capture_header_permit_front">Front of permit</string>
+    <string name="onfido_doc_capture_header_permit_back">Back of permit</string>
+    <string name="onfido_doc_capture_header_id_front">Front of card</string>
+    <string name="onfido_doc_capture_header_id_back">Back of card</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Front of document</string>
+    <string name="onfido_doc_capture_header_generic_front">Front of document</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Back of document</string>
+    <string name="onfido_doc_capture_header_generic_back">Back of document</string>
+    <string name="onfido_doc_capture_header_visa_front">Visa page</string>
+    <string name="onfido_doc_capture_header_visa_back">Visa page</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_title">No document found</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">No face found</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Multiple faces found</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Only your face can be in the selfie</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Make sure your face is fully visible</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Make sure all the document is in the photo</string>
+    <string name="onfido_generic_error_face_capture">Face capture didn\'t work. Please try again.</string>
+    <string name="onfido_generic_error_doc_capture">Document capture didn\'t work. Please try again.</string>
+    <string name="onfido_generic_error_video_capture">Video capture didn\'t work. Please try again.</string>
+    <string name="onfido_doc_confirmation_body_passport">Make sure your passport details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_confirmation_body_permit">Make sure your permit details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_confirmation_body_license">Make sure your license details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_confirmation_body_id">Make sure your card details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_confirmation_body_visa">Make sure your visa details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_confirmation_body_permit_work">Make sure your document details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_confirmation_body_generic">Make sure your document details are clear to read, with no blur or glare</string>
+    <string name="onfido_doc_capture_detail_permit_front">Position the front of your permit in the frame</string>
+    <string name="onfido_doc_capture_detail_permit_back">Position the back of your permit in the frame</string>
+    <string name="onfido_doc_capture_detail_license_front_auto">Position the front of your license in the frame</string>
+    <string name="onfido_doc_capture_detail_license_front">Position the front of your license in the frame</string>
+    <string name="onfido_doc_capture_detail_license_back">Position the back of your license in the frame</string>
+    <string name="onfido_doc_capture_detail_id_front">Position the front of your card in the frame</string>
+    <string name="onfido_doc_capture_detail_id_back">Position the back of your card in the frame</string>
+    <string name="onfido_doc_capture_detail_permit_work_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_detail_generic_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_detail_permit_work_back">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_detail_generic_back">Position the back of your document in the frame</string>
 
     <!-- Glare Detection -->
-    <string name="onfido_glare_detected_title">Glare is detected</string>
-    <string name="onfido_glare_detected_subtitle">Try moving away from direct light</string>
+    <string name="onfido_doc_capture_alert_glare_title">Glare is detected</string>
+    <string name="onfido_doc_capture_alert_glare_detail">Try moving away from direct light</string>
 
     <!-- Final Screen -->
-    <string name="onfido_submit_verification">Submit verification</string>
+    <string name="onfido_outro_button_primary">Submit verification</string>
 
     <!-- Generic Error -->
-    <string name="onfido_error">Error</string>
-    <string name="onfido_error_dialog_title">Connection lost</string>
-    <string name="onfido_error_connection_message">There was a network error. Please check your connection.</string>
-    <string name="onfido_generic_error_message">Something went wrong. Please try again later.</string>
+    <string name="onfido_generic_error_title">Error</string>
+    <string name="onfido_generic_error_network_title">Connection lost</string>
+    <string name="onfido_generic_error_network_detail">There was a network error. Please check your connection.</string>
+    <string name="onfido_generic_error_detail">Something went wrong. Please try again later.</string>
 
     <!-- Face/Document Confirmation -->
-    <string name="onfido_confirm_passport">My passport is readable</string>
-    <string name="onfido_confirm_residence_permit">My permit is readable</string>
-    <string name="onfido_confirm_driving_license">My license is readable</string>
-    <string name="onfido_confirm_national_id">My card is readable</string>
-    <string name="onfido_confirm_visa">My visa is readable</string>
-    <string name="onfido_confirm_generic_document">My document is readable</string>
-    <string name="onfido_confirm_face_long">Confirm my selfie</string>
-    <string name="onfido_confirm_face_short">Confirm</string>
-    <string name="onfido_discard">Take a new picture</string>
-    <string name="onfido_discard_face_long">Take a new selfie</string>
-    <string name="onfido_discard_face_short">Take new</string>
+    <string name="onfido_doc_confirmation_button_primary_passport">My passport is readable</string>
+    <string name="onfido_doc_confirmation_button_primary_permit">My permit is readable</string>
+    <string name="onfido_doc_confirmation_button_primary_license">My license is readable</string>
+    <string name="onfido_doc_confirmation_button_primary_id">My card is readable</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">My visa is readable</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">My document is readable</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">My document is readable</string>
+    <string name="onfido_selfie_confirmation_button_primary_long">Confirm my selfie</string>
+    <string name="onfido_selfie_confirmation_button_primary_short">Confirm</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Take a new picture</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Take a new picture</string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Take a new picture</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Take a new picture</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Take a new picture</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Take a new picture</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Take a new picture</string>
+    <string name="onfido_selfie_confirmation_button_secondary_long">Take a new selfie</string>
+    <string name="onfido_selfie_confirmation_button_secondary_short">Take new</string>
 
     <!-- Liveness -->
-    <string name="onfido_liveness_intro_subtitle">Let\'s make sure nobody\'s impersonating you</string>
-    <string name="onfido_liveness_intro_step_1_title">Speak out loud and move your head</string>
-    <string name="onfido_liveness_intro_step_2_title">Finish actions in under %1$d seconds</string>
+    <string name="onfido_video_intro_subtitle">Let\'s make sure nobody\'s impersonating you</string>
+    <string name="onfido_video_intro_list_item_move_speak">Speak out loud and move your head</string>
+    <string name="onfido_video_intro_list_item_time_limit">Finish actions in under %1$d seconds</string>
     <string name="onfido_liveness_intro_loading_video">Loading example</string>
-    <string name="onfido_start">Start</string>
-    <string name="onfido_liveness_challenge_digits_title">Say each digit out loud</string>
-    <string name="onfido_liveness_challenge_turn_left_title">Look over your left shoulder and back</string>
-    <string name="onfido_liveness_challenge_turn_right_title">Look over your right shoulder and back</string>
-    <string name="onfido_liveness_timeout_exceeded_title">Looks like you took too long</string>
-    <string name="onfido_liveness_timeout_exceeded_description">Remember to press "stop" when you\'re done</string>
-    <string name="onfido_retake_video">Retake video</string>
-    <string name="onfido_submit_video">Submit video</string>
-    <string name="onfido_liveness_video_not_found">Your video can\'t be found on your device. Please retake it.</string>
-    <string name="onfido_liveness_storage_threshold_title">Your device is full</string>
-    <string name="onfido_liveness_storage_threshold_message">Free some storage space and record your video again</string>
-    <string name="onfido_check_selfie_video">Check selfie video</string>
-    <string name="onfido_turn_sound_on">Turn sound on</string>
-    <string name="onfido_start_recording">Start recording</string>
-    <string name="onfido_finish_recording">Finish recording</string>
-    <string name="onfido_next_step">Next step</string>
-    <string name="onfido_liveness_media_player_error">There was an error with your video. Please retake it</string>
-    <string name="onfido_reload">Reload</string>
-    <string name="onfido_unable_load_unstable_network">Unable to load due to unstable network</string>
-    <string name="onfido_unable_load_offline">Unable to load because you\'re offline</string>
+    <string name="onfido_welcome_button_primary">Start</string>
+    <string name="onfido_welcome_button_primary_doc">Start</string>
+    <string name="onfido_welcome_button_primary_selfie">Start</string>
+    <string name="onfido_welcome_button_primary_video">Start</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Say each digit out loud</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Look over your left shoulder and back</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Look over your right shoulder and back</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Looks like you took too long</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Remember to press "stop" when you\'re done</string>
+    <string name="onfido_video_confirmation_button_secondary">Retake video</string>
+    <string name="onfido_video_confirmation_button_primary">Submit video</string>
+    <string name="onfido_video_confirmation_error_no_video">Your video can\'t be found on your device. Please retake it.</string>
+    <string name="onfido_video_capture_error_storage_title">Your device is full</string>
+    <string name="onfido_video_capture_error_storage_detail">Free some storage space and record your video again</string>
+    <string name="onfido_video_confirmation_title">Check selfie video</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Turn sound on</string>
+    <string name="onfido_video_capture_button_primary_start">Start recording</string>
+    <string name="onfido_video_capture_button_primary_finish">Finish recording</string>
+    <string name="onfido_video_capture_button_primary_fallback">Next step</string>
+    <string name="onfido_video_confirmation_error_media_player">There was an error with your video. Please retake it</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Reload</string>
+    <string name="onfido_video_intro_error_network">Unable to load due to unstable network</string>
+    <string name="onfido_video_intro_error_load_offline">Unable to load because you\'re offline</string>
 
     <!-- Country Suggestion/Selection -->
-    <string name="onfido_suggested_country">Suggested country</string>
-    <string name="onfido_all_countries">All countries</string>
-    <string name="onfido_search">Search</string>
-    <string name="onfido_country_selection_empty_state_title">Sorry, we can\'t find your country :(</string>
-    <string name="onfido_country_selection_empty_state_message">We don\'t support documents from all countries yet. If your country isn\'t on the list, please select another document.</string>
+    <string name="onfido_country_select_list_header_suggested">Suggested country</string>
+    <string name="onfido_country_select_list_header_all">All countries</string>
+    <string name="onfido_app_title_country_select_search">Search</string>
+    <string name="onfido_country_select_error_no_country_title">Sorry, we can\'t find your country :(</string>
+    <string name="onfido_country_select_error_no_country_body">We don\'t support documents from all countries yet. If your country isn\'t on the list, please select another document.</string>
 
     <!-- Autocapture -->
-    <string name="onfido_autocapture_manual_fallback_title">Try taking photo manually</string>
-    <string name="onfido_autocapture_manual_fallback_description">Align document, then press button</string>
+    <string name="onfido_doc_capture_alert_manual_capture_title">Try taking photo manually</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Align document, then press button</string>
 
     <!-- Blur Detection -->
-    <string name="onfido_blur_detection_title">Picture is not clear</string>
-    <string name="onfido_blur_detection_subtitle">Make sure there is no blur or glare</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Picture is not clear</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Make sure there is no blur or glare</string>
 
     <!-- US DL Barcode Detector -->
-    <string name="onfido_barcode_error_title">Barcode is not readable</string>
-    <string name="onfido_submit_my_picture">Submit my picture</string>
+    <string name="onfido_doc_capture_alert_no_barcode_title">Barcode is not readable</string>
+    <string name="onfido_doc_confirmation_alert_no_barcode_title">Barcode is not readable</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Submit my picture</string>
 
-    <string name="onfido_message_document_passport">Passport face page</string>
+    <string name="onfido_doc_capture_header_passport">Passport face page</string>
 
     <!-- General Permissions -->
-    <string name="onfido_allow_one_instructions">Tap %1$s on the popup that will appear on the next screen</string>
-    <string name="onfido_allow_two_instructions">Tap %1$s on the 2 popups that will appear on the next screens</string>
+    <string name="onfido_permission_extra_instructions_cam">Tap %1$s on the popup that will appear on the next screen</string>
+    <string name="onfido_permission_extra_instructions_mic">Tap %1$s on the popup that will appear on the next screen</string>
+    <string name="onfido_permission_extra_instructions_both">Tap %1$s on the 2 popups that will appear on the next screens</string>
     <string name="onfido_allow">Allow</string>
-    <string name="onfido_go_settings">Go to settings</string>
+    <string name="onfido_permission_recovery_button_primary_cam">Go to settings</string>
+    <string name="onfido_permission_recovery_button_primary_mic">Go to settings</string>
+    <string name="onfido_permission_recovery_button_primary_both">Go to settings</string>
 
     <!-- Camera Permissions -->
-    <string name="onfido_allow_camera_access">Allow camera access</string>
-    <string name="onfido_allow_camera_selfie_extended">Enable your camera to take pictures with your mobile</string>
-    <string name="onfido_allow_camera_video_extended">Enable your camera to take a video</string>
-    <string name="onfido_allow_camera_access_selfie_deny_explanation">If you deny camera access, you won’t be able to take pictures and complete the verification process</string>
-    <string name="onfido_allow_camera_access_video_deny_explanation">If you deny camera access, you won’t be able to take a video and complete the verification process</string>
-    <string name="onfido_enable_camera">Enable camera</string>
+    <string name="onfido_permission_title_cam">Allow camera access</string>
+    <string name="onfido_permission_subtitle_cam">Enable your camera to take pictures with your mobile</string>
+    <string name="onfido_permission_subtitle_video">Enable your camera to take a video</string>
+    <string name="onfido_permission_body_cam">If you deny camera access, you won’t be able to take pictures and complete the verification process</string>
+    <string name="onfido_permission_body_video">If you deny camera access, you won’t be able to take a video and complete the verification process</string>
+    <string name="onfido_permission_button_primary_cam">Enable camera</string>
 
-    <string name="onfido_camera_access_denied">Camera access is denied</string>
-    <string name="onfido_camera_access_selfie_recover">Recover camera access to take pictures and complete the verification process</string>
-    <string name="onfido_camera_access_video_recover">Recover camera access to take a video and complete the verification process</string>
-    <string name="onfido_camera_access_recover_instructions_title">Go to your device settings to recover %1$s camera access</string>
+    <string name="onfido_permission_recovery_title_cam">Camera access is denied</string>
+    <string name="onfido_permission_recovery_subtitle_cam">Recover camera access to take pictures and complete the verification process</string>
+    <string name="onfido_permission_recovery_subtitle_video">Recover camera access to take a video and complete the verification process</string>
+    <string name="onfido_permission_recovery_extra_instructions_cam">Go to your device settings to recover %1$s camera access</string>
 
     <!-- Microphone Permissions -->
-    <string name="onfido_allow_mic_access">Allow microphone access</string>
-    <string name="onfido_allow_mic_extended">Enable your microphone to take a video</string>
-    <string name="onfido_allow_mic_access_deny_explanation">If you deny microphone access, you won’t be able to take a video and complete the verification process</string>
-    <string name="onfido_enable_mic">Enable microphone</string>
+    <string name="onfido_permission_title_mic">Allow microphone access</string>
+    <string name="onfido_permission_subtitle_mic">Enable your microphone to take a video</string>
+    <string name="onfido_permission_body_mic">If you deny microphone access, you won’t be able to take a video and complete the verification process</string>
+    <string name="onfido_permission_button_primary_mic">Enable microphone</string>
 
-    <string name="onfido_mic_access_denied">Microphone access is denied</string>
-    <string name="onfido_mic_access_recover">Recover microphone access to take a video and complete the verification process</string>
-    <string name="onfido_mic_access_recover_instructions_title">Go to your device settings to recover %1$s microphone access</string>
-    <string name="onfido_mic_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the microphone</string>
+    <string name="onfido_permission_recovery_title_mic">Microphone access is denied</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Recover microphone access to take a video and complete the verification process</string>
+    <string name="onfido_permission_recovery_extra_instructions_mic">Go to your device settings to recover %1$s microphone access</string>
+    <string name="onfido_permission_recovery_body_mic">Tap on “Permissions” to grant access to the microphone</string>
 
     <!-- Camera + Microphone Permissions -->
-    <string name="onfido_allow_camera_mic_access">Allow camera and microphone access</string>
-    <string name="onfido_allow_camera_mic_extended">Enable your camera and microphone to take a video</string>
-    <string name="onfido_allow_camera_mic_access_deny_explanation">If you deny camera and microphone access, you won’t be able to take a video and complete the verification process</string>
-    <string name="onfido_enable_camera_mic">Enable camera and mic</string>
+    <string name="onfido_permission_title_both">Allow camera and microphone access</string>
+    <string name="onfido_permission_subtitle_both">Enable your camera and microphone to take a video</string>
+    <string name="onfido_permission_body_both">If you deny camera and microphone access, you won’t be able to take a video and complete the verification process</string>
+    <string name="onfido_permission_button_primary_both">Enable camera and mic</string>
 
-    <string name="onfido_camera_mic_access_denied">Camera permissions are denied</string>
-    <string name="onfido_camera_mic_access_recover">Recover camera and microphone access to take a video and complete the verification process</string>
-    <string name="onfido_camera_mic_access_recover_instructions_title">Go to your device settings to recover %1$s camera and microphone access</string>
-    <string name="onfido_camera_mic_access_recover_instructions_subtitle">Tap on “Permissions” to grant access to the camera and microphone</string>
+    <string name="onfido_permission_recovery_title_both">Camera permissions are denied</string>
+    <string name="onfido_permission_recovery_subtitle_both">Recover camera and microphone access to take a video and complete the verification process</string>
+    <string name="onfido_permission_recovery_extra_instructions_both">Go to your device settings to recover %1$s camera and microphone access</string>
+    <string name="onfido_permission_recovery_body_cam">Tap on “Permissions” to grant access to the camera</string>
+    <string name="onfido_permission_recovery_body_both">Tap on “Permissions” to grant access to the camera and microphone</string>
 
-    <string name="onfido_wrong_side">Wrong side</string>
-    <string name="onfido_liveness_fetch_challenge_error_button_title">Reload instructions</string>
-    <string name="onfido_liveness_fetch_challenge_error_title">Connection timeout</string>
+    <string name="onfido_video_capture_alert_wrong_side">Wrong side</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Reload instructions</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Connection timeout</string>
     <string name="onfido_liveness_fetch_challenge_error_description">Check that your connection is stable, then try again</string>
-    <string name="onfido_back">Back</string>
+    <string name="onfido_generic_back">Back</string>
 
     <!-- Accessibility strings for screen readers -->
-    <string name="onfido_accessibility_liveness_video_example">To record a selfie video, face the front camera and keep your phone slightly away from your face. You\'ll then need to recite some numbers and turn your head according to the instructions on screen</string>
-    <string name="onfido_accessibility_camera_document_capture_view">View from camera</string>
-    <string name="onfido_accessibility_camera_face_capture_view">View from selfie camera</string>
-    <string name="onfido_accessibility_face_confirmation_view">Photo of your face</string>
-    <string name="onfido_accessibility_document_confirmation_view">Photo of your document</string>
+    <string name="onfido_video_intro_video_accessibility">To record a selfie video, face the front camera and keep your phone slightly away from your face. You\'ll then need to recite some numbers and turn your head according to the instructions on screen</string>
+    <string name="onfido_doc_capture_frame_accessibility">View from camera</string>
+    <string name="onfido_selfie_capture_frame_accessibility">View from selfie camera</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Photo of your face</string>
+    <string name="onfido_doc_confirmation_image_accessibility">Photo of your document</string>
     <string name="onfido_accessibility_liveness_confirmation_view">Your video</string>
-    <string name="onfido_accessibility_video_preview_recorded">Preview of your recorded video</string>
-    <string name="onfido_accessibility_liveness_digits">You should hear yourself saying: %1$s</string>
-    <string name="onfido_accessibility_liveness_move">You should see yourself turning your head to the %1$s</string>
-    <string name="onfido_accessibility_then">Then</string>
-    <string name="onfido_accessibility_liveness_left">Left</string>
-    <string name="onfido_accessibility_liveness_right">Right</string>
-    <string name="onfido_accessibility_liveness_play_pause">Play or pause</string>
-    <string name="onfido_accessibility_take_picture">Take a picture</string>
-    <string name="onfido_accessibility_liveness_face_detected">Face detected</string>
-    <string name="onfido_accessibility_video_pause">Pause video</string>
-    <string name="onfido_accessibility_video_play">Play video</string>
+    <string name="onfido_video_confirmation_video_accessibility">Preview of your recorded video</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">You should hear yourself saying: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">You should see yourself turning your head to the %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Then</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Left</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Right</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Play or pause</string>
+    <string name="onfido_doc_capture_button_accessibility">Take a picture</string>
+    <string name="onfido_video_capture_frame_success_accessibility">Face detected</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Pause video</string>
+    <string name="onfido_video_intro_button_play_accessibility">Play video</string>
 
     <!-- Document Error -->
-    <string name="onfido_mrz_not_detected_title">Bottom two lines not visible</string>
-    <string name="onfido_mrz_not_detected_subtitle">Make sure full document is shown</string>
+    <string name="onfido_doc_capture_alert_no_mrz_title">Bottom two lines not visible</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Make sure full document is shown</string>
 
 </resources>
