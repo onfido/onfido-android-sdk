@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [8.0.0] - 2020-12-16
+
+### Added
+
+- Public: Added an option to hide the recorded video on the confirmation screen. For more information, please visit our [README](README.md#face-capture-step)
+
+### Changed
+
+- Public: Dropped support for Android 4.x
+- Public: Now cropping document images before sending them to the backend
+- UI: Updated Final Screen design
+
 ## [7.4.0] - 2020-10-20
 
 ### Added

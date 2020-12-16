@@ -23,6 +23,7 @@
 
     <!-- General -->
     <string name="onfido_outro_title">Thank you</string>
+    <string name="onfido_outro_body">That\’s all we need to start verifying your identity</string>
     <string name="onfido_continue">Continue</string>
     <string name="onfido_video_intro_button_primary">Continue</string>
     <string name="onfido_selfie_intro_button_primary">Continue</string>
@@ -173,7 +174,7 @@
     <string name="onfido_video_capture_prompt_title_timeout">Looks like you took too long</string>
     <string name="onfido_video_capture_prompt_detail_timeout">Remember to press "stop" when you\'re done</string>
     <string name="onfido_video_confirmation_button_secondary">Retake video</string>
-    <string name="onfido_video_confirmation_button_primary">Submit video</string>
+    <string name="onfido_video_confirmation_button_primary">Upload video</string>
     <string name="onfido_video_confirmation_error_no_video">Your video can\'t be found on your device. Please retake it.</string>
     <string name="onfido_video_capture_error_storage_title">Your device is full</string>
     <string name="onfido_video_capture_error_storage_detail">Free some storage space and record your video again</string>
@@ -267,6 +268,7 @@
     <string name="onfido_selfie_confirmation_image_accessibility">Photo of your face</string>
     <string name="onfido_doc_confirmation_image_accessibility">Photo of your document</string>
     <string name="onfido_accessibility_liveness_confirmation_view">Your video</string>
+    <string name="onfido_video_confirmation_body">Your video has been recorded</string>
     <string name="onfido_video_confirmation_video_accessibility">Preview of your recorded video</string>
     <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">You should hear yourself saying: %1$s</string>
     <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">You should see yourself turning your head to the %1$s</string>

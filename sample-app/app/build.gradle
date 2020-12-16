@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '7.4.0'
-def versionCodeNumber = 740
+def sdkVersion = '8.0.0'
+def versionCodeNumber = 800
 
 android {
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.onfido.sampleapp"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode versionCodeNumber
         versionName "$versionCode-sdk:$sdkVersion"

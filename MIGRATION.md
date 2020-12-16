@@ -1,5 +1,16 @@
 # Onfido Android SDK Migration Guide
 
+## `7.4.0` -> `8.0.0`
+
+### Breaking changes
+- Minimum Android API level (minSdkVersion) support has been updated from 16 to 21. Onfido SDK will stop supporting Android 4.x starting with this version.
+
+### Added Strings:
+- `onfido_outro_body`
+
+### Changed Strings:
+- `onfido_video_confirmation_button_primary`
+
 ## `7.3.0` -> `7.4.0`
 
 ### Added Strings:

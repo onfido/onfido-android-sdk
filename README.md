@@ -36,11 +36,13 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 ## Getting started
 
-The SDK supports API level 16 and above ([distribution stats](https://developer.android.com/about/dashboards/index.html)).
+The SDK supports API level 21 and above ([distribution stats](https://developer.android.com/about/dashboards/index.html)).
+
+[Version 7.4.0](https://github.com/onfido/onfido-android-sdk/releases/tag/7.4.0) was the last version that supports API level 16 and above.
 
 Our configuration is currently set to the following:
 
-- `minSdkVersion = 16`
+- `minSdkVersion = 21`
 - `compileSdkVersion = 28`
 - `targetSdkVersion = 28`
 - `android.useAndroidX=true`
@@ -106,8 +108,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.32 Mb  |
-| arm64-v8a   | 7.36 Mb  |
+| armeabi-v7a | 6.30 Mb  |
+| arm64-v8a   | 7.33 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -127,7 +129,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.87 Mb  |
+| universal   | 3.84 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -437,6 +439,14 @@ By default both face and video variants show an introduction screen. You can dis
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
                 .withIntro(false)
+                .build();
+```
+
+If you would like to not display the recorded video on the confirmation screen, you could hide it using `withConfirmationVideoPreview` function. 
+
+```java
+FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
+                .withConfirmationVideoPreview(false)
                 .build();
 ```
 
