@@ -43,7 +43,6 @@ The SDK supports API level 21 and above ([distribution stats](https://developer.
 Our configuration is currently set to the following:
 
 - `minSdkVersion = 21`
-- `compileSdkVersion = 28`
 - `targetSdkVersion = 28`
 - `android.useAndroidX=true`
 - `Kotlin = 1.3+`
@@ -108,8 +107,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.30 Mb  |
-| arm64-v8a   | 7.33 Mb  |
+| armeabi-v7a | 5.27 Mb  |
+| arm64-v8a   | 6.16 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -129,7 +128,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.84 Mb  |
+| universal   | 2.74 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -365,7 +364,7 @@ To customise a document capture step you can use `DocumentCaptureStepBuilder` cl
 | Passport                | forPassport()           |                                |
 | National Identity Card  | forNationalIdentity()   | - country<br> - documentFormat |
 | Driving Licence         | forDrivingLicence()     | - country<br> - documentFormat |
-| Residence Permit        | forDrivingLicence()     | - country                      |
+| Residence Permit        | forResidencePermit()    | - country                      |
 | Visa                    | forVisa()               | - country                      |
 | Work Permit             | forWorkPermit()         | - country                      |
 | Generic                 | forGenericDocument()    | - country                      |

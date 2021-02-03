@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '8.0.0'
-def versionCodeNumber = 800
+def sdkVersion = '8.1.0'
+def versionCodeNumber = 810
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     defaultConfig {
         applicationId "com.onfido.sampleapp"
         minSdkVersion 21
@@ -49,13 +49,13 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "com.onfido.sdk.capture:onfido-capture-sdk:$sdkVersion"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     testImplementation 'junit:junit:4.12'
 
     // only required to support TLSv1.2 for devices with Android API lower than 5.x
-    implementation('com.google.android.gms:play-services-base:11.8.0') {
+    implementation('com.google.android.gms:play-services-base:17.5.0') {
         exclude group: 'com.android.support' // to avoid conflicts with your current support library
     }
 }

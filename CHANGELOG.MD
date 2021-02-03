@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [8.1.0] - 2021-02-03
+
+### Changed
+
+- Public: Migrate from Firebase ML to Google ML Kit
+- Public: Use java.security.SecureRandom instead of java.util.Random
+- Public: Disabled jetifier
+- Public: Fix wrong function name for the residence permit document type in the README
+
+### Fixed
+
+- Public: Fix localisation bug for appcompat version 1.1.0 and 1.2.0
+
 ## [8.0.0] - 2020-12-16
 
 ### Added
