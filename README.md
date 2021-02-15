@@ -46,6 +46,12 @@ Our configuration is currently set to the following:
 - `targetSdkVersion = 28`
 - `android.useAndroidX=true`
 - `Kotlin = 1.3+`
+```
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+```
 
 ### 1. Obtaining an API token
 
@@ -107,8 +113,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.27 Mb  |
-| arm64-v8a   | 6.16 Mb  |
+| armeabi-v7a | 5.33 Mb  |
+| arm64-v8a   | 6.21 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -128,7 +134,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.74 Mb  |
+| universal   | 2.80 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).

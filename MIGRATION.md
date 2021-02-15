@@ -1,5 +1,10 @@
 # Onfido Android SDK Migration Guide
 
+## `8.1.0` -> `9.0.0`
+
+### Breaking changes
+- Updated to [OkHttp4](https://square.github.io/okhttp/upgrading_to_okhttp_4/). In order to prevent runtime issues due to library conflicts, the host app must match the major version of the OkHttp.
+
 ## `7.4.0` -> `8.0.0`
 
 ### Breaking changes
