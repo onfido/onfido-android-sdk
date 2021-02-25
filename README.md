@@ -113,8 +113,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.33 Mb  |
-| arm64-v8a   | 6.21 Mb  |
+| armeabi-v7a | 5.34 Mb  |
+| arm64-v8a   | 6.22 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -134,7 +134,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.80 Mb  |
+| universal   | 2.81 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
@@ -324,6 +324,12 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow.
 With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
 
+| ExitCode                              |
+| ------------------------------------- |
+| USER_LEFT_ACTIVITY                    |
+| USER_CONSENT_DENIED                   |
+| CAMERA_PERMISSION_DENIED (Deprecated) |
+
 Sample of a `Captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT` and `FlowStep.CAPTURE_FACE`:
 ```
 Document:
@@ -346,6 +352,7 @@ You can customise the flow of the SDK via the `withCustomFlow(FlowStep[])` metho
 ```java
 final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
     FlowStep.WELCOME,                       //Welcome step with a step summary, Optional
+    FlowStep.USER_CONSENT,                  //User Consent Page, Optional
     FlowStep.CAPTURE_DOCUMENT,              //Document Capture Step
     FlowStep.CAPTURE_FACE,                  //Face Capture Step
     FlowStep.FINAL                          //Final Screen Step, Optional
@@ -359,6 +366,18 @@ final OnfidoConfig config = OnfidoConfig.builder()
 
 Also, by calling the `exitWhenSentToBackground()` method of the `OnfidoConfig.Builder`, you can determine that the flow should be exited whenever the user sends the app to background.
 This exit action will invoke the `userExited(ExitCode exitCode)` callback described in the [handling callbacks section](#handling-callbacks).
+
+#### Welcome Step
+In this step the user is presented with a summary of the capture steps he/she is about to pass through.
+
+#### User Consent Step
+This step contains a screen to collect the user's privacy consent and is an optional step in the SDK flow. It contains the required consent language as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
+
+Note that this step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
+
+If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your user starts interacting with the Onfido SDK.
+
+For more information about this step, and how to collect user consent, please visit [onfido-privacy-notices-and-consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
 
 #### Document Capture Step
 In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
@@ -430,9 +449,6 @@ val drivingLicenceCaptureStep = DocumentCaptureStepBuilder.forDrivingLicence()
 
 Please be aware that we don't support every document - country combination, and unsupported documents will not be verified. So if you decide to bypass the default country selection screen by replacing the `FlowStep.CAPTURE_DOCUMENT` with a `CaptureScreenStep`, please make sure that you are specifying a supported document.
 We provide an up-to-date list of the documents we support [here](https://onfido.com/supported-documents/)
-
-#### Welcome Step
-In this step the user is presented with a summary of the capture steps he/she is about to pass through.
 
 #### Face Capture Step
 In this step the user can capture either a photo of his/her face, or a live video by using the front camera. In case of choosing the second option,

@@ -2,7 +2,9 @@
 
 Below is the list of potential events currently being tracked by the user analytics event hook:
 ```
-WELCOME - User reached the "Welcome" screen 
+WELCOME - User reached the “Welcome” screen 
+
+USER_CONSENT - User reached the “consent” screen
  
 DOCUMENT_CAPTURE - User reached the “document capture” screen (for one-sided document) 
  
@@ -30,9 +32,9 @@ VIDEO_FACIAL_INTRO - User reached the “liveness intro” screen
  
 VIDEO_FACIAL_CAPTURE - User reached the “liveness video capture” screen 
  
-VIDEO_FACIAL_CAPTURE_STEP_1 - User reached the 1st challenge during “liveness video capture", challenge_type can be found in eventProperties 
+VIDEO_FACIAL_CAPTURE_STEP_1 - User reached the 1st challenge during “liveness video capture”, challenge_type can be found in eventProperties 
  
-VIDEO_FACIAL_CAPTURE_STEP_2 - User reached the 1st challenge during “liveness video capture", challenge_type can be found in eventProperties 
+VIDEO_FACIAL_CAPTURE_STEP_2 - User reached the 1st challenge during “liveness video capture”, challenge_type can be found in eventProperties 
  
 VIDEO_FACIAL_CAPTURE_CONFIRMATION - User reached the “liveness video confirmation” screen 
  

@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private void startFlow() {
         final FlowStep[] flowStepsWithOptions = new FlowStep[]{
                 FlowStep.WELCOME,
+                FlowStep.USER_CONSENT,
                 FlowStep.CAPTURE_DOCUMENT,
                 FlowStep.CAPTURE_FACE,
                 FlowStep.FINAL

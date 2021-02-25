@@ -1,5 +1,19 @@
 # Onfido Android SDK Migration Guide
 
+## `9.0.0` -> `9.1.0`
+
+### Added Strings:
+- `onfido_user_consent_button_primary`
+- `onfido_user_consent_button_secondary`
+- `onfido_user_consent_prompt_no_consent_title`
+- `onfido_user_consent_prompt_no_consent_detail`
+- `onfido_user_consent_prompt_button_primary`
+- `onfido_user_consent_prompt_button_secondary`
+- `onfido_app_title_user_consent`
+
+#### Deprecation
+- `CAMERA_PERMISSION_DENIED` in `ExitCode` enum is deprecated as permissions are being handled inside the SDK.
+
 ## `8.1.0` -> `9.0.0`
 
 ### Breaking changes

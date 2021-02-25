@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [9.1.0] - 2021-02-25
+
+### Added
+
+- Public: Implemented optional user consent screen
+
+### Fixed
+
+- Public: Fixed default language code for German
+
 ## [9.0.0] - 2021-02-15
 
 ### Changed

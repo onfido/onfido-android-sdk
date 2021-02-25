@@ -285,4 +285,11 @@
     <string name="onfido_doc_capture_alert_no_mrz_title">Bottom two lines not visible</string>
     <string name="onfido_doc_capture_alert_no_mrz_detail">Make sure full document is shown</string>
 
-</resources>
+    <!-- User Consent Screen -->
+	<string name="onfido_user_consent_button_primary">Accept</string>
+	<string name="onfido_user_consent_button_secondary">Do not accept</string>
+	<string name="onfido_user_consent_prompt_no_consent_title">Are you sure?</string>
+	<string name="onfido_user_consent_prompt_no_consent_detail">If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.</string>
+	<string name="onfido_user_consent_prompt_button_primary">Yes, don’t verify me</string>
+	<string name="onfido_user_consent_prompt_button_secondary">Review again</string>
+	<string name="onfido_app_title_user_consent">Verify your identity</string></resources>
