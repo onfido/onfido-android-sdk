@@ -114,7 +114,7 @@ Average size (with Proguard enabled):
 | ABI         |  Size   |
 | ----------- | :-----: |
 | armeabi-v7a | 5.34 Mb  |
-| arm64-v8a   | 6.22 Mb  |
+| arm64-v8a   | 6.23 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.

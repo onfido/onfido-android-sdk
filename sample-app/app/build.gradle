@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '9.1.0'
-def versionCodeNumber = 910
+def sdkVersion = '9.2.0'
+def versionCodeNumber = 920
 
 android {
     compileSdkVersion 30
