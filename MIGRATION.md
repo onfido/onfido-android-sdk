@@ -1,5 +1,10 @@
 # Onfido Android SDK Migration Guide
 
+## `9.2.0` -> `9.3.0`
+
+### Changes
+- Migrated from JCenter to Maven Central. You will need to add `mavenCentral()` into the `repositories` block, if it is not already added.
+
 ## `9.0.0` -> `9.1.0`
 
 ### Added Strings:

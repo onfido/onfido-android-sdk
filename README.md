@@ -1,6 +1,6 @@
 # Onfido Android SDK
 
-[![Download](https://api.bintray.com/packages/onfido/maven/onfido-capture-sdk/images/download.svg)](https://bintray.com/onfido/maven/onfido-capture-sdk/_latestVersion)
+[![Download](https://maven-badges.herokuapp.com/maven-central/com.onfido.sdk.capture/onfido-capture-sdk/badge.png)](https://search.maven.org/artifact/com.onfido.sdk.capture/onfido-capture-sdk/)
 ![Build Status](https://app.bitrise.io/app/0d3fe90349e46fbe/status.svg?token=6GpMhK-XJU_9kWRuHzkLmA&branch=master)
 
 ## Table of contents
@@ -71,11 +71,11 @@ This version provides advanced on-device, real-time glare and blur detection as 
 
 ```gradle
 repositories {
-  jcenter()
+  mavenCentral()
 }
 
 dependencies {
-  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:+'
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:x.y.z'
 }
 ```
 
@@ -113,8 +113,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.34 Mb  |
-| arm64-v8a   | 6.23 Mb  |
+| armeabi-v7a | 5.38 Mb  |
+| arm64-v8a   | 6.27 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
@@ -122,11 +122,11 @@ Since there are no real-time validations on-device, ABI split is not needed.
 
 ```gradle
 repositories {
-  jcenter()
+  mavenCentral()
 }
 
 dependencies {
-  implementation 'com.onfido.sdk.capture:onfido-capture-sdk-core:+'
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk-core:x.y.z'
 }
 ```
 
@@ -134,23 +134,11 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.81 Mb  |
+| universal   | 2.85 Mb  |
 
 The sizes stated above were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
 Different versions of dependencies such as Gradle or NDK may result in slightly different values.
-
-Notes:
-
-Until these packages get approved to be included in JCenter, the following snippet must be used to instruct gradle to search for them on Bintray:
-
-```gradle
-repositories {
-  maven {
-    url  "https://dl.bintray.com/onfido/maven"
-  }
-}
-```
 
 **Warning:** In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
 According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running
@@ -246,7 +234,7 @@ OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
 
 #### 4.2 Mobile Token
 
-**Note:**  Mobile token usage is still supported, but it **will be removed** in the future. If you are starting a project, we would strongly recommend that you use SDK tokens instead.
+**Note:**  From **1st June 2021** onward, new SDK versions will no longer support **mobile tokens**. Please migrate your integration to use **SDK tokens** so that you can upgrade to new SDK versions in the future.
 
 In order to start integration, you will need the **API token** and the **mobile token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
@@ -371,13 +359,13 @@ This exit action will invoke the `userExited(ExitCode exitCode)` callback descri
 In this step the user is presented with a summary of the capture steps he/she is about to pass through.
 
 #### User Consent Step
-This step contains a screen to collect the user's privacy consent and is an optional step in the SDK flow. It contains the required consent language as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
+This step contains a screen to collect the US user's privacy consent for Onfido and is an optional step in the SDK flow. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
 
 Note that this step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
 
 If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your user starts interacting with the Onfido SDK.
 
-For more information about this step, and how to collect user consent, please visit [onfido-privacy-notices-and-consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
+For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
 
 #### Document Capture Step
 In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
@@ -480,7 +468,7 @@ It should be used at the end of the flow, but it's not necessary.
 #### Identity Verification Intro Step (Optional)
 It explains to the user the purpose of the identity verification flow.
 
-### 2. Theme customisation
+### 2. UI customisation
 
 In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own `colors.xml` file:
 
@@ -502,7 +490,11 @@ the color of the text on the secondary action buttons (e.g. retake picture/video
 
 `onfidoPrimaryButtonTextColor`: Defines the color of the text inside the primary action buttons
 
-### 4. Localisation
+For customizing the appearance of some widgets, you can provide the customization in your `dimens.xml` by overriding:
+ 
+`onfidoButtonCornerRadius`: Defines the radius' dimension of all the corners of primary and secondary buttons.
+
+### 3. Localisation
 
 Onfido Android SDK already comes with out-of-the-box translations for the following locales:
 - English (en) :uk:
@@ -638,10 +630,6 @@ The Onfido Android SDK has been optimised to provide the following accessibility
 
 Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-accessibility-statement) for more details.
 
-## Getting notified about releases
-
-In case you want to get notified about our releases, feel free to access our [Bintray page](https://bintray.com/onfido/maven/onfido-capture-sdk) and click the `Watch` button.
-
 ## Licensing
 
 Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies as repackaged versions of the original libraries.
@@ -656,7 +644,7 @@ Integrators of our library are then responsible for keeping this information alo
 We have included sample app to show how to integrate the Onfido SDK. Please check out [our sample app](sample-app)
 
 ### API Documentation
-Further information about the underlying Onfido API is available in our documentation [here](https://onfido.com/documentation).
+Further information about the underlying Onfido API is available in our [API reference](https://documentation.onfido.com).
 
 ### Support
 

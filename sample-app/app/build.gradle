@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '9.2.0'
-def versionCodeNumber = 920
+def sdkVersion = '9.3.0'
+def versionCodeNumber = 930
 
 android {
     compileSdkVersion 30
@@ -42,7 +42,7 @@ android {
 }
 
 repositories {
-    maven { url "https://dl.bintray.com/onfido/maven" }
+    mavenCentral()
     maven { url 'https://maven.fabric.io/public' }
 }
 
