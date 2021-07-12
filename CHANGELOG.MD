@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [10.0.0] - 2021-07-12
+
+### Added
+
+- UI: Added IT and PT locale support
+
+### Changed
+
+- UI: Split head turn instructions into 2 lines, with the arrow in between
+- UI: Integrated image quality service
+- UI: Improved designs and copies across the SDK. Please visit our [MIGRATION.md](MIGRATION.md) for the copy updates
+- Public: Removed deprecated methods and constructors of DocumentType class
+- UI: Removed timer icon from subtitle in welcome screen
+- UI: Properly set titles as accessibility headings
+- Public: Live capture warnings like "Glare detected" shouldn't steal focus from the user's current selection during Voice Over or Accessibility mode
+- UI: Existing strings have been updated and new ones have been added. For more information, please visit our [MIGRATION.md](MIGRATION.md)
+- UI: Screen reader should read back button with screen title
+- UI: Made country selection list items to be treated as buttons
+
+### Fixed
+
+- Public: Fixed low image quality issue that was happening on certain Xiaomi devices
+- Public: Fixed disappearing passport capture instruction text during on device validations
+- Public: Fixed a bug that was not triggering VIDEO_FACIAL_CAPTURE_STEP_0, VIDEO_FACIAL_CAPTURE_STEP_1 events in UserEventHandler during face liveness flow
+
 ## [9.3.1] - 2021-05-25
 
 ### Fixed

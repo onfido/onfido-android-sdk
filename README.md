@@ -8,7 +8,7 @@
 * [Overview](#overview)
 * [Getting started](#getting-started)
 * [Handling callbacks](#handling-callbacks)
-* [Customising SDK](#customising-sdk)
+* [Customizing the SDK](#customising-sdk)
 * [Creating checks](#creating-checks)
 * [User Analytics](#user-analytics)
 * [Going live](#going-live)
@@ -16,20 +16,21 @@
 * [Migrating](#migrating)
 * [Security](#security)
 * [Accessibility](#accessibility)
-* [Getting notified about releases](#getting-notified-about-releases)
 * [Licensing](#licensing)
 * [More information](#more-information)
 
 ## Overview
 
-This SDK provides a drop-in set of screens and tools for Android applications to allow capturing of identity documents and face photos/live videos for the purpose of identity verification. The SDK offers a number of benefits to help you create the best onboarding/identity verification experience for your customers:
+The Onfido Android SDK provides a drop-in set of screens and tools for Android applications to capture identity documents and selfie photos and videos for the purpose of identity verification. 
 
-- Carefully designed UI to guide your customers through the entire photo/video-capturing process
-- Modular design to help you seamlessly integrate the photo/video-capturing process into your application flow
+It offers a number of benefits to help you create the best identity verification experience for your customers:
+
+- Carefully designed UI to guide your customers through the entire photo and video capture process
+- Modular design to help you seamlessly integrate the photo and video capture process into your application flow
 - Advanced image quality detection technology to ensure the quality of the captured images meets the requirement of the Onfido identity verification process, guaranteeing the best success rate
-- Direct image upload to the Onfido service, to simplify integration\*
+- Direct image upload to the Onfido service, to simplify integration
 
-\* Note: the SDK is only responsible for capturing and uploading photos/videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to create and manage checks.
+:warning: Note: The SDK is only responsible for capturing and uploading photos and videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
 
 ![Various views from the SDK](screenshots.jpg "")
 ![Various views from the SDK](gifs.gif "")
@@ -38,7 +39,7 @@ This SDK provides a drop-in set of screens and tools for Android applications to
 
 The SDK supports API level 21 and above ([distribution stats](https://developer.android.com/about/dashboards/index.html)).
 
-[Version 7.4.0](https://github.com/onfido/onfido-android-sdk/releases/tag/7.4.0) was the last version that supports API level 16 and above.
+[Version 7.4.0](https://github.com/onfido/onfido-android-sdk/releases/tag/7.4.0) was the last version that supported API level 16 and above.
 
 Our configuration is currently set to the following:
 
@@ -53,21 +54,30 @@ Our configuration is currently set to the following:
   }
 ```
 
-### 1. Obtaining an API token
+:warning: The following content assumes you're using our API v3 versions for backend calls. If you are currently using API v2 please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
 
-In order to start integration, you will need the **API token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). You can create sandbox tokens inside your Onfido Dashboard.
+### 1. Obtain an API token
+
+In order to start integrating, you will need an [API token](https://documentation.onfido.com/#api-tokens). 
+
+You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration. To use the sandbox, you'll need to generate a sandbox API token in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). 
 
 #### 1.1 Regions
 
-Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in the API documentation for token format and API base URL information.
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
 
-### 2. Adding the SDK dependency
+### 2. Add the SDK dependency
 
-Starting on version `4.2.0`, we now offer a modularised SDK, which means you can integrate it in two different ways:
+Starting from version `4.2.0`, Onfido offers a modularized SDK. You can integrate it in 2 different ways:
+
+1. `onfido-capture-sdk`
+2. `onfido-capture-sdk-core`
 
 #### 2.1 `onfido-capture-sdk`
-Complete, input quality-focused solution suited for better captures and faster IDV flows. This is the **recommended** integrated option.
-This version provides advanced on-device, real-time glare and blur detection as well as auto-capture (passport only) on top of a set of basic image validations.
+
+This is the **recommended** integrated option.
+
+This is a complete solution, focusing on input quality. It features advanced on-device, real-time glare and blur detection as well as auto-capture (passport only) on top of a set of basic image validations.
 
 ```gradle
 repositories {
@@ -79,8 +89,7 @@ dependencies {
 }
 ```
 
-Due to the advanced validation support stated above, in the form of C++ code, we recommend that the integrator app performs [multi-APK split](#211-multi-apk-split)
-to optimise the app size for individual architectures.
+Due to the advanced validation support (in C++ code) we recommend that the integrator app performs [multi-APK split](#211-multi-apk-split) to optimize the app size for individual architectures.
 
 ##### 2.1.1 Multi-APK split
 
@@ -92,7 +101,7 @@ C++ code needs to be compiled for each of the CPU architectures (known as "ABIs"
 * `x86_64`: Used by 64-bit tablets
 
 The SDK binary contains a copy of the native `.so` file for each of these four platforms.
-You can considerably reduce the size of your `.apk` by applying APK split by ABI, editing your `build.gradle` as the following:
+You can considerably reduce the size of your `.apk` by applying APK split by ABI, editing your `build.gradle` to the following:
 
 ```gradle
 android {
@@ -107,18 +116,18 @@ android {
   }
 }
 ```
-More information on the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits)
+Read the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits) for more information.
 
 Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 5.38 Mb  |
-| arm64-v8a   | 6.27 Mb  |
+| armeabi-v7a | 6.25 Mb  |
+| arm64-v8a   | 7.14 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
-Lighter, app size-friendly version. This version provides a set of basic image validations mostly provided by the backend.
-Since there are no real-time validations on-device, ABI split is not needed.
+
+This is a lighter version. It provides a set of basic image validations, mostly completed on the backend. There are no real-time validations on-device so ABI split is not needed.
 
 ```gradle
 repositories {
@@ -134,17 +143,17 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 2.85 Mb  |
+| universal   | 3.72 Mb  |
 
-The sizes stated above were measured by building the minimum possible wrappers around our SDK,
+
+**Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
 using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
-Different versions of dependencies such as Gradle or NDK may result in slightly different values.
+Different versions of the dependencies, such as Gradle or NDK, may result in slightly different values.
 
-**Warning:** In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
-According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running
-Android API 20+.
-In case you need to support devices older than that in your integration with the Onfido Android SDK, we need to access Google Play Services to install the latest security updates, which enable this support.
-As such, if you don't use Google Play Services on your integration yet, we require you to add the following dependency:
+:warning: In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
+According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running Android API 20+.
+If you need to support older devices, we need to access Google Play Services to install the latest security updates which enable this support.
+If you don't use Google Play Services on your integration yet, we require you to add the following dependency:
 
 ```gradle
 compile ('com.google.android.gms:play-services-base:x.y.z') {
@@ -152,50 +161,56 @@ compile ('com.google.android.gms:play-services-base:x.y.z') {
 }
 ```
 
-### 3. Creating an applicant
+### 3. Create an applicant
 
-You must create an Onfido [applicant](https://documentation.onfido.com/#applicants) before you start the flow.
+To create an applicant from your backend server, make a request to the ['create applicant' endpoint](https://documentation.onfido.com/#create-applicant), using a valid API token. 
 
-You must create applicants on your server. For a document or face check, the minimum applicant details required are `first_name` and `last_name`:
+**Note**: Different report types have different minimum requirements for applicant data. For a Document or Facial Similarity report the minimum applicant details required are `first_name` and `last_name`.
 
 ```shell
 $ curl https://api.onfido.com/v3/applicants \
-    -H 'Authorization: Token token=YOUR_API_TOKEN' \
-    -d 'first_name=Theresa' \
-    -d 'last_name=May'
+    -H 'Authorization: Token token=<YOUR_API_TOKEN>' \
+    -d 'first_name=John' \
+    -d 'last_name=Smith'
 ```
 
-The JSON response has an `id` field containing an UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos/videos uploaded by that instance of the SDK will be associated with that applicant.
+The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos and videos uploaded by that instance of the SDK will be associated with that applicant.
 
-**Note**: If you're using API v2, please check out [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#applicant-creation) to understand which changes need to be applied before starting to use API v3.
+### 4. Configure the SDK with tokens
 
-### 4. Configuring SDK with Tokens
+The SDK supports 2 token mechanisms:
 
-We now support two token mechanisms:
+* `SDK token`   
+* `Mobile token`
 
-`SDK token`   
-`Mobile token`
+We strongly recommend using a **SDK token**. It provides a more secure means of integration, as the token is temporary and applicant ID-bound. 
 
-We strongly recommend using a **SDK token**. It provides a more secure means of integration, as the token is temporary and applicant id-bound. Note that, if you're using an SDK token, you shouldn't call **withApplicantId** function.
+**Note**: If you're using an SDK token, you shouldn't call the **withApplicantId** function.
 
-#### 4.1 SDK Token
+#### 4.1 SDK tokens
 
-You will need to generate and include a short-lived JSON Web Token (JWT) every time you initialise the SDK. To generate an SDK Token you should perform a request to the SDK Token endpoint in the Onfido API:
+You'll need to generate and include an SDK token every time you initialize the SDK. 
+To generate an SDK token, make a request to the ['generate SDK token' endpoint](https://documentation.onfido.com/#generate-web-sdk-token).
 
-```
+```shell
 $ curl https://api.onfido.com/v3/sdk_token \
-  -H 'Authorization: Token token=YOUR_API_TOKEN' \
-  -F 'applicant_id=YOUR_APPLICANT_ID' \
-  -F 'application_id=YOUR_APPLICATION_ID'
+  -H 'Authorization: Token token=<YOUR_API_TOKEN>' \
+  -F 'applicant_id=<YOUR_APPLICANT_ID>' \
+  -F 'application_id=<YOUR_APPLICATION_ID>'
 ```
 
-Make a note of the token value in the response, as you will need it later on when initialising the SDK.
+| Parameter           |  Notes   |
+| ------------ | --- |
+| `applicant_id` | **required** <br /> Specifies the applicant for the SDK instance. |
+| `application_id` | **required** <br /> The application ID that was set up during development. For Android, this is usually in the form `com.example.yourapp`. Make sure to use a valid `application_id` or you'll receive a 401 error. |
 
-**Warning:** SDK tokens expire 90 minutes after creation. The SDK token configurator function has an optional `tokenExpirationHandler` parameter. It will be called when sdk token expires and you can use it to pass a new one.
+:warning: SDK tokens expire after 90 minutes. 
 
-**Note**: If you're using API v2, please check out [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide) to understand which changes need to be applied before starting to use API v3.
+##### 4.1.1 `tokenExpirationHandler`
 
-##### Example Usage
+You can use the optional `tokenExpirationHandler` parameter in the SDK token configurator function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired.
+
+For example:
 
 ##### Kotlin
 
@@ -204,13 +219,13 @@ Make a note of the token value in the response, as you will need it later on whe
 class ExpirationHandler : TokenExpirationHandler {
 
         override fun refreshToken(injectNewToken: (String?) -> Unit) {
-            TODO("Your network request logic to retrieve SDK token goes here")
-            injectNewToken("NEW_SDK_TOKEN") // if you pass `null` sdk exit with token expired error
+            TODO("<Your network request logic to retrieve SDK token goes here>")
+            injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the sdk will exit with token expired error
         }
     }
 
 val config = OnfidoConfig.builder(context)
-    .withSDKToken("YOUR_SDK_TOKEN_HERE", tokenExpirationHandler = ExpirationHandler()) // ExpirationHandler is optional
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>", tokenExpirationHandler = ExpirationHandler()) // ExpirationHandler is optional
 ```
 
 ##### Java
@@ -222,69 +237,62 @@ class ExpirationHandler implements TokenExpirationHandler {
     @Override
     public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
         //Your network request logic to retrieve SDK token goes here
-        injectNewToken.invoke("NEW_SDK_TOKEN"); // if you pass `null`  sdk exit with token expired error
+        injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the sdk will exit with token expired error
     }
 }
 
 OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
-                .withSDKToken("YOUR_SDK_TOKEN", new ExpirationHandler()); // ExpirationHandler is optional
+                .withSDKToken("<YOUR_SDK_TOKEN>", new ExpirationHandler()); // ExpirationHandler is optional
 ```
 
-**Note:** If you want to use `tokenExpirationHandler` you should pass concrete class instance, you should not pass an **anonymous** or **activity** class instance.  
+**Note:** If you want to use `tokenExpirationHandler` you should pass a concrete class instance, you should not pass an **anonymous** or **activity** class instance.  
 
-#### 4.2 Mobile Token
+#### 4.2 Mobile tokens
 
-**Note:**  From **1st June 2021** onward, new SDK versions will no longer support **mobile tokens**. Please migrate your integration to use **SDK tokens** so that you can upgrade to new SDK versions in the future.
+:warning: From **1st June 2021**, new SDK versions will no longer support Mobile tokens. Please migrate your integration to use [SDK tokens](#41-sdk-token) so that you can upgrade to new SDK versions in the future.
 
-In order to start integration, you will need the **API token** and the **mobile token**. You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration, and you will find these two sandbox tokens inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+You can generate Mobile tokens in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
 
-**Warning:** You **MUST** use the **mobile token** and not the **API token** when configuring the SDK itself.
-
-##### Example Usage
+:warning: You must use the Mobile token and not the API token when configuring the SDK itself.
 
 ##### Kotlin
 
 ```kotlin
 val config = OnfidoConfig.builder(context)
-    .withToken("YOUR_MOBILE_TOKEN_HERE")
-    .withApplicant("YOUR_APPLICANT_ID_HERE")
+    .withToken("<YOUR_MOBILE_TOKEN_HERE>")
+    .withApplicant("<YOUR_APPLICANT_ID_HERE>")
 ```
 
 ##### Java
 
 ```java
 OnfidoConfig.Builder config = new OnfidoConfig.Builder(this)
-                    .withToken("YOUR_MOBILE_TOKEN_HERE")
-                    .withApplicant("YOUR_APPLICANT_ID_HERE");
+                    .withToken("<YOUR_MOBILE_TOKEN_HERE>")
+                    .withApplicant("<YOUR_APPLICANT_ID_HERE>");
 ```
 
-### 5. Instantiating the client
+### 5. Instantiate the client
 
-To use the SDK, you need to obtain an instance of the client object:
+To use the SDK, you need to obtain an instance of the client object.
 
 ```java
 final Context context = ...;
 Onfido onfido = OnfidoFactory.create(context).getClient();
 ```
 
-### 6. Starting the flow
+### 6. Start the flow
 
 ```java
-// start the flow. 1 should be your request code (customise as needed)
+// start the flow. 1 should be your request code (customize as needed)
 onfido.startActivityForResult(this,         /*must be an Activity or Fragment (support library)*/
-                              1,            /*this request code will be important for you on onActivityResult() to identity the onfido callback*/
+                              1,            /*this request code will be important for you on onActivityResult() to identify the onfido callback*/
                               config);
 ```
 
-Congratulations! You have successfully started the flow. Carry on reading the next sections to learn how to:
-
-- Handle callbacks
-- Customise the SDK
-- Create checks
 
 ## Handling callbacks
 
-To receive the result from the flow, you should override the method `onActivityResult` on your Activity/Fragment. Typically, on success, you would [create a check](#creating-checks) on your backend server.
+To receive the result from the flow, you should override the method `onActivityResult` on your Activity or Fragment. Typically, on success, you would [create a check](#creating-checks) on your backend server.
 
 ```java
 @Override
@@ -293,32 +301,28 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     onfido.handleActivityResult(resultCode, data, new Onfido.OnfidoResultListener() {
         @Override
         public void userCompleted(Captures captures) {
-            //communicate with your backend and initiate the check
         }
 
         @Override
         public void userExited(ExitCode exitCode) {
-            //User left the sdk flow without completing it
         }
 
         @Override
         public void onError(OnfidoException exception) {
-            // An exception occurred during the flow
         }
     });
 }
 ```
 
-When the user has successfully completed the flow, and the captured photos/videos have been uploaded, the `userCompleted` method will be invoked. The `Captures` object contains information about the document and face captures made during the flow.
-With the applicant id, you can then [create a check](#creating-checks) for the user via your backend. On the other hand, if the user exits the flow without completing it, the `userExited` method will be invoked. Note that some images may have already been uploaded by this stage.
+| Attribute     |    Notes    |
+| -----|-------|
+| `userCompleted` | User completed the flow. You can now [create a check](#creating-checks) on your backend server. The `captures` object contains information about the document and face captures made during the flow.|
+| `userExited` | User left the SDK flow without completing it. Some images may have already been uploaded. The `exitCode` object contains information about the reason for exit. |
+| `onError` | Some error happened. |
 
-| ExitCode                              |
-| ------------------------------------- |
-| USER_LEFT_ACTIVITY                    |
-| USER_CONSENT_DENIED                   |
-| CAMERA_PERMISSION_DENIED (Deprecated) |
+**`captures`**
 
-Sample of a `Captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT` and `FlowStep.CAPTURE_FACE`:
+Sample of a `captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT` and `FlowStep.CAPTURE_FACE`:
 ```
 Document:
         Front: DocumentSide(id=document_id, side=FRONT, type=DRIVING_LICENCE)
@@ -327,50 +331,72 @@ Document:
 Face:
     Face(id=face_id, variant=PHOTO)
 ```
-**Note** `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
+**Note**: `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
-As part of `userCompleted` method, the `DocumentType` property can only contain the values which are supported by Onfido backend APIs. Please check out [our API documentation](https://documentation.onfido.com/#document-types)
+**Note**: As part of `userCompleted` method, the `DocumentType` property can only contain the values which are supported by Onfido API. Please check out [our API documentation](https://documentation.onfido.com/#document-types)
 
-## Customising SDK
+**`exitCode`**
 
-### 1. Flow customisation
+Potential `exitCode` reasons:
 
-You can customise the flow of the SDK via the `withCustomFlow(FlowStep[])` method. You can remove, add and shift around steps of the SDK flow.
+| `exitCode`                            |
+| ------------------------------------- |
+| USER_LEFT_ACTIVITY                    |
+| USER_CONSENT_DENIED                   |
+| CAMERA_PERMISSION_DENIED (Deprecated) |
+
+
+## Customizing the SDK
+
+You can also read our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization).
+
+### Flow customization
+
+You can customize the flow of the SDK via the `withCustomFlow(FlowStep[])` method. You can remove, add and shift around steps of the SDK flow.
 
 ```java
 final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
-    FlowStep.WELCOME,                       //Welcome step with a step summary, Optional
-    FlowStep.USER_CONSENT,                  //User Consent Page, Optional
-    FlowStep.CAPTURE_DOCUMENT,              //Document Capture Step
-    FlowStep.CAPTURE_FACE,                  //Face Capture Step
-    FlowStep.FINAL                          //Final Screen Step, Optional
+    FlowStep.WELCOME,                       //Welcome step with a step summary, optional
+    FlowStep.USER_CONSENT,                  //User consent page, optional
+    FlowStep.CAPTURE_DOCUMENT,              //Document capture step
+    FlowStep.CAPTURE_FACE,                  //Face capture step
+    FlowStep.FINAL                          //Final screen step, optional
 };
 
 final OnfidoConfig config = OnfidoConfig.builder()
     .withCustomFlow(defaultStepsWithWelcomeScreen)
-    .withSDKToken("YOUR_SDK_TOKEN")
+    .withSDKToken("<YOUR_SDK_TOKEN>")
     .build();
 ```
 
-Also, by calling the `exitWhenSentToBackground()` method of the `OnfidoConfig.Builder`, you can determine that the flow should be exited whenever the user sends the app to background.
-This exit action will invoke the `userExited(ExitCode exitCode)` callback described in the [handling callbacks section](#handling-callbacks).
+#### Exiting the flow
 
-#### Welcome Step
-In this step the user is presented with a summary of the capture steps he/she is about to pass through.
+You can call the `exitWhenSentToBackground()` method of the `OnfidoConfig.Builder`, to automatically exit the flow if the user sends the app to background.
+This exit action will invoke the [`userExited(ExitCode exitCode)` callback](#handling-callbacks).
 
-#### User Consent Step
-This step contains a screen to collect the US user's privacy consent for Onfido and is an optional step in the SDK flow. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use. The user must click "Accept" to get past this step and continue with the flow. The content is available in English only, and is not translatable.
+#### Welcome step
 
-Note that this step does not automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
+The welcome screen displays a summary of the capture steps the user will pass through. These steps can be specified to match the flow required. This is an optional screen.
 
-If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your user starts interacting with the Onfido SDK.
+#### Consent step
+
+This step contains a screen to collect US end users' privacy consent for Onfido. It contains the consent language required when you offer your service to US users as well as links to Onfido's policies and terms of use. This is an optional screen.
+
+The user must click "Accept" to move past this step and continue with the flow. The content is available in English only, and is not translatable.
+
+:warning: This step doesn't automatically inform Onfido that the user has given their consent. At the end of the SDK flow, you still need to set the API parameter `privacy_notices_read_consent_given` outside of the SDK flow when [creating a check](#creating-checks).
+
+If you choose to disable this step, you must incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your end user starts interacting with the Onfido SDK.
 
 For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
 
-#### Document Capture Step
-In this step the user can pick which type of document to capture, the document origin country, and then use the phone camera to capture it.
+#### Document capture step
 
-To customise a document capture step you can use `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
+In this step, a user can pick the type of document and its issuing country before capturing it with their phone camera.
+
+Document type selection and country selection are both optional screens. These screens will only show to the end user if specific options are not configured to the SDK.
+
+You can configure the document step to capture single document types with specific properties using the `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
 
 | Document Type           | Configuration function  | Configurable Properties        |
 | ----------------------- | ----------------------- | ----------------------------   |
@@ -384,13 +410,19 @@ To customise a document capture step you can use `DocumentCaptureStepBuilder` cl
 
 **Note** `GENERIC` document type doesn't offer an optimised capture experience for a desired document type.
 
-##### Configuring Country
+- **Document type**
 
-This configuration allows you to specify country of origin of document
+The list of document types visible for the user to select can be filtered using this option. If only one document type is specified, users will not see the document selection screen or country selection screen and will be taken directly to the capture screen.
 
-**Note**: You can specify country for all document types except **Passport**.       
+Each document type has its own configuration class.
 
-If you would like to specify country for driving license
+- **Document country**
+
+The configuration function allows you to specify the document's country of origin. If a document country is specified for a document type, the country selection screen is not displayed.
+
+**Note**: You can specify country for all document types except `Passport`. This is because passports have the same format worldwide so the SDK does not require this additional information.     
+
+For example to only capture UK driving licences:
 
 ##### Java
 
@@ -408,14 +440,16 @@ val drivingLicenceCaptureStep = DocumentCaptureStepBuilder.forDrivingLicence()
                 .build()
 ```
 
-##### Configuring Document Format
+- **Document format**
 
-This configuration allows you to specify format of document such as ***Card*** and ***Folded***
+You can specify the format of a document as `Card` or `Folded`. `Card` is the default document format value for all document types. 
 
-**Note**: You can specify ***folded*** document format for only French driving licence, South African national identity and Italian national identity. If you would configure the SDK with unsupported
-country configuration the SDK will throw `InvalidDocumentFormatAndCountryCombinationException`   
+If `Folded` is configured a specific template overlay is shown to the user during document capture.
 
-If you would like to specify country and document format for driving license
+**Note**: You can specify `Folded` document format for French driving licence, South African national identity and Italian national identity only. If you configure the SDK with an unsupported
+country configuration the SDK will throw a `InvalidDocumentFormatAndCountryCombinationException`.
+
+For example to only capture folded French driving licences:
 
 ##### Java
 
@@ -435,15 +469,21 @@ val drivingLicenceCaptureStep = DocumentCaptureStepBuilder.forDrivingLicence()
                 .build()
 ```
 
-Please be aware that we don't support every document - country combination, and unsupported documents will not be verified. So if you decide to bypass the default country selection screen by replacing the `FlowStep.CAPTURE_DOCUMENT` with a `CaptureScreenStep`, please make sure that you are specifying a supported document.
-We provide an up-to-date list of the documents we support [here](https://onfido.com/supported-documents/)
+:warning: Not all document - country combinations are supported. Unsupported documents will not be verified. If you decide to bypass the default country selection screen by replacing the `FlowStep.CAPTURE_DOCUMENT` with a `CaptureScreenStep`, please make sure that you are specifying a supported document.
+We provide an up-to-date list of our [supported documents](https://onfido.com/supported-documents/).
 
-#### Face Capture Step
-In this step the user can capture either a photo of his/her face, or a live video by using the front camera. In case of choosing the second option,
-the user will be prompted to perform some simple challenges. The photo option can be instantiated with `FlowStep.CAPTURE_FACE` or
-`FaceCaptureStepBuilder.forPhoto()` and the video option with `FaceCaptureStepBuilder.forVideo()`.
+#### Face capture step
 
-By default both face and video variants show an introduction screen. You can disable the intro using `withIntro(false)` function.
+In this step a user can use the front camera to capture either a live photo of their face, or a live video.
+
+The Face step has 2 variants:
+1.  To configure for a live photo use `FlowStep.CAPTURE_FACE` or
+`FaceCaptureStepBuilder.forPhoto()`. 
+2. To configure for a live video use `FaceCaptureStepBuilder.forVideo()`.
+
+**Introduction screen**
+
+By default both face and video variants show an introduction screen. This is an optional screen. You can disable it using the `withIntro(false)` function.
 
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
@@ -451,7 +491,9 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
                 .build();
 ```
 
-If you would like to not display the recorded video on the confirmation screen, you could hide it using `withConfirmationVideoPreview` function. 
+**Confirmation screen**
+
+By default both face and video variants show a confirmation screen. To not display the recorded video on the confirmation screen, you can hide it using the `withConfirmationVideoPreview` function. 
 
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
@@ -459,104 +501,132 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
                 .build();
 ```
 
-In case both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
+**Errors**
+
+The Face step can be configured to allow for either a photo or video flow. A custom flow **cannot** contain both the photo and video variants of the face capture. If both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
 with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
 
-#### Final Screen Step (Optional)
-It should be used at the end of the flow, but it's not necessary.
+#### Finish step 
 
-#### Identity Verification Intro Step (Optional)
-It explains to the user the purpose of the identity verification flow.
+The final screen displays a completion message to the user and signals the end of the flow. This is an optional screen.
 
-### 2. UI customisation
+### UI customization
 
-In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own `colors.xml` file:
+For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#android).
 
-`onfidoColorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
+**Colors**
 
-`onfidoColorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
+You can define custom colors inside your own `colors.xml` file:
 
-`onfidoTextColorPrimary`: Defines the color of the title on the `Toolbar`
+* `onfidoColorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
 
-`onfidoTextColorSecondary`: Defines the color of the subtitle on the `Toolbar`
+* `onfidoColorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
 
-`onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the
-alert dialogs shown during the flow
+* `onfidoTextColorPrimary`: Defines the color of the title on the `Toolbar`
 
-`onfidoPrimaryButtonColor`: Defines the background color of the primary action buttons (e.g. proceed to the next flow step, confirm picture/video, etc),
+* `onfidoTextColorSecondary`: Defines the color of the subtitle on the `Toolbar`
+
+* `onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the alert dialogs shown during the flow
+
+* `onfidoPrimaryButtonColor`: Defines the background color of the primary action buttons (e.g. proceed to the next flow step, confirm picture/video, etc),
 the color of the text on the secondary action buttons (e.g. retake picture/video) and the background color of some icons and markers during the flow
 
-`onfidoPrimaryButtonColorPressed`: Defines the background color of the primary action buttons when pressed
+* `onfidoPrimaryButtonColorPressed`: Defines the background color of the primary action buttons when pressed
 
-`onfidoPrimaryButtonTextColor`: Defines the color of the text inside the primary action buttons
+* `onfidoPrimaryButtonTextColor`: Defines the color of the text inside the primary action buttons
 
-For customizing the appearance of some widgets, you can provide the customization in your `dimens.xml` by overriding:
+**Widgets**
+
+You can customize the appearance of some widgets in your `dimens.xml` file by overriding:
  
-`onfidoButtonCornerRadius`: Defines the radius' dimension of all the corners of primary and secondary buttons.
+* `onfidoButtonCornerRadius`: Defines the radius dimension of all the corners of primary and secondary buttons
 
-### 3. Localisation
+**Typography**
 
-Onfido Android SDK already comes with out-of-the-box translations for the following locales:
-- English (en) :uk:
-- Spanish (es) :es:
-- French  (fr) :fr:
-- German  (de) :de:
+You can customize the fonts by providing [font XML resources](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) to the theme by setting `OnfidoActivityTheme` to one of the following:
 
-You could also provide custom translations for locales that we don't currently support, by having an additional XML strings file inside your resources folder for the desired locale (e.g. `res/values-it/onfido_strings.xml` for :it: translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
+* `onfidoFontFamilyTitleAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Title`
 
-By default, we infer the language to use from the device settings.
-However, you can also use the `withLocale(Locale)` method of the `OnfidoConfig.Builder` to select a specific language.
+* `onfidoFontFamilyBodyAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Body`
 
-**Notes**:
-- If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using this feature. If you want a locale translated you can also get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
-- When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml).
-In particular, `onfido_locale`, which identifies the current locale being added, must be included.
+* `onfidoFontFamilySubtitleAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Subtitle`
+
+* `onfidoFontFamilyButtonAttr`: Defines the `fontFamily` attribute that is applied to all primary and secondary buttons 
+
+* `onfidoFontFamilyToolbarTitleAttr`: Defines the `fontFamily` attribute that is applied to the title and subtitle displayed inside the `Toolbar` 
+
+* `*onfidoFontFamilyDialogButtonAttr`: Defines the `fontFamily` attribute that is applied to the buttons inside `AlertDialog` and `BottomSheetDialog`
+
+For example: 
+
+In your application's `styles.xml`:
+```xml
+<style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
+        <item name="onfidoFontFamilyTitleAttr">@font/montserrat_semibold</item>
+        <item name="onfidoFontFamilyBodyAttr">@font/font_montserrat</item>
+
+        <!-- You can also make the dialog buttons follow another fontFamily like a regular button -->
+        <item name="onfidoFontFamilyDialogButtonAttr">?onfidoFontFamilyButtonAttr</item>
+
+        <item name="onfidoFontFamilySubtitleAttr">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyButtonAttr">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyToolbarTitleAttr">@font/font_montserrat_semibold</item>
+</style>
+```
+
+### Localization
+
+The Onfido Android SDK supports and maintains translations for the following locales:
+
+- English    (en) :uk:
+- Spanish    (es) :es:
+- French     (fr) :fr:
+- German     (de) :de:
+- Italian    (it) :it:
+- Portuguese (pt) :pt:
+
+**Custom language**
+
+The Android SDK also allows for the selection of a specific custom language for locales that Onfido does not currently support. You can have an additional XML strings file inside your resources folder for the desired locale (for example, `res/values-it/onfido_strings.xml` for :it: translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
+
+When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). In particular, `onfido_locale`, which identifies the current locale being added, must be included.
 The value for this string should be the [ISO 639-1](http://www.loc.gov/standards/iso639-2/php/code_list.php) 2-letter language code corresponding to the translation being added.
 Examples:
-    - When adding a translations file inside `values-ru` (russian translation), the `onfido_locale` key should have `ru` as its value.
-    - When adding a translations file inside `values-en-rUS` (american english translation), the `onfido_locale` key should have `en` as its value.
+    - When adding a translations file inside `values-ru` (russian translation), the `onfido_locale` key should have `ru` as its value
+    - When adding a translations file inside `values-en-rUS` (american english translation), the `onfido_locale` key should have `en` as its value
 
-Without this string correctly translated, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
+Without `onfido_locale` correctly included, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
+
+By default, we infer the language to use from the device settings. However, you can also use the `withLocale(Locale)` method of the `OnfidoConfig.Builder` to select a specific language.
+
+**Note**: If the strings translations change it will result in a minor version change. If you have custom translations you're responsible for testing your translated layout. 
+
+If you want a locale translated you can get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+
 
 ## Creating checks
 
-As the SDK is only responsible for capturing and uploading photos/videos, you would need to start a check on your backend server using the [Onfido API](https://documentation.onfido.com/).
+The SDK is responsible for the capture of identity documents and selfie photos and videos. It doesn't perform any checks against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage applicants and perform checks.
 
-### 1. Obtaining an API token
+For a walkthrough of how to create a check with a Document and Facial Similarity report using the Android SDK read our [Mobile SDK Quick Start guide](https://developers.onfido.com/guide/mobile-sdk-quick-start).
 
-All API requests must be made with an API token included in the request headers. You can find your API token (not to be mistaken with the mobile token) inside your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+Read our API documentation for further details on how to [create a check](https://documentation.onfido.com/#create-check) with the Onfido API. 
 
-Refer to the [Authentication](https://documentation.onfido.com/#authentication) section in the API documentation for details. For testing, you should be using the sandbox, and not the live, token.
+**Note**: If you're testing with a sandbox token, please be aware that the results are pre-determined. You can learn more about [sandbox responses](https://documentation.onfido.com/#pre-determined-responses).
 
-### 2. Creating a check
+**Note**: If you're using API v2, please refer to the [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) for more information.
 
-You will need to create a check by making a request to the [create check endpoint](https://documentation.onfido.com/#create-check), using the applicant id. If you are just verifying a document, you only have to include a [document report](https://documentation.onfido.com/#document-report) as part of the check. On the other hand, if you are verifying a document and a face photo/live video, you will also have to include a [facial similarity report](https://documentation.onfido.com/#facial-similarity-reports) with the corresponding values: `facial_similarity_photo` for the photo option and `facial_similarity_video` for the video option.
+### Setting up webhooks
 
-```shell
-$ curl https://api.onfido.com/v3/checks \
-    -H 'Authorization: Token token=YOUR_API_TOKEN' \
-    -d 'applicant_id=YOUR_APPLICANT_ID' \
-    -d 'report_names=[document,facial_similarity_photo]'
-```
-
-Note: you can also submit the POST request in JSON format.
-
-You will receive a response containing the check id instantly. As document and facial similarity reports do not always return actual [results](https://documentation.onfido.com/#results) straightaway, you need to set up a webhook to get notified when the results are ready.
-
-Finally, as you are testing with the sandbox token, please be aware that the results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#pre-determined-responses).
-
-**Note**: If you're using API v2, please check out [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) to understand which changes need to be applied before starting to use API v3.
-
-### 3. Setting up webhooks
-
-Refer to the [Webhooks](https://documentation.onfido.com/#webhooks) section in the API documentation for details.
+Reports may not return results straightaway. You can set up [webhooks](https://documentation.onfido.com/#webhooks) to be notified upon completion of a check or report, or both.
 
 ## User Analytics
 
-The SDK allows you to track the user's journey through the verification process via an overrideable hook. This is meant to give some insight into how your user's make use of the SDK screens.
+The SDK allows you to track a user's progress through the SDK via an overrideable hook. This gives insight into how your users make use of the SDK screens.
 
 ### Overriding the hook
-In order to expose the user's progress through the SDK an hook method must be overridden in the `UserEventHandler.kt` object that's stored in the `Onfido.kt` interface. This can be done anywhere within your application and might look something like the following:
+
+In order to expose a user's progress through the SDK an hook method must be overridden in the `UserEventHandler.kt` object that's stored in the `Onfido.kt` interface. You can do this anywhere within your application. For example: 
 
 Java:
 ```java
@@ -579,22 +649,23 @@ Onfido.userEventHandler = object: UserEventHandler() {
 
 The code inside of the overridden method will now be called when a particular event is triggered, usually when the user reaches a new screen. For a full list of events see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 
-The parameters being passed in are as follows:
-- `eventName`: A `String` indicating the type of event. This value will always return user's visiting SDK screen name. In the future more event types, such as other user actions inside the SDK screens, may become available for tracking.
-- `properties`: A `Map` object containing the specific details of an event. This will contain things such as the `name` of the screen visited.
+|     |      |
+| ---- | ----- |
+|`eventName` | **string** < /br> Indicates the type of event. This will always be returned as `"Screen"` as each tracked event is a user visiting a screen. |
+| `eventProperties` | **map object** < /br> Contains the specific details of an event. For example, the name of the screen visited. |
 
 ### Using the data
 
-Currently we recommend using the above hook to keep track of how many user's reach each screen in your flow. This can be done by storing the count of users that reach each screen and comparing them to the amount of user's who've made it to the `Welcome` screen.
+You can use the data to keep track of how many users reach each screen in your flow. You can do this by storing the number of users that reach each screen and comparing that to the number of users who reached the `Welcome` screen.
 
 ## Going live
 
-Once you are happy with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain live versions of the API token and the mobile token. We will have to replace the sandbox tokens in your code with the live tokens.
+Once you are happy with your integration and are ready to go live, please contact [Client Support](mailto:client-support@onfido.com) to obtain a live API token (and Mobile token). You'll have to replace the sandbox tokens in your code with live tokens.
 
-A few things to check before you go live:
+Check the following before you go live:
 
-- Make sure you have set up webhooks to receive live events
-- Make sure you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/)
+- you have set up [webhooks](https://documentation.onfido.com/#webhooks) to receive live events
+- you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/)
 
 ## Cross platform frameworks
 
@@ -604,20 +675,20 @@ We provide integration guides and sample applications to help customers integrat
 - [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
 
 We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
-Any issue or question about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+Any issues or questions about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Migrating
 
-You can find the migration guide in [MIGRATION.md](MIGRATION.md) file.
+You can find the migration guide in the [MIGRATION.md](MIGRATION.md) file.
 
 ## Security
 
-This section is dedicated to every security aspect of the SDK
-
 ### Certificate Pinning
-We provide integrators the ability to pin any communications between our SDK and server, through a `.withCertificatePinning()` method in
-our `OnfidoConfig.Builder` configuration builder. This method accepts as parameter an `Array<String>` with sha-1/sha-256 hashes of certificates' public keys.
-In case you are interested in using this feature, for more information about the hashes, please reach out to us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+
+You can pin any communication between our SDK and server through the `.withCertificatePinning()` method in
+our `OnfidoConfig.Builder` configuration builder. This method accepts as a parameter an `Array<String>` with sha-1/sha-256 hashes of the certificate's public keys.
+
+For more information about the hashes, please email [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Accessibility
 
@@ -632,7 +703,7 @@ Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-a
 
 ## Licensing
 
-Due to API-design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies as repackaged versions of the original libraries.
+Due to API design constraints, and to avoid possible conflicts during the integration, we bundle some of our 3rd party dependencies as repackaged versions of the original libraries.
 For those, we include the licensing information inside our `.aar`, namely on the `res/raw/onfido_licenses.json`.
 This file contains a summary of our bundled dependencies and all the licensing information required, including links to the relevant license texts contained in the same folder.
 Integrators of our library are then responsible for keeping this information along with their integrations.
@@ -641,16 +712,17 @@ Integrators of our library are then responsible for keeping this information alo
 
 ### Sample App
 
-We have included sample app to show how to integrate the Onfido SDK. Please check out [our sample app](sample-app)
+We have included a [sample app](sample-app) to show how to integrate the Onfido SDK. 
 
 ### API Documentation
-Further information about the underlying Onfido API is available in our [API reference](https://documentation.onfido.com).
+
+Further information about the Onfido API is available in our [API reference](https://documentation.onfido.com).
 
 ### Support
 
-Please open an issue through [GitHub](https://github.com/onfido/onfido-android-sdk/issues). Please be as detailed as you can. Remember **not** to submit your token in the issue. Also check the closed issues to check whether it has been previously raised and answered.
+Please open an issue through [GitHub](https://github.com/onfido/onfido-android-sdk/issues). Please be as detailed as you can. Remember **not** to submit your token in the issue. Also check the closed issues to see whether it has been previously raised and answered.
 
-If you have any issues that contain sensitive information please send us an email with the ISSUE: at the start of the subject to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+If you have any issues that contain sensitive information please send us an email with the `ISSUE:` at the start of the subject to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 Previous version of the SDK will be supported for a month after a new major version release. Note that when the support period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further notice).
 

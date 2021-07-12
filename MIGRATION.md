@@ -1,5 +1,176 @@
 # Onfido Android SDK Migration Guide
 
+
+## `9.3.1` -> `10.0.0`
+
+### Breaking changes
+- Removed deprecated methods and constructors of DocumentType class
+
+### Added strings:
+- `onfido_permission_recovery_button_primary`
+- `onfido_permission_recovery_list_item_how_to_cam`
+- `onfido_permission_recovery_list_item_action_cam`
+- `onfido_permission_recovery_list_item_how_to_mic`
+- `onfido_permission_recovery_list_item_action_mic`
+- `onfido_permission_recovery_list_item_how_to_both`
+- `onfido_permission_recovery_list_item_action_both`
+- `onfido_video_capture_header_challenge_turn_forward`
+- `onfido_generic_uploading`
+- `onfido_doc_confirmation_alert_crop_detail`
+- `onfido_doc_confirmation_alert_crop_title`
+- `onfido_doc_upload_progress_label`
+- `onfido_video_intro_list_item_time_limit_copy`
+- `onfido_app_title_selfie_confirmation`
+- `onfido_app_title_video_confirmation`
+- `onfido_doc_capture_header_passport_auto`
+- `onfido_doc_capture_detail_passport`
+- `onfido_doc_capture_header_license_front_auto`
+- `onfido_video_capture_body`
+- `onfido_doc_capture_header_license_back_auto`
+- `onfido_welcome_list_header_photo`
+- `onfido_welcome_list_header_record`
+- `onfido_app_title_doc_confirmation`
+- `onfido_app_title_permission`
+- `onfido_app_title_selfie_intro`
+- `onfido_app_title_video_intro`
+- `onfido_welcome_list_header_doc_video`
+- `onfido_app_title_doc_video_confirmation`
+- `onfido_video_capture_turn_success_accessibility`
+
+### Removed strings:
+- `onfido_permission_extra_instructions_cam`
+- `onfido_permission_extra_instructions_mic`
+- `onfido_permission_extra_instructions_both`
+- `onfido_permission_recovery_button_primary_cam`
+- `onfido_permission_recovery_button_primary_mic`
+- `onfido_permission_recovery_button_primary_both`
+- `onfido_app_title_doc_capture_visa`
+- `onfido_app_title_doc_capture_permit_work`
+- `onfido_app_title_doc_capture_generic`
+- `onfido_app_title_doc_capture_passport`
+- `onfido_app_title_doc_capture_permit`
+- `onfido_app_title_doc_capture_id`
+- `onfido_app_title_doc_capture_license`
+- `onfido_doc_capture_detail_passport_auto`
+- `onfido_doc_confirmation_body_passport`
+- `onfido_doc_confirmation_body_permit`
+- `onfido_doc_confirmation_body_license`
+- `onfido_doc_confirmation_body_id`
+- `onfido_doc_confirmation_body_permit_work`
+- `onfido_selfie_confirmation_button_primary_long`
+- `onfido_selfie_confirmation_button_primary_short`
+- `onfido_selfie_confirmation_button_secondary_long`
+- `onfido_selfie_confirmation_button_secondary_short`
+- `onfido_video_confirmation_title`
+- `onfido_welcome_list_item_doc_video`
+- `onfido_doc_confirmation_alert_no_barcode_title`
+- `onfido_welcome_button_primary_selfie`
+- `onfido_welcome_button_primary_video`
+- `onfido_doc_capture_detail_license_front_auto`
+
+### Changed Strings:
+- `onfido_app_title_welcome`
+- `onfido_permission_subtitle_cam`
+- `onfido_permission_body_cam`
+- `onfido_permission_recovery_title_cam`
+- `onfido_permission_recovery_subtitle_cam`
+- `onfido_permission_subtitle_mic`
+- `onfido_permission_body_mic`
+- `onfido_permission_recovery_title_mic`
+- `onfido_permission_recovery_subtitle_mic`
+- `onfido_permission_subtitle_both`
+- `onfido_permission_body_both`
+- `onfido_permission_button_primary_both`
+- `onfido_permission_recovery_title_both`
+- `onfido_permission_recovery_subtitle_both`
+- `onfido_doc_confirmation_button_primary_passport`
+- `onfido_doc_confirmation_button_primary_permit`
+- `onfido_doc_confirmation_button_primary_license`
+- `onfido_doc_confirmation_button_primary_id`
+- `onfido_doc_confirmation_button_primary_visa`
+- `onfido_doc_confirmation_button_primary_generic`
+- `onfido_doc_confirmation_button_primary_barcode`
+- `onfido_doc_confirmation_button_primary_permit_work`
+- `onfido_doc_confirmation_button_secondary_passport`
+- `onfido_doc_confirmation_button_secondary_id`
+- `onfido_doc_confirmation_button_secondary_license`
+- `onfido_doc_confirmation_button_secondary_permit`
+- `onfido_doc_confirmation_button_secondary_permit_work`
+- `onfido_doc_confirmation_button_secondary_visa`
+- `onfido_doc_confirmation_button_secondary_generic`
+- `onfido_video_capture_header_challenge_turn_left`
+- `onfido_video_capture_header_challenge_turn_right`
+- `onfido_video_intro_button_primary`
+- `onfido_selfie_intro_button_primary`
+- `onfido_doc_select_button_license`
+- `onfido_doc_select_button_permit`
+- `onfido_welcome_subtitle`
+- `onfido_welcome_list_item_doc`
+- `onfido_welcome_list_item_selfie`
+- `onfido_welcome_list_item_video`
+- `onfido_video_intro_title`
+- `onfido_doc_select_title`
+- `onfido_doc_select_subtitle`
+- `onfido_country_select_bottom_sheet_details`
+- `onfido_country_select_bottom_sheet_link_doc_select`
+- `onfido_selfie_intro_subtitle`
+- `onfido_selfie_intro_list_item_face_forward`
+- `onfido_selfie_intro_list_item_no_glasses`
+- `onfido_selfie_capture_body`
+- `onfido_selfie_confirmation_body`
+- `onfido_doc_capture_detail_visa_front`
+- `onfido_doc_capture_detail_visa_back`
+- `onfido_selfie_confirmation_alert_no_face_title`
+- `onfido_selfie_confirmation_alert_no_face_detail`
+- `onfido_doc_confirmation_alert_no_doc_detail`
+- `onfido_doc_confirmation_body_visa`
+- `onfido_doc_confirmation_body_generic`
+- `onfido_doc_capture_detail_permit_front`
+- `onfido_doc_capture_detail_permit_back`
+- `onfido_doc_capture_detail_license_front`
+- `onfido_doc_capture_detail_license_back`
+- `onfido_doc_capture_detail_id_front`
+- `onfido_doc_capture_detail_id_back`
+- `onfido_doc_capture_detail_permit_work_front`
+- `onfido_doc_capture_detail_generic_front`
+- `onfido_doc_capture_detail_permit_work_back`
+- `onfido_doc_capture_detail_generic_back`
+- `onfido_doc_capture_alert_glare_title`
+- `onfido_video_intro_subtitle`
+- `onfido_video_intro_list_item_move_speak`
+- `onfido_video_intro_list_item_time_limit`
+- `onfido_video_capture_prompt_detail_timeout`
+- `onfido_video_confirmation_button_audio_unmute`
+- `onfido_country_select_error_no_country_title`
+- `onfido_country_select_error_no_country_body`
+- `onfido_doc_capture_alert_manual_capture_detail`
+- `onfido_doc_confirmation_alert_blur_title`
+- `onfido_doc_confirmation_alert_blur_detail`
+- `onfido_doc_capture_alert_no_barcode_title`
+- `onfido_doc_capture_header_passport`
+- `onfido_permission_body_mic`
+- `onfido_permission_body_both`
+- `onfido_doc_confirmation_button_primary_passport`
+- `onfido_doc_confirmation_button_primary_id`
+- `onfido_doc_confirmation_button_primary_visa`
+- `onfido_doc_confirmation_button_primary_generic`
+- `onfido_doc_confirmation_button_primary_barcode`
+- `onfido_doc_confirmation_button_primary_folded_doc`
+- `onfido_selfie_confirmation_button_secondary`
+- `onfido_selfie_confirmation_button_primary`
+- `onfido_app_title_doc_select`
+- `onfido_welcome_button_primary_doc`
+- `onfido_video_intro_video_accessibility`
+- `onfido_video_capture_frame_success_accessibility`
+- `onfido_video_confirmation_video_accessibility`
+- `onfido_video_capture_header_challenge_digit_instructions_accessibility`
+- `onfido_video_capture_header_challenge_turn_instructions_accessibility`
+- `onfido_video_capture_header_extra_instructions_accessibility`
+- `onfido_video_capture_header_challenge_turn_left_accessibility`
+- `onfido_video_capture_header_challenge_turn_right_accessibility`
+- `onfido_video_confirmation_button_play_and_pause_accessibility`
+- `onfido_doc_capture_button_accessibility`
+
 ## `9.2.0` -> `9.3.0`
 
 ### Changes
