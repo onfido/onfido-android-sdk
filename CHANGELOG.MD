@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - UI: Added IT and PT locale support
+- UI: Added the ability to change fonts by defining font xml resource to `onfidoFontFamily*` theme attributes
 
 ### Changed
 
