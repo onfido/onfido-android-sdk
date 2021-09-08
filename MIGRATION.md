@@ -1,5 +1,27 @@
 # Onfido Android SDK Migration Guide
 
+## `10.0.0` -> `10.1.0`
+
+### Added strings:
+- `onfido_doc_capture_frame_accessibility_pp_auto`
+- `onfido_doc_capture_frame_accessibility_dl_front_auto`
+- `onfido_doc_capture_frame_accessibility_dl_back_auto`
+- `onfido_doc_capture_frame_success_accessibility`
+- `onfido_doc_capture_frame_accessibility_rp_front_manual`
+- `onfido_doc_capture_frame_accessibility_rp_back_manual`
+- `onfido_doc_capture_frame_accessibility_ic_front_manual`
+- `onfido_doc_capture_frame_accessibility_ic_back_manual`
+- `onfido_doc_capture_frame_accessibility_dl_fr_front_manual`
+- `onfido_doc_capture_frame_accessibility_dl_fr_back_manual`
+- `onfido_doc_capture_frame_accessibility_ic_it_front_manual`
+- `onfido_doc_capture_frame_accessibility_ic_it_back_manual`
+- `onfido_doc_capture_frame_accessibility_ic_za_front_manual`
+- `onfido_doc_capture_frame_accessibility_ic_za_back_manual`
+- `onfido_video_capture_frame_accessibility`
+
+### Changed strings:
+- `onfido_selfie_capture_frame_accessibility`
+
 
 ## `9.3.1` -> `10.0.0`
 

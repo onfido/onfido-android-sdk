@@ -7,12 +7,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
 
+## [10.1.0] - 2021-09-08
+
+### Changed
+
+- : Added MissingOnfidoConfigException error message if OnfidoConfig is not specified when starting
+  the flow
+- Public: Applied new watermark position at the bottom of all screens
+- Public: Upgraded Kotlin version to v1.5.21
+- : Changed analytic event for passport from DOCUMENT_CAPTURE_FRONT to DOCUMENT_CAPTURE
+- UI: Made live and post-capture alerts align to the top of the frame
+- Public: Implement disabling mobile SDK analytics as an enterprise feature
+- Public: Migrated from RxJava 2 to RxJava 3
+- Public: Upgraded to AppCompat version 1.3.1
+- Public: Enabled R8
+
+### Fixed
+
+- Public: Fixed some issues causing NPEs in CameraSource
+
 ## [10.0.0] - 2021-07-12
 
 ### Added
 
 - UI: Added IT and PT locale support
-- UI: Added the ability to change fonts by defining font xml resource to `onfidoFontFamily*` theme attributes
 
 ### Changed
 
