@@ -11,13 +11,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
-- : Added MissingOnfidoConfigException error message if OnfidoConfig is not specified when starting
-  the flow
+- Public: Added `MissingOnfidoConfigException` error message if `OnfidoConfig` is not specified when
+  starting the flow
 - Public: Applied new watermark position at the bottom of all screens
 - Public: Upgraded Kotlin version to v1.5.21
-- : Changed analytic event for passport from DOCUMENT_CAPTURE_FRONT to DOCUMENT_CAPTURE
+- Public: Changed analytic event for passport from DOCUMENT_CAPTURE_FRONT to DOCUMENT_CAPTURE
 - UI: Made live and post-capture alerts align to the top of the frame
-- Public: Implement disabling mobile SDK analytics as an enterprise feature
+- Public: Implemented disabling mobile SDK analytics as an enterprise feature
 - Public: Migrated from RxJava 2 to RxJava 3
 - Public: Upgraded to AppCompat version 1.3.1
 - Public: Enabled R8
