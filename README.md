@@ -8,7 +8,7 @@
 * [Overview](#overview)
 * [Getting started](#getting-started)
 * [Handling callbacks](#handling-callbacks)
-* [Customizing the SDK](#customising-sdk)
+* [Customizing the SDK](#customizing-the-sdk)
 * [Creating checks](#creating-checks)
 * [User Analytics](#user-analytics)
 * [Going live](#going-live)
