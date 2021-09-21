@@ -8,9 +8,7 @@
     <string name="onfido_doc_capture_prompt_button_card">Plastic card</string>
     <string name="onfido_doc_capture_prompt_title_license">What type of license do you have?</string>
     <string name="onfido_doc_capture_prompt_title_id">What type of identity card do you have?</string>
-    <string name="onfido_doc_capture_header_folded_doc_front">Profile photo side</string>
     <string name="onfido_doc_capture_detail_folded_doc_front">Lay your document flat, include all inner pages (must contain your photo)</string>
-    <string name="onfido_doc_capture_header_folded_doc_back">Outer pages</string>
     <string name="onfido_doc_capture_detail_folded_doc_back">Lay your document flat, include all outer pages</string>
 
     <!-- Document Confirmation -->
@@ -54,21 +52,10 @@
     <string name="onfido_selfie_intro_subtitle">We’ll compare this with your document</string>    <!-- Capture Document/Face -->
     <string name="onfido_selfie_capture_body">Keep your face within the oval</string>
     <string name="onfido_video_capture_prompt_button_timeout">Retry</string>
+    <string name="onfido_face_tracking_timeout_button_retry">Retry</string>
     <string name="onfido_generic_error_camera_unavailable">There is no camera available in this device</string>
     <string name="onfido_generic_error_camera_used_by_other_app">Camera is unavailable. There might be another application using it at the same time.</string>
     <string name="onfido_selfie_confirmation_body">Make sure your entire face is visible</string>
-    <string name="onfido_doc_capture_header_license_front">Front of driver\'s license</string>
-    <string name="onfido_doc_capture_header_license_back">Back of driver\'s license</string>
-    <string name="onfido_doc_capture_header_permit_front">Front of permit</string>
-    <string name="onfido_doc_capture_header_permit_back">Back of permit</string>
-    <string name="onfido_doc_capture_header_id_front">Front of card</string>
-    <string name="onfido_doc_capture_header_id_back">Back of card</string>
-    <string name="onfido_doc_capture_header_permit_work_front">Front of document</string>
-    <string name="onfido_doc_capture_header_generic_front">Front of document</string>
-    <string name="onfido_doc_capture_header_permit_work_back">Back of document</string>
-    <string name="onfido_doc_capture_header_generic_back">Back of document</string>
-    <string name="onfido_doc_capture_header_visa_front">Visa page</string>
-    <string name="onfido_doc_capture_header_visa_back">Visa page</string>
     <string name="onfido_doc_confirmation_alert_no_doc_title">No document found</string>
     <string name="onfido_selfie_confirmation_alert_no_face_title">Face not detected</string>
     <string name="onfido_doc_confirmation_alert_multi_face_title">Multiple faces found</string>
@@ -289,7 +276,6 @@
     <string name="onfido_doc_select_title">Choose your document</string>
     <string name="onfido_doc_capture_detail_visa_front"></string>
     <string name="onfido_doc_capture_detail_visa_back"></string>
-    <string name="onfido_doc_capture_header_passport">Passport photo page</string>
     <string name="onfido_doc_capture_detail_generic_front"></string>
     <string name="onfido_doc_capture_detail_generic_back"></string>
     <string name="onfido_doc_confirmation_button_secondary_license">Retake photo</string>
@@ -303,9 +289,7 @@
     <string name="onfido_video_capture_header_challenge_turn_right">Turn your head right</string>
     <string name="onfido_doc_capture_detail_passport"></string>
 
-    <string name="onfido_doc_capture_header_license_front_auto">Front of driver’s license</string>
     <string name="onfido_video_capture_body">Keep your face within the oval to start recording</string>
-    <string name="onfido_doc_capture_header_license_back_auto">Back of driver’s license</string>
 
     <string name="onfido_welcome_list_header_photo">Use your device to photograph:</string>
     <string name="onfido_welcome_list_header_record">Use your device to photograph or record:</string>
@@ -315,34 +299,64 @@
     <string name="onfido_app_title_selfie_intro">Verify your identity</string>
     <string name="onfido_app_title_video_intro">Verify your identity</string>
     <string name="onfido_app_title_video_confirmation">Verify your identity</string>
-    <string name="onfido_doc_capture_header_passport_auto">Passport photo page</string>
     <string name="onfido_app_title_doc_video_confirmation">Verify your identity</string>
     <string name="onfido_welcome_button_primary_doc">Choose document</string>
     <string name="onfido_welcome_button_primary">Start</string>
     <string name="onfido_welcome_list_header_doc_video">Use your device to record:</string>
 
-	<string name="onfido_video_capture_frame_success_accessibility">Face detected. Recording has started.</string>
-	<string name="onfido_video_capture_turn_success_accessibility">Head turn detected</string>
+    <string name="onfido_video_capture_frame_success_accessibility">Face detected. Recording has started.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Head turn detected</string>
 
-	<string name="onfido_doc_capture_frame_accessibility_pp_auto">View from camera. Position your passport photo page within the frame. Your device will vibrate when the image is captured.</string>
-	<string name="onfido_doc_capture_frame_accessibility_dl_front_auto">View from camera. Position the front of your driver’s license within the frame. Your device will vibrate when the image is captured.</string>
-	<string name="onfido_doc_capture_frame_accessibility_dl_back_auto">View from camera. Position the back of your driver’s license within the frame.</string>
-	<string name="onfido_doc_capture_frame_success_accessibility">Image captured</string>
+    <string name="onfido_doc_capture_frame_success_accessibility">Image captured</string>
 
-	<string name="onfido_selfie_capture_frame_accessibility">View from selfie camera. Keep your face within the oval, then tap the shutter button</string>
-	<string name="onfido_video_capture_frame_accessibility">View from selfie camera. Keep your face within the oval to start recording.</string>
-	<string name="onfido_doc_capture_frame_accessibility_pp_manual">View from camera. Position your passport photo page within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_dl_front_manual">View from camera. Position the front of your driver’s license within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_dl_back_manual">View from camera. Position the back of your driver’s license within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_ic_front_manual">View from camera. Position the front of your identity card within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_ic_back_manual">View from camera. Position the back of your identity card within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_rp_front_manual">View from camera. Position the front of your residence permit within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_rp_back_manual">View from camera. Position the back of your residence permit within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">View from camera. Position the profile photo side of your driver’s license within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">View from camera. Position your outer pages of your driver’s license within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">View from camera. Position the profile photo side of your identity card within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">View from camera. Position the outer pages of your identity card within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">View from camera. Position the profile photo side of your identity card within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">View from camera. Position the outer pages of your identity card within the frame, then tap the shutter button</string>
-	<string name="onfido_doc_capture_frame_accessibility_pp_cover_manual">View from camera. Position your passport cover within the frame, then tap the shutter button</string>
+    <string name="onfido_selfie_capture_frame_accessibility">View from selfie camera. Keep your face within the oval, then tap the shutter button</string>
+    <string name="onfido_video_capture_frame_accessibility">View from selfie camera. Keep your face within the oval to start recording.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Position the outer pages of your document in the frame</string>
+    <string name="onfido_doc_capture_header_license_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_header_license_front_auto">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_header_license_back">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_header_permit_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_header_permit_back">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_header_id_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_header_id_back">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_header_visa_front">Position the visa page of your document in the frame</string>
+    <string name="onfido_doc_capture_header_visa_back">Position the visa page of your document in the frame</string>
+    <string name="onfido_doc_capture_header_generic_front">Position the front of your document in the frame</string>
+    <string name="onfido_doc_capture_header_generic_back">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_header_passport">Position the photo page of your document in the frame</string>
+    <string name="onfido_doc_capture_header_passport_auto">Position the photo page of your document in the frame</string>
+    <string name="onfido_doc_capture_header_license_back_auto">Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">View from camera. Position the photo page of your document in the frame. Your device will vibrate when the image is captured</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">View from camera. Position the front of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">View from camera. Position the back of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">View from camera. Position the front of your document in the frame. Your device will vibrate when the image is captured</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">View from camera. Position the back of your document in the frame</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">View from camera. Position the front of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">View from camera. Position the back of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">View from camera. Position the front of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">View from camera. Position the back of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_cover_manual">View from camera. Position the cover of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_header_folded_doc_front">Position the photo side of your document in the frame</string>
+    <string name="onfido_doc_capture_header_scanning">Scanning document...</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_manual">View from camera. Position your passport photo page within the frame, then tap the shutter button</string>
+    <string name="onfido_video_capture_prompt_header_restart">Restart the recording</string>
+    <string name="onfido_video_capture_prompt_detail_restart">To clear this step, you must keep your face within view throughout the recording.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Restart</string>
+
+	<string name="onfido_welcome_list_header">Use your device to:</string>
+	<string name="onfido_welcome_list_item_doc_photo">Take a photo of your identity document</string>
+	<string name="onfido_welcome_list_item_doc_video">Record a video of your identity document</string>
+	<string name="onfido_welcome_list_item_doc_generic">Scan your identity document</string>
+	<string name="onfido_welcome_list_item_face_photo">Take a photo of your face</string>
+	<string name="onfido_welcome_list_item_face_video">Record a video of your face</string>
+	<string name="onfido_welcome_list_item_face_generic">Scan your face</string>
 </resources>

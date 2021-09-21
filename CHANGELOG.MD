@@ -1,11 +1,26 @@
 # Change Log
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+**Note**: If the strings translations change it will result in a MINOR version change, therefore you
+are responsible for testing your translated layout in case you are using custom
+translations. [More on language localisation](README.md#4-localisation)
 
-**Note**: If the strings translations change it will result in a MINOR version change, therefore you are responsible for testing your translated layout in case you are using custom translations. [More on language localisation](README.md#4-localisation)
+## [10.2.0] - 2021-09-21
+
+### Changed
+
+- Public: Updated document capture experience for better image quality (multiframe)
+- Public: Restart video recording if face out of frame
+- Public: Updated welcome screen instructions
+
+### Fixed
+
+- Public: Bug fix to prevent SDK to use the sdk token from the previous session
+- Public: Fix to track DOCUMENT_CAPTURE_FRONT event twice
 
 ## [10.1.0] - 2021-09-08
 

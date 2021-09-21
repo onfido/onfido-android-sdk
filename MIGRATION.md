@@ -1,5 +1,53 @@
 # Onfido Android SDK Migration Guide
 
+## `10.1.0` -> `10.2.0`
+
+### Added strings:
+- `onfido_welcome_list_header`
+- `onfido_welcome_list_item_doc_photo`
+- `onfido_welcome_list_item_doc_video`
+- `onfido_welcome_list_item_doc_generic`
+- `onfido_welcome_list_item_face_photo`
+- `onfido_welcome_list_item_face_video`
+- `onfido_welcome_list_item_face_generic`
+
+### Changed strings:
+- `onfido_doc_capture_header_folded_doc_front`
+- `onfido_doc_capture_header_folded_doc_back`
+- `onfido_doc_capture_header_license_front`
+- `onfido_doc_capture_header_license_back`
+- `onfido_doc_capture_header_permit_front`
+- `onfido_doc_capture_header_permit_back`
+- `onfido_doc_capture_header_id_front`
+- `onfido_doc_capture_header_id_back`
+- `onfido_doc_capture_header_permit_work_front`
+- `onfido_doc_capture_header_generic_front`
+- `onfido_doc_capture_header_permit_work_back`
+- `onfido_doc_capture_header_generic_back`
+- `onfido_doc_capture_header_visa_front`
+- `onfido_doc_capture_header_visa_back`
+- `onfido_doc_capture_header_passport`
+- `onfido_doc_capture_header_license_front_auto`
+- `onfido_doc_capture_header_license_back_auto`
+- `onfido_doc_capture_header_passport_auto`
+- `onfido_doc_capture_frame_accessibility_pp_auto`
+- `onfido_doc_capture_frame_accessibility_dl_front_auto`
+- `onfido_doc_capture_frame_accessibility_dl_back_auto`
+- `onfido_doc_capture_frame_accessibility_pp_manual`
+- `onfido_doc_capture_frame_accessibility_dl_front_manual`
+- `onfido_doc_capture_frame_accessibility_dl_back_manual`
+- `onfido_doc_capture_frame_accessibility_ic_front_manual`
+- `onfido_doc_capture_frame_accessibility_ic_back_manual`
+- `onfido_doc_capture_frame_accessibility_rp_front_manual`
+- `onfido_doc_capture_frame_accessibility_rp_back_manual`
+- `onfido_doc_capture_frame_accessibility_dl_fr_front_manual`
+- `onfido_doc_capture_frame_accessibility_dl_fr_back_manual`
+- `onfido_doc_capture_frame_accessibility_ic_it_front_manual`
+- `onfido_doc_capture_frame_accessibility_ic_it_back_manual`
+- `onfido_doc_capture_frame_accessibility_ic_za_front_manual`
+- `onfido_doc_capture_frame_accessibility_ic_za_back_manual`
+- `onfido_doc_capture_frame_accessibility_pp_cover_manual`
+
 ## `10.0.0` -> `10.1.0`
 
 ### Added strings:
@@ -21,7 +69,6 @@
 
 ### Changed strings:
 - `onfido_selfie_capture_frame_accessibility`
-
 
 ## `9.3.1` -> `10.0.0`
 
