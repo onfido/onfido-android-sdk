@@ -1,5 +1,37 @@
 # Onfido Android SDK Migration Guide
 
+## `10.2.0` -> `10.3.0`
+
+### Added strings
+- `onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility`
+- `onfido_doc_capture_header_live_guidance_no_doc`
+- `onfido_doc_capture_header_live_guidance_no_doc_accessibility`
+- `onfido_doc_capture_header_live_guidance_distance_close`
+- `onfido_doc_capture_header_live_guidance_distance_close_accessibility`
+- `onfido_doc_capture_header_live_guidance_distance_far`
+- `onfido_doc_capture_header_live_guidance_distance_far_accessibility`
+- `onfido_doc_capture_header_live_guidance_distance_ok`
+- `onfido_doc_capture_header_live_guidance_distance_ok_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_too_left`
+- `onfido_doc_capture_header_live_guidance_doc_too_left_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_too_right`
+- `onfido_doc_capture_header_live_guidance_doc_too_right_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_too_high`
+- `onfido_doc_capture_header_live_guidance_doc_too_high_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_slightly_high`
+- `onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_too_low`
+- `onfido_doc_capture_header_live_guidance_doc_too_low_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_slightly_low`
+- `onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility`
+- `onfido_doc_capture_header_live_guidance_doc_position_ok`
+- `onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility`
+- `onfido_doc_capture_header_live_guidance_intro_doc_front`
+- `onfido_doc_capture_header_live_guidance_intro_doc_back`
+- `onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility`
+- `onfido_doc_capture_header_live_guidance_intro_pp_photo`
+- `onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility`
+
 ## `10.1.0` -> `10.2.0`
 
 ### Added strings:

@@ -9,6 +9,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [10.3.0] - 2021-10-25
+
+### Added
+
+- Public: Screen reader users will have document positioning and auto capture
+- Public: Added face detection to document capture
+
+### Changed
+
+- UI: Added flip back arrow to back side of document capture
+
+### Fixed
+
+- UI: Fixed issue that liveness digit challenge does not have delay before button appears
+- Public: Fixed crash issue - `NullPointerException: volumeView` must not be `null`
+- UI: Fixed issue that `exitWhenSentToBackground` exits flow when it switches from front of document to back of document
+- Public: Excluded META-INF/com.google.dagger_dagger.version from being packaged inside Onfido SDK
+- Public: Made microphone feature optional
+
 ## [10.2.0] - 2021-09-21
 
 ### Changed
@@ -21,6 +40,50 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Public: Bug fix to prevent SDK to use the sdk token from the previous session
 - Public: Fix to track DOCUMENT_CAPTURE_FRONT event twice
+
+## [10.1.0] - 2021-09-08
+
+### Changed
+
+- Public: Added `MissingOnfidoConfigException` error message if `OnfidoConfig` is not specified when
+  starting the flow
+- Public: Applied new watermark position at the bottom of all screens
+- Public: Upgraded Kotlin version to v1.5.21
+- Public: Changed analytic event for passport from DOCUMENT_CAPTURE_FRONT to DOCUMENT_CAPTURE
+- UI: Made live and post-capture alerts align to the top of the frame
+- Public: Implemented disabling mobile SDK analytics as an enterprise feature
+- Public: Migrated from RxJava 2 to RxJava 3
+- Public: Upgraded to AppCompat version 1.3.1
+- Public: Enabled R8
+
+### Fixed
+
+- Public: Fixed some issues causing NPEs in CameraSource
+
+## [10.0.0] - 2021-07-12
+
+### Added
+
+- UI: Added IT and PT locale support
+
+### Changed
+
+- UI: Split head turn instructions into 2 lines, with the arrow in between
+- UI: Integrated image quality service
+- UI: Improved designs and copies across the SDK. Please visit our [MIGRATION.md](MIGRATION.md) for the copy updates
+- Public: Removed deprecated methods and constructors of DocumentType class
+- UI: Removed timer icon from subtitle in welcome screen
+- UI: Properly set titles as accessibility headings
+- Public: Live capture warnings like "Glare detected" shouldn't steal focus from the user's current selection during Voice Over or Accessibility mode
+- UI: Existing strings have been updated and new ones have been added. For more information, please visit our [MIGRATION.md](MIGRATION.md)
+- UI: Screen reader should read back button with screen title
+- UI: Made country selection list items to be treated as buttons
+
+### Fixed
+
+- Public: Fixed low image quality issue that was happening on certain Xiaomi devices
+- Public: Fixed disappearing passport capture instruction text during on device validations
+- Public: Fixed a bug that was not triggering VIDEO_FACIAL_CAPTURE_STEP_0, VIDEO_FACIAL_CAPTURE_STEP_1 events in UserEventHandler during face liveness flow
 
 ## [10.1.0] - 2021-09-08
 

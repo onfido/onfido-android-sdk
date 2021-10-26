@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 
-def sdkVersion = '10.2.0'
-def versionCodeNumber = 1020
+def sdkVersion = '10.3.0'
+def versionCodeNumber = 1030
 
 android {
     compileSdkVersion 30
@@ -44,7 +44,6 @@ android {
 
 repositories {
     mavenCentral()
-    maven { url 'https://maven.fabric.io/public' }
 }
 
 dependencies {

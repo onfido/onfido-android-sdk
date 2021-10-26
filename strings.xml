@@ -240,7 +240,6 @@
     <string name="onfido_nfc_permission_list_item_nfc">Turn on NFC from your device settings</string>
     <string name="onfido_nfc_permission_button_primary">Open settings</string>
 
-
     <string name="onfido_doc_confirmation_button_primary_permit">Submit photo</string>
     <string name="onfido_country_select_error_no_country_body">We’re working on adding more countries to the list. In the meantime, try using an alternative document.</string>
     <string name="onfido_selfie_intro_list_item_face_forward">Face forward and make sure your eyes are clearly visible</string>
@@ -352,11 +351,44 @@
     <string name="onfido_video_capture_prompt_detail_restart">To clear this step, you must keep your face within view throughout the recording.</string>
     <string name="onfido_video_capture_prompt_button_restart">Restart</string>
 
-	<string name="onfido_welcome_list_header">Use your device to:</string>
-	<string name="onfido_welcome_list_item_doc_photo">Take a photo of your identity document</string>
-	<string name="onfido_welcome_list_item_doc_video">Record a video of your identity document</string>
-	<string name="onfido_welcome_list_item_doc_generic">Scan your identity document</string>
-	<string name="onfido_welcome_list_item_face_photo">Take a photo of your face</string>
-	<string name="onfido_welcome_list_item_face_video">Record a video of your face</string>
-	<string name="onfido_welcome_list_item_face_generic">Scan your face</string>
-</resources>
+    <string name="onfido_welcome_list_header">Use your device to:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Take a photo of your identity document</string>
+    <string name="onfido_welcome_list_item_doc_video">Record a video of your identity document</string>
+    <string name="onfido_welcome_list_item_doc_generic">Scan your identity document</string>
+    <string name="onfido_welcome_list_item_face_photo">Take a photo of your face</string>
+    <string name="onfido_welcome_list_item_face_video">Record a video of your face</string>
+    <string name="onfido_welcome_list_item_face_generic">Scan your face</string>
+
+	<string name="onfido_doc_capture_alert_no_face_title">Face not detected</string>
+	<string name="onfido_doc_capture_alert_no_face_detail">Make sure your face is visible</string>
+
+	<string name="onfido_doc_capture_alert_no_mrz3_title">Bottom three lines not visible</string>
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">View from camera. Place your phone on the front of your document, then slowly move your phone away from it in a straight line.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Hold your phone over the document</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">No document found. Hold your phone over the document.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Document too close</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Document too close to camera</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Document too far</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Document too far away from camera</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_ok">Keep this distance</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_ok_accessibility">Keep this distance from your document</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left">Move left</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Move your device to the left</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Move right</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Move your device to the right</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Move up</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Move your device up</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Move up</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Move your device up slightly</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Move down</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Move your device down</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Move down</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Move your device down slightly</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Hold still to capture</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Hold still to capture</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Hold your phone over the front of your document</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Hold your phone over the back of your document</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">View from camera. Place your phone on the back of your document, then slowly move your phone away from it in a straight line.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Hold your phone over the photo page of your passport</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">View from camera. Place your phone on the photo page of your passport, then slowly move your phone away from it in a straight line.</string></resources>
