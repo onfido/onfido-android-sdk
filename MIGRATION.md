@@ -1,5 +1,62 @@
 # Onfido Android SDK Migration Guide
 
+## `10.3.0` -> `10.3.1`
+
+### Added strings
+- `onfido_nfc_select_title_passport`
+- `onfido_nfc_select_subtitle_passport`
+- `onfido_nfc_select_body_passport`
+- `onfido_nfc_select_button_primary_passport`
+- `onfido_nfc_select_button_secondary_passport`
+- `onfido_nfc_intro_title_passport`
+- `onfido_nfc_intro_subtitle_passport`
+- `onfido_nfc_intro_button_primary_passport`
+- `onfido_nfc_intro_sheet_header_ready_passport`
+- `onfido_nfc_fail_title_passport`
+- `onfido_nfc_fail_list_item_remove_cover_passport`
+- `onfido_nfc_fail_list_item_keep_contact_passport`
+- `onfido_nfc_fail_button_primary_passport`
+- `onfido_nfc_fail_button_secondary_passport`
+- `onfido_nfc_select_title_card`
+- `onfido_nfc_select_subtitle_card`
+- `onfido_nfc_select_body_card`
+- `onfido_nfc_select_button_primary_card`
+- `onfido_nfc_select_button_secondary_card`
+- `onfido_nfc_intro_title_card`
+- `onfido_nfc_intro_subtitle_card`
+- `onfido_nfc_intro_sheet_header_ready_card`
+- `onfido_nfc_fail_title_card`
+- `onfido_nfc_fail_list_item_remove_cover_card`
+- `onfido_nfc_fail_list_item_keep_contact_card`
+- `onfido_nfc_sheet_success_instruction_card`
+- `onfido_nfc_intro_sheet_header_fail_passport`
+- `onfido_nfc_intro_button_primary_card`
+- `onfido_nfc_intro_sheet_header_fail_card`
+- `onfido_nfc_fail_button_primary_card`
+- `onfido_nfc_fail_button_secondary_card`
+
+### Changed strings:
+- `onfido_doc_capture_header_live_guidance_no_doc`
+- `onfido_nfc_sheet_success_instruction`
+
+### Removed strings:
+- `onfido_nfc_select_title`
+- `onfido_nfc_select_subtitle`
+- `onfido_nfc_select_button_primary`
+- `onfido_nfc_select_button_secondary`
+- `onfido_nfc_select_body`
+- `onfido_nfc_intro_title`
+- `onfido_nfc_intro_sheet_header_ready`
+- `onfido_nfc_sheet_ready_subtitle`
+- `onfido_nfc_intro_subtitle`
+- `onfido_nfc_sheet_success_intruction`
+- `onfido_nfc_intro_button_primary`
+- `onfido_nfc_fail_title`
+- `onfido_nfc_fail_list_item_remove_covers`
+- `onfido_nfc_fail_list_item_keep_contact`
+- `onfido_nfc_fail_button_primary`
+- `onfido_nfc_fail_button_secondary`
+
 ## `10.2.0` -> `10.3.0`
 
 ### Added strings
@@ -42,6 +99,38 @@
 - `onfido_welcome_list_item_face_photo`
 - `onfido_welcome_list_item_face_video`
 - `onfido_welcome_list_item_face_generic`
+- `onfido_nfc_select_title_passport`
+- `onfido_nfc_select_subtitle_passport`
+- `onfido_nfc_select_body_passport`
+- `onfido_nfc_select_button_primary_passport`
+- `onfido_nfc_select_button_secondary_passport`
+- `onfido_nfc_intro_title_passport`
+- `onfido_nfc_intro_subtitle_passport`
+- `onfido_nfc_intro_button_primary_passport`
+- `onfido_nfc_intro_sheet_header_ready_passport`
+- `onfido_nfc_sheet_success_instruction`
+- `onfido_nfc_fail_title_passport`
+- `onfido_nfc_fail_list_item_remove_cover_passport`
+- `onfido_nfc_fail_list_item_keep_contact_passport`
+- `onfido_nfc_fail_button_primary_passport`
+- `onfido_nfc_fail_button_secondary_passport`
+- `onfido_nfc_select_title_card`
+- `onfido_nfc_select_subtitle_card`
+- `onfido_nfc_select_body_card`
+- `onfido_nfc_select_button_primary_card`
+- `onfido_nfc_select_button_secondary_card`
+- `onfido_nfc_intro_title_card`
+- `onfido_nfc_intro_subtitle_card`
+- `onfido_nfc_intro_sheet_header_ready_card`
+- `onfido_nfc_fail_title_card`
+- `onfido_nfc_fail_list_item_remove_cover_card`
+- `onfido_nfc_fail_list_item_keep_contact_card`
+- `onfido_nfc_sheet_success_instruction_card`
+- `onfido_nfc_intro_sheet_header_fail_passport`
+- `onfido_nfc_intro_button_primary_card`
+- `onfido_nfc_intro_sheet_header_fail_card`
+- `onfido_nfc_fail_button_primary_card`
+- `onfido_nfc_fail_button_secondary_card`
 
 ### Changed strings:
 - `onfido_doc_capture_header_folded_doc_front`
@@ -79,6 +168,24 @@
 - `onfido_doc_capture_frame_accessibility_ic_za_front_manual`
 - `onfido_doc_capture_frame_accessibility_ic_za_back_manual`
 - `onfido_doc_capture_frame_accessibility_pp_cover_manual`
+
+### Removed strings:
+
+- `onfido_nfc_select_title`
+- `onfido_nfc_select_subtitle`
+- `onfido_nfc_select_button_primary`
+- `onfido_nfc_select_button_secondary`
+- `onfido_nfc_select_body`
+- `onfido_nfc_intro_title`
+- `onfido_nfc_intro_sheet_header_ready`
+- `onfido_nfc_intro_subtitle`
+- `onfido_nfc_sheet_success_intruction`
+- `onfido_nfc_intro_button_primary`
+- `onfido_nfc_fail_title`
+- `onfido_nfc_fail_list_item_remove_covers`
+- `onfido_nfc_fail_list_item_keep_contact`
+- `onfido_nfc_fail_button_primary`
+- `onfido_nfc_fail_button_secondary`
 
 ## `10.0.0` -> `10.1.0`
 

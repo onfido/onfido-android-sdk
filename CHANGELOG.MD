@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [10.3.1] - 2021-11-16
+
+### Changed
+
+- Public: Improved auto-capture performance
+- Public: Added `withNFCReadBetaFeature()` to `OnfidoConfig.Builder` for enabling NFC
+- Public: Removed traces of old support library references
+- Public: Marked extension functions as internal to avoid polluting integrators' namespace
+- Public: Onfido SDK now is built using Android Gradle Plugin 7.0.3
+- Public: Added NFC integration documentation
+
 ## [10.3.0] - 2021-10-25
 
 ### Added

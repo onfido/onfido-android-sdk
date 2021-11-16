@@ -122,8 +122,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.34 Mb  |
-| arm64-v8a   | 7.22 Mb  |
+| armeabi-v7a | 6.37 Mb  |
+| arm64-v8a   | 7.25 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -143,7 +143,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.80 Mb  |
+| universal   | 3.83 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -509,6 +509,55 @@ with the message `"Custom flow cannot contain both video and photo variants of f
 #### Finish step 
 
 The final screen displays a completion message to the user and signals the end of the flow. This is an optional screen.
+
+#### Enabling NFC extraction (beta)
+
+Some passports and ID cards contain a chip which can be accessed using NFC. The SDK provides a set of screens to extract the information contained in the chip to verify the original document is present.
+
+##### Prerequisites
+
+NFC dependencies are not included in the SDK to avoid increasing the SDK size when the NFC feature is disabled. To use the NFC feature, you need to include the following dependencies (with the specified versions) in your build script:
+
+```
+implementation "net.sf.scuba:scuba-sc-android:0.0.23"
+implementation "org.jmrtd:jmrtd:0.7.18"
+```
+
+##### SDK integration
+
+⚠️ Note This feature is currently in beta and the API is subject to change.
+
+##### Kotlin
+```kotlin
+val config = OnfidoConfig.builder(context)
+    .withNFCReadBetaFeature()
+    .build()
+```
+
+##### Java
+```java
+OnfidoConfig config = OnfidoConfig.builder(context)
+    .withNFCReadBetaFeature()
+    .build()
+```
+
+You also need to add the following Proguard rules to your `proguard-rules.pro` file:
+
+```
+-keep class org.jmrtd.** { *; }
+-keep class net.sf.scuba.** {*;}
+-keep class org.bouncycastle.** {*;}
+-keep class org.ejbca.** {*;}
+
+-dontwarn kotlin.time.jdk8.DurationConversionsJDK8Kt
+-dontwarn org.ejbca.**
+-dontwarn org.bouncycastle.**
+-dontwarn module-info
+-dontwarn org.jmrtd.**
+-dontwarn net.sf.scuba.**
+```
+
+You can find further details in our [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
 ### UI customization
 
