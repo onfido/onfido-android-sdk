@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [10.3.2] - 2021-12-15
+
+### Fixed
+
+- Public: Fixed an NPE when recapturing a document
+- Public: Fixed video preview cut-off
+
 ## [10.3.1] - 2021-11-16
 
 ### Changed

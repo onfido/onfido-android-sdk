@@ -143,7 +143,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.83 Mb  |
+| universal   | 3.84 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
