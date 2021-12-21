@@ -15,6 +15,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Public: Fixed an NPE when recapturing a document
 - Public: Fixed video preview cut-off
+- Public: Fixed an NPE when starting liveness video recording
 
 ## [10.3.1] - 2021-11-16
 

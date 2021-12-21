@@ -123,7 +123,7 @@ Average size (with Proguard enabled):
 | ABI         |  Size   |
 | ----------- | :-----: |
 | armeabi-v7a | 6.37 Mb  |
-| arm64-v8a   | 7.25 Mb  |
+| arm64-v8a   | 7.26 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
