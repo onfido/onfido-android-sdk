@@ -1,5 +1,28 @@
 # Onfido Android SDK Migration Guide
 
+## `10.3.1` -> `11.0.0`
+
+### Breaking changes
+- Removed deprecated `withToken(token)` and `withApplicant(ID)` from `OnfidoConfig.Builder` class. 
+  Mobile tokens are not supported anymore, please use SDK tokens with `withSDKToken(token)`, 
+  otherwise you will get an authorization exception when creating an applicant.
+
+### Added strings
+- `onfido_nfc_intro_carousel_body_dont_move`
+- `onfido_nfc_intro_carousel_body_last_page`
+- `onfido_nfc_intro_carousel_body_lay_flat`
+- `onfido_nfc_intro_carousel_body_phone_top`
+- `onfido_nfc_intro_carousel_body_remove_cover`
+
+### Changed strings:
+- `onfido_nfc_intro_subtitle_passport`
+
+### Added strings:
+- `onfido_doc_capture_header_capturing`
+
+### Removed strings:
+- `onfido_doc_capture_header_scanning`
+
 ## `10.3.0` -> `10.3.1`
 
 ### Added strings
