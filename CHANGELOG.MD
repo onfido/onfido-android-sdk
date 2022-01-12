@@ -9,20 +9,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [10.3.3] - 2022-01-12
+## [11.0.0] - 2022-01-10
 
-### Fixed
+### Added
 
-- Public: Fixed the document overlay size problem that related passport document type
-- UI: Fixed a ui glitch in document confirmation screen related to activity lifecycle
+- Public: Added the Dutch locale
 
-## [10.3.2] - 2021-12-15
+### Changed
+
+- Public: Upgraded compileSdkVersion and targetSdkVersion to version 31
+- Public: Added more instructions in the NFC scan screen
+- Public: Removed support for deprecated Mobile Token
+- public: Updated document video recording instruction text
 
 ### Fixed
 
 - Public: Fixed an NPE when recapturing a document
-- Public: Fixed video preview cut-off
 - Public: Fixed an NPE when starting liveness video recording
+- Public: Fixed: initializing the SDK with Locale.ROOT causes a crash
 
 ## [10.3.1] - 2021-11-16
 
