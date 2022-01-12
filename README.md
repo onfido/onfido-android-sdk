@@ -44,7 +44,7 @@ The SDK supports API level 21 and above ([distribution stats](https://developer.
 Our configuration is currently set to the following:
 
 - `minSdkVersion = 21`
-- `targetSdkVersion = 31`
+- `targetSdkVersion = 28`
 - `android.useAndroidX=true`
 - `Kotlin = 1.3+`
 ```
@@ -122,8 +122,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.48 Mb  |
-| arm64-v8a   | 7.37 Mb  |
+| armeabi-v7a | 6.37 Mb  |
+| arm64-v8a   | 7.25 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -143,7 +143,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.95 Mb  |
+| universal   | 3.84 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -176,7 +176,18 @@ $ curl https://api.onfido.com/v3/applicants \
 
 The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos and videos uploaded by that instance of the SDK will be associated with that applicant.
 
-### 4. Configure the SDK with a token
+### 4. Configure the SDK with tokens
+
+The SDK supports 2 token mechanisms:
+
+* `SDK token`   
+* `Mobile token`
+
+We strongly recommend using a **SDK token**. It provides a more secure means of integration, as the token is temporary and applicant ID-bound. 
+
+**Note**: If you're using an SDK token, you shouldn't call the **withApplicantId** function.
+
+#### 4.1 SDK tokens
 
 You'll need to generate and include an SDK token every time you initialize the SDK. 
 To generate an SDK token, make a request to the ['generate SDK token' endpoint](https://documentation.onfido.com/#generate-web-sdk-token).
@@ -195,7 +206,7 @@ $ curl https://api.onfido.com/v3/sdk_token \
 
 :warning: SDK tokens expire after 90 minutes. 
 
-##### 4.1 `tokenExpirationHandler`
+##### 4.1.1 `tokenExpirationHandler`
 
 You can use the optional `tokenExpirationHandler` parameter in the SDK token configurator function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired.
 
@@ -234,7 +245,31 @@ OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
                 .withSDKToken("<YOUR_SDK_TOKEN>", new ExpirationHandler()); // ExpirationHandler is optional
 ```
 
-**Note:** If you want to use `tokenExpirationHandler` you should pass a concrete class instance, you should not pass an **anonymous** or **activity** class instance.
+**Note:** If you want to use `tokenExpirationHandler` you should pass a concrete class instance, you should not pass an **anonymous** or **activity** class instance.  
+
+#### 4.2 Mobile tokens
+
+:warning: From **1st June 2021**, new SDK versions will no longer support Mobile tokens. Please migrate your integration to use [SDK tokens](#41-sdk-token) so that you can upgrade to new SDK versions in the future.
+
+You can generate Mobile tokens in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens).
+
+:warning: You must use the Mobile token and not the API token when configuring the SDK itself.
+
+##### Kotlin
+
+```kotlin
+val config = OnfidoConfig.builder(context)
+    .withToken("<YOUR_MOBILE_TOKEN_HERE>")
+    .withApplicant("<YOUR_APPLICANT_ID_HERE>")
+```
+
+##### Java
+
+```java
+OnfidoConfig.Builder config = new OnfidoConfig.Builder(this)
+                    .withToken("<YOUR_MOBILE_TOKEN_HERE>")
+                    .withApplicant("<YOUR_APPLICANT_ID_HERE>");
+```
 
 ### 5. Instantiate the client
 
@@ -377,11 +412,9 @@ You can configure the document step to capture single document types with specif
 
 - **Document type**
 
-The list of document types visible for the user to select can be shown or hidden using this option. If only one document type is specified, users will not see the document selection screen or country selection screen and will be taken directly to the capture screen.
+The list of document types visible for the user to select can be filtered using this option. If only one document type is specified, users will not see the document selection screen or country selection screen and will be taken directly to the capture screen.
 
 Each document type has its own configuration class.
-
-**Note**: The specific document types included in the list cannot be customised
 
 - **Document country**
 
@@ -600,7 +633,6 @@ The Onfido Android SDK supports and maintains translations for the following loc
 - German     (de) :de:
 - Italian    (it) :it:
 - Portuguese (pt) :pt:
-- Dutch      (nl) :nl:
 
 **Custom language**
 
@@ -677,7 +709,7 @@ You can use the data to keep track of how many users reach each screen in your f
 
 ## Going live
 
-Once you are happy with your integration and are ready to go live, please contact [Client Support](mailto:client-support@onfido.com) to obtain a live API token. You'll have to replace the sandbox tokens in your code with live tokens.
+Once you are happy with your integration and are ready to go live, please contact [Client Support](mailto:client-support@onfido.com) to obtain a live API token (and Mobile token). You'll have to replace the sandbox tokens in your code with live tokens.
 
 Check the following before you go live:
 
