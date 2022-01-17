@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [11.1.0] - 2022-01-17
+
+### Changed
+
+- UI: Added helpful feedback when NFC scan fails
+
+### Fixed
+
+- Public: Fixed the document overlay size problem for passport document capture
+- UI: Fixed a UI glitch in the document confirmation screen related to the activity lifecycle
+
 ## [11.0.0] - 2022-01-10
 
 ### Added

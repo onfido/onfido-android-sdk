@@ -1,5 +1,16 @@
 # Onfido Android SDK Migration Guide
 
+## `11.0.0` -> `11.1.0`
+
+### Added strings
+- `onfido_nfc_intro_sheet_ready_subtitle_passport`
+- `onfido_nfc_intro_sheet_scanning_subtitle`
+- `onfido_nfc_intro_sheet_ready_subtitle_card`
+- `onfido_nfc_intro_sheet_fail_instructions_card`
+- `onfido_nfc_intro_sheet_fail_subtitle_card`
+- `onfido_nfc_intro_sheet_fail_subtitle_passport`
+- `onfido_nfc_intro_sheet_fail_instructions_passport`
+
 ## `10.3.1` -> `11.0.0`
 
 ### Breaking changes
