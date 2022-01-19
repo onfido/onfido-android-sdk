@@ -24,13 +24,6 @@
 - `onfido_nfc_intro_carousel_body_lay_flat`
 - `onfido_nfc_intro_carousel_body_phone_top`
 - `onfido_nfc_intro_carousel_body_remove_cover`
-- `onfido_nfc_intro_sheet_ready_subtitle_passport"`
-- `onfido_nfc_intro_sheet_scanning_subtitle`
-- `onfido_nfc_intro_sheet_ready_subtitle_card`
-- `onfido_nfc_intro_sheet_fail_instructions_card`
-- `onfido_nfc_intro_sheet_fail_subtitle_card`
-- `onfido_nfc_intro_sheet_fail_subtitle_passport`
-- `onfido_nfc_intro_sheet_fail_instructions_passport`
 
 ### Changed strings:
 - `onfido_nfc_intro_subtitle_passport`
