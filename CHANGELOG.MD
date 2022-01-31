@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [11.2.0] - 2022-01-31
+
+### Changed
+
+- Public: Disable accessibility if there is not any spoken accessibility enabled
+- UI: Shutter button always visible, no longer hidden while waiting for auto-capture
+- Public: Changed video bitrate configuration for document capture flow
+- Public: Filtered out the countries which doesn't support the selected document type
+
+### Fixed
+
+- Public: Fixed a rare crash that happens when retrieving from user consent url
+- Public: Fixed MLKit related crash
+- Public: Fixed native library crashes
+
 ## [11.1.0] - 2022-01-17
 
 ### Changed

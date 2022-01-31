@@ -431,4 +431,6 @@
 	<string name="onfido_nfc_intro_sheet_fail_instructions_card">Keep your phone still</string>
 	<string name="onfido_nfc_intro_sheet_fail_subtitle_card">Lost contact with card</string>
 	<string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Lost contact with passport</string>
-	<string name="onfido_nfc_intro_sheet_fail_instructions_passport">Move your phone slightly up or down</string></resources>
+	<string name="onfido_nfc_intro_sheet_fail_instructions_passport">Move your phone slightly up or down</string>
+
+</resources>
