@@ -62,6 +62,10 @@ In order to start integrating, you will need an [API token](https://documentatio
 
 You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) environment to test your integration. To use the sandbox, you'll need to generate a sandbox API token in your [Onfido Dashboard](https://onfido.com/dashboard/api/tokens). 
 
+⚠️ **Note: You must never use API tokens in the frontend of your
+application or malicious users could discover them in your source code. You
+should only use them on your server.**
+
 #### 1.1 Regions
 
 Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
@@ -122,8 +126,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.61 Mb  |
-| arm64-v8a   | 7.50 Mb  |
+| armeabi-v7a | 6.63 Mb  |
+| arm64-v8a   | 7.52 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -143,7 +147,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 4.08 Mb  |
+| universal   | 4.10 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,

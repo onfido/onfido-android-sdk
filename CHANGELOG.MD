@@ -9,18 +9,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [11.3.0] - 2022-02-15
+
+### Changed
+
+- UI: Updated barcode detection user experience
+
 ## [11.2.0] - 2022-01-31
 
 ### Changed
 
-- Public: Disable accessibility if there is not any spoken accessibility enabled
-- UI: Shutter button always visible, no longer hidden while waiting for auto-capture
+- Public: Disabled accessibility if there's no spoken accessibility enabled
+- UI: The shutter button is always visible and no longer hidden while waiting for auto-capture
+- Public: Filtered out countries that don't support the selected document type
 - Public: Changed video bitrate configuration for document capture flow
-- Public: Filtered out the countries which doesn't support the selected document type
 
 ### Fixed
 
-- Public: Fixed a rare crash that happens when retrieving from user consent url
+- Public: Fixed a rare crash that happens when retrieving from the user consent URL
 - Public: Fixed MLKit related crash
 - Public: Fixed native library crashes
 
@@ -29,13 +35,6 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Changed
 
 - UI: Added helpful feedback when NFC scan fails
-
-### Fixed
-
-- Public: Fixed the document overlay size problem for passport document capture
-- UI: Fixed a UI glitch in the document confirmation screen related to the activity lifecycle
-
-## [10.3.3] - 2022-01-17
 
 ### Fixed
 
