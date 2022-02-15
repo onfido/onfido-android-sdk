@@ -41,6 +41,13 @@ translations. [More on language localisation](README.md#4-localisation)
 - Public: Fixed the document overlay size problem for passport document capture
 - UI: Fixed a UI glitch in the document confirmation screen related to the activity lifecycle
 
+## [10.3.3] - 2022-01-17
+
+### Fixed
+
+- Public: Fixed the document overlay size problem for passport document capture
+- UI: Fixed a UI glitch in the document confirmation screen related to the activity lifecycle
+
 ## [11.0.0] - 2022-01-10
 
 ### Added
