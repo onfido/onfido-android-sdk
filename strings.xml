@@ -3,6 +3,7 @@
     <!-- Document Capture -->
     <string name="onfido_app_title_doc_capture_id_it">Italian identity card</string>
     <string name="onfido_app_title_doc_capture_id_za">South African identity card</string>
+    <string name="onfido_app_title_doc_capture_license_de">German driver’s license</string>
     <string name="onfido_app_title_doc_capture_license_fr">French driver\'s license</string>
     <string name="onfido_doc_capture_prompt_button_paper">Paper document</string>
     <string name="onfido_doc_capture_prompt_button_card">Plastic card</string>
@@ -218,6 +219,8 @@
     <string name="onfido_nfc_sheet_ready_button_secondary">Cancel</string>
     <string name="onfido_nfc_sheet_scanning_button_secondary">Cancel</string>
     <string name="onfido_nfc_intro_sheet_header_scanning">Scanning...</string>
+    <string name="onfido_nfc_intro_sheet_header_scan_retry">Retrying...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction_retry">Move your phone slightly</string>
     <string name="onfido_nfc_sheet_scanning_instruction">Keep your phone still</string>
     <string name="onfido_nfc_sheet_success_subtitle">Scan successful</string>
     <string name="onfido_nfc_permission_title">Turn on NFC</string>
@@ -324,13 +327,14 @@
     <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">View from camera. Position the back of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">View from camera. Position the photo side of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">View from camera. Position the outer pages of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_frame_accessibility_pp_cover_manual">View from camera. Position the cover of your document in the frame, then tap the shutter button</string>
     <string name="onfido_doc_capture_header_folded_doc_front">Position the photo side of your document in the frame</string>
-    <string name="onfido_doc_capture_header_scanning">Scanning document...</string>
     <string name="onfido_doc_capture_frame_accessibility_pp_manual">View from camera. Position your passport photo page within the frame, then tap the shutter button</string>
     <string name="onfido_video_capture_prompt_header_restart">Restart the recording</string>
     <string name="onfido_video_capture_prompt_detail_restart">To clear this step, you must keep your face within view throughout the recording.</string>
@@ -349,38 +353,47 @@
 
 	<string name="onfido_doc_capture_alert_no_mrz3_title">Bottom three lines not visible</string>
 
-	<string name="onfido_nfc_select_title_passport">Speed up the process with NFC</string>
-	<string name="onfido_nfc_select_subtitle_passport">We’ll scan the NFC chip in your passport</string>
-	<string name="onfido_nfc_select_body_passport">ePassports have this symbol on the cover</string>
-	<string name="onfido_nfc_select_button_primary_passport">Use ePassport</string>
-	<string name="onfido_nfc_select_button_secondary_passport">It’s not an ePassport</string>
-	<string name="onfido_nfc_intro_title_passport">Scan your ePassport</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Place your phone on your closed passport and keep it near the top of your phone</string>
-	<string name="onfido_nfc_intro_button_primary_passport">Start scanning</string>
-	<string name="onfido_nfc_intro_sheet_header_ready_passport">Place your phone on your closed passport</string>
-	<string name="onfido_nfc_sheet_success_instruction">We’ve successfully scanned your passport</string>
-	<string name="onfido_nfc_fail_title_passport">We couldn’t scan your passport</string>
-	<string name="onfido_nfc_fail_list_item_remove_cover_passport">Remove your passport and phone covers</string>
-	<string name="onfido_nfc_fail_list_item_keep_contact_passport">Keep your phone and passport in contact until the scanning is successful</string>
-	<string name="onfido_nfc_fail_button_primary_passport">Retry scanning</string>
-	<string name="onfido_nfc_fail_button_secondary_passport">Get verified without scan</string>
-	<string name="onfido_nfc_select_title_card">Speed up the process with NFC</string>
-	<string name="onfido_nfc_select_subtitle_card">We’ll scan the NFC chip in your card</string>
-	<string name="onfido_nfc_select_body_card">Cards with NFC chips have this symbol</string>
-	<string name="onfido_nfc_select_button_primary_card">Use NFC card</string>
-	<string name="onfido_nfc_select_button_secondary_card">It’s not an NFC card</string>
-	<string name="onfido_nfc_intro_title_card">Scan your NFC card</string>
-	<string name="onfido_nfc_intro_subtitle_card">Place your phone on the card and keep it near the top of your phone</string>
-	<string name="onfido_nfc_intro_sheet_header_ready_card">Place your phone on the card</string>
-	<string name="onfido_nfc_fail_title_card">We couldn’t scan your NFC card</string>
-	<string name="onfido_nfc_fail_list_item_remove_cover_card">Remove your phone cover</string>
-	<string name="onfido_nfc_fail_list_item_keep_contact_card">Keep your phone and card in contact until the scanning is successful</string>
-	<string name="onfido_nfc_sheet_success_instruction_card">We’ve successfully scanned your card</string>
-	<string name="onfido_nfc_intro_sheet_header_fail_passport">We couldn’t scan your passport</string>
-	<string name="onfido_nfc_intro_button_primary_card">Start scanning</string>
-	<string name="onfido_nfc_intro_sheet_header_fail_card">We couldn’t scan your NFC card</string>
-	<string name="onfido_nfc_fail_button_primary_card">Retry scanning</string>
-	<string name="onfido_nfc_fail_button_secondary_card">Get verified without scan</string>
+    <string name="onfido_nfc_fail_button_primary_card">Retry scanning</string>
+    <string name="onfido_nfc_fail_button_primary_passport">Retry scanning</string>
+    <string name="onfido_nfc_fail_button_secondary_card">Get verified without scan</string>
+    <string name="onfido_nfc_fail_button_secondary_passport">Get verified without scan</string>
+    <string name="onfido_nfc_fail_title_passport">We couldn’t scan your passport</string>
+    <string name="onfido_nfc_fail_list_item_remove_cover_passport">Remove your passport and phone covers</string>
+    <string name="onfido_nfc_fail_list_item_keep_contact_passport">Keep your phone and passport in contact until the scanning is successful</string>
+    <string name="onfido_nfc_fail_title_card">We couldn’t scan your NFC card</string>
+    <string name="onfido_nfc_fail_list_item_remove_cover_card">Remove your phone cover</string>
+    <string name="onfido_nfc_fail_list_item_keep_contact_card">Keep your phone and card in contact until the scanning is successful</string>
+
+    <string name="onfido_nfc_intro_button_primary_card">Start scanning</string>
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Don’t move your phone or passport while scanning</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">You can also try the inside of the back page</string>
+    <string name="onfido_nfc_intro_carousel_body_lay_flat">Lay your passport on a flat surface</string>
+    <string name="onfido_nfc_intro_carousel_body_phone_top">Place your phone near the top of your passport</string>
+    <string name="onfido_nfc_intro_carousel_body_remove_cover">Remove your passport cover</string>
+    <string name="onfido_nfc_intro_title_card">Scan your NFC card</string>
+    <string name="onfido_nfc_intro_title_passport">Scan your ePassport</string>
+    <string name="onfido_nfc_intro_sheet_header_fail_passport">We couldn’t scan your passport</string>
+    <string name="onfido_nfc_intro_sheet_header_fail_card">We couldn’t scan your NFC card</string>
+    <string name="onfido_nfc_intro_subtitle_card">Place your phone on the card and keep it near the top of your phone</string>
+    <string name="onfido_nfc_intro_subtitle_passport">Follow these instructions</string>
+    <string name="onfido_nfc_intro_button_primary_passport">Start scanning</string>
+    <string name="onfido_nfc_intro_sheet_header_ready_card">Place your phone on the card</string>
+    <string name="onfido_nfc_intro_sheet_header_ready_passport">Place your phone on your closed passport</string>
+
+    <string name="onfido_nfc_sheet_success_instruction">We’ve successfully scanned your passport</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">We’ve successfully scanned your card</string>
+
+    <string name="onfido_nfc_select_title_passport">Speed up the process with NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">We’ll scan the NFC chip in your passport</string>
+    <string name="onfido_nfc_select_body_passport">ePassports have this symbol on the cover</string>
+    <string name="onfido_nfc_select_button_primary_passport">Use ePassport</string>
+    <string name="onfido_nfc_select_button_secondary_passport">It’s not an ePassport</string>
+
+    <string name="onfido_nfc_select_title_card">Speed up the process with NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">We’ll scan the NFC chip in your card</string>
+    <string name="onfido_nfc_select_body_card">Cards with NFC chips have this symbol</string>
+    <string name="onfido_nfc_select_button_primary_card">Use NFC card</string>
+    <string name="onfido_nfc_select_button_secondary_card">It’s not an NFC card</string>
 
 	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">View from camera. Place your phone on the front of your document, then slowly move your phone away from it in a straight line.</string>
 	<string name="onfido_doc_capture_header_live_guidance_no_doc">Hold your phone over the document</string>
@@ -410,4 +423,14 @@
 	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">View from camera. Place your phone on the back of your document, then slowly move your phone away from it in a straight line.</string>
 	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Hold your phone over the photo page of your passport</string>
 	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">View from camera. Place your phone on the photo page of your passport, then slowly move your phone away from it in a straight line.</string>
+	<string name="onfido_doc_capture_header_capturing">Hold still</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Place your phone near the top of your passport</string>
+	<string name="onfido_nfc_intro_sheet_scanning_subtitle">Scanning...</string>
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_card">Place your phone on the card</string>
+	<string name="onfido_nfc_intro_sheet_fail_instructions_card">Keep your phone still</string>
+	<string name="onfido_nfc_intro_sheet_fail_subtitle_card">Lost contact with card</string>
+	<string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Lost contact with passport</string>
+	<string name="onfido_nfc_intro_sheet_fail_instructions_passport">Move your phone slightly up or down</string>
+
 </resources>
