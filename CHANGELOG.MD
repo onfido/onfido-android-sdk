@@ -18,11 +18,18 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Changed
 
 - Public: Improved accessibile capture
-- Public: Remove the usage of Android_ID
+- Public: Remove the usage of Android ID
 
 ### Fixed
 
 - Public: Fix duplicate module issue when using Proguard with already minified 3rd party libraries
+
+## [10.3.4] - 2022-03-15
+
+### Changed
+
+- Public: Improved accessibile capture
+- Public: Remove the usage of Android_ID
 
 ## [11.3.0] - 2022-02-15
 
@@ -56,6 +63,13 @@ translations. [More on language localisation](README.md#4-localisation)
 - Public: Fixed the document overlay size problem for passport document capture
 - UI: Fixed a UI glitch in the document confirmation screen related to the activity lifecycle
 
+## [10.3.3] - 2022-01-12
+
+### Fixed
+
+- Public: Fixed the document overlay size problem that related passport document type
+- UI: Fixed a ui glitch in document confirmation screen related to activity lifecycle
+
 ## [11.0.0] - 2022-01-10
 
 ### Added
@@ -74,6 +88,14 @@ translations. [More on language localisation](README.md#4-localisation)
 - Public: Fixed an NPE when recapturing a document
 - Public: Fixed an NPE when starting liveness video recording
 - Public: Fixed: initializing the SDK with Locale.ROOT causes a crash
+
+## [10.3.2] - 2021-12-15
+
+### Fixed
+
+- Public: Fixed an NPE when recapturing a document
+- Public: Fixed video preview cut-off
+- Public: Fixed an NPE when starting liveness video recording
 
 ## [10.3.1] - 2021-11-16
 
