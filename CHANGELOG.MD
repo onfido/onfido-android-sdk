@@ -17,7 +17,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- Public: Improved accessibile capture
+- Public: Improved accessible capture
 - Public: Remove the usage of Android ID
 
 ### Fixed
@@ -28,8 +28,8 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- Public: Improved accessibile capture
-- Public: Remove the usage of Android_ID
+- Public: Improved accessible capture
+- Public: Remove the usage of Android ID
 
 ## [11.3.0] - 2022-02-15
 
