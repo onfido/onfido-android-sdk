@@ -9,11 +9,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [10.3.5] - 2022-03-29
+## [11.5.0] - 2022-04-21
 
-### Fixed
+### Added
 
-- Public: Fixed the face orientation issue during Liveness video recording
+- Public: Includes the Alpha release of the Onfido next generation facial similarity product. To join the Alpha program customers need to get in touch with their sales representative
 
 ## [11.4.1] - 2022-03-28
 
