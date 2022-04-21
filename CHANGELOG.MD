@@ -15,6 +15,12 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Public: Includes the Alpha release of the Onfido next generation facial similarity product. To join the Alpha program customers need to get in touch with their sales representative
 
+## [10.3.5] - 2022-03-29
+
+### Fixed
+
+- Public: Fixed the face orientation issue during Liveness video recording
+
 ## [11.4.1] - 2022-03-28
 
 ### Fixed
