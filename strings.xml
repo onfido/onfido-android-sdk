@@ -421,7 +421,7 @@
 	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Move down</string>
 	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Move your device down slightly</string>
 	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Hold still to capture</string>
-	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Hold still to capture</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Hold still to capture image</string>
 	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Hold your phone over the front of your document</string>
 	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Hold your phone over the back of your document</string>
 	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">View from camera. Place your phone on the back of your document, then slowly move your phone away from it in a straight line.</string>

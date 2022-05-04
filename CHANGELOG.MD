@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [12.0.0] - 2022-05-04
+
+### Added
+
+- Public: Removed user consent from the public API
+
 ## [11.5.0] - 2022-04-21
 
 ### Added
