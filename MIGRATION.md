@@ -1,5 +1,13 @@
 # Onfido Android SDK Migration Guide
 
+## `11.5.0` -> `12.0.0`
+
+### Breaking changes
+- Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://developers.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
+
+### Changed strings:
+- `onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility`
+
 ## `11.0.0` -> `11.1.0`
 
 ### Added strings
@@ -19,6 +27,7 @@
   otherwise you will get an authorization exception when creating an applicant.
 
 ### Added strings
+- `onfido_doc_capture_header_capturing`
 - `onfido_nfc_intro_carousel_body_dont_move`
 - `onfido_nfc_intro_carousel_body_last_page`
 - `onfido_nfc_intro_carousel_body_lay_flat`
@@ -27,9 +36,6 @@
 
 ### Changed strings:
 - `onfido_nfc_intro_subtitle_passport`
-
-### Added strings:
-- `onfido_doc_capture_header_capturing`
 
 ### Removed strings:
 - `onfido_doc_capture_header_scanning`

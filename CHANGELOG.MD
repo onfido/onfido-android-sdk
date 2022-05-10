@@ -9,11 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [12.0.0] - 2022-05-04
+## [12.1.0] - 2022-05-10
 
 ### Added
 
-- Public: Removed user consent from the public API
+- Public: Added support for capture of documents for proof of address report
+
+## [12.0.0] - 2022-05-04
+
+### Changed
+
+- Public: Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://developers.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
 
 ## [11.5.0] - 2022-04-21
 
@@ -331,7 +337,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Added
 
-- Public: Added config to enable manual liveness capture 
+- Public: Added config to enable manual liveness capture
 
 ### Changed
 
@@ -392,7 +398,7 @@ translations. [More on language localisation](README.md#4-localisation)
 - UI: Fixed a bug that caused the `no face found` warning to not display on the selfie capture screen
 - Public: Fixed localization problems on liveness instructions
 - Public: Fixed supported folded document types explanation on README
-- Public: Fixed a bug that threw `InvalidDocumentFormatAndCountryCombinationException` on `NationalIdentityCaptureStepBuilder` and `DrivingLicenceCaptureStepBuilder` when configured with country code and document format except CountryCode.FR and CountryCode.IT  
+- Public: Fixed a bug that threw `InvalidDocumentFormatAndCountryCombinationException` on `NationalIdentityCaptureStepBuilder` and `DrivingLicenceCaptureStepBuilder` when configured with country code and document format except CountryCode.FR and CountryCode.IT
 - Public: Fixed a bug that was causing sending not supported document type property to the Onfido backend.
 
 ## [5.6.0] - 2020-03-16
@@ -483,7 +489,7 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Changed:
 - UI: Updated README to clarify `APPLICATION_ID` term and how to obtain sandbox token
 - UI: Manual capture button showed after the user click retake or back button for passport and US DL
-- UI: For passports and US Driving Licenses (DL) the manual capture button is shown after the user clicks on retake or on the back button.   
+- UI: For passports and US Driving Licenses (DL) the manual capture button is shown after the user clicks on retake or on the back button.
 - UI: The manual fallback countdown changed
 - Internal: Changed token expiration identifier for the `onfido-api-client`
 
@@ -496,10 +502,10 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed:
 - Public: `onfido-api-client` dependency now bundled with the SDK, instead of getting downloaded as a transitive dependency.
-- Public: Added option to disable liveness intro video (`FaceCaptureStep(FaceCaptureVariantVideo(showIntroVideo = false))`)   
+- Public: Added option to disable liveness intro video (`FaceCaptureStep(FaceCaptureVariantVideo(showIntroVideo = false))`)
 
 ### Removed:
-- Public: Removed `check()` and `checkStatus()` functions from `OnfidoAPI`  
+- Public: Removed `check()` and `checkStatus()` functions from `OnfidoAPI`
 
 ## [5.0.1] - 2019-09-06
 

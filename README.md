@@ -124,8 +124,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.64 Mb  |
-| arm64-v8a   | 7.52 Mb  |
+| armeabi-v7a | 6.67 Mb  |
+| arm64-v8a   | 7.55 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -145,7 +145,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 4.11 Mb  |
+| universal   | 4.13 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -326,6 +326,7 @@ final FlowStep[] defaultStepsWithWelcomeScreen = new FlowStep[]{
     FlowStep.WELCOME,                       //Welcome step with a step summary, optional
     FlowStep.CAPTURE_DOCUMENT,              //Document capture step
     FlowStep.CAPTURE_FACE,                  //Face capture step
+    FlowStep.PROOF_OF_ADDRESS,              //Proof of address capture step
     FlowStep.FINAL                          //Final screen step, optional
 };
 
@@ -502,6 +503,10 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
 
 The Face step can be configured to allow for either a photo or video flow. A custom flow **cannot** contain both the photo and video variants of the face capture. If both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
 with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
+
+#### Proof of address step
+
+In the Proof of Address step, a user picks the issuing country and type of document that proves their address before capturing the document with their phone camera or uploading it.
 
 #### Finish step 
 
