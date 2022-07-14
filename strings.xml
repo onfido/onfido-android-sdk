@@ -516,4 +516,6 @@
     <string name="onfido_country_select_error_no_country_body_poa">We’re working on adding more countries to the list.</string>
 	<string name="onfido_doc_select_extra_no_mobile">Sorry, no mobile phone bills</string>
 	<string name="onfido_doc_select_button_bill_detail_all">Gas, electricity, water, landline, or broadband. Sorry, no mobile phone bills</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Service unavailable</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">We’re sorry, seems like we can’t proceed further as your current location is not supported</string>
 </resources>
