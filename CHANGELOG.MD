@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [12.2.2] - 2022-07-19
+
+### Fixed
+
+- UI: Ensured bulleted points are loaded correctly for the FlowActions that have been passed in.
+
 ## [12.2.1] - 2022-07-14
 
 ### Added
@@ -19,13 +25,12 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
+- Public: Fixed duplicated BaseContextWrappingDelegate class issue
 - Public: Upgraded the Android Gradle Plugin to v7.3.1
 
 ### Fixed
 
-- Public: Fixed green video preview issue in some Xiaomi devices
-- Public: Fixed duplicated BaseContextWrappingDelegate class issue
-- Public: Add required metadata for Applicant Fraud Report when using NFC or document liveness
+- Public: Essential metadata to run the Applicant Fraud Report was missing when using NFC or document liveness.
 - Public: Fixed camera error handling issue
 
 ## [12.1.0] - 2022-05-10
