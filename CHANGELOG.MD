@@ -25,12 +25,13 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- Public: Fixed duplicated BaseContextWrappingDelegate class issue
 - Public: Upgraded the Android Gradle Plugin to v7.3.1
 
 ### Fixed
 
-- Public: Essential metadata to run the Applicant Fraud Report was missing when using NFC or document liveness.
+- Public: Fixed green video preview issue in some Xiaomi devices
+- Public: Fixed duplicated BaseContextWrappingDelegate class issue
+- Public: Add required metadata for Applicant Fraud Report when using NFC or document liveness
 - Public: Fixed camera error handling issue
 
 ## [12.1.0] - 2022-05-10
