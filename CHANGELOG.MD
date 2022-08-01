@@ -32,6 +32,18 @@ translations. [More on language localisation](README.md#4-localisation)
 - Public: Fixed NPE on the confirmation screen
 - Public: Connectivity issue during document capture has been fixed 
 
+## [12.2.2] - 2022-07-19
+
+### Fixed
+
+- UI: Ensured bulleted points are loaded correctly for the FlowActions that have been passed in.
+
+## [12.2.1] - 2022-07-14
+
+### Added
+
+- UI: Ensures a relevant warning is shown during document upload when the user is from a restricted country
+
 ## [12.2.0] - 2022-06-01
 
 ### Changed
