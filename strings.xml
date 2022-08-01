@@ -32,11 +32,19 @@
 
     <!-- Document Types -->
     <string name="onfido_doc_select_button_passport">Passport</string>
+    <string name="onfido_doc_select_button_visa">Visa</string>
     <string name="onfido_doc_select_button_license">Driver’s license</string>
     <string name="onfido_label_doc_type_driving_license_short">license</string>
     <string name="onfido_doc_select_button_id">National Identity Card</string>
     <string name="onfido_doc_select_button_permit">Residence permit</string>
+    <string name="onfido_doc_select_button_work_permit">Work permit</string>
     <string name="onfido_label_doc_type_residence_permit_short">permit</string>
+
+    <!-- Document Subtitles-->
+    <string name="onfido_doc_passport_details">Photo page</string>
+    <string name="onfido_doc_permit_details">Front and back</string>
+    <string name="onfido_doc_id_details">Front and back</string>
+    <string name="onfido_doc_licence_details">Front and back</string>
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Verify your identity</string>
@@ -48,7 +56,8 @@
     <string name="onfido_selfie_intro_title">Take a selfie</string>
     <string name="onfido_app_title_country_select">Select issuing country</string>
     <string name="onfido_country_select_bottom_sheet_title">Can\'t find your country?</string>
-    <string name="onfido_country_select_bottom_sheet_details">Sorry about that. Try using an alternative document instead.</string>
+    <string name="onfido_country_select_bottom_sheet_details">It seems like the country of the document you’ve selected is not supported. Please select a different country.</string>
+    <string name="onfido_document_select_bottom_sheet_details">Sorry about that. Try using an alternative document instead.</string>
     <string name="onfido_country_select_bottom_sheet_link_close">Close</string>
     <string name="onfido_selfie_intro_subtitle">We’ll compare this with your document</string>    <!-- Capture Document/Face -->
     <string name="onfido_selfie_capture_body">Keep your face within the oval</string>
@@ -61,6 +70,8 @@
     <string name="onfido_selfie_confirmation_alert_no_face_title">Face not detected</string>
     <string name="onfido_doc_confirmation_alert_multi_face_title">Multiple faces found</string>
     <string name="onfido_doc_confirmation_alert_multi_face_detail">Only your face can be in the selfie</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Service unavailable</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">We’re sorry, seems like we can’t proceed further as your current location is not supported</string>
     <string name="onfido_selfie_confirmation_alert_no_face_detail">Make sure your face is visible</string>
     <string name="onfido_generic_error_face_capture">Face capture didn\'t work. Please try again.</string>
     <string name="onfido_generic_error_doc_capture">Document capture didn\'t work. Please try again.</string>
@@ -447,7 +458,7 @@
 	<string name="onfido_avc_face_capture_title">Turn your head slowly to both sides</string>
 	<string name="onfido_avc_face_capture_title_completed">Recording complete</string>
 	<string name="onfido_avc_face_capture_alert_timeout_title">Sorry, we have to restart the recording</string>
-	<string name="onfido_avc_face_capture_alert_timeout_body">You have up to 20 seconds to complete the recording</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">You have up to 15 seconds to complete the recording</string>
 	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Retry</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_title">You turned your head too fast</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_body">Please retry and turn your head slower</string>
@@ -467,6 +478,20 @@
 	<string name="onfido_avc_face_alignment_feedback_not_centered">Face not centered</string>
 	<string name="onfido_avc_connection_error_button_primary_retry_upload">Retry upload</string>
 	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Restart recording</string>
+
+    <!-- Motion Accessibility  -->
+    <string name="onfido_avc_intro_title_accessibility">Record a video of your face</string>
+    <string name="onfido_avc_intro_video_accessibility">Example video of someone turning their head to both sides until completion</string>
+    <string name="onfido_avc_face_capture_frame_accessibility">View from selfie camera</string>
+    <string name="onfido_avc_confirmation_left_side_complete_accessibility">Left side complete</string>
+    <string name="onfido_avc_confirmation_right_side_complete_accessibility">Right side complete</string>
+    <string name="onfido_avc_face_capture_title_accessibility">Turn your head slowly to both sides. When a side is completed you will hear a confirmation and feel a vibration</string>
+    <string name="onfido_avc_face_capture_recording_started_accessibility">Recording has started</string>
+    <string name="onfido_avc_face_alignment_title_accessibility">Position your face in front of your device</string>
+    <string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Face not detected. Position your face in front of your device</string>
+    <string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Face aligned</string>
+    <string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Move your device closer</string>
+    <string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Move your device back</string>
 
     <!-- Proof of Address -->
 	<string name="onfido_poa_intro_button_primary">Start verification</string>
@@ -516,6 +541,12 @@
     <string name="onfido_country_select_error_no_country_body_poa">We’re working on adding more countries to the list.</string>
 	<string name="onfido_doc_select_extra_no_mobile">Sorry, no mobile phone bills</string>
 	<string name="onfido_doc_select_button_bill_detail_all">Gas, electricity, water, landline, or broadband. Sorry, no mobile phone bills</string>
-    <string name="onfido_generic_errors_geoblocked_error_message">Service unavailable</string>
-    <string name="onfido_generic_errors_geoblocked_error_instruction">We’re sorry, seems like we can’t proceed further as your current location is not supported</string>
-</resources>
+
+	<string name="onfido_doc_select_subtitle_country">Select issuing country to see which documents we accept</string>
+	<string name="onfido_doc_select_section_header_country">Issuing country</string>
+	<string name="onfido_doc_select_section_header_doc_type">Accepted documents</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">No Results</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Entire page</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Photo page</string>
+	<string name="onfido_doc_select_subtitle_front_back">Front and back</string>
+	<string name="onfido_doc_select_section_input_placeholder_country_copy">Select issuing country</string></resources>

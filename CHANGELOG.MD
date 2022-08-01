@@ -9,17 +9,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [12.2.2] - 2022-07-19
+## [12.3.0] - 2022-08-01
+
+### Added
+
+- Public: Report to integrator that Face Detection failed or impossible at the moment.
+- Public: Talk Back accessibility support
+- UI: Ensuring a relevant warning is shown during document upload when the user is from a restricted country
+
+### Changed
+
+- Public: Update supported documents (Zambia NIC added, Albania Residence Permits removed, others)
+- Public: Introduce a new analytics event listener and deprecate the legacy UserEventHandler
+- Public: Disable some functionalities that require Google Play Service when Google Play Service is unavailable. 
 
 ### Fixed
 
 - UI: Ensured bulleted points are loaded correctly for the FlowActions that have been passed in.
-
-## [12.2.1] - 2022-07-14
-
-### Added
-
-- UI: Ensures a relevant warning is shown during document upload when the user is from a restricted country
+- Public: NPE at Confirmation screen has been fixed
+- Public: Fixed NPE during document capture
+- Public: Fixed NPE during selfie capture
+- Public: Fixed NPE on the confirmation screen
+- Public: Connectivity issue during document capture has been fixed 
 
 ## [12.2.0] - 2022-06-01
 

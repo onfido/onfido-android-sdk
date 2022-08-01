@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '12.2.2'
-def versionCodeNumber = 1222
+def sdkVersion = '12.3.0'
+def versionCodeNumber = 1230
 
 android {
     compileSdkVersion 30
@@ -42,7 +42,6 @@ android {
 }
 
 repositories {
-    mavenLocal()
     mavenCentral()
 }
 

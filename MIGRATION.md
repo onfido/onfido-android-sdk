@@ -1,5 +1,22 @@
 # Onfido Android SDK Migration Guide
 
+## `12.2.3` -> `12.3.0`
+
+### Added Strings
+
+- `onfido_avc_intro_title_accessibility`
+- `onfido_avc_intro_video_accessibility`
+- `onfido_avc_face_capture_frame_accessibility`
+- `onfido_avc_confirmation_left_side_complete_accessibility`
+- `onfido_avc_confirmation_right_side_complete_accessibility`
+- `onfido_avc_face_capture_title_accessibility`
+- `onfido_avc_face_capture_recording_started_accessibility`
+- `onfido_avc_face_alignment_feedback_face_aligned_accessibility`
+- `onfido_avc_face_alignment_feedback_move_closer_accessibility`
+- `onfido_avc_face_alignment_feedback_move_back_accessibility`
+- `onfido_avc_face_alignment_title_accessibility`
+- `onfido_avc_face_alignment_feedback_no_face_detected_accessibility`
+
 ## `11.5.0` -> `12.0.0`
 
 ### Breaking changes
