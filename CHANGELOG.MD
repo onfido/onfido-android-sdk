@@ -19,6 +19,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
+- Public: Combined country and document type selection in one single screen (country first, document type second)
 - Public: Update supported documents (Zambia NIC added, Albania Residence Permits removed, others)
 - Public: Introduce a new analytics event listener and deprecate the legacy UserEventHandler
 - Public: Disable some functionalities that require Google Play Service when Google Play Service is unavailable. 
