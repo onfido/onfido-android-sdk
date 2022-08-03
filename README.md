@@ -844,8 +844,8 @@ For a full list of events see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 
 | property | description |
 | ---- | ----- |
-|`type` | **OnfidoAnalyticsEventType** </br> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `ACTION`, `ERROR`.|
-| `properties` | **Map<OnfidoAnalyticsPropertyKey, String?>** </br> Contains details of an event. For example, you can get the name of the visited screen using the `SCREEN_NAME` property. The current potential property keys are: `SCREEN_NAME`, `SCREEN_MODE`, `DOCUMENT_TYPE`, `COUNTRY_CODE`, `VIDEO_CHALLENGE_TYPE`, `IS_AUTOCAPTURE`.|
+|`type` | **OnfidoAnalyticsEventType** <br/> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `ACTION`, `ERROR`.|
+| `properties` | **Map<OnfidoAnalyticsPropertyKey, String?>** <br/> Contains details of an event. For example, you can get the name of the visited screen using the `SCREEN_NAME` property. The current potential property keys are: `SCREEN_NAME`, `SCREEN_MODE`, `DOCUMENT_TYPE`, `COUNTRY_CODE`, `VIDEO_CHALLENGE_TYPE`, `IS_AUTOCAPTURE`.|
 
 ### Properties
 
