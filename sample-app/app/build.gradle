@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '12.3.0'
+def sdkVersion = '12.3.1'
 def versionCodeNumber = 1230
 
 android {

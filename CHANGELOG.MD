@@ -9,29 +9,33 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [12.3.1] - 2022-08-18
+
+### Fixed
+
+- Disable image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
+
 ## [12.3.0] - 2022-08-01
 
 ### Added
 
-- Public: Report to integrator that Face Detection failed or impossible at the moment.
-- Public: Talk Back accessibility support
+- Public: Report to the integrator that Face Detection failed or is impossible
+- Public: Added Talk Back accessibility support
 - UI: Ensuring a relevant warning is shown during document upload when the user is from a restricted country
 
 ### Changed
 
-- Public: Combined country and document type selection in one single screen (country first, document type second)
-- Public: Update supported documents (Zambia NIC added, Albania Residence Permits removed, others)
-- Public: Introduce a new analytics event listener and deprecate the legacy UserEventHandler
-- Public: Disable some functionalities that require Google Play Service when Google Play Service is unavailable. 
+- Public: Updated supported documents (Zambia NIC added, Albania Residence Permits removed, others)
+- Public: Introduced a new analytics event listener and deprecated the legacy UserEventHandler
+- Public: Disabled some functionalities that require Google Play Service when Google Play Service is unavailable
 
 ### Fixed
 
-- UI: Ensured bulleted points are loaded correctly for the FlowActions that have been passed in.
-- Public: NPE at Confirmation screen has been fixed
+- UI: Ensured bulleted points are loaded correctly for the FlowActions that have been passed in
 - Public: Fixed NPE during document capture
 - Public: Fixed NPE during selfie capture
 - Public: Fixed NPE on the confirmation screen
-- Public: Connectivity issue during document capture has been fixed 
+- Public: Fixed connectivity issue during document capture
 
 ## [12.2.2] - 2022-07-19
 
