@@ -1,5 +1,71 @@
 # Onfido Android SDK Migration Guide
 
+## `12.3.1` -> `13.0.0`
+
+### String Changes
+
+#### Added
+
+- `onfido_avc_face_alignment_feedback_move_left_accessibility`
+- `onfido_avc_face_alignment_feedback_move_right_accessibility`
+- `onfido_avc_face_alignment_feedback_move_up_accessibility`
+- `onfido_avc_face_alignment_feedback_move_down_accessibility`
+
+#### Removed
+
+- `onfido_permission_recovery_button_secondary_cam`
+- `onfido_permission_recovery_button_secondary_mic`
+- `onfido_permission_recovery_button_secondary_both`
+- `onfido_welcome_list_item_doc`
+- `onfido_permission_recovery_subtitle_video`
+- `onfido_permission_recovery_extra_instructions_cam`
+- `onfido_permission_recovery_extra_instructions_mic`
+- `onfido_permission_recovery_extra_instructions_both`
+- `onfido_permission_recovery_body_mic`
+- `onfido_permission_recovery_body_cam`
+- `onfido_permission_recovery_body_both`
+- `onfido_app_title_user_consent`
+- `onfido_country_select_error_no_country_body`
+- `onfido_welcome_list_item_video`
+- `onfido_doc_confirmation_body_visa`
+- `onfido_welcome_list_item_selfie`
+- `onfido_welcome_list_header_photo`
+- `onfido_welcome_list_header_record`
+- `onfido_welcome_list_header_doc_video`
+- `onfido_app_title_doc_video_confirmation`
+- `onfido_doc_capture_header_license_front_auto`
+- `onfido_doc_capture_header_visa_back`
+- `onfido_doc_capture_header_passport_auto`
+- `onfido_doc_capture_header_license_back_auto`
+- `onfido_doc_capture_frame_accessibility_pp_cover_manual`
+- `onfido_doc_capture_frame_accessibility_pp_manual`
+- `onfido_welcome_list_item_face_generic`
+- `onfido_doc_capture_alert_no_face_title`
+- `onfido_doc_capture_alert_no_face_detail`
+- `onfido_doc_capture_header_live_guidance_distance_ok`
+- `onfido_doc_capture_header_live_guidance_distance_ok_accessibility`
+- `onfido_nfc_intro_sheet_scanning_subtitle`
+- `onfido_avc_connection_error_button_primary_reload`
+- `onfido_doc_select_button_bill_detail`
+- `onfido_poa_country_not_found`
+- `onfido_doc_select_extra_no_mobile`
+- `onfido_label_doc_type_driving_license_short`
+- `onfido_label_doc_type_residence_permit_short`
+- `onfido_face_tracking_timeout_button_retry`
+- `onfido_allow`
+- `onfido_permission_subtitle_video`
+- `onfido_permission_body_video`
+- `onfido_accessibility_liveness_confirmation_view`
+- `onfido_nfc_sheet_ready_button_secondary`
+- `onfido_nfc_intro_sheet_header_scan_retry`
+- `onfido_nfc_sheet_scanning_instruction_retry`
+- `onfido_nfc_intro_sheet_header_fail_passport`
+- `onfido_nfc_intro_sheet_header_fail_card`
+- `onfido_nfc_intro_sheet_header_ready_card`
+- `onfido_nfc_intro_sheet_header_ready_passport`
+- `onfido_poa_document_submission_empty`
+- `onfido_flow_user_exit_message_user_cancelled`
+
 ## `12.2.3` -> `12.3.0`
 
 ### Added Strings

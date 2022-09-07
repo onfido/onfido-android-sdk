@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '12.3.1'
-def versionCodeNumber = 1230
+def sdkVersion = '13.0.0-rc.1'
+def versionCodeNumber = 1300
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     defaultConfig {
         applicationId "com.onfido.sampleapp"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode versionCodeNumber
         versionName "$versionCode-sdk:$sdkVersion"
         multiDexEnabled true

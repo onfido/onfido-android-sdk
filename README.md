@@ -125,8 +125,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.79 Mb  |
-| arm64-v8a   | 7.67 Mb  |
+| armeabi-v7a | 7.02 Mb  |
+| arm64-v8a   | 7.91 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -146,7 +146,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 4.25 Mb  |
+| universal   | 4.49 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -360,11 +360,11 @@ For more information about this step, and how to collect user consent, please vi
 
 #### Document capture step
 
-In this step, a user can pick the type of document and its issuing country before capturing it with their phone camera.
+In this step, a user can select the issuing country and document type before taking the photo. This selection screen is optional, and will only be shown to the end user if a specific country and document type is not configured for the SDK. By default, the country will be pre-selected based on the end-user’s region settings on their device, but the end-user can select another country from the list.
 
-Document type selection and country selection are both optional screens. These screens will only show to the end user if specific options are not configured to the SDK.
+Country and document type selection are optional. This screen will only show to the end user if specific options are not configured to the SDK.
 
-You can configure the document step to capture single document types with specific properties using the `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
+You can configure the document step to capture single document types with specific properties, as well as customize the screen to display only a limited list of document types using the `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
 
 | Document Type           | Configuration function  | Configurable Properties        |
 | ----------------------- | ----------------------- | ----------------------------   |
@@ -380,13 +380,13 @@ You can configure the document step to capture single document types with specif
 
 - **Document type**
 
-The list of document types visible for the user to select can be shown or hidden using this option. If only one document type is specified, users will not see the document selection screen or country selection screen and will be taken directly to the capture screen.
+The list of document types visible for the user to select can be shown or hidden using this option. If only one document type is specified, users will not see the selection screen and will be taken directly to the capture screen. Please see a more detailed guide [here](https://documentation.onfido.com/sdk/android/#document-capture-step).
 
 Each document type has its own configuration class.
 
 ##### Customizing the document type selection screen
 
-You can also customize the document type selection screen to display a specific list of documents for a user to select from. Use the configuration function to specify the document types to show on the document type selection screen.
+You can also customize the screen to display only a limited list of document types, using the configuration function to specify the ones you want to show.
 
 ⚠️ Currently you can only include PASSPORT, NATIONAL_IDENTITY_CARD, DRIVING_LICENCE, RESIDENCE_PERMIT in the list.
 
@@ -417,7 +417,7 @@ onfidoConfigBuilder.withAllowedDocumentTypes(documentTypes)
 
 - **Document country**
 
-The configuration function allows you to specify the document's country of origin. If a document country is specified for a document type, the country selection screen is not displayed.
+The configuration function allows you to specify the document's country of origin. If a document country is specified for a document type, the selection screen is displayed with preselected country.
 
 **Note**: You can specify country for all document types except `Passport`. This is because passports have the same format worldwide so the SDK does not require this additional information.     
 
@@ -586,6 +586,8 @@ the color of the text on the secondary action buttons (e.g. retake picture/video
 * `onfidoPrimaryButtonColorPressed`: Defines the background color of the primary action buttons when pressed
 
 * `onfidoPrimaryButtonTextColor`: Defines the color of the text inside the primary action buttons
+
+* `onfidoSecondaryButtonTextColor`: Defines the color of the text inside and border color of secondary action buttons
 
 **Widgets**
 
@@ -844,8 +846,8 @@ For a full list of events see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 
 | property | description |
 | ---- | ----- |
-|`type` | **OnfidoAnalyticsEventType** <br/> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `ACTION`, `ERROR`.|
-| `properties` | **Map<OnfidoAnalyticsPropertyKey, String?>** <br/> Contains details of an event. For example, you can get the name of the visited screen using the `SCREEN_NAME` property. The current potential property keys are: `SCREEN_NAME`, `SCREEN_MODE`, `DOCUMENT_TYPE`, `COUNTRY_CODE`, `VIDEO_CHALLENGE_TYPE`, `IS_AUTOCAPTURE`.|
+|`type` | **OnfidoAnalyticsEventType** <br /> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `ACTION`, `ERROR`.|
+| `properties` | **Map<OnfidoAnalyticsPropertyKey, String?>** <br /> Contains details of an event. For example, you can get the name of the visited screen using the `SCREEN_NAME` property. The current potential property keys are: `SCREEN_NAME`, `SCREEN_MODE`, `DOCUMENT_TYPE`, `COUNTRY_CODE`, `VIDEO_CHALLENGE_TYPE`, `IS_AUTOCAPTURE`.|
 
 ### Properties
 

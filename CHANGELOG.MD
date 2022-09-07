@@ -9,6 +9,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [13.0.0] - 2022-09-07
+
+### Added
+
+- Public: Add onfidoSecondaryButtonTextColor for secondary button title and border color customisation
+- UI: Face alignment additional feedback for accessibility
+- Public: Improve NFC instructions screen
+
+### Changed
+
+- Public: Allow enterprise features and mediacallback in orchesteratrion workflow builder
+- Public: Removed unused strings with translations
+
+### Fixed
+
+- UI: Fix submitting proof of address uploading issue
+- Public: Disable image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
+
 ## [12.3.1] - 2022-08-18
 
 ### Fixed
@@ -25,6 +43,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
+- Public: Combined country and document type selection in one single screen (country first, document type second)
 - Public: Updated supported documents (Zambia NIC added, Albania Residence Permits removed, others)
 - Public: Introduced a new analytics event listener and deprecated the legacy UserEventHandler
 - Public: Disabled some functionalities that require Google Play Service when Google Play Service is unavailable
