@@ -9,6 +9,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [13.1.0] - 2022-09-16
+
+### Added
+
+- Public: Added the experimental Face Capture variant `MOTION`
+
+### Changed
+
+- Public: Updated public documentation to include proof of address info in captures object 
+- Public: Enabled bypassing selfie validation in `DEBUG` mode
+- Public: Added Czech, Polish and Romanian Language Support
+- Public: Improved the MRZ detection mechanism so that validation warnings are shown less
+
+### Fixed
+
+- Public: Provided Proof of address captures info in the `userCompleted` callback
+
 ## [13.0.0] - 2022-09-07
 
 ### Added
