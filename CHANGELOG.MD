@@ -30,19 +30,19 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Added
 
-- Public: Add onfidoSecondaryButtonTextColor for secondary button title and border color customisation
-- UI: Face alignment additional feedback for accessibility
-- Public: Improve NFC instructions screen
+- Public: Added onfidoSecondaryButtonTextColor for secondary button title and border color customisation
+- UI: Added additional screen reader (accessibility) feedback during Face Alignment
+- Public: Improved the NFC instructions screen
 
 ### Changed
 
-- Public: Allow enterprise features and mediacallback in orchesteratrion workflow builder
-- Public: Removed unused strings with translations
+- Public: Enabled Enterprise Features and [Custom Callbacks](https://developers.onfido.com/guide/sdk-custom-callbacks) for Studio
+- Public: Removed unused translation strings. See the [migration guide](https://github.com/onfido/onfido-android-sdk/blob/master/MIGRATION.md) for more details
 
 ### Fixed
 
-- UI: Fix submitting proof of address uploading issue
-- Public: Disable image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
+- UI: Fixed Proof of Address document submission issues
+- Public: Disabled image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
 
 ## [12.3.1] - 2022-08-18
 
