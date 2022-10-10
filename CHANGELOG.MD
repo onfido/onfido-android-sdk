@@ -17,7 +17,9 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- : General improvements on the Polish language localisation
+- Public: General improvements in the Polish, Romanian and Czech language localisation
+- Public: Added Image Quality Service validations when NFC is enabled
+- Public: Improved logging for NFC
 
 ## [13.1.0] - 2022-09-16
 
