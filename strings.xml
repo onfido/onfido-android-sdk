@@ -219,6 +219,7 @@
     <string name="onfido_nfc_permission_button_primary">Open settings</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Submit photo</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Your face and your background will be captured during this process</string>
     <string name="onfido_selfie_intro_list_item_face_forward">Face forward and make sure your eyes are clearly visible</string>
     <string name="onfido_doc_confirmation_button_primary_permit_work">Submit photo</string>
     <string name="onfido_doc_confirmation_button_primary_folded_doc">Submit photo</string>
@@ -243,6 +244,7 @@
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
     <string name="onfido_selfie_intro_list_item_no_glasses">Remove your glasses, if necessary</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Remove anything that covers your face. Eyeglasses are okay</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Align document, then press button</string>
     <string name="onfido_doc_select_subtitle">It must be an official photo ID</string>
     <string name="onfido_selfie_confirmation_button_primary">Upload photo</string>

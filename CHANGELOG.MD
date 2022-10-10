@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [13.2.0] - 2022-10-10
+
+### Added
+
+- Public: Introduced a selfie preview screen that allows users to review the exact photo that will be uploaded
+
+### Changed
+
+- : General improvements on the Polish language localisation
+
 ## [13.1.0] - 2022-09-16
 
 ### Added
@@ -30,19 +40,19 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Added
 
-- Public: Added onfidoSecondaryButtonTextColor for secondary button title and border color customisation
-- UI: Added additional screen reader (accessibility) feedback during Face Alignment
-- Public: Improved the NFC instructions screen
+- Public: Add onfidoSecondaryButtonTextColor for secondary button title and border color customisation
+- UI: Face alignment additional feedback for accessibility
+- Public: Improve NFC instructions screen
 
 ### Changed
 
-- Public: Enabled Enterprise Features and [Custom Callbacks](https://developers.onfido.com/guide/sdk-custom-callbacks) for Studio
-- Public: Removed unused translation strings. See the [migration guide](https://github.com/onfido/onfido-android-sdk/blob/master/MIGRATION.md) for more details
+- Public: Allow enterprise features and mediacallback in orchesteratrion workflow builder
+- Public: Removed unused strings with translations
 
 ### Fixed
 
-- UI: Fixed Proof of Address document submission issues
-- Public: Disabled image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
+- UI: Fix submitting proof of address uploading issue
+- Public: Disable image quality validations before submission on the backside of Romanian National Identity Cards (fixing issues with blank backsides)
 
 ## [12.3.1] - 2022-08-18
 
