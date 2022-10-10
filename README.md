@@ -956,3 +956,6 @@ If you have any issues that contain sensitive information please send us an emai
 Previous version of the SDK will be supported for a month after a new major version release. Note that when the support period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further notice).
 
 Copyright 2018 Onfido, Ltd. All rights reserved.
+
+**[⬆ back to top](#Overview)**
+
