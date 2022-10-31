@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [13.0.1] - 2022-10-31
+
+### Fixed
+
+- Public: Fixed Exif data related crashes
+- Public: Fixed the IllegalStateException crash, which occurs during navigation
+- Public: Fixed the NPE crash, which occurs during stopping the camera recording
+- Public: Fixed the crash when MLKit models cannot be downloaded. If this is the case we now detect this, and skip the validation.
+- Public: Fixed `ClassCastException` when Camera not found
+
 ## [13.0.0] - 2022-09-07
 
 ### Added
