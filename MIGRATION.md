@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `11.5.0` -> `12.0.0`
+
+### Breaking changes
+- Removed all references to wording around beta for the NFC feature. NFC is no longer beta and generally available.
+
+
 ## `12.3.1` -> `13.0.0`
 
 ### String Changes

@@ -125,8 +125,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 7.02 Mb  |
-| arm64-v8a   | 7.91 Mb  |
+| armeabi-v7a | 7.25 Mb  |
+| arm64-v8a   | 8.13 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -146,7 +146,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 4.49 Mb  |
+| universal   | 4.71 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -290,14 +290,18 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 **`captures`**
 
-Sample of a `captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT` and `FlowStep.CAPTURE_FACE`:
+Sample of a `captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT`, `FlowStep.CAPTURE_FACE` and  `FlowStep.PROOF_OF_ADDRESS`:
 ```
 Document:
         Front: DocumentSide(id=document_id, side=FRONT, type=DRIVING_LICENCE)
         Back: DocumentSide(id=document_id, side=BACK, type=DRIVING_LICENCE)
         Type: DRIVING_LICENCE
+            
 Face:
-    Face(id=face_id, variant=PHOTO)
+        Face(id=face_id, variant=PHOTO) 
+        
+Proof of address:
+        Poa(id=poa_id, type=UTILITY_BILL, issuing_country=UK)    
 ```
 **Note**: `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
@@ -513,7 +517,7 @@ In the Proof of Address step, a user picks the issuing country and type of docum
 
 The final screen displays a completion message to the user and signals the end of the flow. This is an optional screen.
 
-#### Enabling NFC extraction (beta)
+#### Enabling NFC extraction
 
 Some passports and ID cards contain a chip which can be accessed using NFC. The SDK provides a set of screens to extract the information contained in the chip to verify the original document is present.
 
@@ -528,19 +532,17 @@ implementation "org.jmrtd:jmrtd:0.7.32"
 
 ##### SDK integration
 
-⚠️ Note This feature is currently in beta and the API is subject to change.
-
 ##### Kotlin
 ```kotlin
 val config = OnfidoConfig.builder(context)
-    .withNFCReadBetaFeature()
+    .withNFCReadFeature()
     .build()
 ```
 
 ##### Java
 ```java
 OnfidoConfig config = OnfidoConfig.builder(context)
-    .withNFCReadBetaFeature()
+    .withNFCReadFeature()
     .build()
 ```
 
@@ -639,6 +641,9 @@ The Onfido Android SDK supports and maintains translations for the following loc
 - Italian    (it) 🇮🇹
 - Portuguese (pt) 🇵🇹
 - Dutch      (nl) 🇳🇱
+- Polish     (pl) 🇵🇱
+- Romanian   (ro) 🇷🇴
+- Czech      (cs) 🇨🇿
 
 **Custom language**
 

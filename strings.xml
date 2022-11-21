@@ -102,7 +102,9 @@
     <string name="onfido_video_capture_button_primary_fallback">Next step</string>
     <string name="onfido_video_confirmation_error_media_player">There was an error with your video. Please retake it</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Reload</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Reload example video</string>
     <string name="onfido_video_intro_error_network">Unable to load due to unstable network</string>
+    <string name="onfido_video_intro_error_network_accessibility">Unable to load the example video due to unstable network</string>
     <string name="onfido_video_intro_error_load_offline">Unable to load because you\'re offline</string>
 
     <!-- Country Suggestion/Selection -->
@@ -219,6 +221,7 @@
     <string name="onfido_nfc_permission_button_primary">Open settings</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Submit photo</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Your face and your background will be captured during this process</string>
     <string name="onfido_selfie_intro_list_item_face_forward">Face forward and make sure your eyes are clearly visible</string>
     <string name="onfido_doc_confirmation_button_primary_permit_work">Submit photo</string>
     <string name="onfido_doc_confirmation_button_primary_folded_doc">Submit photo</string>
@@ -243,6 +246,7 @@
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
     <string name="onfido_selfie_intro_list_item_no_glasses">Remove your glasses, if necessary</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Remove anything that covers your face. Eyeglasses are okay</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Align document, then press button</string>
     <string name="onfido_doc_select_subtitle">It must be an official photo ID</string>
     <string name="onfido_selfie_confirmation_button_primary">Upload photo</string>
@@ -401,7 +405,9 @@
 	<string name="onfido_avc_intro_title">Record a video</string>
 	<string name="onfido_avc_intro_subtitle">This is to verify that you’re a real person</string>
 	<string name="onfido_avc_intro_list_item_one">First, position your face in the frame</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">First, you will have to position your face in front of your device</string>
 	<string name="onfido_avc_intro_list_item_two">Then, turn your head slowly to both sides</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Then, you will have to turn your head slowly to both sides</string>
 	<string name="onfido_avc_intro_disclaimer">Please be mindful that we’ll record your face and your background</string>
 	<string name="onfido_avc_intro_button_primary_ready">I’m ready</string>
 	<string name="onfido_avc_face_alignment_title">Position your face in the frame</string>
@@ -421,6 +427,7 @@
 	<string name="onfido_avc_no_face_detected_list_item_eyes">Make sure your eyes are clearly visible</string>
 	<string name="onfido_avc_no_face_detected_list_item_mask">Make sure to remove masks or other items that cover your face. Eyeglasses are okay</string>
 	<string name="onfido_avc_no_face_detected_list_item_face">Make sure to only show your face, we don’t need to see your ID</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Make sure to only show your face, we don’t need to see your Identity Document</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Restart recording</string>
 	<string name="onfido_avc_confirmation_title">Recording complete</string>
 	<string name="onfido_avc_confirmation_subtitle">A video of your face has been recorded successfully</string>
@@ -444,6 +451,7 @@
 	<string name="onfido_avc_face_alignment_title_accessibility">Position your face in front of your device</string>
 	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Face not detected. Position your face in front of your device</string>
 	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Face aligned</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Face misaligned</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Move your device closer</string>
 	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Move your device back</string>
 	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Move your device to the left</string>

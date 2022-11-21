@@ -9,15 +9,59 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [13.0.1] - 2022-10-31
+## [14.0.0] - 2022-11-21
+
+### Added
+
+- Public: Removed all references to wording around beta for the NFC feature. NFC is no longer beta and generally available.
+- Public: Enable capture fallback option for Motion
+
+### Changed
+
+- Public: Accessibility improvements for Motion
+- public: Removed documentType and isAutocapture from the public properties list for the Document Capture events (analytics)
+- public: Added a new analytics event: DocumentConfirmationWarning
+- public: Fixed how the DocumentUploadCompleted analytics event is tracked
 
 ### Fixed
 
-- Public: Fixed Exif data related crashes
+- Public: Fixed `ClassCastException` when Camera not found
+- Public: Fixed an issue where the capture screen seems frozen after the app is sent to background and resumed
 - Public: Fixed the IllegalStateException crash, which occurs during navigation
 - Public: Fixed the NPE crash, which occurs during stopping the camera recording
-- Public: Fixed the crash when MLKit models cannot be downloaded. If this is the case we now detect this, and skip the validation.
-- Public: Fixed `ClassCastException` when Camera not found
+- : Fixed the crash when MLKit models cannot be downloaded. If this is the case we now detect this, and skip the validation.
+
+- Public: Fixed a bug where the capture button is displayed on top of the confirmation screen buttons
+- Public: Fixed Exif data related crashes
+
+## [13.2.0] - 2022-10-10
+
+### Added
+
+- Public: Introduced a selfie preview screen that allows users to review the exact photo that will be uploaded
+
+### Changed
+
+- Public: General improvements in the Polish, Romanian and Czech language localisation
+- Public: Added Image Quality Service validations when NFC is enabled
+- Public: Improved logging for NFC
+
+## [13.1.0] - 2022-09-16
+
+### Added
+
+- Public: Added the experimental Face Capture variant `MOTION`
+
+### Changed
+
+- Public: Updated public documentation to include proof of address info in captures object 
+- Public: Enabled bypassing selfie validation in `DEBUG` mode
+- Public: Added Czech, Polish and Romanian Language Support
+- Public: Improved the MRZ detection mechanism so that validation warnings are shown less
+
+### Fixed
+
+- Public: Provided Proof of address captures info in the `userCompleted` callback
 
 ## [13.0.0] - 2022-09-07
 
