@@ -29,8 +29,7 @@ translations. [More on language localisation](README.md#4-localisation)
 - Public: Fixed an issue where the capture screen seems frozen after the app is sent to background and resumed
 - Public: Fixed the IllegalStateException crash, which occurs during navigation
 - Public: Fixed the NPE crash, which occurs during stopping the camera recording
-- : Fixed the crash when MLKit models cannot be downloaded. If this is the case we now detect this, and skip the validation.
-
+- Public: Fixed the crash when MLKit models cannot be downloaded. If this is the case we now detect this, and skip the validation.
 - Public: Fixed a bug where the capture button is displayed on top of the confirmation screen buttons
 - Public: Fixed Exif data related crashes
 
@@ -62,6 +61,16 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Fixed
 
 - Public: Provided Proof of address captures info in the `userCompleted` callback
+
+## [13.0.1] - 2022-10-31
+
+### Fixed
+
+- Public: Fixed Exif data related crashes
+- Public: Fixed the IllegalStateException crash, which occurs during navigation
+- Public: Fixed the NPE crash, which occurs during stopping the camera recording
+- Public: Fixed the crash when MLKit models cannot be downloaded. If this is the case we now detect this, and skip the validation.
+- Public: Fixed `ClassCastException` when Camera not found
 
 ## [13.0.0] - 2022-09-07
 
