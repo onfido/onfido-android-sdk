@@ -22,16 +22,16 @@
 
 ## Overview
 
-The Onfido Android SDK provides a drop-in set of screens and tools for Android applications to capture identity documents and selfie photos and videos for the purpose of identity verification. 
+The Onfido Android SDK provides a drop-in set of screens and tools for Android applications to capture identity documents and selfie photos, videos and motion captures for the purpose of identity verification. 
 
 It offers a number of benefits to help you create the best identity verification experience for your customers:
 
-- Carefully designed UI to guide your customers through the entire photo and video capture process
-- Modular design to help you seamlessly integrate the photo and video capture process into your application flow
+- Carefully designed UI to guide your customers through the entire photo, video or motion capture process
+- Modular design to help you seamlessly integrate the photo, video or motion capture process into your application flow
 - Advanced image quality detection technology to ensure the quality of the captured images meets the requirement of the Onfido identity verification process, guaranteeing the best success rate
 - Direct image upload to the Onfido service, to simplify integration
 
-⚠️ Note: The SDK is only responsible for capturing and uploading photos and videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
+⚠️ Note: The SDK is only responsible for capturing and uploading photos, videos and motion captures. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
 
 ![Various views from the SDK](screenshots.jpg "")
 ![Various views from the SDK](gifs.gif "")
@@ -67,7 +67,7 @@ You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) env
 
 #### 1.1 Regions
 
-Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
 
 ### 2. Add the SDK dependency
 
@@ -177,7 +177,7 @@ $ curl https://api.onfido.com/v3/applicants \
     -d 'last_name=Smith'
 ```
 
-The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos and videos uploaded by that instance of the SDK will be associated with that applicant.
+The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents, photos, videos and motion captures uploaded by that instance of the SDK will be associated with that applicant.
 
 ### 4. Configure the SDK with a token
 
@@ -477,16 +477,32 @@ We provide an up-to-date list of our [supported documents](https://onfido.com/su
 
 #### Face capture step
 
-In this step a user can use the front camera to capture either a live photo of their face, or a live video.
+In this step a user can use the front camera to capture their face in the form of photo, video or motion capture.
 
-The Face step has 2 variants:
-1.  To configure for a live photo use `FlowStep.CAPTURE_FACE` or
-`FaceCaptureStepBuilder.forPhoto()`.
-2. To configure for a live video use `FaceCaptureStepBuilder.forVideo()`.
+The Face step has 3 variants:
+1. To configure for photo use `FlowStep.CAPTURE_FACE` or `FaceCaptureStepBuilder.forPhoto()`.
+2. To configure for video use `FaceCaptureStepBuilder.forVideo()`.
+3. To configure for motion use `FaceCaptureStepBuilder.forMotion()`.
+
+Motion variant may not be supported in certain devices due to device capabilities and Google Play Services availability.
+In that case, if capture fallback provided using the `withCaptureFallback` function, it will fallback to specified capture variant which can be either photo or video.
+Otherwise, the flow will end with `OnfidoException` resulting in `onError` callback.
+
+In the following example, motion variant is configured with photo capture callback. 
+
+```java
+FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
+                .withCaptureFallback(
+                    FaceCaptureStepBuilder.forPhoto()
+                        .withIntro(showIntro)
+                )
+                .build();
+```
 
 **Introduction screen**
 
 By default both face and video variants show an introduction screen. This is an optional screen. You can disable it using the `withIntro(false)` function.
+Customization of introduction screen for motion variant is not available.
 
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
@@ -506,8 +522,8 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
 
 **Errors**
 
-The Face step can be configured to allow for either a photo or video flow. A custom flow **cannot** contain both the photo and video variants of the face capture. If both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
-with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
+The Face step can be configured to allow only for one variant. A custom flow **cannot** contain multiple variants of the face capture. If more than one type of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
+with the message `"You are not allowed to define more than one FaceCaptureVariant in a flow."`.
 
 #### Proof of address step
 
@@ -762,7 +778,7 @@ Please see our [API documentation](https://documentation.onfido.com/#create-chec
 
 ## Creating checks
 
-The SDK is responsible for the capture of identity documents and selfie photos and videos. It doesn't perform any checks against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage applicants and perform checks.
+The SDK is responsible for the capture of identity documents and selfie photos, videos and motion captures. It doesn't perform any checks against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage applicants and perform checks.
 
 For a walkthrough of how to create a check with a Document and Facial Similarity report using the Android SDK read our [Mobile SDK Quick Start guide](https://developers.onfido.com/guide/mobile-sdk-quick-start).
 
