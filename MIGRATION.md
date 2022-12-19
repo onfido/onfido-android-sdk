@@ -1,5 +1,11 @@
 # Onfido Android SDK Migration Guide
 
+## `14.0.0` -> `15.0.0`
+
+### Breaking changes
+- In order to use Studio/Workflow, now it is required to include it as a separate dependency as below: 
+  `implementation "com.onfido.sdk:onfido-workflow:$onfidoSdkVersion"`
+
 ## `13.2.0` -> `14.0.0`
 
 ### Breaking changes

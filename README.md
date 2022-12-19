@@ -56,6 +56,9 @@ Our configuration is currently set to the following:
 ```
 
 ⚠️ The following content assumes you're using our API v3 versions for backend calls. If you are currently using API v2 please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
+> ℹ️
+>
+> If you are integrating using Onfido Studio please see our** [Studio integration guide](ONFIDO_STUDIO.md)
 
 ### 1. Obtain an API token
 
@@ -67,7 +70,7 @@ You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) env
 
 #### 1.1 Regions
 
-Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
 
 ### 2. Add the SDK dependency
 
@@ -543,7 +546,8 @@ NFC dependencies are not included in the SDK to avoid increasing the SDK size wh
 
 ```
 implementation "net.sf.scuba:scuba-sc-android:0.0.23"
-implementation "org.jmrtd:jmrtd:0.7.32"
+implementation "org.jmrtd:jmrtd:0.7.34"
+implementation "com.madgag.spongycastle:prov:1.58.0.0"
 ```
 
 ##### SDK integration
@@ -568,11 +572,14 @@ You also need to add the following Proguard rules to your `proguard-rules.pro` f
 -keep class org.jmrtd.** { *; }
 -keep class net.sf.scuba.** {*;}
 -keep class org.bouncycastle.** {*;}
+-keep class org.spongycastle.** {*;}
 -keep class org.ejbca.** {*;}
 
 -dontwarn kotlin.time.jdk8.DurationConversionsJDK8Kt
 -dontwarn org.ejbca.**
 -dontwarn org.bouncycastle.**
+-dontwarn org.spongycastle.**
+
 -dontwarn module-info
 -dontwarn org.jmrtd.**
 -dontwarn net.sf.scuba.**

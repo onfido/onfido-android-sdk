@@ -9,6 +9,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [15.0.0] - 2022-12-16
+
+**Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
+
+### Added
+
+- Public: Support Hungarian Address card as Proof of Address
+- Public: Create Onfido Studio documentation file
+
+### Changed
+
+- Public: Added analytics events for the NFC flow
+- Public: Update readme to include Motion documentation
+- Public: Studio/Workflow is moved to a standalone module (Breaking change)
+
+### Fixed
+
+- Public: Fix weird activity labels
+- Public: Fixed an issue where the capture screen seems frozen after the app is sent to background and resumed
+- Public: Fixed a bug where the capture button is displayed on top of the confirmation screen buttons
+
 ## [14.0.0] - 2022-11-21
 
 ### Added
