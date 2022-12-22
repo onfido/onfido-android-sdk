@@ -1,5 +1,23 @@
 # Onfido Android SDK Migration Guide
 
+## `15.0.0` -> `15.1.0`
+
+### String Changes
+
+## Renamed
+
+- `onfido_country_select_error_no_country_body_poa` -> `onfido_country_select_error_no_country_body`
+- `onfido_nfc_sheet_scanning_button_secondary` -> `onfido_nfc_sheet_button_secondary`
+- `onfido_nfc_intro_sheet_header_scanning` -> `onfido_nfc_intro_sheet_scanning_subtitle`
+- `onfido_nfc_sheet_success_instruction` -> `onfido_nfc_sheet_success_instruction_passport`
+- `onfido_doc_select_button_work_permit` -> `onfido_doc_select_button_permit_work`
+- `onfido_doc_select_section_input_placeholder_country_copy` -> `onfido_doc_select_section_input_placeholder_country`
+- `onfido_liveness_intro_loading_video` -> `onfido_video_intro_loader`
+- `onfido_doc_select_section_input_placeholder_country` -> `onfido_doc_select_section_input_country_not_found`
+- `onfido_doc_select_button_bill_detail_all` -> `onfido_doc_select_button_bill_detail`
+- `onfido_liveness_fetch_challenge_error_description` -> `onfido_video_capture_prompt_network_timeout_detail`
+- `onfido_liveness_intro_loading_video` -> `onfido_video_intro_loader`
+
 ## `14.0.0` -> `15.0.0`
 
 ### Breaking changes
