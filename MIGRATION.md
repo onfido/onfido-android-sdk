@@ -1,10 +1,46 @@
 # Onfido Android SDK Migration Guide
 
+## `15.1.0` -> `15.2.0`
+
+### String Changes
+
+#### Added
+
+- `onfido_enter_can_title`
+- `onfido_enter_can_subtitle`
+- `onfido_enter_can_button_primary`
+- `onfido_enter_can_disclaimer`
+- `onfido_enter_can_error_label`
+- `onfido_enter_can_substring_attempt_singular`
+- `onfido_enter_can_substring_attempt_plural`
+- `onfido_nfc_scan_error_title`
+- `onfido_nfc_scan_error_button_primary`
+- `onfido_nfc_scan_error_button_secondary`
+- `onfido_nfc_scan_error_list_item`
+- `onfido_nfc_scan_error_list_item_2`
+
+#### Removed
+- `onfido_nfc_fail_title`
+- `onfido_nfc_fail_button_primary`
+- `onfido_nfc_fail_button_secondary`
+- `onfido_nfc_fail_list_item_remove_cover`
+- `onfido_nfc_fail_list_item_keep_contact`
+- `onfido_nfc_intro_subtitle_card`
+- `onfido_nfc_intro_subtitle_passport`
+- `onfido_nfc_intro_button_primary_card`
+- `onfido_nfc_intro_button_primary_passport`
+
+#### Changed
+- `onfido_nfc_intro_passport_scan_guide_1`
+- `onfido_nfc_intro_passport_scan_guide_2`
+- `onfido_nfc_intro_passport_scan_guide_3`
+- `onfido_nfc_intro_passport_scan_guide_4`
+
 ## `15.0.0` -> `15.1.0`
 
 ### String Changes
 
-## Renamed
+#### Renamed
 
 - `onfido_country_select_error_no_country_body_poa` -> `onfido_country_select_error_no_country_body`
 - `onfido_nfc_sheet_scanning_button_secondary` -> `onfido_nfc_sheet_button_secondary`

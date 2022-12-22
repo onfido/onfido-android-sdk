@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.04 Mb  |
-| arm64-v8a   | 8.93 Mb  |
+| armeabi-v7a | 8.09 Mb  |
+| arm64-v8a   | 8.98 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.50 Mb  |
+| universal   | 5.56 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -655,52 +655,18 @@ In your application's `styles.xml`:
 
 ### Localization
 
-The SDK supports and maintains the following 43 languages:
+The Onfido Android SDK supports and maintains translations for the following locales:
 
-- Arabic: ar 🇦🇪
-- Armenian: hy 🇦🇲
-- Bulgarian: bg 🇧🇬
-- Chinese (Simplified): zh_Hans 🇨🇳
-- Chinese (Traditional): zh_Hant 🇨🇳
-- Croatian: hr 🇭🇷
-- Czech: cs 🇨🇿
-- Danish: da 🇩🇰
-- Dutch: nl 🇳🇱
-- English (United Kingdom): en_GB 🇬🇧
-- English (United States): en_US 🇺🇸
-- Estonian: et 🇪🇪
-- Finnish: fi 🇫🇮
-- French (Canadian): fr_CA 🇫🇷 🇨🇦
-- French: fr 🇫🇷
-- German: de 🇩🇪
-- Greek: el 🇬🇷
-- Hebrew: he 🇮🇱
-- Hindi: hi 🇮🇳
-- Hungarian: hu 🇭🇺
-- Indonesian: id 🇮🇩
-- Italian: it 🇮🇹
-- Japanese: ja 🇯🇵
-- Korean: ko 🇰🇷
-- Latvian: lv 🇱🇻
-- Lithuanian: lt 🇱🇹
-- Malay: ms 🇲🇾
-- Norwegian: nb 🇳🇴
-- Persian: fa 🇮🇷
-- Polish: pl 🇵🇱
-- Portuguese (Brazil): pt_BR 🇵🇹 🇧🇷
-- Portuguese: pt 🇵🇹
-- Romanian: ro 🇷🇴
-- Russian: ru 🇷🇺
-- Serbian: sr_Latn 🇷🇸
-- Slovak: sk 🇸🇰
-- Slovenian: sl 🇸🇮
-- Spanish (Latin America): es_419 🇪🇸 🇺🇸
-- Spanish: es 🇪🇸
-- Swedish: sv 🇸🇪
-- Thai: th 🇹🇭
-- Turkish: tr 🇹🇷
-- Ukrainian: uk 🇺🇦
-- Vietnamese: vi 🇻🇳
+- English    (en) 🇬🇧
+- Spanish    (es) 🇪🇸
+- French     (fr) 🇫🇷
+- German     (de) 🇩🇪
+- Italian    (it) 🇮🇹
+- Portuguese (pt) 🇵🇹
+- Dutch      (nl) 🇳🇱
+- Polish     (pl) 🇵🇱
+- Romanian   (ro) 🇷🇴
+- Czech      (cs) 🇨🇿
 
 **Custom language**
 

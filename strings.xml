@@ -320,13 +320,12 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_fail_button_primary">Retry scanning</string>
-    <string name="onfido_nfc_fail_button_secondary">Get verified without NFC</string>
-    <string name="onfido_nfc_fail_title">We couldn’t scan your document</string>
-    <string name="onfido_nfc_fail_list_item_remove_cover">Remove your phone cover</string>
-    <string name="onfido_nfc_fail_list_item_keep_contact">Once the scan starts hold still</string>
+    <string name="onfido_nfc_scan_error_button_primary">Retry scanning</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Get verified without NFC</string>
+    <string name="onfido_nfc_scan_error_title">We couldn’t scan your document</string>
+    <string name="onfido_nfc_scan_error_list_item">Remove your phone cover</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Once the scan starts hold still</string>
 
-    <string name="onfido_nfc_intro_button_primary_card">Start scanning</string>
     <string name="onfido_nfc_intro_carousel_body_dont_move">Don’t move your phone or passport while scanning</string>
     <string name="onfido_nfc_intro_carousel_body_last_page">You can also try the inside of the back page</string>
 	<string name="onfido_nfc_intro_passport_scan_guide_2">Place your phone on top of your passport</string>
@@ -335,9 +334,11 @@
 	<string name="onfido_nfc_intro_passport_scan_guide_4">Once the scan starts, hold your phone still</string>
     <string name="onfido_nfc_intro_title_card">Scan your NFC card</string>
     <string name="onfido_nfc_intro_title_passport">Scan your ePassport</string>
-    <string name="onfido_nfc_intro_subtitle_card">Place your phone on the card and keep it near the top of your phone</string>
-    <string name="onfido_nfc_intro_subtitle_passport">Follow these instructions</string>
-    <string name="onfido_nfc_intro_button_primary_passport">Start scanning</string>
+    <string name="onfido_nfc_intro_subtitle">Follow the instructions below</string>
+    <string name="onfido_nfc_intro_button_primary">Start scanning</string>
+    <string name="onfido_nfc_intro_list_item">Place your card at the back of your device</string>
+    <string name="onfido_nfc_intro_list_item_2">Slowly slide your mobile up and down</string>
+    <string name="onfido_nfc_intro_list_item_3">Once the scan starts hold still</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">We’ve successfully scanned your passport</string>
     <string name="onfido_nfc_sheet_success_instruction_card">We’ve successfully scanned your card</string>
@@ -364,14 +365,10 @@
     <string name="onfido_enter_can_title">Enter the CAN</string>
     <string name="onfido_enter_can_subtitle">Please make sure the number provided matches the number on the document.</string>
     <string name="onfido_enter_can_button_primary">Continue</string>
-    <string name="onfido_enter_can_disclaimer">You can find it on the front of your document. It is %1$d-digit long and slightly larger in size.</string>
+	<string name="onfido_enter_can_disclaimer">The %d-digit number is located at the front of your document.</string>
     <string name="onfido_enter_can_error_label">You have %1$d %2$s left.</string>
     <string name="onfido_enter_can_substring_attempt_singular">attempt</string>
     <string name="onfido_enter_can_substring_attempt_plural">attempts</string>
-    <plurals name="onfido_enter_can_substring_attempt" translatable="false">
-        <item quantity="one">@string/onfido_enter_can_substring_attempt_singular</item>
-        <item quantity="other">@string/onfido_enter_can_substring_attempt_plural</item>
-    </plurals>
 
 	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">View from camera. Place your phone on the front of your document, then slowly move your phone away from it in a straight line.</string>
 	<string name="onfido_doc_capture_header_live_guidance_no_doc">Hold your phone over the document</string>
