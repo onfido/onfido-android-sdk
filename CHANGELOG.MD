@@ -24,6 +24,8 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Public: Support Hungarian Address card as Proof of Address
 - Public: Create Onfido Studio documentation file
+- Public: Support Motion in Workflow(Studio)
+- Public: Support Motion experiment (A/B testing) in Workflow(Studio)
 
 ### Changed
 
