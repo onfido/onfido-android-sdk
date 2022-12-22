@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [15.1.0] - 2022-12-22
+
+### Added
+
+- Public: Extended localisation support to 44 languages.
+- Public: Added RTL languages support
+
 ## [15.0.0] - 2022-12-16
 
 **Note:** This version contains breaking changes and is not backwards-compatible. Migration notes can be found in [MIGRATION.md](MIGRATION.md)
@@ -17,8 +24,6 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Public: Support Hungarian Address card as Proof of Address
 - Public: Create Onfido Studio documentation file
-- Public: Support Motion in Workflow(Studio)
-- Public: Support Motion experiment (A/B testing) in Workflow(Studio)
 
 ### Changed
 

@@ -15,9 +15,6 @@
     <!-- Document Confirmation -->
     <string name="onfido_doc_confirmation_body_folded_doc">Make sure your document is fully unfolded and the photo is clear</string>
 
-    <!-- Locale identifier -->
-    <string name="onfido_locale">en</string>
-
     <!-- General -->
     <string name="onfido_outro_title">Thank you</string>
     <string name="onfido_outro_body">That\’s all we need to start verifying your identity</string>
@@ -31,27 +28,20 @@
     <string name="onfido_doc_select_button_passport">Passport</string>
     <string name="onfido_doc_select_button_visa">Visa</string>
     <string name="onfido_doc_select_button_license">Driver’s license</string>
-    <string name="onfido_doc_select_button_id">National Identity Card</string>
+	<string name="onfido_doc_select_button_id">National identity card</string>
     <string name="onfido_doc_select_button_permit">Residence permit</string>
-    <string name="onfido_doc_select_button_work_permit">Work permit</string>
-
-    <!-- Document Subtitles-->
-    <string name="onfido_doc_passport_details">Photo page</string>
-    <string name="onfido_doc_permit_details">Front and back</string>
-    <string name="onfido_doc_id_details">Front and back</string>
-    <string name="onfido_doc_licence_details">Front and back</string>
+	<string name="onfido_doc_select_button_permit_work">Work Permit</string>
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Verify your identity</string>
     <string name="onfido_app_title_doc_select">Verify your identity</string>
     <string name="onfido_welcome_title">Verify your identity</string>
     <string name="onfido_welcome_subtitle">It should take a few minutes</string>
-    <string name="onfido_selfie_capture_button_accessibility">Take a selfie</string>
+	<string name="onfido_selfie_capture_button_accessibility">Shutter</string>
     <string name="onfido_selfie_intro_title">Take a selfie</string>
     <string name="onfido_app_title_country_select">Select issuing country</string>
-    <string name="onfido_country_select_bottom_sheet_title">Can\'t find your country?</string>
+	<string name="onfido_country_select_bottom_sheet_title">Can’t find your country?</string>
     <string name="onfido_country_select_bottom_sheet_details">It seems like the country of the document you’ve selected is not supported. Please select a different country.</string>
-    <string name="onfido_document_select_bottom_sheet_details">Sorry about that. Try using an alternative document instead.</string>
     <string name="onfido_country_select_bottom_sheet_link_close">Close</string>
     <string name="onfido_selfie_intro_subtitle">We’ll compare this with your document</string>    <!-- Capture Document/Face -->
     <string name="onfido_selfie_capture_body">Keep your face within the oval</string>
@@ -66,14 +56,14 @@
     <string name="onfido_generic_errors_geoblocked_error_message">Service unavailable</string>
     <string name="onfido_generic_errors_geoblocked_error_instruction">We’re sorry, seems like we can’t proceed further as your current location is not supported</string>
     <string name="onfido_selfie_confirmation_alert_no_face_detail">Make sure your face is visible</string>
-    <string name="onfido_generic_error_face_capture">Face capture didn\'t work. Please try again.</string>
-    <string name="onfido_generic_error_doc_capture">Document capture didn\'t work. Please try again.</string>
-    <string name="onfido_generic_error_video_capture">Video capture didn\'t work. Please try again.</string>
+	<string name="onfido_generic_error_face_capture">Face capture didn’t work. Please try again.</string>
+	<string name="onfido_generic_error_doc_capture">Document capture didn’t work. Please try again.</string>
+	<string name="onfido_generic_error_video_capture">Video capture didn’t work. Please try again.</string>
     <string name="onfido_doc_confirmation_body_generic">Make sure your details are clear and unobstructed</string>
 
     <!-- Glare Detection -->
     <string name="onfido_doc_capture_alert_glare_title">Glare detected</string>
-    <string name="onfido_doc_capture_alert_glare_detail">Try moving away from direct light</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Move away from direct light</string>
 
     <!-- Final Screen -->
     <string name="onfido_outro_button_primary">Submit verification</string>
@@ -87,25 +77,25 @@
     <!-- Liveness -->
     <string name="onfido_video_intro_subtitle">For security, we need a live capture</string>
     <string name="onfido_video_intro_list_item_move_speak">Follow the instructions to move or speak</string>
-    <string name="onfido_liveness_intro_loading_video">Loading example</string>
+    <string name="onfido_video_intro_loader">Loading example</string>
     <string name="onfido_video_capture_header_challenge_digit_instructions">Say each digit out loud</string>
     <string name="onfido_video_capture_prompt_title_timeout">Looks like you took too long</string>
     <string name="onfido_video_capture_prompt_detail_timeout">Remember to press the button when you’re done.</string>
     <string name="onfido_video_confirmation_button_secondary">Retake video</string>
-    <string name="onfido_video_confirmation_button_primary">Upload video</string>
-    <string name="onfido_video_confirmation_error_no_video">Your video can\'t be found on your device. Please retake it.</string>
+	<string name="onfido_video_confirmation_button_primary">Submit video</string>
+	<string name="onfido_video_confirmation_error_no_video">Your video can’t be found on your device. Please retake it.</string>
     <string name="onfido_video_capture_error_storage_title">Your device is full</string>
     <string name="onfido_video_capture_error_storage_detail">Free some storage space and record your video again</string>
     <string name="onfido_video_confirmation_button_audio_unmute">Unmute</string>
     <string name="onfido_video_capture_button_primary_start">Start recording</string>
     <string name="onfido_video_capture_button_primary_finish">Finish recording</string>
     <string name="onfido_video_capture_button_primary_fallback">Next step</string>
-    <string name="onfido_video_confirmation_error_media_player">There was an error with your video. Please retake it</string>
+	<string name="onfido_video_confirmation_error_media_player">There was an error with your video. Please retake it.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Reload</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Reload example video</string>
     <string name="onfido_video_intro_error_network">Unable to load due to unstable network</string>
     <string name="onfido_video_intro_error_network_accessibility">Unable to load the example video due to unstable network</string>
-    <string name="onfido_video_intro_error_load_offline">Unable to load because you\'re offline</string>
+	<string name="onfido_video_intro_error_load_offline">Unable to load because you’re offline</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Suggested country</string>
@@ -121,7 +111,7 @@
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Allow camera access</string>
     <string name="onfido_permission_subtitle_cam">When prompted, you must enable camera access to continue</string>
-    <string name="onfido_permission_body_cam">We cannot verify you without using your camera</string>
+	<string name="onfido_permission_body_cam">We can’t verify you without your camera</string>
     <string name="onfido_permission_button_primary_cam">Enable camera</string>
     <string name="onfido_permission_recovery_subtitle_cam">We can’t verify you without your camera</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Go to app settings and enable camera access for this app</string>
@@ -146,11 +136,11 @@
     <string name="onfido_video_capture_alert_wrong_side">Wrong side</string>
     <string name="onfido_video_capture_prompt_button_primary_network_timeout">Reload instructions</string>
     <string name="onfido_video_capture_prompt_network_timeout_title">Connection timeout</string>
-    <string name="onfido_liveness_fetch_challenge_error_description">Check that your connection is stable, then try again</string>
-    <string name="onfido_generic_back">Back</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Check that your connection is stable, then try again</string>
+	<string name="onfido_generic_back">back</string>
     <string name="onfido_permission_body_both">We can’t verify you without using both your camera and microphone</string>
     <string name="onfido_permission_button_primary_both">Enable both</string>
-    <string name="onfido_permission_recovery_subtitle_both">We can’t verify you without your camera and microphone</string>
+	<string name="onfido_permission_recovery_subtitle_both">We can’t verify you without your camera and microphone</string>
     <string name="onfido_permission_recovery_list_item_how_to_both">You can recover camera and microphone access through your device settings</string>
     <string name="onfido_permission_recovery_list_item_action_both">Go to app settings and enable both camera and microphone access for this app</string>
 
@@ -185,7 +175,7 @@
 
     <!-- Doc Liveness -->
     <string name="onfido_welcome_list_item_doc_video_flash">We’ll turn on your device flash during the video recording</string>
-    <string name="onfido_doc_video_capture_header">While holding your document, keep its front side within the frame</string>
+	<string name="onfido_doc_video_capture_header">While holding your document, keep the front side within the frame</string>
     <string name="onfido_doc_video_capture_header_step1">Now, keep still</string>
     <string name="onfido_doc_video_capture_detail_step2">Keep the document in full view at all times</string>
     <string name="onfido_doc_video_capture_button_primary_fallback">Next step</string>
@@ -193,7 +183,7 @@
     <string name="onfido_doc_video_capture_header_paper_doc_step2">Slowly turn your document around to show the outer pages</string>
     <string name="onfido_doc_video_capture_prompt_detail_timeout">Video recording is limited to %1$s seconds</string>
     <string name="onfido_doc_video_capture_success_accessibility">Success</string>
-    <string name="onfido_doc_video_capture_stepper">Step %1$s of %2$s</string>
+    <string name="onfido_doc_video_capture_stepper">Step %1$d of %2$d</string>
     <string name="onfido_doc_video_capture_header_step2">Slowly turn your document around to show the back</string>
     <string name="onfido_doc_video_confirmation_button_secondary">Preview video</string>
     <string name="onfido_doc_video_capture_button_primary_fallback_end">Finish recording</string>
@@ -211,12 +201,12 @@
 
     <string name="onfido_video_capture_header_challenge_turn_forward">then face forward</string>
     <string name="onfido_nfc_sheet_ready_subtitle">Ready to scan</string>
-    <string name="onfido_nfc_sheet_scanning_button_secondary">Cancel</string>
-    <string name="onfido_nfc_intro_sheet_header_scanning">Scanning...</string>
+    <string name="onfido_nfc_sheet_button_secondary">Cancel</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Scanning...</string>
     <string name="onfido_nfc_sheet_scanning_instruction">Keep your phone still</string>
     <string name="onfido_nfc_sheet_success_subtitle">Scan successful</string>
     <string name="onfido_nfc_permission_title">Turn on NFC</string>
-    <string name="onfido_nfc_permission_subtitle">We can\'t scan your passport without NFC</string>
+	<string name="onfido_nfc_permission_subtitle">We can’t scan your passport without NFC</string>
     <string name="onfido_nfc_permission_list_item_nfc">Turn on NFC from your device settings</string>
     <string name="onfido_nfc_permission_button_primary">Open settings</string>
 
@@ -231,7 +221,7 @@
     <string name="onfido_selfie_confirmation_button_secondary">Retake photo</string>
     <string name="onfido_doc_confirmation_button_secondary_id">Retake photo</string>
     <string name="onfido_doc_confirmation_button_secondary_visa">Retake photo</string>
-    <string name="onfido_selfie_intro_button_primary">Take selfie</string>
+	<string name="onfido_selfie_intro_button_primary">Take selfie</string>
     <string name="onfido_video_intro_list_item_time_limit_copy">You have %1$d seconds to finish</string>
     <string name="onfido_doc_capture_detail_license_front"></string>
     <string name="onfido_doc_confirmation_button_primary_id">Submit photo</string>
@@ -339,17 +329,17 @@
     <string name="onfido_nfc_intro_button_primary_card">Start scanning</string>
     <string name="onfido_nfc_intro_carousel_body_dont_move">Don’t move your phone or passport while scanning</string>
     <string name="onfido_nfc_intro_carousel_body_last_page">You can also try the inside of the back page</string>
-    <string name="onfido_nfc_intro_passport_scan_guide_2">Lay your passport on a flat surface</string>
-    <string name="onfido_nfc_intro_passport_scan_guide_3">Place your phone over the passport</string>
-    <string name="onfido_nfc_intro_passport_scan_guide_1">Remove your passport cover</string>
-    <string name="onfido_nfc_intro_passport_scan_guide_4">Slowly slide your phone down</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Place your phone on top of your passport</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Slowly slide your phone down and up</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Lay your passport on a flat surface</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Once the scan starts, hold your phone still</string>
     <string name="onfido_nfc_intro_title_card">Scan your NFC card</string>
     <string name="onfido_nfc_intro_title_passport">Scan your ePassport</string>
     <string name="onfido_nfc_intro_subtitle_card">Place your phone on the card and keep it near the top of your phone</string>
     <string name="onfido_nfc_intro_subtitle_passport">Follow these instructions</string>
     <string name="onfido_nfc_intro_button_primary_passport">Start scanning</string>
 
-    <string name="onfido_nfc_sheet_success_instruction">We’ve successfully scanned your passport</string>
+    <string name="onfido_nfc_sheet_success_instruction_passport">We’ve successfully scanned your passport</string>
     <string name="onfido_nfc_sheet_success_instruction_card">We’ve successfully scanned your card</string>
 
     <string name="onfido_nfc_select_title_passport">Speed up the process with NFC</string>
@@ -417,8 +407,8 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">First, you will have to position your face in front of your device</string>
 	<string name="onfido_avc_intro_list_item_two">Then, turn your head slowly to both sides</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Then, you will have to turn your head slowly to both sides</string>
-	<string name="onfido_avc_intro_disclaimer">Please be mindful that we’ll record your face and your background</string>
-	<string name="onfido_avc_intro_button_primary_ready">I’m ready</string>
+	<string name="onfido_avc_intro_disclaimer">Please be mindful that we\'ll record your face and your background</string>
+	<string name="onfido_avc_intro_button_primary_ready">I\'m ready</string>
 	<string name="onfido_avc_face_alignment_title">Position your face in the frame</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Move closer</string>
 	<string name="onfido_avc_face_alignment_feedback_move_back">Move back</string>
@@ -431,7 +421,7 @@
 	<string name="onfido_avc_face_capture_alert_too_fast_title">You turned your head too fast</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_body">Please retry and turn your head slower</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Retry</string>
-	<string name="onfido_avc_no_face_detected_title">We can’t detect your face</string>
+	<string name="onfido_avc_no_face_detected_title">We can\'t detect your face</string>
 	<string name="onfido_avc_no_face_detected_list_item_lighting">Make sure to be in a place with good lighting</string>
 	<string name="onfido_avc_no_face_detected_list_item_eyes">Make sure your eyes are clearly visible</string>
 	<string name="onfido_avc_no_face_detected_list_item_mask">Make sure to remove masks or other items that cover your face. Eyeglasses are okay</string>
@@ -472,9 +462,9 @@
 	<string name="onfido_poa_intro_button_primary">Start verification</string>
 	<string name="onfido_poa_intro_title">Let’s verify your address</string>
 	<string name="onfido_poa_intro_subtitle">You’ll need a document that:</string>
-	<string name="onfido_poa_intro_list_shows_address">Shows your &lt;b&gt;current&lt;/b&gt; address</string>
-	<string name="onfido_poa_intro_list_matches_signup">&lt;b&gt;Matches&lt;/b&gt; the address you used on sign up</string>
-	<string name="onfido_poa_intro_list_most_recent">Is your most &lt;b&gt;recent&lt;/b&gt; document</string>
+	<string name="onfido_poa_intro_list_shows_address">Shows your current address</string>
+	<string name="onfido_poa_intro_list_matches_signup">Matches the address you used on sign up</string>
+	<string name="onfido_poa_intro_list_most_recent">Is your most recent document</string>
 	<string name="onfido_poa_type_selection_title_uk">Select a UK document</string>
 	<string name="onfido_poa_type_selection_title">Select a document</string>
 	<string name="onfido_doc_select_subtitle_poa">These are the documents most likely to show your current home address</string>
@@ -487,10 +477,10 @@
 	<string name="onfido_doc_select_button_benefits_letter_detail">Government authorised household benefits eg. Jobseeker allowance, Housing benefit, Tax credits</string>
     <string name="onfido_doc_select_button_address_card">Address card</string>
     <string name="onfido_doc_select_button_address_card_detail">Temporary and permanent cards are accepted</string>
-	<string name="onfido_poa_guidance_subtitle_bank_statement">Must have been issued in the &lt;b&gt;last 3 months&lt;/b&gt;</string>
-	<string name="onfido_poa_guidance_subtitle_bill">Must have been issued in the &lt;b&gt;last 3 months&lt;/b&gt;</string>
-	<string name="onfido_poa_guidance_subtitle_benefits_letter">Must have been issued in the &lt;b&gt;last 12 months&lt;/b&gt;</string>
-	<string name="onfido_poa_guidance_subtitle_tax_letter">Must have been issued in the &lt;b&gt;last 12 months&lt;/b&gt;</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Must have been issued in the last 3 months</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Must have been issued in the last 3 months</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Must have been issued in the last 12 months</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Must have been issued in the last 12 months</string>
     <string name="onfido_poa_guidance_subtitle_address_card">Must be a valid address card</string>
 	<string name="onfido_poa_guidance_instructions_label">Capture the entire document and make sure it clearly shows:</string>
 	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
@@ -516,17 +506,16 @@
 	<string name="onfido_poa_err_invalid_file_message">Please choose a different file.</string>
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Take a photo of a document with your address</string>
-    <string name="onfido_country_select_error_no_country_body_poa">We’re working on adding more countries to the list.</string>
+	<string name="onfido_country_select_error_no_country_body">We’re working on adding more countries to the list. In the meantime, try using an alternative document.</string>
 	<string name="onfido_doc_select_extra_no_mobile">Sorry, no mobile phone bills</string>
-	<string name="onfido_doc_select_button_bill_detail_all">Gas, electricity, water, landline, or broadband. Sorry, no mobile phone bills</string>
+	<string name="onfido_doc_select_button_bill_detail">Gas, electricity, water, landline, or broadband</string>
 
 	<string name="onfido_doc_select_subtitle_country">Select issuing country to see which documents we accept</string>
 	<string name="onfido_doc_select_section_header_country">Issuing country</string>
 	<string name="onfido_doc_select_section_header_doc_type">Accepted documents</string>
-	<string name="onfido_doc_select_section_input_placeholder_country">No Results</string>
+	<string name="onfido_doc_select_section_input_country_not_found">No Results</string>
 	<string name="onfido_doc_select_subtitle_entire_page">Entire page</string>
 	<string name="onfido_doc_select_subtitle_photo_page">Photo page</string>
 	<string name="onfido_doc_select_subtitle_front_back">Front and back</string>
-	<string name="onfido_doc_select_section_input_placeholder_country_copy">Select issuing country</string>
-
+	<string name="onfido_doc_select_section_input_placeholder_country">Select issuing country</string>
 </resources>
