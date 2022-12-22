@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [13.3.0] - 2022-12-22
+
+### Changed
+
+- Public: Implemented a new enhanced resolution selection algorithm to take document photos with a better resolution.
+- Public: Improved camera focus. Our camera implementation now waits for the camera to focus before taking the document photo to prevent having blurry photos.
+- Public: Fixed displaying "photo captured feedback" too early. This issue was misguiding users so that they were moving their document or their device away while the photo capture was in progress.
+- Public: Increased image compression quality parameter.
+- Public: Disabled photo cropping for foldable devices to prevent having improperly cropped document images.
+
 ## [15.1.0] - 2022-12-22
 
 ### Added
