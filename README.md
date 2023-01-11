@@ -706,13 +706,7 @@ The SDK supports and maintains the following 44 languages:
 
 The Android SDK also allows for the selection of a specific custom language for locales that Onfido does not currently support. You can have an additional XML strings file inside your resources folder for the desired locale (for example, `res/values-it/onfido_strings.xml` for 🇮🇹 translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
 
-When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). In particular, `onfido_locale`, which identifies the current locale being added, must be included.
-The value for this string should be the [ISO 639-1](http://www.loc.gov/standards/iso639-2/php/code_list.php) 2-letter language code corresponding to the translation being added.
-Examples:
-    - When adding a translations file inside `values-ru` (russian translation), the `onfido_locale` key should have `ru` as its value
-    - When adding a translations file inside `values-en-rUS` (american english translation), the `onfido_locale` key should have `en` as its value
-
-Without `onfido_locale` correctly included, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
+When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml).
 
 By default, we infer the language to use from the device settings. However, you can also use the `withLocale(Locale)` method of the `OnfidoConfig.Builder` to select a specific language.
 
