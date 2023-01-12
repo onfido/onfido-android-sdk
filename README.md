@@ -22,16 +22,16 @@
 
 ## Overview
 
-The Onfido Android SDK provides a drop-in set of screens and tools for Android applications to capture identity documents and selfie photos, videos and motion captures for the purpose of identity verification. 
+The Onfido Android SDK provides a drop-in set of screens and tools for Android applications to capture identity documents and selfie photos and videos for the purpose of identity verification. 
 
 It offers a number of benefits to help you create the best identity verification experience for your customers:
 
-- Carefully designed UI to guide your customers through the entire photo, video or motion capture process
-- Modular design to help you seamlessly integrate the photo, video or motion capture process into your application flow
+- Carefully designed UI to guide your customers through the entire photo and video capture process
+- Modular design to help you seamlessly integrate the photo and video capture process into your application flow
 - Advanced image quality detection technology to ensure the quality of the captured images meets the requirement of the Onfido identity verification process, guaranteeing the best success rate
 - Direct image upload to the Onfido service, to simplify integration
 
-⚠️ Note: The SDK is only responsible for capturing and uploading photos, videos and motion captures. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
+⚠️ Note: The SDK is only responsible for capturing and uploading photos and videos. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
 
 ![Various views from the SDK](screenshots.jpg "")
 ![Various views from the SDK](gifs.gif "")
@@ -56,9 +56,6 @@ Our configuration is currently set to the following:
 ```
 
 ⚠️ The following content assumes you're using our API v3 versions for backend calls. If you are currently using API v2 please refer to [this migration guide](https://developers.onfido.com/guide/api-v2-to-v3-migration-guide) for more information.
-> ℹ️
->
-> If you are integrating using Onfido Studio please see our** [Studio integration guide](ONFIDO_STUDIO.md)
 
 ### 1. Obtain an API token
 
@@ -128,8 +125,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.10 Mb  |
-| arm64-v8a   | 8.98 Mb  |
+| armeabi-v7a | 7.25 Mb  |
+| arm64-v8a   | 8.14 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +146,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.56 Mb  |
+| universal   | 4.71 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -180,7 +177,7 @@ $ curl https://api.onfido.com/v3/applicants \
     -d 'last_name=Smith'
 ```
 
-The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents, photos, videos and motion captures uploaded by that instance of the SDK will be associated with that applicant.
+The JSON response will return an `id` field containing a UUID that identifies the applicant. Once you pass the applicant ID to the SDK, documents and live photos and videos uploaded by that instance of the SDK will be associated with that applicant.
 
 ### 4. Configure the SDK with a token
 
@@ -480,32 +477,16 @@ We provide an up-to-date list of our [supported documents](https://onfido.com/su
 
 #### Face capture step
 
-In this step a user can use the front camera to capture their face in the form of photo, video or motion capture.
+In this step a user can use the front camera to capture either a live photo of their face, or a live video.
 
-The Face step has 3 variants:
-1. To configure for photo use `FlowStep.CAPTURE_FACE` or `FaceCaptureStepBuilder.forPhoto()`.
-2. To configure for video use `FaceCaptureStepBuilder.forVideo()`.
-3. To configure for motion use `FaceCaptureStepBuilder.forMotion()`.
-
-Motion variant may not be supported in certain devices due to device capabilities and Google Play Services availability.
-In that case, if capture fallback provided using the `withCaptureFallback` function, it will fallback to specified capture variant which can be either photo or video.
-Otherwise, the flow will end with `OnfidoException` resulting in `onError` callback.
-
-In the following example, motion variant is configured with photo capture callback. 
-
-```java
-FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
-                .withCaptureFallback(
-                    FaceCaptureStepBuilder.forPhoto()
-                        .withIntro(showIntro)
-                )
-                .build();
-```
+The Face step has 2 variants:
+1.  To configure for a live photo use `FlowStep.CAPTURE_FACE` or
+`FaceCaptureStepBuilder.forPhoto()`.
+2. To configure for a live video use `FaceCaptureStepBuilder.forVideo()`.
 
 **Introduction screen**
 
 By default both face and video variants show an introduction screen. This is an optional screen. You can disable it using the `withIntro(false)` function.
-Customization of introduction screen for motion variant is not available.
 
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
@@ -525,8 +506,8 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
 
 **Errors**
 
-The Face step can be configured to allow only for one variant. A custom flow **cannot** contain multiple variants of the face capture. If more than one type of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
-with the message `"You are not allowed to define more than one FaceCaptureVariant in a flow."`.
+The Face step can be configured to allow for either a photo or video flow. A custom flow **cannot** contain both the photo and video variants of the face capture. If both types of `FaceCaptureStep` are added to the same custom flow, a custom `IllegalArgumentException` will be thrown at the beginning of the flow,
+with the message `"Custom flow cannot contain both video and photo variants of face capture"`.
 
 #### Proof of address step
 
@@ -546,8 +527,7 @@ NFC dependencies are not included in the SDK to avoid increasing the SDK size wh
 
 ```
 implementation "net.sf.scuba:scuba-sc-android:0.0.23"
-implementation "org.jmrtd:jmrtd:0.7.34"
-implementation "com.madgag.spongycastle:prov:1.58.0.0"
+implementation "org.jmrtd:jmrtd:0.7.32"
 ```
 
 ##### SDK integration
@@ -572,14 +552,11 @@ You also need to add the following Proguard rules to your `proguard-rules.pro` f
 -keep class org.jmrtd.** { *; }
 -keep class net.sf.scuba.** {*;}
 -keep class org.bouncycastle.** {*;}
--keep class org.spongycastle.** {*;}
 -keep class org.ejbca.** {*;}
 
 -dontwarn kotlin.time.jdk8.DurationConversionsJDK8Kt
 -dontwarn org.ejbca.**
 -dontwarn org.bouncycastle.**
--dontwarn org.spongycastle.**
-
 -dontwarn module-info
 -dontwarn org.jmrtd.**
 -dontwarn net.sf.scuba.**
@@ -655,58 +632,30 @@ In your application's `styles.xml`:
 
 ### Localization
 
-The SDK supports and maintains the following 44 languages:
+The Onfido Android SDK supports and maintains translations for the following locales:
 
-- Arabic: ar 🇦🇪
-- Armenian: hy 🇦🇲
-- Bulgarian: bg 🇧🇬
-- Chinese (Simplified): zh_Hans 🇨🇳
-- Chinese (Traditional): zh_Hant 🇨🇳
-- Croatian: hr 🇭🇷
-- Czech: cs 🇨🇿
-- Danish: da 🇩🇰
-- Dutch: nl 🇳🇱
-- English (United Kingdom): en_GB 🇬🇧
-- English (United States): en_US 🇺🇸
-- Estonian: et 🇪🇪
-- Finnish: fi 🇫🇮
-- French (Canadian): fr_CA 🇫🇷 🇨🇦
-- French: fr 🇫🇷
-- German: de 🇩🇪
-- Greek: el 🇬🇷
-- Hebrew: he 🇮🇱
-- Hindi: hi 🇮🇳
-- Hungarian: hu 🇭🇺
-- Indonesian: id 🇮🇩
-- Italian: it 🇮🇹
-- Japanese: ja 🇯🇵
-- Korean: ko 🇰🇷
-- Latvian: lv 🇱🇻
-- Lithuanian: lt 🇱🇹
-- Malay: ms 🇲🇾
-- Norwegian: nb 🇳🇴
-- Persian: fa 🇮🇷
-- Polish: pl 🇵🇱
-- Portuguese (Brazil): pt_BR 🇵🇹 🇧🇷
-- Portuguese: pt 🇵🇹
-- Romanian: ro 🇷🇴
-- Russian: ru 🇷🇺
-- Serbian: sr_Latn 🇷🇸
-- Slovak: sk 🇸🇰
-- Slovenian: sl 🇸🇮
-- Spanish (Latin America): es_419 🇪🇸 🇺🇸
-- Spanish: es 🇪🇸
-- Swedish: sv 🇸🇪
-- Thai: th 🇹🇭
-- Turkish: tr 🇹🇷
-- Ukrainian: uk 🇺🇦
-- Vietnamese: vi 🇻🇳
+- English    (en) 🇬🇧
+- Spanish    (es) 🇪🇸
+- French     (fr) 🇫🇷
+- German     (de) 🇩🇪
+- Italian    (it) 🇮🇹
+- Portuguese (pt) 🇵🇹
+- Dutch      (nl) 🇳🇱
+- Polish     (pl) 🇵🇱
+- Romanian   (ro) 🇷🇴
+- Czech      (cs) 🇨🇿
 
 **Custom language**
 
 The Android SDK also allows for the selection of a specific custom language for locales that Onfido does not currently support. You can have an additional XML strings file inside your resources folder for the desired locale (for example, `res/values-it/onfido_strings.xml` for 🇮🇹 translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
 
-When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml).
+When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). In particular, `onfido_locale`, which identifies the current locale being added, must be included.
+The value for this string should be the [ISO 639-1](http://www.loc.gov/standards/iso639-2/php/code_list.php) 2-letter language code corresponding to the translation being added.
+Examples:
+    - When adding a translations file inside `values-ru` (russian translation), the `onfido_locale` key should have `ru` as its value
+    - When adding a translations file inside `values-en-rUS` (american english translation), the `onfido_locale` key should have `en` as its value
+
+Without `onfido_locale` correctly included, we won't be able to determine which language the user is likely to use when doing the video liveness challenge. It may result in our inability to correctly process the video, and the check may fail.
 
 By default, we infer the language to use from the device settings. However, you can also use the `withLocale(Locale)` method of the `OnfidoConfig.Builder` to select a specific language.
 
@@ -813,7 +762,7 @@ Please see our [API documentation](https://documentation.onfido.com/#create-chec
 
 ## Creating checks
 
-The SDK is responsible for the capture of identity documents and selfie photos, videos and motion captures. It doesn't perform any checks against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage applicants and perform checks.
+The SDK is responsible for the capture of identity documents and selfie photos and videos. It doesn't perform any checks against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage applicants and perform checks.
 
 For a walkthrough of how to create a check with a Document and Facial Similarity report using the Android SDK read our [Mobile SDK Quick Start guide](https://developers.onfido.com/guide/mobile-sdk-quick-start).
 

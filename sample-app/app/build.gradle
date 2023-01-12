@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '15.3.0'
-def versionCodeNumber = 1530
+def sdkVersion = '14.0.1'
+def versionCodeNumber = 1401
 
 android {
     compileSdkVersion 32
@@ -48,7 +48,6 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "com.onfido.sdk.capture:onfido-capture-sdk:$sdkVersion"
-    implementation "com.onfido.sdk:onfido-workflow:$sdkVersion"
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.multidex:multidex:2.0.1'
