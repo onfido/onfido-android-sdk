@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [14.0.1] - 2023-01-12
+
+### Fixed
+
+- Fix a crash in the user consent and document selection screens due to missing init method in ViewModelProvider
+
 ## [15.3.0] - 2023-01-09
 
 ### Added
