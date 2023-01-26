@@ -404,8 +404,9 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">First, you will have to position your face in front of your device</string>
 	<string name="onfido_avc_intro_list_item_two">Then, turn your head slowly to both sides</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Then, you will have to turn your head slowly to both sides</string>
-	<string name="onfido_avc_intro_disclaimer">Please be mindful that we\'ll record your face and your background</string>
-	<string name="onfido_avc_intro_button_primary_ready">I\'m ready</string>
+	<string name="onfido_avc_intro_disclaimer">Your face and your background will be recorded during this process</string>
+    <string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Your face, background, and audio will be recorded during this process</string>
+	<string name="onfido_avc_intro_button_primary_ready">Start recording</string>
 	<string name="onfido_avc_face_alignment_title">Position your face in the frame</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Move closer</string>
 	<string name="onfido_avc_face_alignment_feedback_move_back">Move back</string>

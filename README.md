@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.10 Mb  |
-| arm64-v8a   | 8.98 Mb  |
+| armeabi-v7a | 8.11 Mb  |
+| arm64-v8a   | 8.99 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.56 Mb  |
+| universal   | 5.57 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -706,7 +706,7 @@ The SDK supports and maintains the following 44 languages:
 
 The Android SDK also allows for the selection of a specific custom language for locales that Onfido does not currently support. You can have an additional XML strings file inside your resources folder for the desired locale (for example, `res/values-it/onfido_strings.xml` for 🇮🇹 translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
 
-When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml).
+When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). 
 
 By default, we infer the language to use from the device settings. However, you can also use the `withLocale(Locale)` method of the `OnfidoConfig.Builder` to select a specific language.
 
