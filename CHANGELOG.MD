@@ -9,6 +9,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [15.4.1] - 2023-01-27
+
+### Changed
+
+- Improve picture frame selection algorithm
+
+## [14.1.1] - 2023-01-27
+
+### Changed
+
+- Improve picture frame selection algorithm
+
+### Fixed
+
+- Fix a crash due to missing init method in ViewModelProvider
+
+## [13.3.1] - 2023-01-27
+
+### Changed
+
+- Improve picture frame selection algorithm
+
 ## [15.4.0] - 2023-01-26
 
 ### Fixed
