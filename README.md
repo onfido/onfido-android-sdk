@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.11 Mb  |
-| arm64-v8a   | 8.99 Mb  |
+| armeabi-v7a | 8.07 Mb  |
+| arm64-v8a   | 8.96 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.57 Mb  |
+| universal   | 5.54 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -487,11 +487,12 @@ The Face step has 3 variants:
 2. To configure for video use `FaceCaptureStepBuilder.forVideo()`.
 3. To configure for motion use `FaceCaptureStepBuilder.forMotion()`.
 
-Motion variant may not be supported in certain devices due to device capabilities and Google Play Services availability.
-In that case, if capture fallback provided using the `withCaptureFallback` function, it will fallback to specified capture variant which can be either photo or video.
-Otherwise, the flow will end with `OnfidoException` resulting in `onError` callback.
+**Motion**
 
-In the following example, motion variant is configured with photo capture callback. 
+The Motion variant may not be supported on certain devices due to device capabilities and/or Google Play Services availability.
+If the Motion variant is not supported on the user’s device, you can configure the SDK to allow the user to capture a Selfie or a Video instead by using the `withCaptureFallback` function.
+
+The following examples show how to configure the Motion variant with a Photo capture fallback and a Video capture fallback. 
 
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
@@ -499,6 +500,23 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
                     FaceCaptureStepBuilder.forPhoto()
                         .withIntro(showIntro)
                 )
+                .build();
+
+FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
+                .withCaptureFallback(
+                    FaceCaptureStepBuilder.forVideo()
+                        .withIntro(showIntro)
+                )
+                .build();
+```
+
+Please note that if no fallback is configured and Motion is not supported on the user device the flow will end with an `OnfidoException` resulting in an `onError` callback.
+
+Motion supports audio recording, but it is disabled by default. In order to enable it use `.withAudio(true)`.
+
+```java
+FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
+                .withAudio(true)
                 .build();
 ```
 
@@ -657,50 +675,50 @@ In your application's `styles.xml`:
 
 The SDK supports and maintains the following 44 languages:
 
-- Arabic: ar 🇦🇪
-- Armenian: hy 🇦🇲
-- Bulgarian: bg 🇧🇬
-- Chinese (Simplified): zh_Hans 🇨🇳
-- Chinese (Traditional): zh_Hant 🇨🇳
-- Croatian: hr 🇭🇷
-- Czech: cs 🇨🇿
-- Danish: da 🇩🇰
-- Dutch: nl 🇳🇱
-- English (United Kingdom): en_GB 🇬🇧
-- English (United States): en_US 🇺🇸
-- Estonian: et 🇪🇪
-- Finnish: fi 🇫🇮
-- French (Canadian): fr_CA 🇫🇷 🇨🇦
-- French: fr 🇫🇷
-- German: de 🇩🇪
-- Greek: el 🇬🇷
-- Hebrew: he 🇮🇱
-- Hindi: hi 🇮🇳
-- Hungarian: hu 🇭🇺
-- Indonesian: id 🇮🇩
-- Italian: it 🇮🇹
-- Japanese: ja 🇯🇵
-- Korean: ko 🇰🇷
-- Latvian: lv 🇱🇻
-- Lithuanian: lt 🇱🇹
-- Malay: ms 🇲🇾
-- Norwegian: nb 🇳🇴
-- Persian: fa 🇮🇷
-- Polish: pl 🇵🇱
-- Portuguese (Brazil): pt_BR 🇵🇹 🇧🇷
-- Portuguese: pt 🇵🇹
-- Romanian: ro 🇷🇴
-- Russian: ru 🇷🇺
-- Serbian: sr_Latn 🇷🇸
-- Slovak: sk 🇸🇰
-- Slovenian: sl 🇸🇮
-- Spanish (Latin America): es_419 🇪🇸 🇺🇸
-- Spanish: es 🇪🇸
-- Swedish: sv 🇸🇪
-- Thai: th 🇹🇭
-- Turkish: tr 🇹🇷
-- Ukrainian: uk 🇺🇦
-- Vietnamese: vi 🇻🇳
+- Arabic: ar
+- Armenian: hy
+- Bulgarian: bg
+- Chinese (Simplified): zh_Hans
+- Chinese (Traditional): zh_Hant
+- Croatian: hr
+- Czech: cs
+- Danish: da🇰
+- Dutch: nl🇱
+- English (United Kingdom): en_GB
+- English (United States): en_US
+- Estonian: et
+- Finnish: fi
+- French (Canadian): fr_CA
+- French: fr
+- German: de
+- Greek: el
+- Hebrew: he
+- Hindi: hi
+- Hungarian: hu
+- Indonesian: id
+- Italian: it
+- Japanese: ja
+- Korean: ko
+- Latvian: lv
+- Lithuanian: lt
+- Malay: ms
+- Norwegian: nb
+- Persian: fa
+- Polish: pl
+- Portuguese (Brazil): pt_BR
+- Portuguese: pt
+- Romanian: ro
+- Russian: ru
+- Serbian: sr_Latn
+- Slovak: sk
+- Slovenian: sl
+- Spanish (Latin America): es_419
+- Spanish: es
+- Swedish: sv
+- Thai: th
+- Turkish: tr
+- Ukrainian: uk
+- Vietnamese: vi
 
 **Custom language**
 
