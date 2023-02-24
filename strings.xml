@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Please make sure the number provided matches the number on the document.</string>
     <string name="onfido_enter_can_button_primary">Continue</string>
 	<string name="onfido_enter_can_disclaimer">The %d-digit number is located at the front of your document.</string>
-	<string name="onfido_enter_can_error_label">You have [%i] [%s] left.</string>
+	<string name="onfido_enter_can_error_label">You have %d %s left.</string>
     <string name="onfido_enter_can_substring_attempt_singular">attempt</string>
     <string name="onfido_enter_can_substring_attempt_plural">attempts</string>
 
@@ -419,7 +419,13 @@
 	<string name="onfido_avc_face_capture_alert_too_fast_title">You turned your head too fast</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_body">Please retry and turn your head slower</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Retry</string>
-	<string name="onfido_avc_no_face_detected_title">We can\'t detect your face</string>
+    <string name="onfido_avc_face_capture_alert_mic_conflict_title">Your microphone is being used by another app</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Please end any ongoing calls or activities that are using your microphone during the recording</string>
+    <string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Retry</string>
+    <string name="onfido_avc_no_face_detected_title">We can\'t detect your face</string>
+    <string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio is being played by another app</string>
+    <string name="onfido_avc_face_capture_alert_audio_conflict_body">Please do not play any audio on your device during the recording.</string>
+    <string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Retry</string>
 	<string name="onfido_avc_no_face_detected_list_item_lighting">Make sure to be in a place with good lighting</string>
 	<string name="onfido_avc_no_face_detected_list_item_eyes">Make sure your eyes are clearly visible</string>
 	<string name="onfido_avc_no_face_detected_list_item_mask">Make sure to remove masks or other items that cover your face. Eyeglasses are okay</string>
