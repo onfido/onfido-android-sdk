@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '16.0.0'
-def versionCodeNumber = 1600
+def sdkVersion = '16.0.1'
+def versionCodeNumber = 1601
 
 android {
     compileSdkVersion 32
@@ -42,6 +42,7 @@ android {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
