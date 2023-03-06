@@ -13,21 +13,18 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- Handle audio conflicts when there is an audio playing before start recording
+- Handle audio and mic conflicts if there is audio playing or if the mic is in use when we start recording
 - Added translations for audio in Motion strings
-- Handle mic conflicts when another app is using mic before starting recording
 - Updated MLKit Face Detection library
-- Added MLKit Face Detection Module check in addition to Google Play Services check in order to fallback to Selfie/Video
-- Updated supported document file to include Honduras national ID
+- Added a MLKit Face Detection Module check in addition to the Google Play Services check in order to fallback to Selfie/Video
+- Updated the supported document file to include Honduras National ID
 
 ### Fixed
 
-- Fixed Hebrew language translation issue
-- Fixed Indonesian language translation issue
-- Fixed a crash when no cameras available on the device
-- Fix SDK crash when app is brought to background and restored after a while
-- Removed version name suffixes from header and created a new header to include the variant of the SDK used
-- Fixed the Workflow-related crash
+- Fixed Hebrew and Indonesian language translation issues
+- Fixed a crash when no camera is available on the device
+- Fixed a crash when the app is brought to the background and restored after a while
+- Fixed a Studio Workflow-related crash
 
 ## [16.0.1] - 2023-02-27
 
