@@ -9,6 +9,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [16.1.0] - 2023-03-06
+
+### Changed
+
+- Handle audio conflicts when there is an audio playing before start recording
+- Added translations for audio in Motion strings
+- Handle mic conflicts when another app is using mic before starting recording
+- Updated MLKit Face Detection library
+- Added MLKit Face Detection Module check in addition to Google Play Services check in order to fallback to Selfie/Video
+- Updated supported document file to include Honduras national ID
+
+### Fixed
+
+- Fixed Hebrew language translation issue
+- Fixed Indonesian language translation issue
+- Fixed a crash when no cameras available on the device
+- Fix SDK crash when app is brought to background and restored after a while
+- Removed version name suffixes from header and created a new header to include the variant of the SDK used
+- Fixed the Workflow-related crash
+
 ## [16.0.1] - 2023-02-27
 
 ### Fixed
