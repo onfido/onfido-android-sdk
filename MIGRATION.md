@@ -1,23 +1,5 @@
 # Onfido Android SDK Migration Guide
 
-## `15.4.0` -> `16.0.0`
-
-### Breaking changes
-- Removed setUserEventHandler and getUserEventHandler for the UserEventHandler since it is deprecated. Please use OnfidoConfig.builder(context).withAnalyticsEventListener().
-
-## `15.3.0` -> `15.4.0`
-
-### String Changes
-
-#### Added
-
-- `onfido_avc_intro_disclaimer_camera_and_audio_on`
-
-#### Changed
-
-- `onfido_avc_intro_button_primary_ready`
-- `onfido_avc_intro_disclaimer`
-
 ## `15.1.0` -> `15.2.0`
 
 ### String Changes

@@ -9,47 +9,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [16.1.0] - 2023-03-06
-
-### Changed
-
-- Handle audio and mic conflicts if there is audio playing or if the mic is in use when we start recording
-- Added translations for audio in Motion strings
-- Updated MLKit Face Detection library
-- Added a MLKit Face Detection Module check in addition to the Google Play Services check in order to fallback to Selfie/Video
-- Updated the supported document file to include Honduras National ID
-
-### Fixed
-
-- Fixed Hebrew and Indonesian language translation issues
-- Fixed a crash when no camera is available on the device
-- Fixed a crash when the app is brought to the background and restored after a while
-- Fixed a Studio Workflow-related crash
-
-## [16.0.1] - 2023-02-27
-
-### Fixed
-
-- Fixed the Workflow-related crash
-
-## [16.0.0] - 2023-02-21
-
-### Added
-
-- Support audio recording in Motion
-- Created a secure module to extend Onfido SDK device intelligence
-- Onfido Secure SDK artifact has been removed. Please use the new device intelligence module.
-
-### Changed
-
-- Removed depreceated UserEventHandler. Please use OnfidoConfig.builder(context).withAnalyticsEventListener().
-- Improve picture frame selection algorithm
-- Added user analytics listener to WorkflowConfig builder. Similar to the normal flow, you can now attach your analytics listener to your config using WorkflowConfig.builder(context).withAnalyticsEventListener(listener).
-
-### Fixed
-
-- Navigate to Permissions denied screen instead of getting back to Intro screen when not all required permissions granted
-
 ## [15.4.1] - 2023-01-27
 
 ### Changed
@@ -61,6 +20,10 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Changed
 
 - Improve picture frame selection algorithm
+
+### Fixed
+
+- Fix a crash due to missing init method in ViewModelProvider
 
 ## [13.3.1] - 2023-01-27
 
