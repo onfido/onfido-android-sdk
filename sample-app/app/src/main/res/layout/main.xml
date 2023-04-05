@@ -23,8 +23,8 @@
       style="@style/OnboardingItemText"
       android:layout_marginTop="75dp"
       android:layout_marginBottom="33.5dp"
-      android:layout_marginStart="@dimen/bank_intrusctions_side_margin"
-      android:layout_marginEnd="@dimen/bank_intrusctions_side_margin"/>
+      android:layout_marginLeft="@dimen/bank_intrusctions_side_margin"
+      android:layout_marginRight="@dimen/bank_intrusctions_side_margin"/>
 
   <Button
       android:id="@+id/next"
