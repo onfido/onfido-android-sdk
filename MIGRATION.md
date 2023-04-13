@@ -1,9 +1,176 @@
 # Onfido Android SDK Migration Guide
 
+## `15.4.0` -> `16.0.0`
+
+### Breaking changes
+- Removed setUserEventHandler and getUserEventHandler for the UserEventHandler since it is deprecated. Please use OnfidoConfig.builder(context).withAnalyticsEventListener().
+
+## `15.3.0` -> `15.4.0`
+
+### String Changes
+
+#### Added
+
+- `onfido_avc_intro_disclaimer_camera_and_audio_on`
+
+#### Changed
+
+- `onfido_avc_intro_button_primary_ready`
+- `onfido_avc_intro_disclaimer`
+
+## `15.1.0` -> `15.2.0`
+
+### String Changes
+
+#### Added
+
+- `onfido_enter_can_title`
+- `onfido_enter_can_subtitle`
+- `onfido_enter_can_button_primary`
+- `onfido_enter_can_disclaimer`
+- `onfido_enter_can_error_label`
+- `onfido_enter_can_substring_attempt_singular`
+- `onfido_enter_can_substring_attempt_plural`
+- `onfido_nfc_scan_error_title`
+- `onfido_nfc_scan_error_button_primary`
+- `onfido_nfc_scan_error_button_secondary`
+- `onfido_nfc_scan_error_list_item`
+- `onfido_nfc_scan_error_list_item_2`
+
+#### Removed
+- `onfido_nfc_fail_title`
+- `onfido_nfc_fail_button_primary`
+- `onfido_nfc_fail_button_secondary`
+- `onfido_nfc_fail_list_item_remove_cover`
+- `onfido_nfc_fail_list_item_keep_contact`
+- `onfido_nfc_intro_subtitle_card`
+- `onfido_nfc_intro_subtitle_passport`
+- `onfido_nfc_intro_button_primary_card`
+- `onfido_nfc_intro_button_primary_passport`
+
+#### Changed
+- `onfido_nfc_intro_passport_scan_guide_1`
+- `onfido_nfc_intro_passport_scan_guide_2`
+- `onfido_nfc_intro_passport_scan_guide_3`
+- `onfido_nfc_intro_passport_scan_guide_4`
+
+## `15.0.0` -> `15.1.0`
+
+### String Changes
+
+#### Renamed
+
+- `onfido_country_select_error_no_country_body_poa` -> `onfido_country_select_error_no_country_body`
+- `onfido_nfc_sheet_scanning_button_secondary` -> `onfido_nfc_sheet_button_secondary`
+- `onfido_nfc_intro_sheet_header_scanning` -> `onfido_nfc_intro_sheet_scanning_subtitle`
+- `onfido_nfc_sheet_success_instruction` -> `onfido_nfc_sheet_success_instruction_passport`
+- `onfido_doc_select_button_work_permit` -> `onfido_doc_select_button_permit_work`
+- `onfido_doc_select_section_input_placeholder_country_copy` -> `onfido_doc_select_section_input_placeholder_country`
+- `onfido_liveness_intro_loading_video` -> `onfido_video_intro_loader`
+- `onfido_doc_select_section_input_placeholder_country` -> `onfido_doc_select_section_input_country_not_found`
+- `onfido_doc_select_button_bill_detail_all` -> `onfido_doc_select_button_bill_detail`
+- `onfido_liveness_fetch_challenge_error_description` -> `onfido_video_capture_prompt_network_timeout_detail`
+- `onfido_liveness_intro_loading_video` -> `onfido_video_intro_loader`
+
+## `14.0.0` -> `15.0.0`
+
+### Breaking changes
+- In order to use Studio/Workflow, now it is required to include it as a separate dependency as below: 
+  `implementation "com.onfido.sdk:onfido-workflow:$onfidoSdkVersion"`
+
+## `13.2.0` -> `14.0.0`
+
+### Breaking changes
+- Removed all references to wording around beta for the NFC feature. NFC is no longer beta and generally available.
+
+
+## `12.3.1` -> `13.0.0`
+
+### String Changes
+
+#### Added
+
+- `onfido_avc_face_alignment_feedback_move_left_accessibility`
+- `onfido_avc_face_alignment_feedback_move_right_accessibility`
+- `onfido_avc_face_alignment_feedback_move_up_accessibility`
+- `onfido_avc_face_alignment_feedback_move_down_accessibility`
+
+#### Removed
+
+- `onfido_permission_recovery_button_secondary_cam`
+- `onfido_permission_recovery_button_secondary_mic`
+- `onfido_permission_recovery_button_secondary_both`
+- `onfido_welcome_list_item_doc`
+- `onfido_permission_recovery_subtitle_video`
+- `onfido_permission_recovery_extra_instructions_cam`
+- `onfido_permission_recovery_extra_instructions_mic`
+- `onfido_permission_recovery_extra_instructions_both`
+- `onfido_permission_recovery_body_mic`
+- `onfido_permission_recovery_body_cam`
+- `onfido_permission_recovery_body_both`
+- `onfido_app_title_user_consent`
+- `onfido_country_select_error_no_country_body`
+- `onfido_welcome_list_item_video`
+- `onfido_doc_confirmation_body_visa`
+- `onfido_welcome_list_item_selfie`
+- `onfido_welcome_list_header_photo`
+- `onfido_welcome_list_header_record`
+- `onfido_welcome_list_header_doc_video`
+- `onfido_app_title_doc_video_confirmation`
+- `onfido_doc_capture_header_license_front_auto`
+- `onfido_doc_capture_header_visa_back`
+- `onfido_doc_capture_header_passport_auto`
+- `onfido_doc_capture_header_license_back_auto`
+- `onfido_doc_capture_frame_accessibility_pp_cover_manual`
+- `onfido_doc_capture_frame_accessibility_pp_manual`
+- `onfido_welcome_list_item_face_generic`
+- `onfido_doc_capture_alert_no_face_title`
+- `onfido_doc_capture_alert_no_face_detail`
+- `onfido_doc_capture_header_live_guidance_distance_ok`
+- `onfido_doc_capture_header_live_guidance_distance_ok_accessibility`
+- `onfido_nfc_intro_sheet_scanning_subtitle`
+- `onfido_avc_connection_error_button_primary_reload`
+- `onfido_doc_select_button_bill_detail`
+- `onfido_poa_country_not_found`
+- `onfido_doc_select_extra_no_mobile`
+- `onfido_label_doc_type_driving_license_short`
+- `onfido_label_doc_type_residence_permit_short`
+- `onfido_face_tracking_timeout_button_retry`
+- `onfido_allow`
+- `onfido_permission_subtitle_video`
+- `onfido_permission_body_video`
+- `onfido_accessibility_liveness_confirmation_view`
+- `onfido_nfc_sheet_ready_button_secondary`
+- `onfido_nfc_intro_sheet_header_scan_retry`
+- `onfido_nfc_sheet_scanning_instruction_retry`
+- `onfido_nfc_intro_sheet_header_fail_passport`
+- `onfido_nfc_intro_sheet_header_fail_card`
+- `onfido_nfc_intro_sheet_header_ready_card`
+- `onfido_nfc_intro_sheet_header_ready_passport`
+- `onfido_poa_document_submission_empty`
+- `onfido_flow_user_exit_message_user_cancelled`
+
+## `12.2.3` -> `12.3.0`
+
+### Added Strings
+
+- `onfido_avc_intro_title_accessibility`
+- `onfido_avc_intro_video_accessibility`
+- `onfido_avc_face_capture_frame_accessibility`
+- `onfido_avc_confirmation_left_side_complete_accessibility`
+- `onfido_avc_confirmation_right_side_complete_accessibility`
+- `onfido_avc_face_capture_title_accessibility`
+- `onfido_avc_face_capture_recording_started_accessibility`
+- `onfido_avc_face_alignment_feedback_face_aligned_accessibility`
+- `onfido_avc_face_alignment_feedback_move_closer_accessibility`
+- `onfido_avc_face_alignment_feedback_move_back_accessibility`
+- `onfido_avc_face_alignment_title_accessibility`
+- `onfido_avc_face_alignment_feedback_no_face_detected_accessibility`
+
 ## `11.5.0` -> `12.0.0`
 
 ### Breaking changes
-- Removed user consent from the public API, it's now configured through the backend.
+- Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://developers.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
 
 ### Changed strings:
 - `onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility`
