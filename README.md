@@ -296,8 +296,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 Sample of a `captures` instance returned by a flow with `FlowStep.CAPTURE_DOCUMENT`, `FlowStep.CAPTURE_FACE` and  `FlowStep.PROOF_OF_ADDRESS`:
 ```
 Document:
-        Front: DocumentSide(id=document_id, side=FRONT, type=DRIVING_LICENCE)
-        Back: DocumentSide(id=document_id, side=BACK, type=DRIVING_LICENCE)
+        Front: DocumentSide(id=document_id, side=FRONT, type=DRIVING_LICENCE, nfcSupported=false)
+        Back: DocumentSide(id=document_id, side=BACK, type=DRIVING_LICENCE, nfcSupported=false)
         Type: DRIVING_LICENCE
             
 Face:

@@ -1,5 +1,10 @@
 # Onfido Android SDK Migration Guide
 
+## `16.3.0` -> `16.3.1`
+
+#### Added
+- default value to `DocumentSide#nfcSupported` to to support backward compatibility.
+
 ## `15.4.0` -> `16.0.0`
 
 ### Breaking changes
