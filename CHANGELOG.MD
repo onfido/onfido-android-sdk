@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [16.3.1] - 2023-04-17
+
+### Changed
+
+- Added default value to `DocumentSide#nfcSupported` to support backward compatibility.
+
 ## [16.3.0] - 2023-04-13
 
 ### Changed

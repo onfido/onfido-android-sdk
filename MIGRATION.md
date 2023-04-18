@@ -3,7 +3,7 @@
 ## `16.3.0` -> `16.3.1`
 
 #### Added
-- default value to `DocumentSide#nfcSupported` to to support backward compatibility.
+- Added default value to `DocumentSide#nfcSupported` to support backward compatibility.
 
 ## `15.4.0` -> `16.0.0`
 
