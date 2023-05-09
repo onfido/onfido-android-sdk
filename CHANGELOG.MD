@@ -13,7 +13,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Added
 
-- After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK.
+- After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK. Having Onfido SDK run in its own process adds extra reliability to customer applications as it avoids crashes on the customer app. It also brings better error logging support.
 - Add explicit support for the Nynorsk language
 
 ### Changed
