@@ -21,7 +21,7 @@ Our configuration is currently set to the following:
 - `minSdkVersion = 21`
 - `targetSdkVersion = 31`
 - `android.useAndroidX=true`
-- `Kotlin = 1.3+`
+- `Kotlin = 1.7.10+`
 
 ```gradle
 compileOptions {

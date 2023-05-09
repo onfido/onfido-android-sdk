@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [17.0.0] - 2023-05-09
+
+### Added
+
+- After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK.
+- Add explicit support for the Nynorsk language
+
+### Changed
+
+- Initial release for the 4:3 aspect ratio
+- Increase upload timeout to avoid Network Error message in slow connections
+- Provided the application context via `TokenExpirationHandler`, `MediaCallback` and `OnfidoAnalyticsEventListener` callbacks
+
 ## [16.3.2] - 2023-04-28
 
 ### Fixed

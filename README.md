@@ -47,7 +47,7 @@ Our configuration is currently set to the following:
 - `minSdkVersion = 21`
 - `targetSdkVersion = 31`
 - `android.useAndroidX=true`
-- `Kotlin = 1.3+`
+- `Kotlin = 1.7.10+`
 ```
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_8
@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.11 Mb  |
-| arm64-v8a   | 9.00 Mb  |
+| armeabi-v7a | 8.23 Mb  |
+| arm64-v8a   | 9.12 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.58 Mb  |
+| universal   | 5.70 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -213,7 +213,7 @@ For example:
 
 class ExpirationHandler : TokenExpirationHandler {
 
-        override fun refreshToken(injectNewToken: (String?) -> Unit) {
+        override fun refreshToken(applicationContext: Context, injectNewToken: (String?) -> Unit) {
             TODO("<Your network request logic to retrieve SDK token goes here>")
             injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the sdk will exit with token expired error
         }
@@ -230,7 +230,7 @@ val config = OnfidoConfig.builder(context)
 class ExpirationHandler implements TokenExpirationHandler {
 
     @Override
-    public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
+    public void refreshToken(@NotNull Context applicationContext, @NotNull Function1<? super String, Unit> injectNewToken) {
         //Your network request logic to retrieve SDK token goes here
         injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the sdk will exit with token expired error
     }
@@ -480,96 +480,6 @@ val drivingLicenceCaptureStep = DocumentCaptureStepBuilder.forDrivingLicence()
 
 ⚠️ Not all document - country combinations are supported. Unsupported documents will not be verified. If you decide to bypass the default country selection screen by replacing the `FlowStep.CAPTURE_DOCUMENT` with a `CaptureScreenStep`, please make sure that you are specifying a supported document.
 We provide an up-to-date list of our [supported documents](https://onfido.com/supported-documents/).
-
-##### Adding Custom documents
-
-You can also capture custom documents that Onfido does not fully support in the SDK by using the Generic document type.
-
-This can be useful for running the Document Report on documents that are supported in the Onfido platform, but are not yet present in the SDK, or for changing the default name of the document type presented to the user or the default number of sides/pages the user will be asked to capture.
-
-*Use the standard document types where available for an improved capture experience.*
-
-A custom document consists of the following information:
-
-- Title (required): Displayed in the document selection screen
-- Subtitle (optional): Displayed in the document selection screen below the title
-- Country (required): To support multiple countries, create a custom document for each country
-- Pages (required): Tells the SDK The number of document pages to be captured. Currently supporting one or two sides/pages
-
-It is recommended to provide pre-translated title and subtitle strings when you initialize the SDK, as these custom strings are not translated internally.
-
-![The Selection Screen with Generic Documents](generic_docs.png "")
-
-There are several options when adding custom documents:
-
-1. Add the custom documents per country on top of the documents we support. If you require documents for multiple countries, you will have to add each document for each country.
-
-For example:
-
-##### Java
-
-```java
-List<GenericDocument> genericDocuments = new ArrayList<>();
-genericDocuments.add(new GenericDocument(CountryCode.PH, "Voter ID", "Front", DocumentPages.SINGLE));
-genericDocuments.add(new GenericDocument(CountryCode.PH, "Tax ID", "Front and back", DocumentPages.FRONT_AND_BACK));
-genericDocuments.add(new GenericDocument(CountryCode.PH, "Worker ID", null, DocumentPages.SINGLE));
-onfidoConfigBuilder.withGenericDocuments(genericDocuments);
-```
-
-##### Kotlin
-
-```kotlin
-val genericDocuments = listOf(
-    GenericDocument(CountryCode.PH, "Voter ID", "Front", DocumentPages.SINGLE),
-    GenericDocument(CountryCode.PH, "Tax ID", "Front and back", DocumentPages.FRONT_AND_BACK),
-    GenericDocument(CountryCode.PH, "Worker ID", DocumentPages.SINGLE)
-)
-onfidoConfigBuilder.withGenericDocuments(genericDocuments)
-```
-
-2. Preselect documents to show in the document selection screen and include custom documents for a specific country (custom documents will only be shown if the country configured is the same as the country selected).
-
-For example, to show a Tax ID document, along the Passport and Driving Licence Document types:
-
-##### Java
-
-```java
-List<DocumentType> documentTypes = new ArrayList<>();
-documentTypes.add(DocumentType.PASSPORT);
-documentTypes.add(DocumentType.DRIVING_LICENCE);
-
-List<GenericDocument> genericDocuments = new ArrayList<>();
-genericDocuments.add(new GenericDocument(CountryCode.PH, "Tax ID", "Front", DocumentPages.SINGLE));
-
-onfidoConfigBuilder
-        .withAllowedDocumentTypes(documentTypes)
-        .withGenericDocuments(genericDocuments);
-```
-
-##### Kotlin
-
-```kotlin
-val documentTypes = listOf(
-    DocumentType.PASSPORT,
-    DocumentType.DRIVING_LICENCE
-)
-
-val genericDocuments = listOf(
-    GenericDocument(CountryCode.PH, "Tax ID", "Front", DocumentPages.SINGLE)
-)
-
-onfidoConfigBuilder
-    .withAllowedDocumentTypes(documentTypes)
-    .withGenericDocuments(genericDocuments)
-```
-
-You can configure one or more custom documents. When a single custom document is the only document type specified, the document selection screen will be skipped automatically. Otherwise, when multiple document types are specified, regardless of if they are standard or custom document types, they will be offered for selection in the document selection screen. When using a mix of types, custom documents will appear below any standard document types in the document selection screen.
-
-Note:
-- Adding an empty title for a generic document will throw an `IllegalArgumentException`.
-- Adding duplicated documents is not forbidden, but any duplicated will be filtered out when the list of documents is later processed.
-- Custom Documents are not currently compatible with the Dashboard-based configuration method or with Studio.
-- When using a Custom Document to force the single-sided capture of a document that Onfido would usually capture two sides for, the Document Report may return a Caution for [Image Integrity > Conclusive Document Quality > missing_back](https://documentation.onfido.com/#conclusive-document-quality-reasons) as the back of certain documents contain expected data points or fraud features. You may wish to customize your result processing logic to accommodate this.
 
 #### Face capture step
 

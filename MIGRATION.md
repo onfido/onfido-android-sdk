@@ -1,5 +1,10 @@
 # Onfido Android SDK Migration Guide
 
+## `16.3.2` -> `17.0.0`
+
+#### Breaking changes
+-  After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK.
+
 ## `16.3.0` -> `16.3.1`
 
 #### Added
