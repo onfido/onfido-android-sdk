@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.23 Mb  |
-| arm64-v8a   | 9.12 Mb  |
+| armeabi-v7a | 6.25 Mb |
+| arm64-v8a   | 7.14 Mb |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.70 Mb  |
+| universal   | 3.72 Mb |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -681,42 +681,41 @@ The SDK supports and maintains the following 44 languages:
 - Arabic: ar
 - Armenian: hy
 - Bulgarian: bg
-- Chinese (Simplified): zh_rCN
-- Chinese (Traditional): zh_rTW
+- Chinese (Simplified): zh_Hans
+- Chinese (Traditional): zh_Hant
 - Croatian: hr
 - Czech: cs
 - Danish: da🇰
 - Dutch: nl🇱
-- English (United Kingdom): en_rGB
-- English (United States): en_rUS
+- English (United Kingdom): en_GB
+- English (United States): en_US
 - Estonian: et
 - Finnish: fi
-- French (Canadian): fr_rCA
+- French (Canadian): fr_CA
 - French: fr
 - German: de
 - Greek: el
-- Hebrew: iw
+- Hebrew: he
 - Hindi: hi
 - Hungarian: hu
-- Indonesian: in
+- Indonesian: id
 - Italian: it
 - Japanese: ja
 - Korean: ko
 - Latvian: lv
 - Lithuanian: lt
 - Malay: ms
-- Norwegian bokmål: nb
-- Norwegian nynorsk: nn
+- Norwegian: nb
 - Persian: fa
 - Polish: pl
-- Portuguese (Brazil): pt_rBR
+- Portuguese (Brazil): pt_BR
 - Portuguese: pt
 - Romanian: ro
 - Russian: ru
-- Serbian: sr
+- Serbian: sr_Latn
 - Slovak: sk
 - Slovenian: sl
-- Spanish (Latin America): es_rUS
+- Spanish (Latin America): es_419
 - Spanish: es
 - Swedish: sv
 - Thai: th
@@ -820,12 +819,11 @@ For live videos the callback returns a `LivenessResult` object:
 }
 ```
 
-The `MediaFile` object contains the raw data, and file type and the file name of the captured photo or video.
+The `MediaFile` object contains the raw data and MIME type of the captured photo or video.
 ```json5
 {
   fileData: ByteArray,
-  fileType: String,
-  fileName: String
+  fileType: String
 }
 ```
 ##### Create a check with Onfido
