@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Italienskt identitetskort</string>
+    <string name="onfido_app_title_doc_capture_id_za">Sydafrikanskt identitetskort</string>
+    <string name="onfido_app_title_doc_capture_license_de">Tyskt körkort</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Franskt körkort</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Pappersdokument</string>
+    <string name="onfido_doc_capture_prompt_button_card">Plastkort</string>
+    <string name="onfido_doc_capture_prompt_title_license">Vilken typ av körkort har du?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Vilken typ av identitetskort har du?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Lägg dokumentet platt och inkludera alla inre sidor (ditt foto måste finnas med)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Lägg dokumentet platt och se till att alla yttre sidor är med</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Se till att ditt dokument är helt utvikt och att fotot syns tydligt</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Tack</string>
+    <string name="onfido_outro_body">Det är allt vi behöver för att börja verifiera din identitet</string>
+    <string name="onfido_continue">Fortsätt</string>
+    <string name="onfido_video_intro_button_primary">Spela in video</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Laddar</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Pass</string>
+    <string name="onfido_doc_select_button_visa">Visum</string>
+    <string name="onfido_doc_select_button_license">Körkort</string>
+	<string name="onfido_doc_select_button_id">Nationellt identitetskort</string>
+    <string name="onfido_doc_select_button_permit">Uppehållstillstånd</string>
+	<string name="onfido_doc_select_button_permit_work">Arbetstillstånd</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Verifiera din identitet</string>
+    <string name="onfido_app_title_doc_select">Verifiera din identitet</string>
+    <string name="onfido_welcome_title">Verifiera din identitet</string>
+    <string name="onfido_welcome_subtitle">Detta kan ta några minuter</string>
+	<string name="onfido_selfie_capture_button_accessibility">Slutare</string>
+    <string name="onfido_selfie_intro_title">Ta en selfie</string>
+    <string name="onfido_app_title_country_select">Välj utfärdande land</string>
+	<string name="onfido_country_select_bottom_sheet_title">Hittar du inte ditt land?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Det verkar som att landet för det dokument du har valt inte stöds. Välj ett annat land.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Stäng</string>
+    <string name="onfido_selfie_intro_subtitle">Vi kommer att jämföra denna med ditt dokument</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Håll ansiktet inom ovalen</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Försök igen</string>
+    <string name="onfido_generic_error_camera_unavailable">Det finns ingen kamera tillgänglig i den här enheten</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Kameran är inte tillgänglig. Det kan finnas ett annat program som använder den samtidigt.</string>
+    <string name="onfido_selfie_confirmation_body">Se till att hela ditt ansikte är synligt</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Inget dokument hittades</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Inget ansikte upptäcktes</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Flera ansikten hittades</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Endast ditt ansikte får synas i selfien</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Tjänsten går inte att nå</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Tyvärr verkar det som att vi inte kan gå vidare eftersom din nuvarande plats inte stöds</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Se till att ditt ansikte är synligt</string>
+	<string name="onfido_generic_error_face_capture">Ansiktsfotot misslyckades. Försök igen.</string>
+	<string name="onfido_generic_error_doc_capture">Dokumentfotot misslyckades. Försök igen.</string>
+	<string name="onfido_generic_error_video_capture">Videoinspelningen misslyckades. Försök igen.</string>
+    <string name="onfido_doc_confirmation_body_generic">Se till att dina uppgifter syns tydligt och inte skyms</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Ljusreflex upptäckt</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Flytta bort från direkt ljus</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Skicka in verifiering</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Fel</string>
+    <string name="onfido_generic_error_network_title">Anslutningen försvann</string>
+    <string name="onfido_generic_error_network_detail">Det uppstod ett nätverksfel. Kontrollera din anslutning.</string>
+    <string name="onfido_generic_error_detail">Något gick fel. Försök igen senare.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">För säkerhets skull behöver vi ett direkttaget foto</string>
+    <string name="onfido_video_intro_list_item_move_speak">Följ instruktionerna för att röra dig eller tala</string>
+    <string name="onfido_video_intro_loader">Laddar exempel</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Säg varje siffra högt</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Det verkar ha tagit för lång tid</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Kom ihåg att trycka på knappen när du är klar.</string>
+    <string name="onfido_video_confirmation_button_secondary">Gör om video</string>
+	<string name="onfido_video_confirmation_button_primary">Skicka in video</string>
+	<string name="onfido_video_confirmation_error_no_video">Din video kan inte hittas på din enhet. Vänligen gör om den.</string>
+    <string name="onfido_video_capture_error_storage_title">Din enhet är full</string>
+    <string name="onfido_video_capture_error_storage_detail">Frigör lagringsutrymme och spela in din video igen</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Slå på ljudet</string>
+    <string name="onfido_video_capture_button_primary_start">Starta inspelning</string>
+    <string name="onfido_video_capture_button_primary_finish">Avsluta inspelning</string>
+    <string name="onfido_video_capture_button_primary_fallback">Nästa steg</string>
+	<string name="onfido_video_confirmation_error_media_player">Det uppstod ett fel med din video. Gör om den.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Ladda om</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Ladda om exempelvideo</string>
+    <string name="onfido_video_intro_error_network">Kunde inte ladda på grund av instabilt nätverk</string>
+    <string name="onfido_video_intro_error_network_accessibility">Det gick inte att ladda exempelvideon på grund av instabilt nätverk</string>
+	<string name="onfido_video_intro_error_load_offline">Det går inte att ladda eftersom du är offline</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Föreslaget land</string>
+    <string name="onfido_country_select_list_header_all">Alla länder</string>
+    <string name="onfido_app_title_country_select_search">Sök</string>
+    <string name="onfido_country_select_error_no_country_title">Landet hittades inte</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Prova att ta ett foto manuellt</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Suddigt foto upptäckt</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Ingen streckkod upptäcktes</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Var på en väl upplyst plats och för kortet närmare kameran</string>
+    <string name="onfido_permission_recovery_button_primary">Aktivera i inställningar</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Tillåt kameraåtkomst</string>
+    <string name="onfido_permission_subtitle_cam">När du ombeds måste du aktivera kameraåtkomst för att fortsätta</string>
+	<string name="onfido_permission_body_cam">Vi kan inte verifiera dig utan din kamera</string>
+    <string name="onfido_permission_button_primary_cam">Aktivera kamera</string>
+    <string name="onfido_permission_recovery_subtitle_cam">Vi kan inte verifiera dig utan din kamera</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Gå till appinställningarna och aktivera kameraåtkomst för den här appen</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Du kan återställa kameraåtkomst via dina enhetsinställningar</string>
+
+    <string name="onfido_permission_recovery_title_cam">Kameraåtkomst nekad</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Tillåt mikrofonåtkomst</string>
+    <string name="onfido_permission_subtitle_mic">När du ombeds måste du aktivera mikrofonåtkomst för att fortsätta</string>
+    <string name="onfido_permission_button_primary_mic">Aktivera mikrofon</string>
+    <string name="onfido_permission_recovery_title_mic">Mikrofonåtkomst nekad</string>
+    <string name="onfido_permission_body_mic">Vi kan inte verifiera dig utan att använda din mikrofon</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Du kan återställa mikrofonåtkomst via dina enhetsinställningar</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Gå till appinställningarna och aktivera mikrofonåtkomst för den här appen</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Vi kan inte verifiera dig utan din mikrofon</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Tillåt kamera- och mikrofonåtkomst</string>
+    <string name="onfido_permission_subtitle_both">När du uppmanas måste du aktivera åtkomst för att båda ska fortsätta</string>
+    <string name="onfido_permission_recovery_title_both">Kamera- och mikrofonåtkomst nekad</string>
+    <string name="onfido_video_capture_alert_wrong_side">Fel sida</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Ladda om instruktioner</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Timeout för anslutning</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Kontrollera att din anslutning är stabil och försök sedan igen</string>
+	<string name="onfido_generic_back">tillbaka</string>
+    <string name="onfido_permission_body_both">Vi kan inte verifiera dig utan att använda både din kamera och mikrofon</string>
+    <string name="onfido_permission_button_primary_both">Aktivera båda</string>
+	<string name="onfido_permission_recovery_subtitle_both">Vi kan inte verifiera dig utan din kamera och mikrofon</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Du kan återställa kamera- och mikrofonåtkomst via dina enhetsinställningar</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Gå till appinställningarna och aktivera både kamera- och mikrofonåtkomst för den här appen</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Exempelvideo där någon spelar in en selfievideo. För att spela in en selfievideo vänder du dig mot frontkameran och håller telefonen en bit bort från ansiktet. Du måste sedan läsa upp några siffror och vrida huvudet enligt instruktionerna på skärmen.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Vy från kameran</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Foto av ditt ansikte</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Foto av ditt dokument</string>
+    <string name="onfido_video_confirmation_body">Din video har spelats in</string>
+	<string name="onfido_video_confirmation_video_accessibility">Förhandsgranska din inspelade video</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Du bör höra dig själv säga: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Du bör se dig själv vrida huvudet mot %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Sedan</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Vänster</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Höger</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Spela upp eller pausa</string>
+	<string name="onfido_doc_capture_button_accessibility">Ta ett foto</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Pausa video</string>
+    <string name="onfido_video_intro_button_play_accessibility">Spela upp video</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">De två nedre linjerna är inte synliga</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Se till att hela dokumentet visas</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Acceptera</string>
+    <string name="onfido_user_consent_button_secondary">Acceptera inte</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Är du säker?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Om du inte accepterar Onfidos sekretesspolicy och användarvillkor kommer vi inte att kunna verifiera din identitet och du kommer att lämna detta steg.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Ja, verifiera inte mig</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Granska igen</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Vi slår på din enhets blixt under videoinspelningen</string>
+	<string name="onfido_doc_video_capture_header">Håll i dokumentet och se till att framsidan är inuti ramen</string>
+    <string name="onfido_doc_video_capture_header_step1">Håll nu stilla</string>
+    <string name="onfido_doc_video_capture_detail_step2">Håll hela dokumentet synligt hela tiden</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Nästa steg</string>
+    <string name="onfido_doc_video_capture_header_passport">Håll i ditt pass och se till att fotosidan är inuti ramen</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Vänd långsamt på dokumentet för att visa de yttre sidorna</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Videoinspelningen är begränsad till %1$s sekunder</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Lyckades</string>
+	<string name="onfido_doc_video_capture_stepper">Steg %1$d av %2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">Vänd långsamt på dokumentet för att visa baksidan</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Förhandsgranska video</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Avsluta inspelning</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Håll stilla</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">Inspelningen är begränsad till %1$s sekunder</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Ta om fotot</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Ta om fotot</string>
+
+    <string name="onfido_generic_uploading">Laddar upp</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Se till att hela dokumentet är synligt</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Manipulerad bild upptäckt</string>
+    <string name="onfido_doc_upload_progress_label">Kontrollerar bildkvaliteten</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">vänd sedan kameran framåt</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Redo att skanna</string>
+    <string name="onfido_nfc_sheet_button_secondary">Avbryt</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skannar...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Håll telefonen stilla</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Skanningen lyckades</string>
+    <string name="onfido_nfc_permission_title">Slå på NFC</string>
+	<string name="onfido_nfc_permission_subtitle">Vi kan inte skanna ditt pass utan NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Slå på NFC från dina enhetsinställningar</string>
+    <string name="onfido_nfc_permission_button_primary">Öppna inställningar</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Skicka in foto</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Ditt ansikte och din bakgrund kommer att spelas in under denna process</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Titta framåt och se till att dina ögon syns tydligt</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Se till att allt är tydligt</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Se till att alla dokument finns med på fotot</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Ta om fotot</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Ta om fotot</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Ta om fotot</string>
+	<string name="onfido_selfie_intro_button_primary">Ta en selfie</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Du har %1$d sekunder på dig att slutföra detta</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Skicka in foto</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Skicka in foto</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Ta av dina glasögon vid behov</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Ta bort allt som täcker ditt ansikte. Glasögon är okej</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Rikta dokumentet och tryck sedan på knappen</string>
+    <string name="onfido_doc_select_subtitle">Det måste vara ett officiellt foto-ID</string>
+    <string name="onfido_selfie_confirmation_button_primary">Ladda upp foto</string>
+    <string name="onfido_doc_select_title">Välj ditt dokument</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Ta om fotot</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Ta om fotot</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Ta om fotot</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Ta om fotot</string>
+    <string name="onfido_video_intro_title">Spela in en video</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Välj ett annat dokument</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Vrid huvudet åt vänster</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Vrid huvudet åt höger</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Håll ansiktet inom ovalen för att börja spela in</string>
+
+    <string name="onfido_app_title_doc_confirmation">Verifiera din identitet</string>
+    <string name="onfido_app_title_selfie_confirmation">Verifiera din identitet</string>
+    <string name="onfido_app_title_permission">Verifiera din identitet</string>
+    <string name="onfido_app_title_selfie_intro">Verifiera din identitet</string>
+    <string name="onfido_app_title_video_intro">Verifiera din identitet</string>
+    <string name="onfido_app_title_video_confirmation">Verifiera din identitet</string>
+    <string name="onfido_welcome_button_primary_doc">Välj dokument</string>
+    <string name="onfido_welcome_button_primary">Starta</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Ansikte upptäckt. Inspelningen har börjat.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Huvudvridning upptäckt</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Foto taget</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Vy från selfiekamera. Håll ansiktet inom ovalen och tryck sedan på slutarknappen</string>
+    <string name="onfido_video_capture_frame_accessibility">Vy från selfiekamera. Håll ansiktet inom ovalen för att börja spela in.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Placera dokumentets yttre sidor i ramen</string>
+    <string name="onfido_doc_capture_header_license_front">Placera dokumentets framsida i ramen</string>
+    <string name="onfido_doc_capture_header_license_back">Placera dokumentets baksida i ramen</string>
+    <string name="onfido_doc_capture_header_permit_front">Placera dokumentets framsida i ramen</string>
+    <string name="onfido_doc_capture_header_permit_back">Placera dokumentets baksida i ramen</string>
+    <string name="onfido_doc_capture_header_id_front">Placera dokumentets framsida i ramen</string>
+    <string name="onfido_doc_capture_header_id_back">Placera dokumentets baksida i ramen</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Placera dokumentets framsida i ramen</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Placera dokumentets baksida i ramen</string>
+    <string name="onfido_doc_capture_header_visa_front">Placera dokumentets visumsida i ramen</string>
+    <string name="onfido_doc_capture_header_generic_front">Placera dokumentets framsida i ramen</string>
+    <string name="onfido_doc_capture_header_generic_back">Placera dokumentets baksida i ramen</string>
+    <string name="onfido_doc_capture_header_passport">Placera dokumentets fotosida i ramen</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Vy från kameran. Placera dokumentets fotosida i ramen. Din enhet vibrerar när fotot tas</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Vy från kameran. Placera dokumentets framsida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Vy från kameran. Placera dokumentets baksida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Vy från kameran. Placera dokumentets framsida i ramen. Din enhet vibrerar när fotot tas</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Vy från kameran. Placera dokumentets baksida i ramen</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Vy från kameran. Placera dokumentets framsida i ramen och tryck sedan på slutarknappen</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Vy från kameran. Placera dokumentets baksida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Vy från kameran. Placera dokumentets framsida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Vy från kameran. Placera dokumentets baksida i ramen och tryck sedan på slutarknappen</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Vy från kameran. Placera dokumentets fotosida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Vy från kameran. Placera dokumentets yttre sidor i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Vy från kameran. Placera dokumentets fotosida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Vy från kameran. Placera dokumentets yttre sidor i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Vy från kameran. Placera dokumentets fotosida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Vy från kameran. Placera dokumentets yttre sidor i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Vy från kameran. Placera dokumentets fotosida i ramen och tryck sedan på slutarknappen</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Vy från kameran. Placera dokumentets yttre sidor i ramen och tryck sedan på slutarknappen</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Placera dokumentets fotosida i ramen</string>
+    <string name="onfido_video_capture_prompt_header_restart">Starta om inspelningen</string>
+    <string name="onfido_video_capture_prompt_detail_restart">För att genomföra detta steg måste du hålla ansiktet synligt under hela inspelningen.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Starta om</string>
+
+    <string name="onfido_welcome_list_header">Använd din enhet för att:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Ta ett foto av ditt identitetsdokument</string>
+    <string name="onfido_welcome_list_item_doc_video">Spela in en video av ditt identitetsdokument</string>
+    <string name="onfido_welcome_list_item_doc_generic">Skanna ditt identitetsdokument</string>
+    <string name="onfido_welcome_list_item_face_photo">Ta ett foto av ditt ansikte</string>
+    <string name="onfido_welcome_list_item_face_video">Spela in en video av ditt ansikte</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">De tre nedre linjerna är inte synliga</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Försök igen med skanning</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Bli verifierad utan NFC</string>
+    <string name="onfido_nfc_scan_error_title">Vi kunde inte skanna ditt dokument</string>
+    <string name="onfido_nfc_scan_error_list_item">Ta bort telefonskalet</string>
+    <string name="onfido_nfc_scan_error_list_item_2">När skanningen börjar ska du hålla stilla</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Flytta inte din telefon eller ditt pass när du skannar</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Du kan också prova insidan av baksidan</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Placera telefonen ovanpå ditt pass</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Skjut långsamt telefonen nedåt och uppåt</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Lägg ditt pass på en plan yta</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">När skanningen börjar ska du hålla telefonen stilla</string>
+    <string name="onfido_nfc_intro_title_card">Skanna ditt NFC-kort</string>
+    <string name="onfido_nfc_intro_title_passport">Skanna ditt ePass</string>
+    <string name="onfido_nfc_intro_subtitle">Följ instruktionerna nedan</string>
+    <string name="onfido_nfc_intro_button_primary">Starta skanning</string>
+    <string name="onfido_nfc_intro_list_item">Placera ditt kort på baksidan av enheten</string>
+    <string name="onfido_nfc_intro_list_item_2">Skjut långsamt mobilen upp och ner</string>
+    <string name="onfido_nfc_intro_list_item_3">När skanningen börjar ska du hålla stilla</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Vi har skannat ditt pass</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Vi har skannat ditt kort</string>
+
+    <string name="onfido_nfc_select_title_passport">Snabba upp processen med NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Vi skannar NFC-chipet i ditt pass</string>
+    <string name="onfido_nfc_select_body_passport">ePass har denna symbol på omslaget</string>
+    <string name="onfido_nfc_select_button_primary_passport">Använd ePass</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Detta är inte ett ePass</string>
+
+    <string name="onfido_nfc_select_title_card">Snabba upp processen med NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Vi skannar NFC-chipet i ditt kort</string>
+    <string name="onfido_nfc_select_body_card">Kort med NFC-chip har denna symbol</string>
+    <string name="onfido_nfc_select_button_primary_card">Använd NFC-kort</string>
+    <string name="onfido_nfc_select_button_secondary_card">Det är inte ett NFC-kort</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Placera telefonen nära toppen av ditt pass</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Placera din telefon på kortet</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Håll telefonen stilla</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Förlorade kontakten med kortet</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Förlorade kontakten med passet</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Flytta telefonen något uppåt eller nedåt</string>
+
+    <string name="onfido_enter_can_title">Ange CAN</string>
+    <string name="onfido_enter_can_subtitle">Se till att det angivna numret matchar numret i dokumentet.</string>
+    <string name="onfido_enter_can_button_primary">Fortsätt</string>
+    <string name="onfido_enter_can_disclaimer">Du hittar det på dokumentets framsida. Det är %d-siffrigt och något större i storlek.</string>
+    <string name="onfido_enter_can_error_label">Du har %d %s kvar.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">försök</string>
+    <string name="onfido_enter_can_substring_attempt_plural">försök</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Vy från kameran. Placera telefonen på dokumentets framsida och flytta långsamt bort telefonen från det i en rak linje.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Håll telefonen över dokumentet</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Inget dokument hittades. Håll telefonen över dokumentet.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Dokumentet är för nära</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Dokumentet är för nära kameran</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Dokument är för långt borta</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Dokumentet är för långt borta från kameran</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Flytta åt vänster</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Flytta enheten åt vänster</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Flytta åt höger</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Flytta enheten åt höger</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Flytta uppåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Flytta enheten uppåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Flytta uppåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Flytta enheten en aning uppåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Flytta nedåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Flytta enheten nedåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Flytta nedåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Flytta enheten en aning nedåt</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Håll stilla för att ta foto</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Håll stilla för att ta ett foto</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Håll telefonen över dokumentets framsida</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Håll telefonen över dokumentets baksida</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Vy från kameran. Placera telefonen på dokumentets baksida och flytta långsamt bort telefonen från det i en rak linje.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Håll telefonen över fotosidan i ditt pass</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Vy från kameran. Placera telefonen på passets fotosida och flytta långsamt bort telefonen från det i en rak linje.</string>
+	<string name="onfido_doc_capture_header_capturing">Håll stilla</string>
+
+	<string name="onfido_avc_intro_title">Spela in en video</string>
+	<string name="onfido_avc_intro_subtitle">Syftet med detta är att verifiera att du är en riktig person</string>
+	<string name="onfido_avc_intro_list_item_one">Placera först ansiktet i ramen</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Först måste du placera ditt ansikte framför din enhet</string>
+	<string name="onfido_avc_intro_list_item_two">Vrid sedan långsamt huvudet åt båda sidorna</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Sedan måste du vrida huvudet långsamt åt båda sidorna</string>
+	<string name="onfido_avc_intro_disclaimer">Tänk på att vi spelar in ditt ansikte och din bakgrund</string>
+	<string name="onfido_avc_intro_button_primary_ready">Starta inspelning</string>
+	<string name="onfido_avc_face_alignment_title">Placera ditt ansikte i ramen</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Flytta närmare</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Flytta bakåt</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Inget ansikte upptäcktes</string>
+    <string name="onfido_avc_face_capture_title">Vrid långsamt huvudet åt båda sidorna</string>
+    <string name="onfido_avc_face_capture_title_completed">Inspelning slutförd</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Tyvärr måste vi starta om inspelningen</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Du har upp till 15 sekunder på dig att slutföra inspelningen</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Försök igen</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Du vände på huvudet för fort</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Försök igen och vrid huvudet långsammare</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Försök igen</string>
+	<string name="onfido_avc_no_face_detected_title">Vi kan inte upptäcka ditt ansikte</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Se till att vara på en plats med bra belysning</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Se till att dina ögon syns tydligt</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Se till att ta bort ansiktsmasker eller andra föremål som täcker ditt ansikte. Glasögon är okej</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Se till att endast visa ditt ansikte, vi behöver inte se ditt ID</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Se till att endast visa ditt ansikte, vi behöver inte se identitetsdokument</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Starta om inspelningen</string>
+	<string name="onfido_avc_confirmation_title">Inspelning slutförd</string>
+	<string name="onfido_avc_confirmation_subtitle">En video av ditt ansikte har spelats in</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Ladda upp inspelning</string>
+	<string name="onfido_avc_connection_error_title">Anslutningsfel</string>
+	<string name="onfido_avc_connection_error_subtitle">Kontrollera att din anslutning är stabil och försök sedan igen</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Ansiktet är inte centrerat</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Försök ladda upp igen</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Starta om inspelningen</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Spela in en video av ditt ansikte</string>
+	<string name="onfido_avc_intro_video_accessibility">Exempel på video där någon vrider huvudet åt båda sidorna tills det är klart</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Fortsätt vrida på huvudet</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Vrid på huvudet åt andra hållet</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Vy från selfiekamera</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Vänster sida klar</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Höger sida klar</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Vrid långsamt huvudet åt båda sidorna. När en sida är klar kommer du att höra en bekräftelse och känna en vibration</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Inspelningen har startat</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Placera ditt ansikte framför enheten</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Inget ansikte upptäcktes. Placera ditt ansikte framför enheten</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Ansikte riktat</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Ansiktet är felriktat</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Flytta enheten närmare</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Flytta enheten bakåt</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Flytta enheten åt vänster</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Flytta enheten åt höger</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Flytta enheten uppåt</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Flytta enheten nedåt</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Starta verifiering</string>
+	<string name="onfido_poa_intro_title">Låt oss verifiera din adress</string>
+	<string name="onfido_poa_intro_subtitle">Du behöver ett dokument som:</string>
+	<string name="onfido_poa_intro_list_shows_address">Visar din nuvarande adress</string>
+	<string name="onfido_poa_intro_list_matches_signup">Matchar adressen du använde vid registreringen</string>
+	<string name="onfido_poa_intro_list_most_recent">Är ditt senaste dokument</string>
+	<string name="onfido_poa_type_selection_title_uk">Välj ett dokument från Storbritannien</string>
+	<string name="onfido_poa_type_selection_title">Välj ett dokument</string>
+	<string name="onfido_doc_select_subtitle_poa">Dessa dokument är de som mest sannolikt visar din nuvarande hemadress</string>
+	<string name="onfido_doc_select_button_bank_statement">Kontoutdrag från bank eller hypoteksinstitut</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Bankkontoutdrag</string>
+	<string name="onfido_doc_select_extra_estatements_ok">e-utdrag godtas</string>
+	<string name="onfido_doc_select_button_bill">Elräkning</string>
+    <string name="onfido_doc_select_button_tax_letter">Brev från skattemyndighet</string>
+	<string name="onfido_doc_select_button_benefits_letter">Brev gällande bidrag</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Statligt godkända förmåner som t.ex. Bidrag till arbetssökande, bostadsbidrag, skatteavdrag</string>
+    <string name="onfido_doc_select_button_address_card">Adresskort</string>
+    <string name="onfido_doc_select_button_address_card_detail">Tillfälliga och permanenta kort accepteras</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Måste ha utfärdats under de senaste 3 månaderna</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Måste ha utfärdats under de senaste 3 månaderna</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Måste ha utfärdats under de senaste 12 månaderna</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Måste ha utfärdats under de senaste 12 månaderna</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Måste vara ett giltigt adresskort</string>
+	<string name="onfido_poa_guidance_instructions_label">Se till att hela dokumentet syns och att det tydligt visar:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logotyp</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Fullständigt namn</string>
+	<string name="onfido_poa_guidance_instructions_address">Nuvarande adress</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Utfärdandedatum eller sammanfattad period</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Fullständig adress</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Utfärdandedatum</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Utgångsdatum om tillämpligt</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Ladda upp</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Ta foto</string>
+	<string name="onfido_poa_select_document_details_upload_text">Välj dokument från</string>
+	<string name="onfido_poa_capture_confirm">Skicka in dokument</string>
+	<string name="onfido_poa_capture_choose_another">Välj ett annat</string>
+	<string name="onfido_poa_capture_redo">Ta om fotot</string>
+	<string name="onfido_doc_confirmation_body">Se till att du har laddat upp hela dokumentsidan, att detaljerna är tydliga och att det inte finns några oskarpa områden eller ljusreflexer</string>
+	<string name="onfido_poa_capture_enlarge">Förstora dokument</string>
+	<string name="onfido_poa_capture_enlarge_move">Flytta runt med hjälp av ett finger. Nyp för att zooma.</string>
+	<string name="onfido_poa_capture_enlarge_close">Stäng</string>
+	<string name="onfido_poa_capture_instructions">Adressdokumentets framsida</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Ogiltig fil</string>
+	<string name="onfido_poa_err_invalid_file_message">Välj en annan fil.</string>
+	<string name="onfido_poa_err_invalid_file_ok">OK</string>
+    <string name="onfido_poa_welcome_text">Ta ett foto av ett dokument med din adress</string>
+	<string name="onfido_country_select_error_no_country_body">Vi arbetar med att lägga till fler länder i listan. Under tiden kan du prova att använda ett alternativt dokument.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Tyvärr, inga mobiltelefonräkningar</string>
+	<string name="onfido_doc_select_button_bill_detail">Bensin, el, vatten, fast telefon eller bredband</string>
+
+	<string name="onfido_doc_select_subtitle_country">Välj utfärdande land för att se vilka dokument vi accepterar</string>
+	<string name="onfido_doc_select_section_header_country">Utfärdande land</string>
+	<string name="onfido_doc_select_section_header_doc_type">Accepterade dokument</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Inget resultat</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Hela sidan</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Fotosida</string>
+	<string name="onfido_doc_select_subtitle_front_back">Fram- och baksida</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Välj utfärdande land</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Ditt ansikte, din bakgrund och ditt ljud kommer att spelas in under denna process</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Din mikrofon används av en annan app</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Avsluta alla pågående samtal eller aktiviteter som använder din mikrofon under inspelningen</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Försök igen</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Försök igen</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Ljud spelas upp av en annan app</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Spela inte upp något ljud på din enhet under inspelningen</string>
+</resources>

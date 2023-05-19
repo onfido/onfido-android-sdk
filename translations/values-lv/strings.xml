@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Itālijā izdota personas apliecība</string>
+    <string name="onfido_app_title_doc_capture_id_za">Dienvidāfrikā izdota personas apliecība</string>
+    <string name="onfido_app_title_doc_capture_license_de">Vācijā izdota autovadītāja apliecība</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Francijā izdota autovadītāja apliecība</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Papīra dokuments</string>
+    <string name="onfido_doc_capture_prompt_button_card">Plastikāta karte</string>
+    <string name="onfido_doc_capture_prompt_title_license">Kāda veida autovadītāja apliecība jums ir?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Kāda veida personas apliecība jums ir?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Novietojiet dokumentu plakani uz līdzenas virsmas, ir jābūt redzamām visām iekšējām lapām (tajās jābūt jūsu fotoattēlam)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Novietojiet dokumentu plakani uz līdzenas virsmas, ir jābūt redzamām visām ārējām lapām</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Dokumentam jābūt pilnībā atlocītam, un fotoattēlam jābūt skaidri redzamam</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Paldies</string>
+    <string name="onfido_outro_body">Tas ir viss, kas mums nepieciešams, lai sāktu jūsu identitātes pārbaudi</string>
+    <string name="onfido_continue">Turpināt</string>
+    <string name="onfido_video_intro_button_primary">Ierakstīt videoklipu</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Notiek ielāde</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Pase</string>
+    <string name="onfido_doc_select_button_visa">Vīza</string>
+    <string name="onfido_doc_select_button_license">Autovadītāja apliecība</string>
+	<string name="onfido_doc_select_button_id">Valsts izdota personas apliecība</string>
+    <string name="onfido_doc_select_button_permit">Uzturēšanās atļauja</string>
+	<string name="onfido_doc_select_button_permit_work">Darba atļauja</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Apstipriniet savu identitāti</string>
+    <string name="onfido_app_title_doc_select">Apstipriniet savu identitāti</string>
+    <string name="onfido_welcome_title">Apstipriniet savu identitāti</string>
+    <string name="onfido_welcome_subtitle">Tas var aizņemt dažas minūtes</string>
+	<string name="onfido_selfie_capture_button_accessibility">Slēdzis</string>
+    <string name="onfido_selfie_intro_title">Uzņemiet selfiju</string>
+    <string name="onfido_app_title_country_select">Atlasīt izdevējvalsti</string>
+	<string name="onfido_country_select_bottom_sheet_title">Nevarat atrast savu valsti?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Šķiet, ka jūsu atlasītā dokumenta valsts netiek atbalstīta. Atlasiet citu valsti.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Aizvērt</string>
+    <string name="onfido_selfie_intro_subtitle">Mēs to salīdzināsim ar jūsu dokumentu</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Pozicionējiet seju ovālajā rāmī</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Mēģināt vēlreiz</string>
+    <string name="onfido_generic_error_camera_unavailable">Šajā ierīcē nav pieejama neviena kamera</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Kamera nav pieejama. Iespējams, ka to vienlaikus izmanto cita lietotne.</string>
+    <string name="onfido_selfie_confirmation_body">Jābūt redzamai visai sejai</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Nav atrasts neviens dokuments</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Seja nav atrasta</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Atrastas vairākas sejas</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Selfijā drīkst būt redzama tikai jūsu seja</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Pakalpojums nav pieejams</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Diemžēl šķiet, ka nevaram turpināt, jo jūsu pašreizējā atrašanās vieta netiek atbalstīta</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Sejai jābūt redzamai</string>
+	<string name="onfido_generic_error_face_capture">Sejas attēls netika uzņemts. Mēģiniet vēlreiz.</string>
+	<string name="onfido_generic_error_doc_capture">Dokumenta attēls netika uzņemts. Mēģiniet vēlreiz.</string>
+	<string name="onfido_generic_error_video_capture">Videoklips netika uzņemts. Mēģiniet vēlreiz.</string>
+    <string name="onfido_doc_confirmation_body_generic">Jūsu informācijai ir jābūt skaidri redzamai</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Konstatēts atspīdums</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Pavirzieties prom no tiešas gaismas</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Iesniegt pārbaudei</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Kļūda</string>
+    <string name="onfido_generic_error_network_title">Savienojums pārtrūcis</string>
+    <string name="onfido_generic_error_network_detail">Radās tīkla kļūda. Pārbaudiet interneta savienojumu.</string>
+    <string name="onfido_generic_error_detail">Radās kļūda. Mēģiniet vēlreiz vēlāk.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Drošības apsvērumu dēļ tas ir jādara reāllaikā</string>
+    <string name="onfido_video_intro_list_item_move_speak">Izpildiet instrukcijas par kustībām vai runāšanu</string>
+    <string name="onfido_video_intro_loader">Notiek piemēra ielāde</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Izrunājiet katru ciparu</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Tas aizņēma pārāk daudz laika</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Kad esat pabeidzis, neaizmirstiet nospiest pogu.</string>
+    <string name="onfido_video_confirmation_button_secondary">Atkārtoti uzņemt videoklipu</string>
+	<string name="onfido_video_confirmation_button_primary">Iesniegt videoklipu</string>
+	<string name="onfido_video_confirmation_error_no_video">Jūsu videoklipu nevar atrast jūsu ierīcē. Uzņemiet to no jauna.</string>
+    <string name="onfido_video_capture_error_storage_title">Ierīce ir pilna</string>
+    <string name="onfido_video_capture_error_storage_detail">Atbrīvojiet vietu krātuvē un ierakstiet videoklipu no jauna</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Ieslēgt skaņu</string>
+    <string name="onfido_video_capture_button_primary_start">Sākt ierakstu</string>
+    <string name="onfido_video_capture_button_primary_finish">Pabeigt ierakstu</string>
+    <string name="onfido_video_capture_button_primary_fallback">Nākamā darbība</string>
+	<string name="onfido_video_confirmation_error_media_player">Radās ar jūsu videoklipu saistīta kļūda. Uzņemiet to no jauna.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Ielādēt atkārtoti</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Atkārtoti ielādēt videoklipa piemēru</string>
+    <string name="onfido_video_intro_error_network">Nevar ielādēt nestabila tīkla savienojuma dēļ</string>
+    <string name="onfido_video_intro_error_network_accessibility">Nevar ielādēt videoklipa piemēru nestabila tīkla savienojuma dēļ</string>
+	<string name="onfido_video_intro_error_load_offline">Nevar ielādēt, jo neesat tiešsaistē</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Ieteiktā valsts</string>
+    <string name="onfido_country_select_list_header_all">Visas valstis</string>
+    <string name="onfido_app_title_country_select_search">Meklēt</string>
+    <string name="onfido_country_select_error_no_country_title">Valsts nav atrasta</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Mēģiniet uzņemt fotoattēlu manuāli</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Konstatēts izplūdis fotoattēls</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Svītrkods nav atrasts</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Palieciet labi apgaismotā vietā un pietuviniet karti kamerai</string>
+    <string name="onfido_permission_recovery_button_primary">Atsvaidzināt</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Atļaut piekļuvi kamerai</string>
+    <string name="onfido_permission_subtitle_cam">Kad tiek parādīta uzvedne, ir jāiespējo piekļuve kamerai, lai turpinātu</string>
+	<string name="onfido_permission_body_cam">Mēs nevaram veikt pārbaudi bez kameras</string>
+    <string name="onfido_permission_button_primary_cam">Iespējot kameru</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Mēs nevaram veikt pārbaudi bez kameras</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Dodieties uz lietotnes iestatījumiem un iespējojiet kameras piekļuvi šai lietotnei</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Jūs varat atjaunot piekļuvi kamerai ierīces iestatījumos</string>
+
+    <string name="onfido_permission_recovery_title_cam">Piekļuve kamerai ir liegta</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Atļaut piekļuvi mikrofonam</string>
+    <string name="onfido_permission_subtitle_mic">Kad tiek parādīta uzvedne, ir jāiespējo piekļuve mikrofonam, lai turpinātu</string>
+    <string name="onfido_permission_button_primary_mic">Iespējot mikrofonu</string>
+    <string name="onfido_permission_recovery_title_mic">Mikrofonam ir liegta piekļuve</string>
+    <string name="onfido_permission_body_mic">Mēs nevaram veikt pārbaudi, neizmantojot mikrofonu</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Jūs varat atjaunot piekļuvi mikrofonam ierīces iestatījumos</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Dodieties uz lietotnes iestatījumiem un iespējojiet mikrofona piekļuvi šai lietotnei</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Mēs nevaram veikt pārbaudi, neizmantojot mikrofonu</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Atļaut piekļuvi kamerai un mikrofonam</string>
+    <string name="onfido_permission_subtitle_both">Kad tiek parādīta uzvedne, lai turpinātu, ir jāiespējo piekļuve abiem</string>
+    <string name="onfido_permission_recovery_title_both">Kamerai un mikrofonam ir liegta piekļuve</string>
+    <string name="onfido_video_capture_alert_wrong_side">Nepareizā puse</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Atkārtoti ielādēt instrukcijas</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Savienojuma noildze</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Pārbaudiet, vai savienojums ir stabils, un pēc tam mēģiniet vēlreiz</string>
+	<string name="onfido_generic_back">atpakaļ</string>
+    <string name="onfido_permission_body_both">Mēs nevaram veikt pārbaudi, neizmantojot kameru un mikrofonu</string>
+    <string name="onfido_permission_button_primary_both">Iespējot abus</string>
+	<string name="onfido_permission_recovery_subtitle_both">Mēs nevaram veikt pārbaudi, neizmantojot kameru and mikrofonu</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Jūs varat atjaunot piekļuvi kamerai un mikrofonam ierīces iestatījumos</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Dodieties uz lietotnes iestatījumiem un iespējojiet gan kameras, gan mikrofona piekļuvi šai lietotnei</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Piemērs, kurā kāds ieraksta selfija videoklipu.Lai ierakstītu selfija videoklipu, pagrieziet seju pret priekšējo kameru un turiet tālruni nedaudz atstatus no sejas. Pēc tam jums būs jānosauc daži cipari un jāpagriež galva saskaņā ar ekrānā redzamajām instrukcijām.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Skats no kameras</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Jūsu sejas fotoattēls</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Dokumenta fotoattēls</string>
+    <string name="onfido_video_confirmation_body">Jūsu videoklips ir ierakstīts</string>
+	<string name="onfido_video_confirmation_video_accessibility">Ierakstītā videoklipa priekšskatījums</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Jums vajadzētu dzirdēt sevi sakām: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Jums vajadzētu redzēt sevi pagriežam galvu pa %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Pēc tam</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">kreisi</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">labi</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Atskaņot vai apturēt</string>
+	<string name="onfido_doc_capture_button_accessibility">Uzņemt fotoattēlu</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Apturēt video</string>
+    <string name="onfido_video_intro_button_play_accessibility">Atskaņot video</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Divas apakšējās rindas nav redzamas</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Pārliecinieties, ka ir redzams viss dokuments</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Piekrist</string>
+    <string name="onfido_user_consent_button_secondary">Nepiekrist</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Vai esat pārliecināts?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Ja nepiekritīsiet Onfido paziņojumiem par konfidencialitāti un pakalpojumu sniegšanas noteikumiem, mēs nevarēsim pārbaudīt jūsu identitāti un jūs iziesiet no šīs darbības.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Nē, neveikt man pārbaudi</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Pārskatīt vēlreiz</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Videoklipa ierakstīšanas laikā tiks ieslēgta ierīces zibspuldze</string>
+	<string name="onfido_doc_video_capture_header">Turot dokumentu rokās, ievietojiet tā priekšpusi kadrā</string>
+    <string name="onfido_doc_video_capture_header_step1">Tagad nekustieties</string>
+    <string name="onfido_doc_video_capture_detail_step2">Visu laiku ir jābūt redzamam visam dokumentam</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Nākamā darbība</string>
+    <string name="onfido_doc_video_capture_header_passport">Turot pasi rokās, ievietojiet fotoattēla lapu kadrā</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Lēnām pagrieziet dokumentu, lai parādītu ārējās lapas</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Video ieraksta garuma ierobežojums sekundēs: %1$s</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Izdevās</string>
+	<string name="onfido_doc_video_capture_stepper">%1$d. darbība no %2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">Lēnām pagrieziet dokumentu otrādi, lai parādītu tā aizmuguri</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Priekšskatīt videoklipu</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Pabeigt ierakstu</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Turiet nekustīgi</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">Ierakstīšana ir ierobežota līdz %1$s sekundēm</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Atkārtoti uzņemt fotoattēlu</string>
+
+    <string name="onfido_generic_uploading">Notiek augšupielāde</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Pārliecinieties, ka ir redzams viss dokuments</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Atrasts apgriezts attēls</string>
+    <string name="onfido_doc_upload_progress_label">Notiek attēla kvalitātes pārbaude</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">pēc tam pagrieziet seju uz priekšu</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Gatavs skenēšanai</string>
+    <string name="onfido_nfc_sheet_button_secondary">Atcelt</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skenē...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Turiet tālruni nekustīgi</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Skenēšana izdevās</string>
+    <string name="onfido_nfc_permission_title">Ieslēgt NFC</string>
+	<string name="onfido_nfc_permission_subtitle">Mēs nevaram noskenēt jūsu pasi bez NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Ieslēgt NFC ierīces iestatījumos</string>
+    <string name="onfido_nfc_permission_button_primary">Atvērt iestatījumus</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Iesniegt fotoattēlu</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Šī procesa laikā tiks ierakstīta jūsu seja un fons</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Pagrieziet seju uz priekšu un pārliecinieties, ka jūsu acis ir skaidri redzamas</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Pārliecinieties, ka viss ir skaidri redzams</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Pārliecinieties, ka tas ir pilnībā ievietots kadrā</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Atkārtoti uzņemt fotoattēlu</string>
+	<string name="onfido_selfie_intro_button_primary">Uzņemt selfiju</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Atlikušo sekunžu skaits: %1$d</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Iesniegt fotoattēlu</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Ja nepieciešams, noņemiet brilles</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Noņemiet visu, kas aizsedz jūsu seju. Brilles var palikt</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Centrējiet dokumentu un pēc tam nospiediet pogu</string>
+    <string name="onfido_doc_select_subtitle">Tam jābūt oficiālam ID ar fotoattēlu</string>
+    <string name="onfido_selfie_confirmation_button_primary">Augšupielādēt fotoattēlu</string>
+    <string name="onfido_doc_select_title">Izvēlieties savu dokumentu</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Atkārtoti uzņemt fotoattēlu</string>
+    <string name="onfido_video_intro_title">Ierakstīt videoklipu</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Izvēlēties citu dokumentu</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Pagrieziet galvu pa kreisi</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Pagrieziet galvu pa labi</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Lai sāktu ierakstīt, pozicionējiet seju ovālajā rāmī</string>
+
+    <string name="onfido_app_title_doc_confirmation">Apstipriniet savu identitāti</string>
+    <string name="onfido_app_title_selfie_confirmation">Apstipriniet savu identitāti</string>
+    <string name="onfido_app_title_permission">Apstipriniet savu identitāti</string>
+    <string name="onfido_app_title_selfie_intro">Apstipriniet savu identitāti</string>
+    <string name="onfido_app_title_video_intro">Apstipriniet savu identitāti</string>
+    <string name="onfido_app_title_video_confirmation">Apstipriniet savu identitāti</string>
+    <string name="onfido_welcome_button_primary_doc">Izvēlēties dokumentu</string>
+    <string name="onfido_welcome_button_primary">Sākt</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Seja ir atrasta. Ieraksts ir sācies.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Konstatēta pagriezta galva</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Attēls uzņemts</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Skats no selfiju kameras. Pozicionējiet seju ovālajā rāmī un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_video_capture_frame_accessibility">Skats no selfiju kameras. Lai sāktu ierakstu, pozicionējiet seju ovālajā rāmī.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Ievietojiet dokumenta ārējās lapas kadrā</string>
+    <string name="onfido_doc_capture_header_license_front">Ievietojiet dokumenta priekšpusi kadrā</string>
+    <string name="onfido_doc_capture_header_license_back">Ievietojiet dokumenta aizmuguri kadrā</string>
+    <string name="onfido_doc_capture_header_permit_front">Ievietojiet dokumenta priekšpusi kadrā</string>
+    <string name="onfido_doc_capture_header_permit_back">Ievietojiet dokumenta aizmuguri kadrā</string>
+    <string name="onfido_doc_capture_header_id_front">Ievietojiet dokumenta priekšpusi kadrā</string>
+    <string name="onfido_doc_capture_header_id_back">Ievietojiet dokumenta aizmuguri kadrā</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Ievietojiet dokumenta priekšpusi kadrā</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Ievietojiet dokumenta aizmuguri kadrā</string>
+    <string name="onfido_doc_capture_header_visa_front">Ievietojiet dokumenta vīzas lapu kadrā</string>
+    <string name="onfido_doc_capture_header_generic_front">Ievietojiet dokumenta priekšpusi kadrā</string>
+    <string name="onfido_doc_capture_header_generic_back">Ievietojiet dokumenta aizmuguri kadrā</string>
+    <string name="onfido_doc_capture_header_passport">Ievietojiet dokumenta fotoattēla lapu kadrā</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Skats no kameras. Ievietojiet dokumenta fotoattēla lapu kadrā. Kad attēls būs uzņemts, ierīce sāks vibrēt</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Skats no kameras. Ievietojiet dokumenta aizmuguri kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā. Kad attēls būs uzņemts, ierīce sāks vibrēt</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Skats no kameras. Ievietojiet dokumenta aizmuguri kadrā</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Skats no kameras. Ievietojiet dokumenta aizmuguri kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Skats no kameras. Ievietojiet dokumenta priekšpusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Skats no kameras. Ievietojiet dokumenta aizmuguri kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Skats no kameras. Ievietojiet dokumenta fotoattēla pusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Skats no kameras. Ievietojiet dokumenta ārējās lapas kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Skats no kameras. Ievietojiet dokumenta fotoattēla pusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Skats no kameras. Ievietojiet dokumenta ārējās lapas kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Skats no kameras. Ievietojiet dokumenta fotoattēla pusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Skats no kameras. Ievietojiet dokumenta ārējās lapas kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Skats no kameras. Ievietojiet dokumenta fotoattēla pusi kadrā un pēc tam pieskarieties slēdža pogai</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Skats no kameras. Ievietojiet dokumenta ārējās lapas kadrā un pēc tam pieskarieties slēdža pogai</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Ievietojiet dokumenta fotoattēla pusi kadrā</string>
+    <string name="onfido_video_capture_prompt_header_restart">Sākt ierakstu no jauna</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Lai veiktu šo darbību, sejai ir jābūt redzamai visa ieraksta laikā.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Sākt no jauna</string>
+
+    <string name="onfido_welcome_list_header">Izmantojiet ierīci, lai:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Nofotografētu savu personu apliecinošo dokumentu.</string>
+    <string name="onfido_welcome_list_item_doc_video">Ierakstītu sava personu apliecinošā dokumenta videoklipu.</string>
+    <string name="onfido_welcome_list_item_doc_generic">Noskenētu savu personu apliecinošo dokumentu.</string>
+    <string name="onfido_welcome_list_item_face_photo">Nofotografētu savu seju.</string>
+    <string name="onfido_welcome_list_item_face_video">Ierakstītu savas sejas videoklipu.</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Trīs apakšējās rindas nav redzamas</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Mēģiniet noskenēt atkārtoti</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Iegūt verifikāciju bez NFC</string>
+    <string name="onfido_nfc_scan_error_title">Mēs nevarējām noskenēt jūsu dokumentu</string>
+    <string name="onfido_nfc_scan_error_list_item">Noņemiet tālruņa vāciņu</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Kad skenēšana ir sākta, turiet to nekustīgi</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Nekustiniet tālruni vai pasi skenēšanas laikā</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Varat arī izmēģināt aizmugurējās lapas iekšpusi</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Novietojiet tālruni virs pases augšpuses</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Lēnām virziet tālruni lejup un augšup</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Novietojiet pasi uz līdzenas virsmas</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Kad skenēšana ir sākta, turiet tālruni nekustīgi</string>
+    <string name="onfido_nfc_intro_title_card">Noskenējiet savu NFC karti</string>
+    <string name="onfido_nfc_intro_title_passport">Noskenējiet savu e-pasi</string>
+    <string name="onfido_nfc_intro_subtitle">Sekojiet tālāk sniegtajām instrukcijām</string>
+    <string name="onfido_nfc_intro_button_primary">Sākt skenēšanu</string>
+    <string name="onfido_nfc_intro_list_item">Novietojiet karti ierīces aizmugurē</string>
+    <string name="onfido_nfc_intro_list_item_2">Lēnām virziet mobilo tālruni augšup un lejup</string>
+    <string name="onfido_nfc_intro_list_item_3">Kad skenēšana ir sākta, turiet to nekustīgi</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Esam veiksmīgi noskenējuši jūsu pasi</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Jūsu karte ir veiksmīgi noskenēta</string>
+
+    <string name="onfido_nfc_select_title_passport">Paātriniet procesu, izmantojot NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Mēs noskenēsim pasē esošo NFC mikroshēmu</string>
+    <string name="onfido_nfc_select_body_passport">e-pasēm uz vāka ir šāds simbols</string>
+    <string name="onfido_nfc_select_button_primary_passport">Izmantot e-pasi</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Tā nav e-pase</string>
+
+    <string name="onfido_nfc_select_title_card">Paātriniet procesu, izmantojot NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Mēs noskenēsim NFC mikroshēmu jūsu kartē</string>
+    <string name="onfido_nfc_select_body_card">Uz kartēm, kurām ir NFC mikroshēma, ir šāds simbols</string>
+    <string name="onfido_nfc_select_button_primary_card">Izmantot NFC karti</string>
+    <string name="onfido_nfc_select_button_secondary_card">Tā nav NFC karte</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Novietojiet tālruni tuvu pases augšdaļai</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Novietojiet tālruni virs kartes</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Turiet tālruni nekustīgi</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Pārtrūka saskare ar karti</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Pārtrūka saskare ar pasi</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Nedaudz pavirziet tālruni augšup vai lejup</string>
+
+    <string name="onfido_enter_can_title">Ievadiet CAN</string>
+    <string name="onfido_enter_can_subtitle">Pārliecinieties, vai norādītais numurs atbilst dokumentā redzamajam numuram.</string>
+    <string name="onfido_enter_can_button_primary">Turpināt</string>
+    <string name="onfido_enter_can_disclaimer">Tas ir dokumenta priekšpusē. Tajā ir šāds ciparu skaits: %d, un tas ir nedaudz lielāks.</string>
+    <string name="onfido_enter_can_error_label">Jums ir atlicis %d %s.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">mēģinājums</string>
+    <string name="onfido_enter_can_substring_attempt_plural">mēģinājumu</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Skats no kameras. Novietojiet tālruni virs dokumenta priekšpuses un pēc tam lēnām virziet tālruni prom no tā taisnā līnijā.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Turiet tālruni virs dokumenta</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Nav atrasts neviens dokuments. Turiet tālruni virs dokumenta.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Dokuments ir pārāk tuvu</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Dokuments atrodas pārāk tuvu kamerai</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Dokuments ir pārāk tālu</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Dokuments atrodas pārāk tālu no kameras</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Pavirzīt pa kreisi</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Pavirziet ierīci pa kreisi</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Pavirzīt pa labi</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Pavirziet ierīci pa labi</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Pavirzīt augšup</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Pavirziet ierīci augšup</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Pavirzīt augšup</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Pavirziet ierīci nedaudz uz augšu</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Pavirzīt lejup</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Pavirziet ierīci lejup</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Pavirzīt lejup</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Pavirziet ierīci nedaudz uz leju</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Turēt nekustīgi, lai uzņemtu attēlu</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Turiet nekustīgi, lai uzņemtu attēlu</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Turiet tālruni virs dokumenta priekšpuses</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Turiet tālruni virs dokumenta aizmugures</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Skats no kameras. Novietojiet tālruni virs dokumenta aizmugures un pēc tam lēnām virziet tālruni prom no tā taisnā līnijā.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Turiet tālruni virs pases fotoattēla lapas</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Skats no kameras. Novietojiet tālruni virs pases fotoattēla lapas un pēc tam lēnām virziet tālruni prom no tā taisnā līnijā.</string>
+	<string name="onfido_doc_capture_header_capturing">Turiet nekustīgi</string>
+
+	<string name="onfido_avc_intro_title">Ierakstīt videoklipu</string>
+	<string name="onfido_avc_intro_subtitle">Tas nepieciešams, lai pārbaudītu, vai esat īsta persona</string>
+	<string name="onfido_avc_intro_list_item_one">Vispirms pozicionējiet seju kadrā</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Vispirms jums būs jāpozicionē seja pret ierīci</string>
+	<string name="onfido_avc_intro_list_item_two">Pēc tam lēnām pagrieziet galvu uz abām pusēm</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Pēc tam jums būs lēnām jāpagriež galva uz abām pusēm</string>
+	<string name="onfido_avc_intro_disclaimer">Ņemiet vērā, ka mēs ierakstīsim jūsu seju un fonu</string>
+	<string name="onfido_avc_intro_button_primary_ready">Sākt ierakstu</string>
+	<string name="onfido_avc_face_alignment_title">Pozicionējiet seju kadrā</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Pavirzieties tuvāk</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Pavirzieties tālāk</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Seja nav atrasta</string>
+    <string name="onfido_avc_face_capture_title">Lēnām pagrieziet galvu uz abām pusēm</string>
+    <string name="onfido_avc_face_capture_title_completed">Ieraksts pabeigts</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Diemžēl mums ir jāveic ieraksts no jauna</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Jums ir 15 sekundes laika, lai pabeigtu ierakstu</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Mēģināt vēlreiz</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Jūs pārāk ātri pagriezāt galvu</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Mēģiniet vēlreiz un grieziet galvu lēnāk</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Mēģināt vēlreiz</string>
+	<string name="onfido_avc_no_face_detected_title">Mēs nevaram atrast jūsu seju</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Atrodiet vietu ar labu apgaismojumu</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Pārliecinieties, ka jūsu acis ir skaidri redzamas</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Noņemiet maskas vai citus priekšmetus, kas aizsedz seju. Brilles var palikt</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Parādiet tikai savu seju, mums nav jāredz jūsu ID</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Parādiet tikai savu seju, mums nav jāredz jūsu personu apliecinošais dokuments</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Sākt ierakstu no jauna</string>
+	<string name="onfido_avc_confirmation_title">Ieraksts pabeigts</string>
+	<string name="onfido_avc_confirmation_subtitle">Jūsu sejas videoklips ir veiksmīgi ierakstīts</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Augšupielādēt ierakstu</string>
+	<string name="onfido_avc_connection_error_title">Savienojuma kļūda</string>
+	<string name="onfido_avc_connection_error_subtitle">Pārbaudiet, vai savienojums ir stabils, un pēc tam mēģiniet vēlreiz</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Seja nav centrēta</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Mēģināt augšupielādēt vēlreiz</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Sākt ierakstu no jauna</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Ierakstīt savas sejas videoklipu</string>
+	<string name="onfido_avc_intro_video_accessibility">Videoklipa piemērs, kurā cilvēks pagriež galvu uz abām pusēm līdz apstiprinājumam</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Turpiniet griezt galvu</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Pagrieziet galvu uz otru pusi</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Skats no selfiju kameras</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Kreisā puse pabeigta</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Labā puse pabeigta</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Lēnām pagrieziet galvu uz abām pusēm. Kad puse būs pabeigta, jūs dzirdēsiet apstiprinājumu un sajutīsiet vibrāciju</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Ieraksts ir sācies</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Pozicionējiet seju pret ierīci</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Nav atrasta seja. Pozicionējiet seju pret ierīci</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Seja centrēta</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Seja nav centrēta</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Pietuviniet ierīci</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Attāliniet ierīci</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Pavirziet ierīci pa kreisi</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Pavirziet ierīci pa labi</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Pavirziet ierīci augšup</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Pavirziet ierīci lejup</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Sākt pārbaudi</string>
+	<string name="onfido_poa_intro_title">Pārbaudīsim jūsu adresi</string>
+	<string name="onfido_poa_intro_subtitle">Jums būs nepieciešams dokuments, kas atbilst šādām prasībām:</string>
+	<string name="onfido_poa_intro_list_shows_address">Tajā ir redzama jūsu pašreizējā dzīvesvietas adrese.</string>
+	<string name="onfido_poa_intro_list_matches_signup">Tajā redzamā adrese atbilst adresei, ko izmantojāt reģistrējoties.</string>
+	<string name="onfido_poa_intro_list_most_recent">Tas ir jūsu jaunākais dokuments.</string>
+	<string name="onfido_poa_type_selection_title_uk">Atlasīt Apvienotajā Karalistē izdotu dokumentu</string>
+	<string name="onfido_poa_type_selection_title">Atlasīt dokumentu</string>
+	<string name="onfido_doc_select_subtitle_poa">Šie ir dokumenti, kuros, visticamāk, ir redzama jūsu pašreizējā dzīvesvietas adrese</string>
+	<string name="onfido_doc_select_button_bank_statement">Konta izraksts vai būvsabiedrības izziņa</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Konta izraksts</string>
+	<string name="onfido_doc_select_extra_estatements_ok">tiek pieņemtas e-izziņas</string>
+	<string name="onfido_doc_select_button_bill">Komunālo pakalpojumu rēķins</string>
+    <string name="onfido_doc_select_button_tax_letter">Vēstule par pašvaldības nodokli</string>
+	<string name="onfido_doc_select_button_benefits_letter">Vēstule par pabalstiem</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Valdības apstiprināti mājsaimniecības pabalsti, piem., bezdarbnieka pabalsts, mājokļa pabalsts, nodokļu atlaides</string>
+    <string name="onfido_doc_select_button_address_card">Adreses karte</string>
+    <string name="onfido_doc_select_button_address_card_detail">Tiek pieņemtas pagaidu un pastāvīgās kartes</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Jābūt izsniegtam pēdējo trīs mēnešu laikā</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Jābūt izsniegtam pēdējo trīs mēnešu laikā</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Tai jābūt izdotai pēdējo 12 mēnešu laikā</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Tai jābūt izdotai pēdējo 12 mēnešu laikā</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Jābūt derīgai adreses kartei</string>
+	<string name="onfido_poa_guidance_instructions_label">Uzņemiet visu dokumentu un pārliecinieties, ka tajā ir skaidri redzama šāda informācija:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logotips</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Vārds, uzvārds</string>
+	<string name="onfido_poa_guidance_instructions_address">Pašreizējā dzīvesvietas adrese.</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Izdošanas datums vai derīguma termiņš.</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Pilna adrese</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Izdošanas datums</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Derīguma termiņš (ja attiecināms)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Augšupielādēt</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Uzņemt fotoattēlu</string>
+	<string name="onfido_poa_select_document_details_upload_text">Atlasīt dokumentu no</string>
+	<string name="onfido_poa_capture_confirm">Iesniegt dokumentu</string>
+	<string name="onfido_poa_capture_choose_another">Izvēlēties citu</string>
+	<string name="onfido_poa_capture_redo">Atkārtoti uzņemt fotoattēlu</string>
+	<string name="onfido_doc_confirmation_body">Pārliecinieties, ka esat augšupielādējis visu dokumenta lapu un ka informācija ir skaidri salasāma bez izplūduma vai atspīduma</string>
+	<string name="onfido_poa_capture_enlarge">Palielināt dokumentu</string>
+	<string name="onfido_poa_capture_enlarge_move">Pārvietojiet ar vienu pirkstu. Saspiediet, lai tuvinātu.</string>
+	<string name="onfido_poa_capture_enlarge_close">Aizvērt</string>
+	<string name="onfido_poa_capture_instructions">Adreses dokumenta priekšpuse</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Nederīgs fails</string>
+	<string name="onfido_poa_err_invalid_file_message">Izvēlieties citu failu.</string>
+	<string name="onfido_poa_err_invalid_file_ok">Labi</string>
+    <string name="onfido_poa_welcome_text">Nofotografētu dokumentu ar savu adresi</string>
+	<string name="onfido_country_select_error_no_country_body">Mēs strādājam pie valstu saraksta papildināšanas. Tikmēr mēģiniet izmantot citu dokumentu.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Atvainojiet, rēķini par mobilo tālruni netiek pieņemti</string>
+	<string name="onfido_doc_select_button_bill_detail">Gāze, elektrība, ūdens, fiksētais tālrunis vai platjoslas internets</string>
+
+	<string name="onfido_doc_select_subtitle_country">Atlasiet izdevējvalsti, lai redzētu, kurus dokumentus mēs pieņemam</string>
+	<string name="onfido_doc_select_section_header_country">Izdevējvalsts</string>
+	<string name="onfido_doc_select_section_header_doc_type">Pieņemamie dokumenti</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Nav rezultātu</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Visa lapa</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Fotoattēla lapa</string>
+	<string name="onfido_doc_select_subtitle_front_back">Priekšpuse un aizmugure</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Atlasīt izdevējvalsti</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Šī procesa laikā tiks ierakstīta jūsu seja, fons un skaņa</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Jūsu mikrofonu izmanto cita lietotne</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Ieraksta laikā neveiciet zvanus un jebkādas citas aktivitātes, kurās nepieciešams mikrofons</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Mēģināt vēlreiz</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Mēģināt vēlreiz</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio ierakstu atskaņo cita lietotne</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lūdzu, ieraksta laikā savā ierīcē neatskaņojiet citus audio ierakstus</string>
+</resources>

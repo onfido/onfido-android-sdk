@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Italijanska osebna izkaznica</string>
+    <string name="onfido_app_title_doc_capture_id_za">Južnoafriška osebna izkaznica</string>
+    <string name="onfido_app_title_doc_capture_license_de">Nemško vozniško dovoljenje</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Francosko vozniško dovoljenje</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Papirni dokument</string>
+    <string name="onfido_doc_capture_prompt_button_card">Plastična kartica</string>
+    <string name="onfido_doc_capture_prompt_title_license">Kakšno vrsto dovoljenja imate?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Kakšno vrsto osebne izkaznice imate?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Dokument položite ravno, vključite vse notranje strani (vsebovati mora vašo fotografijo)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Dokument položite ravno, vključite vse zunanje strani</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Prepričajte se, da je dokument popolnoma razgrnjen in da je fotografija jasna</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Hvala</string>
+    <string name="onfido_outro_body">To je vse, kar potrebujemo za začetek preverjanja vaše identitete</string>
+    <string name="onfido_continue">Nadaljuj</string>
+    <string name="onfido_video_intro_button_primary">Posnemi videoposnetek</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Nalaganje</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Potni list</string>
+    <string name="onfido_doc_select_button_visa">Visa</string>
+    <string name="onfido_doc_select_button_license">Vozniško dovoljenje</string>
+	<string name="onfido_doc_select_button_id">Nacionalna osebna izkaznica</string>
+    <string name="onfido_doc_select_button_permit">Dovoljenje za prebivanje</string>
+	<string name="onfido_doc_select_button_permit_work">Delovno dovoljenje</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Potrdite svojo identiteto</string>
+    <string name="onfido_app_title_doc_select">Potrdite svojo identiteto</string>
+    <string name="onfido_welcome_title">Potrdite svojo identiteto</string>
+    <string name="onfido_welcome_subtitle">Trajalo bo nekaj minut</string>
+	<string name="onfido_selfie_capture_button_accessibility">Sprožilec</string>
+    <string name="onfido_selfie_intro_title">Posnemite selfie</string>
+    <string name="onfido_app_title_country_select">Izberite državo izdajateljico</string>
+	<string name="onfido_country_select_bottom_sheet_title">Ne najdete svoje države?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Zdi se, da država izbranega dokumenta ni podprta. Izberite drugo državo.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Zapri</string>
+    <string name="onfido_selfie_intro_subtitle">Primerjali ga bomo z vašim dokumentom</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Obraz naj bo znotraj ovala</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Poskusite znova</string>
+    <string name="onfido_generic_error_camera_unavailable">V tej napravi ni na voljo kamere</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Kamera ni na voljo. Morda jo hkrati uporablja tudi druga aplikacija.</string>
+    <string name="onfido_selfie_confirmation_body">Poskrbite, da je vaš celoten obraz viden</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Dokument ni najden</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Obraz ni zaznan</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Najdenih je bilo več obrazov</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Na selfiju je lahko samo vaš obraz</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Storitev ni na voljo</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Žal nam je, zdi se, da ne moremo nadaljevati, ker vaša trenutna lokacija ni podprta</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Poskrbite, da je vaš obraz viden</string>
+	<string name="onfido_generic_error_face_capture">Zajem obraza ni deloval. Poskusite znova.</string>
+	<string name="onfido_generic_error_doc_capture">Zajem dokumenta ni deloval. Poskusite znova.</string>
+	<string name="onfido_generic_error_video_capture">Zajem videoposnetka ni deloval. Poskusite znova.</string>
+    <string name="onfido_doc_confirmation_body_generic">Prepričajte se, da so vaši podatki jasni in pregledni</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Zaznano bleščanje</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Odmaknite se od neposredne svetlobe</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Pošlji potrditev</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Napaka</string>
+    <string name="onfido_generic_error_network_title">Povezava prekinjena</string>
+    <string name="onfido_generic_error_network_detail">Prišlo je do napake v omrežju. Preverite svojo povezavo.</string>
+    <string name="onfido_generic_error_detail">Nekaj je šlo narobe. Poskusite znova pozneje.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Zaradi varnosti potrebujemo zajem v živo</string>
+    <string name="onfido_video_intro_list_item_move_speak">Upoštevajte navodila za premikanje ali govorjenje</string>
+    <string name="onfido_video_intro_loader">Primer nalaganja</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Vsako števko povejte na glas</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Izgleda, da ste bili prepočasni</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Ne pozabite pritisniti gumba, ko končate.</string>
+    <string name="onfido_video_confirmation_button_secondary">Ponovno posnemi videoposnetek</string>
+	<string name="onfido_video_confirmation_button_primary">Pošlji videoposnetek</string>
+	<string name="onfido_video_confirmation_error_no_video">Vašega videoposnetka ni mogoče najti v napravi. Ponovno ga posnemite.</string>
+    <string name="onfido_video_capture_error_storage_title">Vaša naprava je polna</string>
+    <string name="onfido_video_capture_error_storage_detail">Sprostite nekaj prostora za shranjevanje in znova posnemite videoposnetek</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Glasno</string>
+    <string name="onfido_video_capture_button_primary_start">Začni s snemanjem</string>
+    <string name="onfido_video_capture_button_primary_finish">Končaj snemanje</string>
+    <string name="onfido_video_capture_button_primary_fallback">Naslednji korak</string>
+	<string name="onfido_video_confirmation_error_media_player">Pri vašem videoposnetku je prišlo do napake. Ponovno ga posnemite.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Osveži</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Ponovno naloži primer videoposnetka</string>
+    <string name="onfido_video_intro_error_network">Nalaganje ni mogoče zaradi nestabilnega omrežja</string>
+    <string name="onfido_video_intro_error_network_accessibility">Primera videoposnetka ni mogoče naložiti zaradi nestabilnega omrežja</string>
+	<string name="onfido_video_intro_error_load_offline">Nalaganje ni mogoče, ker nimate povezave</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Predlagana država</string>
+    <string name="onfido_country_select_list_header_all">Vse države</string>
+    <string name="onfido_app_title_country_select_search">Išči</string>
+    <string name="onfido_country_select_error_no_country_title">Država ni najdena</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Poskusite ročno posneti fotografijo</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Zaznana je zamegljena fotografija</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Črtna koda ni zaznana</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Ostanite na dobro osvetljenem mestu in približajte kartico fotoaparatu</string>
+    <string name="onfido_permission_recovery_button_primary">Omogoči v nastavitvah</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Dovoli dostop do kamere</string>
+    <string name="onfido_permission_subtitle_cam">Ko boste pozvani, morate za nadaljevanje omogočiti dostop do kamere</string>
+	<string name="onfido_permission_body_cam">Brez kamere vas ne moremo preveriti</string>
+    <string name="onfido_permission_button_primary_cam">Omogoči kamero</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Brez kamere vas ne moremo preveriti</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Pojdite na nastavitve aplikacije in omogočite dostop do kamere za to aplikacijo</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Dostop do kamere lahko obnovite prek nastavitev naprave</string>
+
+    <string name="onfido_permission_recovery_title_cam">Dostop do kamere je zavrnjen</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Omogočite dostop do mikrofona</string>
+    <string name="onfido_permission_subtitle_mic">Ko boste pozvani, morate za nadaljevanje omogočiti dostop do mikrofona</string>
+    <string name="onfido_permission_button_primary_mic">Omogoči mikrofon</string>
+    <string name="onfido_permission_recovery_title_mic">Dostop do mikrofona zavrnjen</string>
+    <string name="onfido_permission_body_mic">Ne moremo vas preveriti brez uporabe mikrofona</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Dostop do mikrofona lahko obnovite prek nastavitev naprave</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Pojdite na nastavitve aplikacije in omogočite dostop do mikrofona za to aplikacijo</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Ne moremo vas preveriti brez uporabe mikrofona</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Omogočite dostop do kamere in mikrofona</string>
+    <string name="onfido_permission_subtitle_both">Ko boste pozvani, morate za nadaljevanje omogočiti dostop za oboje</string>
+    <string name="onfido_permission_recovery_title_both">Dostop do kamere in mikrofona zavrnjen</string>
+    <string name="onfido_video_capture_alert_wrong_side">Napačna stran</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Znova naloži navodila</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Časovna omejitev povezave</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Preverite, ali je vaša povezava stabilna, nato poskusite znova</string>
+	<string name="onfido_generic_back">nazaj</string>
+    <string name="onfido_permission_body_both">Ne moremo vas preveriti brez uporabe kamere in mikrofona</string>
+    <string name="onfido_permission_button_primary_both">Omogoči oboje</string>
+	<string name="onfido_permission_recovery_subtitle_both">Ne moremo vas preveriti brez kamere in mikrofona</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Dostop do kamere in mikrofona lahko obnovite prek nastavitev naprave</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Pojdite na nastavitve aplikacije in omogočite dostop do kamere in mikrofona za to aplikacijo</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Primer videoposnetka, na katerem nekdo snema selfie videoposnetek. Če želite posneti selfie videoposnetek, se obrnite proti sprednji kameri in telefon držite nekoliko stran od obraza. Nato morate izgovoriti nekaj številk in obrniti glavo v skladu z navodili na zaslonu.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Pogled s kamere</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Fotografija vašega obraza</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Fotografija dokumenta</string>
+    <string name="onfido_video_confirmation_body">Vaš videoposnetek je bil posnet</string>
+	<string name="onfido_video_confirmation_video_accessibility">Predogled posnetega videoposnetka</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Morali bi se slišati reči: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Morali bi se videti, kako obračate glavo proti %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Potem</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Levo</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Desno</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Predvajaj ali ustavi</string>
+	<string name="onfido_doc_capture_button_accessibility">Posnemi fotografijo</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Zaustavi videoposnetek</string>
+    <string name="onfido_video_intro_button_play_accessibility">Predvajaj videoposnetek</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Spodnji dve vrstici nista vidni</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Prepričajte se, da je prikazan celoten dokument</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Sprejmi</string>
+    <string name="onfido_user_consent_button_secondary">Ne sprejmi</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Ste prepričani?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Če ne sprejmete Onfidovih izjav o zasebnosti in pogojev uporabe storitev, ne bomo mogli preveriti vaše identitete in ta korak boste zapustili.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Da, ne preverjajte me</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Ponovno preglejte</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Med snemanjem videoposnetka bomo vklopili bliskavico naprave</string>
+	<string name="onfido_doc_video_capture_header">Ko držite dokument, držite sprednjo stran v okvirju</string>
+    <string name="onfido_doc_video_capture_header_step1">Bodite pri miru</string>
+    <string name="onfido_doc_video_capture_detail_step2">Dokument naj bo ves čas viden</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Naslednji korak</string>
+    <string name="onfido_doc_video_capture_header_passport">Medtem ko držite potni list, naj bo stran s fotografijo v okvirju</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Počasi obrnite dokument, da prikažete zunanje strani</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Snemanje videoposnetka je omejeno na %1$s sek.</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Uspelo je</string>
+	<string name="onfido_doc_video_capture_stepper">Korak %1$d od %2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">Počasi obrnite dokument, da prikažete zadnjo stran</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Predogled videoposnetka</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Končaj snemanje</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Bodite pri miru</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">Snemanje je omejeno na %1$s sekunde</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Ponovno posnemi fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Ponovno posnemi fotografijo</string>
+
+    <string name="onfido_generic_uploading">Nalaganje</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Prepričajte se, da je celoten dokument viden</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Zaznana odrezana slika</string>
+    <string name="onfido_doc_upload_progress_label">Preverjanje kakovosti slike</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">nato se obrnite naprej</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Pripravljen za skeniranje</string>
+    <string name="onfido_nfc_sheet_button_secondary">Prekliči</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skeniranje...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Telefon imejte pri miru</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Skeniranje uspešno</string>
+    <string name="onfido_nfc_permission_title">Vklopite NFC</string>
+	<string name="onfido_nfc_permission_subtitle">Ne moremo skenirati potnega lista brez NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Vklopite NFC v nastavitvah naprave</string>
+    <string name="onfido_nfc_permission_button_primary">Odprite nastavitve</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Pošlji fotografijo</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Vaš obraz in ozadje bosta zajeta med tem postopkom</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Obrnite se naprej in se prepričajte, da so vaše oči jasno vidne</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Prepričajte se, da je vse jasno</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Prepričajte se, da je ves dokument na fotografiji</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Ponovno posnemi fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Ponovno posnemi fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Ponovno posnemi fotografijo</string>
+	<string name="onfido_selfie_intro_button_primary">Posnemi selfi</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Imate %1$d sek., da končate</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Pošlji fotografijo</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Pošlji fotografijo</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Po potrebi odstranite očala</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Odstranite vse, kar vam prekriva obraz. Očala so v redu</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Poravnajte dokument, nato pritisnite gumb</string>
+    <string name="onfido_doc_select_subtitle">To mora biti uradni osebni dokument s fotografijo</string>
+    <string name="onfido_selfie_confirmation_button_primary">Naloži fotografijo</string>
+    <string name="onfido_doc_select_title">Izberite dokument</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Ponovno posnemi fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Ponovno posnemi fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Ponovno posnemi fotografijo</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Ponovno posnemi fotografijo</string>
+    <string name="onfido_video_intro_title">Posnemi videoposnetek</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Izberite drug dokument</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Obrnite glavo v levo</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Obrnite glavo v desno</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Obraz naj bo znotraj ovala, da začnete snemati</string>
+
+    <string name="onfido_app_title_doc_confirmation">Potrdite svojo identiteto</string>
+    <string name="onfido_app_title_selfie_confirmation">Potrdite svojo identiteto</string>
+    <string name="onfido_app_title_permission">Potrdite svojo identiteto</string>
+    <string name="onfido_app_title_selfie_intro">Potrdite svojo identiteto</string>
+    <string name="onfido_app_title_video_intro">Potrdite svojo identiteto</string>
+    <string name="onfido_app_title_video_confirmation">Potrdite svojo identiteto</string>
+    <string name="onfido_welcome_button_primary_doc">Izberite dokument</string>
+    <string name="onfido_welcome_button_primary">Začetek</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Obraz je zaznan. Snemanje se je pričelo.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Zaznano obračanje glave</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Slika je zajeta</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Pogled iz kamere za selfije. Obraz naj bo v ovalu, nato pa tapnite sprožilec</string>
+    <string name="onfido_video_capture_frame_accessibility">Pogled iz kamere za selfije. Obraz naj bo znotraj ovala, da začnete snemati.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Postavite zunanje strani dokumenta v okvir</string>
+    <string name="onfido_doc_capture_header_license_front">Sprednjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_license_back">Zadnjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_permit_front">Sprednjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_permit_back">Zadnjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_id_front">Sprednjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_id_back">Zadnjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Sprednjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Zadnjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_visa_front">Postavite stran dokumenta z vizumom v okvir</string>
+    <string name="onfido_doc_capture_header_generic_front">Sprednjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_generic_back">Zadnjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_header_passport">Postavite stran dokumenta s fotografijo v okvir</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Pogled s kamere. Postavite stran dokumenta s fotografijo v okvir. Vaša naprava bo zavibrirala, ko bo slika zajeta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Pogled s kamere. Sprednjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Pogled s kamere. Zadnjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Pogled s kamere. Sprednjo stran dokumenta postavite v okvir. Vaša naprava bo zavibrirala, ko bo slika zajeta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Pogled s kamere. Zadnjo stran dokumenta postavite v okvir</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Pogled s kamere. Sprednjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Pogled s kamere. Zadnjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Pogled s kamere. Sprednjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Pogled s kamere. Zadnjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Pogled s kamere. Postavite stran dokumenta s fotografijo v okvir, nato tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Pogled s kamere. Zunanjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Pogled s kamere. Postavite stran dokumenta s fotografijo v okvir, nato tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Pogled s kamere. Zunanjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Pogled s kamere. Postavite stran dokumenta s fotografijo v okvir, nato tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Pogled s kamere. Zunanjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Pogled s kamere. Postavite stran dokumenta s fotografijo v okvir, nato tapnite gumb sprožilca</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Pogled s kamere. Zunanjo stran dokumenta postavite v okvir, nato pa tapnite gumb sprožilca</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Postavite stran dokumenta s fotografijo v okvir</string>
+    <string name="onfido_video_capture_prompt_header_restart">Znova zaženi posnetek</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Če želite opraviti ta korak, mora biti vaš obraz viden ves čas snemanja.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Ponovni zagon</string>
+
+    <string name="onfido_welcome_list_header">Uporabite napravo za:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Fotografirajte osebni dokument</string>
+    <string name="onfido_welcome_list_item_doc_video">Posnemite video posnetek osebnega dokumenta</string>
+    <string name="onfido_welcome_list_item_doc_generic">Skenirajte osebni dokument</string>
+    <string name="onfido_welcome_list_item_face_photo">Fotografirajte obraz</string>
+    <string name="onfido_welcome_list_item_face_video">Posnemite videoposnetek svojega obraza</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Spodnje tri vrstice niso vidne</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Ponovi skeniranje</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Preveri brez NFC</string>
+    <string name="onfido_nfc_scan_error_title">Dokumenta ni bilo mogoče skenirati</string>
+    <string name="onfido_nfc_scan_error_list_item">Odstranite ovitek telefona</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Ko se skeniranje začne, ostanite pri miru</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Med skeniranjem ne premikajte telefona ali potnega lista</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Poskusite lahko tudi notranjost zadnje strani</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Postavite telefon na vrh potnega lista</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Telefon počasi premaknite navzdol in navzgor</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Potni list položite na ravno površino</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Ko se skeniranje začne, držite telefon pri miru</string>
+    <string name="onfido_nfc_intro_title_card">Skenirajte kartico NFC</string>
+    <string name="onfido_nfc_intro_title_passport">Skeniraj e-potni list</string>
+    <string name="onfido_nfc_intro_subtitle">Sledite spodnjim navodilom</string>
+    <string name="onfido_nfc_intro_button_primary">Začni skenirati</string>
+    <string name="onfido_nfc_intro_list_item">Kartico položite na zadnjo stran naprave</string>
+    <string name="onfido_nfc_intro_list_item_2">Počasi potisnite mobilni telefon gor in dol</string>
+    <string name="onfido_nfc_intro_list_item_3">Ko se skeniranje začne, ostanite pri miru</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Uspešno smo skenirali vaš potni list</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Uspešno smo skenirali vašo kartico</string>
+
+    <string name="onfido_nfc_select_title_passport">Pospešite postopek z NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Skenirali bomo NFC čip v vašem potnem listu</string>
+    <string name="onfido_nfc_select_body_passport">e- potni listi imajo ta simbol na naslovnici</string>
+    <string name="onfido_nfc_select_button_primary_passport">Uporabi e-potni list</string>
+    <string name="onfido_nfc_select_button_secondary_passport">To ni e-potni list</string>
+
+    <string name="onfido_nfc_select_title_card">Pospešite postopek z NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Skenirali bomo NFC čip na vaši kartici</string>
+    <string name="onfido_nfc_select_body_card">Kartice z NFC čipi imajo ta simbol</string>
+    <string name="onfido_nfc_select_button_primary_card">Uporabi kartico NFC</string>
+    <string name="onfido_nfc_select_button_secondary_card">To ni kartica NFC</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Postavite telefon blizu vrha potnega lista</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Postavite telefon na kartico</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Telefon imejte pri miru</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Izgubljen stik s kartico</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Izgubljen stik s potnim listom</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Premaknite telefon nekoliko navzgor ali navzdol</string>
+
+    <string name="onfido_enter_can_title">Vnesite CAN</string>
+    <string name="onfido_enter_can_subtitle">Prepričajte se, da se navedena številka ujema s številko na dokumentu.</string>
+    <string name="onfido_enter_can_button_primary">Nadaljuj</string>
+    <string name="onfido_enter_can_disclaimer">Najdete jo lahko na sprednji strani dokumenta. Je %d-mestna in nekoliko večja po velikosti.</string>
+    <string name="onfido_enter_can_error_label">Na voljo imate še %d %s.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">poskus</string>
+    <string name="onfido_enter_can_substring_attempt_plural">poskusov</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Pogled s kamere. Postavite telefon na sprednjo stran dokumenta, nato pa ga počasi odmaknite od njega v ravni liniji.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Držite telefon nad dokumentom</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Dokument ni najden. Držite telefon nad dokumentom.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Dokument je preblizu</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Dokument je preblizu kamere</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Dokument je predaleč</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Dokument je predaleč od kamere</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Premaknite levo</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Premaknite napravo v levo</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Premaknite desno</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Premaknite napravo v desno</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Premaknite gor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Premaknite napravo navzgor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Premaknite gor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Napravo rahlo premaknite navzgor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Premaknite navzdol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Premaknite napravo navzdol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Premaknite navzdol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Napravo rahlo premaknite navzdol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Bodite pri miru, da zajamete</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Ne premikajte se, da zajamete sliko</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Držite telefon nad sprednjo stranjo dokumenta</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Držite telefon nad hrbtno stranjo dokumenta</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Pogled s kamere. Postavite telefon na zadnjo stran dokumenta, nato pa ga počasi odmaknite od njega v ravni liniji.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Držite telefon nad stranjo potnega lista s fotografijo</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Pogled s kamere. Postavite telefon na stran potnega lista s fotografijo, nato pa počasi odmaknite telefon od njega v ravni liniji.</string>
+	<string name="onfido_doc_capture_header_capturing">Bodite pri miru</string>
+
+	<string name="onfido_avc_intro_title">Posnemi videoposnetek</string>
+	<string name="onfido_avc_intro_subtitle">S tem se preveri, ali ste resnična oseba</string>
+	<string name="onfido_avc_intro_list_item_one">Najprej postavite obraz v okvir</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Najprej boste morali postaviti obraz pred napravo</string>
+	<string name="onfido_avc_intro_list_item_two">Nato glavo počasi obrnite na obe strani</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Potem boste morali počasi obrniti glavo na obe strani</string>
+	<string name="onfido_avc_intro_disclaimer">Ne pozabite, da bomo posneli vaš obraz in ozadje</string>
+	<string name="onfido_avc_intro_button_primary_ready">Začni s snemanjem</string>
+	<string name="onfido_avc_face_alignment_title">Postavite obraz v okvir</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Približajte se</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Oddaljite se</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Obraz ni zaznan</string>
+    <string name="onfido_avc_face_capture_title">Glavo počasi obrnite na obe strani</string>
+    <string name="onfido_avc_face_capture_title_completed">Snemanje končano</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Žal moramo ponovno začeti snemanje</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Imate do 15 sekund, da dokončate posnetek</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Poskusite znova</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Prehitro ste obrnili glavo</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Poskusite znova in počasneje obrnite glavo</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Poskusite znova</string>
+	<string name="onfido_avc_no_face_detected_title">Ne moremo zaznati vašega obraza</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Poskrbite, da boste na dobro osvetljenem mestu</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Prepričajte se, da so vaše oči jasno vidne</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Ne pozabite odstraniti mask ali drugih predmetov, ki prekrivajo vaš obraz. Očala so v redu</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Ne pozabite pokazati svojega obraza, ni nam treba videti vašega osebnega dokumenta</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Pokažite le obraz, nam ni treba videti vašega osebnega dokumenta</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Ponovni zagon snemanja</string>
+	<string name="onfido_avc_confirmation_title">Snemanje končano</string>
+	<string name="onfido_avc_confirmation_subtitle">Videoposnetek vašega obraza je bil uspešno posnet</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Naloži posnetek</string>
+	<string name="onfido_avc_connection_error_title">Napaka pri povezavi</string>
+	<string name="onfido_avc_connection_error_subtitle">Preverite, ali je vaša povezava stabilna, nato poskusite znova</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Obraz ni centriran</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Poskusite znova prenesti</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Ponovni zagon snemanja</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Posnemite videoposnetek svojega obraza</string>
+	<string name="onfido_avc_intro_video_accessibility">Primer videoposnetka, ko nekdo obrne glavo na obe strani do zaključka</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Še naprej obračajte glavo</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Obrnite glavo na drugo stran</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Pogled iz kamere za selfije</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Leva stran je končana</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Desna stran je končana</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Glavo počasi obrnite na obe strani. Ko bo stran končana, boste slišali potrditev in začutili vibracijo</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Snemanje se je pričelo</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Postavite obraz pred napravo</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Obraz ni zaznan. Postavite obraz pred napravo</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Obraz je poravnan</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Obraz ni poravnan</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Približajte napravo</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Oddaljite napravo</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Premaknite napravo v levo</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Premaknite napravo v desno</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Premaknite napravo navzgor</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Premaknite napravo navzdol</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Začni s preverjanjem</string>
+	<string name="onfido_poa_intro_title">Potrdimo vaš naslov</string>
+	<string name="onfido_poa_intro_subtitle">Potrebovali boste dokument, ki:</string>
+	<string name="onfido_poa_intro_list_shows_address">Prikazuje vaš trenutni naslov</string>
+	<string name="onfido_poa_intro_list_matches_signup">Ustreza naslovu, ki ste ga uporabili pri registraciji</string>
+	<string name="onfido_poa_intro_list_most_recent">Je vaš najnovejši dokument</string>
+	<string name="onfido_poa_type_selection_title_uk">Izberite dokument Združenega kraljestva</string>
+	<string name="onfido_poa_type_selection_title">Izberite dokument</string>
+	<string name="onfido_doc_select_subtitle_poa">To so dokumenti, ki bodo najverjetneje prikazali vaš trenutni domači naslov</string>
+	<string name="onfido_doc_select_button_bank_statement">Izpisek banke ali hranilnice</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Bančni izpisek</string>
+	<string name="onfido_doc_select_extra_estatements_ok">sprejeti e-izpiski</string>
+	<string name="onfido_doc_select_button_bill">Račun za komunalne storitve</string>
+    <string name="onfido_doc_select_button_tax_letter">Obvestilo o lokalnem davku</string>
+	<string name="onfido_doc_select_button_benefits_letter">Pismo o prejemkih</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Vladno odobreni gospodinjski prejemki npr. Dodatek za iskalca zaposlitve, stanovanjska dajatev, davčne olajšave</string>
+    <string name="onfido_doc_select_button_address_card">Izkaznica z naslovom</string>
+    <string name="onfido_doc_select_button_address_card_detail">Sprejemajo se začasne in stalne izkaznice</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Izdano mora biti v zadnjih 3 mesecih</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Izdano mora biti v zadnjih 3 mesecih</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Izdano mora biti v zadnjih 12 mesecih</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Izdano mora biti v zadnjih 12 mesecih</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Biti mora veljavna izkaznica z naslovom</string>
+	<string name="onfido_poa_guidance_instructions_label">Zajemite celoten dokument in se prepričajte, da jasno prikazuje:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logotip</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Ime in priimek</string>
+	<string name="onfido_poa_guidance_instructions_address">Trenutni naslov</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Datum izdaje ali zbirno obdobje</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Polni naslov</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Datum izdaje</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Datum izteka veljavnosti, če je primerno</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Naloži</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Posnemite fotografijo</string>
+	<string name="onfido_poa_select_document_details_upload_text">Izberite dokument iz</string>
+	<string name="onfido_poa_capture_confirm">Pošlji dokument</string>
+	<string name="onfido_poa_capture_choose_another">Izberite drugo</string>
+	<string name="onfido_poa_capture_redo">Ponovno posnemi fotografijo</string>
+	<string name="onfido_doc_confirmation_body">Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno berljive, brez zamegljenosti ali bleščanja</string>
+	<string name="onfido_poa_capture_enlarge">Povečaj dokument</string>
+	<string name="onfido_poa_capture_enlarge_move">Premikajte se z enim prstom. Stisnite za povečavo.</string>
+	<string name="onfido_poa_capture_enlarge_close">Zapri</string>
+	<string name="onfido_poa_capture_instructions">Sprednja stran dokumenta z naslovom</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Neveljavna datoteka</string>
+	<string name="onfido_poa_err_invalid_file_message">Izberite drugo datoteko.</string>
+	<string name="onfido_poa_err_invalid_file_ok">V redu</string>
+    <string name="onfido_poa_welcome_text">Fotografirajte dokument z vašim naslovom</string>
+	<string name="onfido_country_select_error_no_country_body">Trudimo se dodati več držav na seznam. Medtem pa poskusite uporabiti nadomestni dokument.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Žal brez računov za mobilne telefone</string>
+	<string name="onfido_doc_select_button_bill_detail">Plin, elektrika, voda, fiksna ali širokopasovna povezava</string>
+
+	<string name="onfido_doc_select_subtitle_country">Izberite državo izdajateljico, da vidite, katere dokumente sprejemamo</string>
+	<string name="onfido_doc_select_section_header_country">Država izdajateljica</string>
+	<string name="onfido_doc_select_section_header_doc_type">Sprejeti dokumenti</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Ni rezultatov</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Cela stran</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Stran s fotografijo</string>
+	<string name="onfido_doc_select_subtitle_front_back">Spredaj in zadaj</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Izberite državo izdajateljico</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Med tem postopkom bodo posneti vaš obraz, ozadje in zvok</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Vaš mikrofon uporablja druga aplikacija</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Med snemanjem prekinite vse tekoče klice ali dejavnosti, ki uporabljajo vaš mikrofon</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Poskusite znova</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Poskusite znova</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Zvočni posnetek predvaja druga aplikacija</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Med snemanjem na napravi ne predvajajte nobenega zvočnega posnetka</string>
+</resources>

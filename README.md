@@ -681,41 +681,42 @@ The SDK supports and maintains the following 44 languages:
 - Arabic: ar
 - Armenian: hy
 - Bulgarian: bg
-- Chinese (Simplified): zh_Hans
-- Chinese (Traditional): zh_Hant
+- Chinese (Simplified): zh_rCN
+- Chinese (Traditional): zh_rTW
 - Croatian: hr
 - Czech: cs
 - Danish: da🇰
 - Dutch: nl🇱
-- English (United Kingdom): en_GB
-- English (United States): en_US
+- English (United Kingdom): en_rGB
+- English (United States): en_rUS
 - Estonian: et
 - Finnish: fi
-- French (Canadian): fr_CA
+- French (Canadian): fr_rCA
 - French: fr
 - German: de
 - Greek: el
-- Hebrew: he
+- Hebrew: iw
 - Hindi: hi
 - Hungarian: hu
-- Indonesian: id
+- Indonesian: in
 - Italian: it
 - Japanese: ja
 - Korean: ko
 - Latvian: lv
 - Lithuanian: lt
 - Malay: ms
-- Norwegian: nb
+- Norwegian bokmål: nb
+- Norwegian nynorsk: nn
 - Persian: fa
 - Polish: pl
-- Portuguese (Brazil): pt_BR
+- Portuguese (Brazil): pt_rBR
 - Portuguese: pt
 - Romanian: ro
 - Russian: ru
-- Serbian: sr_Latn
+- Serbian: sr
 - Slovak: sk
 - Slovenian: sl
-- Spanish (Latin America): es_419
+- Spanish (Latin America): es_rUS
 - Spanish: es
 - Swedish: sv
 - Thai: th
@@ -819,11 +820,12 @@ For live videos the callback returns a `LivenessResult` object:
 }
 ```
 
-The `MediaFile` object contains the raw data and MIME type of the captured photo or video.
+The `MediaFile` object contains the raw data, and file type and the file name of the captured photo or video.
 ```json5
 {
   fileData: ByteArray,
-  fileType: String
+  fileType: String,
+  fileName: String
 }
 ```
 ##### Create a check with Onfido

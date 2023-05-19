@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">บัตรประจำตัวประชาชนอิตาลี</string>
+    <string name="onfido_app_title_doc_capture_id_za">บัตรประจำตัวประชาชนแอฟริกาใต้</string>
+    <string name="onfido_app_title_doc_capture_license_de">ใบขับขี่เยอรมนี</string>
+    <string name="onfido_app_title_doc_capture_license_fr">ใบขับขี่ฝรั่งเศส</string>
+    <string name="onfido_doc_capture_prompt_button_paper">เอกสารกระดาษ</string>
+    <string name="onfido_doc_capture_prompt_button_card">บัตรพลาสติก</string>
+    <string name="onfido_doc_capture_prompt_title_license">คุณมีใบอนุญาตประเภทใด?</string>
+    <string name="onfido_doc_capture_prompt_title_id">คุณมีบัตรประจำตัวประเภทใด?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">วางเอกสารของคุณให้ราบเรียบ โดยให้เห็นหน้าด้านในทั้งหมด (ต้องมีรูปภาพของคุณด้วย)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">วางเอกสารของคุณให้ราบเรียบ โดยให้เห็นหน้าด้านนอกทั้งหมด</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">เช็คให้แน่ใจว่าคุณคลี่เอกสารออกหมดแล้ว และเห็นรูปถ่ายอย่างชัดเจน</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">ขอบคุณ</string>
+    <string name="onfido_outro_body">เพียงเท่านี้เราก็จะเริ่มยืนยันตัวตนของคุณได้</string>
+    <string name="onfido_continue">ดำเนินการต่อ</string>
+    <string name="onfido_video_intro_button_primary">บันทึกวิดีโอ</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">กำลังโหลด</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">หนังสือเดินทาง</string>
+    <string name="onfido_doc_select_button_visa">วีซ่า</string>
+    <string name="onfido_doc_select_button_license">ใบอนุญาตขับขี่</string>
+	<string name="onfido_doc_select_button_id">บัตรประจำตัวประชาชน</string>
+    <string name="onfido_doc_select_button_permit">ใบอนุญาตพำนักอาศัย</string>
+	<string name="onfido_doc_select_button_permit_work">ใบอนุญาตทำงาน</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">ยืนยันตัวตน</string>
+    <string name="onfido_app_title_doc_select">ยืนยันตัวตน</string>
+    <string name="onfido_welcome_title">ยืนยันตัวตน</string>
+    <string name="onfido_welcome_subtitle">น่าจะใช้เวลาสักครู่</string>
+	<string name="onfido_selfie_capture_button_accessibility">ชัตเตอร์</string>
+    <string name="onfido_selfie_intro_title">ถ่ายเซลฟี่</string>
+    <string name="onfido_app_title_country_select">เลือกประเทศที่ออกเอกสาร</string>
+	<string name="onfido_country_select_bottom_sheet_title">ไม่พบประเทศของคุณใช่ไหม?</string>
+    <string name="onfido_country_select_bottom_sheet_details">ดูเหมือนว่าระบบจะไม่รองรับประเทศของเอกสารที่คุณเลือก โปรดเลือกประเทศอื่น</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">ปิด</string>
+    <string name="onfido_selfie_intro_subtitle">เราจะเปรียบเทียบรูปนี้กับเอกสารของคุณ</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">วางใบหน้าของคุณให้อยู่ในกรอบรูปไข่</string>
+    <string name="onfido_video_capture_prompt_button_timeout">ลองอีกครั้ง</string>
+    <string name="onfido_generic_error_camera_unavailable">อุปกรณ์นี้ไม่มีกล้อง</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">กล้องไม่พร้อมใช้งาน อาจมีแอปพลิเคชันอื่นที่ใช้พร้อมกันอยู่</string>
+    <string name="onfido_selfie_confirmation_body">เช็คให้แน่ใจว่ามองเห็นทั้งใบหน้าของคุณได้ชัดเจน</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_title">ไม่พบเอกสาร</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">ไม่พบใบหน้า</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">พบหลายใบหน้า</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">รูปเซลฟี่ต้องมีเฉพาะใบหน้าของคุณ</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">บริการไม่พร้อมใช้</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">ขออภัย ดูเหมือนว่าเราดำเนินการต่อไม่ได้ เนื่องจากระบบไม่รองรับตำแหน่งปัจจุบันของคุณ</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">เช็คให้แน่ใจว่ามองเห็นใบหน้าของคุณได้ชัดเจน</string>
+	<string name="onfido_generic_error_face_capture">จับภาพใบหน้าไม่สำเร็จ โปรดลองอีกครั้ง</string>
+	<string name="onfido_generic_error_doc_capture">จับภาพเอกสารไม่สำเร็จ โปรดลองอีกครั้ง</string>
+	<string name="onfido_generic_error_video_capture">จับภาพวิดีโอไม่สำเร็จ โปรดลองอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_body_generic">เช็คให้แน่ใจว่ารายละเอียดชัดเจนและไม่มีอะไรกีดขวาง</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">ตรวจพบแสงสะท้อน</string>
+	<string name="onfido_doc_capture_alert_glare_detail">เลื่อนไม่ให้มีแสงส่องโดยตรง</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">ส่งการยืนยัน</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">ข้อผิดพลาด</string>
+    <string name="onfido_generic_error_network_title">การเชื่อมต่อขาด</string>
+    <string name="onfido_generic_error_network_detail">เกิดข้อผิดพลาดในเครือข่าย โปรดตรวจสอบการเชื่อมต่อของคุณ</string>
+    <string name="onfido_generic_error_detail">มีบางอย่างผิดปกติ โปรดลองอีกครั้งในภายหลัง</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">เราต้องการการจับภาพแบบสดเพื่อความปลอดภัย</string>
+    <string name="onfido_video_intro_list_item_move_speak">ทำตามคำแนะนำในการขยับหรือพูด</string>
+    <string name="onfido_video_intro_loader">กำลังโหลดตัวอย่าง</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">พูดตัวเลขแต่ละตัวออกมาดังๆ</string>
+    <string name="onfido_video_capture_prompt_title_timeout">ดูเหมือนว่าคุณใช้เวลานานเกินไป</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">อย่าลืมกดปุ่มเมื่อคุณทำเสร็จแล้ว</string>
+    <string name="onfido_video_confirmation_button_secondary">ถ่ายวิดีโออีกครั้ง</string>
+	<string name="onfido_video_confirmation_button_primary">ส่งวิดีโอ</string>
+	<string name="onfido_video_confirmation_error_no_video">ไม่พบวิดีโอบนอุปกรณ์ของคุณ โปรดถ่ายอีกครั้ง</string>
+    <string name="onfido_video_capture_error_storage_title">อุปกรณ์ของคุณเต็มแล้ว</string>
+    <string name="onfido_video_capture_error_storage_detail">เพิ่มพื้นที่เก็บข้อมูลและบันทึกวิดีโอของคุณอีกครั้ง</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">เปิดเสียง</string>
+    <string name="onfido_video_capture_button_primary_start">เริ่มบันทึก</string>
+    <string name="onfido_video_capture_button_primary_finish">ยุติการบันทึก</string>
+    <string name="onfido_video_capture_button_primary_fallback">ขั้นตอนถัดไป</string>
+	<string name="onfido_video_confirmation_error_media_player">เกิดข้อผิดพลาดกับวิดีโอของคุณ โปรดถ่ายอีกครั้ง</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">โหลดอีกครั้ง</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">โหลดวิดีโอตัวอย่างอีกครั้ง</string>
+    <string name="onfido_video_intro_error_network">โหลดไม่ได้เนื่องจากเครือข่ายไม่เสถียร</string>
+    <string name="onfido_video_intro_error_network_accessibility">โหลดวิดีโอตัวอย่างไม่ได้ เนื่องจากเครือข่ายไม่เสถียร</string>
+	<string name="onfido_video_intro_error_load_offline">โหลดไม่ได้เนื่องจากคุณออฟไลน์อยู่</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">ประเทศที่แนะนำ</string>
+    <string name="onfido_country_select_list_header_all">ทุกประเทศ</string>
+    <string name="onfido_app_title_country_select_search">ค้นหา</string>
+    <string name="onfido_country_select_error_no_country_title">ไม่พบประเทศ</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">ลองถ่ายรูปด้วยตนเอง</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">ตรวจพบรูปภาพเบลอ</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">ไม่พบบาร์โค้ด</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">อยู่ในที่ที่มีแสงสว่างเพียงพอ และนำบัตรมาใกล้ๆ กล้อง</string>
+    <string name="onfido_permission_recovery_button_primary">เปิดใช้งานในการตั้งค่า</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">อนุญาตให้เข้าถึงกล้อง</string>
+    <string name="onfido_permission_subtitle_cam">เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงกล้องเพื่อดำเนินการต่อ</string>
+	<string name="onfido_permission_body_cam">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้อง</string>
+    <string name="onfido_permission_button_primary_cam">เปิดใช้งานกล้อง</string>
+	<string name="onfido_permission_recovery_subtitle_cam">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้อง</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงกล้องสำหรับแอปนี้</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">คุณกู้คืนสิทธิ์การเข้าถึงกล้องได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
+
+    <string name="onfido_permission_recovery_title_cam">การเข้าถึงกล้องถูกปฏิเสธ</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">อนุญาตให้เข้าถึงไมโครโฟน</string>
+    <string name="onfido_permission_subtitle_mic">เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงไมโครโฟนเพื่อดำเนินการต่อ</string>
+    <string name="onfido_permission_button_primary_mic">เปิดใช้งานไมโครโฟน</string>
+    <string name="onfido_permission_recovery_title_mic">การเข้าถึงไมโครโฟนถูกปฏิเสธ</string>
+    <string name="onfido_permission_body_mic">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้ไมโครโฟน</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">คุณกู้คืนสิทธิ์การเข้าถึงไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงไมโครโฟนสำหรับแอปนี้</string>
+    <string name="onfido_permission_recovery_subtitle_mic">เรายืนยันตัวตนคุณไม่ได้ หากไม่มีไมโครโฟน</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">อนุญาตให้เข้าถึงกล้องและไมโครโฟน</string>
+    <string name="onfido_permission_subtitle_both">เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงสำหรับทั้งคู่เพื่อดำเนินการต่อ</string>
+    <string name="onfido_permission_recovery_title_both">การเข้าถึงกล้องและไมโครโฟนถูกปฏิเสธ</string>
+    <string name="onfido_video_capture_alert_wrong_side">ผิดข้าง</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">โหลดคำแนะนำอีกครั้ง</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">การเชื่อมต่อหมดเวลา</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง</string>
+	<string name="onfido_generic_back">ย้อนกลับ</string>
+    <string name="onfido_permission_body_both">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้องและไมโครโฟน</string>
+    <string name="onfido_permission_button_primary_both">เปิดใช้งานทั้ง 2 อย่าง</string>
+	<string name="onfido_permission_recovery_subtitle_both">เรายืนยันตัวตนคุณไม่ได้ หากไม่มีกล้องและไมโครโฟน</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">คุณกู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
+    <string name="onfido_permission_recovery_list_item_action_both">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงทั้งกล้องและไมโครโฟนสำหรับแอปนี้</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">ตัวอย่างวิดีโอแสดงคนที่กำลังบันทึกวิดีโอเซลฟี่ วิธีบันทึกวิดีโอเซลฟี่ ให้หันหน้าไปทางกล้องหน้าและถือโทรศัพท์ให้ห่างจากใบหน้าเล็กน้อย จากนั้นคุณจะต้องพูดตัวเลข และหันศีรษะของคุณไปตามคำแนะนำบนหน้าจอ</string>
+    <string name="onfido_doc_capture_frame_accessibility">ดูจากกล้อง</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">รูปถ่ายใบหน้าของคุณ</string>
+	<string name="onfido_doc_confirmation_image_accessibility">รูปถ่ายเอกสารของคุณ</string>
+    <string name="onfido_video_confirmation_body">บันทึกวิดีโอของคุณแล้ว</string>
+	<string name="onfido_video_confirmation_video_accessibility">ดูตัวอย่างวิดีโอที่บันทึกไว้ของคุณ</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">คุณควรจะได้ยินตัวเองพูดว่า: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">คุณควรจะเห็นตัวเองหันศีรษะไปทาง %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">จากนั้นก็</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">ซ้าย</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">ขวา</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">เล่นหรือหยุดชั่วคราว</string>
+	<string name="onfido_doc_capture_button_accessibility">ถ่ายภาพ</string>
+    <string name="onfido_video_intro_button_pause_accessibility">หยุดวิดีโอชั่วคราว</string>
+    <string name="onfido_video_intro_button_play_accessibility">เล่นวิดีโอ</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">ไม่เห็น 2 บรรทัดด้านล่าง</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">เช็คให้แน่ใจว่าเห็นเอกสารทั้งหน้า</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">ยอมรับ</string>
+    <string name="onfido_user_consent_button_secondary">ไม่ยอมรับ</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">แน่ใจใช่ไหม</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">หากคุณไม่ยอมรับนโยบายความเป็นส่วนตัวและข้อกำหนดในการให้บริการของ Onfido เราจะไม่สามารถยืนยันตัวตนของคุณได้ และคุณจะออกจากขั้นตอนนี้</string>
+    <string name="onfido_user_consent_prompt_button_primary">ใช่ ไม่ต้องยืนยันตัวตนฉัน</string>
+    <string name="onfido_user_consent_prompt_button_secondary">ตรวจสอบอีกครั้ง</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">เราจะเปิดแฟลชอุปกรณ์ของคุณระหว่างบันทึกวิดีโอ</string>
+	<string name="onfido_doc_video_capture_header">ถือเอกสารของคุณโดยให้ด้านหน้าอยู่ในกรอบ</string>
+    <string name="onfido_doc_video_capture_header_step1">ตอนนี้ก็อยู่นิ่งๆ</string>
+    <string name="onfido_doc_video_capture_detail_step2">ให้เอกสารอยู่ในมุมที่เห็นได้ทั้งหมดตลอดเวลา</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">ขั้นตอนถัดไป</string>
+    <string name="onfido_doc_video_capture_header_passport">ถือหนังสือเดินทางโดยให้หน้ารูปถ่ายอยู่ในกรอบ</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">ค่อยๆ พลิกเอกสารของคุณเพื่อแสดงหน้าด้านนอก</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">บันทึกวิดีโอได้ไม่เกิน %1$s วินาที</string>
+    <string name="onfido_doc_video_capture_success_accessibility">สำเร็จ</string>
+	<string name="onfido_doc_video_capture_stepper">ขั้นตอนที่ %1$d จาก %2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">ค่อยๆ พลิกเอกสารของคุณเพื่อแสดงด้านหลัง</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">ดูตัวอย่างวิดีโอ</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">ยุติการบันทึก</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">อยู่นิ่งๆ</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">การบันทึกถูกจำกัดไว้ที่%1$sวินาที</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">ถ่ายรูปอีกครั้ง</string>
+
+    <string name="onfido_generic_uploading">กำลังอัปโหลด</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">เช็คให้แน่ใจว่ามองเห็นเอกสารทั้งหน้าอย่างชัดเจน</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">ตรวจพบภาพถูกตัด</string>
+    <string name="onfido_doc_upload_progress_label">กำลังตรวจสอบคุณภาพของภาพ</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">แล้วหันหน้าไปข้างหน้า</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">พร้อมสแกน</string>
+    <string name="onfido_nfc_sheet_button_secondary">ยกเลิก</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">กำลังสแกน...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">ถือโทรศัพท์ไว้นิ่งๆ</string>
+    <string name="onfido_nfc_sheet_success_subtitle">สแกนสำเร็จ</string>
+    <string name="onfido_nfc_permission_title">เปิด NFC</string>
+	<string name="onfido_nfc_permission_subtitle">เราสแกนหนังสือเดินทางของคุณไม่ได้หากไม่มี NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">เปิด NFC จากการตั้งค่าอุปกรณ์ของคุณ</string>
+    <string name="onfido_nfc_permission_button_primary">เปิดการตั้งค่า</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">ส่งรูปภาพ</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">ใบหน้าและพื้นหลังของคุณจะถูกบันทึกไว้ในขั้นตอนนี้</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">มองตรงไปข้างหน้าและเช็คให้แน่ใจว่าเห็นดวงตาของคุณได้อย่างชัดเจน</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_button_primary_license">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">เช็คให้แน่ใจว่าทุกอย่างชัดเจน</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">เช็คให้แน่ใจว่าเอกสารทั้งหมดอยู่ในรูปถ่าย</string>
+    <string name="onfido_selfie_confirmation_button_secondary">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">ถ่ายรูปอีกครั้ง</string>
+	<string name="onfido_selfie_intro_button_primary">ถ่ายเซลฟี่</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">คุณมีเวลา %1$d วินาทีเพื่อทำให้เสร็จ</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">ส่งรูปภาพ</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">ส่งรูปภาพ</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">ถอดแว่นตาออก หากจำเป็น</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">ถอดสิ่งที่คลุมหน้าออกไป แต่สวมแว่นสายตาได้</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">จัดเรียงเอกสาร แล้วกดปุ่ม</string>
+    <string name="onfido_doc_select_subtitle">ต้องเป็นบัตรประจำตัวอย่างเป็นทางการที่มีรูปถ่าย</string>
+    <string name="onfido_selfie_confirmation_button_primary">อัปโหลดรูปภาพ</string>
+    <string name="onfido_doc_select_title">เลือกเอกสารของคุณ</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">ถ่ายรูปอีกครั้ง</string>
+    <string name="onfido_video_intro_title">บันทึกวิดีโอ</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">เลือกเอกสารอื่น</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">หันศีรษะไปทางซ้าย</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">หันศีรษะไปทางขวา</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">วางใบหน้าของคุณไว้ในกรอบรูปไข่เพื่อเริ่มบันทึก</string>
+
+    <string name="onfido_app_title_doc_confirmation">ยืนยันตัวตน</string>
+    <string name="onfido_app_title_selfie_confirmation">ยืนยันตัวตน</string>
+    <string name="onfido_app_title_permission">ยืนยันตัวตน</string>
+    <string name="onfido_app_title_selfie_intro">ยืนยันตัวตน</string>
+    <string name="onfido_app_title_video_intro">ยืนยันตัวตน</string>
+    <string name="onfido_app_title_video_confirmation">ยืนยันตัวตน</string>
+    <string name="onfido_welcome_button_primary_doc">เลือกเอกสาร</string>
+    <string name="onfido_welcome_button_primary">เริ่ม</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">ตรวจพบใบหน้า เริ่มบันทึกแล้ว</string>
+    <string name="onfido_video_capture_turn_success_accessibility">ตรวจพบการหันศีรษะ</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">จับภาพแล้ว</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">ดูจากกล้องหน้า วางใบหน้าของคุณไว้ในกรอบรูปไข่ จากนั้นแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_video_capture_frame_accessibility">ดูจากกล้องหน้า วางใบหน้าของคุณไว้ในกรอบรูปไข่เพื่อเริ่มบันทึก</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">วางหน้าด้านนอกของเอกสารคุณให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_license_front">วางด้านหน้าเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_license_back">วางด้านหลังเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_permit_front">วางด้านหน้าเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_permit_back">วางด้านหลังเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_id_front">วางด้านหน้าเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_id_back">วางด้านหลังเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_permit_work_front">วางด้านหน้าเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_permit_work_back">วางด้านหลังเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_visa_front">วางหน้าที่มีวีซ่าของคุณให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_generic_front">วางด้านหน้าเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_generic_back">วางด้านหลังเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_header_passport">วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">ดูจากกล้อง วางหน้าที่มีรูปของคุณให้อยู่ในกรอบ อุปกรณ์ของคุณจะสั่นเมื่อจับภาพแล้ว</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">ดูจากกล้อง วางด้านหลังเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ อุปกรณ์ของคุณจะสั่นเมื่อจับภาพแล้ว</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">ดูจากกล้อง วางด้านหลังเอกสารให้อยู่ในกรอบ</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">ดูจากกล้อง วางด้านหลังเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">ดูจากกล้อง วางด้านหน้าเอกสารให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">ดูจากกล้อง วางด้านหลังเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">ดูจากกล้อง วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">ดูจากกล้อง วางหน้าด้านนอกเอกสารของคุณให้อยู่ในกรอบ แล้วแตะปุ่มชัตเตอร์</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">วางเอกสารด้านที่มีรูปของคุณให้อยู่ในกรอบ</string>
+    <string name="onfido_video_capture_prompt_header_restart">รีสตาร์ทการบันทึก</string>
+    <string name="onfido_video_capture_prompt_detail_restart">คุณต้องถ่ายให้เห็นใบหน้าของคุณตลอดการบันทึก จึงจะผ่านขั้นตอนนี้</string>
+    <string name="onfido_video_capture_prompt_button_restart">เริ่มต้นอีกครั้ง</string>
+
+    <string name="onfido_welcome_list_header">ใช้อุปกรณ์ของคุณ:</string>
+    <string name="onfido_welcome_list_item_doc_photo">ถ่ายรูปเอกสารยืนยันตัวตนของคุณ</string>
+    <string name="onfido_welcome_list_item_doc_video">บันทึกวิดีโอเอกสารยืนยันตัวตนของคุณ</string>
+    <string name="onfido_welcome_list_item_doc_generic">สแกนเอกสารยืนยันตัวตนของคุณ</string>
+    <string name="onfido_welcome_list_item_face_photo">ถ่ายรูปใบหน้าของคุณ</string>
+    <string name="onfido_welcome_list_item_face_video">บันทึกวิดีโอใบหน้าของคุณ</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">มองไม่เห็น 3 บรรทัดด้านล่าง</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">ลองสแกนอีกครั้ง</string>
+    <string name="onfido_nfc_scan_error_button_secondary">รับการตรวจสอบโดยไม่มี NFC</string>
+    <string name="onfido_nfc_scan_error_title">เราสแกนเอกสารของคุณไม่ได้</string>
+    <string name="onfido_nfc_scan_error_list_item">ถอดเคสโทรศัพท์ออก</string>
+    <string name="onfido_nfc_scan_error_list_item_2">ให้อยู่นิ่งๆ เมื่อเริ่มสแกน</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">อย่าเลื่อนโทรศัพท์หรือหนังสือเดินทางขณะสแกน</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">คุณยังลองด้านในของหน้าหลังได้ด้วย</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">วางโทรศัพท์ไว้บนหนังสือเดินทาง</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">ค่อยๆ เลื่อนโทรศัพท์ของคุณลงและขึ้นช้าๆ</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">วางหนังสือเดินทางของคุณบนพื้นผิวราบ</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">ถือโทรศัพท์ของคุณไว้นิ่งๆ เมื่อเริ่มสแกน</string>
+    <string name="onfido_nfc_intro_title_card">สแกนบัตร NFC ของคุณ</string>
+    <string name="onfido_nfc_intro_title_passport">สแกนหนังสือเดินทางอิเล็กทรอนิกส์ของคุณ</string>
+    <string name="onfido_nfc_intro_subtitle">ทำตามคำแนะนำด้านล่าง</string>
+    <string name="onfido_nfc_intro_button_primary">เริ่มสแกน</string>
+    <string name="onfido_nfc_intro_list_item">วางบัตรไว้ที่ด้านหลังอุปกรณ์</string>
+    <string name="onfido_nfc_intro_list_item_2">ค่อยๆ เลื่อนโทรศัพท์ขึ้นและลง</string>
+    <string name="onfido_nfc_intro_list_item_3">ให้อยู่นิ่งๆ เมื่อเริ่มสแกน</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">เราสแกนหนังสือเดินทางของคุณเรียบร้อยแล้ว</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">เราสแกนบัตรของคุณเรียบร้อยแล้ว</string>
+
+    <string name="onfido_nfc_select_title_passport">ยืนยันได้เร็วขึ้นด้วย NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">เราจะสแกนชิป NFC ในหนังสือเดินทางของคุณ</string>
+    <string name="onfido_nfc_select_body_passport">หนังสือเดินทางอิเล็กทรอนิกส์จะมีสัญลักษณ์นี้บนหน้าปก</string>
+    <string name="onfido_nfc_select_button_primary_passport">ใช้หนังสือเดินทางอิเล็กทรอนิกส์</string>
+    <string name="onfido_nfc_select_button_secondary_passport">เอกสารนี้ไม่ใช่หนังสือเดินทางอิเล็กทรอนิกส์</string>
+
+    <string name="onfido_nfc_select_title_card">ยืนยันได้เร็วขึ้นด้วย NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">เราจะสแกนชิป NFC ในบัตรของคุณ</string>
+    <string name="onfido_nfc_select_body_card">บัตรที่มีชิป NFC จะมีสัญลักษณ์นี้</string>
+    <string name="onfido_nfc_select_button_primary_card">ใช้บัตรที่มี NFC</string>
+    <string name="onfido_nfc_select_button_secondary_card">บัตรไม่มี NFC</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">วางโทรศัพท์ไว้ใกล้ๆ ด้านบนของหนังสือเดินทาง</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">วางโทรศัพท์ของคุณไว้บนบัตร</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">ถือโทรศัพท์ไว้นิ่งๆ</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">ขาดการติดต่อกับบัตร</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">ขาดการติดต่อกับหนังสือเดินทาง</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">เลื่อนโทรศัพท์ขึ้นหรือลงเล็กน้อย</string>
+
+    <string name="onfido_enter_can_title">กรอก CAN</string>
+    <string name="onfido_enter_can_subtitle">โปรดเช็คให้แน่ใจว่าหมายเลขที่กรอกตรงกับหมายเลขบนเอกสาร</string>
+    <string name="onfido_enter_can_button_primary">ดำเนินการต่อ</string>
+    <string name="onfido_enter_can_disclaimer">ดูได้ที่ด้านหน้าเอกสารของคุณ โดยจะเป็นหมายเลข %d หลักที่มีขนาดใหญ่กว่าเล็กน้อย</string>
+    <string name="onfido_enter_can_error_label">คุณลองได้อีก %d %s</string>
+    <string name="onfido_enter_can_substring_attempt_singular">ครั้ง</string>
+    <string name="onfido_enter_can_substring_attempt_plural">ครั้ง</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่ด้านหน้าของเอกสาร จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากเอกสารเป็นเส้นตรง</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">ถือโทรศัพท์ไว้เหนือเอกสาร</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">ไม่พบเอกสาร ถือโทรศัพท์ไว้เหนือเอกสาร</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">เอกสารอยู่ใกล้เกินไป</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">เอกสารอยู่ใกล้กล้องเกินไป</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">เอกสารอยู่ไกลเกินไป</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">เอกสารอยู่ห่างจากกล้องเกินไป</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">เลื่อนไปทางซ้าย</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">เลื่อนอุปกรณ์ของคุณไปทางซ้าย</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">เลื่อนไปทางขวา</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">เลื่อนอุปกรณ์ของคุณไปทางขวา</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">เลื่อนขึ้น</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">เลื่อนอุปกรณ์ของคุณขึ้น</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">เลื่อนขึ้น</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">เลื่อนอุปกรณ์ของคุณขึ้นเล็กน้อย</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">เลื่อนลง</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">เลื่อนอุปกรณ์ของคุณลง</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">เลื่อนลง</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">เลื่อนอุปกรณ์ของคุณลงเล็กน้อย</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">อยู่นิ่งๆ เพื่อจับภาพ</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">ถือค้างไว้เพื่อจับภาพ</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">ถือโทรศัพท์ไว้เหนือด้านหน้าของเอกสาร</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">ถือโทรศัพท์ไว้เหนือด้านหลังของเอกสาร</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่ด้านหลังของเอกสาร จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากเอกสารเป็นเส้นตรง</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">ถือโทรศัพท์ไว้เหนือหน้ารูปถ่ายของหนังสือเดินทาง</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">ดูจากกล้อง วางโทรศัพท์ของคุณไว้ที่หน้ารูปถ่ายของหนังสือเดินทาง จากนั้นค่อยๆ เลื่อนโทรศัพท์ออกห่างจากหนังสือเดินทางเป็นเส้นตรง</string>
+	<string name="onfido_doc_capture_header_capturing">อยู่นิ่งๆ</string>
+
+	<string name="onfido_avc_intro_title">บันทึกวิดีโอ</string>
+	<string name="onfido_avc_intro_subtitle">ขั้นตอนนี้มีเพื่อยืนยันว่าคุณเป็นบุคคลตามที่กล่าวอ้างจริงๆ</string>
+	<string name="onfido_avc_intro_list_item_one">อันดับแรก วางตำแหน่งใบหน้าของคุณไว้ในกรอบ</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">อันดับแรก คุณต้องจัดวางใบหน้าไว้ที่ด้านหน้าของอุปกรณ์ของคุณ</string>
+	<string name="onfido_avc_intro_list_item_two">จากนั้นค่อยๆ หันศีรษะไปทั้ง 2 ข้าง</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">แล้วก็หันศีรษะไปทั้ง 2 ข้างช้าๆ</string>
+	<string name="onfido_avc_intro_disclaimer">โปรดทราบว่าเราจะบันทึกใบหน้าและพื้นหลังของคุณ</string>
+	<string name="onfido_avc_intro_button_primary_ready">เริ่มบันทึก</string>
+	<string name="onfido_avc_face_alignment_title">วางตำแหน่งใบหน้าของคุณไว้ในกรอบ</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">ขยับเข้ามาใกล้ๆ</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">ถอยออกไปเล็กน้อย</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">ไม่พบใบหน้า</string>
+    <string name="onfido_avc_face_capture_title">ค่อยๆ หันศีรษะไปทั้ง 2 ข้าง</string>
+    <string name="onfido_avc_face_capture_title_completed">บันทึกเสร็จสมบูรณ์</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">ขออภัย เราต้องเริ่มบันทึกใหม่</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">คุณมีเวลาไม่เกิน 15 วินาทีในการบันทึกให้เสร็จ</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">คุณหันศีรษะเร็วเกินไป</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">โปรดลองอีกครั้ง และหันศีรษะของคุณให้ช้าลง</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_avc_no_face_detected_title">เราตรวจหาใบหน้าของคุณไม่พบ</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">เช็คให้แน่ใจว่าอยู่ในที่ที่มีแสงสว่างเพียงพอ</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">เช็คให้แน่ใจว่าสามารถมองเห็นดวงตาของคุณในภาพ</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">เช็คให้แน่ใจว่าถอดหน้ากากหรือสิ่งของอื่นๆ ที่คลุมใบหน้าของคุณอยู่ แต่สวมแว่นสายตาได้</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">เช็คให้แน่ใจว่าเห็นใบหน้าของคุณเท่านั้น ไม่ต้องเห็นบัตรประจำตัว</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">เช็คให้แน่ใจว่าเห็นใบหน้าของคุณเท่านั้น ไม่ต้องเห็นเอกสารประจำตัว</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">รีสตาร์ทการบันทึก</string>
+	<string name="onfido_avc_confirmation_title">บันทึกเสร็จสมบูรณ์</string>
+	<string name="onfido_avc_confirmation_subtitle">บันทึกวิดีโอใบหน้าของคุณเรียบร้อยแล้ว</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">อัปโหลดบันทึก</string>
+	<string name="onfido_avc_connection_error_title">เกิดข้อผิดพลาดในการเชื่อมต่อ</string>
+	<string name="onfido_avc_connection_error_subtitle">เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">ใบหน้าไม่อยู่ตรงกลาง</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">ลองอัปโหลดอีกครั้ง</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">รีสตาร์ทการบันทึก</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">บันทึกวิดีโอใบหน้าของคุณ</string>
+	<string name="onfido_avc_intro_video_accessibility">ตัวอย่างวิดีโอแสดงคนที่หันศีรษะไปทั้ง 2 ข้างจนเสร็จสิ้น</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">หันศีรษะของคุณไปเรื่อยๆ</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">หันศีรษะไปอีกด้าน</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">ดูจากกล้องหน้า</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">ด้านซ้ายเสร็จแล้ว</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">ด้านขวาเสร็จแล้ว</string>
+	<string name="onfido_avc_face_capture_title_accessibility">ค่อยๆ หันศีรษะไปทั้ง 2 ข้าง เมื่อถ่ายด้านหนึ่งเสร็จ คุณจะได้ยินเสียงยืนยันและโทรศัพท์จะสั่น</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">เริ่มบันทึกแล้ว</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">มองตรงไปที่ด้านหน้าอุปกรณ์</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">ไม่พบใบหน้า มองตรงไปที่ด้านหน้าอุปกรณ์</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">จัดตำแหน่งใบหน้าแล้ว</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">จัดตำแหน่งใบหน้าไม่ถูกต้อง</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">เลื่อนอุปกรณ์ของคุณมาใกล้ๆ</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">เลื่อนอุปกรณ์ของคุณออก</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">เลื่อนอุปกรณ์ของคุณไปทางซ้าย</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">เลื่อนอุปกรณ์ของคุณไปทางขวา</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">เลื่อนอุปกรณ์ของคุณขึ้น</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">เลื่อนอุปกรณ์ของคุณลง</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">เริ่มการยืนยันตัวตน</string>
+	<string name="onfido_poa_intro_title">มายืนยันที่อยู่ของคุณกัน</string>
+	<string name="onfido_poa_intro_subtitle">คุณจะต้องมีเอกสารที่:</string>
+	<string name="onfido_poa_intro_list_shows_address">แสดงที่อยู่ปัจจุบันของคุณ</string>
+	<string name="onfido_poa_intro_list_matches_signup">ตรงกับที่อยู่ที่คุณใช้ลงทะเบียน</string>
+	<string name="onfido_poa_intro_list_most_recent">เป็นเอกสารล่าสุดของคุณ</string>
+	<string name="onfido_poa_type_selection_title_uk">เลือกเอกสารของสหราชอาณาจักร</string>
+	<string name="onfido_poa_type_selection_title">เลือกเอกสาร</string>
+	<string name="onfido_doc_select_subtitle_poa">เอกสารเหล่านี้น่าจะแสดงที่อยู่ปัจจุบันของคุณ</string>
+	<string name="onfido_doc_select_button_bank_statement">รายการเดินบัญชีของธนาคารหรือสหกรณ์ออมทรัพย์เพื่อการเคหะ</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">รายการเดินบัญชีธนาคาร</string>
+	<string name="onfido_doc_select_extra_estatements_ok">จะใช้เอกสารอิเล็กทรอนิกส์ก็ได้</string>
+	<string name="onfido_doc_select_button_bill">ใบแจ้งหนี้ค่าสาธารณูปโภค</string>
+    <string name="onfido_doc_select_button_tax_letter">หนังสือภาษีที่อยู่อาศัย</string>
+	<string name="onfido_doc_select_button_benefits_letter">หนังสือยืนยันการรับสวัสดิการ</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">สวัสดิการเพื่อการอยู่อาศัยที่ได้รับจากรัฐบาล เช่น เงินทดแทนระหว่างการว่างงาน สวัสดิการค่าที่อยู่อาศัย เครดิตภาษี</string>
+    <string name="onfido_doc_select_button_address_card">บัตรที่อยู่</string>
+    <string name="onfido_doc_select_button_address_card_detail">รับทั้งบัตรชั่วคราวและบัตรถาวร</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">ต้องออกเอกสารภายใน 3 เดือนที่ผ่านมา</string>
+	<string name="onfido_poa_guidance_subtitle_bill">ต้องออกเอกสารภายใน 3 เดือนที่ผ่านมา</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">ต้องออกเอกสารภายใน 12 เดือนที่ผ่านมา</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">ต้องออกเอกสารภายใน 12 เดือนที่ผ่านมา</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">ต้องเป็นบัตรที่อยู่ที่ถูกต้อง</string>
+	<string name="onfido_poa_guidance_instructions_label">จับภาพเอกสารทั้งหมดและตรวจสอบให้แน่ใจว่าเห็น:</string>
+	<string name="onfido_poa_guidance_instructions_logo">โลโก้</string>
+	<string name="onfido_poa_guidance_instructions_full_name">ชื่อ</string>
+	<string name="onfido_poa_guidance_instructions_address">ที่อยู่ปัจจุบัน</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">วันที่ออกเอกสารหรืองวดบิล</string>
+    <string name="onfido_poa_guidance_instructions_full_address">ที่อยู่เต็ม</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">วันที่ออก</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">วันหมดอายุ (ถ้ามี)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">อัปโหลด</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">ถ่ายรูปภาพ</string>
+	<string name="onfido_poa_select_document_details_upload_text">เลือกเอกสารจาก</string>
+	<string name="onfido_poa_capture_confirm">ส่งเอกสาร</string>
+	<string name="onfido_poa_capture_choose_another">เลือกรายการอื่น</string>
+	<string name="onfido_poa_capture_redo">ถ่ายรูปอีกครั้ง</string>
+	<string name="onfido_doc_confirmation_body">เช็คให้แน่ใจว่าคุณอัปโหลดเอกสารทั้งหน้า และสามารถอ่านรายละเอียดได้อย่างชัดเจนโดยไม่มีตัวหนังสือพร่ามัวหรือมีแสงสะท้อน</string>
+	<string name="onfido_poa_capture_enlarge">ขยายเอกสาร</string>
+	<string name="onfido_poa_capture_enlarge_move">เลื่อนไปรอบๆ โดยใช้นิ้วเดียว จีบนิ้วเพื่อซูม</string>
+	<string name="onfido_poa_capture_enlarge_close">ปิด</string>
+	<string name="onfido_poa_capture_instructions">ด้านหน้าของเอกสารที่อยู่</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">ไฟล์ไม่ถูกต้อง</string>
+	<string name="onfido_poa_err_invalid_file_message">โปรดเลือกไฟล์อื่น</string>
+	<string name="onfido_poa_err_invalid_file_ok">ตกลง</string>
+    <string name="onfido_poa_welcome_text">ถ่ายรูปเอกสารที่มีที่อยู่ของคุณ</string>
+	<string name="onfido_country_select_error_no_country_body">เรากำลังเพิ่มประเทศในรายการ ในระหว่างนี้ ให้ลองใช้เอกสารอื่น</string>
+	<string name="onfido_doc_select_extra_no_mobile">ขออภัยที่ใช้ใบเรียกเก็บเงินโทรศัพท์มือถือไม่ได้</string>
+	<string name="onfido_doc_select_button_bill_detail">แก๊ซ ไฟฟ้า ประปา โทรศัพท์บ้าน หรือบรอดแบนด์</string>
+
+	<string name="onfido_doc_select_subtitle_country">เลือกประเทศที่ออกเอกสาร เพื่อดูว่าเรารับเอกสารใดบ้าง</string>
+	<string name="onfido_doc_select_section_header_country">ประเทศที่ออกเอกสาร</string>
+	<string name="onfido_doc_select_section_header_doc_type">เอกสารที่ยอมรับ</string>
+	<string name="onfido_doc_select_section_input_country_not_found">ไม่มีผลลัพธ์</string>
+	<string name="onfido_doc_select_subtitle_entire_page">ทั้งหน้า</string>
+	<string name="onfido_doc_select_subtitle_photo_page">หน้ารูปภาพ</string>
+	<string name="onfido_doc_select_subtitle_front_back">ด้านหน้าและด้านหลัง</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">เลือกประเทศที่ออกเอกสาร</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">ใบหน้า พื้นหลัง และเสียงของคุณจะถูกบันทึกในระหว่างขั้นตอนนี้</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">แอปอื่นกำลังใช้ไมโครโฟนอยู่</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">โปรดวางสายหรือหยุดกิจกรรมที่ใช้ไมโครโฟนขณะกำลังบันทึกเสียง</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">แอปอื่นกำลังเล่นเสียงอยู่</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">โปรดอย่าเล่นเสียงบนอุปกรณ์ขณะกำลังบันทึกเสียง</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">ลองอีกครั้ง</string>
+</resources>

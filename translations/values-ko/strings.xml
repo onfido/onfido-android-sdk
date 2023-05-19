@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">이탈리아 신분증</string>
+    <string name="onfido_app_title_doc_capture_id_za">남아프리카공화국 신분증</string>
+    <string name="onfido_app_title_doc_capture_license_de">독일 운전면허증</string>
+    <string name="onfido_app_title_doc_capture_license_fr">프랑스 운전면허증</string>
+    <string name="onfido_doc_capture_prompt_button_paper">종이 서류</string>
+    <string name="onfido_doc_capture_prompt_button_card">플라스틱 카드</string>
+    <string name="onfido_doc_capture_prompt_title_license">어떤 유형의 면허를 갖고 계신가요?</string>
+    <string name="onfido_doc_capture_prompt_title_id">어떤 유형의 신분증을 갖고 계신가요?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">모든 내부 페이지를 포함하여 (사진이 부착된 면이 보이도록 해서) 평평하게 펼치세요</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">테두리 부분을 포함하여 서류 전체를 펼치세요</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">서류가 완전히 펼쳐졌으며 사진이 선명하게 나오는지 확인하세요</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">감사합니다</string>
+    <string name="onfido_outro_body">본인 인증 절차를 시작하기 위해 필요한 것은 이것이 다입니다</string>
+    <string name="onfido_continue">계속</string>
+    <string name="onfido_video_intro_button_primary">동영상 녹화하기</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">불러오는 중</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">여권</string>
+    <string name="onfido_doc_select_button_visa">비자</string>
+    <string name="onfido_doc_select_button_license">운전면허증</string>
+	<string name="onfido_doc_select_button_id">국가 발급 신분증</string>
+    <string name="onfido_doc_select_button_permit">거주 허가증</string>
+	<string name="onfido_doc_select_button_permit_work">취업 허가증(Work Permit)</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">본인 인증하기</string>
+    <string name="onfido_app_title_doc_select">본인 인증하기</string>
+    <string name="onfido_welcome_title">본인 인증하기</string>
+    <string name="onfido_welcome_subtitle">이 절차를 진행하는 데는 몇 분 정도가 소요됩니다</string>
+	<string name="onfido_selfie_capture_button_accessibility">셔터</string>
+    <string name="onfido_selfie_intro_title">셀카 촬영하기</string>
+    <string name="onfido_app_title_country_select">발급 국가 선택</string>
+	<string name="onfido_country_select_bottom_sheet_title">소속 국가를 찾을 수 없나요?</string>
+    <string name="onfido_country_select_bottom_sheet_details">선택하신 서류의 국가는 지원되지 않는 것 같습니다. 다른 국가를 선택해주세요.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">닫기</string>
+    <string name="onfido_selfie_intro_subtitle">당사에서 제출하신 이미지와 서류를 비교 대조하는 절차를 진행합니다</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">타원 안에 얼굴이 들어가도록 하세요</string>
+    <string name="onfido_video_capture_prompt_button_timeout">재시도</string>
+    <string name="onfido_generic_error_camera_unavailable">기기에 사용 가능한 카메라가 없습니다</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">카메라를 사용할 수 없습니다. 현재 다른 앱에서 카메라를 사용하고 있을 수 있습니다.</string>
+    <string name="onfido_selfie_confirmation_body">얼굴 전체가 잘 보이는지 확인하세요</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">서류를 찾을 수 없습니다</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">얼굴이 감지되지 않습니다</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">여러 얼굴이 감지되었습니다</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">셀카 이미지에는 본인 얼굴만 나와야 합니다</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">서비스를 이용할 수 없습니다</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">죄송합니다. 현재 위치가 지원되지 않아 더 이상 진행할 수 없습니다</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">얼굴 전체가 잘 보이는지 확인하세요</string>
+	<string name="onfido_generic_error_face_capture">제대로 얼굴이 캡쳐되지 않았습니다. 다시 시도해주세요.</string>
+	<string name="onfido_generic_error_doc_capture">서류 이미지가 제대로 캡쳐되지 않았습니다. 다시 시도해주세요.</string>
+	<string name="onfido_generic_error_video_capture">동영상이 제대로 캡쳐되지 않았습니다. 다시 시도해주세요.</string>
+    <string name="onfido_doc_confirmation_body_generic">세부 정보가 명확하게 나타나고 가려진 부분이 없는지 확인하세요</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">빛 반사가 감지되었습니다</string>
+	<string name="onfido_doc_capture_alert_glare_detail">직접적인 광원에서 살짝 벗어나세요</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">인증 제출하기</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">오류</string>
+    <string name="onfido_generic_error_network_title">연결이 끊겼습니다</string>
+    <string name="onfido_generic_error_network_detail">네트워크 오류가 발생했습니다. 인터넷 연결 상태를 확인하세요.</string>
+    <string name="onfido_generic_error_detail">문제가 발생했습니다. 나중에 다시 시도해주세요.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">보안상의 이유로 실시간 캡처 화면이 필요합니다</string>
+    <string name="onfido_video_intro_list_item_move_speak">지침에 따라 움직이거나 말하세요</string>
+    <string name="onfido_video_intro_loader">예시를 불러오는 중</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">각 숫자를 큰 소리로 읽어주세요</string>
+    <string name="onfido_video_capture_prompt_title_timeout">진행 과정에서 시간이 너무 지체된 것 같습니다</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">작업이 끝나면 잊지 말고 버튼을 누르세요.</string>
+    <string name="onfido_video_confirmation_button_secondary">동영상 다시 촬영하기</string>
+	<string name="onfido_video_confirmation_button_primary">동영상 제출하기</string>
+	<string name="onfido_video_confirmation_error_no_video">기기에서 동영상을 찾을 수 없습니다. 다시 촬영해주세요.</string>
+    <string name="onfido_video_capture_error_storage_title">기기 저장 공간이 가득 찼습니다</string>
+    <string name="onfido_video_capture_error_storage_detail">저장 공간을 확보하고 동영상을 다시 녹화하세요</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">음소거 해제하기</string>
+    <string name="onfido_video_capture_button_primary_start">녹화 시작</string>
+    <string name="onfido_video_capture_button_primary_finish">녹화 마치기</string>
+    <string name="onfido_video_capture_button_primary_fallback">다음 단계</string>
+	<string name="onfido_video_confirmation_error_media_player">동영상에 오류가 발생했습니다. 다시 촬영해주세요.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">다시 불러오기</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">예제 동영상 다시 불러오기</string>
+    <string name="onfido_video_intro_error_network">불안정한 네트워크로 인해 불러올 수 없습니다</string>
+    <string name="onfido_video_intro_error_network_accessibility">불안정한 네트워크로 인해 예제 동영상을 불러올 수 없습니다</string>
+	<string name="onfido_video_intro_error_load_offline">오프라인 상태이므로 불러오기를 할 수 없습니다</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">추천 국가</string>
+    <string name="onfido_country_select_list_header_all">모든 국가</string>
+    <string name="onfido_app_title_country_select_search">검색</string>
+    <string name="onfido_country_select_error_no_country_title">국가를 찾을 수 없습니다</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">직접 사진을 촬영해보세요</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">흐릿한 사진이 감지되었습니다</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">바코드가 감지되지 않습니다</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">조명이 밝은 곳에 자리를 잡고 카드를 카메라 가까이로 가져가세요</string>
+    <string name="onfido_permission_recovery_button_primary">설정에서 접근 허용</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">카메라 접근 권한 허용</string>
+    <string name="onfido_permission_subtitle_cam">계속하려면 안내 메시지가 표시될 때 카메라에 대한 접근 권한을 허용하셔야 합니다</string>
+	<string name="onfido_permission_body_cam">카메라 없이는 본인 인증 작업을 진행할 수 없습니다</string>
+    <string name="onfido_permission_button_primary_cam">카메라 활성화</string>
+	<string name="onfido_permission_recovery_subtitle_cam">카메라 없이는 본인 인증 작업을 진행할 수 없습니다</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">앱 설정으로 이동하여 이 앱에 카메라 접근 권한을 허용하세요</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">기기 설정에서 카메라 접근 권한을 복원할 수 있습니다</string>
+
+    <string name="onfido_permission_recovery_title_cam">카메라 접근 권한이 거부되었습니다</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">마이크에 대한 접근 권한 허용</string>
+    <string name="onfido_permission_subtitle_mic">계속하려면 안내 메시지가 표시될 때 마이크에 대한 접근 권한을 허용하셔야 합니다</string>
+    <string name="onfido_permission_button_primary_mic">마이크 사용하기</string>
+    <string name="onfido_permission_recovery_title_mic">마이크 접근 권한이 거부되었습니다</string>
+    <string name="onfido_permission_body_mic">마이크를 사용하지 않고서는 본인 인증 절차를 진행할 수 없습니다</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">기기 설정에서 마이크 접근 권한을 복원할 수 있습니다</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">앱 설정으로 이동하여 이 앱에 마이크 접근 권한을 허용하세요</string>
+    <string name="onfido_permission_recovery_subtitle_mic">마이크 없이는 본인 인증 절차를 진행할 수 없습니다</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">카메라와 마이크에 대한 접근 권한 허용</string>
+    <string name="onfido_permission_subtitle_both">계속하려면 안내 메시지가 표시될 때 두 가지 기능에 대한 접근 권한을 허용하셔야 합니다</string>
+    <string name="onfido_permission_recovery_title_both">카메라와 마이크 접근 권한이 거부되었습니다</string>
+    <string name="onfido_video_capture_alert_wrong_side">잘못된 면</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">지침 다시 불러오기</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">인터넷 연결 시간 초과</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">연결이 안정적인지 확인한 다음 다시 시도하세요</string>
+	<string name="onfido_generic_back">뒤로</string>
+    <string name="onfido_permission_body_both">카메라와 마이크 기능 둘 다를 사용하지 않고서는 본인 인증 절차를 진행할 수 없습니다</string>
+    <string name="onfido_permission_button_primary_both">둘 다 사용</string>
+	<string name="onfido_permission_recovery_subtitle_both">카메라와 마이크 없이는 본인 인증 절차를 진행할 수 없습니다</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">기기 설정에서 카메라와 마이크 접근 권한을 복원할 수 있습니다</string>
+    <string name="onfido_permission_recovery_list_item_action_both">앱 설정으로 이동하여 이 앱에 카메라와 마이크 접근 권한을 허용하세요</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">셀카 동영상을 녹화하는 예시 동영상. 셀카 동영상을 녹화하려면 전면 카메라를 마주하고 휴대폰을 얼굴에서 약간 떨어진 곳에 두세요. 그런 다음 몇 개의 숫자를 말하고 화면의 지침에 따라 고개를 돌리셔야 합니다.</string>
+    <string name="onfido_doc_capture_frame_accessibility">카메라에서 보기</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">얼굴 사진</string>
+	<string name="onfido_doc_confirmation_image_accessibility">서류에 부착된 사진</string>
+    <string name="onfido_video_confirmation_body">동영상이 녹화되었습니다</string>
+	<string name="onfido_video_confirmation_video_accessibility">녹화된 동영상 미리보기</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">다음과 같이 말하는 모습이 촬영되어야 합니다: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">고개를 %1$s으로 돌리는 모습이 촬영되어야 합니다</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">그 다음</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">왼쪽</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">오른쪽</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">재생 또는 일시 중지</string>
+	<string name="onfido_doc_capture_button_accessibility">사진 촬영하기</string>
+    <string name="onfido_video_intro_button_pause_accessibility">동영상 일시 중지</string>
+    <string name="onfido_video_intro_button_play_accessibility">동영상 재생</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">하단의 두 줄이 보이지 않습니다</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">전체 서류가 보여야 합니다</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">동의</string>
+    <string name="onfido_user_consent_button_secondary">동의 안 함</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">정말 그렇게 하시겠어요?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Onfido의 개인정보 보호정책 및 이용 약관에 동의하지 않는 경우, 당사에서 사용자 신원을 확인할 수 없으며 이 절차는 종료됩니다.</string>
+    <string name="onfido_user_consent_prompt_button_primary">예, 인증 절차를 그만두겠습니다</string>
+    <string name="onfido_user_consent_prompt_button_secondary">다시 검토하기</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">동영상 녹화 중에 기기 플래시가 켜집니다</string>
+	<string name="onfido_doc_video_capture_header">서류를 들고 있을 때 서류 앞면이 프레임 밖으로 벗어나지 않도록 하세요</string>
+    <string name="onfido_doc_video_capture_header_step1">부동 자세를 유지해주세요</string>
+    <string name="onfido_doc_video_capture_detail_step2">항상 서류 전체가 완전히 보이도록 해주세요</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">다음 단계</string>
+    <string name="onfido_doc_video_capture_header_passport">여권을 든 채 사진이 부착된 페이지가 프레임 밖으로 벗어나지 않도록 하세요</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">서류를 천천히 돌려서 표지가 보이도록 하세요</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">동영상 녹화는 ​%1$s​초로 제한됩니다</string>
+    <string name="onfido_doc_video_capture_success_accessibility">성공</string>
+	<string name="onfido_doc_video_capture_stepper">%1$d/%2$d​단계</string>
+    <string name="onfido_doc_video_capture_header_step2">서류를 천천히 돌려 뒷면이 보이도록 하세요</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">동영상 미리보기</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">녹화 마치기</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">움직이지 마세요</string>
+	<string name="onfido_welcome_list_item_doc_video_timeout">동영상 녹화는 ​%1$s​초로 제한됩니다</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">사진 재촬영하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">사진 재촬영하기</string>
+
+    <string name="onfido_generic_uploading">업로드 중</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">전체 서류가 잘 보이는지 확인하세요</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">이미지 잘림 현상이 감지되었습니다</string>
+    <string name="onfido_doc_upload_progress_label">이미지 품질 확인 중</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">그런 후 앞을 향하세요</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">스캔 준비 완료</string>
+    <string name="onfido_nfc_sheet_button_secondary">취소</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">스캔 중...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">휴대폰이 흔들리지 않게 두세요</string>
+    <string name="onfido_nfc_sheet_success_subtitle">스캔 성공</string>
+    <string name="onfido_nfc_permission_title">NFC 켜기</string>
+	<string name="onfido_nfc_permission_subtitle">NFC 없이는 여권을 스캔할 수 없습니다.</string>
+    <string name="onfido_nfc_permission_list_item_nfc">기기 설정에서 NFC를 켭니다</string>
+    <string name="onfido_nfc_permission_button_primary">설정 열기</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">사진 제출하기</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">이 과정에서 본인의 얼굴과 배경이 캡처됩니다</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">얼굴이 정면을 향하고 눈이 선명하게 나타나도록 하세요</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_button_primary_license">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">모든 부분이 선명하게 나타나는지 확인하세요</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">사진에 서류 전체가 포함되었는지 확인하세요</string>
+    <string name="onfido_selfie_confirmation_button_secondary">사진 재촬영하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">사진 재촬영하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">사진 재촬영하기</string>
+	<string name="onfido_selfie_intro_button_primary">셀카 촬영하기</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">종료까지 %1$d초 남았습니다</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">사진 제출하기</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">사진 제출하기</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">필요한 경우 안경을 벗으세요</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">얼굴을 가리는 물품은 모두 벗어주세요. 단, 안경은 쓰셔도 괜찮습니다</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">서류를 정렬한 다음 버튼을 누르세요</string>
+    <string name="onfido_doc_select_subtitle">반드시 사진이 부착된 공식 신분증이어야 합니다</string>
+    <string name="onfido_selfie_confirmation_button_primary">사진 업로드</string>
+    <string name="onfido_doc_select_title">서류 선택</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">사진 재촬영하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">사진 재촬영하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">사진 재촬영하기</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">사진 재촬영하기</string>
+    <string name="onfido_video_intro_title">동영상 녹화하기</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">다른 서류 선택하기</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">고개를 왼쪽으로 돌리세요</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">고개를 오른쪽으로 돌리세요</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">녹화를 시작하려면, 타원형 안에 얼굴이 들어가도록 하세요</string>
+
+    <string name="onfido_app_title_doc_confirmation">본인 인증하기</string>
+    <string name="onfido_app_title_selfie_confirmation">본인 인증하기</string>
+    <string name="onfido_app_title_permission">본인 인증하기</string>
+    <string name="onfido_app_title_selfie_intro">본인 인증하기</string>
+    <string name="onfido_app_title_video_intro">본인 인증하기</string>
+    <string name="onfido_app_title_video_confirmation">본인 인증하기</string>
+    <string name="onfido_welcome_button_primary_doc">서류 선택</string>
+    <string name="onfido_welcome_button_primary">시작하기</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">얼굴이 감지되었습니다. 녹화가 시작되었습니다.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">고개 돌림이 감지되었습니다</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">이미지가 캡처되었습니다</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">셀카 카메라에서 본 이미지. 타원형 안쪽으로 얼굴이 들어가도록 하여 셔터 버튼을 누르세요</string>
+    <string name="onfido_video_capture_frame_accessibility">셀카 카메라에서 본 이미지. 녹화를 시작하려면, 타원형 안에 얼굴이 들어가도록 하세요.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">프레임 안에 서류 테두리가 모두 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_license_front">프레임 안에 서류 앞면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_license_back">프레임 안에 서류 뒷면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_permit_front">프레임 안에 서류 앞면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_permit_back">프레임 안에 서류 뒷면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_id_front">프레임 안에 서류 앞면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_id_back">프레임 안에 서류 뒷면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_permit_work_front">프레임 안에 서류 앞면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_permit_work_back">프레임 안에 서류 뒷면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_visa_front">프레임 안에 서류의 비자 페이지가 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_generic_front">프레임 안에 서류 앞면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_generic_back">프레임 안에 서류 뒷면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_header_passport">프레임 안에 사진이 부착된 페이지가 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">카메라에서 본 이미지. 사진이 부착된 서류 페이지를 프레임 안에 위치시킵니다. 이미지가 캡처되면 기기가 진동합니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">카메라에서 본 이미지. 서류 앞면이 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">카메라에서 본 이미지. 서류 뒷면이 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">카메라에서 본 이미지. 서류 앞면을 프레임 안에 위치시킵니다. 이미지가 캡처되면 기기가 진동합니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">카메라에서 본 이미지. 프레임 안에 서류 뒷면이 들어가도록 배치하세요</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">카메라에서 본 이미지. 서류 앞면이 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">카메라에서 본 이미지. 서류 뒷면이 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">카메라에서 본 이미지. 서류 앞면이 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">카메라에서 본 이미지. 서류 뒷면이 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">카메라에서 본 이미지. 사진이 부착된 페이지가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">카메라에서 본 이미지. 서류 테두리가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">카메라에서 본 이미지. 사진이 부착된 페이지가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">카메라에서 본 이미지. 서류 테두리가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">카메라에서 본 이미지. 사진이 부착된 페이지가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">카메라에서 본 이미지. 서류 테두리가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">카메라에서 본 이미지. 사진이 부착된 페이지가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">카메라에서 본 이미지. 서류 테두리가 프레임 안에 들어오도록 위치시킨 다음 셔터 버튼을 누릅니다</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">프레임 안에 사진이 부착된 면이 들어가도록 배치하세요</string>
+    <string name="onfido_video_capture_prompt_header_restart">녹화 다시 시작</string>
+    <string name="onfido_video_capture_prompt_detail_restart">이 단계를 완료하려면 녹화 내내 얼굴이 화면에 보이도록 해야 합니다.</string>
+    <string name="onfido_video_capture_prompt_button_restart">재시작</string>
+
+    <string name="onfido_welcome_list_header">기기로 진행할 작업:</string>
+    <string name="onfido_welcome_list_item_doc_photo">신분증 서류 사진을 촬영합니다</string>
+    <string name="onfido_welcome_list_item_doc_video">신분증 서류 동영상을 녹화합니다</string>
+    <string name="onfido_welcome_list_item_doc_generic">신분증 서류를 스캔합니다</string>
+    <string name="onfido_welcome_list_item_face_photo">얼굴 사진을 촬영합니다</string>
+    <string name="onfido_welcome_list_item_face_video">얼굴 동영상을 녹화합니다</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">하단의 세 줄이 보이지 않습니다</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">스캔 재시도</string>
+    <string name="onfido_nfc_scan_error_button_secondary">NFC 없이 인증 받기</string>
+    <string name="onfido_nfc_scan_error_title">서류를 스캔할 수 없습니다</string>
+    <string name="onfido_nfc_scan_error_list_item">휴대폰 케이스를 벗기세요</string>
+    <string name="onfido_nfc_scan_error_list_item_2">스캔이 시작되면 움직이지 않게 두세요</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">스캔하는 동안 휴대폰이나 여권 위치를 옮기지 마세요</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">뒷면 페이지 안쪽도 시도하실 수 있습니다</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">휴대폰이 여권 위에 오도록 배치하세요</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">휴대폰을 천천히 위아래로 미끄러지듯 움직이세요</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">여권을 평평한 곳에 올려놓으세요</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">스캔이 시작되면 흔들리지 않게 두세요</string>
+    <string name="onfido_nfc_intro_title_card">NFC 카드 스캔</string>
+    <string name="onfido_nfc_intro_title_passport">전자 여권 스캔하기</string>
+    <string name="onfido_nfc_intro_subtitle">아래 지침을 따르세요</string>
+    <string name="onfido_nfc_intro_button_primary">스캔 시작</string>
+    <string name="onfido_nfc_intro_list_item">카드 위에 기기 뒷면이 오도록 배치하세요</string>
+    <string name="onfido_nfc_intro_list_item_2">휴대폰을 천천히 위아래로 미끄러지듯 움직이세요</string>
+    <string name="onfido_nfc_intro_list_item_3">스캔이 시작되면 움직이지 않게 두세요</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">여권 스캔이 완료되었습니다</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">카드 스캔이 완료되었습니다</string>
+
+    <string name="onfido_nfc_select_title_passport">NFC로 프로세스 속도 높이기</string>
+    <string name="onfido_nfc_select_subtitle_passport">여권의 NFC 칩을 스캔합니다</string>
+    <string name="onfido_nfc_select_body_passport">전자 여권 표지에는 이 기호가 있습니다</string>
+    <string name="onfido_nfc_select_button_primary_passport">전자 여권 사용</string>
+    <string name="onfido_nfc_select_button_secondary_passport">전자 여권이 아닙니다</string>
+
+    <string name="onfido_nfc_select_title_card">NFC로 프로세스 속도 높이기</string>
+    <string name="onfido_nfc_select_subtitle_card">카드의 NFC 칩을 스캔합니다</string>
+    <string name="onfido_nfc_select_body_card">NFC 칩이 있는 카드에는 이 기호가 있습니다</string>
+    <string name="onfido_nfc_select_button_primary_card">NFC 카드 사용</string>
+    <string name="onfido_nfc_select_button_secondary_card">NFC 카드가 아닙니다</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">휴대폰이 여권 상단 근처에 오도록 배치하세요</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">카드 위에 휴대폰을 올려놓으세요</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">휴대폰이 흔들리지 않게 두세요</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">카드와의 연결이 끊겼습니다</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">여권과의 연결이 끊겼습니다</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">휴대폰을 위아래로 천천히 옮기세요</string>
+
+    <string name="onfido_enter_can_title">CAN을 입력하세요</string>
+    <string name="onfido_enter_can_subtitle">입력하신 번호가 서류에 기재된 번호와 일치하는지 확인하세요.</string>
+    <string name="onfido_enter_can_button_primary">계속</string>
+    <string name="onfido_enter_can_disclaimer">서류 앞면 해당 번호를 확인하실 수 있습니다. %d자리 숫자로 폰트 크기가 약간 큽니다.</string>
+    <string name="onfido_enter_can_error_label">%d%s이(가) 남았습니다.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">회 시도</string>
+    <string name="onfido_enter_can_substring_attempt_plural">회 시도</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">카메라에서 본 이미지. 휴대폰을 서류 앞면 위에 올려놓은 후 휴대폰을 일직선으로 천천히 들어 올리세요.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">서류 위에 휴대폰 배치하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">서류를 찾을 수 없습니다. 서류 위에 휴대폰이 위치하도록 하세요.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">서류와의 거리가 너무 가깝습니다</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">서류와 카메라 사이의 거리가 너무 가깝습니다</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">서류와 카메라 사이의 거리가 너무 멉니다</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">서류와 카메라 사이의 거리가 너무 멉니다</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">왼쪽으로 이동하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">기기 위치를 왼쪽으로 옮기세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">오른쪽으로 이동하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">기기 위치를 오른쪽으로 옮기세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">위쪽으로 이동하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">기기 위치를 위쪽으로 옮기세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">위쪽으로 이동하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">기기 위치를 살짝 위쪽으로 옮기세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">아래로 이동하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">기기 위치를 아래쪽으로 옮기세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">아래로 이동하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">기기 위치를 살짝 아래쪽으로 옮기세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">가만히 멈추고 캡처하기</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">잠시 가만히 멈추고 이미지를 캡처하세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">서류 앞면이 휴대폰 아래로 오도록 배치하세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">서류 뒷면이 휴대폰 아래로 오도록 배치하세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">카메라에서 본 이미지. 휴대폰을 서류 뒷면 위에 올려놓은 후 휴대폰을 일직선으로 천천히 들어 올리세요.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">여권의 사진 부착면 위에 휴대폰을 배치하세요</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">카메라에서 본 이미지. 휴대폰을 여권의 사진 부착면 위에 올려놓은 후 휴대폰을 일직선으로 천천히 들어 올리세요.</string>
+	<string name="onfido_doc_capture_header_capturing">움직이지 마세요</string>
+
+	<string name="onfido_avc_intro_title">동영상 녹화하기</string>
+	<string name="onfido_avc_intro_subtitle">이는 사용자가 (기계가 아닌) 사람인지 확인하기 위한 절차입니다</string>
+	<string name="onfido_avc_intro_list_item_one">먼저, 프레임 안에 얼굴이 배치되도록 하세요</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">먼저, 얼굴 앞쪽에 기기를 두세요</string>
+	<string name="onfido_avc_intro_list_item_two">그런 다음 고개를 좌우로 천천히 돌리세요</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">그런 다음 고개를 좌우로 천천히 돌리세요</string>
+	<string name="onfido_avc_intro_disclaimer">본인 얼굴과 배경이 녹화된다는 점에 유념하시기 바랍니다</string>
+	<string name="onfido_avc_intro_button_primary_ready">녹화 시작</string>
+	<string name="onfido_avc_face_alignment_title">프레임 안에 얼굴이 배치되도록 하세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">더 가까이 다가오세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">좀 더 뒤로 물러나세요</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">얼굴이 감지되지 않습니다</string>
+    <string name="onfido_avc_face_capture_title">고개를 좌우로 천천히 돌리세요</string>
+    <string name="onfido_avc_face_capture_title_completed">녹화 완료</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">죄송합니다. 녹화를 다시 시작해야 합니다</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">녹화를 완료하기까지 최대 15초가 소요됩니다</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">재시도</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">고개를 너무 빨리 돌리셨네요</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">다시 시도하고 고개를 좌우로 천천히 돌리세요</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">재시도</string>
+	<string name="onfido_avc_no_face_detected_title">얼굴을 감지할 수 없습니다</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">조명이 좋은 곳에서 촬영하세요</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">두 눈이 선명하게 나타나도록 하세요</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">마스크 등 얼굴을 가리는 모든 물품은 반드시 벗어주세요. 단, 안경은 쓰셔도 괜찮습니다</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">얼굴만 보이도록 해주세요. 신분증을 제시할 필요가 없습니다</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">본인 얼굴만 보이도록 해주세요. 신분증을 제시할 필요가 없습니다</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">녹화 재시작</string>
+	<string name="onfido_avc_confirmation_title">녹화 완료</string>
+	<string name="onfido_avc_confirmation_subtitle">얼굴 동영상이 성공적으로 녹화되었습니다</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">녹화본 업로드</string>
+	<string name="onfido_avc_connection_error_title">연결 오류 발생</string>
+	<string name="onfido_avc_connection_error_subtitle">연결이 안정적인지 확인한 다음 다시 시도하세요</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">얼굴이 중앙에 위치해 있지 않습니다</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">다시 업로드 시도하기</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">녹화 재시작</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">얼굴 동영상을 녹화합니다</string>
+	<string name="onfido_avc_intro_video_accessibility">완료될 때까지 좌우로 고개를 돌리는 동영상 예시</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">고개를 계속 돌리세요</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">고개를 반대편으로 돌리세요</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">셀카 카메라에서 보기</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">왼쪽 완료</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">오른쪽 완료</string>
+	<string name="onfido_avc_face_capture_title_accessibility">고개를 좌우로 천천히 돌리세요. 측면 촬영이 완료되면 확인 메시지가 표시되며, 진동을 느끼실 수 있습니다</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">녹화가 시작되었습니다</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">얼굴 앞쪽에 기기를 두세요</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">얼굴이 감지되지 않습니다. 얼굴 앞쪽에 기기를 두세요</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">얼굴 위치 정렬 완료</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">얼굴 정렬 오류</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">기기를 좀 더 가까이 가져오세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">기기 위치를 뒤쪽으로 옮기세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">기기 위치를 왼쪽으로 옮기세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">기기 위치를 오른쪽으로 옮기세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">기기 위치를 위쪽으로 옮기세요</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">기기 위치를 아래쪽으로 옮기세요</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">인증 절차 시작하기</string>
+	<string name="onfido_poa_intro_title">주소를 인증해 주세요</string>
+	<string name="onfido_poa_intro_subtitle">서류 요건:</string>
+	<string name="onfido_poa_intro_list_shows_address">현재 주소가 표시되어야 합니다</string>
+	<string name="onfido_poa_intro_list_matches_signup">가입 시 입력하신 주소와 일치해야 합니다</string>
+	<string name="onfido_poa_intro_list_most_recent">가장 최근 서류여야 합니다</string>
+	<string name="onfido_poa_type_selection_title_uk">영국 서류 선택</string>
+	<string name="onfido_poa_type_selection_title">서류 선택</string>
+	<string name="onfido_doc_select_subtitle_poa">현재 집 주소가 표시될 가능성이 가장 높은 서류입니다</string>
+	<string name="onfido_doc_select_button_bank_statement">통장 입출금 내역서 또는 건설공제조합명세서(building society statement)</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">통장 입출금 내역서</string>
+	<string name="onfido_doc_select_extra_estatements_ok">전자 명세서 허용</string>
+	<string name="onfido_doc_select_button_bill">공과금 청구서</string>
+    <string name="onfido_doc_select_button_tax_letter">주민세 통지서(Council Tax Letter)</string>
+	<string name="onfido_doc_select_button_benefits_letter">복지 급여 서신</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">정부 지원 복지 혜택(예: 구직자 수당, 주거 급여, 세액 공제)</string>
+    <string name="onfido_doc_select_button_address_card">주소 카드</string>
+    <string name="onfido_doc_select_button_address_card_detail">임시 거주증(temporary card) 및 영주권 카드(permanent card)를 사용할 수 있습니다</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">최근 3개월 이내 발급된 서류여야 합니다</string>
+	<string name="onfido_poa_guidance_subtitle_bill">최근 3개월 이내 발급된 서류여야 합니다</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">최근 12개월 이내 발급된 서류여야 합니다</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">최근 12개월 이내 발급된 서류여야 합니다</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">반드시 유효한 주소 카드여야 합니다</string>
+	<string name="onfido_poa_guidance_instructions_label">서류 전체를 촬영하고 다음 내용이 명확하게 보이는지 확인하세요</string>
+	<string name="onfido_poa_guidance_instructions_logo">로고</string>
+	<string name="onfido_poa_guidance_instructions_full_name">성명</string>
+	<string name="onfido_poa_guidance_instructions_address">현주소</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">발행 날짜 또는 기간 요약</string>
+    <string name="onfido_poa_guidance_instructions_full_address">전체 주소</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">발행일</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">(해당하는 경우) 만료일</string>
+	<string name="onfido_poa_upload_instructions_upload_button">업로드</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">사진 촬영</string>
+	<string name="onfido_poa_select_document_details_upload_text">다음에서 서류 선택</string>
+	<string name="onfido_poa_capture_confirm">서류 제출</string>
+	<string name="onfido_poa_capture_choose_another">다른 것 선택하기</string>
+	<string name="onfido_poa_capture_redo">사진 재촬영하기</string>
+	<string name="onfido_doc_confirmation_body">전체 서류 페이지를 업로드했는지 확인하고, 세부 정보가 선명하게 읽히며 빛 반사되는 부분이 없는지 확인하세요</string>
+	<string name="onfido_poa_capture_enlarge">서류 확대</string>
+	<string name="onfido_poa_capture_enlarge_move">손가락 하나로 이리저리 움직이세요. 손가락으로 집어서 확대/축소하세요.</string>
+	<string name="onfido_poa_capture_enlarge_close">닫기</string>
+	<string name="onfido_poa_capture_instructions">주소 증빙 서류 앞면</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">유효하지 않은 파일</string>
+	<string name="onfido_poa_err_invalid_file_message">다른 파일을 선택하세요.</string>
+	<string name="onfido_poa_err_invalid_file_ok">확인</string>
+    <string name="onfido_poa_welcome_text">주소가 기재된 서류의 사진을 촬영하세요</string>
+	<string name="onfido_country_select_error_no_country_body">지원 국가 목록에 더 많은 국가를 추가할 수 있도록 노력하고 있습니다. 그때까지는 다른 서류를 사용해 시도해보세요.</string>
+	<string name="onfido_doc_select_extra_no_mobile">죄송합니다. 휴대폰 요금 청구서는 적격 서류가 아닙니다</string>
+	<string name="onfido_doc_select_button_bill_detail">가스, 전기, 수도, 유선전화 또는 광대역 요금 청구서</string>
+
+	<string name="onfido_doc_select_subtitle_country">어떤 서류가 허용되는지 확인하려면 발급 국가를 선택하세요</string>
+	<string name="onfido_doc_select_section_header_country">발급 국가</string>
+	<string name="onfido_doc_select_section_header_doc_type">허용되는 서류</string>
+	<string name="onfido_doc_select_section_input_country_not_found">결과가 없습니다</string>
+	<string name="onfido_doc_select_subtitle_entire_page">전체 페이지</string>
+	<string name="onfido_doc_select_subtitle_photo_page">사진 페이지</string>
+	<string name="onfido_doc_select_subtitle_front_back">앞면과 뒷면</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">발급 국가 선택</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">이 과정에서 얼굴, 배경 및 오디오가 녹음됩니다</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">다른 앱에서 마이크를 사용하고 있습니다</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">녹음 중에 마이크를 사용하는 통화나 활동을 종료하십시오</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">재시도</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">재시도</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">다른 앱에서 오디오가 재생 중입니다</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">녹음 중에 장치에서 오디오를 재생하지 마십시오</string>
+</resources>

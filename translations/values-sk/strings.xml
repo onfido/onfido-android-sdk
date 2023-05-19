@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Taliansky preukaz totožnosti</string>
+    <string name="onfido_app_title_doc_capture_id_za">Juhoafrický preukaz totožnosti</string>
+    <string name="onfido_app_title_doc_capture_license_de">Nemecký vodičský preukaz</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Francúzsky vodičský preukaz</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Papierový doklad</string>
+    <string name="onfido_doc_capture_prompt_button_card">Plastový preukaz</string>
+    <string name="onfido_doc_capture_prompt_title_license">Aký typ preukazu máte?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Aký typ preukazu totožnosti máte?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Umiestnite doklad na rovnú plochu a zahrňte všetky vnútorné strany (musia obsahovať vašu fotku)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Umiestnite doklad na rovnú plochu a zahrňte všetky vonkajšie strany</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Uistite sa, že je doklad úplne rozložený a fotka je jasná</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Ďakujeme</string>
+    <string name="onfido_outro_body">To je všetko, čo potrebujeme na začatie overovania vašej totožnosti</string>
+    <string name="onfido_continue">Pokračovať</string>
+    <string name="onfido_video_intro_button_primary">Zaznamenať video</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Načítavanie</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Pas</string>
+    <string name="onfido_doc_select_button_visa">Vízum</string>
+    <string name="onfido_doc_select_button_license">Vodičský preukaz</string>
+	<string name="onfido_doc_select_button_id">Národný preukaz totožnosti</string>
+    <string name="onfido_doc_select_button_permit">Povolenie na pobyt</string>
+	<string name="onfido_doc_select_button_permit_work">Pracovné povolenie</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Overte svoju totožnosť</string>
+    <string name="onfido_app_title_doc_select">Overte svoju totožnosť</string>
+    <string name="onfido_welcome_title">Overte svoju totožnosť</string>
+    <string name="onfido_welcome_subtitle">Malo by to trvať niekoľko minút</string>
+	<string name="onfido_selfie_capture_button_accessibility">Uzávierka</string>
+    <string name="onfido_selfie_intro_title">Odfoťte selfie</string>
+    <string name="onfido_app_title_country_select">Vyberte vydávajúcu krajinu</string>
+	<string name="onfido_country_select_bottom_sheet_title">Nemôžete nájsť svoju krajinu?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Zdá sa, že vybraná krajina vydania dokladu nie je podporovaná. Vyberte inú krajinu.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Zatvoriť</string>
+    <string name="onfido_selfie_intro_subtitle">Porovnáme to s vaším dokladom</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Udržujte tvár v ovále</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Skúsiť znova</string>
+    <string name="onfido_generic_error_camera_unavailable">V tomto zariadení nie je k dispozícii žiadny fotoaparát</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Fotoaparát nie je k dispozícii. Môže ho v rovnakom čase používať iná aplikácia.</string>
+    <string name="onfido_selfie_confirmation_body">Uistite sa, že celá vaša tvár je viditeľná</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Nenašiel sa žiadny doklad</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Nebola zistená tvár</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Bolo rozpoznaných viacero tvárí</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Na selfie môže byť len vaša tvár</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Služba je nedostupná</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Ľutujeme, ale zdá sa, že nemôžeme pokračovať ďalej, pretože vaša aktuálna poloha nie je podporovaná</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Uistite sa, že vaša tvár je viditeľná</string>
+	<string name="onfido_generic_error_face_capture">Nasnímanie tváre zlyhalo. Skúste to znova.</string>
+	<string name="onfido_generic_error_doc_capture">Nasnímanie dokladu zlyhalo. Skúste to znova.</string>
+	<string name="onfido_generic_error_video_capture">Nasnímanie videa zlyhalo. Skúste to znova.</string>
+    <string name="onfido_doc_confirmation_body_generic">Uistite sa, že sú vaše údaje jasné a nič ich nezakrýva</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Zistili sa odlesky</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Vzdiaľte sa od priameho svetla</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Odoslať overenie</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Chyba</string>
+    <string name="onfido_generic_error_network_title">Spojenie bolo prerušené</string>
+    <string name="onfido_generic_error_network_detail">Vyskytla sa chyba siete. Skontrolujte svoje pripojenie.</string>
+    <string name="onfido_generic_error_detail">Vyskytla sa chyba. Skúste to neskôr znova.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Z bezpečnostných dôvodov potrebujeme snímku naživo</string>
+    <string name="onfido_video_intro_list_item_move_speak">Vykonajte pohyby alebo vyslovte slová podľa pokynov</string>
+    <string name="onfido_video_intro_loader">Príklad načítania</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Vyslovte každú číslicu nahlas</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Zdá sa, že to trvalo príliš dlho</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Po skončení stlačte tlačidlo.</string>
+    <string name="onfido_video_confirmation_button_secondary">Znova nasnímať video</string>
+	<string name="onfido_video_confirmation_button_primary">Odoslať video</string>
+	<string name="onfido_video_confirmation_error_no_video">Vaše video nie je možné v zariadení nájsť. Nasnímajte ho znova.</string>
+    <string name="onfido_video_capture_error_storage_title">Vaše zariadenie je plné</string>
+    <string name="onfido_video_capture_error_storage_detail">Uvoľnite úložný priestor a zaznamenajte video znova</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Zapnúť zvuk</string>
+    <string name="onfido_video_capture_button_primary_start">Spustiť zaznamenávanie</string>
+    <string name="onfido_video_capture_button_primary_finish">Dokončiť zaznamenávanie</string>
+    <string name="onfido_video_capture_button_primary_fallback">Ďalší krok</string>
+	<string name="onfido_video_confirmation_error_media_player">Vyskytla sa chyba videa. Nasnímajte ho znova.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Znova načítať</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Znova načítať príklad videa</string>
+    <string name="onfido_video_intro_error_network">Nepodarilo sa načítať z dôvodu nestabilnej siete</string>
+    <string name="onfido_video_intro_error_network_accessibility">Nepodarilo sa načítať príklad videa z dôvodu nestabilnej siete</string>
+	<string name="onfido_video_intro_error_load_offline">Nepodarilo sa načítať, pretože ste offline</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Navrhovaná krajina</string>
+    <string name="onfido_country_select_list_header_all">Všetky krajiny</string>
+    <string name="onfido_app_title_country_select_search">Hľadať</string>
+    <string name="onfido_country_select_error_no_country_title">Krajina sa nenašla</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Skúste nasnímať fotku manuálne</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Bola zistená rozmazaná fotka</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Čiarový kód nebol zistený</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Buďte na dobre osvetlenom mieste a priblížte preukaz k fotoaparátu</string>
+    <string name="onfido_permission_recovery_button_primary">Povoliť v nastaveniach</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Povoliť prístup k fotoaparátu</string>
+    <string name="onfido_permission_subtitle_cam">Ak chcete pokračovať, musíte po výzve povoliť prístup k fotoaparátu</string>
+	<string name="onfido_permission_body_cam">Nemôžeme vás overiť bez fotoaparátu</string>
+    <string name="onfido_permission_button_primary_cam">Povoliť fotoaparát</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Nemôžeme vás overiť bez fotoaparátu</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k fotoaparátu</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Prístup k fotoaparátu môžete obnoviť prostredníctvom nastavení zariadenia</string>
+
+    <string name="onfido_permission_recovery_title_cam">Prístup k fotoaparátu bol zamietnutý</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Povoliť prístup k mikrofónu</string>
+    <string name="onfido_permission_subtitle_mic">Ak chcete pokračovať, musíte po výzve povoliť prístup k mikrofónu</string>
+    <string name="onfido_permission_button_primary_mic">Povoliť mikrofón</string>
+    <string name="onfido_permission_recovery_title_mic">Prístup k mikrofónu bol zamietnutý</string>
+    <string name="onfido_permission_body_mic">Nemôžeme vás overiť bez použitia mikrofónu</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Prístup k mikrofónu môžete obnoviť prostredníctvom nastavení zariadenia</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k mikrofónu</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Nemôžeme vás overiť bez mikrofónu</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Povoliť prístup k fotoaparátu a mikrofónu</string>
+    <string name="onfido_permission_subtitle_both">Ak chcete pokračovať, musíte po výzve povoliť prístup k obom</string>
+    <string name="onfido_permission_recovery_title_both">Prístup k fotoaparátu a mikrofónu bol zamietnutý</string>
+    <string name="onfido_video_capture_alert_wrong_side">Nesprávna strana</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Znova načítať pokyny</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Vypršal časový limit pripojenia</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Skontrolujte, či je vaše pripojenie stabilné, a potom to skúste znova</string>
+	<string name="onfido_generic_back">späť</string>
+    <string name="onfido_permission_body_both">Nemôžeme vás overiť bez použitia fotoaparátu a mikrofónu</string>
+    <string name="onfido_permission_button_primary_both">Povoliť oboje</string>
+	<string name="onfido_permission_recovery_subtitle_both">Nemôžeme vás overiť bez fotoaparátu a mikrofónu</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Prístup k fotoaparátu a mikrofónu môžete obnoviť prostredníctvom nastavení zariadenia</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k fotoaparátu a mikrofónu</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Príklad videa niekoho, kto zaznamenáva selfie video. Ak chcete zaznamenať selfie video, otočte sa tvárou k prednému fotoaparátu a držte telefón mierne vzdialený od tváre. Potom budete musieť vysloviť určité čísla a otočiť hlavu podľa pokynov na obrazovke.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Pohľad z fotoaparátu</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Fotka vašej tváre</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Photo of your document</string>
+    <string name="onfido_video_confirmation_body">Video bolo zaznamenané</string>
+	<string name="onfido_video_confirmation_video_accessibility">Ukážka zaznamenaného videa</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Mali by ste počuť, ako hovoríte: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Mali by ste vidieť, ako otáčate hlavou do strany: %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Potom</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Doľava</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Doprava</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Prehrať alebo pozastaviť</string>
+	<string name="onfido_doc_capture_button_accessibility">Odfotiť</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Pozastaviť video</string>
+    <string name="onfido_video_intro_button_play_accessibility">Prehrať video</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Dolné dva riadky nie sú viditeľné</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Uistite sa, že je zobrazený celý doklad</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Prijať</string>
+    <string name="onfido_user_consent_button_secondary">Neprijať</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Naozaj?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Ak nesúhlasíte s vyhláseniami o ochrane osobných údajov a zmluvnými podmienkami spoločnosti Onfido, nebudeme môcť overiť vašu totožnosť a tento krok sa ukončí.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Áno, neoverovať ma</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Skontrolovať znova</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Počas zaznamenávania videa zapneme blesk vášho zariadenia</string>
+	<string name="onfido_doc_video_capture_header">Počas držania dokladu držte jeho prednú stranu v ráme</string>
+    <string name="onfido_doc_video_capture_header_step1">Teraz sa nehýbte</string>
+    <string name="onfido_doc_video_capture_detail_step2">Držte doklad vždy plne zobrazený</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Ďalší krok</string>
+    <string name="onfido_doc_video_capture_header_passport">Pri držaní pasu držte stránku s fotkou v ráme</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Pomaly otočte doklad a ukážte vonkajšie stránky</string>
+	<string name="onfido_doc_video_capture_prompt_detail_timeout">Záznam videa je obmedzený na %1$s sekúnd</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Úspech</string>
+	<string name="onfido_doc_video_capture_stepper">Krok %1$d z %2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">Pomaly otočte doklad a ukážte zadnú stranu</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Ukážka videa</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Dokončiť zaznamenávanie</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Držte bez pohybu</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">Nahrávanie je obmedzené na %1$s sekundy</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Odfotiť znova</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Odfotiť znova</string>
+
+    <string name="onfido_generic_uploading">Nahrávanie</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Uistite sa, že je viditeľný celý doklad</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Bol zistený orezaný obraz</string>
+    <string name="onfido_doc_upload_progress_label">Kontroluje sa kvalita obrázka</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">potom čelom dopredu</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Pripravené na skenovanie</string>
+    <string name="onfido_nfc_sheet_button_secondary">Zrušiť</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skenuje sa…</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Držte telefón nehybne</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Skenovanie bolo úspešné</string>
+    <string name="onfido_nfc_permission_title">Zapnite NFC</string>
+	<string name="onfido_nfc_permission_subtitle">Nemôžeme naskenovať váš pas bez NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Zapnite NFC v nastaveniach zariadenia</string>
+    <string name="onfido_nfc_permission_button_primary">Otvorte nastavenia</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Odoslať fotku</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Počas tohto procesu sa zaznamená vaša tvár a pozadie</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Otočte sa tvárou dopredu a uistite sa, že vaše oči sú jasne viditeľné</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Uistite sa, že je všetko jasné</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Uistite sa, že je na fotke celý doklad</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Odfotiť znova</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Odfotiť znova</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Odfotiť znova</string>
+	<string name="onfido_selfie_intro_button_primary">Odfoťte selfie</string>
+	<string name="onfido_video_intro_list_item_time_limit_copy">Na dokončenie máte %1$d sekúnd</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Odoslať fotku</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Odoslať fotku</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">V prípade potreby si dajte dole okuliare</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Odstráňte všetko, čo zakrýva vašu tvár. Okuliare sú prijateľné</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Zarovnajte doklad a potom stlačte tlačidlo</string>
+    <string name="onfido_doc_select_subtitle">Musí ísť o oficiálny doklad totožnosti s fotkou</string>
+    <string name="onfido_selfie_confirmation_button_primary">Nahrať fotku</string>
+    <string name="onfido_doc_select_title">Zvoľte svoj doklad</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Odfotiť znova</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Odfotiť znova</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Odfotiť znova</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Odfotiť znova</string>
+    <string name="onfido_video_intro_title">Zaznamenajte video</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Vyberte iný doklad</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Otočte hlavu doľava</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Otočte hlavu doprava</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Ak chcete začať so zaznamenávaním, udržujte tvár v ovále</string>
+
+    <string name="onfido_app_title_doc_confirmation">Overte svoju totožnosť</string>
+    <string name="onfido_app_title_selfie_confirmation">Overte svoju totožnosť</string>
+    <string name="onfido_app_title_permission">Overte svoju totožnosť</string>
+    <string name="onfido_app_title_selfie_intro">Overte svoju totožnosť</string>
+    <string name="onfido_app_title_video_intro">Overte svoju totožnosť</string>
+    <string name="onfido_app_title_video_confirmation">Overte svoju totožnosť</string>
+    <string name="onfido_welcome_button_primary_doc">Vyberte doklad</string>
+    <string name="onfido_welcome_button_primary">Začať</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Bola zistená tvár. Zaznamenávanie sa začalo.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Bolo zistené otáčanie hlavy</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Obrázok bol zaznamenaný</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Pohľad zo selfie fotoaparátu. Udržujte tvár v ovále a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_video_capture_frame_accessibility">Pohľad zo selfie fotoaparátu. Ak chcete začať so zaznamenávaním, udržujte tvár v ovále.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Umiestnite vonkajšie strany dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_license_front">Umiestnite prednú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_license_back">Umiestnite zadnú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_permit_front">Umiestnite prednú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_permit_back">Umiestnite zadnú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_id_front">Umiestnite prednú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_id_back">Umiestnite zadnú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Umiestnite prednú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Umiestnite zadnú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_visa_front">Umiestnite stránku dokladu s vízom do rámu</string>
+    <string name="onfido_doc_capture_header_generic_front">Umiestnite prednú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_generic_back">Umiestnite zadnú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_header_passport">Umiestnite stránku dokladu s fotkou do rámu</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Pohľad z fotoaparátu. Umiestnite stránku dokladu s fotkou do rámu. Keď sa snímka nasníma, zariadenie zavibruje</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Pohľad z fotoaparátu. Umiestnite zadnú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu. Keď sa snímka nasníma, zariadenie zavibruje</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Pohľad z fotoaparátu. Umiestnite zadnú stranu dokladu do rámu</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Pohľad z fotoaparátu. Umiestnite zadnú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Pohľad z fotoaparátu. Umiestnite prednú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Pohľad z fotoaparátu. Umiestnite zadnú stranu dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Pohľad z fotoaparátu. Umiestnite stranu dokladu s fotkou do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Pohľad z fotoaparátu. Umiestnite vonkajšie stránky dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Pohľad z fotoaparátu. Umiestnite stranu dokladu s fotkou do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Pohľad z fotoaparátu. Umiestnite vonkajšie stránky dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Pohľad z fotoaparátu. Umiestnite stranu dokladu s fotkou do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Pohľad z fotoaparátu. Umiestnite vonkajšie stránky dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Pohľad z fotoaparátu. Umiestnite stranu dokladu s fotkou do rámu a potom ťuknite na tlačidlo uzávierky</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Pohľad z fotoaparátu. Umiestnite vonkajšie stránky dokladu do rámu a potom ťuknite na tlačidlo uzávierky</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Umiestnite stranu dokladu s fotkou do rámu</string>
+    <string name="onfido_video_capture_prompt_header_restart">Spustiť zaznamenávanie znova</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Ak chcete tento krok vymazať, musíte počas zaznamenávania držať svoju tvár v zobrazení.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Spustiť znova</string>
+
+    <string name="onfido_welcome_list_header">Pomocou zariadenia vykonajte tieto kroky:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Odfoťte doklad totožnosti</string>
+    <string name="onfido_welcome_list_item_doc_video">Zaznamenajte video dokladu totožnosti</string>
+    <string name="onfido_welcome_list_item_doc_generic">Naskenujte doklad totožnosti</string>
+    <string name="onfido_welcome_list_item_face_photo">Odfoťte svoju tvár</string>
+    <string name="onfido_welcome_list_item_face_video">Zaznamenajte video svojej tváre</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Dolné tri riadky nie sú viditeľné</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Skúsiť skenovanie znova</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Overenie bez NFC</string>
+    <string name="onfido_nfc_scan_error_title">Nepodarilo sa naskenovať váš doklad</string>
+    <string name="onfido_nfc_scan_error_list_item">Odstráňte kryt telefónu</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Po spustení skenovania vydržte bez pohybu</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Počas skenovania nehýbte telefónom ani pasom</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Môžete vyskúšať aj vnútornú stranu zadnej stránky</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Umiestnite telefón na hornú časť pasu</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Pomaly posúvajte telefón nadol a nahor</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Umiestnite pas na rovný povrch</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Po spustení skenovania držte telefón bez pohybu</string>
+    <string name="onfido_nfc_intro_title_card">Naskenujte preukaz s NFC</string>
+    <string name="onfido_nfc_intro_title_passport">Naskenujte svoj elektronický pas</string>
+    <string name="onfido_nfc_intro_subtitle">Postupujte podľa pokynov nižšie</string>
+    <string name="onfido_nfc_intro_button_primary">Spustiť skenovanie</string>
+    <string name="onfido_nfc_intro_list_item">Umiestnite preukaz na zadnú stranu zariadenia</string>
+    <string name="onfido_nfc_intro_list_item_2">Pomaly posúvajte mobilný telefón nahor a nadol</string>
+    <string name="onfido_nfc_intro_list_item_3">Po spustení skenovania vydržte bez pohybu</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Váš pas sme úspešne naskenovali</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Váš preukaz sme úspešne naskenovali</string>
+
+    <string name="onfido_nfc_select_title_passport">Urýchlite proces pomocou NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Naskenujeme čip NFC vo vašom pase</string>
+    <string name="onfido_nfc_select_body_passport">Elektronické pasy majú na obale tento symbol</string>
+    <string name="onfido_nfc_select_button_primary_passport">Použiť elektronický pas</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Toto nie je elektronický pas</string>
+
+    <string name="onfido_nfc_select_title_card">Urýchlite proces pomocou NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Naskenujeme čip NFC vo vašom preukaze</string>
+    <string name="onfido_nfc_select_body_card">Preukazy s čipom NFC majú tento symbol</string>
+    <string name="onfido_nfc_select_button_primary_card">Použiť preukaz s NFC</string>
+    <string name="onfido_nfc_select_button_secondary_card">Nie je to preukaz s NFC</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Umiestnite telefón do blízkosti hornej časti pasu</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Umiestnite telefón na preukaz</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Držte telefón nehybne</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Stratil sa kontakt s preukazom</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Stratil sa kontakt s pasom</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Pohybujte telefónom mierne nahor alebo nadol</string>
+
+    <string name="onfido_enter_can_title">Zadajte CAN</string>
+    <string name="onfido_enter_can_subtitle">Uistite sa, že zadané číslo sa zhoduje s číslom uvedeným v doklade.</string>
+    <string name="onfido_enter_can_button_primary">Pokračovať</string>
+    <string name="onfido_enter_can_disclaimer">Nájdete ho na prednej strane dokladu. Počet číslic je %d a je o niečo väčšie.</string>
+    <string name="onfido_enter_can_error_label">Počet zostávajúcich pokusov: %d %s.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">pokus</string>
+    <string name="onfido_enter_can_substring_attempt_plural">pokusov</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Pohľad z fotoaparátu. Umiestnite telefón na prednú stranu dokladu a potom telefón pomaly posúvajte priamo smerom od dokladu.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Podržte telefón nad dokladom</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Nenašiel sa žiadny doklad. Podržte telefón nad dokladom.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Doklad je príliš blízko</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Doklad je príliš blízko k fotoaparátu</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Doklad je príliš ďaleko</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Doklad je príliš ďaleko od fotoaparátu</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Posuňte doľava</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Posuňte zariadenie doľava</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Posuňte doprava</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Posuňte zariadenie doprava</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Posuňte nahor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Posuňte zariadenie nahor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Posuňte nahor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Posuňte zariadenie mierne nahor</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Posuňte nadol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Posuňte zariadenie nadol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Posuňte nadol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Posuňte zariadenie mierne nadol</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Snímajte bez pohybu</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Snímajte obrázok bez pohybu</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Podržte telefón nad prednou stranou dokladu</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Podržte telefón nad zadnou stranou dokladu</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Pohľad z fotoaparátu. Umiestnite telefón na zadnú stranu dokladu a potom telefón pomaly posúvajte priamo smerom od dokladu.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Podržte telefón nad stránkou pasu s fotkou</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Pohľad z fotoaparátu. Umiestnite telefón na stránku pasu s fotkou a potom telefón pomaly posúvajte priamo smerom od dokladu.</string>
+	<string name="onfido_doc_capture_header_capturing">Držte bez pohybu</string>
+
+	<string name="onfido_avc_intro_title">Zaznamenajte video</string>
+	<string name="onfido_avc_intro_subtitle">Týmto overujeme, že ste skutočná osoba</string>
+	<string name="onfido_avc_intro_list_item_one">Najprv umiestnite tvár do rámu</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Najprv budete musieť umiestniť tvár pred zariadenie</string>
+	<string name="onfido_avc_intro_list_item_two">Potom pomaly otočte hlavou na obe strany</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Potom budete musieť pomaly otáčať hlavou na obe strany</string>
+	<string name="onfido_avc_intro_disclaimer">Pripomíname, že súčasťou záznamu bude vaša tvár i pozadie</string>
+	<string name="onfido_avc_intro_button_primary_ready">Spustiť zaznamenávanie</string>
+	<string name="onfido_avc_face_alignment_title">Umiestnite tvár do rámu</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Posuňte sa bližšie</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Posuňte sa ďalej</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Nebola zistená tvár</string>
+    <string name="onfido_avc_face_capture_title">Pomaly otočte hlavou na obe strany</string>
+    <string name="onfido_avc_face_capture_title_completed">Zaznamenávanie je ukončené</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Ľutujeme, zaznamenávanie musíme spustiť znova</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Na dokončenie záznamu máte až 15 sekúnd</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Skúsiť znova</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Hlavou ste otáčali príliš rýchlo</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Skúste to znova a otočte hlavou pomalšie</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Skúsiť znova</string>
+	<string name="onfido_avc_no_face_detected_title">Nepodarilo sa nám rozpoznať vašu tvár</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Uistite sa, že ste na mieste s dobrým osvetlením</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Uistite sa, že vaše oči sú jasne viditeľné</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Odstráňte rúška alebo iné predmety, ktoré zakrývajú vašu tvár. Okuliare sú prijateľné</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Ukážte len svoju tvár, nepotrebujeme vidieť váš doklad totožnosti</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Ukážte len svoju tvár, nepotrebujeme vidieť váš doklad totožnosti</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Spustiť záznam znova</string>
+	<string name="onfido_avc_confirmation_title">Zaznamenávanie je ukončené</string>
+	<string name="onfido_avc_confirmation_subtitle">Video vašej tváre bolo úspešne zaznamenané</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Nahrať záznam</string>
+	<string name="onfido_avc_connection_error_title">Chyba pripojenia</string>
+	<string name="onfido_avc_connection_error_subtitle">Skontrolujte, či je vaše pripojenie stabilné, a potom to skúste znova</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Tvár nie je v strede</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Skúsiť nahrávanie znova</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Spustiť záznam znova</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Zaznamenajte video svojej tváre</string>
+	<string name="onfido_avc_intro_video_accessibility">Príklad videa, na ktorom niekto otáča hlavu na obe strany až do dokončenia</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Pokračujte v otáčaní hlavy</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Otočte hlavou na druhú stranu</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Pohľad zo selfie fotoaparátu</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Ľavá strana je dokončená</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Pravá strana je dokončená</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Pomaly otočte hlavou na obe strany. Po dokončení strany sa prehrá zvuk potvrdenia a spustí vibrácia</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Zaznamenávanie sa začalo</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Umiestnite tvár pred zariadenie</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Nebola zistená tvár. Umiestnite tvár pred zariadenie</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Tvár je zarovnaná</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Nesprávne zarovnanie tváre</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Posuňte zariadenie bližšie</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Posuňte zariadenie ďalej</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Posuňte zariadenie doľava</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Posuňte zariadenie doprava</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Posuňte zariadenie nahor</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Posuňte zariadenie nadol</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Spustite overenie</string>
+	<string name="onfido_poa_intro_title">Poďme overiť vašu adresu</string>
+	<string name="onfido_poa_intro_subtitle">Budete potrebovať doklad, ktorý spĺňa tieto podmienky:</string>
+	<string name="onfido_poa_intro_list_shows_address">Je na ňom uvedená vaša aktuálna adresa</string>
+	<string name="onfido_poa_intro_list_matches_signup">Adresa sa zhoduje s tou, ktorú ste použili pri registrácii</string>
+	<string name="onfido_poa_intro_list_most_recent">Je to váš najnovší doklad</string>
+	<string name="onfido_poa_type_selection_title_uk">Vyberte doklad zo Spojeného kráľovstva</string>
+	<string name="onfido_poa_type_selection_title">Vyberte doklad</string>
+	<string name="onfido_doc_select_subtitle_poa">Toto sú doklady, na ktorých je s najväčšou pravdepodobnosťou uvedená aktuálna adresa vášho bydliska</string>
+	<string name="onfido_doc_select_button_bank_statement">Výpis z banky alebo stavebnej sporiteľne</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Výpis z bankového účtu</string>
+	<string name="onfido_doc_select_extra_estatements_ok">akceptované elektronické výpisy</string>
+	<string name="onfido_doc_select_button_bill">Účet za energie</string>
+    <string name="onfido_doc_select_button_tax_letter">Potvrdenie o zaplatení miestnej dane</string>
+	<string name="onfido_doc_select_button_benefits_letter">Potvrdenie o sociálnych dávkach</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Dávky pre domácnosť schválené verejnou správou, napr. príspevok pre uchádzača o zamestnanie, dávka na bývanie, daňové úľavy</string>
+    <string name="onfido_doc_select_button_address_card">Preukaz s adresou</string>
+    <string name="onfido_doc_select_button_address_card_detail">Akceptované sú dočasné i trvalé preukazy</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Musí byť vydaný v priebehu posledných 3 mesiacov</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Musí byť vydaný v priebehu posledných 3 mesiacov</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Musí byť vydaný v priebehu posledných 12 mesiacov</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Musí byť vydaný v priebehu posledných 12 mesiacov</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Musí ísť o platný preukaz s adresou</string>
+	<string name="onfido_poa_guidance_instructions_label">Zachyťte celý doklad a uistite sa, že je jasne vidieť tieto údaje:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Celé meno</string>
+	<string name="onfido_poa_guidance_instructions_address">Aktuálna adresa</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Dátum vydania alebo súhrnné obdobie</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Úplná adresa</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Dátum vydania</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Dátum vypršania platnosti (ak sa uplatňuje)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Nahrajte</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Odfotiť</string>
+	<string name="onfido_poa_select_document_details_upload_text">Vyberte doklad z</string>
+	<string name="onfido_poa_capture_confirm">Odoslať doklad</string>
+	<string name="onfido_poa_capture_choose_another">Zvoliť iný</string>
+	<string name="onfido_poa_capture_redo">Odfotiť znova</string>
+	<string name="onfido_doc_confirmation_body">Uistite sa, že ste nahrali celú stránku dokladu a údaje sú čitateľné bez rozmazania alebo odleskov</string>
+	<string name="onfido_poa_capture_enlarge">Zväčšiť doklad</string>
+	<string name="onfido_poa_capture_enlarge_move">Pohybujte sa jedným prstom. Priblížte sa stiahnutím prstov.</string>
+	<string name="onfido_poa_capture_enlarge_close">Zatvoriť</string>
+	<string name="onfido_poa_capture_instructions">Predná strana dokladu s adresou</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Neplatný súbor</string>
+	<string name="onfido_poa_err_invalid_file_message">Zvoľte iný súbor.</string>
+	<string name="onfido_poa_err_invalid_file_ok">OK</string>
+    <string name="onfido_poa_welcome_text">Odfoťte doklad s adresou</string>
+	<string name="onfido_country_select_error_no_country_body">Pracujeme na pridaní ďalších krajín do zoznamu. Medzitým skúste použiť iný doklad.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Ľutujeme, účty za mobilný telefón neakceptujeme</string>
+	<string name="onfido_doc_select_button_bill_detail">Plyn, elektrina, voda, pevná linka alebo širokopásmové pripojenie</string>
+
+	<string name="onfido_doc_select_subtitle_country">Ak chcete zistiť, ktoré doklady akceptujeme, vyberte vydávajúcu krajinu</string>
+	<string name="onfido_doc_select_section_header_country">Vydávajúca krajina</string>
+	<string name="onfido_doc_select_section_header_doc_type">Akceptované doklady</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Žiadne výsledky</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Celá stránka</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Stránka s fotkou</string>
+	<string name="onfido_doc_select_subtitle_front_back">Predná a zadná strana</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Vyberte vydávajúcu krajinu</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Počas tohto procesu bude zaznamenaná vaša tvár, pozadie a zvuk</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Mikrofón používa iná aplikácia</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Počas zaznamenávania ukončite akékoľvek prebiehajúce hovory a iné aktivity, ktoré používajú mikrofón</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Skúsiť znova</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Skúsiť znova</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Zvuk prehráva iná aplikácia</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Počas zaznamenávania neprehrávajte v zariadení žiadne zvuky</string>
+</resources>

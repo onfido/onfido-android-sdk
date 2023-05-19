@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Kad pengenalan Itali</string>
+    <string name="onfido_app_title_doc_capture_id_za">Kad pengenalan Afrika Selatan</string>
+    <string name="onfido_app_title_doc_capture_license_de">Lesen memandu Jerman</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Lesen memandu Perancis</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Kertas dokumen</string>
+    <string name="onfido_doc_capture_prompt_button_card">Kad plastik</string>
+    <string name="onfido_doc_capture_prompt_title_license">Apakah jenis lesen yang anda ada?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Apakah jenis kad pengenalan yang anda ada?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Letakkan dokumen anda secara rata, sertakan semua halaman dalaman (ia mesti mengandungi gambar anda)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Letakkan dokumen anda secara rata, sertakan semua halaman luar</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Pastikan dokumen anda dibuka sepenuhnya dan gambar adalah jelas</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Terima kasih</string>
+    <string name="onfido_outro_body">Itu sahaja yang kami perlukan untuk mula mengesahkan identiti anda</string>
+    <string name="onfido_continue">Teruskan</string>
+    <string name="onfido_video_intro_button_primary">Rakam video</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Memuatkan</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Pasport</string>
+    <string name="onfido_doc_select_button_visa">Visa</string>
+    <string name="onfido_doc_select_button_license">Lesen memandu</string>
+	<string name="onfido_doc_select_button_id">Kad pengenalan negara</string>
+    <string name="onfido_doc_select_button_permit">Permit kediaman</string>
+	<string name="onfido_doc_select_button_permit_work">Permit Kerja</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Sahkan identiti anda</string>
+    <string name="onfido_app_title_doc_select">Sahkan identiti anda</string>
+    <string name="onfido_welcome_title">Sahkan identiti anda</string>
+    <string name="onfido_welcome_subtitle">Ia akan mengambil masa beberapa minit</string>
+	<string name="onfido_selfie_capture_button_accessibility">Pengatup</string>
+    <string name="onfido_selfie_intro_title">Ambil swafoto</string>
+    <string name="onfido_app_title_country_select">Pilih negara yang mengeluarkan</string>
+	<string name="onfido_country_select_bottom_sheet_title">Tidak menemui negara anda?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Nampaknya negara dokumen yang anda pilih tidak disokong. Sila pilih negara lain.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Tutup</string>
+    <string name="onfido_selfie_intro_subtitle">Kami akan membandingkan swafoto tersebut dengan dokumen anda</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Pastikan wajah anda berada dalam bingkai berbentuk bujur</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Cuba Semula</string>
+    <string name="onfido_generic_error_camera_unavailable">Tiada kamera tersedia pada peranti ini</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Kamera tidak tersedia. Mungkin terdapat aplikasi lain yang menggunakannya pada masa yang sama.</string>
+    <string name="onfido_selfie_confirmation_body">Pastikan keseluruhan wajah anda kelihatan</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Tiada dokumen ditemui</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Wajah tidak dikesan</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Beberapa wajah ditemui</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Hanya wajah anda sahaja yang boleh berada dalam swafoto</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Perkhidmatan tidak tersedia</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Kami mohon maaf, kami tidak dapat meneruskan selanjutnya kerana lokasi semasa anda tidak disokong</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Pastikan wajah anda kelihatan</string>
+	<string name="onfido_generic_error_face_capture">Rakaman wajah tidak berjaya. Sila cuba lagi.</string>
+	<string name="onfido_generic_error_doc_capture">Rakaman dokumen tidak berjaya. Sila cuba lagi.</string>
+	<string name="onfido_generic_error_video_capture">Rakaman video tidak berjaya. Sila cuba lagi.</string>
+    <string name="onfido_doc_confirmation_body_generic">Pastikan butiran anda jelas dan tidak terlindung</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Silau dikesan</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Jauhi daripada cahaya langsung</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Hantar pengesahan</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Ralat</string>
+    <string name="onfido_generic_error_network_title">Sambungan terputus</string>
+    <string name="onfido_generic_error_network_detail">Berlaku ralat rangkaian. Sila periksa sambungan anda.</string>
+    <string name="onfido_generic_error_detail">Ada sesuatu yang tidak kena. Sila cuba lagi kemudian.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Untuk tujuan keselamatan, kami memerlukan rakaman secara langsung</string>
+    <string name="onfido_video_intro_list_item_move_speak">Ikut arahan untuk bergerak atau bercakap</string>
+    <string name="onfido_video_intro_loader">Memuatkan contoh</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Sebut setiap digit dengan kuat</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Nampaknya anda mengambil masa yang terlalu lama</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Jangan lupa untuk menekan butang apabila anda telah selesai.</string>
+    <string name="onfido_video_confirmation_button_secondary">Rakam semula video</string>
+	<string name="onfido_video_confirmation_button_primary">Hantar video</string>
+	<string name="onfido_video_confirmation_error_no_video">Video anda tidak ditemui pada peranti anda. Sila rakam semula video.</string>
+    <string name="onfido_video_capture_error_storage_title">Peranti anda telah penuh</string>
+    <string name="onfido_video_capture_error_storage_detail">Kosongkan beberapa ruang storan dan rakam video anda sekali lagi</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Nyahsenyap</string>
+    <string name="onfido_video_capture_button_primary_start">Mula rakaman</string>
+    <string name="onfido_video_capture_button_primary_finish">Tamatkan rakaman</string>
+    <string name="onfido_video_capture_button_primary_fallback">Langkah seterusnya</string>
+	<string name="onfido_video_confirmation_error_media_player">Berlaku ralat pada video anda. Sila rakam semula video.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Muat Semula</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Muat semula video contoh</string>
+    <string name="onfido_video_intro_error_network">Tidak dapat memuatkan kerana rangkaian tidak stabil</string>
+    <string name="onfido_video_intro_error_network_accessibility">Tidak boleh memuatkan video contoh kerana rangkaian tidak stabil</string>
+	<string name="onfido_video_intro_error_load_offline">Tidak boleh memuatkan kerana anda berada di luar talian</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Negara cadangan</string>
+    <string name="onfido_country_select_list_header_all">Semua negara</string>
+    <string name="onfido_app_title_country_select_search">Carian</string>
+    <string name="onfido_country_select_error_no_country_title">Negara tidak ditemui</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Cuba ambil gambar secara manual</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Gambar kabur dikesan</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Kod bar tidak dikesan</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Berada di tempat yang terang dan dekatkan kad dengan kamera</string>
+    <string name="onfido_permission_recovery_button_primary">Dayakannya pada tetapan</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Benarkan akses kamera</string>
+    <string name="onfido_permission_subtitle_cam">Apabila digesa, anda mesti mendayakan akses kamera untuk meneruskannya</string>
+	<string name="onfido_permission_body_cam">Kami tidak dapat mengesahkan anda tanpa kamera anda</string>
+    <string name="onfido_permission_button_primary_cam">Dayakan kamera</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Kami tidak dapat mengesahkan anda tanpa kamera anda</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Pergi ke tetapan aplikasi dan dayakan akses kamera untuk aplikasi ini</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Anda boleh mengembalikan akses kamera melalui tetapan peranti anda</string>
+
+    <string name="onfido_permission_recovery_title_cam">Akses kamera tidak dibenarkan</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Benarkan akses mikrofon</string>
+    <string name="onfido_permission_subtitle_mic">Apabila digesa, anda mesti mendayakan akses mikrofon untuk meneruskannya</string>
+    <string name="onfido_permission_button_primary_mic">Dayakan mikrofon</string>
+    <string name="onfido_permission_recovery_title_mic">Akses mikrofon tidak dibenarkan</string>
+    <string name="onfido_permission_body_mic">Kami tidak dapat mengesahkan anda tanpa menggunakan mikrofon anda</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Anda boleh mengembalikan akses mikrofon melalui tetapan peranti anda</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Pergi ke tetapan aplikasi dan dayakan akses mikrofon untuk aplikasi ini</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Kami tidak dapat mengesahkan anda tanpa mikrofon anda</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Benarkan akses kamera dan mikrofon</string>
+    <string name="onfido_permission_subtitle_both">Apabila digesa, anda mesti mendayakan akses kamera dan mikrofon untuk meneruskannya</string>
+    <string name="onfido_permission_recovery_title_both">Akses kamera dan mikrofon tidak dibenarkan</string>
+    <string name="onfido_video_capture_alert_wrong_side">Sisi yang salah</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Muat semula arahan</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Sambungan tamat masa</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Sila periksa sama ada sambungan anda stabil dan cuba lagi kemudian</string>
+	<string name="onfido_generic_back">belakang</string>
+    <string name="onfido_permission_body_both">Kami tidak dapat mengesahkan anda tanpa menggunakan kamera dan juga mikrofon anda</string>
+    <string name="onfido_permission_button_primary_both">Dayakan kedua-duanya</string>
+	<string name="onfido_permission_recovery_subtitle_both">Kami tidak dapat mengesahkan anda tanpa kamera dan mikrofon anda</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Anda boleh mengembalikan semula akses mikrofon melalui tetapan peranti anda</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Pergi ke tetapan aplikasi dan dayakan akses kamera dan mikrofon untuk aplikasi ini</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Contoh video cara merakam video swafoto. Untuk merakam video swafoto, hadapkan wajah anda ke kamera hadapan dan jauhkan sedikit telefon anda daripada wajah anda. Kemudian, anda perlu membaca beberapa nombor dan toleh kepala anda mengikut arahan pada skrin.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Pandangan dari kamera</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Gambar wajah anda</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Gambar dokumen anda</string>
+    <string name="onfido_video_confirmation_body">Video anda telah dirakam</string>
+	<string name="onfido_video_confirmation_video_accessibility">Pratonton rakaman video anda</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Anda sepatutnya mendengar anda berkata: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Anda sepatutnya melihat diri anda menoleh kepala ke arah %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Kemudian</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Kiri</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Kanan</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Main atau jeda</string>
+	<string name="onfido_doc_capture_button_accessibility">Ambil gambar</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Jeda video</string>
+    <string name="onfido_video_intro_button_play_accessibility">Main video</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Dua baris terbawah tidak kelihatan</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Pastikan dokumen penuh dipaparkan</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Bersetuju</string>
+    <string name="onfido_user_consent_button_secondary">Tidak bersetuju</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Adakah anda pasti?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Jika anda tidak bersetuju dengan pernyataan privasi dan terma perkhidmatan Onfido, kami tidak akan dapat mengesahkan identiti anda dan anda akan keluar daripada langkah ini.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Ya, jangan sahkan saya</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Semak semula</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Kami akan menghidupkan lampu denyar peranti anda semasa rakaman video</string>
+	<string name="onfido_doc_video_capture_header">Ketika memegang dokumen anda, pastikan bahagian depan dokumen berada dalam bingkai</string>
+    <string name="onfido_doc_video_capture_header_step1">Sekarang, jangan bergerak</string>
+    <string name="onfido_doc_video_capture_detail_step2">Pastikan dokumen sentiasa dalam paparan penuh pada setiap masa</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Langkah seterusnya</string>
+    <string name="onfido_doc_video_capture_header_passport">Ketika memegang pasport anda, pastikan halaman foto berada dalam bingkai</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Pusing dokumen anda secara perlahan-lahan untuk menunjukkan halaman luar</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Rakaman video terhad kepada %1$s saat.</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Berjaya</string>
+	<string name="onfido_doc_video_capture_stepper">Langkah ​%1$d​ daripada ​%2$d​</string>
+    <string name="onfido_doc_video_capture_header_step2">Pusing dokumen anda secara perlahan-lahan untuk menunjukkan bahagian belakang</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Pratonton video</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Tamatkan rakaman</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Jangan bergerak</string>
+	<string name="onfido_welcome_list_item_doc_video_timeout">Rakaman video terhad kepada ​%1$s​ saat</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Ambil semula gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Ambil semula gambar</string>
+
+    <string name="onfido_generic_uploading">Memuat naik</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Pastikan dokumen penuh kelihatan</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Imej terpotong dikesan</string>
+    <string name="onfido_doc_upload_progress_label">Memeriksa kualiti imej</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">kemudian menghadap ke hadapan</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Sedia untuk diimbas</string>
+    <string name="onfido_nfc_sheet_button_secondary">Batal</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Mengimbas...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Pastikan telefon anda tidak bergerak</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Imbas berjaya dilakukan</string>
+    <string name="onfido_nfc_permission_title">Hidupkan NFC</string>
+	<string name="onfido_nfc_permission_subtitle">Kami tidak boleh mengimbas pasport anda tanpa NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Hidupkan NFC dari tetapan peranti anda</string>
+    <string name="onfido_nfc_permission_button_primary">Buka tetapan</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Hantar gambar</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Wajah dan latar belakang anda akan dirakam semasa proses ini</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Hadap ke hadapan dan pastikan mata anda jelas kelihatan</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Pastikan segala-galanya adalah jelas</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Pastikan semua dokumen ada dalam gambar</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Ambil semula gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Ambil semula gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Ambil semula gambar</string>
+	<string name="onfido_selfie_intro_button_primary">Ambil swafoto</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Anda mempunyai %1$d saat untuk menyelesaikannya</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Hantar gambar</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Hantar gambar</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Tanggalkan cermin mata anda, jika perlu</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Tanggalkan apa sahaja yang menutupi muka anda. Cermin mata dibenarkan</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Susun dokumen secara selari, kemudian tekan butang</string>
+    <string name="onfido_doc_select_subtitle">Ia mestilah ID bergambar yang rasmi</string>
+    <string name="onfido_selfie_confirmation_button_primary">Muat naik foto</string>
+    <string name="onfido_doc_select_title">Pilih dokumen anda</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Ambil semula gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Ambil semula gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Ambil semula gambar</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Ambil semula gambar</string>
+    <string name="onfido_video_intro_title">Rakam video</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Pilih dokumen lain</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Toleh kepala anda ke kiri</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Toleh kepala anda ke kanan</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Pastikan wajah anda berada dalam bingkai berbentuk bujur untuk memulakan rakaman</string>
+
+    <string name="onfido_app_title_doc_confirmation">Sahkan identiti anda</string>
+    <string name="onfido_app_title_selfie_confirmation">Sahkan identiti anda</string>
+    <string name="onfido_app_title_permission">Sahkan identiti anda</string>
+    <string name="onfido_app_title_selfie_intro">Sahkan identiti anda</string>
+    <string name="onfido_app_title_video_intro">Sahkan identiti anda</string>
+    <string name="onfido_app_title_video_confirmation">Sahkan identiti anda</string>
+    <string name="onfido_welcome_button_primary_doc">Pilih dokumen</string>
+    <string name="onfido_welcome_button_primary">Mula</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Wajah dikesan. Rakaman telah bermula.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Tolehan kepala dikesan</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Imej ditangkap</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Pandangan dari kamera swafoto. Pastikan muka anda dalam bingkai bujur tersebut, kemudian ketik butang pengatup</string>
+    <string name="onfido_video_capture_frame_accessibility">Pandangan dari kamera swafoto. Pastikan wajah anda berada dalam bingkai berbentuk bujur untuk memulakan rakaman.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Letakkan halaman luar dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_license_front">Letakkan bahagian depan dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_license_back">Letakkan bahagian belakang dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_permit_front">Letakkan bahagian depan dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_permit_back">Letakkan bahagian belakang dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_id_front">Letakkan bahagian depan dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_id_back">Letakkan bahagian belakang dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Letakkan bahagian depan dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Letakkan bahagian belakang dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_visa_front">Letakkan halaman visa dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_generic_front">Letakkan bahagian depan dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_generic_back">Letakkan bahagian belakang dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_header_passport">Letakkan halaman foto dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Pandangan dari kamera. Letakkan halaman foto dokumen anda dalam bingkai. Peranti anda akan bergetar apabila imej dirakam</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Pandangan dari kamera. Letakkan bahagian depan dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Pandangan dari kamera. Letakkan bahagian belakang dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Pandangan dari kamera. Letakkan bahagian depan dokumen anda dalam bingkai. Peranti anda akan bergetar apabila imej dirakam</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Pandangan dari kamera. Letakkan bahagian belakang dokumen anda dalam bingkai</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Pandangan dari kamera. Letakkan bahagian depan dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Pandangan dari kamera. Letakkan bahagian belakang dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Pandangan dari kamera. Letakkan bahagian depan dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Pandangan dari kamera. Letakkan bahagian belakang dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Pandangan dari kamera. Letakkan bahagian foto dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Pandangan dari kamera. Letakkan halaman luar dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Pandangan dari kamera. Letakkan bahagian foto dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Pandangan dari kamera. Letakkan halaman luar dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Pandangan dari kamera. Letakkan bahagian foto dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Pandangan dari kamera. Letakkan halaman luar dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Pandangan dari kamera. Letakkan bahagian foto dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Pandangan dari kamera. Letakkan halaman luar dokumen anda dalam bingkai, kemudian ketik butang pengatup</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Letakkan bahagian foto dokumen anda dalam bingkai</string>
+    <string name="onfido_video_capture_prompt_header_restart">Mulakan semula rakaman</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Untuk memastikan rakaman ini jelas, anda mesti memastikan wajah anda berada dalam pandangan sepanjang rakaman.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Mula semula</string>
+
+    <string name="onfido_welcome_list_header">Gunakan peranti anda untuk:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Ambil gambar dokumen pengenalan anda</string>
+    <string name="onfido_welcome_list_item_doc_video">Rakam video dokumen pengenalan anda</string>
+    <string name="onfido_welcome_list_item_doc_generic">Imbas dokumen pengenalan anda</string>
+    <string name="onfido_welcome_list_item_face_photo">Ambil gambar wajah anda</string>
+    <string name="onfido_welcome_list_item_face_video">Rakam video wajah anda</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Tiga baris terbawah tidak kelihatan</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Cuba semula pengimbasan</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Dapatkan pengesahan tanpa NFC</string>
+    <string name="onfido_nfc_scan_error_title">Kami tidak dapat mengimbas dokumen anda</string>
+    <string name="onfido_nfc_scan_error_list_item">Tanggalkan penutup telefon anda</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Sebaik sahaja imbasan bermula, jangan bergerak</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Jangan gerakkan telefon atau pasport anda semasa mengimbas</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Anda juga boleh mencuba pada bahagian dalam halaman belakang</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Letakkan telefon anda pada bahagian atas pasport anda</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Gelongsor telefon anda ke bawah dan ke atas secara perlahan-lahan</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Letakkan pasport anda di atas permukaan yang rata</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Sebaik sahaja imbasan bermula, pastikan telefon anda tidak bergerak</string>
+    <string name="onfido_nfc_intro_title_card">Imbas kad NFC anda</string>
+    <string name="onfido_nfc_intro_title_passport">Imbas e-Pasport anda</string>
+    <string name="onfido_nfc_intro_subtitle">Ikut arahan di bawah</string>
+    <string name="onfido_nfc_intro_button_primary">Mula mengimbas</string>
+    <string name="onfido_nfc_intro_list_item">Letakkan kad anda di bahagian belakang peranti anda</string>
+    <string name="onfido_nfc_intro_list_item_2">Gelongsor telefon anda ke bawah dan ke atas secara perlahan-lahan</string>
+    <string name="onfido_nfc_intro_list_item_3">Sebaik sahaja imbasan bermula, jangan bergerak</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Kami telah berjaya mengimbas pasport anda</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Kami telah berjaya mengimbas kad anda</string>
+
+    <string name="onfido_nfc_select_title_passport">Percepatkan proses dengan NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Kami akan mengimbas cip NFC pada pasport anda</string>
+    <string name="onfido_nfc_select_body_passport">e-Pasport mempunyai simbol ini pada bahagian kulit depan</string>
+    <string name="onfido_nfc_select_button_primary_passport">Guna e-Pasport</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Ia bukan e-Pasport</string>
+
+    <string name="onfido_nfc_select_title_card">Percepatkan proses dengan NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Kami akan mengimbas cip NFC dalam kad anda</string>
+    <string name="onfido_nfc_select_body_card">Kad dengan cip NFC mempunyai simbol ini</string>
+    <string name="onfido_nfc_select_button_primary_card">Guna kad NFC</string>
+    <string name="onfido_nfc_select_button_secondary_card">Ini bukan kad NFC</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Letakkan telefon anda berhampiran bahagian atas pasport anda</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Letakkan telefon anda pada kad</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Pastikan telefon anda tidak bergerak</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Terputus sambungan dengan kad</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Terputus sambungan dengan pasport</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Gerakkan telefon anda ke atas atau ke bawah sedikit</string>
+
+    <string name="onfido_enter_can_title">Masukkan CAN</string>
+    <string name="onfido_enter_can_subtitle">Sila pastikan nombor yang diberikan sepadan dengan nombor pada dokumen.</string>
+    <string name="onfido_enter_can_button_primary">Teruskan</string>
+    <string name="onfido_enter_can_disclaimer">Anda boleh menemuinya pada bahagian depan dokumen anda. Ia sepanjang %d-digit dan bersaiz lebih besar sedikit.</string>
+    <string name="onfido_enter_can_error_label">Anda mempunyai %d %s lagi.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">percubaan</string>
+    <string name="onfido_enter_can_substring_attempt_plural">percubaan</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Pandangan dari kamera. Letakkan telefon di bahagian hadapan dokumen anda, kemudian alihkan telefon anda daripadanya secara perlahan-lahan mengikut garisan lurus.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Pegang telefon anda di atas dokumen</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Tiada dokumen ditemui. Pegang telefon anda di atas dokumen.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Dokumen terlalu hampir</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Dokumen terlalu hampir dengan kamera</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Dokumen terlalu jauh</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Dokumen terlalu jauh dari kamera</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Gerakkan ke kiri</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Gerakkan peranti anda ke kiri</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Gerakkan ke kanan</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Gerakkan peranti anda ke kanan</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Gerakkan ke atas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Gerakkan peranti anda ke atas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Gerakkan ke atas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Gerakkan peranti anda ke atas sedikit</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Gerakkan ke bawah</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Gerakkan peranti anda ke bawah</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Gerakkan ke bawah</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Gerakkan peranti anda ke bawah sedikit</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Jangan bergerak ketika merakam</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Jangan bergerak ketika mengambil gambar</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Pegang telefon anda di atas bahagian depan dokumen anda</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Pegang telefon anda di atas bahagian belakang dokumen anda</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Pandangan dari kamera. Letakkan telefon pada bahagian belakang dokumen anda, kemudian gerakkan telefon anda daripadanya secara perlahan-lahan mengikut garisan lurus.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Pegang telefon anda di atas halaman foto pasport anda</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Pandangan dari kamera. Letakkan telefon anda pada halaman foto pasport anda, kemudian gerakkan telefon anda daripadanya secara perlahan-lahan mengikut garisan lurus.</string>
+	<string name="onfido_doc_capture_header_capturing">Jangan bergerak</string>
+
+	<string name="onfido_avc_intro_title">Rakam video</string>
+	<string name="onfido_avc_intro_subtitle">Ini adalah untuk mengesahkan bahawa anda merupakan orang sebenar</string>
+	<string name="onfido_avc_intro_list_item_one">Pertama, letakkan wajah anda dalam bingkai</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Pertama, anda perlu meletakkan wajah anda di hadapan peranti anda</string>
+	<string name="onfido_avc_intro_list_item_two">Kemudian, toleh kepala anda perlahan-lahan ke kedua-dua belah sisi</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Kemudian, anda perlu menoleh kepala anda secara perlahan-lahan ke kedua-dua belah sisi</string>
+	<string name="onfido_avc_intro_disclaimer">Harap maklum bahawa kami akan merakam wajah anda berserta latar belakang anda</string>
+	<string name="onfido_avc_intro_button_primary_ready">Mula rakaman</string>
+	<string name="onfido_avc_face_alignment_title">Letakkan wajah anda dalam bingkai</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Bergerak lebih dekat</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Bergerak ke belakang</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Wajah tidak dikesan</string>
+    <string name="onfido_avc_face_capture_title">Toleh kepala anda perlahan-lahan ke kedua-dua belah sisi</string>
+    <string name="onfido_avc_face_capture_title_completed">Rakaman selesai</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Maaf, kami perlu memulakan semula rakaman</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Anda mempunyai sehingga 15 saat untuk melengkapkan rakaman</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Cuba Semula</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Anda toleh kepala terlalu cepat</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Sila cuba lagi dan toleh kepala anda dengan lebih perlahan</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Cuba Semula</string>
+	<string name="onfido_avc_no_face_detected_title">Kami tidak dapat mengesan wajah anda</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Pastikan anda berada di tempat yang mempunyai pencahayaan yang baik</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Pastikan mata anda kelihatan dengan jelas</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Pastikan anda menanggalkan pelitup muka atau barangan lain yang menutup muka anda. Cermin mata dibenarkan</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Pastikan anda hanya menunjukkan wajah anda, kami tidak perlu melihat ID anda</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Pastikan anda hanya menunjukkan wajah anda, kami tidak perlu melihat Dokumen Pengenalan anda</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Mulakan semula rakaman</string>
+	<string name="onfido_avc_confirmation_title">Rakaman selesai</string>
+	<string name="onfido_avc_confirmation_subtitle">Video wajah anda telah berjaya dirakam</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Muat naik rakaman</string>
+	<string name="onfido_avc_connection_error_title">Ralat sambungan</string>
+	<string name="onfido_avc_connection_error_subtitle">Sila periksa sama ada sambungan anda stabil dan cuba lagi kemudian</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Wajah tidak berada pada bahagian tengah</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Cuba muat naik semula</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Mulakan semula rakaman</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Rakam video wajah anda</string>
+	<string name="onfido_avc_intro_video_accessibility">Contoh video cara menoleh kepala ke kedua-dua belah sisi sehingga tamat</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Teruskan menoleh kepala anda</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Toleh kepala anda ke sebelah sisi yang lain</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Pandangan dari kamera swafoto</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Bahagian kiri selesai</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Bahagian kanan selesai</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Toleh kepala anda perlahan-lahan ke kedua-dua belah sisi. Apabila satu sisi telah selesai, anda akan mendengar pengesahan dan merasakan getaran</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Rakaman telah bermula</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Letakkan wajah anda di hadapan peranti anda</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Wajah tidak dikesan. Letakkan wajah anda di hadapan peranti anda</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Wajah dijajarkan</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Wajah tidak sejajar</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Gerakkan peranti anda lebih dekat</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Gerakkan peranti anda ke belakang</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Gerakkan peranti anda ke kiri</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Gerakkan peranti anda ke kanan</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Gerakkan peranti anda ke atas</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Gerakkan peranti anda ke bawah</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Mulakan pengesahan</string>
+	<string name="onfido_poa_intro_title">Mari sahkan alamat anda</string>
+	<string name="onfido_poa_intro_subtitle">Anda memerlukan dokumen yang:</string>
+	<string name="onfido_poa_intro_list_shows_address">Menunjukkan alamat semasa anda</string>
+	<string name="onfido_poa_intro_list_matches_signup">Padan dengan alamat yang anda guna semasa mendaftar</string>
+	<string name="onfido_poa_intro_list_most_recent">Dokumen terkini anda</string>
+	<string name="onfido_poa_type_selection_title_uk">Pilih dokumen UK</string>
+	<string name="onfido_poa_type_selection_title">Pilih dokumen</string>
+	<string name="onfido_doc_select_subtitle_poa">Ini ialah dokumen-dokumen yang berkemungkinan besar menunjukkan alamat rumah semasa anda</string>
+	<string name="onfido_doc_select_button_bank_statement">Penyata bank atau penyata persatuan pembinaan</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Penyata bank</string>
+	<string name="onfido_doc_select_extra_estatements_ok">e-penyata diterima</string>
+	<string name="onfido_doc_select_button_bill">Bil Utiliti</string>
+    <string name="onfido_doc_select_button_tax_letter">Surat Cukai Majlis</string>
+	<string name="onfido_doc_select_button_benefits_letter">Surat Faedah</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Faedah isi rumah yang dibenarkan oleh kerajaan cth. Elaun pencari kerja, Faedah perumahan, Kredit cukai</string>
+    <string name="onfido_doc_select_button_address_card">Kad alamat</string>
+    <string name="onfido_doc_select_button_address_card_detail">Kad sementara dan kekal diterima</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Mesti dikeluarkan dalam tempoh 3 bulan terakhir</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Mesti dikeluarkan dalam tempoh 3 bulan terakhir</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Mesti dikeluarkan dalam tempoh 12 bulan terakhir</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Mesti dikeluarkan dalam tempoh 12 bulan terakhir</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Mesti kad alamat yang sah</string>
+	<string name="onfido_poa_guidance_instructions_label">Rakam keseluruhan dokumen dan pastikan ia menunjukkan dengan jelas:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Nama penuh</string>
+	<string name="onfido_poa_guidance_instructions_address">Alamat semasa</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Tarikh pengeluaran atau ringkasan tempoh</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Alamat penuh</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Tarikh dikeluarkan</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Tarikh luput, jika berkenaan</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Muat naik</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Tangkap gambar</string>
+	<string name="onfido_poa_select_document_details_upload_text">Pilih dokumen daripada</string>
+	<string name="onfido_poa_capture_confirm">Hantar dokumen</string>
+	<string name="onfido_poa_capture_choose_another">Pilih yang lain</string>
+	<string name="onfido_poa_capture_redo">Ambil semula gambar</string>
+	<string name="onfido_doc_confirmation_body">Pastikan anda telah memuat naik keseluruhan halaman dokumen dan butiran adalah jelas untuk dibaca tanpa kabur atau silau</string>
+	<string name="onfido_poa_capture_enlarge">Besarkan dokumen</string>
+	<string name="onfido_poa_capture_enlarge_move">Bergerak menggunakan satu jari. Jepit untuk mengezum.</string>
+	<string name="onfido_poa_capture_enlarge_close">Tutup</string>
+	<string name="onfido_poa_capture_instructions">Bahagian depan dokumen alamat</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Fail Tidak Sah</string>
+	<string name="onfido_poa_err_invalid_file_message">Sila pilih fail lain.</string>
+	<string name="onfido_poa_err_invalid_file_ok">OK</string>
+    <string name="onfido_poa_welcome_text">Ambil gambar dokumen yang mempunyai alamat anda</string>
+	<string name="onfido_country_select_error_no_country_body">Kami sedang berusaha untuk menambah lebih banyak negara ke senarai ini. Sementara itu, cuba gunakan dokumen alternatif.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Maaf, bil telefon bimbit tidak diterima</string>
+	<string name="onfido_doc_select_button_bill_detail">Gas, elektrik, air, talian tetap atau jalur lebar</string>
+
+	<string name="onfido_doc_select_subtitle_country">Pilih negara yang mengeluarkan untuk melihat dokumen yang kami terima</string>
+	<string name="onfido_doc_select_section_header_country">Negara yang mengeluarkan</string>
+	<string name="onfido_doc_select_section_header_doc_type">Dokumen yang diterima</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Tiada Hasil</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Seluruh halaman</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Halaman foto</string>
+	<string name="onfido_doc_select_subtitle_front_back">Bahagian depan dan belakang</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Pilih negara yang mengeluarkan</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Wajah, latar belakang dan audio anda akan dirakam semasa proses ini</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Mikrofon anda sedang digunakan oleh aplikasi lain</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Sila tamatkan sebarang panggilan yang sedang berjalan atau aktiviti yang menggunakan mikrofon anda semasa rakaman dibuat</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Cuba Semula</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Cuba Semula</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio sedang dimainkan oleh aplikasi lain</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan mainkan apa-apa audio pada peranti anda semasa rakaman dibuat</string>
+</resources>

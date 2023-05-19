@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">İtalyan kimlik kartı</string>
+    <string name="onfido_app_title_doc_capture_id_za">Güney Afrika kimlik kartı</string>
+    <string name="onfido_app_title_doc_capture_license_de">Almanya sürücü belgesi</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Fransız sürücü belgesi</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Kağıt belge</string>
+    <string name="onfido_doc_capture_prompt_button_card">Plastik kart</string>
+    <string name="onfido_doc_capture_prompt_title_license">Ne tür bir sürücü belgeniz var?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Ne tür bir kimlik kartınız var?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Belgenizi düz bir şekilde yerleştirin, tüm iç sayfaları ekleyin (fotoğrafınızı içermelidir)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Belgenizi düz bir şekilde yerleştirin, tüm dış sayfaları dâhil edin</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Belgenizin tamamen açıldığından ve fotoğrafın net olduğundan emin olun</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Teşekkürler</string>
+    <string name="onfido_outro_body">Kimliğinizi doğrulamaya başlamak için ihtiyacımız olan tek şey bu</string>
+    <string name="onfido_continue">Devam et</string>
+    <string name="onfido_video_intro_button_primary">Video kaydedin</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Yükleniyor</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Pasaport</string>
+    <string name="onfido_doc_select_button_visa">Vize</string>
+    <string name="onfido_doc_select_button_license">Sürücü belgesi</string>
+	<string name="onfido_doc_select_button_id">Ulusal kimlik no</string>
+    <string name="onfido_doc_select_button_permit">Oturma izni</string>
+	<string name="onfido_doc_select_button_permit_work">Çalışma İzni</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Kimliğinizi doğrulayın</string>
+    <string name="onfido_app_title_doc_select">Kimliğinizi doğrulayın</string>
+    <string name="onfido_welcome_title">Kimliğinizi doğrulayın</string>
+    <string name="onfido_welcome_subtitle">Sadece birkaç dakika sürer</string>
+	<string name="onfido_selfie_capture_button_accessibility">Deklanşör</string>
+    <string name="onfido_selfie_intro_title">Bir selfie çekin</string>
+    <string name="onfido_app_title_country_select">Düzenleyen ülkeyi seçin</string>
+	<string name="onfido_country_select_bottom_sheet_title">Ülkenizi bulamadınız mı?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Seçtiğiniz belgenin ülkesi desteklenmiyor gibi görünüyor. Lütfen farklı bir ülke seçin.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Kapat</string>
+    <string name="onfido_selfie_intro_subtitle">Bunu belgenizle karşılaştıracağız</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Yüzünüzü oval içinde tutun</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Yeniden dene</string>
+    <string name="onfido_generic_error_camera_unavailable">Bu cihazda kamera yok</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Kamera kullanılamıyor. Aynı anda kamerayı kullanan başka bir uygulama olabilir.</string>
+    <string name="onfido_selfie_confirmation_body">Tüm yüzünüzün görünür olduğundan emin olun</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Belge bulunamadı</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Yüz tespit edilmedi</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Birden fazla yüz bulundu</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Csak az Ön arca lehet a szelfin</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Hizmet kullanılamıyor</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Üzgünüz, mevcut konumunuz desteklenmediği için daha fazla ilerleyemiyoruz</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Yüzünüzün görünür olduğundan emin olun</string>
+	<string name="onfido_generic_error_face_capture">Yüz yakalama işe yaramadı. Lütfen tekrar deneyin.</string>
+	<string name="onfido_generic_error_doc_capture">Belge yakalama işe yaramadı. Lütfen tekrar deneyin.</string>
+	<string name="onfido_generic_error_video_capture">Video yakalama işe yaramadı. Lütfen tekrar deneyin.</string>
+    <string name="onfido_doc_confirmation_body_generic">Bilgilerinizin net olduğundan ve tamamen göründüğünden emin olun</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Parlama algılandı</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Doğrudan ışıktan uzak durun</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Doğrulamayı gönder</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Hata</string>
+    <string name="onfido_generic_error_network_title">Bağlantı kesildi</string>
+    <string name="onfido_generic_error_network_detail">Bir ağ hatası oluştu. Lütfen bağlantınızı kontrol edin.</string>
+    <string name="onfido_generic_error_detail">Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Güvenliğiniz için canlı bir kayda ihtiyacımız var</string>
+    <string name="onfido_video_intro_list_item_move_speak">Hareket etmek veya konuşmak için talimatları izleyin</string>
+    <string name="onfido_video_intro_loader">Örnek yükleniyor</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Her rakamı yüksek sesle söyleyin</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Çok uzun sürmüş gibi görünüyor</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">İşiniz bittiğinde düğmeye basmayı unutmayın.</string>
+    <string name="onfido_video_confirmation_button_secondary">Videoyu tekrar çek</string>
+	<string name="onfido_video_confirmation_button_primary">Videoyu gönder</string>
+	<string name="onfido_video_confirmation_error_no_video">Videonuz cihazınızda bulunamıyor. Lütfen tekrar çekin.</string>
+    <string name="onfido_video_capture_error_storage_title">Cihazınız dolu</string>
+    <string name="onfido_video_capture_error_storage_detail">Biraz depolama alanı boşaltın ve videonuzu tekrar kaydedin</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Sesi aç</string>
+    <string name="onfido_video_capture_button_primary_start">Kaydı başlatın</string>
+    <string name="onfido_video_capture_button_primary_finish">Kaydı bitir</string>
+    <string name="onfido_video_capture_button_primary_fallback">Sonraki adım</string>
+	<string name="onfido_video_confirmation_error_media_player">Videonuzla ilgili bir hata oluştu. Lütfen tekrar çekin.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Yeniden yükle</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Örnek videoyu yeniden yükle</string>
+    <string name="onfido_video_intro_error_network">Kararsız ağ nedeniyle yüklenemiyor</string>
+    <string name="onfido_video_intro_error_network_accessibility">Ağ kararsızlığı nedeniyle örnek video yüklenemiyor</string>
+	<string name="onfido_video_intro_error_load_offline">Çevrim dışı olduğunuz için yüklenemiyor</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Önerilen ülke</string>
+    <string name="onfido_country_select_list_header_all">Tüm ülkeler</string>
+    <string name="onfido_app_title_country_select_search">Ara</string>
+    <string name="onfido_country_select_error_no_country_title">Ülke bulunamadı</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Fotoğrafı manuel olarak çekmeyi deneyin</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Bulanık fotoğraf tespit edildi</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Barkod tespit edilemedi</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">İyi aydınlatılmış bir yerde durun ve kartı kameraya yaklaştırın</string>
+    <string name="onfido_permission_recovery_button_primary">Ayarlarda etkinleştir</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Kamera erişimine izin ver</string>
+    <string name="onfido_permission_subtitle_cam">İstendiğinde, devam etmek için kamera erişimini etkinleştirmeniz gerekir</string>
+	<string name="onfido_permission_body_cam">Kamera erişimi olmadan sizi doğrulayamayız</string>
+    <string name="onfido_permission_button_primary_cam">Kamerayı etkinleştir</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Kamera erişimi olmadan sizi doğrulayamayız</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Uygulama ayarlarına gidin ve bu uygulama için kamera erişimini etkinleştirin</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Cihaz ayarlarınızdan kamera erişimini kurtarabilirsiniz</string>
+
+    <string name="onfido_permission_recovery_title_cam">Kamera erişimi reddedildi</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Mikrofon erişimine izin ver</string>
+    <string name="onfido_permission_subtitle_mic">İstendiğinde, devam etmek için mikrofon erişimini etkinleştirmeniz gerekir</string>
+    <string name="onfido_permission_button_primary_mic">Mikrofonu etkinleştir</string>
+    <string name="onfido_permission_recovery_title_mic">Mikrofon erişimi reddedildi</string>
+    <string name="onfido_permission_body_mic">Mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Cihaz ayarlarınızdan mikrofon erişimini kurtarabilirsiniz</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Uygulama ayarlarına gidin ve bu uygulama için mikrofon erişimini etkinleştirin</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Kamera ve mikrofon erişimine izin ver</string>
+    <string name="onfido_permission_subtitle_both">İstendiğinde, devam etmek için her ikisine de erişimi etkinleştirmeniz gerekir</string>
+    <string name="onfido_permission_recovery_title_both">Kamera ve mikrofon erişimi reddedildi</string>
+    <string name="onfido_video_capture_alert_wrong_side">Yanlış taraf</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Talimatları yeniden yükle</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Bağlantı zaman aşımı</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin</string>
+	<string name="onfido_generic_back">geri</string>
+    <string name="onfido_permission_body_both">Hem kameranızı hem de mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
+    <string name="onfido_permission_button_primary_both">Her ikisini de etkinleştir</string>
+	<string name="onfido_permission_recovery_subtitle_both">Kameranız ve mikrofonunuz olmadan sizi doğrulayamayız</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Kamera ve mikrofon erişimini cihaz ayarlarınızdan kurtarabilirsiniz</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Uygulama ayarlarına gidin ve bu uygulama için hem kamera hem de mikrofon erişimini etkinleştirin</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Selfie videosu kaydeden birinin örnek videosu. Bir selfie videosu kaydetmek için ön kameraya dönün ve telefonu yüzünüzden biraz uzakta tutun. Sonrasında bazı sayıları ezberden okumanız ve başınızı ekrandaki talimatlara göre çevirmeniz gerekecek.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Kameradan görüntü</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Yüzünüzün fotoğrafı</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Belgenizin fotoğrafı</string>
+    <string name="onfido_video_confirmation_body">Videonuz kaydedildi</string>
+	<string name="onfido_video_confirmation_video_accessibility">Kaydedilen videonuzun önizlemesi</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Şunları söylerken kendinizi duymanız gerekir: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Başınızı şu yöne çevirdiğinizi görmelisiniz: %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Ardından</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Sola</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Sağa</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Oynat veya duraklat</string>
+	<string name="onfido_doc_capture_button_accessibility">Bir resim çekin</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Videoyu durdur</string>
+    <string name="onfido_video_intro_button_play_accessibility">Videoyu oynat</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Alt iki satır görünür değil</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Belgenin tamamının göründüğünden emin olun</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Kabul et</string>
+    <string name="onfido_user_consent_button_secondary">Kabul etme</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Emin misiniz?</string>
+	<string name="onfido_user_consent_prompt_no_consent_detail">Onfido\'nun gizlilik beyanlarını ve hizmet şartlarını kabul etmiyorsanız kimliğinizi doğrulayamayız ve bu adımdan çıkarsınız.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Evet, beni doğrulamayın</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Tekrar gözden geçirin</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Video kaydı sırasında cihazınızın flaşını açacağız</string>
+	<string name="onfido_doc_video_capture_header">Belgenizi tutarken, ön tarafı çerçevenin içinde tutun</string>
+    <string name="onfido_doc_video_capture_header_step1">Şimdi, kıpırdamayın</string>
+    <string name="onfido_doc_video_capture_detail_step2">Belgeyi her zaman tamamen görünecek şekilde tutun</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Sonraki adım</string>
+    <string name="onfido_doc_video_capture_header_passport">Pasaportunuzu tutarken fotoğraf sayfasını çerçeve içinde tutun</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Dış sayfaları göstermek için belgenizi yavaşça çevirin</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Video kaydı ​%1$s​ saniyelerle sınırlıdır</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Başarılı</string>
+	<string name="onfido_doc_video_capture_stepper">Adım %1$d/%2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">Belgenizin arkasını göstermek için yavaşça çevirin</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Videoyu ön izle</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Kaydı bitir</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Sabit kalın</string>
+	<string name="onfido_welcome_list_item_doc_video_timeout">Kayıt ​%1$s​ saniye ile sınırlıdır</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Fotoğrafı tekrar çekin</string>
+
+    <string name="onfido_generic_uploading">Yükleniyor</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Belgenin tamamının görünür olduğundan emin olun</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Kesik görüntü tespit edildi</string>
+    <string name="onfido_doc_upload_progress_label">Görüntü kalitesi kontrol ediliyor</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">ileri doğru bakın</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Taramaya hazır</string>
+    <string name="onfido_nfc_sheet_button_secondary">İptal</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Taranıyor...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Telefonunuzu sabit tutun</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Tarama başarılı</string>
+	<string name="onfido_nfc_permission_title">NFC\'yi açın</string>
+	<string name="onfido_nfc_permission_subtitle">NFC olmadan pasaportunuzu tarayamayız</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Cihaz ayarlarınızdan NFC\'yi açın</string>
+    <string name="onfido_nfc_permission_button_primary">Ayarları aç</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Fotoğrafı gönder</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Bu işlem sırasında yüzünüz ve arka planınız kaydedilecektir</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Yüzünüzü öne çevirin ve gözlerinizin açıkça görülebildiğinden emin olun</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Her şeyin net olduğundan emin olun</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Belgenin tamamının fotoğrafta olduğundan emin olun</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Fotoğrafı tekrar çekin</string>
+	<string name="onfido_selfie_intro_button_primary">Selfie çekin</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">%1$d saniye içinde bitirin</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Fotoğrafı gönder</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Fotoğrafı gönder</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Gerekirse gözlüklerinizi çıkarın</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Yüzünüzü kapatan unsurları kadrajdan çıkarın. Gözlükleriniz kalabilir</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Belgeyi hizalayın, ardından düğmeye basın</string>
+    <string name="onfido_doc_select_subtitle">Resmî bir fotoğraflı kimlik olmalıdır</string>
+    <string name="onfido_selfie_confirmation_button_primary">Fotoğraf yükleyin</string>
+    <string name="onfido_doc_select_title">Belgenizi seçin</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Fotoğrafı tekrar çekin</string>
+    <string name="onfido_video_intro_title">Video kaydetme</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Başka bir belge seçin</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Başınızı sola çevirin</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Başınızı sağa çevirin</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Kayda başlamak için yüzünüzü oval içinde tutun</string>
+
+    <string name="onfido_app_title_doc_confirmation">Kimliğinizi doğrulayın</string>
+    <string name="onfido_app_title_selfie_confirmation">Kimliğinizi doğrulayın</string>
+    <string name="onfido_app_title_permission">Kimliğinizi doğrulayın</string>
+    <string name="onfido_app_title_selfie_intro">Kimliğinizi doğrulayın</string>
+    <string name="onfido_app_title_video_intro">Kimliğinizi doğrulayın</string>
+    <string name="onfido_app_title_video_confirmation">Kimliğinizi doğrulayın</string>
+    <string name="onfido_welcome_button_primary_doc">Belge seçin</string>
+    <string name="onfido_welcome_button_primary">Başlat</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Yüz tespit edildi. Kayıt başladı.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Başın döndüğü tespit edildi</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Görüntü alındı</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Selfie kamerasından görüntü. Yüzünüzü ovalin içinde tutun, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_video_capture_frame_accessibility">Kameradan görüntü. Kayda başlamak için yüzünüzü oval içinde tutun.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Belgenizin dış sayfalarını çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_license_front">Belgenizin ön yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_license_back">Belgenizin arka yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_permit_front">Belgenizin ön yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_permit_back">Belgenizin arka yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_id_front">Belgenizin ön yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_id_back">Belgenizin arka yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Belgenizin ön yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Belgenizin arka yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_visa_front">Belgenizin vize sayfasını çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_generic_front">Belgenizin ön yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_generic_back">Belgenizin arka yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_header_passport">Belgenizin fotoğraf sayfasını çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Kameradan görüntü. Belgenizin fotoğraf sayfasını çerçeveye yerleştirin. Görüntü yakalandığında cihazınız titreyecektir</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin. Görüntü yakalandığında cihazınız titreyecektir</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Kameradan görüntü. Belgenizin ön yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Kameradan görüntü. Belgenizin arka yüzünü çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Kameradan görüntü. Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Kameradan görüntü. Belgenizin dış sayfalarını çerçeveye yerleştirin, ardından deklanşör düğmesine dokunun</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Belgenizde fotoğraf olan tarafı çerçeveye yerleştirin</string>
+    <string name="onfido_video_capture_prompt_header_restart">Kaydı yeniden başlatın</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Bu adımı tamamlamak için kayıt boyunca yüzünüzü görüş alanınızda tutmalısınız.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Yeniden başlat</string>
+
+    <string name="onfido_welcome_list_header">Cihazınızı şu amaçlarla kullanın:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Kimlik belgenizin fotoğrafını çekin</string>
+    <string name="onfido_welcome_list_item_doc_video">Kimlik belgenizin bir videosunu kaydedin</string>
+    <string name="onfido_welcome_list_item_doc_generic">Kimlik belgenizi tarayın</string>
+    <string name="onfido_welcome_list_item_face_photo">Yüzünüzün fotoğrafını çekin</string>
+    <string name="onfido_welcome_list_item_face_video">Yüzünüzün bir videosunu kaydedin</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">En alttaki üç satır görünür değil</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Taramayı yeniden deneyin</string>
+    <string name="onfido_nfc_scan_error_button_secondary">NFC olmadan doğrulanın</string>
+    <string name="onfido_nfc_scan_error_title">Belgenizi tarayamadık</string>
+    <string name="onfido_nfc_scan_error_list_item">Telefon kılıfınızı çıkarın</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Tarama başladıktan sonra sabit tutun</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Tarama sırasında telefonunuzu veya pasaportunuzu hareket ettirmeyin</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Arka sayfanın iç kısmını da deneyebilirsiniz</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Telefonunuzu pasaportunuzun üzerine yerleştirin</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Telefonunuzu yavaşça aşağı ve yukarı kaydırın</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Pasaportunuzu düz bir yüzeye koyun</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Tarama başladıktan sonra telefonunuzu sabit tutun</string>
+	<string name="onfido_nfc_intro_title_card">NFC\'li kimliğinizi tarayın</string>
+	<string name="onfido_nfc_intro_title_passport">e-Passport\'unuzu tarayın</string>
+    <string name="onfido_nfc_intro_subtitle">Aşağıdaki talimatları izleyin</string>
+    <string name="onfido_nfc_intro_button_primary">Taramaya başla</string>
+    <string name="onfido_nfc_intro_list_item">Kartınızı cihazınızın arkasına yerleştirin</string>
+    <string name="onfido_nfc_intro_list_item_2">Cep telefonunuzu yavaşça yukarı ve aşağı kaydırın</string>
+    <string name="onfido_nfc_intro_list_item_3">Tarama başladıktan sonra sabit tutun</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Pasaportunuzu başarıyla taradık</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Kimliğinizi başarıyla taradık</string>
+
+    <string name="onfido_nfc_select_title_passport">NFC ile süreci hızlandırın</string>
+    <string name="onfido_nfc_select_subtitle_passport">Pasaportunuzdaki NFC çipini tarayacağız</string>
+    <string name="onfido_nfc_select_body_passport">e-Pasaportların kapağında bu sembol bulunur</string>
+    <string name="onfido_nfc_select_button_primary_passport">e-Passport kullan</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Bu bir e-pasaport değil</string>
+
+    <string name="onfido_nfc_select_title_card">NFC ile süreci hızlandırın</string>
+    <string name="onfido_nfc_select_subtitle_card">Kimliğinizdeki NFC çipini tarayacağız</string>
+    <string name="onfido_nfc_select_body_card">NFC çipli kimliklerde bu sembol bulunur</string>
+	<string name="onfido_nfc_select_button_primary_card">NFC\'li kimlik kullan</string>
+    <string name="onfido_nfc_select_button_secondary_card">Bu kimlikte NFC yok</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Telefonunuzu pasaportunuzun üst kısmına yerleştirin</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Telefonunuzu kimliğin üstüne yerleştirin</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Telefonunuzu sabit tutun</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Kimlik ile temas kesildi</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Pasaportla teması kayboldu</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Telefonunuzu hafifçe yukarı veya aşağı hareket ettirin</string>
+
+	<string name="onfido_enter_can_title">CAN\'ı girin</string>
+    <string name="onfido_enter_can_subtitle">Lütfen verilen numaranın belgedeki numarayla eşleştiğinden emin olun.</string>
+    <string name="onfido_enter_can_button_primary">Devam et</string>
+    <string name="onfido_enter_can_disclaimer">Belgenizin ön yüzünde bulabilirsiniz. %d hanelidir ve biraz daha büyük boyuttadır.</string>
+    <string name="onfido_enter_can_error_label">%d %s kaldı.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">deneme</string>
+    <string name="onfido_enter_can_substring_attempt_plural">deneme</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Kameradan görüntü. Telefonunuzu belgenizin ön tarafına yerleştirin, ardından telefonunuzu düz bir çizgi hâlinde yavaşça belgenizden uzaklaştırın.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Telefonunuzu belgenin üzerinde tutun</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Belge bulunamadı. Telefonunuzu belgenin üzerinde tutun.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Belge çok yakın</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Belge kameraya çok yakın</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Belge çok uzak</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Belge kameradan çok uzakta</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Sola hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Cihazınızı sola hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Sağa hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Cihazınızı sağa hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Yukarı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Cihazınızı yukarı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Yukarı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Cihazınızı hafifçe yukarı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Aşağı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Cihazınızı aşağı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Aşağı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Cihazınızı hafifçe aşağı hareket ettirin</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Görüntü alabilmek için hareketsiz durun</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Görüntü alabilmek için hareketsiz durun</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Telefonunuzu belgenizin önünde tutun</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Telefonunuzu belgenizin arkasında tutun</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Kameradan görüntü. Telefonunuzu belgenizin arka tarafına yerleştirin, ardından telefonunuzu düz bir çizgi hâlinde yavaşça belgenizden uzaklaştırın.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Telefonunuzu pasaportunuzun fotoğraf sayfasının üzerinde tutun</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Kameradan görüntü. Telefonunuzu pasaportunuzun fotoğraf sayfasına yerleştirin, ardından telefonunuzu düz bir çizgide yavaşça uzaklaştırın.</string>
+	<string name="onfido_doc_capture_header_capturing">Sabit kalın</string>
+
+	<string name="onfido_avc_intro_title">Video kaydetme</string>
+	<string name="onfido_avc_intro_subtitle">Bu işlem, gerçek bir kişi olduğunuzu doğrulamak amacıyla yapılır</string>
+	<string name="onfido_avc_intro_list_item_one">İlk olarak, yüzünüzü çerçeveye yerleştirin</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">İlk olarak, yüzünüzü cihazınızın önünde konumlandırmanız gerekiyor</string>
+	<string name="onfido_avc_intro_list_item_two">Ardından, başınızı yavaşça her iki tarafa çevirin</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Sonra, başınızı yavaşça her iki tarafa çevirmeniz gerekecek</string>
+	<string name="onfido_avc_intro_disclaimer">Lütfen yüzünüzü ve arka planı kaydedeceğimizi unutmayın</string>
+	<string name="onfido_avc_intro_button_primary_ready">Kaydı başlatın</string>
+	<string name="onfido_avc_face_alignment_title">Yüzünüzü çerçeveye yerleştirin</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Biraz daha yaklaşın</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Biraz daha geri gidin</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Yüz tespit edilmedi</string>
+    <string name="onfido_avc_face_capture_title">Başınızı yavaşça her iki tarafa çevirin</string>
+    <string name="onfido_avc_face_capture_title_completed">Kayıt tamamlandı</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Üzgünüz, kaydı yeniden başlatmamız gerekiyor</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Kaydı tamamlamak için 15 saniyeniz var</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Yeniden dene</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Kafanızı çok hızlı çevirdiniz</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Lütfen tekrar deneyin ve başınızı daha yavaş çevirin</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Yeniden dene</string>
+	<string name="onfido_avc_no_face_detected_title">Yüzünü tespit edemiyoruz</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">İyi aydınlatılmış bir yerde olduğunuzdan emin olun</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Gözlerinizin net bir şekilde göründüğünden emin olun</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Yüzünüzü kapatan maskeleri veya diğer eşyaları çıkardığınızdan emin olun. Gözlükleriniz kalabilir</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Sadece yüzünüzü gösterdiğinizden emin olun, kimliğinizi görmemize gerek yok</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Sadece yüzünüzü gösterdiğinizden emin olun, Kimlik Belgenizi görmemize gerek yok</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Kaydı yeniden başlat</string>
+	<string name="onfido_avc_confirmation_title">Kayıt tamamlandı</string>
+	<string name="onfido_avc_confirmation_subtitle">Yüzünüzün bir videosu başarıyla kaydedildi</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Kaydı yükle</string>
+	<string name="onfido_avc_connection_error_title">Bağlantı hatası</string>
+	<string name="onfido_avc_connection_error_subtitle">Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Yüz ortalanmamış</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Yüklemeyi yeniden dene</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Kaydı yeniden başlat</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Yüzünüzün bir videosunu kaydedin</string>
+	<string name="onfido_avc_intro_video_accessibility">Tamamlanana kadar başını iki yana çeviren birinin örnek videosu</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Başınızı çevirmeye devam edin</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Başınızı diğer tarafa çevirin</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Selfie kamerasından görüntü</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Sol taraf tamamlandı</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Sağ taraf tamamlandı</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Başınızı yavaşça her iki tarafa çevirin. Bir taraf tamamlandığında onay sesi duyacak ve titreşim hissedeceksiniz</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Kayıt başladı</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Yüzünüzü cihazınızın önüne yerleştirin</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Yüz tespit edilemedi. Yüzünüzü cihazınızın önüne yerleştirin</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Yüz hizalandı</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Yüz hizalanmadı</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Cihazınızı daha yakına getirin</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Cihazınızı daha uzağa götürün</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Cihazınızı sola hareket ettirin</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Cihazınızı sağa hareket ettirin</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Cihazınızı yukarı hareket ettirin</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Cihazınızı aşağı hareket ettirin</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Doğrulamayı başlat</string>
+	<string name="onfido_poa_intro_title">Şimdi adresinizi doğrulayalım</string>
+	<string name="onfido_poa_intro_subtitle">Aşağıdaki niteliklerde bir belgeye ihtiyacınız olacak:</string>
+	<string name="onfido_poa_intro_list_shows_address">Geçerli adresinizi göstermelidir</string>
+	<string name="onfido_poa_intro_list_matches_signup">Kayıt sırasında kullandığınız adresle eşleşmelidir</string>
+	<string name="onfido_poa_intro_list_most_recent">En güncel belgeniz olmalıdır</string>
+	<string name="onfido_poa_type_selection_title_uk">Bir Birleşik Krallık belgesi seçin</string>
+	<string name="onfido_poa_type_selection_title">Bir belge seçin</string>
+	<string name="onfido_doc_select_subtitle_poa">Bunlar mevcut ev adresinizi göstermesi en muhtemel belgelerdir</string>
+	<string name="onfido_doc_select_button_bank_statement">Banka veya kooperatif beyanı</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Banka hesap özeti</string>
+	<string name="onfido_doc_select_extra_estatements_ok">e-beyannameler kabul edilir</string>
+	<string name="onfido_doc_select_button_bill">Fatura</string>
+    <string name="onfido_doc_select_button_tax_letter">Belediye Meclisi Vergi Mektubu</string>
+	<string name="onfido_doc_select_button_benefits_letter">Sosyal Yardım Mektubu</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Devlet tarafından yetkilendirilmiş hane halkı yardımları, ör. İş arayan ödeneği, Konut yardımı, Vergi kredileri</string>
+    <string name="onfido_doc_select_button_address_card">Adres kartı</string>
+    <string name="onfido_doc_select_button_address_card_detail">Geçici ve kalıcı kartlar kabul edilir</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Son 3 ay içinde düzenlenmiş olmalıdır</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Son 3 ay içinde düzenlenmiş olmalıdır</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Son 12 ay içinde düzenlenmiş olmalıdır</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Son 12 ay içinde düzenlenmiş olmalıdır</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Geçerli bir adres kartı olmalıdır</string>
+	<string name="onfido_poa_guidance_instructions_label">Készítsen fényképet a teljes dokumentumról, és győződjön meg arról, hogy tisztán látszik:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Ad soyadı</string>
+	<string name="onfido_poa_guidance_instructions_address">Geçerli adres</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Düzenleme tarihi veya özet dönemi</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Açık adres</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Düzenleme tarihi</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Son kullanma tarihi (varsa)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Yükle</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Fotoğraf çekin</string>
+	<string name="onfido_poa_select_document_details_upload_text">Şuradan belge seçin</string>
+	<string name="onfido_poa_capture_confirm">Belgeyi gönderin</string>
+	<string name="onfido_poa_capture_choose_another">Başka bir tane seçin</string>
+	<string name="onfido_poa_capture_redo">Fotoğrafı tekrar çekin</string>
+	<string name="onfido_doc_confirmation_body">Belge sayfasının tamamını yüklediğinizden ve ayrıntıların bulanıklık veya parlama olmadan okunabilecek netlikte olduğundan emin olun</string>
+	<string name="onfido_poa_capture_enlarge">Belgeyi büyüt</string>
+	<string name="onfido_poa_capture_enlarge_move">Tek parmağınızı kullanarak hareket ettirin. Yakınlaştırmak için sıkıştırın.</string>
+	<string name="onfido_poa_capture_enlarge_close">Kapat</string>
+	<string name="onfido_poa_capture_instructions">Adres belgesinin ön yüzü</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Geçersiz Dosya</string>
+	<string name="onfido_poa_err_invalid_file_message">Lütfen farklı bir dosya seçin.</string>
+	<string name="onfido_poa_err_invalid_file_ok">Tamam</string>
+    <string name="onfido_poa_welcome_text">Adresinizi içeren bir belgenin fotoğrafını çekin</string>
+	<string name="onfido_country_select_error_no_country_body">Listeye daha fazla ülke eklemek için çalışıyoruz. Bu arada, farklı bir belge kullanmayı deneyin.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Üzgünüz, cep telefonu faturası kabul edilmez</string>
+	<string name="onfido_doc_select_button_bill_detail">Gaz, elektrik, su, sabit hat veya internet</string>
+
+	<string name="onfido_doc_select_subtitle_country">Hangi belgeleri kabul ettiğimizi görmek için düzenleyen ülkeyi seçin</string>
+	<string name="onfido_doc_select_section_header_country">Düzenleyen ülke</string>
+	<string name="onfido_doc_select_section_header_doc_type">Kabul edilen belgeler</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Sonuç Yok</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Tüm sayfa</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Fotoğraf sayfası</string>
+	<string name="onfido_doc_select_subtitle_front_back">Ön ve arka</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Düzenleyen ülkeyi seçin</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Bu işlem sırasında yüzünüz, arka planınız ve sesiniz kaydedilecek</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Mikrofonunuz başka bir uygulama tarafından kullanılıyor</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Lütfen kayıt sırasında mikrofonunuzu kullanan tüm aktif arama veya etkinlikleri sonlandırın</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Tekrar dene</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yeniden dene</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Ses başka bir uygulama tarafından oynatılıyor</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lütfen kayıt sırasında cihazınızda herhangi bir ses oynatmayın</string>
+</resources>

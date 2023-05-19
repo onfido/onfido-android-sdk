@@ -1,0 +1,526 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">義大利身份證</string>
+    <string name="onfido_app_title_doc_capture_id_za">南非身份證</string>
+    <string name="onfido_app_title_doc_capture_license_de">德國駕照</string>
+    <string name="onfido_app_title_doc_capture_license_fr">法國駕照</string>
+    <string name="onfido_doc_capture_prompt_button_paper">紙本文件</string>
+    <string name="onfido_doc_capture_prompt_button_card">信用卡</string>
+    <string name="onfido_doc_capture_prompt_title_license">您有什麼類型的駕照？</string>
+    <string name="onfido_doc_capture_prompt_title_id">您有什麼類型的身份證？</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">將您的文件平放，包括所有內頁（須包含您的相片）</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">將您的文件平放，包括所有外頁</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">請確保文件已完全攤平，且相片清晰可辨</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">謝謝</string>
+    <string name="onfido_outro_body">這就是我們開始驗證您身份所需的全部內容</string>
+    <string name="onfido_continue">繼續</string>
+    <string name="onfido_video_intro_button_primary">錄製影片</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">載入中</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">護照</string>
+    <string name="onfido_doc_select_button_visa">簽證</string>
+    <string name="onfido_doc_select_button_license">駕照</string>
+	<string name="onfido_doc_select_button_id">國民身份證</string>
+    <string name="onfido_doc_select_button_permit">居留證</string>
+	<string name="onfido_doc_select_button_permit_work">工作簽證</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">驗證您的身份</string>
+    <string name="onfido_app_title_doc_select">驗證您的身份</string>
+    <string name="onfido_welcome_title">驗證您的身份</string>
+    <string name="onfido_welcome_subtitle">這可能需要幾分鐘的時間</string>
+	<string name="onfido_selfie_capture_button_accessibility">快門</string>
+    <string name="onfido_selfie_intro_title">拍一張自拍照</string>
+    <string name="onfido_app_title_country_select">選擇核發國家</string>
+	<string name="onfido_country_select_bottom_sheet_title">找不到您的國家？</string>
+    <string name="onfido_country_select_bottom_sheet_details">似乎不支援您所選文件的國家。請選擇國家。</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">關閉</string>
+    <string name="onfido_selfie_intro_subtitle">我們會將此資料與您的文件進行比較</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">請將臉部保持在橢圓形框內</string>
+    <string name="onfido_video_capture_prompt_button_timeout">重試</string>
+    <string name="onfido_generic_error_camera_unavailable">此裝置中沒有可用的相機</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">無法使用相機。可能有另一個應用程式同時使用它。</string>
+    <string name="onfido_selfie_confirmation_body">請確保整個臉部清晰可見</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">找不到文件</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">未偵測到臉部</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">找到多個臉部</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">只有您的臉部可以顯示在自拍照中</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">無法提供服務</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">很抱歉，由於無法支援您的所在位置，我們似乎無法繼續進行</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">請確保您的臉部清晰可見</string>
+	<string name="onfido_generic_error_face_capture">臉部擷取失敗。請再試一次。</string>
+	<string name="onfido_generic_error_doc_capture">文件擷取失敗。請再試一次。</string>
+	<string name="onfido_generic_error_video_capture">影片擷取失敗。請再試一次。</string>
+    <string name="onfido_doc_confirmation_body_generic">請確保您的個人詳細資料清晰且未被遮蔽</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">偵測到眩光</string>
+	<string name="onfido_doc_capture_alert_glare_detail">遠離直射光線</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">提交驗證</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">錯誤</string>
+    <string name="onfido_generic_error_network_title">連線中斷</string>
+    <string name="onfido_generic_error_network_detail">發生網路錯誤。請檢查您的連線。</string>
+    <string name="onfido_generic_error_detail">發生錯誤。請稍候再試。</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">為了安全起見，我們需要現場拍攝</string>
+    <string name="onfido_video_intro_list_item_move_speak">按照指示移動或說話</string>
+    <string name="onfido_video_intro_loader">載入範例</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">大聲說出每個數字</string>
+    <string name="onfido_video_capture_prompt_title_timeout">看來您花了太長時間</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">完成後，請記得按下按鈕。</string>
+    <string name="onfido_video_confirmation_button_secondary">重新拍攝影片</string>
+	<string name="onfido_video_confirmation_button_primary">提交影片</string>
+	<string name="onfido_video_confirmation_error_no_video">裝置上找不到您的影片。請重新拍攝。</string>
+    <string name="onfido_video_capture_error_storage_title">您的裝置已滿</string>
+    <string name="onfido_video_capture_error_storage_detail">釋放一些儲存空間，並重新錄製影片</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">取消靜音</string>
+    <string name="onfido_video_capture_button_primary_start">開始錄製</string>
+    <string name="onfido_video_capture_button_primary_finish">完成錄製</string>
+    <string name="onfido_video_capture_button_primary_fallback">下一步</string>
+	<string name="onfido_video_confirmation_error_media_player">您的影片出現錯誤。請重新拍攝。</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">重新載入</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">重新載入範例影片</string>
+    <string name="onfido_video_intro_error_network">由於網路不穩定，無法載入</string>
+    <string name="onfido_video_intro_error_network_accessibility">由於網路不穩定，無法載入範例影片</string>
+	<string name="onfido_video_intro_error_load_offline">由於您已離線，因此無法載入</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">建議國家</string>
+    <string name="onfido_country_select_list_header_all">所有國家</string>
+    <string name="onfido_app_title_country_select_search">搜尋</string>
+    <string name="onfido_country_select_error_no_country_title">找不到國家</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">請嘗試手動拍攝相片</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">偵測到模糊的相片</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">未偵測到條碼</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">請放在光線充足的地方，並將卡片靠近相機</string>
+    <string name="onfido_permission_recovery_button_primary">在設定中啟用</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">允許相機存取</string>
+    <string name="onfido_permission_subtitle_cam">出現提示時，您必須允許使用相機才能繼續</string>
+	<string name="onfido_permission_body_cam">不使用相機，我們無法驗證您的身份</string>
+    <string name="onfido_permission_button_primary_cam">啟用相機</string>
+	<string name="onfido_permission_recovery_subtitle_cam">不使用相機，我們無法驗證您的身份</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">前往應用程式設定，為此應用程式啟用相機存取功能</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">您可以透過裝置設定恢復相機存取權限</string>
+
+    <string name="onfido_permission_recovery_title_cam">相機存取被拒絕</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">允許麥克風存取</string>
+    <string name="onfido_permission_subtitle_mic">出現提示時，您必須啟用麥克風存取權限才能繼續</string>
+    <string name="onfido_permission_button_primary_mic">啟用麥克風</string>
+    <string name="onfido_permission_recovery_title_mic">麥克風存取被拒絕</string>
+    <string name="onfido_permission_body_mic">若不使用麥克風，我們無法驗證您的身份</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">您可以透過裝置設定恢復麥克風存取權限</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">前往應用程式設定，為此應用程式啟用麥克風存取權限</string>
+    <string name="onfido_permission_recovery_subtitle_mic">不使用麥克風，我們無法驗證您的身份</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">允許使用相機和麥克風</string>
+    <string name="onfido_permission_subtitle_both">出現提示時，您必須允許使用兩者，才能繼續</string>
+    <string name="onfido_permission_recovery_title_both">相機和麥克風存取被拒絕</string>
+    <string name="onfido_video_capture_alert_wrong_side">錯誤的頁面</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">重新載入說明</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">連線逾時</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">請檢查您的連線是否穩定，然後再試一次</string>
+	<string name="onfido_generic_back">返回</string>
+    <string name="onfido_permission_body_both">若不同時使用相機和麥克風，我們無法驗證您的身份</string>
+    <string name="onfido_permission_button_primary_both">同時啟用兩者</string>
+	<string name="onfido_permission_recovery_subtitle_both">不使用相機和麥克風，我們無法驗證您的身份</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">您可以透過裝置設定恢復相機和麥克風存取權限</string>
+    <string name="onfido_permission_recovery_list_item_action_both">前往應用程式設定，為此應用程式啟用相機和麥克風存取權限</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">其他人錄製自拍影片的示範影片。若要拍攝自拍影片，請面對前鏡頭，並將手機與臉部保持適當距離。您需要朗讀一些數字，並按照畫面上的說明轉動頭部。</string>
+    <string name="onfido_doc_capture_frame_accessibility">從相機查看</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">您的臉部相片</string>
+	<string name="onfido_doc_confirmation_image_accessibility">文件相片</string>
+    <string name="onfido_video_confirmation_body">您的影片已錄製完成</string>
+	<string name="onfido_video_confirmation_video_accessibility">預覽您錄製的影片</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">您應該聽到自己說：%1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">您應該看到自己將頭轉向%1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">接著</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">左側</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">右側</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">播放或暫停</string>
+	<string name="onfido_doc_capture_button_accessibility">拍張照片</string>
+    <string name="onfido_video_intro_button_pause_accessibility">暫停影片</string>
+    <string name="onfido_video_intro_button_play_accessibility">播放影片</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">底部兩條線無法清晰辨識</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">請確保顯示出完整文件</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">接受</string>
+    <string name="onfido_user_consent_button_secondary">不接受</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">您確定嗎？</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">若不接受 Onfido 的隱私權聲明和服務條款，我們將無法驗證您的身份，您將退出此步驟。</string>
+    <string name="onfido_user_consent_prompt_button_primary">是的，請不要驗證我的身份</string>
+    <string name="onfido_user_consent_prompt_button_secondary">再次檢視</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">影片錄製過程中，我們會開啟您裝置的閃光燈</string>
+	<string name="onfido_doc_video_capture_header">手持文件時，請將文件正面置於框架內</string>
+    <string name="onfido_doc_video_capture_header_step1">現在，請保持靜止</string>
+    <string name="onfido_doc_video_capture_detail_step2">請隨時保持文件的完整檢視狀態</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">下一步</string>
+    <string name="onfido_doc_video_capture_header_passport">手持護照時，請將相片頁置於框架內</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">慢慢翻轉文件，以顯示文件外頁</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">影片錄製以 %1$s 秒為限</string>
+    <string name="onfido_doc_video_capture_success_accessibility">成功</string>
+	<string name="onfido_doc_video_capture_stepper">第 %1$d 個步驟，共 %2$d 個步驟</string>
+    <string name="onfido_doc_video_capture_header_step2">慢慢翻轉文件，以顯示文件背面</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">預覽影片</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">完成錄製</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">保持不動</string>
+	<string name="onfido_welcome_list_item_doc_video_timeout">影片錄製以 %1$s 秒為限</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">提交相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">重新拍攝相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">重新拍攝相片</string>
+
+    <string name="onfido_generic_uploading">上傳中</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">請確保完整文件清晰可見</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">偵測到部完整照片</string>
+    <string name="onfido_doc_upload_progress_label">檢查影像品質</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">然後面向前方</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">準備掃描</string>
+    <string name="onfido_nfc_sheet_button_secondary">取消</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">正在掃描……</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">請保持手機靜止不動</string>
+    <string name="onfido_nfc_sheet_success_subtitle">掃描成功</string>
+    <string name="onfido_nfc_permission_title">啟用 NFC</string>
+	<string name="onfido_nfc_permission_subtitle">不使用 NFC，我們無法掃描您的護照</string>
+    <string name="onfido_nfc_permission_list_item_nfc">從裝置設定中開啟 NFC</string>
+    <string name="onfido_nfc_permission_button_primary">開啟設定</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">提交相片</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">此過程將擷取您的臉部和背景</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">面向前方，並確保眼睛清晰可見</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">提交相片</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">提交相片</string>
+    <string name="onfido_doc_confirmation_button_primary_license">提交相片</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">請確保所有內容清晰可見</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">請確保所有文件都在相片中</string>
+    <string name="onfido_selfie_confirmation_button_secondary">重新拍攝相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">重新拍攝相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">重新拍攝相片</string>
+	<string name="onfido_selfie_intro_button_primary">自拍</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">您還有 %1$d 秒完成操作</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">提交相片</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">提交相片</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">提交相片</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">提交相片</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">如有必要，請取下眼鏡</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">取下任何遮蓋臉部的東西。可接受戴眼鏡</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">對齊文件，然後按下按鈕</string>
+    <string name="onfido_doc_select_subtitle">必須是含有相片的官方身分證件</string>
+    <string name="onfido_selfie_confirmation_button_primary">上傳照片</string>
+    <string name="onfido_doc_select_title">選擇文件</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">重新拍攝相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">重新拍攝相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">重新拍攝相片</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">重新拍攝相片</string>
+    <string name="onfido_video_intro_title">錄製影片</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">選擇其他文件</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">請將頭部轉向左邊</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">請將頭部轉向右邊</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">請將臉部保持在橢圓形框內，以開始錄製</string>
+
+    <string name="onfido_app_title_doc_confirmation">驗證您的身份</string>
+    <string name="onfido_app_title_selfie_confirmation">驗證您的身份</string>
+    <string name="onfido_app_title_permission">驗證您的身份</string>
+    <string name="onfido_app_title_selfie_intro">驗證您的身份</string>
+    <string name="onfido_app_title_video_intro">驗證您的身份</string>
+    <string name="onfido_app_title_video_confirmation">驗證您的身份</string>
+    <string name="onfido_welcome_button_primary_doc">選擇文件</string>
+    <string name="onfido_welcome_button_primary">開始</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">偵測到臉部。已開始錄製。</string>
+    <string name="onfido_video_capture_turn_success_accessibility">偵測到轉頭</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">已擷取影像</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">從自拍相機檢視。保持臉部在橢圓形框內，然後點擊快門按鈕</string>
+    <string name="onfido_video_capture_frame_accessibility">從自拍相機檢視。請保持臉部在橢圓形框內，以開始錄製。</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">將文件的外頁置於框架中</string>
+    <string name="onfido_doc_capture_header_license_front">將文件正面置於框架中</string>
+    <string name="onfido_doc_capture_header_license_back">請將文件背面置於框架中</string>
+    <string name="onfido_doc_capture_header_permit_front">將文件正面置於框架中</string>
+    <string name="onfido_doc_capture_header_permit_back">請將文件背面置於框架中</string>
+    <string name="onfido_doc_capture_header_id_front">將文件正面置於框架中</string>
+    <string name="onfido_doc_capture_header_id_back">請將文件背面置於框架中</string>
+    <string name="onfido_doc_capture_header_permit_work_front">將文件正面置於框架中</string>
+    <string name="onfido_doc_capture_header_permit_work_back">請將文件背面置於框架中</string>
+    <string name="onfido_doc_capture_header_visa_front">將文件的簽證頁置於框架中</string>
+    <string name="onfido_doc_capture_header_generic_front">將文件正面置於框架中</string>
+    <string name="onfido_doc_capture_header_generic_back">請將文件背面置於框架中</string>
+    <string name="onfido_doc_capture_header_passport">請將文件的相片頁置於框架中</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">從相機檢視。將文件的相片頁置於框架中。拍攝影像時，裝置會振動</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">從相機檢視。將文件正面置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">從相機檢視。將文件的背面置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">從相機檢視。將文件正面置於框架中。拍攝影像時，裝置會振動</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">從相機檢視。請將文件背面置於框架中</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">從相機檢視。將文件正面置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">從相機檢視。將文件的背面置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">從相機檢視。將文件正面置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">從相機檢視。將文件的背面置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">從相機檢視。將文件的相片頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">從相機檢視。將文件的外頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">從相機檢視。將文件的相片頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">從相機檢視。將文件的外頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">從相機檢視。將文件的相片頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">從相機檢視。將文件的外頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">從相機檢視。將文件的相片頁置於框架中，然後點選快門按鈕</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">從相機檢視。將文件的外頁置於框架中，然後點選快門按鈕</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">將文件的相片頁置於框架中</string>
+    <string name="onfido_video_capture_prompt_header_restart">重新開始錄製</string>
+    <string name="onfido_video_capture_prompt_detail_restart">若要完成此步驟，您必須在整個錄製過程中保持臉部在視線範圍內。</string>
+    <string name="onfido_video_capture_prompt_button_restart">重新開始</string>
+
+    <string name="onfido_welcome_list_header">使用您的裝置：</string>
+    <string name="onfido_welcome_list_item_doc_photo">拍攝身分證件相片</string>
+    <string name="onfido_welcome_list_item_doc_video">錄製您身份證件的影片</string>
+    <string name="onfido_welcome_list_item_doc_generic">掃描您的身份證件</string>
+    <string name="onfido_welcome_list_item_face_photo">拍攝您的臉部相片</string>
+    <string name="onfido_welcome_list_item_face_video">錄製您的臉部影片</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">底部三條線無法清晰辨識</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">重新進行掃描</string>
+    <string name="onfido_nfc_scan_error_button_secondary">無需NFC即可獲得驗證</string>
+    <string name="onfido_nfc_scan_error_title">我們無法掃描您的文件</string>
+    <string name="onfido_nfc_scan_error_list_item">取下手機套</string>
+    <string name="onfido_nfc_scan_error_list_item_2">掃描開始後，請保持靜止不動</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">掃描時請勿移動手機或護照</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">您也可以嘗試最後一頁的內頁</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">將手機放在護照頂部</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">慢慢地將手機向上和向下滑動</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">將護照放在平坦的表面上</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">掃描開始後，請保持手機靜止不動</string>
+    <string name="onfido_nfc_intro_title_card">掃描您的 NFC 卡片</string>
+    <string name="onfido_nfc_intro_title_passport">掃描您的電子護照</string>
+    <string name="onfido_nfc_intro_subtitle">按照下面的說明</string>
+    <string name="onfido_nfc_intro_button_primary">開始掃描</string>
+    <string name="onfido_nfc_intro_list_item">將卡片放在裝置背面</string>
+    <string name="onfido_nfc_intro_list_item_2">慢慢向上和向下滑動你的手機</string>
+    <string name="onfido_nfc_intro_list_item_3">掃描開始後，請保持靜止不動</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">我們已成功掃描您的護照</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">我們已成功掃描您的卡片</string>
+
+    <string name="onfido_nfc_select_title_passport">使用 NFC 加快流程</string>
+    <string name="onfido_nfc_select_subtitle_passport">我們會掃描您護照上的 NFC 晶片</string>
+    <string name="onfido_nfc_select_body_passport">電子護照封面有這個符號</string>
+    <string name="onfido_nfc_select_button_primary_passport">使用電子護照</string>
+    <string name="onfido_nfc_select_button_secondary_passport">這不是電子護照</string>
+
+    <string name="onfido_nfc_select_title_card">使用 NFC 加快流程</string>
+    <string name="onfido_nfc_select_subtitle_card">我們會掃描您卡片中的 NFC 晶片</string>
+    <string name="onfido_nfc_select_body_card">擁有 NFC 晶片的卡片有此符號</string>
+    <string name="onfido_nfc_select_button_primary_card">使用 NFC 卡片</string>
+    <string name="onfido_nfc_select_button_secondary_card">這不是 NFC 卡片</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">請將手機放在靠近護照頂部的位置</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">把手機放在卡片上</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">請保持手機靜止不動</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">失去與卡片的接觸</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">失去與護照的接觸</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">稍微向上或向下移動您的手機</string>
+
+    <string name="onfido_enter_can_title">輸入 CAN</string>
+    <string name="onfido_enter_can_subtitle">請確認所提供的號碼與文件上的號碼相符。</string>
+    <string name="onfido_enter_can_button_primary">繼續</string>
+    <string name="onfido_enter_can_disclaimer">您可以在文件正面找到。這是一組稍大字號的 %d 位數。</string>
+    <string name="onfido_enter_can_error_label">目前剩下 %d %s 嘗試次數。</string>
+    <string name="onfido_enter_can_substring_attempt_singular">嘗試</string>
+    <string name="onfido_enter_can_substring_attempt_plural">嘗試</string>
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">從相機檢視。將手機放在文件正面上，然後以直線方式慢慢將手機移開。</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">將手機置於文件上方</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">找不到文件。將手機置於文件上方。</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">文件距離過近</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">文件距離相機過近</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">文件距離過遠</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">文件距離相機過遠</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">向左移動</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">向左移動裝置</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">向右移動</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">向右移動裝置</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">向上移動</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">向上移動裝置</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">向上移動</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">稍微向上移動裝置</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">向下移動</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">向下移動裝置</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">向下移動</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">稍微向下移動裝置</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">保持不動，以進行擷取</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">保持不動，以擷取影像</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">將手機置於文件正面上方</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">將手機置於文件背面上方</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">從相機檢視。將手機放在文件背面上，然後以直線方式慢慢將手機移開。</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">將手機置於護照相片頁上方</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">從相機檢視。將手機放在護照相片頁上，然後以直線方式慢慢將手機移開。</string>
+	<string name="onfido_doc_capture_header_capturing">保持不動</string>
+
+	<string name="onfido_avc_intro_title">錄製影片</string>
+	<string name="onfido_avc_intro_subtitle">這是為了驗證您的真實身份</string>
+	<string name="onfido_avc_intro_list_item_one">首先，請將臉部置於框架中</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">首先，您必須將臉部置於裝置前方</string>
+	<string name="onfido_avc_intro_list_item_two">然後，將您的頭部慢慢轉向兩側</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">然後，您必須慢慢地將頭部轉向兩側</string>
+	<string name="onfido_avc_intro_disclaimer">在此過程中將記錄您的面部和背景</string>
+	<string name="onfido_avc_intro_button_primary_ready">開始錄製</string>
+	<string name="onfido_avc_face_alignment_title">請將臉部置於框架中</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">靠近一些</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">向後移動</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">未偵測到臉部</string>
+    <string name="onfido_avc_face_capture_title">慢慢將您的頭部轉向兩側</string>
+    <string name="onfido_avc_face_capture_title_completed">錄製完成</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">很抱歉，我們必須重新開始錄製</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">您最多有 15 秒的時間完成錄製</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">重試</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">您轉頭的速度太快了</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">請再試一次，慢慢轉動頭部</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">重試</string>
+	<string name="onfido_avc_no_face_detected_title">我們無法偵測到您的臉部</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">請確保在光線充足的地方進行錄製</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">請確保您的眼睛清晰可見</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">請務必取下遮蓋臉部的口罩或其他物品。可接受戴眼鏡</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">請務必只顯示您的臉部，我們不需要看到您的身分證件</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">請務必只顯示您的臉部，我們不需要看到您的身分證件</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">重新開始錄製</string>
+	<string name="onfido_avc_confirmation_title">錄製完成</string>
+	<string name="onfido_avc_confirmation_subtitle">已成功錄製您的臉部影片</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">上傳錄製</string>
+	<string name="onfido_avc_connection_error_title">連線錯誤</string>
+	<string name="onfido_avc_connection_error_subtitle">請檢查您的連線是否穩定，然後再試一次</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">臉部未在中心位置</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">重新嘗試上傳</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">重新開始錄製</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">錄製您的臉部影片</string>
+	<string name="onfido_avc_intro_video_accessibility">範例影片：某人把頭轉向兩側，直到完成</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">繼續轉頭</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">將頭部轉向另一側</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">從自拍相機檢視</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">左側完成</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">右側完成</string>
+	<string name="onfido_avc_face_capture_title_accessibility">慢慢將您的頭部轉向兩側。當一側完成時，您會聽到確認聲，並感覺到震動</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">已開始錄製</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">將臉部置於裝置前方</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">未偵測到臉部。將臉部置於裝置前方</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">臉部對齊</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">臉部未對齊</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">將您的裝置移近</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">向後移動裝置</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">向左移動裝置</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">向右移動裝置</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">向上移動裝置</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">向下移動裝置</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">開始驗證</string>
+	<string name="onfido_poa_intro_title">讓我們驗證您的地址</string>
+	<string name="onfido_poa_intro_subtitle">您需要提供以下文件：</string>
+	<string name="onfido_poa_intro_list_shows_address">顯示您的* *目前* *地址</string>
+	<string name="onfido_poa_intro_list_matches_signup">與您在註冊時使用的地址相符</string>
+	<string name="onfido_poa_intro_list_most_recent">這是您的* *最新* *文件嗎</string>
+	<string name="onfido_poa_type_selection_title_uk">選擇英國文件</string>
+	<string name="onfido_poa_type_selection_title">選擇文件</string>
+	<string name="onfido_doc_select_subtitle_poa">這些是最可能顯示您目前住家地址的文件</string>
+	<string name="onfido_doc_select_button_bank_statement">銀行或房屋建築協會報表</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">銀行對帳單</string>
+	<string name="onfido_doc_select_extra_estatements_ok">接受電子對帳單</string>
+	<string name="onfido_doc_select_button_bill">水電費帳單</string>
+    <string name="onfido_doc_select_button_tax_letter">市政稅務信件</string>
+	<string name="onfido_doc_select_button_benefits_letter">福利證明函</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">政府批准的家庭福利，例如：求職者津貼、住房福利、稅收抵免</string>
+    <string name="onfido_doc_select_button_address_card">地址卡</string>
+    <string name="onfido_doc_select_button_address_card_detail">接受臨時和永久地址卡</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">必須在* *最近 3 個月* *內核發</string>
+	<string name="onfido_poa_guidance_subtitle_bill">必須在* *最近 3 個月* *內核發</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">必須在* *最近 12 個月* *內核發</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">必須在* *最近 12 個月* *內核發</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">必須是有效的地址卡</string>
+	<string name="onfido_poa_guidance_instructions_label">擷取整份文件，並確保其清楚顯示：</string>
+	<string name="onfido_poa_guidance_instructions_logo">標誌</string>
+	<string name="onfido_poa_guidance_instructions_full_name">全名</string>
+	<string name="onfido_poa_guidance_instructions_address">目前地址</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">核發日期或摘要期間</string>
+    <string name="onfido_poa_guidance_instructions_full_address">完整地址</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">核發日期</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">有效期限（如適用）</string>
+	<string name="onfido_poa_upload_instructions_upload_button">上傳</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">拍照</string>
+	<string name="onfido_poa_select_document_details_upload_text">從以下選項中選擇文件</string>
+	<string name="onfido_poa_capture_confirm">提交文件</string>
+	<string name="onfido_poa_capture_choose_another">選擇另一個</string>
+	<string name="onfido_poa_capture_redo">重新拍攝相片</string>
+	<string name="onfido_doc_confirmation_body">請確保您已上傳整個文件頁面，且詳細資料清晰可閱，沒有模糊或眩光</string>
+	<string name="onfido_poa_capture_enlarge">放大文件</string>
+	<string name="onfido_poa_capture_enlarge_move">用一根手指來回移動。捏合以縮放。</string>
+	<string name="onfido_poa_capture_enlarge_close">關閉</string>
+	<string name="onfido_poa_capture_instructions">地址文件的正面</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">無效的檔案</string>
+	<string name="onfido_poa_err_invalid_file_message">請選擇其他檔案。</string>
+	<string name="onfido_poa_err_invalid_file_ok">確定</string>
+    <string name="onfido_poa_welcome_text">請拍攝一張含有您地址的證件相片</string>
+	<string name="onfido_country_select_error_no_country_body">我們正在努力將更多國家加入清單中。在此期間，請嘗試使用其他替代文件。</string>
+	<string name="onfido_doc_select_extra_no_mobile">對不起，不能使用手機帳單</string>
+	<string name="onfido_doc_select_button_bill_detail">天然氣、電力、水、有線電話或寬頻</string>
+
+	<string name="onfido_doc_select_subtitle_country">選擇核發國家，查看我們接受的文件</string>
+	<string name="onfido_doc_select_section_header_country">核發國家</string>
+	<string name="onfido_doc_select_section_header_doc_type">可接受的文件</string>
+	<string name="onfido_doc_select_section_input_country_not_found">沒有結果</string>
+	<string name="onfido_doc_select_subtitle_entire_page">整個頁面</string>
+	<string name="onfido_doc_select_subtitle_photo_page">相片頁</string>
+	<string name="onfido_doc_select_subtitle_front_back">正面和背面</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">選擇核發國家</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">將在此過程中記錄您的臉部、背景及聲音</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">其他應用程式正在使用您的麥克風</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">錄音期間請結束正在使用麥克風的通話或活動</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">重試</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">重試</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">其他應用程式正在播放音訊</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">錄製期間請勿在裝置上播放任何音訊</string>
+</resources>

@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Italialainen henkilökortti</string>
+    <string name="onfido_app_title_doc_capture_id_za">Eteläafrikkalainen henkilökortti</string>
+    <string name="onfido_app_title_doc_capture_license_de">Saksalainen ajokortti</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Ranskalainen ajokortti</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Paperiasiakirja</string>
+    <string name="onfido_doc_capture_prompt_button_card">Muovikortti</string>
+    <string name="onfido_doc_capture_prompt_title_license">Millainen ajokortti sinulla on?</string>
+    <string name="onfido_doc_capture_prompt_title_id">Millainen henkilökortti sinulla on?</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Aseta asiakirjasi tasaisesti, sisällytä kaikki sisäsivut (täytyy sisältää kuvasi)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Aseta asiakirjasi tasaisesti, sisällytä kaikki uloimmat sivut</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Varmista, että asiakirjasi on kokonaan avattu ja kuva on selkeä</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Kiitos</string>
+    <string name="onfido_outro_body">Emme tarvitse muuta henkilöllisyytesi vahvistuksen aloittamiseen</string>
+    <string name="onfido_continue">Jatka</string>
+    <string name="onfido_video_intro_button_primary">Tallenna video</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Ladataan</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Passi</string>
+    <string name="onfido_doc_select_button_visa">Viisumi</string>
+    <string name="onfido_doc_select_button_license">Ajokortti</string>
+	<string name="onfido_doc_select_button_id">Kansallinen henkilökortti</string>
+    <string name="onfido_doc_select_button_permit">Oleskelulupa</string>
+	<string name="onfido_doc_select_button_permit_work">Työlupa</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_app_title_doc_select">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_welcome_title">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_welcome_subtitle">Siihen menee muutama minuutti</string>
+	<string name="onfido_selfie_capture_button_accessibility">Laukaisin</string>
+    <string name="onfido_selfie_intro_title">Ota sitten</string>
+    <string name="onfido_app_title_country_select">Valitse myöntämismaa</string>
+	<string name="onfido_country_select_bottom_sheet_title">Etkö löydä maatasi?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Näyttää siltä, että valitsemasi asiakirjan maata ei tueta. Valitse toinen maa.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Sulje</string>
+    <string name="onfido_selfie_intro_subtitle">Vertaamme sitä asiakirjaasi</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Pidä kasvosi soikion sisällä</string>
+	<string name="onfido_video_capture_prompt_button_timeout">Yritä uudelleen</string>
+    <string name="onfido_generic_error_camera_unavailable">Tässä laitteessa ei ole kameraa käytettävissä</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Kamera ei ole käytettävissä. Toinen sovellus käyttää sitä ehkä samaan aikaan.</string>
+    <string name="onfido_selfie_confirmation_body">Varmista, että kasvosi näkyvät kokonaan</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Asiakirjaa ei löytynyt</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Kasvoja ei havaittu</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Useita kasvoja löytyi</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Vain sinun kasvosi voivat olla selfiessä</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Palvelu ei saatavilla</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Valitettavasti näyttää siltä, että emme voi jatkaa, koska nykyistä sijaintiasi ei tueta</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Varmista, että kasvosi näkyvät</string>
+	<string name="onfido_generic_error_face_capture">Kasvokuvan ottaminen ei onnistunut. Yritä uudelleen.</string>
+	<string name="onfido_generic_error_doc_capture">Kuvan ottaminen asiakirjasta ei onnistunut. Yritä uudelleen.</string>
+	<string name="onfido_generic_error_video_capture">Videon tallennus ei onnistunut. Yritä uudelleen.</string>
+    <string name="onfido_doc_confirmation_body_generic">Varmista, että tietosi ovat selkeät ja että ne näkyvät kunnolla</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Häikäisyä havaittu</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Siirry pois suorasta valosta</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Lähetä vahvistus</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Virhe</string>
+    <string name="onfido_generic_error_network_title">Yhteys katkesi</string>
+    <string name="onfido_generic_error_network_detail">Tapahtui verkkovirhe. Tarkista internetyhteytesi.</string>
+    <string name="onfido_generic_error_detail">Jokin meni vikaan. Yritä myöhemmin uudelleen.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Turvallisuuden takia tarvitsemme livekuvan</string>
+    <string name="onfido_video_intro_list_item_move_speak">Seuraa liikkumis- tai puhumisohjeita</string>
+    <string name="onfido_video_intro_loader">Ladataan esimerkkiä</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Sano jokainen numero ääneen</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Näyttää siltä, että sinulla kesti liian kauan</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Muista painaa painiketta, kun olet valmis.</string>
+    <string name="onfido_video_confirmation_button_secondary">Kuvaa uusi video</string>
+	<string name="onfido_video_confirmation_button_primary">Lähetä video</string>
+	<string name="onfido_video_confirmation_error_no_video">Videotasi ei löydy laitteeltasi. Kuvaa se uudelleen.</string>
+    <string name="onfido_video_capture_error_storage_title">Laitteesi on täynnä</string>
+    <string name="onfido_video_capture_error_storage_detail">Vapauta tallennustilaa ja tallenna videosi uudelleen</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Poista myk</string>
+    <string name="onfido_video_capture_button_primary_start">Aloita tallennus</string>
+    <string name="onfido_video_capture_button_primary_finish">Viimeistele tallennus</string>
+    <string name="onfido_video_capture_button_primary_fallback">Seuraava vaihe</string>
+	<string name="onfido_video_confirmation_error_media_player">Videossasi tapahtui virhe. Kuvaa se uudelleen.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Lataa uud.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Lataa esimerkkivideo uudelleen</string>
+    <string name="onfido_video_intro_error_network">Ei voida ladata epävakaan verkon takia</string>
+    <string name="onfido_video_intro_error_network_accessibility">Esimerkkivideota ei voida ladata epävakaan verkon vuoksi</string>
+	<string name="onfido_video_intro_error_load_offline">Lataus ei onnistu, koska olet offline-tilassa</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Ehdotettu maa</string>
+    <string name="onfido_country_select_list_header_all">Kaikki maat</string>
+    <string name="onfido_app_title_country_select_search">Hae</string>
+    <string name="onfido_country_select_error_no_country_title">Maata ei löydy</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Kokeile ottaa kuva manuaalisesti</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Epäselvä kuva havaittu</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Viivakoodia ei havaittu</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Ole hyvin valaistussa paikassa ja tuo kortti lähemmäs kameraa</string>
+    <string name="onfido_permission_recovery_button_primary">Ota käyttöön asetuksissa</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Salli kameran käyttö</string>
+    <string name="onfido_permission_subtitle_cam">Kun sinua pyydetään, sinun on sallittava kameran käyttö jatkaaksesi</string>
+	<string name="onfido_permission_body_cam">Emme voi vahvistaa sinua ilman kameraasi</string>
+    <string name="onfido_permission_button_primary_cam">Ota kamera käyttöön</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Emme voi vahvistaa sinua ilman kameraasi</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Siirry sovellusasetuksiin ja salli kameran käyttö tässä sovelluksessa</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Voit palauttaa kameran käyttöoikeuden laitteesi asetuksista</string>
+
+    <string name="onfido_permission_recovery_title_cam">Kameran käyttö estetty</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Salli mikrofonin käyttö</string>
+    <string name="onfido_permission_subtitle_mic">Kun sinua pyydetään, sinun on sallittava mikrofonin käyttö jatkaaksesi</string>
+    <string name="onfido_permission_button_primary_mic">Ota mikrofoni käyttöön</string>
+    <string name="onfido_permission_recovery_title_mic">Mikrofonin käyttö estetty</string>
+    <string name="onfido_permission_body_mic">Emme voi vahvistaa sinua käyttämättä mikrofoniasi</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Voit palauttaa mikrofonin käyttöoikeuden laitteesi asetuksista</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Siirry sovellusasetuksiin ja salli mikrofonin käyttö tässä sovelluksessa</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Emme voi vahvistaa sinua ilman mikrofoniasi</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Salli kameran ja mikrofonin käyttö</string>
+    <string name="onfido_permission_subtitle_both">Kun sinua pyydetään, sinun on sallittava molempien käyttö jatkaaksesi</string>
+    <string name="onfido_permission_recovery_title_both">Kameran ja mikrofonin käyttö estetty</string>
+    <string name="onfido_video_capture_alert_wrong_side">Väärä puoli</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Lataa ohjeet uudelleen</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Yhteyden aikakatkaisu</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Tarkista, että yhteys on vakaa, ja yritä sitten uudelleen</string>
+	<string name="onfido_generic_back">edell</string>
+    <string name="onfido_permission_body_both">Emme voi vahvistaa sinua käyttämättä sekä kameraasi että mikrofoniasi</string>
+    <string name="onfido_permission_button_primary_both">Ota molemm. käytt.</string>
+	<string name="onfido_permission_recovery_subtitle_both">Emme voi vahvistaa sinua ilman kameraasi ja mikrofoniasi</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Voit palauttaa kameran ja mikrofonin käyttöoikeuden laitteesi asetuksista</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Siirry sovellusasetuksiin ja salli kameran ja mikrofonin käyttö tässä sovelluksessa</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Esimerkki videosta, jossa joku tallentaa selfievideon. Tallenna selfievideo katsomalla etukameraan ja pitämällä puhelintasi pienen matkan päässä kasvoistasi. Sitten sinun täytyy lausua joitakin numeroita ja kääntää päätäsi näytön ohjeiden mukaisesti.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Näkymä kamerasta</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Valokuva kasvoistasi</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Valokuva asiakirjastasi</string>
+    <string name="onfido_video_confirmation_body">Videosi on tallennettu</string>
+	<string name="onfido_video_confirmation_video_accessibility">Tallennetun videosi esikatselu</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Sinun pitäisi kuulla itsesi sanovan: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Sinun pitäisi nähdä itsesi kääntämässä päätäsi kohteeseen %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Sitten</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Vasen</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Oikea</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Toista tai keskeytä</string>
+	<string name="onfido_doc_capture_button_accessibility">Ota kuva</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Keskeytä video</string>
+    <string name="onfido_video_intro_button_play_accessibility">Toista video</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Kaksi alinta riviä ei näy</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Varmista, että koko asiakirja näkyy</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Hyväksy</string>
+    <string name="onfido_user_consent_button_secondary">Älä hyväksy</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Oletko varma?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Jos et hyväksy Onfidon tietosuojaselosteita ja palveluehtoja, emme voi vahvistaa henkilöllisyyttäsi ja poistut tästä vaiheesta.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Kyllä, älä vahvista minua</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Tarkista uudelleen</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Kytkemme laitteesi salaman päälle videon tallennuksen aikana</string>
+	<string name="onfido_doc_video_capture_header">Kun pidät asiakirjaasi kädessäsi, pidä etupuoli kehyksen sisällä</string>
+    <string name="onfido_doc_video_capture_header_step1">Nyt pysy paikoillasi</string>
+    <string name="onfido_doc_video_capture_detail_step2">Pidä asiakirja aina kokonaan näkyvissä</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Seuraava vaihe</string>
+    <string name="onfido_doc_video_capture_header_passport">Kun pitelet passiasi, pidä valokuvasivu kehyksen sisällä</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Käännä asiakirjasi hitaasti ympäri näyttääksesi uloimmat sivut</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Videon tallennus on rajoitettu %1$s sekuntiin</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Onnistui</string>
+	<string name="onfido_doc_video_capture_stepper">Vaihe ​%1$d​/​%2$d​</string>
+    <string name="onfido_doc_video_capture_header_step2">Käännä asiakirjasi hitaasti ympäri näyttääksesi takaosan</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Esikatsele videota</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Viimeistele tallennus</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Pidä paikallaan</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">Tallennus on rajoitettu %1$s sekunteihin</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Ota kuva uudelleen</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Ota kuva uudelleen</string>
+
+    <string name="onfido_generic_uploading">Ladataan</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Varmista, että koko asiakirja on näkyy</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Rajattu kuva havaittu</string>
+    <string name="onfido_doc_upload_progress_label">Tarkistetaan kuvanlaatua</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">selfie kasvot eteenpäin</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Valmis skannaukseen</string>
+    <string name="onfido_nfc_sheet_button_secondary">Peruuta</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skannataan...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Pidä puhelimesi paikallaan</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Skannaus onnistui</string>
+    <string name="onfido_nfc_permission_title">Kytke NFC päälle</string>
+	<string name="onfido_nfc_permission_subtitle">Emme voi skannata passiasi ilman NFC:tä</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Kytke NFC päälle laitteesi asetuksista</string>
+    <string name="onfido_nfc_permission_button_primary">Avaa asetukset</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Lähetä kuva</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Kasvoistasi ja taustastasi otetaan kuva tämän prosessin aikana</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Katso eteenpäin ja varmista, että silmäsi näkyvät selvästi</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Varmista, että kaikki on selkeää</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Varmista, että koko asiakirja on kuvassa</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Ota kuva uudelleen</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Ota kuva uudelleen</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Ota kuva uudelleen</string>
+	<string name="onfido_selfie_intro_button_primary">Ota selfie</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Sinulla %1$d sekuntia jäljellä</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Lähetä kuva</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Lähetä kuva</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Ota silmälasisi pois tarvittaessa</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Poista kaikki, mikä peittää kasvosi. Silmälasit ovat ok</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Kohdista asiakirja ja paina sitten painiketta</string>
+    <string name="onfido_doc_select_subtitle">Sen on oltava virallinen kuvallinen henkilökortti</string>
+    <string name="onfido_selfie_confirmation_button_primary">Lataa kuva</string>
+    <string name="onfido_doc_select_title">Valitse asiakirjasi</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Ota kuva uudelleen</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Ota kuva uudelleen</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Ota kuva uudelleen</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Ota kuva uudelleen</string>
+    <string name="onfido_video_intro_title">Tallenna video</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Valitse toinen asiakirja</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Käännä päätäsi vasemmalle</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Käännä päätäsi oikealle</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Pidä kasvosi soikion sisällä aloittaaksesi tallennuksen</string>
+
+    <string name="onfido_app_title_doc_confirmation">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_app_title_selfie_confirmation">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_app_title_permission">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_app_title_selfie_intro">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_app_title_video_intro">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_app_title_video_confirmation">Vahvista henkilöllisyytesi</string>
+    <string name="onfido_welcome_button_primary_doc">Valitse asiakirja</string>
+    <string name="onfido_welcome_button_primary">Aloita</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Kasvot havaittu. Tallennus on alkanut.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Pään kääntyminen havaittu</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Kuva otettu</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Näkymä selfiekamerasta. Pidä kasvosi soikion sisällä ja napauta sitten laukaisinta</string>
+    <string name="onfido_video_capture_frame_accessibility">Näkymä selfiekamerasta. Pidä kasvosi soikion sisällä aloittaaksesi tallennuksen.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Aseta asiakirjasi uloimmat sivut kehykseen</string>
+    <string name="onfido_doc_capture_header_license_front">Aseta asiakirjasi etuosa kehykseen</string>
+    <string name="onfido_doc_capture_header_license_back">Aseta asiakirjasi takaosa kehykseen</string>
+    <string name="onfido_doc_capture_header_permit_front">Aseta asiakirjasi etuosa kehykseen</string>
+    <string name="onfido_doc_capture_header_permit_back">Aseta asiakirjasi takaosa kehykseen</string>
+    <string name="onfido_doc_capture_header_id_front">Aseta asiakirjasi etuosa kehykseen</string>
+    <string name="onfido_doc_capture_header_id_back">Aseta asiakirjasi takaosa kehykseen</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Aseta asiakirjasi etuosa kehykseen</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Aseta asiakirjasi takaosa kehykseen</string>
+    <string name="onfido_doc_capture_header_visa_front">Aseta asiakirjasi viisumisivu kehykseen</string>
+    <string name="onfido_doc_capture_header_generic_front">Aseta asiakirjasi etuosa kehykseen</string>
+    <string name="onfido_doc_capture_header_generic_back">Aseta asiakirjasi takaosa kehykseen</string>
+    <string name="onfido_doc_capture_header_passport">Aseta asiakirjasi valokuvasivu kehykseen</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Näkymä kamerasta. Aseta asiakirjasi valokuvasivu kehykseen. Laitteesi värähtelee, kun kuva otetaan</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Näkymä kamerasta. Aseta asiakirjasi etuosa kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Näkymä kamerasta. Aseta asiakirjasi takaosa kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Näkymä kamerasta. Aseta asiakirjasi etuosa kehykseen. Laitteesi värähtelee, kun kuva otetaan</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Näkymä kamerasta. Aseta asiakirjasi takaosa kehykseen</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Näkymä kamerasta. Aseta asiakirjasi etuosa kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Näkymä kamerasta. Aseta asiakirjasi takaosa kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Näkymä kamerasta. Aseta asiakirjasi etuosa kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Näkymä kamerasta. Aseta asiakirjasi takaosa kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Näkymä kamerasta. Aseta asiakirjasi valokuvapuoli kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Näkymä kamerasta. Aseta asiakirjasi valokuvapuoli kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Näkymä kamerasta. Aseta asiakirjasi valokuvapuoli kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Näkymä kamerasta. Aseta asiakirjasi valokuvapuoli kehykseen ja napauta sitten laukaisinta</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Näkymä kamerasta. Aseta asiakirjasi uloimmat sivut kehykseen ja napauta sitten laukaisinta</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Aseta asiakirjasi valokuvapuoli kehykseen</string>
+    <string name="onfido_video_capture_prompt_header_restart">Aloita tallennus uudelleen</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Suorittaaksesi tämän vaiheen sinun on pidettävä kasvosi näkyvissä koko tallennuksen ajan.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Aloita uud.</string>
+
+    <string name="onfido_welcome_list_header">Käytä laitettasi:</string>
+    <string name="onfido_welcome_list_item_doc_photo">ottaaksesi kuvan henkilötodistuksestasi</string>
+    <string name="onfido_welcome_list_item_doc_video">tallentaaksesi videon henkilötodistuksestasi</string>
+    <string name="onfido_welcome_list_item_doc_generic">skannataksesi henkilötodistuksesi</string>
+    <string name="onfido_welcome_list_item_face_photo">ottaaksesi kuvan kasvoistasi</string>
+    <string name="onfido_welcome_list_item_face_video">tallentaaksesi videon kasvoistasi</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Kolme alinta riviä ei näy</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Yritä skannata uudell.</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Vahvista ilman NFC: tä</string>
+    <string name="onfido_nfc_scan_error_title">Asiakirjaasi ei voitu skannata</string>
+    <string name="onfido_nfc_scan_error_list_item">Poista puhelimesi suojus</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Kun skannaus alkaa, pysy paikallaan</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Älä liikuta puhelintasi tai passiasi skannauksen aikana</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Voit myös kokeilla takasivun sisäpuolta</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Aseta puhelimesi passisi yläosaa vasten</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Liu\'uta puhelintasi hitaasti alas ja ylös</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Aseta passisi tasaiselle alustalle</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Kun skannaus alkaa, pidä puhelimesi paikallaan</string>
+    <string name="onfido_nfc_intro_title_card">Skannaa NFC-korttisi</string>
+    <string name="onfido_nfc_intro_title_passport">Skannaa sirupassisi</string>
+    <string name="onfido_nfc_intro_subtitle">Noudata alla olevia ohjeita</string>
+    <string name="onfido_nfc_intro_button_primary">Aloita skannaus</string>
+    <string name="onfido_nfc_intro_list_item">Aseta korttisi laitteesi takaosaan</string>
+	<string name="onfido_nfc_intro_list_item_2">Liu\'uta matkapuhelintasi hitaasti ylös ja alas</string>
+    <string name="onfido_nfc_intro_list_item_3">Kun skannaus alkaa, pysy paikallaan</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Passisi skannaus onnistui</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Korttisi skannaus onnistui</string>
+
+    <string name="onfido_nfc_select_title_passport">Nopeuta prosessia NFC:llä</string>
+    <string name="onfido_nfc_select_subtitle_passport">Skannaamme passisi NFC-sirun</string>
+    <string name="onfido_nfc_select_body_passport">Sirupassien kannessa on tämä symboli</string>
+    <string name="onfido_nfc_select_button_primary_passport">Käytä sirupassia</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Se ei ole sirupassi</string>
+
+    <string name="onfido_nfc_select_title_card">Nopeuta prosessia NFC:llä</string>
+    <string name="onfido_nfc_select_subtitle_card">Skannaamme korttisi NFC-sirun</string>
+    <string name="onfido_nfc_select_body_card">NFC-sirun sisältävissä korteissa on tämä symboli</string>
+    <string name="onfido_nfc_select_button_primary_card">Käytä NFC-korttia</string>
+    <string name="onfido_nfc_select_button_secondary_card">Se ei ole NFC-kortti</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Aseta puhelimesi passisi yläosan lähelle</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Aseta puhelimesi korttia vasten</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Pidä puhelimesi paikallaan</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Yhteys korttiin katkesi</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Yhteys passiin katkesi</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Liikuta puhelintasi hieman ylös tai alas</string>
+
+    <string name="onfido_enter_can_title">Syötä CAN</string>
+    <string name="onfido_enter_can_subtitle">Varmista, että annettu numero vastaa asiakirjassa olevaa numeroa.</string>
+    <string name="onfido_enter_can_button_primary">Jatka</string>
+    <string name="onfido_enter_can_disclaimer">Löydät sen asiakirjan etuosasta. Se on %d numeroa pitkä ja hieman suurempi.</string>
+    <string name="onfido_enter_can_error_label">Sinulla on %d %s jäljellä.</string>
+    <string name="onfido_enter_can_substring_attempt_singular">yritys</string>
+    <string name="onfido_enter_can_substring_attempt_plural">yritystä</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Näkymä kamerasta. Aseta puhelimesi asiakirjasi etuosaa vasten ja siirrä sitten puhelintasi hitaasti siitä poispäin suorassa linjassa.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Pidä puhelintasi asiakirjan yllä</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Asiakirjaa ei löytynyt. Pidä puhelintasi asiakirjan yllä.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Asiakirja liian lähellä</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Asiakirja liian lähellä kameraa</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Asiakirja liian kaukana</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Asiakirja liian kaukana kamerasta</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Siirrä vasemm.</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Siirrä laitettasi vasemmalle</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Siirrä oikealle</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Siirrä laitettasi oikealle</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Siirrä ylös</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Siirrä laitettasi ylös</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Siirrä ylös</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Siirrä laitettasi hieman ylös</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Siirrä alas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Siirrä laitettasi alas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Siirrä alas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Siirrä laitettasi hieman alas</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Pidä paikallaan ottaaksesi kuvan</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Pidä paikallaan ottaaksesi kuvan</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Pidä puhelintasi asiakirjasi etuosan yllä</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Pidä puhelintasi asiakirjasi takaosan yllä</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Näkymä kamerasta. Aseta puhelimesi asiakirjasi takaosaa vasten ja siirrä sitten puhelintasi hitaasti siitä poispäin suorassa linjassa.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Pidä puhelintasi passisi valokuvasivun yllä</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Näkymä kamerasta. Aseta puhelimesi passisi valokuvasivua vasten ja siirrä sitten puhelintasi hitaasti siitä poispäin suorassa linjassa.</string>
+	<string name="onfido_doc_capture_header_capturing">Pidä paikallaan</string>
+
+	<string name="onfido_avc_intro_title">Tallenna video</string>
+	<string name="onfido_avc_intro_subtitle">Näin vahvistetaan, että olet todellinen henkilö</string>
+	<string name="onfido_avc_intro_list_item_one">Aseta ensin kasvosi kehykseen</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Ensin sinun on asetettava kasvosi laitteesi eteen</string>
+	<string name="onfido_avc_intro_list_item_two">Käännä sitten päätäsi hitaasti molemmille puolille</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Sitten sinun on käännettävä päätäsi hitaasti molemmille puolille</string>
+	<string name="onfido_avc_intro_disclaimer">Muistathan, että tallennamme kasvosi ja taustasi</string>
+	<string name="onfido_avc_intro_button_primary_ready">Aloita tallennus</string>
+	<string name="onfido_avc_face_alignment_title">Aseta kasvosi kehykseen</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Siirry lähemmäs</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Siirry taaksepäin</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Kasvoja ei havaittu</string>
+    <string name="onfido_avc_face_capture_title">Käännä päätäsi hitaasti molemmille puolille</string>
+    <string name="onfido_avc_face_capture_title_completed">Tallennus valmis</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Valitettavasti tallennus on aloitettava uudelleen</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Sinulla on 15 sekuntia aikaa viimeistellä tallennus</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Yritä uud.</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Käänsit pääsi liian nopeasti</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Yritä uudelleen ja käännä päätäsi hitaammin</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Yritä uud.</string>
+	<string name="onfido_avc_no_face_detected_title">Emme havaitse kasvojasi</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Varmista, että olet paikassa, jossa on hyvä valaistus</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Varmista, että silmäsi näkyvät selvästi</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Varmista, että poistat kasvosi peittävät maskit tai muut esineet. Silmälasit ovat ok</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Varmista, että näytät vain kasvosi, meidän ei tarvitse nähdä ID:täsi</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Varmista, että näytät vain kasvosi, meidän ei tarvitse nähdä henkilötodistustasi</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Aloita tallennus uud.</string>
+	<string name="onfido_avc_confirmation_title">Tallennus valmis</string>
+	<string name="onfido_avc_confirmation_subtitle">Videon tallennus kasvoistasi onnistui</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Lataa tallenne</string>
+	<string name="onfido_avc_connection_error_title">Yhteysvirhe</string>
+	<string name="onfido_avc_connection_error_subtitle">Tarkista, että yhteys on vakaa, ja yritä sitten uudelleen</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Kasvot eivät ole keskellä</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Yritä ladata uud.</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Aloita tallennus uud.</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Tallenna video kasvoistasi</string>
+	<string name="onfido_avc_intro_video_accessibility">Esimerkkivideo, jossa joku kääntää päätään molemmille puolille, kunnes on valmis</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Jatka pääsi kääntämistä</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Käännä päätäsi toiselle puolelle</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Näkymä selfiekamerasta</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Vasen puoli valmis</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Oikea puoli valmis</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Käännä päätäsi hitaasti molemmille puolille. Kun kyseinen puoli on valmis, kuulet vahvistuksen ja tunnet värinän</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Tallennus on alkanut</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Aseta kasvosi laitteesi eteen</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Kasvoja ei havaittu. Aseta kasvosi laitteesi eteen</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Kasvot kohdistettu</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Kasvojen kohdistusvirhe</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Siirrä laitettasi lähemmäs</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Siirrä laitettasi taaksepäin</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Siirrä laitettasi vasemmalle</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Siirrä laitettasi oikealle</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Siirrä laitettasi ylös</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Siirrä laitettasi alas</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Aloita vahvistus</string>
+	<string name="onfido_poa_intro_title">Vahvistetaan osoitteesi</string>
+	<string name="onfido_poa_intro_subtitle">Tarvitset asiakirjan, joka:</string>
+	<string name="onfido_poa_intro_list_shows_address">näyttää nykyisen osoitteesi</string>
+	<string name="onfido_poa_intro_list_matches_signup">vastaa rekisteröitymisessä käyttämääsi osoitetta</string>
+	<string name="onfido_poa_intro_list_most_recent">on uusin asiakirjasi</string>
+	<string name="onfido_poa_type_selection_title_uk">Valitse Ison-Britannian asiakirja</string>
+	<string name="onfido_poa_type_selection_title">Valitse asiakirja</string>
+	<string name="onfido_doc_select_subtitle_poa">Nämä asiakirjat näyttävät todennäköisimmin nykyisen kotiosoitteesi</string>
+	<string name="onfido_doc_select_button_bank_statement">Pankin tai asuntolainarahaston tiliote</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Tiliote</string>
+	<string name="onfido_doc_select_extra_estatements_ok">hyväksytyt sähköiset tiliotteet</string>
+	<string name="onfido_doc_select_button_bill">Energialasku</string>
+    <string name="onfido_doc_select_button_tax_letter">Kiinteistöverokirje</string>
+	<string name="onfido_doc_select_button_benefits_letter">Etuuskirje</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Valtion myöntämät kotitalousetuudet, esim. työttömyyspäiväraha, asumistuki, verohyvitykset</string>
+    <string name="onfido_doc_select_button_address_card">Osoitekortti</string>
+    <string name="onfido_doc_select_button_address_card_detail">Tilapäiset ja pysyvät kortit hyväksytään</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">On oltava tehty viimeisten 3 kuukauden aikana</string>
+	<string name="onfido_poa_guidance_subtitle_bill">On oltava tehty viimeisten 3 kuukauden aikana</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">On oltava tehty viimeisten 12 kuukauden aikana</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">On oltava tehty viimeisten 12 kuukauden aikana</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">On oltava voimassa oleva osoitekortti</string>
+	<string name="onfido_poa_guidance_instructions_label">Ota kuva koko asiakirjasta ja varmista, että siinä näkyy selvästi:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Koko nimi</string>
+	<string name="onfido_poa_guidance_instructions_address">nykyinen osoite</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">myöntämispäivä tai käyttöjakso</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Koko osoite</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Myöntämispäivä</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Viim. voimassaolopäivä (tarvittaessa)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Lataa</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Ota valokuva</string>
+	<string name="onfido_poa_select_document_details_upload_text">Valitse asiakirja kohteesta</string>
+	<string name="onfido_poa_capture_confirm">Lähetä asiakirja</string>
+	<string name="onfido_poa_capture_choose_another">Valitse toinen</string>
+	<string name="onfido_poa_capture_redo">Ota kuva uudelleen</string>
+	<string name="onfido_doc_confirmation_body">Varmista, että olet ladannut asiakirjan koko sivun ja että tiedot ovat luettavissa selkeästi ilman epäselviä tai häikäiseviä kohtia</string>
+	<string name="onfido_poa_capture_enlarge">Suurenna asiakirjaa</string>
+	<string name="onfido_poa_capture_enlarge_move">Liikuta yhdellä sormella. Nipistä zoomataksesi.</string>
+	<string name="onfido_poa_capture_enlarge_close">Sulje</string>
+	<string name="onfido_poa_capture_instructions">Osoiteasiakirjan etuosa</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Virheell. tiedosto</string>
+	<string name="onfido_poa_err_invalid_file_message">Valitse toinen tiedosto.</string>
+	<string name="onfido_poa_err_invalid_file_ok">OK</string>
+    <string name="onfido_poa_welcome_text">Ota kuva asiakirjasta, jossa on osoitteesi</string>
+	<string name="onfido_country_select_error_no_country_body">Pyrimme lisäämään uusia maita listalle. Kokeile sillä välin toista asiakirjaa.</string>
+	<string name="onfido_doc_select_extra_no_mobile">Pahoittelut, ei matkapuhelinlaskuja</string>
+	<string name="onfido_doc_select_button_bill_detail">Kaasu, sähkö, vesi, kiinteä verkko tai laajakaista</string>
+
+	<string name="onfido_doc_select_subtitle_country">Valitse asiakirjan myöntämismaa nähdäksesi, mitkä asiakirjat hyväksymme</string>
+	<string name="onfido_doc_select_section_header_country">Myöntämismaa</string>
+	<string name="onfido_doc_select_section_header_doc_type">Hyväksytyt asiakirjat</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Ei tuloksia</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Koko sivu</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Valokuvasivu</string>
+	<string name="onfido_doc_select_subtitle_front_back">Etu- ja takaosa</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Valitse myöntämismaa</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Kasvosi, taustasi ja ääni tallennetaan tämän prosessin aikana</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Jokin toinen sovellus käyttää mikrofoniasi</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Päätä kesken olevat puhelut tai toiminnot, jotka käyttävät mikrofoniasi tallennuksen aikana</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Yritä uudelleen</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yritä uudelleen</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Jokin toinen sovellus toistaa ääntä</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Älä toista laitteellasi mitään ääntä tallennuksen aikana</string>
+</resources>

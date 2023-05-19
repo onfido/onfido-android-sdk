@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Իտալական նույնականացման քարտ</string>
+    <string name="onfido_app_title_doc_capture_id_za">Հարավային Աֆրիկայի նույնականացման քարտ</string>
+    <string name="onfido_app_title_doc_capture_license_de">Գերմանական վարորդական իրավունք</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Ֆրանսիական վարորդական իրավունք</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Տպագիր փաստաթուղթ</string>
+    <string name="onfido_doc_capture_prompt_button_card">Պլաստիկ քարտ</string>
+    <string name="onfido_doc_capture_prompt_title_license">Նշեք ձեր վկայականի տեսակը</string>
+    <string name="onfido_doc_capture_prompt_title_id">Նշեք ձեր նույնականացման քարտի տեսակը</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Ձեր փաստաթուղթը տեղադրեք հարթ մակերեսի վրա, նկարեք ներսի բոլոր էջերը (պետք է պարունակի ձեր լուսանկարը)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Տեղադրեք ձեր փաստաթուղթը հորիզոնական դիրքով, նկարեք բոլոր էջերը դրսի կողմից</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Համոզվեք, որ ձեր փաստաթուղթն ամբողջությամբ բացված դիրքում է, իսկ լուսանկարը երևում է պարզ</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Շնորհակալություն</string>
+    <string name="onfido_outro_body">Դա այն ամենն է, ինչ մեզ պետք է՝ սկսելու համար ձեր ինքնության հաստատումը</string>
+    <string name="onfido_continue">Շարունակել</string>
+    <string name="onfido_video_intro_button_primary">Տեսագրել տեսանյութ</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Բեռնվում է</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Անձնագիր</string>
+    <string name="onfido_doc_select_button_visa">Վիզա</string>
+    <string name="onfido_doc_select_button_license">Վարորդական իրավունք</string>
+	<string name="onfido_doc_select_button_id">Պետական նույնականացման քարտ</string>
+    <string name="onfido_doc_select_button_permit">Բնակության թույլտվություն</string>
+	<string name="onfido_doc_select_button_permit_work">Աշխատանքի թույլտվություն</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_doc_select">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_welcome_title">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_welcome_subtitle">Դա կարող է տևել մի քանի րոպե</string>
+	<string name="onfido_selfie_capture_button_accessibility">Կոճակ</string>
+    <string name="onfido_selfie_intro_title">Սելֆի արեք</string>
+    <string name="onfido_app_title_country_select">Ընտրեք թողարկող երկիրը</string>
+	<string name="onfido_country_select_bottom_sheet_title">Չե՞ք կարողանում գտնել ձեր երկիրը։</string>
+    <string name="onfido_country_select_bottom_sheet_details">Կարծես թե ձեր ընտրած փաստաթղուղթը տրամադրող երկիրը չի սպասարկվում։ Խնդրում ենք ընտրել այլ երկիր։</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Փակել</string>
+    <string name="onfido_selfie_intro_subtitle">Մենք այն կհամեմատենք ձեր փաստաթղթի հետ</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Պահեք ձեր դեմքը շրջանակի ներսում</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Կրկին փորձել</string>
+    <string name="onfido_generic_error_camera_unavailable">Այս սարքի մեջ տեսախցիկ առկա չէ</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Տեսախցիկն անհասանելի է։ Հավանաբար մեկ այլ հավելված այս պահին այն օգտագործում է։</string>
+    <string name="onfido_selfie_confirmation_body">Համոզվեք, որ ձեր դեմքը ամբողջությամբ երևում է</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_title">Փաստաթուղթը չի գտնվել</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Դեմքը չի գտնվել</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Գտնվել են մի քանի դեմքեր</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">Սելֆիում կարող է լինել միայն ձեր դեմքը</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Ծառայությունն անհասանելի է</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">Ներեցեք, շարունակել չի հաջողվի, քանի որ ձեր ներկայիս գտնվելու վայրը չի սպասարկվում</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Համոզվեք, որ ձեր դեմքը երևում է</string>
+	<string name="onfido_generic_error_face_capture">Չհաջողվեց նկարել դեմքը։ Խնդրում ենք կրկին փորձել։</string>
+	<string name="onfido_generic_error_doc_capture">Չհաջողվեց նկարել փաստաթուղթը։ Խնդրում ենք կրկին փորձել։</string>
+	<string name="onfido_generic_error_video_capture">Տեսանկարահանումը չհաջողվեց։ Խնդրում ենք կրկին փորձել։</string>
+    <string name="onfido_doc_confirmation_body_generic">Համոզվեք, որ ձեր տվյալները հասկանալի են և պարզ</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Առկա է լրացուցիչ լուսավորություն</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Հեռու կանգնեք ուղիղ լուսավորությունից</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Ուղարկել հաստատումը</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Սխալ</string>
+    <string name="onfido_generic_error_network_title">Կապի խափանում</string>
+    <string name="onfido_generic_error_network_detail">Ցանցի սխալ է առաջացել։ Խնդրում ենք ստուգել ձեր կապը։</string>
+    <string name="onfido_generic_error_detail">Սխալ առաջացավ։ Խնդրում ենք կրկին փորձել ավելի ուշ։</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">Անվտանգությունը ապահովելու համար մեզ անհրաժեշտ է կենդանի նկարահանում</string>
+    <string name="onfido_video_intro_list_item_move_speak">Հետևեք շարժվելու կամ խոսելու հրահանգներին</string>
+    <string name="onfido_video_intro_loader">Բեռնման օրինակ</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Բարձրաձայն արտաբերեք յուրաքանչյուր թիվը</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Կարծես թե դուք չափից շատ ժամանակ ծախսեցիք</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Չմոռանաք սեղմել կոճակը, երբ ավարտեք։</string>
+    <string name="onfido_video_confirmation_button_secondary">Կրկին տեսագրել</string>
+	<string name="onfido_video_confirmation_button_primary">Ուղարկել տեսանյութը</string>
+	<string name="onfido_video_confirmation_error_no_video">Ձեր սարքում տեսանյութը չի գտնվել։ Խնդրում ենք կրկին տեսագրել այն։</string>
+    <string name="onfido_video_capture_error_storage_title">Ձեր սարքի հիշողությունը սպառվել է</string>
+    <string name="onfido_video_capture_error_storage_detail">Ազատեք որոշակի պահեստային տարածք և կրկին տեսագրեք</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Միացնել ձայնը</string>
+    <string name="onfido_video_capture_button_primary_start">Սկսել տեսագրությունը</string>
+    <string name="onfido_video_capture_button_primary_finish">Ավարտեք տեսագրումը</string>
+    <string name="onfido_video_capture_button_primary_fallback">Հաջորդ քայլ</string>
+	<string name="onfido_video_confirmation_error_media_player">Ձեր տեսանյութի հետ խնդիր է առաջացել։ Խնդրում ենք կրկին տեսագրել այն։</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Կրկին բեռնել</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Կրկին բեռնեք տեսանյութի օրինակը</string>
+    <string name="onfido_video_intro_error_network">Չհաջողվեց բեռնել անկայուն կապի պատճառով</string>
+    <string name="onfido_video_intro_error_network_accessibility">Չհաջողվեց բեռնել տեսանյութի օրինակը՝ անկայուն կապի պատճառով</string>
+	<string name="onfido_video_intro_error_load_offline">Չհաջողվեց բեռնել կապի բացակայության պատճառով</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Առաջարկվող երկիր</string>
+    <string name="onfido_country_select_list_header_all">Բոլոր երկրները</string>
+    <string name="onfido_app_title_country_select_search">Որոնել</string>
+    <string name="onfido_country_select_error_no_country_title">Երկիրը չի գտնվել</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Փորձեք լուսանկարել ձեռքով</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Գտնվել է խավար լուսանկար</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Շտրիխ կոդը չի գտնվել</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Կանգնեք լավ լուսավորված տեղում և քարտը մոտեցրեք տեսախցիկին</string>
+    <string name="onfido_permission_recovery_button_primary">Ակտիվացնել կարգավորումների միջոցով</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Թույլատրել մուտքը դեպի տեսախցիկ</string>
+    <string name="onfido_permission_subtitle_cam">Հարցումը ստանալուն պես՝ պետք է թույլատրեք խոսափողի հասանելիությունը, որպեսզի կարողանաք շարունակել</string>
+	<string name="onfido_permission_body_cam">Մենք չենք կարող նույնականացնել ձեզ առանց ձեր տեսախցիկի</string>
+    <string name="onfido_permission_button_primary_cam">Միացնել տեսախցիկը</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Մենք չենք կարող նույնականացնել ձեզ առանց ձեր տեսախցիկի</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Դուք կարող եք վերականգնել տեսախցիկի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
+
+    <string name="onfido_permission_recovery_title_cam">Տեսախցիկի հասանելիությունը մերժվել է</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Թույլատրել մուտքը դեպի խոսափող</string>
+    <string name="onfido_permission_subtitle_mic">Հարցումը ստանալուն պես պետք է թույլատրեք խոսափողի հասանելիությունը, որպեսզի կարողանաք շարունակել</string>
+    <string name="onfido_permission_button_primary_mic">Միացնել խոսափողը</string>
+    <string name="onfido_permission_recovery_title_mic">Խոսափողի հասանելիությունը մերժվել է</string>
+    <string name="onfido_permission_body_mic">Մենք չենք կարող նույնականացնել ձեզ առանց խոսափողի առկայության</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Մենք չենք կարող նույնականացնել ձեզ առանց խոսափողի</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Թույլատրել մուտքը դեպի տեսախցիկ և խոսափող</string>
+    <string name="onfido_permission_subtitle_both">Հարցումը ստանալուն պես պետք է թույլատրեք տեսախցիկի և խոսափողի հասանելիությունը, որպեսզի կարողանաք շարունակել</string>
+    <string name="onfido_permission_recovery_title_both">Տեսախցիկի և խոսափողի հասանելիությունը մերժվել է</string>
+    <string name="onfido_video_capture_alert_wrong_side">Սխալ կողմ</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Վերբեռնման հրահանգներ</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Կապի սպասման ժամանակը</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք</string>
+	<string name="onfido_generic_back">հետ</string>
+    <string name="onfido_permission_body_both">Մենք չենք կարող նույնականացնել ձեզ առանց տեսախցիկի և խոսափողի առկայության</string>
+    <string name="onfido_permission_button_primary_both">Երկուսն էլ միացնել</string>
+	<string name="onfido_permission_recovery_subtitle_both">Մենք չենք կարող նույնականացնել ձեզ առանց տեսախցիկի և խոսափողի առկայության</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Սելֆի տեսագրության օրինակ: Սելֆի տեսանյութ անելու համար դեմքով շրջվեք դեպի առջևի տեսախցիկը և հեռախոսը մի փոքր հեռու պահեք ձեր դեմքից։ Այնուհետև արտաբերեք մի քանի թիվ և պտտեք գլուխը՝ էկրանի վրայի հրահանգների համաձայն։</string>
+    <string name="onfido_doc_capture_frame_accessibility">Տեսարան տեսախցիկից</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Ձեր դեմքի լուսանկարը</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Ձեր փաստաթղթի լուսանկարը</string>
+    <string name="onfido_video_confirmation_body">Ձեր տեսանյութը տեսագրվել է</string>
+	<string name="onfido_video_confirmation_video_accessibility">Նախադիտեք ստացված տեսանյութը</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Դուք պետք է լսեք ինքներդ ձեզ արտաբերելիս. %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Դուք պետք է տեսնեք, թե ինչպես եք գլուխը պտտում %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Այնուհետև</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Ձախ</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Աջ</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Նվագարկել կամ դադարեցնել</string>
+	<string name="onfido_doc_capture_button_accessibility">Լուսանկարել</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Դադարեցնել տեսանյութը</string>
+    <string name="onfido_video_intro_button_play_accessibility">Դիտել տեսանյութը</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Ներքևի երկու տողերը չեն երևում</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Համոզվեք, որ փաստաթուղթն ամբողջությամբ երևում է</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Ընդունել</string>
+    <string name="onfido_user_consent_button_secondary">Չընդունել</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Վստա՞հ եք։</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Եթե դուք չեք ընդունում Onfido-ի գաղտնիության հայտարարությունները և ծառայությունների մատուցման պայմանները, մենք չենք կարող հաստատել ձեր ինքնությունը, և դուք այս քայլից դուրս կգաք։</string>
+    <string name="onfido_user_consent_prompt_button_primary">Այո, մի նույնականացրեք ինձ</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Կրկին ստուգել</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Տեսագրության ընթացքում մենք կմիացնենք ձեր սարքի լուսաբռնկիչը</string>
+	<string name="onfido_doc_video_capture_header">Փաստաթուղթը պահեք այնպես, որ փաստաթղթի դիմերեսը տեղավորվի շրջանակի մեջ</string>
+    <string name="onfido_doc_video_capture_header_step1">Հիմա մի շարժվեք</string>
+    <string name="onfido_doc_video_capture_detail_step2">Ամբողջ ընթացքում տեսադաշտում պահեք փաստաթուղթն ամբողջությամբ</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Հաջորդ քայլ</string>
+    <string name="onfido_doc_video_capture_header_passport">Անձնագիրը պահեք այնպես, որ լուսանկարի էջը տեղավորվի շրջանակի մեջ</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Դանդաղ պտտեք ձեր փաստաթուղթը՝ ցույց տալու համար էջերի արտաքին կողմերը</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Տեսագրությունը կարող է տևել %1$s վայրկյանից ոչ ավելի։</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Կատարված է</string>
+	<string name="onfido_doc_video_capture_stepper">Քայլ %1$d՝ ընդհանուր %2$d-ից</string>
+    <string name="onfido_doc_video_capture_header_step2">Դանդաղ պտտեք ձեր փաստաթուղթը՝ դարձերեսը ցույց տալու համար</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Նախադիտել տեսանյութը</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Ավարտեք տեսագրումը</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Մի շարժվեք</string>
+	<string name="onfido_welcome_list_item_doc_video_timeout">Տեսագրությունը կարող է տևել %1$s վայրկյանից ոչ ավելի։</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Կրկին լուսանկարել</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Կրկին լուսանկարել</string>
+
+    <string name="onfido_generic_uploading">Բեռնվում է</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Համոզվեք, որ փաստաթուղթն ամբողջությամբ երևում է</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Պատկերը կտրատված է</string>
+    <string name="onfido_doc_upload_progress_label">Նկարի որակի ստուգում</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">ապա դեմքով շրջվեք դեպի տեսախցիկը</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Պատրաստ է սկանավորման</string>
+    <string name="onfido_nfc_sheet_button_secondary">Չեղարկել</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Սկանավորվում է․․․</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Ձեր հեռախոսը անշարժ պահեք</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Սկանավորումը հաջողվեց</string>
+    <string name="onfido_nfc_permission_title">Միացնել NFC-ն</string>
+	<string name="onfido_nfc_permission_subtitle">Մենք չենք կարող սկանավորել ձեր անձնագիրն առանց NFC-ի</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Միացրեք NFC-ն ձեր սարքի կարգավորումներից</string>
+    <string name="onfido_nfc_permission_button_primary">Բացել կարգավորումները</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Ուղարկել լուսանկարը</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Այս գործողության ընթացքում ձեր դեմքը և շրջակայքը կնկարահանվեն</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Դեմքով շրջվեք դեպի տեսախցիկը և համոզվեք, որ ձեր աչքերը հստակ երևում են</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Համոզվեք, որ ամեն ինչ հասկացել եք</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Համոզվեք, որ փաստաթուղթն ամբողջությամբ է երևում լուսանկարում</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Կրկին լուսանկարել</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Կրկին լուսանկարել</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Կրկին լուսանկարել</string>
+	<string name="onfido_selfie_intro_button_primary">Սելֆի արեք</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Ավարտելու համար դուք ունեք %1$d վայրկյան</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Ուղարկել լուսանկարը</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">Անհրաժեշտության դեպքում հանեք ակնոցը</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Հեռացրեք ձեր դեմքը ծածկող ցանկացած բան։ Ակնոցը չի խանգարում</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Հավասարեցրեք փաստաթուղթը, ապա սեղմեք կոճակը</string>
+    <string name="onfido_doc_select_subtitle">Դա պետք է լինի անձը հաստատող պաշտոնական փաստաթուղթ՝ լուսանկարով</string>
+    <string name="onfido_selfie_confirmation_button_primary">Բեռնել լուսանկարը</string>
+    <string name="onfido_doc_select_title">Ընտրեք ձեր փաստաթուղթը</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Կրկին լուսանկարել</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Կրկին լուսանկարել</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Կրկին լուսանկարել</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Կրկին լուսանկարել</string>
+    <string name="onfido_video_intro_title">Տեսագրել տեսանյութ</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Ընտրել մեկ այլ փաստաթուղթ</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Գլուխը պտտեք դեպի ձախ </string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Գլուխը պտտեք դեպի աջ </string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Տեսագրումը սկսելու համար ձեր դեմքը պահեք շրջանակի ներսում</string>
+
+    <string name="onfido_app_title_doc_confirmation">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_selfie_confirmation">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_permission">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_selfie_intro">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_video_intro">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_video_confirmation">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_welcome_button_primary_doc">Ընտրել փաստաթուղթ</string>
+    <string name="onfido_welcome_button_primary">Սկսել</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Դեմքը գտնվել է։ Տեսագրումը սկսված է։</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Գլխի շարժում է նկատվել</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Նկարը արված է</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Սելֆիի տեսախցիկից երևացող պատկեր։ Պահեք ձեր դեմքը շրջանակի ներսում, ապա հպեք նկարելու կոճակին</string>
+    <string name="onfido_video_capture_frame_accessibility">Սելֆիի տեսախցիկից երևացող պատկեր։ Տեսագրումը սկսելու համար ձեր դեմքը պահեք շրջանակի ներսում։</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_license_front">Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_license_back">Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_permit_front">Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_permit_back">Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_id_front">Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_id_back">Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_visa_front">Ձեր փաստաթղթի վիզաների էջը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_generic_front">Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_generic_back">Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_header_passport">Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ։ Ձեր սարքը կթրթռա, երբ պատկերը լուսանկարվի</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ։ Ձեր սարքը կթրթռա, երբ պատկերը լուսանկարվի</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դիմերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի դարձերեսը տեղադրեք շրջանակի մեջ, ապա հպեք տեսախցիկի կոճակին</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Տեսարան տեսախցիկից։ Ձեր փաստաթղթի էջերի դրսի կողմը տեղադրեք շրջանակի մեջ, ապա սեղմեք նկարելու կոճակը</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Ձեր փաստաթղթի լուսանկարով էջը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_video_capture_prompt_header_restart">Վերսկսել տեսագրումը</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Այս փուլը անցնելու համար դուք պետք է ամբողջ տեսագրման ընթացքում ձեր դեմքը տեսադաշտի մեջ պահեք։</string>
+    <string name="onfido_video_capture_prompt_button_restart">Վերսկսել</string>
+
+    <string name="onfido_welcome_list_header">Օգտագործեք ձեր սարքը հետևյալ նպատակներով․</string>
+    <string name="onfido_welcome_list_item_doc_photo">Լուսանկարեք ձեր անձը հաստատող փաստաթուղթը</string>
+    <string name="onfido_welcome_list_item_doc_video">Տեսագրեք ձեր անձը հաստատող փաստաթուղթը</string>
+    <string name="onfido_welcome_list_item_doc_generic">Սկանավորեք ձեր անձը հաստատող փաստաթուղթը</string>
+    <string name="onfido_welcome_list_item_face_photo">Լուսանկարեք ձեր դեմքը</string>
+    <string name="onfido_welcome_list_item_face_video">Տեսագրեք ձեր դեմքը</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Ներքևի երեք տողերը չեն երևում</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Կրկին սկանավորել</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Ստացեք հաստատում առանց NFC - ի</string>
+    <string name="onfido_nfc_scan_error_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
+    <string name="onfido_nfc_scan_error_list_item">Հանեք ձեր հեռախոսի պատյանը</string>
+    <string name="onfido_nfc_scan_error_list_item_2">Սկանավորման մեկնարկից հետո մի շարժվեք</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Սկանավորման ընթացքում մի շարժեք ձեր հեռախոսը կամ անձնագիրը</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Կարող եք փորձել նաև հետևի էջի ներսի կողմը</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Հեռախոսը դրեք ձեր անձնագրի վերևի մասում</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Դանդաղ սահեցրեք ձեր հեռախոսը ներքև և վերև</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Դրեք ձեր անձնագիրը հարթ մակերեսի վրա</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Սկանավորումը սկսելուն պես՝ հեռախոսն անշարժ պահեք</string>
+    <string name="onfido_nfc_intro_title_card">Սկանավորեք ձեր NFC քարտը</string>
+    <string name="onfido_nfc_intro_title_passport">Սկանավորեք ձեր էլեկտրոնային անձնագիրը</string>
+    <string name="onfido_nfc_intro_subtitle">Հետևեք ստորև բերված հրահանգներին</string>
+    <string name="onfido_nfc_intro_button_primary">Սկսել սկանավորումը</string>
+    <string name="onfido_nfc_intro_list_item">Տեղադրեք ձեր քարտը ձեր սարքի հետևի մասում</string>
+    <string name="onfido_nfc_intro_list_item_2">Դանդաղ շարժեք ձեր բջջայինը վերև և ներքև</string>
+    <string name="onfido_nfc_intro_list_item_3">Սկանավորման մեկնարկից հետո մի շարժվեք</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Մենք հաջողությամբ սկանավորեցինք ձեր անձնագիրը</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Մենք հաջողությամբ սկանավորեցինք ձեր քարտը</string>
+
+    <string name="onfido_nfc_select_title_passport">Արագացնել գործընթացը՝ օգտագործելով NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Մենք սկանավորելու ենք ձեր անձնագրի NFC չիպը</string>
+    <string name="onfido_nfc_select_body_passport">Էլեկտրոնային անձնագրերի կազմի վրա առկա է այս նշանը</string>
+    <string name="onfido_nfc_select_button_primary_passport">Օգտագործել էլեկտրոնային անձնագիրը</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Սա էլեկտրոնային անձնագիր չէ</string>
+
+    <string name="onfido_nfc_select_title_card">Արագացնել գործընթացը՝ օգտագործելով NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Մենք սկանավորելու ենք ձեր քարտի միջի NFC չիպը</string>
+    <string name="onfido_nfc_select_body_card">NFC չիպերով քարտերն ունեն այս նշանը</string>
+    <string name="onfido_nfc_select_button_primary_card">Օգտագործել NFC քարտ</string>
+    <string name="onfido_nfc_select_button_secondary_card">Դա NFC քարտ չէ</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Հեռախոսը դրեք ձեր անձնագրի վերևի մասին մոտ</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Հեռախոսը դրեք քարտի վրա</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Ձեր հեռախոսը անշարժ պահեք</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Քարտի հետ կապը կորավ</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Անձնագրի հետ կապը կորավ</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Հեռախոսը մի փոքր վերև կամ ներքև շարժեք</string>
+
+    <string name="onfido_enter_can_title">Մուտքագրեք CAN-ը</string>
+    <string name="onfido_enter_can_subtitle">Համոզվեք, որ տրամադրված համարը համապատասխանում է փաստաթղթում նշված համարին։</string>
+    <string name="onfido_enter_can_button_primary">Շարունակել</string>
+    <string name="onfido_enter_can_disclaimer">Այն կարող եք գտնել ձեր փաստաթղթի դիմերեսի վրա։ Այն պարունակում է %d նիշ և մի փոքր ավելի մեծ չափի է։</string>
+    <string name="onfido_enter_can_error_label">Ձեզ մնացել է %d %s։</string>
+    <string name="onfido_enter_can_substring_attempt_singular">փորձ</string>
+    <string name="onfido_enter_can_substring_attempt_plural">փորձեր</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Տեսարան տեսախցիկից։ Հեռախոսը դրեք ձեր փաստաթղթի դիմերեսին, ապա հեռախոսը դանդաղ շարժեք ուղիղ գծով։</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Հեռախոսը պահեք փաստաթղթի վրա։</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Փաստաթուղթը չի գտնվել։ Հեռախոսը պահեք փաստաթղթի վրա։</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Փաստաթուղթը չափազանց մոտ է</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Փաստաթուղթը չափազանց մոտ է տեսախցիկին</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Փաստաթուղթը չափազանց հեռու է</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Փաստաթուղթը չափազանց հեռու է տեսախցիկից</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Շարժեք դեպի ձախ</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Շարժեք ձեր սարքը դեպի ձախ</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Շարժեք դեպի աջ</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Շարժեք ձեր սարքը դեպի աջ</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Շարժեք դեպի վերև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Շարժեք ձեր սարքը դեպի վերև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Շարժեք դեպի վերև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Շարժեք ձեր սարքը փոքր-ինչ դեպի վերև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Շարժեք դեպի ներքև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Շարժեք ձեր սարքը դեպի ներքև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Շարժեք դեպի ներքև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Շարժեք ձեր սարքը փոքր-ինչ դեպի ներքև</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Անշարժ պահեք՝ լուսանկարելու համար</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Անշարժ պահեք՝ պատկերը լուսանկարելու համար</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Հեռախոսը պահեք ձեր փաստաթղթի դիմերեսին</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Հեռախոսը պահեք ձեր փաստաթղթի դարձերեսին</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Տեսարան տեսախցիկից։ Հեռախոսը դրեք ձեր փաստաթղթի դարձերեսին, ապա դանդաղ հեռացրեք հեռախոսը դրանից ուղիղ գծով։</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Հեռախոսը պահեք ձեր անձնագրի լուսանկարի էջի վրա</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Տեսարան տեսախցիկից։ Դրեք ձեր հեռախոսը ձեր անձնագրի լուսանկարի էջի վրա, ապա դանդաղ հեռացրեք ձեր հեռախոսը դրանից ուղիղ գծով։</string>
+	<string name="onfido_doc_capture_header_capturing">Մի շարժվեք</string>
+
+	<string name="onfido_avc_intro_title">Տեսագրել տեսանյութ</string>
+	<string name="onfido_avc_intro_subtitle">Սա անհրաժեշտ է, որպեսզի համոզվենք, որ դուք իրական մարդ եք</string>
+	<string name="onfido_avc_intro_list_item_one">Սկզբում ձեր դեմքը տեղադրեք շրջանակի մեջ</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Սկզբում ձեր դեմքը պետք է տեղադրեք ձեր սարքի դիմաց</string>
+	<string name="onfido_avc_intro_list_item_two">Ապա գլուխը դանդաղ պտտեք երկու կողմ</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Ապա պետք է դանդաղ պտտեք ձեր գլուխը երկու կողմ</string>
+	<string name="onfido_avc_intro_disclaimer">Ձեր դեմքը և ձեր ֆոնը կգրանցվեն այս գործընթացի ընթացքում</string>
+	<string name="onfido_avc_intro_button_primary_ready">Սկսել տեսագրությունը</string>
+	<string name="onfido_avc_face_alignment_title">Ձեր դեմքը տեղադրեք շրջանակի մեջ</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Մոտեցեք</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Հեռացեք</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Դեմքը չի գտնվել</string>
+    <string name="onfido_avc_face_capture_title">Ձեր գլուխը դանդաղ պտտեք երկու կողմ</string>
+    <string name="onfido_avc_face_capture_title_completed">Տեսագրումն ավարտված է</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">Ներեցեք, մենք պետք է վերսկսենք տեսագրությունը</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Տեսագրությունն ավարտելու համար դուք ունեք մինչև 15 վայրկյան</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Կրկին փորձել</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Գլուխը շատ արագ պտտեցիք</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Խնդրում ենք կրկին փորձել և գլուխը պտտել ավելի դանդաղ</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Կրկին փորձել</string>
+	<string name="onfido_avc_no_face_detected_title">Չի հաջողում գտնել ձեր դեմքը</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Համոզվեք, որ գտնվում եք լավ լուսավորված վայրում</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Համոզվեք, որ ձեր աչքերը հստակ երևում են</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Անպայման հեռացրեք ձեր դեմքը ծածկող դիմակները կամ այլ իրերը։ Ակնոցը չի խանգարում</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Համոզվեք, որ երևում է միայն ձեր դեմքը, մենք կարիք չունենք տեսնելու ձեր անձը հաստատող փաստաթուղթը</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Համոզվեք, որ երևում է միայն ձեր դեմքը, մենք կարիք չունենք տեսնելու ձեր անձը հաստատող փաստաթուղթը</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Վերսկսել տեսագրությունը</string>
+	<string name="onfido_avc_confirmation_title">Տեսագրումն ավարտված է</string>
+	<string name="onfido_avc_confirmation_subtitle">Ձեր դեմքը հաջողությամբ տեսագրվել է</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Վերբեռնեք տեսագրությունը</string>
+	<string name="onfido_avc_connection_error_title">Կապի խափանում</string>
+	<string name="onfido_avc_connection_error_subtitle">Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Դեմքը կենտրոնում չէ</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Կրկին վերբեռնել</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Վերսկսել տեսագրությունը</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Տեսագրեք ձեր դեմքը</string>
+	<string name="onfido_avc_intro_video_accessibility">Տեսանյութի օրինակ, որտեղ ինչ-որ մեկը գլուխը շրջում է երկու կողմ մինչ ավարտը</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Շարունակեք պտտել ձեր գլուխը</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Գլուխը պտտեք մյուս կողմ</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Սելֆիի խցիկից երևացող պատկեր։</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Ձախ կողմը գրանցված է</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Աջ կողմը գրանցված է</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Ձեր գլուխը դանդաղ պտտեք երկու կողմ։ Երբ տվյալ կողմի գրանցումը ավարտվի, դուք կլսեք հաստատումը և կզգաք թրթռոցը</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Տեսագրումը սկսված է</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Տեղադրեք ձեր դեմքը ձեր սարքի դիմաց</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Դեմքը չի գտնվել։ Տեղադրեք ձեր դեմքը ձեր սարքի դիմաց</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Դեմքը հավասարեցվել է</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Դեմքը թեքված է</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Ձեր սարքն ավելի մոտեցրեք</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Սարքը հետ տարեք</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Շարժեք ձեր սարքը դեպի ձախ</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Շարժեք ձեր սարքը դեպի աջ</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Շարժեք ձեր սարքը դեպի վերև</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Շարժեք ձեր սարքը դեպի ներքև</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Սկսել նույնականացումը</string>
+	<string name="onfido_poa_intro_title">Նույնականացնենք ձեր հասցեն</string>
+	<string name="onfido_poa_intro_subtitle">ՁԵզ անհրաժեշտ կլինի փաստաթուղթ, որը՝</string>
+	<string name="onfido_poa_intro_list_shows_address">Պարունակում է ձեր ընթացիկ  հասցեն</string>
+	<string name="onfido_poa_intro_list_matches_signup">Համապատասխանում է այն հասցեին, որն օգտագործել եք գրանցվելիս</string>
+	<string name="onfido_poa_intro_list_most_recent">Սա ձեր ամենաթարմ փաստաթուղթն է</string>
+	<string name="onfido_poa_type_selection_title_uk">Ընտրել Միացյալ Թագավորության փաստաթուղթ</string>
+	<string name="onfido_poa_type_selection_title">Ընտրել փաստաթուղթը</string>
+	<string name="onfido_doc_select_subtitle_poa">Ամենայն հավանականությամբ, այս փաստաթղթերում գրանցված կլինի ձեր ներկա բնակության վայրի հասցեն</string>
+	<string name="onfido_doc_select_button_bank_statement">Բանկից կամ համատիրությունից ստացված քաղվածք</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Բանկային քաղվածք</string>
+	<string name="onfido_doc_select_extra_estatements_ok">էլեկտրոնային քաղվածքներ ընդունվում են</string>
+	<string name="onfido_doc_select_button_bill">Կոմունալ ծառայության հաշիվ</string>
+    <string name="onfido_doc_select_button_tax_letter">Համայնքային հարկ</string>
+	<string name="onfido_doc_select_button_benefits_letter">Նպաստներ</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Կառավարության կողմից հաստատված նպաստներ՝ տնային տնտեսությունների համար (օրինակ՝ Աշխատանք փնտրողի նպաստ, բնակարանային նպաստ, հարկային արտոնություններ</string>
+    <string name="onfido_doc_select_button_address_card">Հասցեն պարունակող քարտ</string>
+    <string name="onfido_doc_select_button_address_card_detail">Ընդունվում են ժամանակավոր և մշտական քարտերը</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Պարտադիր պետք է տրված լինի վերջին 3 ամիսների ընթացքում</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Պարտադիր պետք է տրված լինի վերջին 12 ամիսների ընթացքում</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Հասցեն պարունակող քարտը պետք է վավեր լինի</string>
+	<string name="onfido_poa_guidance_instructions_label">Նկարեք փաստաթուղթն ամբողջությամբ և համոզվեք, որ այնտեղ պարզ երևում են՝</string>
+	<string name="onfido_poa_guidance_instructions_logo">Տարբերանշան</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Ամբողջական անուն</string>
+	<string name="onfido_poa_guidance_instructions_address">Ընթացիկ հասցեն</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Թողարկման ամսաթիվը կամ վավերականության ժամկետը</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Ամբողջական հասցե</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Տրված է</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Գործողության ժամկետը (եթե առկա է)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Վերբեռնել</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Լուսանկարել</string>
+	<string name="onfido_poa_select_document_details_upload_text">Ընտրել փաստաթուղթը ցանկից</string>
+	<string name="onfido_poa_capture_confirm">Ուղարկել փաստաթուղթը</string>
+	<string name="onfido_poa_capture_choose_another">Ընտրել մեկ այլ տարբերակ</string>
+	<string name="onfido_poa_capture_redo">Կրկին լուսանկարել</string>
+	<string name="onfido_doc_confirmation_body">Համոզվեք, որ վերբեռնել եք փաստաթղթի ամբողջական էջը, և տվյալները ընթեռնելի են, պատկերը աղոտ չէ և չի փայլում</string>
+	<string name="onfido_poa_capture_enlarge">Մեծացնել փաստաթուղթը</string>
+	<string name="onfido_poa_capture_enlarge_move">Պտտեք տեսախցիկը՝ օգտագործելով մեկ մատը։ Սեղմեք՝ մեծացնելու համար։</string>
+	<string name="onfido_poa_capture_enlarge_close">Փակել</string>
+	<string name="onfido_poa_capture_instructions">Հասցեն պարունակող փաստաթղթի դիմերեսը</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Անվավեր ֆայլ</string>
+	<string name="onfido_poa_err_invalid_file_message">Խնդրում ենք ընտրել մեկ այլ ֆայլ։</string>
+	<string name="onfido_poa_err_invalid_file_ok">Լավ</string>
+    <string name="onfido_poa_welcome_text">Լուսանկարեք ձեր հասցեն պարունակող փաստաթուղթը</string>
+	<string name="onfido_country_select_error_no_country_body">Մենք աշխատում ենք ցանկում ավելի շատ երկրներ ավելացնելու ուղղությամբ։ Մինչ այդ, փորձեք օգտագործել այլ փաստաթուղթ։</string>
+	<string name="onfido_doc_select_extra_no_mobile">Ներեցեք, շարժական հեռախոսի հաշիվները չեն ընդունվում</string>
+	<string name="onfido_doc_select_button_bill_detail">Գազ, էլեկտրաէներգիա, ջուր, ֆիքսված հեռախոսակապ կամ ինտերնետ</string>
+
+	<string name="onfido_doc_select_subtitle_country">Ընտրեք թողարկող երկիրը՝ տեսնելու համար, թե որ փաստաթղթերն են ընդունելի մեզ համար</string>
+	<string name="onfido_doc_select_section_header_country">Թողարկող երկիր</string>
+	<string name="onfido_doc_select_section_header_doc_type">Ընդունելի փաստաթղթեր</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Ոչ մի արդյունք չի գտնվել</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Ամբողջական էջը</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Լուսանկարով էջ</string>
+	<string name="onfido_doc_select_subtitle_front_back">Դիմերես և դարձերես</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Ընտրեք թողարկող երկիրը</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Ձեր դեմքը, ֆոնը և ձայնագրությունը կձայնագրվեն այս գործընթացի ընթացքում</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Ձեր խոսափողն օգտագործվում է մեկ այլ հավելվածի կողմից</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Ավարտեք ձեր ընթացիկ զանգերը կամ գործողությունները, որոնք օգտագործում են ձեր խոսափողը ձայնագրության ընթացքում</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Կրկին փորձել</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Կրկին փորձել</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա</string>
+</resources>

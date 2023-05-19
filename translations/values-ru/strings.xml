@@ -1,0 +1,527 @@
+<resources>
+
+    <!-- Document Capture -->
+    <string name="onfido_app_title_doc_capture_id_it">Итальянское удостоверение личности</string>
+    <string name="onfido_app_title_doc_capture_id_za">Южноафриканское удостоверение личности</string>
+    <string name="onfido_app_title_doc_capture_license_de">Водительское удостоверение Германии</string>
+    <string name="onfido_app_title_doc_capture_license_fr">Водительское удостоверение Франции</string>
+    <string name="onfido_doc_capture_prompt_button_paper">Печатный документ</string>
+    <string name="onfido_doc_capture_prompt_button_card">Пластиковая карточка</string>
+    <string name="onfido_doc_capture_prompt_title_license">Укажите свой тип удостоверения</string>
+    <string name="onfido_doc_capture_prompt_title_id">Укажите свой тип удостоверения личности</string>
+    <string name="onfido_doc_capture_detail_folded_doc_front">Расположите документ ровно, включая все внутренние страницы (обязательно с Вашей фотографией)</string>
+    <string name="onfido_doc_capture_detail_folded_doc_back">Расположите документ ровно, включая все внешние страницы</string>
+
+    <!-- Document Confirmation -->
+    <string name="onfido_doc_confirmation_body_folded_doc">Убедитесь, что Ваш документ полностью развернут и фотография четкая</string>
+
+    <!-- General -->
+    <string name="onfido_outro_title">Спасибо</string>
+    <string name="onfido_outro_body">Это всё, что нам нужно, чтобы начать проверку Вашей личности</string>
+    <string name="onfido_continue">Продолжить</string>
+    <string name="onfido_video_intro_button_primary">Записать видео</string>
+
+    <!-- Loading -->
+    <string name="onfido_generic_loading">Загрузка</string>
+
+    <!-- Document Types -->
+    <string name="onfido_doc_select_button_passport">Паспорт</string>
+    <string name="onfido_doc_select_button_visa">Виза</string>
+    <string name="onfido_doc_select_button_license">Водительское удостоверение</string>
+	<string name="onfido_doc_select_button_id">Удостоверение личности государственного образца</string>
+    <string name="onfido_doc_select_button_permit">Вид на жительство</string>
+	<string name="onfido_doc_select_button_permit_work">Разрешение на работу</string>
+
+    <!-- Welcome Screen -->
+    <string name="onfido_app_title_welcome">Подтвердите свою личность</string>
+    <string name="onfido_app_title_doc_select">Подтвердите свою личность</string>
+    <string name="onfido_welcome_title">Подтвердите свою личность</string>
+    <string name="onfido_welcome_subtitle">Это займет несколько минут</string>
+	<string name="onfido_selfie_capture_button_accessibility">Затвор</string>
+    <string name="onfido_selfie_intro_title">Сделайте селфи</string>
+    <string name="onfido_app_title_country_select">Выберите страну выдачи</string>
+	<string name="onfido_country_select_bottom_sheet_title">Нет Вашей страны?</string>
+    <string name="onfido_country_select_bottom_sheet_details">Похоже, страна выбранного документа не поддерживается. Выберите другую страну.</string>
+    <string name="onfido_country_select_bottom_sheet_link_close">Закрыть</string>
+    <string name="onfido_selfie_intro_subtitle">Мы сравним фото с Вашим документом</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_capture_body">Расположите лицо внутри овала</string>
+    <string name="onfido_video_capture_prompt_button_timeout">Повторить</string>
+    <string name="onfido_generic_error_camera_unavailable">На этом устройстве нет доступной камеры</string>
+    <string name="onfido_generic_error_camera_used_by_other_app">Камера недоступна. Возможно, камера одновременно используется в другом приложении.</string>
+    <string name="onfido_selfie_confirmation_body">Убедитесь, что Ваше лицо видно полностью</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Документ не найден</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_title">Лицо не обнаружено</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_title">Найдено несколько лиц</string>
+    <string name="onfido_doc_confirmation_alert_multi_face_detail">На селфи может быть только Ваше лицо</string>
+    <string name="onfido_generic_errors_geoblocked_error_message">Сервис недоступен</string>
+    <string name="onfido_generic_errors_geoblocked_error_instruction">К сожалению, мы не можем продолжить, так как Ваше текущее местоположение не поддерживается</string>
+    <string name="onfido_selfie_confirmation_alert_no_face_detail">Убедитесь, что Ваше лицо видно</string>
+	<string name="onfido_generic_error_face_capture">Не удалось сделать снимок лица. Повторите попытку.</string>
+	<string name="onfido_generic_error_doc_capture">Не удалось сделать снимок документа. Повторите попытку.</string>
+	<string name="onfido_generic_error_video_capture">Не удалось выполнить захват видео. Повторите попытку.</string>
+    <string name="onfido_doc_confirmation_body_generic">Убедитесь, что Ваши данные четко видны и не перекрыты</string>
+
+    <!-- Glare Detection -->
+    <string name="onfido_doc_capture_alert_glare_title">Обнаружены блики</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Отойдите от прямого света</string>
+
+    <!-- Final Screen -->
+    <string name="onfido_outro_button_primary">Отправить на проверку</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Ошибка</string>
+    <string name="onfido_generic_error_network_title">Соединение потеряно</string>
+    <string name="onfido_generic_error_network_detail">Произошла сетевая ошибка. Проверьте соединение.</string>
+    <string name="onfido_generic_error_detail">Что-то пошло не так. Повторите попытку позже.</string>
+
+    <!-- Liveness -->
+    <string name="onfido_video_intro_subtitle">В целях безопасности нам нужна запись в режиме реального времени</string>
+    <string name="onfido_video_intro_list_item_move_speak">Следуйте инструкциям, как двигаться или говорить</string>
+    <string name="onfido_video_intro_loader">Пример загрузки</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions">Произнесите вслух каждую цифру</string>
+    <string name="onfido_video_capture_prompt_title_timeout">Похоже, Вы потратили слишком много времени</string>
+    <string name="onfido_video_capture_prompt_detail_timeout">Когда закончите, не забудьте нажать кнопку.</string>
+    <string name="onfido_video_confirmation_button_secondary">Переснять видео</string>
+	<string name="onfido_video_confirmation_button_primary">Отправить видео</string>
+	<string name="onfido_video_confirmation_error_no_video">Видео не найдено на Вашем устройстве. Переснимите его.</string>
+    <string name="onfido_video_capture_error_storage_title">Память устройства заполнена</string>
+    <string name="onfido_video_capture_error_storage_detail">Освободите место и запишите видео снова</string>
+    <string name="onfido_video_confirmation_button_audio_unmute">Включить звук</string>
+    <string name="onfido_video_capture_button_primary_start">Начать запись</string>
+    <string name="onfido_video_capture_button_primary_finish">Закончить запись</string>
+    <string name="onfido_video_capture_button_primary_fallback">Следующий шаг</string>
+	<string name="onfido_video_confirmation_error_media_player">Произошла ошибка с Вашим видео. Переснимите его.</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player">Перезагрузить</string>
+    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Перезагрузить пример видео</string>
+    <string name="onfido_video_intro_error_network">Невозможно загрузить из-за нестабильной работы сети</string>
+    <string name="onfido_video_intro_error_network_accessibility">Невозможно загрузить пример видео из-за нестабильной работы сети</string>
+	<string name="onfido_video_intro_error_load_offline">Невозможно загрузить, так как Вы не в сети</string>
+
+    <!-- Country Suggestion/Selection -->
+    <string name="onfido_country_select_list_header_suggested">Предлагаемая страна</string>
+    <string name="onfido_country_select_list_header_all">Все страны</string>
+    <string name="onfido_app_title_country_select_search">Поиск</string>
+    <string name="onfido_country_select_error_no_country_title">Страна не найдена</string>    <!-- Autocapture -->
+    <string name="onfido_doc_capture_alert_manual_capture_title">Попробуйте сделать фото вручную</string>
+    <string name="onfido_doc_confirmation_alert_blur_title">Обнаружена размытая фотография</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_capture_alert_no_barcode_title">Штрих-код не обнаружен</string>
+    <string name="onfido_doc_capture_alert_no_barcode_detail">Оставайтесь на хорошо освещенном месте и поднесите карточку ближе к камере</string>
+    <string name="onfido_permission_recovery_button_primary">Включить в настройках</string>
+
+    <!-- Camera Permissions -->
+    <string name="onfido_permission_title_cam">Разрешить доступ к камере</string>
+    <string name="onfido_permission_subtitle_cam">При появлении запроса Вы должны разрешить доступ к камере, чтобы продолжить</string>
+	<string name="onfido_permission_body_cam">Мы не можем верифицировать Вас без камеры</string>
+    <string name="onfido_permission_button_primary_cam">Резрешить доступ</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Мы не можем верифицировать Вас без камеры</string>
+    <string name="onfido_permission_recovery_list_item_action_cam">Перейдите в настройки приложения и включите доступ к камере для этого приложения</string>
+    <string name="onfido_permission_recovery_list_item_how_to_cam">Доступ к камере можно восстановить с помощью настроек устройства</string>
+
+    <string name="onfido_permission_recovery_title_cam">Доступ к камере запрещен</string>
+
+    <!-- Microphone Permissions -->
+    <string name="onfido_permission_title_mic">Разрешить доступ к микрофону</string>
+    <string name="onfido_permission_subtitle_mic">При появлении запроса Вы должны разрешить доступ к микрофону, чтобы продолжить</string>
+    <string name="onfido_permission_button_primary_mic">Включить микрофон</string>
+    <string name="onfido_permission_recovery_title_mic">Доступ к микрофону запрещен</string>
+    <string name="onfido_permission_body_mic">Мы не можем верифицировать Вас без использования микрофона</string>
+    <string name="onfido_permission_recovery_list_item_how_to_mic">Доступ к микрофону можно восстановить с помощью настроек устройства</string>
+    <string name="onfido_permission_recovery_list_item_action_mic">Перейдите в настройки приложения и включите доступ к микрофону для этого приложения</string>
+    <string name="onfido_permission_recovery_subtitle_mic">Мы не можем верифицировать Вас без микрофона</string>
+
+    <!-- Camera + Microphone Permissions -->
+    <string name="onfido_permission_title_both">Разрешить доступ к камере и микрофону</string>
+    <string name="onfido_permission_subtitle_both">При появлении запроса Вы должны разрешить доступ к камере и микрофону, чтобы продолжить</string>
+    <string name="onfido_permission_recovery_title_both">Доступ к камере и микрофону запрещен</string>
+    <string name="onfido_video_capture_alert_wrong_side">Не та сторона</string>
+    <string name="onfido_video_capture_prompt_button_primary_network_timeout">Инструкции по повторной загрузке</string>
+    <string name="onfido_video_capture_prompt_network_timeout_title">Время ожидания подключения</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Убедитесь, что соединение стабильно, затем повторите попытку</string>
+	<string name="onfido_generic_back">Назад</string>
+    <string name="onfido_permission_body_both">Мы не можем верифицировать Вас без использования камеры и микрофона</string>
+    <string name="onfido_permission_button_primary_both">Включить камеру и микрофон</string>
+	<string name="onfido_permission_recovery_subtitle_both">Мы не можем верифицировать вас без использования камеры и микрофона</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Доступ к камере и микрофону можно восстановить с помощью настроек устройства</string>
+    <string name="onfido_permission_recovery_list_item_action_both">Перейдите в настройки приложения и включите доступ к камере и микрофону для этого приложения</string>
+
+    <!-- Accessibility strings for screen readers -->
+    <string name="onfido_video_intro_video_accessibility">Пример видео, на котором человек записывает селфи-видео. Чтобы записать селфи-видео, смотрите в переднюю камеру и держите телефон на небольшом расстоянии от лица. Затем Вам нужно будет назвать несколько чисел и повернуть голову в соответствии с инструкциями на экране.</string>
+    <string name="onfido_doc_capture_frame_accessibility">Вид с камеры</string>
+    <string name="onfido_selfie_confirmation_image_accessibility">Фотография Вашего лица</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Фото вашего документа</string>
+    <string name="onfido_video_confirmation_body">Ваше видео записано</string>
+	<string name="onfido_video_confirmation_video_accessibility">Предварительный просмотр записанного видео</string>
+    <string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Вы должны слышать, как Вы говорите: %1$s</string>
+    <string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Вы должны видеть, как Вы поворачиваете голову %1$s</string>
+    <string name="onfido_video_capture_header_extra_instructions_accessibility">Затем</string>
+    <string name="onfido_video_capture_header_challenge_turn_left_accessibility">Налево</string>
+    <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Направо</string>
+    <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Воспроизведение или пауза</string>
+	<string name="onfido_doc_capture_button_accessibility">Сделайте снимок</string>
+    <string name="onfido_video_intro_button_pause_accessibility">Приостановить видео</string>
+    <string name="onfido_video_intro_button_play_accessibility">Воспроизвести видео</string>
+
+    <!-- Document Error -->
+    <string name="onfido_doc_capture_alert_no_mrz_title">Две нижние строки не видны</string>
+    <string name="onfido_doc_capture_alert_no_mrz_detail">Убедитесь, что документ показан полностью</string>
+
+    <!-- User Consent Screen -->
+    <string name="onfido_user_consent_button_primary">Принять</string>
+    <string name="onfido_user_consent_button_secondary">Не принимать</string>
+    <string name="onfido_user_consent_prompt_no_consent_title">Вы уверены?</string>
+    <string name="onfido_user_consent_prompt_no_consent_detail">Если Вы не примете заявления о конфиденциальности и условия предоставления услуг Onfido, мы не сможем подтвердить Вашу личность и Вы выйдете на этом этапе.</string>
+    <string name="onfido_user_consent_prompt_button_primary">Да, не проверять меня</string>
+    <string name="onfido_user_consent_prompt_button_secondary">Посмотреть еще раз</string>
+
+    <!-- Doc Liveness -->
+    <string name="onfido_welcome_list_item_doc_video_flash">Во время записи видео мы включим вспышку на Вашем устройстве</string>
+	<string name="onfido_doc_video_capture_header">Удерживая документ в руках, поместите лицевую сторону в рамку</string>
+    <string name="onfido_doc_video_capture_header_step1">Теперь не двигайтесь</string>
+    <string name="onfido_doc_video_capture_detail_step2">Всегда держите документ полностью на виду</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback">Следующий шаг</string>
+    <string name="onfido_doc_video_capture_header_passport">Удерживая паспорт в руках, поместите страницу с фото в рамку</string>
+    <string name="onfido_doc_video_capture_header_paper_doc_step2">Медленно поверните документ, чтобы показать внешние страницы</string>
+    <string name="onfido_doc_video_capture_prompt_detail_timeout">Запись видео ограничена %1$s секундами.</string>
+    <string name="onfido_doc_video_capture_success_accessibility">Готово</string>
+	<string name="onfido_doc_video_capture_stepper">Шаг %1$d из %2$d</string>
+    <string name="onfido_doc_video_capture_header_step2">Медленно поверните документ, чтобы показать оборотную сторону</string>
+    <string name="onfido_doc_video_confirmation_button_secondary">Предварительный просмотр видео</string>
+    <string name="onfido_doc_video_capture_button_primary_fallback_end">Закончить запись</string>
+    <string name="onfido_doc_video_capture_header_passport_progress">Не двигайтесь</string>
+    <string name="onfido_welcome_list_item_doc_video_timeout">Запись ограничена %1$s секундами</string>
+
+    <string name="onfido_doc_confirmation_button_primary_passport">Отправить фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_passport">Переснять фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_folded_doc">Переснять фото</string>
+
+    <string name="onfido_generic_uploading">Загрузка</string>
+    <string name="onfido_doc_confirmation_alert_crop_detail">Убедитесь, что виден весь документ</string>
+    <string name="onfido_doc_confirmation_alert_crop_title">Изображение обрезано</string>
+    <string name="onfido_doc_upload_progress_label">Проверка качества изображения</string>
+
+    <string name="onfido_video_capture_header_challenge_turn_forward">Затем повернитесь лицом</string>
+    <string name="onfido_nfc_sheet_ready_subtitle">Готово к сканированию</string>
+    <string name="onfido_nfc_sheet_button_secondary">Отмена</string>
+    <string name="onfido_nfc_intro_sheet_scanning_subtitle">Сканирование...</string>
+    <string name="onfido_nfc_sheet_scanning_instruction">Держите телефон неподвижно</string>
+    <string name="onfido_nfc_sheet_success_subtitle">Сканирование выполнено успешно</string>
+    <string name="onfido_nfc_permission_title">Включите NFC</string>
+	<string name="onfido_nfc_permission_subtitle">Мы не можем отсканировать Ваш паспорт без NFC</string>
+    <string name="onfido_nfc_permission_list_item_nfc">Включите NFC в настройках устройства</string>
+    <string name="onfido_nfc_permission_button_primary">Открыть настройки</string>
+
+    <string name="onfido_doc_confirmation_button_primary_permit">Отправить фото</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Во время этого процесса будут засняты Ваше лицо и фон</string>
+    <string name="onfido_selfie_intro_list_item_face_forward">Смотрите прямо и убедитесь, что Ваши глаза хорошо видны</string>
+    <string name="onfido_doc_confirmation_button_primary_permit_work">Отправить фото</string>
+    <string name="onfido_doc_confirmation_button_primary_folded_doc">Отправить фото</string>
+    <string name="onfido_doc_confirmation_button_primary_license">Отправить фото</string>
+    <string name="onfido_doc_confirmation_alert_blur_detail">Убедитесь, что всё четко видно</string>
+    <string name="onfido_doc_confirmation_alert_no_doc_detail">Убедитесь, что на фото весь документ</string>
+    <string name="onfido_selfie_confirmation_button_secondary">Переснять фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_id">Переснять фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_visa">Переснять фото</string>
+	<string name="onfido_selfie_intro_button_primary">Сделать селфи</string>
+    <string name="onfido_video_intro_list_item_time_limit_copy">Для завершения у вас осталось %1$d сек.</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+    <string name="onfido_doc_confirmation_button_primary_id">Отправить фото</string>
+    <string name="onfido_doc_confirmation_button_primary_visa">Отправить фото</string>
+    <string name="onfido_doc_confirmation_button_primary_generic">Отправить фото</string>
+    <string name="onfido_doc_confirmation_button_primary_barcode">Отправить фото</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+    <string name="onfido_selfie_intro_list_item_no_glasses">При необходимости снимите очки</string>
+    <string name="onfido_selfie_intro_list_item_no_face_cover">Уберите всё, что закрывает лицо. Очки можно оставить</string>
+    <string name="onfido_doc_capture_alert_manual_capture_detail">Выровняйте документ, затем нажмите кнопку</string>
+    <string name="onfido_doc_select_subtitle">Это должно быть официальное удостоверение личности с фотографией</string>
+    <string name="onfido_selfie_confirmation_button_primary">Загрузить фото</string>
+    <string name="onfido_doc_select_title">Выберите свой документ</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+    <string name="onfido_doc_confirmation_button_secondary_license">Переснять фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit">Переснять фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_permit_work">Переснять фото</string>
+    <string name="onfido_doc_confirmation_button_secondary_generic">Переснять фото</string>
+    <string name="onfido_video_intro_title">Запишите видео</string>
+    <string name="onfido_country_select_bottom_sheet_link_doc_select">Выберите другой документ</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Поверните голову налево</string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Поверните голову направо</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+    <string name="onfido_video_capture_body">Чтобы начать запись, расположите лицо внутри овала</string>
+
+    <string name="onfido_app_title_doc_confirmation">Подтвердите свою личность</string>
+    <string name="onfido_app_title_selfie_confirmation">Подтвердите свою личность</string>
+    <string name="onfido_app_title_permission">Подтвердите свою личность</string>
+    <string name="onfido_app_title_selfie_intro">Подтвердите свою личность</string>
+    <string name="onfido_app_title_video_intro">Подтвердите свою личность</string>
+    <string name="onfido_app_title_video_confirmation">Подтвердите свою личность</string>
+    <string name="onfido_welcome_button_primary_doc">Выбрать документ</string>
+    <string name="onfido_welcome_button_primary">Начать</string>
+
+    <string name="onfido_video_capture_frame_success_accessibility">Лицо обнаружено. Запись началась.</string>
+    <string name="onfido_video_capture_turn_success_accessibility">Обнаружен поворот головы</string>
+
+    <string name="onfido_doc_capture_frame_success_accessibility">Изображение снято</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Вид с селфи-камеры. Держите лицо в овале, а затем нажмите кнопку затвора</string>
+    <string name="onfido_video_capture_frame_accessibility">Вид с селфи-камеры. Чтобы начать запись, расположите лицо внутри овала.</string>
+
+    <string name="onfido_doc_capture_header_folded_doc_back">Поместите внешние страницы документа в рамку</string>
+    <string name="onfido_doc_capture_header_license_front">Поместите лицевую сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_license_back">Поместите оборотную сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_permit_front">Поместите лицевую сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_permit_back">Поместите оборотную сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_id_front">Поместите лицевую сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_id_back">Поместите оборотную сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_permit_work_front">Поместите лицевую сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_permit_work_back">Поместите оборотную сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_visa_front">Поместите страницу с визой в Вашем документе в рамку</string>
+    <string name="onfido_doc_capture_header_generic_front">Поместите лицевую сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_generic_back">Поместите оборотную сторону документа в рамку</string>
+    <string name="onfido_doc_capture_header_passport">Поместите страницу с фото в Вашем документе в рамку</string>
+    <string name="onfido_doc_capture_frame_accessibility_pp_auto">Вид с камеры. Поместите страницу с фото в Вашем документе в рамку. Ваше устройство будет вибрировать при съемке изображения</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Вид с камеры. Поместите лицевую сторону документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Вид с камеры. Поместите оборотную сторону документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Вид с камеры. Поместите лицевую сторону документа в рамку. Ваше устройство будет вибрировать при съемке изображения</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Вид с камеры. Поместите оборотную сторону документа в рамку</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Вид с камеры. Поместите лицевую сторону документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Вид с камеры. Поместите оборотную сторону документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Вид с камеры. Поместите лицевую сторону документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Вид с камеры. Поместите оборотную сторону документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Вид с камеры. Поместите часть с фото в Вашем документе в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Вид с камеры. Поместите внешние страницы документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Вид с камеры. Поместите часть с фото в Вашем документе в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Вид с камеры. Поместите внешние страницы документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Вид с камеры. Поместите часть с фото в Вашем документе в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Вид с камеры. Поместите внешние страницы документа в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Вид с камеры. Поместите часть с фото в Вашем документе в рамку, а затем нажмите кнопку затвора</string>
+    <string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Вид с камеры. Поместите внешние страницы документа в рамку, а затем нажмите кнопку затвора</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Поместите боковую часть с фото в вашем документе в рамку</string>
+    <string name="onfido_video_capture_prompt_header_restart">Перезапустить запись</string>
+    <string name="onfido_video_capture_prompt_detail_restart">Для выполнения этого шага Ваше лицо должно быть видно на протяжении всей записи.</string>
+    <string name="onfido_video_capture_prompt_button_restart">Начать заново</string>
+
+    <string name="onfido_welcome_list_header">Используйте свое устройство, чтобы:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Сфотографировать удостоверение личности</string>
+    <string name="onfido_welcome_list_item_doc_video">Записать видео с удостоверением личности</string>
+    <string name="onfido_welcome_list_item_doc_generic">Отсканировать документ, удостоверяющий личность</string>
+    <string name="onfido_welcome_list_item_face_photo">Сфотографировать лицо</string>
+    <string name="onfido_welcome_list_item_face_video">Записать видео лица</string>
+
+    <string name="onfido_doc_capture_alert_no_mrz3_title">Три нижние строки не видны</string>
+
+    <!-- NFC -->
+
+    <string name="onfido_nfc_scan_error_button_primary">Повторить сканирование</string>
+    <string name="onfido_nfc_scan_error_button_secondary">Получить верификацию без NFC</string>
+    <string name="onfido_nfc_scan_error_title">Не удалось отсканировать документ</string>
+    <string name="onfido_nfc_scan_error_list_item">Снимите чехол с телефона</string>
+    <string name="onfido_nfc_scan_error_list_item_2">После начала сканирования не двигайтесь</string>
+
+    <string name="onfido_nfc_intro_carousel_body_dont_move">Не перемещайте телефон или паспорт во время сканирования</string>
+    <string name="onfido_nfc_intro_carousel_body_last_page">Вы также можете сделать это с внутренней частью оборотной страницы</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Разместите телефон поверх паспорта</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Медленно перемещайте телефон вниз и вверх</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Положите паспорт на ровную поверхность</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">После начала сканирования держите телефон неподвижно</string>
+    <string name="onfido_nfc_intro_title_card">Отсканируйте карточку NFC</string>
+    <string name="onfido_nfc_intro_title_passport">Отсканируйте свой электронный паспорт</string>
+    <string name="onfido_nfc_intro_subtitle">Следуйте приведенным ниже инструкциям</string>
+    <string name="onfido_nfc_intro_button_primary">Начать сканирование</string>
+    <string name="onfido_nfc_intro_list_item">Разместите карту сзади устройства</string>
+    <string name="onfido_nfc_intro_list_item_2">Медленно перемещайте мобильный телефон вверх и вниз</string>
+    <string name="onfido_nfc_intro_list_item_3">После начала сканирования не двигайтесь</string>
+
+    <string name="onfido_nfc_sheet_success_instruction_passport">Мы отсканировали Ваш паспорт</string>
+    <string name="onfido_nfc_sheet_success_instruction_card">Мы успешно отсканировали Вашу карточку</string>
+
+    <string name="onfido_nfc_select_title_passport">Ускорение процесса с помощью NFC</string>
+    <string name="onfido_nfc_select_subtitle_passport">Мы просканируем чип NFC в Вашем паспорте</string>
+    <string name="onfido_nfc_select_body_passport">В электронных паспортах этот символ находится на обложке</string>
+    <string name="onfido_nfc_select_button_primary_passport">Используйте электронный паспорт</string>
+    <string name="onfido_nfc_select_button_secondary_passport">Это не электронный паспорт</string>
+
+    <string name="onfido_nfc_select_title_card">Ускорение процесса с помощью NFC</string>
+    <string name="onfido_nfc_select_subtitle_card">Мы отсканируем чип NFC на Вашей карточке</string>
+    <string name="onfido_nfc_select_body_card">На карточках с чипами NFC есть этот символ</string>
+    <string name="onfido_nfc_select_button_primary_card">Использовать карточку NFC</string>
+    <string name="onfido_nfc_select_button_secondary_card">Это не карточка NFC</string>
+
+	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Разместите телефон рядом с верхней частью паспорта</string>
+    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Поместите телефон на карточку</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Держите телефон неподвижно</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Контакт с карточкой утерян</string>
+    <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Контакт с паспортом утерян</string>
+    <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Переместите телефон немного вверх или вниз</string>
+
+    <string name="onfido_enter_can_title">Введите CAN</string>
+    <string name="onfido_enter_can_subtitle">Убедитесь, что указанный номер совпадает с номером в документе.</string>
+    <string name="onfido_enter_can_button_primary">Продолжить</string>
+    <string name="onfido_enter_can_disclaimer">Он указан на лицевой стороне документа. Это %d-значный номер и он немного длиннее.</string>
+	<string name="onfido_enter_can_error_label">У Вас осталось %d %s</string>
+    <string name="onfido_enter_can_substring_attempt_singular">попытка</string>
+    <string name="onfido_enter_can_substring_attempt_plural">попытки/попыток</string>
+
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Вид с камеры. Поместите телефон на лицевую сторону документа, затем медленно отодвигайте телефон от него по прямой линии.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Держите телефон над документом</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">Документ не найден. Держите телефон над документом.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">Документ слишком близко</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Документ слишком близко к камере</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Документ слишком далеко</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Документ слишком далеко от камеры</string>
+    <string name="onfido_doc_capture_header_live_guidance_doc_too_left">Переместите влево</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Переместите устройство влево</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Переместите вправо</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Переместите устройство вправо</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Переместите вверх</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Переместите устройство вверх</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Переместите вверх</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Переместите устройство немного вверх</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Переместите вниз</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Переместите устройство вниз</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Переместите вниз</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Переместите устройство немного вниз</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">Не двигайтесь, чтобы зафиксировать</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Не двигайтесь, чтобы зафиксировать изображение</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Держите телефон над лицевой стороной документа</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Держите телефон над оборотной стороной документа</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Вид с камеры. Поместите телефон на оборотную сторону документа, затем медленно отодвигайте телефон от него по прямой линии.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Держите телефон над страницей паспорта с фотографией</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Вид с камеры. Поместите телефон на страницу паспорта с фотографией, затем медленно отодвигайте телефон от нее по прямой линии.</string>
+	<string name="onfido_doc_capture_header_capturing">Не двигайтесь</string>
+
+	<string name="onfido_avc_intro_title">Запишите видео</string>
+	<string name="onfido_avc_intro_subtitle">Мы хотим убедиться, что Вы реальный человек</string>
+	<string name="onfido_avc_intro_list_item_one">Сначала расположите свое лицо внутри рамки</string>
+    <string name="onfido_avc_intro_list_item_one_accessibility">Сначала расположите лицо перед устройством</string>
+	<string name="onfido_avc_intro_list_item_two">Затем медленно поверните голову в обе стороны</string>
+    <string name="onfido_avc_intro_list_item_two_accessibility">Затем медленно поверните голову в обе стороны</string>
+	<string name="onfido_avc_intro_disclaimer">Имейте в виду, что мы будем записывать Ваше лицо и фон</string>
+	<string name="onfido_avc_intro_button_primary_ready">Начать запись</string>
+	<string name="onfido_avc_face_alignment_title">Расположите свое лицо внутри рамки</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Подвиньтесь ближе</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Отодвиньтесь</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Лицо не обнаружено</string>
+    <string name="onfido_avc_face_capture_title">Медленно поверните голову в обе стороны</string>
+    <string name="onfido_avc_face_capture_title_completed">Запись завершена</string>
+    <string name="onfido_avc_face_capture_alert_timeout_title">К сожалению, мы должны перезапустить запись</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">У Вас есть не более 15 секунд, чтобы завершить запись</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Повторить</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Вы повернули голову слишком быстро</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Повторите попытку и поворачивайте голову медленнее</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Повторить</string>
+	<string name="onfido_avc_no_face_detected_title">Мы не можем обнаружить Ваше лицо</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Убедитесь, что Вы находитесь в месте с хорошим освещением</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Убедитесь, что Ваши глаза хорошо видны</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Обязательно снимите маски или другие предметы, которые закрывают лицо. Очки можно оставить</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Убедитесь, что показываете только свое лицо, нам не нужно видеть Ваше удостоверение личности</string>
+    <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Убедитесь, что показываете только свое лицо, нам не нужно видеть Ваше удостоверение личности</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Перезапустить запись</string>
+	<string name="onfido_avc_confirmation_title">Запись завершена</string>
+	<string name="onfido_avc_confirmation_subtitle">Видео Вашего лица успешно записано</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Загрузить запись</string>
+	<string name="onfido_avc_connection_error_title">Ошибка соединения</string>
+	<string name="onfido_avc_connection_error_subtitle">Убедитесь, что соединение стабильно, затем повторите попытку</string>
+    <string name="onfido_avc_face_alignment_feedback_not_centered">Лицо не по центру</string>
+    <string name="onfido_avc_connection_error_button_primary_retry_upload">Повторите загрузку</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Перезапустить запись</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Записать видео лица</string>
+	<string name="onfido_avc_intro_video_accessibility">Пример видео, на котором человек поворачивает голову в обе стороны до завершения процесса</string>
+    <string name="onfido_avc_face_capture_keep_turning_accessibility">Продолжайте поворачивать голову</string>
+    <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Поверните голову в другую сторону</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Вид с селфи-камеры</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Левая сторона завершена</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Правая сторона завершена</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Медленно поверните голову в обе стороны. Когда сторона будет завершена, Вы услышите подтверждение и почувствуете вибрацию</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Запись началась</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Расположите лицо перед устройством</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Лицо не обнаружено. Расположите лицо перед устройством</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Выравнивание лица</string>
+    <string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Лицо смещено</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Переместите устройство ближе</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Переместите устройство назад</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Переместите устройство влево</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Переместите устройство вправо</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Переместите устройство вверх</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Переместите устройство вниз</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Начать проверку</string>
+	<string name="onfido_poa_intro_title">Давайте проверим Ваш адрес</string>
+	<string name="onfido_poa_intro_subtitle">Вам понадобится документ, который:</string>
+	<string name="onfido_poa_intro_list_shows_address">Содержит Ваш текущий адрес</string>
+	<string name="onfido_poa_intro_list_matches_signup">Соответствует адресу, который Вы использовали при регистрации</string>
+	<string name="onfido_poa_intro_list_most_recent">Является самым недавним Вашим документом</string>
+	<string name="onfido_poa_type_selection_title_uk">Выбрать документ Великобритании</string>
+	<string name="onfido_poa_type_selection_title">Выбрать документ</string>
+	<string name="onfido_doc_select_subtitle_poa">Именно в этих документах чаще всего указывается Ваш текущий домашний адрес</string>
+	<string name="onfido_doc_select_button_bank_statement">Выписка из банка или строительного общества</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Выписка из банка</string>
+	<string name="onfido_doc_select_extra_estatements_ok">Электронные выписки приняты</string>
+	<string name="onfido_doc_select_button_bill">Счет за коммунальные услуги</string>
+    <string name="onfido_doc_select_button_tax_letter">Письмо о местном налоге</string>
+	<string name="onfido_doc_select_button_benefits_letter">Письмо о предоставлении льгот</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Разрешенные правительством пособия домашним хозяйствам, например: пособие по безработице, жилищные субсидии, налоговые льготы</string>
+    <string name="onfido_doc_select_button_address_card">Карточка с адресом</string>
+    <string name="onfido_doc_select_button_address_card_detail">Принимаются карточки временного и постоянного вида на жительства</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Дата выдачи должна быть в течение последних 3 месяцев</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Дата выдачи должна быть в течение последних 3 месяцев</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Дата выдачи должна быть в течение последних 12 месяцев</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Дата выдачи должна быть в течение последних 12 месяцев</string>
+    <string name="onfido_poa_guidance_subtitle_address_card">Должна быть действительная карточка с адресом</string>
+	<string name="onfido_poa_guidance_instructions_label">Сфотографируйте документ целиком и убедитесь, что на снимке чётко видна следующая информация:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Логотип</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Ф.И.О.</string>
+	<string name="onfido_poa_guidance_instructions_address">Текущий адрес</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Дата выдачи или итоговый период</string>
+    <string name="onfido_poa_guidance_instructions_full_address">Полный адрес</string>
+    <string name="onfido_poa_guidance_instructions_address_card_issue_date">Дата выдачи</string>
+    <string name="onfido_poa_guidance_instructions_expiry_date">Срок действия (если применимо)</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Загрузить</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Сделать фото</string>
+	<string name="onfido_poa_select_document_details_upload_text">Выберите документ из</string>
+	<string name="onfido_poa_capture_confirm">Отправить документ</string>
+	<string name="onfido_poa_capture_choose_another">Выбрать другой</string>
+	<string name="onfido_poa_capture_redo">Переснять фото</string>
+	<string name="onfido_doc_confirmation_body">Убедитесь, что Вы загрузили всю страницу документа, данные четко видны, нет размытия или бликов</string>
+	<string name="onfido_poa_capture_enlarge">Увеличить документ</string>
+	<string name="onfido_poa_capture_enlarge_move">Выполняйте перемещение одним пальцем. Изменяйте масштаб сведением и разведением пальцев.</string>
+	<string name="onfido_poa_capture_enlarge_close">Закрыть</string>
+	<string name="onfido_poa_capture_instructions">Лицевая сторона документа с адресом</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+    <string name="onfido_poa_err_invalid_file_title">Недопустимый файл</string>
+	<string name="onfido_poa_err_invalid_file_message">Выберите другой файл.</string>
+	<string name="onfido_poa_err_invalid_file_ok">OK</string>
+    <string name="onfido_poa_welcome_text">Сфотографируйте документ с вашим адресом</string>
+	<string name="onfido_country_select_error_no_country_body">Мы работаем над тем, чтобы добавить в список больше стран. Пока попробуйте использовать альтернативный документ.</string>
+	<string name="onfido_doc_select_extra_no_mobile">К сожалению, мы не принимаем счета за мобильный телефон</string>
+	<string name="onfido_doc_select_button_bill_detail">Газ, электричество, вода, телефон или широкополосный доступ в Интернет</string>
+
+	<string name="onfido_doc_select_subtitle_country">Выберите страну выдачи, чтобы увидеть, какие документы мы принимаем</string>
+	<string name="onfido_doc_select_section_header_country">Страна выдачи</string>
+	<string name="onfido_doc_select_section_header_doc_type">Принимаемые документы</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Результаты отсутствуют</string>
+	<string name="onfido_doc_select_subtitle_entire_page">Вся страница</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Страница с фото</string>
+	<string name="onfido_doc_select_subtitle_front_back">Лицевая и обратная стороны</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Выберите страну выдачи</string>
+
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Во время этого процесса будут записаны ваше лицо, фон и звук.</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Ваш микрофон используется другим приложением</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Завершите любые текущие звонки или действия, которые используют ваш микрофон во время записи.</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Повторить попытку</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Повторить</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Аудио воспроизводится другим приложением</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Не воспроизводите звук на вашем устройстве во время записи</string>
+</resources>
