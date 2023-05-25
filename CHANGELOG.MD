@@ -9,6 +9,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [18.0.0] - 2023-05-25
+
+### Added
+
+- Included Dashboard country and document selection in readme file
+
+### Changed
+
+- Updated `MediaFile` used with custom media callbacks. This now contains the file data, file type and file name
+- Switched to implementing `Parcelable` instead of `Serializable` for: `OnfidoConfig`, `TokenExpirationHandler`, `MediaCallback`, `OnfidoAnalyticsEventListener`, `FlowConfig` and `EnterpriseFeatures`
+
+### Fixed
+
+- Fixed a crash on foldable devices upon finishing Video/Liveness recording
+- Fixed undefined 'onfidoFontFamilyBody' attribute in 'OnfidoBaseActivityTheme' by adding a default value
+- Fixed the custom language selection issue
+- Fixed weird toolbar icon that appears in loading and consent screens
+- Reverted orientation mode to portrait mode
+
 ## [17.0.0] - 2023-05-09
 
 ### Added

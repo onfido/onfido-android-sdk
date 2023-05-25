@@ -1,5 +1,12 @@
 # Onfido Android SDK Migration Guide
 
+## `17.0.0` -> `18.0.0`
+
+#### Breaking changes
+- Updated the properties of `MediaFile` (used for custom media callbacks) - it now contains 3 attributes: the file data, file type and file name
+- Dropped `Attr` suffix from font attribute names in `OnfidoBaseActivityTheme`.
+- Removed the internal `onfidoFontFamily` attribute in `OnfidoBaseActivityTheme`.
+
 ## `16.3.2` -> `17.0.0`
 
 #### Breaking changes

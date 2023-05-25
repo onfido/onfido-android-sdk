@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.25 Mb |
-| arm64-v8a   | 7.14 Mb |
+| armeabi-v7a | 8.27 Mb  |
+| arm64-v8a   | 9.15 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.72 Mb |
+| universal   | 5.73 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -240,7 +240,7 @@ OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
                 .withSDKToken("<YOUR_SDK_TOKEN>", new ExpirationHandler()); // ExpirationHandler is optional
 ```
 
-**Note:** If you want to use `tokenExpirationHandler` you should pass a concrete class instance, you should not pass an **anonymous** or **activity** class instance.
+**Note:** If you want to use `tokenExpirationHandler` you should pass a concrete class instance, you should not pass an **anonymous** or **activity** class instance. ⚠️ From version 18.0.0 onwards, for any usage of the `TokenExpirationHandler`, implement `Parcelable` instead of `Serializable`.
 
 ### 5. Instantiate the client
 
@@ -367,12 +367,34 @@ For more information about this step, and how to collect user consent, please vi
 
 #### Document capture step
 
-
 In the Document Capture step, an end user can select the issuing country and document type before capture. In a very limited number of cases, the end user may also be asked if they have a card or paper version of their document.
 
 This information is used to optimize the capture experience, as well as inform the end user about which documents they are allowed to use.
 
 This selection screen is optional, and will be automatically hidden where the end user is not required to indicate which document will be captured.
+
+You can specify allowed issuing countries and document types for the document capture step in one of three ways: 
+*   If you are using Onfido Studio, this is configured within a Document Capture task, documented in the [Studio Product Guide](https://developers.onfido.com/guide/onfido-studio-product#document-capture-task)
+*   Otherwise, for Onfido Classic you can set this globally in your Dashboard (recommended), or hard code it into your SDK integration. Both of these options are documented below.
+
+##### Country and document type selection by Dashboard 
+
+Configuring the issuing country and document type selection step using your Dashboard is the **recommended method** of integration (available from [iOS SDK](https://documentation.onfido.com/sdk/ios/) version 28.0.0 and [Android SDK](https://documentation.onfido.com/sdk/android/) version 16.0.0 onwards) as this configuration is also applied to your Document Reports. Any document that has been uploaded by an end user against your guidance will result in a Document Report sub-result of "rejected" and be flagged as `Image Integrity` > `Supported Document`.
+
+_We will be rolling out Dashboard-based configuration of allowed documents soon. In the meantime, contact [support@onfido.com](support@onfido.com) or your Customer Support Manager to request access to this feature_.
+
+*   Open the Accounts tab on your [Dashboard](https://dashboard.onfido.com/), then click Supported Documents
+*   You will be presented with a list of all available countries and their associated supported documents. Make your selection, then click Save Change. 
+
+![Dashboard country and document selection](dashboard-supported-docs.png "")
+
+**Please note the following SDK behaviour**:
+*   Hard coding any document type and issuing country configuration in your SDK integration will fully override the Dashboard-based settings
+*   Currently, only passport, national ID card, driving licence and residence permit are visible for document selection by the end user in the SDK. For the time being, if you nominate other document types in your Dashboard (visa, for example), these will not be displayed in the user interface
+*   If you need to add other document types to the document selection screen, you can mitigate this limitation in the near-term, using the Custom Document feature
+*   If for any reason the configuration fails or is not enabled, the SDK will fallback to display the selection screen for the complete list of documents supported within the selection screens
+
+##### Country and document type customization by SDK integration code
 
 You can configure the document step to capture single document types with specific properties, as well as customize the screen to display only a limited list of document types using the `DocumentCaptureStepBuilder` class's functions for the corresponding document types.
 
@@ -645,32 +667,32 @@ You can customize the appearance of some widgets in your `dimens.xml` file by ov
 
 You can customize the fonts by providing [font XML resources](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) to the theme by setting `OnfidoActivityTheme` to one of the following:
 
-* `onfidoFontFamilyTitleAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Title`
+* `onfidoFontFamilyTitle`: Defines the `fontFamily` attribute that is used for text which has typography type `Title`
 
-* `onfidoFontFamilyBodyAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Body`
+* `onfidoFontFamilyBody`: Defines the `fontFamily` attribute that is used for text which has typography type `Body`
 
-* `onfidoFontFamilySubtitleAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Subtitle`
+* `onfidoFontFamilySubtitle`: Defines the `fontFamily` attribute that is used for text which has typography type `Subtitle`
 
-* `onfidoFontFamilyButtonAttr`: Defines the `fontFamily` attribute that is applied to all primary and secondary buttons
+* `onfidoFontFamilyButton`: Defines the `fontFamily` attribute that is applied to all primary and secondary buttons
 
-* `onfidoFontFamilyToolbarTitleAttr`: Defines the `fontFamily` attribute that is applied to the title and subtitle displayed inside the `Toolbar`
+* `onfidoFontFamilyToolbarTitle`: Defines the `fontFamily` attribute that is applied to the title and subtitle displayed inside the `Toolbar`
 
-* `*onfidoFontFamilyDialogButtonAttr`: Defines the `fontFamily` attribute that is applied to the buttons inside `AlertDialog` and `BottomSheetDialog`
+* `*onfidoFontFamilyDialogButton`: Defines the `fontFamily` attribute that is applied to the buttons inside `AlertDialog` and `BottomSheetDialog`
 
 For example:
 
 In your application's `styles.xml`:
 ```xml
 <style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
-        <item name="onfidoFontFamilyTitleAttr">@font/montserrat_semibold</item>
-        <item name="onfidoFontFamilyBodyAttr">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyTitle">@font/montserrat_semibold</item>
+        <item name="onfidoFontFamilyBody">@font/font_montserrat</item>
 
         <!-- You can also make the dialog buttons follow another fontFamily like a regular button -->
-        <item name="onfidoFontFamilyDialogButtonAttr">?onfidoFontFamilyButtonAttr</item>
+        <item name="onfidoFontFamilyDialogButton">?onfidoFontFamilyButton</item>
 
-        <item name="onfidoFontFamilySubtitleAttr">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyButtonAttr">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyToolbarTitleAttr">@font/font_montserrat_semibold</item>
+        <item name="onfidoFontFamilySubtitle">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyButton">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyToolbarTitle">@font/font_montserrat_semibold</item>
 </style>
 ```
 
@@ -744,7 +766,7 @@ Onfido provides the possibility to integrate with our Smart Capture SDK, without
 This feature must be enabled for your account. Please contact your Onfido Solution Engineer or Customer Success Manager.
 
 #### Implementation
-To use this feature use `.withMediaCallback` and provide the callbacks for `DocumentResult`, `SelfieResult` and `LivenessResult`.
+To use this feature use `.withMediaCallback` and provide the callbacks for `DocumentResult`, `SelfieResult` and `LivenessResult`. ⚠️ From version 18.0.0 onwards, for any usage of the `MediaCallback`, implement `Parcelable` instead of `Serializable`.
 
 ##### Java
 ```java
@@ -764,8 +786,6 @@ private static class CustomMediaCallback implements MediaCallback {
 }
 ```
 
-**⚠️ Note:** Don’t forget to set the inner class to static if outer class is not `Serializable`
-
 ##### Kotlin:
 ```kotlin
 onfidoConfigBuilder
@@ -777,7 +797,6 @@ onfidoConfigBuilder
         }
     }
 ```
-**⚠️ Note:** Don’t forget to use a nested class if the outer class is not `Serializable`
 
 #### User data
 The callbacks return an object including the information that the SDK normally sends directly to Onfido. The callbacks are invoked when the end user confirms submission of their image through the SDK’s user interface.
@@ -819,11 +838,12 @@ For live videos the callback returns a `LivenessResult` object:
 }
 ```
 
-The `MediaFile` object contains the raw data and MIME type of the captured photo or video.
+The `MediaFile` object contains the raw data, and file type and the file name of the captured photo or video.
 ```json5
 {
   fileData: ByteArray,
-  fileType: String
+  fileType: String,
+  fileName: String
 }
 ```
 ##### Create a check with Onfido
@@ -854,7 +874,7 @@ The SDK allows you to track a user's progress through the SDK via an overrideabl
 
 ### Overriding the hook
 
-In order to expose a user's progress through the SDK an hook method must be overridden using `OnfidoConfig.Builder`. You can do this when initializing the Onfido SDK. For example: 
+In order to expose a user's progress through the SDK, a hook method must be overridden using `OnfidoConfig.Builder`. You can do this when initializing the Onfido SDK. For example: 
 
 Java:
 ```java
@@ -914,10 +934,10 @@ Onfido.startActivityForResult(this, ONFIDO_FLOW_REQUEST_CODE, onfidoConfig)
 
 The code inside the overridden method will now be called when a particular event is triggered, usually when the user reaches a new screen. Please use a static or separate class instead of a lambda or an anonymous inner class to avoid leaking the outer class, e.g. Activity or Fragment. Also refrain from using Activity or Fragment context references in your listener to prevent memory leaks and crashes. If you need access to a context object, you can inject your application context in the constructor of your listener as shown in the above example. As a better appraoch, you can wrap your application context in a  single-responsibility class (such as `Storage` or `APIService`) and  inject it in your listener, as shown in the example.
 
-**Note:**
+**Notes:**
 
-`UserEventHandler` is deprecated now, if you are upgrading from a previous Onfido SDK version, please migrate to `OnfidoAnalyticsEventListener` and remove you existing listener (`Onfido.userEventHandler`) otherwise you will get duplicated events (from both the legacy event handler and the new event listener). 
-
+* `UserEventHandler` is deprecated now, if you are upgrading from a previous Onfido SDK version, please migrate to `OnfidoAnalyticsEventListener` and remove you existing listener (`Onfido.userEventHandler`) otherwise you will get duplicated events (from both the legacy event handler and the new event listener). 
+* ⚠️ From version 18.0.0 onwards, for any usage of the `OnfidoEventListener`, implement `Parcelable` instead of `Serializable`.
 
 For a full list of events see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 
