@@ -33,8 +33,8 @@ It offers a number of benefits to help you create the best identity verification
 
 ⚠️ Note: The SDK is only responsible for capturing and uploading photos, videos and motion captures. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
 
-![Various views from the SDK](screenshots.jpg "")
-![Various views from the SDK](gifs.gif "")
+![Various views from the SDK](screenshots.jpg)
+![Various views from the SDK](gifs.gif)
 
 ## Getting started
 
@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.27 Mb  |
-| arm64-v8a   | 9.15 Mb  |
+| armeabi-v7a | 8.86 Mb  |
+| arm64-v8a   | 8.65 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.73 Mb  |
+| universal   | 5.74 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -203,7 +203,7 @@ $ curl https://api.onfido.com/v3/sdk_token \
 
 ##### 4.1 `tokenExpirationHandler`
 
-You can use the optional `tokenExpirationHandler` parameter in the SDK token configurator function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired.
+You can use the optional `tokenExpirationHandler` parameter in the SDK token configurator function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, else flow will finish with `TokenExpiredException` error.
 
 For example:
 
@@ -213,7 +213,7 @@ For example:
 
 class ExpirationHandler : TokenExpirationHandler {
 
-        override fun refreshToken(applicationContext: Context, injectNewToken: (String?) -> Unit) {
+        override fun refreshToken(injectNewToken: (String?) -> Unit) {
             TODO("<Your network request logic to retrieve SDK token goes here>")
             injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the sdk will exit with token expired error
         }
@@ -230,7 +230,7 @@ val config = OnfidoConfig.builder(context)
 class ExpirationHandler implements TokenExpirationHandler {
 
     @Override
-    public void refreshToken(@NotNull Context applicationContext, @NotNull Function1<? super String, Unit> injectNewToken) {
+    public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
         //Your network request logic to retrieve SDK token goes here
         injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the sdk will exit with token expired error
     }
@@ -240,7 +240,6 @@ OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
                 .withSDKToken("<YOUR_SDK_TOKEN>", new ExpirationHandler()); // ExpirationHandler is optional
 ```
 
-**Note:** If you want to use `tokenExpirationHandler` you should pass a concrete class instance, you should not pass an **anonymous** or **activity** class instance. ⚠️ From version 18.0.0 onwards, for any usage of the `TokenExpirationHandler`, implement `Parcelable` instead of `Serializable`.
 
 ### 5. Instantiate the client
 
@@ -251,7 +250,26 @@ final Context context = ...;
 Onfido onfido = OnfidoFactory.create(context).getClient();
 ```
 
-### 6. Start the flow
+### 6. Custom Application Class
+**Note**: You can skip this step if you don't have any custom application class.
+
+⚠️ After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the Onfido SDK started, a new application instance will be created. To prevent reinitializing you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below:
+
+```kotlin
+class YourCustomApplication : MultiDexApplication() {
+	override fun onCreate() {
+	    super.onCreate()
+	    if (isOnfidoProcess()) {
+	        return
+	    }
+	    
+	    // Your custom initialization calls ...
+	 }
+}
+
+```
+
+### 7. Start the flow
 
 ```java
 // start the flow. 1 should be your request code (customize as needed)
@@ -260,6 +278,8 @@ onfido.startActivityForResult(this,         /*must be an Activity or Fragment (s
                               config);
 ```
 
+
+This will prevent initialization-related crashes such as: [`FirebaseApp is not initialized in this process`](https://github.com/firebase/firebase-android-sdk/issues/4693)
 
 ## Handling callbacks
 
@@ -579,9 +599,13 @@ In the Proof of Address step, a user picks the issuing country and type of docum
 
 The final screen displays a completion message to the user and signals the end of the flow. This is an optional screen.
 
-#### Enabling NFC extraction
+#### NFC capture
 
-Some passports and ID cards contain a chip which can be accessed using NFC. The SDK provides a set of screens to extract the information contained in the chip to verify the original document is present.
+Recent passports, national identity cards and residence permits contain a chip that can be accessed using Near Field Communication (NFC).
+The Onfido SDKs provide a set of screens and functionalities to extract this information, verify its authenticity and provide the results as part of a Document report.
+With version [18.1.0] of the Onfido Android SDK, NFC is enabled by default and offered to customer when both the document and the device support NFC.
+
+For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
 ##### Prerequisites
 
@@ -594,20 +618,6 @@ implementation "com.madgag.spongycastle:prov:1.58.0.0"
 ```
 
 ##### SDK integration
-
-##### Kotlin
-```kotlin
-val config = OnfidoConfig.builder(context)
-    .withNFCReadFeature()
-    .build()
-```
-
-##### Java
-```java
-OnfidoConfig config = OnfidoConfig.builder(context)
-    .withNFCReadFeature()
-    .build()
-```
 
 You also need to add the following Proguard rules to your `proguard-rules.pro` file:
 
@@ -627,8 +637,6 @@ You also need to add the following Proguard rules to your `proguard-rules.pro` f
 -dontwarn org.jmrtd.**
 -dontwarn net.sf.scuba.**
 ```
-
-You can find further details in our [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
 ### UI customization
 
@@ -703,41 +711,42 @@ The SDK supports and maintains the following 44 languages:
 - Arabic: ar
 - Armenian: hy
 - Bulgarian: bg
-- Chinese (Simplified): zh_Hans
-- Chinese (Traditional): zh_Hant
+- Chinese (Simplified): zh_rCN
+- Chinese (Traditional): zh_rTW
 - Croatian: hr
 - Czech: cs
 - Danish: da🇰
 - Dutch: nl🇱
-- English (United Kingdom): en_GB
-- English (United States): en_US
+- English (United Kingdom): en_rGB
+- English (United States): en_rUS
 - Estonian: et
 - Finnish: fi
-- French (Canadian): fr_CA
+- French (Canadian): fr_rCA
 - French: fr
 - German: de
 - Greek: el
-- Hebrew: he
+- Hebrew: iw
 - Hindi: hi
 - Hungarian: hu
-- Indonesian: id
+- Indonesian: in
 - Italian: it
 - Japanese: ja
 - Korean: ko
 - Latvian: lv
 - Lithuanian: lt
 - Malay: ms
-- Norwegian: nb
+- Norwegian bokmål: nb
+- Norwegian nynorsk: nn
 - Persian: fa
 - Polish: pl
-- Portuguese (Brazil): pt_BR
+- Portuguese (Brazil): pt_rBR
 - Portuguese: pt
 - Romanian: ro
 - Russian: ru
-- Serbian: sr_Latn
+- Serbian: sr
 - Slovak: sk
 - Slovenian: sl
-- Spanish (Latin America): es_419
+- Spanish (Latin America): es_rUS
 - Spanish: es
 - Swedish: sv
 - Thai: th

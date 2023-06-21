@@ -3,8 +3,8 @@
     <!-- Document Capture -->
     <string name="onfido_app_title_doc_capture_id_it">Italian identity card</string>
     <string name="onfido_app_title_doc_capture_id_za">South African identity card</string>
-    <string name="onfido_app_title_doc_capture_license_de">German driver’s licence</string>
-    <string name="onfido_app_title_doc_capture_license_fr">French driver’s licence</string>
+	<string name="onfido_app_title_doc_capture_license_de">German driving licence</string>
+	<string name="onfido_app_title_doc_capture_license_fr">French driving licence</string>
     <string name="onfido_doc_capture_prompt_button_paper">Paper document</string>
     <string name="onfido_doc_capture_prompt_button_card">Plastic card</string>
     <string name="onfido_doc_capture_prompt_title_license">What type of licence do you have?</string>
@@ -27,7 +27,7 @@
     <!-- Document Types -->
     <string name="onfido_doc_select_button_passport">Passport</string>
     <string name="onfido_doc_select_button_visa">Visa</string>
-    <string name="onfido_doc_select_button_license">Driver’s licence</string>
+	<string name="onfido_doc_select_button_license">Driving licence</string>
 	<string name="onfido_doc_select_button_id">National identity card</string>
     <string name="onfido_doc_select_button_permit">Residence permit</string>
 	<string name="onfido_doc_select_button_permit_work">Work Permit</string>
@@ -524,4 +524,35 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Retry</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio is being played by another app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Please do not play any audio on your device during the recording</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Speed up the process with NFC</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">We’ll scan the NFC chip of your document</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Place your document at the back of your device</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Slowly slide your device up and down</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Once the scan starts, hold it still</string>
+	<string name="onfido_nfc_scan_welcome_card_button_primary">Start scanning</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Get verified without NFC</string>
+	<string name="onfido_nfc_scan_error_inter_title">We couldn\'t scan your document</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">Remove your phone cover</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">Keep your device and document in contact until the scanning is successful</string>
+	<string name="onfido_nfc_scan_error_inter_primary_button">Retry scanning</string>
+	<string name="onfido_nfc_scan_error_inter_secondary_button">Get verified without NFC</string>
+	<string name="onfido_nfc_scan_error_final_title">We couldn\'t verify this document</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">NFC scanning is required for this document, but couldn\'t be completed.</string>
+	<string name="onfido_nfc_scan_error_final_list_item">Do you have a different document to proceed with?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Use different document</string>
+	<string name="onfido_nfc_scan_error_final_secondary_button">Get verified without NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_title">Speed up the process with NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">We’ll scan the NFC chip of your document</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">Lay your document on a flat surface</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Open your document at the inner back page</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Place your document at the back of your device</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Slowly slide your device up and down</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Once the scan starts, hold it still</string>
+	<string name="onfido_nfc_scan_welcome_passport_button_primary">Start scanning</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Get verified without NFC</string>
+	<string name="onfido_nfc_scan_error_inter_passport_title">We couldn\'t scan your document</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">Remove your passport and phone covers</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Keep your device and document in contact until the scanning is successful</string>
+	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Retry scanning</string>
+	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Get verified without NFC</string>
 </resources>

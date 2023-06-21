@@ -1,5 +1,12 @@
 # Onfido Android SDK Migration Guide
 
+## `18.0.0` -> `19.0.0`
+
+#### Breaking changes
+- Remove `Parcelable` implementation from `MediaCallback` and run it in the same process with the application.
+- Remove `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application.
+- Remove `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
+
 ## `17.0.0` -> `18.0.0`
 
 #### Breaking changes

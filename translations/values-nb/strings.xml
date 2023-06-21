@@ -405,7 +405,7 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">Først må du plassere ansiktet foran enheten</string>
 	<string name="onfido_avc_intro_list_item_two">Snu deretter hodet sakte til begge sider</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Deretter må du snu hodet sakte til begge sider</string>
-	<string name="onfido_avc_intro_disclaimer">Vær oppmerksom på at vi registrerer ansiktet og bakgrunnen din</string>
+	<string name="onfido_avc_intro_disclaimer">Ansiktet ditt og bakgrunnen din vil bli tatt opp under denne prosessen</string>
 	<string name="onfido_avc_intro_button_primary_ready">Start opptak</string>
 	<string name="onfido_avc_face_alignment_title">Først, plasser ansiktet ditt i rammen</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Flytt deg nærmere</string>

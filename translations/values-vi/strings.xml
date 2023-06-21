@@ -405,7 +405,7 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">Đầu tiên, bạn sẽ phải định vị khuôn mặt trước thiết bị</string>
 	<string name="onfido_avc_intro_list_item_two">Sau đó, bạn hãy xoay đầu từ từ sang hai bên</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Sau đó, bạn sẽ phải xoay đầu từ từ sang cả hai bên</string>
-	<string name="onfido_avc_intro_disclaimer">Xin lưu ý rằng chúng tôi sẽ ghi lại khuôn mặt và nền ảnh của bạn</string>
+	<string name="onfido_avc_intro_disclaimer">Xin lưu ý rằng chúng tôi sẽ ghi lại khuôn mặt và nền ảnh của bạn trong quá trình này</string>
 	<string name="onfido_avc_intro_button_primary_ready">Bắt đầu quay</string>
 	<string name="onfido_avc_face_alignment_title">Đầu tiên, định vị khuôn mặt của bạn trong khung hình</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Di chuyển gần hơn nữa</string>

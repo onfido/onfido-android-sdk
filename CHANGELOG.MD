@@ -9,6 +9,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.0.0] - 2023-06-21
+
+### Added
+
+- Payload signing for Selfie and Liveness 1.0 (aka Video)
+- Updated Consent screen. Disabled Accept and Reject buttons until the consent is read
+
+### Changed
+
+- Remove `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application.
+- Remove `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
+- Remove `Parcelable` implementation from `MediaCallback` and run it in the same process with the application
+- Deprecated `withNFCReadFeature()` in `OnfidoConfig`
+- Remove Document Liveness deprecated feature
+- Enabled NFC by default in `OnfidoConfig`. Added `withNFCDisabled()` for disabling it
+- Update supported locals in public documentation
+- Update OpenCV library version to 4.7.0
+- Add all translations to github public documentation
+
+### Fixed
+
+- Fixed transparent PDF rendering issue in the PoA screen
+- Fixed recording completion on Android 5 Samsung Galaxy 4 for Motion
+
 ## [18.0.0] - 2023-05-25
 
 ### Added

@@ -312,8 +312,8 @@
     <string name="onfido_welcome_list_header">Utilize o seu dispositivo para:</string>
     <string name="onfido_welcome_list_item_doc_photo">Tire uma fotografia de um documento de identidade</string>
     <string name="onfido_welcome_list_item_doc_video">Grave um vídeo do seu documento de identidade</string>
-    <string name="onfido_welcome_list_item_doc_generic">Digitalize o seu documento de identidade</string>
-    <string name="onfido_welcome_list_item_face_photo">Tire uma foto da sua cara</string>
+	<string name="onfido_welcome_list_item_doc_generic">Digitalizar o seu documento de identidade</string>
+	<string name="onfido_welcome_list_item_face_photo">Tirar uma foto da sua cara</string>
     <string name="onfido_welcome_list_item_face_video">Grave um vídeo da sua cara</string>
 
     <string name="onfido_doc_capture_alert_no_mrz3_title">Três linhas do fundo não visíveis</string>
@@ -405,7 +405,7 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">Primeiro, terá de posicionar o seu rosto em frente ao seu dispositivo</string>
 	<string name="onfido_avc_intro_list_item_two">Depois, vire a cabeça lentamente para ambos os lados</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Depois, terá de virar a cabeça lentamente para ambos os lados</string>
-	<string name="onfido_avc_intro_disclaimer">Tenha em atenção que iremos gravar o seu rosto e o seu fundo</string>
+	<string name="onfido_avc_intro_disclaimer">Tenha em atenção que iremos gravar o seu rosto e o seu fundo durante este processo</string>
 	<string name="onfido_avc_intro_button_primary_ready">Começar a gravar</string>
 	<string name="onfido_avc_face_alignment_title">Posicione o seu rosto na moldura</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Aproxime-se</string>
@@ -420,9 +420,9 @@
 	<string name="onfido_avc_face_capture_alert_too_fast_body">Tente novamente e rode a sua cabeça mais lentamente</string>
 	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Tentar novamente</string>
 	<string name="onfido_avc_no_face_detected_title">Não conseguimos detetar o seu rosto</string>
-	<string name="onfido_avc_no_face_detected_list_item_lighting">Certifique-se de está num local com boa iluminação</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Certifique-se de que está num local com boa iluminação</string>
 	<string name="onfido_avc_no_face_detected_list_item_eyes">Assegure-se de que os seus olhos estão claramente visíveis</string>
-	<string name="onfido_avc_no_face_detected_list_item_mask">Certifique-se de que remove as máscaras ou outros artigos que cobrem o seu rosto. Os óculos não precisa de retirar</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Certifique-se de que remove as máscaras ou outros objetos que cobrem o seu rosto. Os óculos não precisa de retirar</string>
 	<string name="onfido_avc_no_face_detected_list_item_face">Certifique-se de que apenas mostra a sua cara. Não precisamos de ver a sua identificação</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Certifique-se de que apenas mostra a sua cara. Não precisamos de ver o seu documento de identificação</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Reiniciar a gravação</string>
@@ -508,9 +508,9 @@
 	<string name="onfido_doc_select_extra_no_mobile">Desculpe, não entram faturas de telemóvel</string>
 	<string name="onfido_doc_select_button_bill_detail">Gás, eletricidade, água, telefone fixo ou banda larga</string>
 
-	<string name="onfido_doc_select_subtitle_country">Selecione o país emissor para ver quais documentos aceitamos</string>
+	<string name="onfido_doc_select_subtitle_country">Selecione o país emissor para ver quais os documentos que aceitamos</string>
 	<string name="onfido_doc_select_section_header_country">País emissor</string>
-	<string name="onfido_doc_select_section_header_doc_type">Documentos aceitos</string>
+	<string name="onfido_doc_select_section_header_doc_type">Documentos aceites</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Sem resultados</string>
 	<string name="onfido_doc_select_subtitle_entire_page">Página inteira</string>
 	<string name="onfido_doc_select_subtitle_photo_page">Página de fotos</string>
@@ -524,4 +524,35 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Tentar novamente</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">O áudio está a ser reproduzido por outra aplicação</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Não reproduza nenhum áudio no seu dispositivo durante a gravação</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Acelere o processo com NFC</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Vamos ler o chip NFC do seu documento</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Coloque o seu documento na parte de trás do seu dispositivo</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Deslize lentamente o dispositivo para cima e para baixo</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Assim que a verificação começar, mantenha o dispositivo imóvel</string>
+	<string name="onfido_nfc_scan_welcome_card_button_primary">Começar a digitalizar</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Seja verificado sem NFC</string>
+	<string name="onfido_nfc_scan_error_inter_title">Não podíamos digitalizar o seu documento</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">Remova a capa do seu telefone</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">Mantenha o dispositivo e o documento em contacto até que a verificação seja bem sucedida</string>
+	<string name="onfido_nfc_scan_error_inter_primary_button">Tentar digitalizar novamente</string>
+	<string name="onfido_nfc_scan_error_inter_secondary_button">Seja verificado sem NFC</string>
+	<string name="onfido_nfc_scan_error_final_title">Não foi possível verificar este documento</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">A verificação NFC é necessária para este documento, mas não foi bem sucedida.</string>
+	<string name="onfido_nfc_scan_error_final_list_item">Tem outro documento para continuar?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Usar outro documento</string>
+	<string name="onfido_nfc_scan_error_final_secondary_button">Seja verificado sem NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_title">Acelere o processo com NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Vamos ler o chip NFC do seu documento</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">Coloque o seu documento numa superfície plana</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Abra o seu documento na última página interior</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Coloque o seu documento na parte de trás do seu dispositivo</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Deslize lentamente o dispositivo para cima e para baixo</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Assim que a verificação começar, mantenha o dispositivo imóvel</string>
+	<string name="onfido_nfc_scan_welcome_passport_button_primary">Começar a digitalizar</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Seja verificado sem NFC</string>
+	<string name="onfido_nfc_scan_error_inter_passport_title">Não podíamos digitalizar o seu documento</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">Retire as capas do seu passaporte e do seu telefone</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Mantenha o dispositivo e o documento em contacto até que a verificação seja bem sucedida</string>
+	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Tentar digitalizar novamente</string>
+	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Seja verificado sem NFC</string>
 </resources>

@@ -179,7 +179,7 @@
     <string name="onfido_doc_video_capture_header_step1">Patientez</string>
     <string name="onfido_doc_video_capture_detail_step2">Gardez le document visible à tout moment</string>
     <string name="onfido_doc_video_capture_button_primary_fallback">Étape suivante</string>
-    <string name="onfido_doc_video_capture_header_passport">En tenant votre passeport, gardez la page de la photo dans le cadre</string>
+	<string name="onfido_doc_video_capture_header_passport">Pendant que vous tenez votre passeport, gardez la page de la photo dans le cadre</string>
     <string name="onfido_doc_video_capture_header_paper_doc_step2">Tournez lentement votre pièce d’identité pour montrer les pages extérieures</string>
     <string name="onfido_doc_video_capture_prompt_detail_timeout">L’enregistrement vidéo est limité à %1$s secondes</string>
     <string name="onfido_doc_video_capture_success_accessibility">Succès</string>
@@ -309,12 +309,12 @@
     <string name="onfido_video_capture_prompt_detail_restart">Pour effacer cette étape, vous devez garder votre visage à portée de vue tout au long de l’enregistrement.</string>
     <string name="onfido_video_capture_prompt_button_restart">Redémarrer</string>
 
-    <string name="onfido_welcome_list_header">Utilisez votre appareil pour :</string>
-    <string name="onfido_welcome_list_item_doc_photo">Prenez une photo de votre pièce d’identité</string>
+	<string name="onfido_welcome_list_header">Utilisez votre appareil pour:</string>
+	<string name="onfido_welcome_list_item_doc_photo">Prendre une photo de votre pièce d’identité</string>
     <string name="onfido_welcome_list_item_doc_video">Enregistrez une vidéo de votre pièce d’identité</string>
     <string name="onfido_welcome_list_item_doc_generic">Scannez votre pièce d’identité</string>
-    <string name="onfido_welcome_list_item_face_photo">Prenez une photo de votre visage</string>
-    <string name="onfido_welcome_list_item_face_video">Enregistrez une vidéo de votre visage</string>
+	<string name="onfido_welcome_list_item_face_photo">Prendre une photo de votre document</string>
+	<string name="onfido_welcome_list_item_face_video">Enregistrer une vidéo de votre visage</string>
 
     <string name="onfido_doc_capture_alert_no_mrz3_title">Les trois lignes du bas ne sont pas visibles</string>
 
@@ -405,7 +405,7 @@
 	<string name="onfido_avc_intro_list_item_one_accessibility">Tout d\'abord, vous devrez positionner votre visage devant votre mobile</string>
 	<string name="onfido_avc_intro_list_item_two">Ensuite, tournez votre tête lentement des deux côtés</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Ensuite, vous devrez tourner lentement la tête des deux côtés</string>
-	<string name="onfido_avc_intro_disclaimer">Sachez que nous enregistrerons votre visage et l\'arrière-plan</string>
+	<string name="onfido_avc_intro_disclaimer">Sachez que nous enregistrerons votre visage et l’arrière-plan au cours du processus</string>
 	<string name="onfido_avc_intro_button_primary_ready">Démarrer l’enregistrement</string>
 	<string name="onfido_avc_face_alignment_title">Positionnez votre visage dans le cadre</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Approchez-vous</string>
@@ -436,7 +436,7 @@
 	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Redémarrer l’enregistrement</string>
 
     <!-- Motion Accessibility  -->
-	<string name="onfido_avc_intro_title_accessibility">Enregistrez une vidéo de votre visage</string>
+	<string name="onfido_avc_intro_title_accessibility">Enregistrer une vidéo de votre visage</string>
 	<string name="onfido_avc_intro_video_accessibility">Exemple de vidéo d\'une personne tournant la tête des deux côtés jusqu\'à la fin</string>
     <string name="onfido_avc_face_capture_keep_turning_accessibility">Continuez à tourner la tête</string>
 	<string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Tournez votre tête de l\'autre côté</string>
@@ -524,4 +524,35 @@
     <string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Réessayer</string>
     <string name="onfido_avc_face_capture_alert_audio_conflict_title">Du contenu audio est lu par une autre application</string>
     <string name="onfido_avc_face_capture_alert_audio_conflict_body">Veuillez ne pas lire de contenu audio sur votre appareil pendant l\'enregistrement</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Accélérez le processus avec NFC</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Nous allons scanner la puce NFC de votre document</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Placez votre document au dos de votre appareil</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Faites glisser lentement votre appareil de haut en bas</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Gardez votre appareil et votre document immobiles pendant le scan</string>
+	<string name="onfido_nfc_scan_welcome_card_button_primary">Commencer le scan</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Vérifier sans NFC</string>
+	<string name="onfido_nfc_scan_error_inter_title">Nous n\'avons pas pu scanner votre document</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">Retirez la protection de votre téléphone</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">Gardez votre appareil et votre document en contact jusqu\'à la fin du scan</string>
+	<string name="onfido_nfc_scan_error_inter_primary_button">Réessayer le scan</string>
+	<string name="onfido_nfc_scan_error_inter_secondary_button">Vérifier sans NFC</string>
+	<string name="onfido_nfc_scan_error_final_title">Nous n\'avons pas pu vérifier ce document</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">Le scan NFC est requis pour ce document, mais n\'a pas pu être effectué.</string>
+	<string name="onfido_nfc_scan_error_final_list_item">Avez-vous un document différent pour continuer ?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Veuillez utiliser un document différent</string>
+	<string name="onfido_nfc_scan_error_final_secondary_button">Vérifier sans NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_title">Accélérez le processus avec NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Nous allons scanner la puce NFC de votre document</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">Posez votre document sur une surface plate</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Ouvrez votre document à la dernière page</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Placez votre document au dos de votre appareil</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Faites glisser lentement votre appareil de haut en bas</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Gardez votre appareil et votre document immobiles pendant le scan</string>
+	<string name="onfido_nfc_scan_welcome_passport_button_primary">Commencer le scan</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Vérifier sans NFC</string>
+	<string name="onfido_nfc_scan_error_inter_passport_title">Nous n\'avons pas pu scanner votre document</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">Retirez votre passeport et vos protections de téléphone</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Gardez votre appareil et votre document en contact jusqu\'à la fin du scan</string>
+	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Réessayer le scan</string>
+	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Vérifier sans NFC</string>
 </resources>

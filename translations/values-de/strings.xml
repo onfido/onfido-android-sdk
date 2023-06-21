@@ -59,7 +59,7 @@
 	<string name="onfido_generic_error_face_capture">Die Gesichtserfassung hat nicht funktioniert. Bitte versuchen Sie es noch einmal.</string>
 	<string name="onfido_generic_error_doc_capture">Die Dokumentenerfassung hat nicht funktioniert. Bitte versuchen Sie es erneut.</string>
 	<string name="onfido_generic_error_video_capture">Die Videoaufnahme hat nicht funktioniert. Bitte versuchen Sie es erneut.</string>
-    <string name="onfido_doc_confirmation_body_generic">Die Reisepass-Details müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung</string>
+	<string name="onfido_doc_confirmation_body_generic">Die Informationen müssen deutlich lesbar sein, ohne Unschärfe oder Spiegelung</string>
 
     <!-- Glare Detection -->
     <string name="onfido_doc_capture_alert_glare_title">Spiegelung erkannt</string>
@@ -405,7 +405,7 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">Zuerst müssen Sie Ihr Gesicht vor dem Gerät positionieren</string>
 	<string name="onfido_avc_intro_list_item_two">Drehen Sie Ihren Kopf dann langsam nach beiden Seiten</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Dann müssen Sie Ihren Kopf langsam nach beiden Seiten drehen</string>
-	<string name="onfido_avc_intro_disclaimer">Bitte beachten Sie, dass Ihr Gesicht und Ihr Hintergrund aufgenommen wird</string>
+	<string name="onfido_avc_intro_disclaimer">Bitte beachten Sie, dass Ihr Gesicht und der Hintergrund aufgenommen wird</string>
 	<string name="onfido_avc_intro_button_primary_ready">Aufnahme starten</string>
 	<string name="onfido_avc_face_alignment_title">Positionieren Sie Ihr Gesicht im Rahmen</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Rücken Sie näher heran</string>
@@ -524,4 +524,35 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Erneut versuchen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio wird von einer anderen App abgespielt</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Bitte spielen Sie während der Aufnahme kein Audio auf Ihrem Gerät</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Beschleunigen Sie den Prozess mit NFC</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Wir scannen den NFC-Chip Ihres Dokuments</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Legen Sie Ihr Dokument auf die Rückseite Ihres Geräts</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Schieben Sie Ihr Gerät langsam auf und ab</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Sobald der Scan beginnt, halten Sie ihn ruhig</string>
+	<string name="onfido_nfc_scan_welcome_card_button_primary">Scannen starten</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Lassen Sie sich ohne NFC verifizieren</string>
+	<string name="onfido_nfc_scan_error_inter_title">Wir konnten Ihr Dokument nicht scannen</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">Entfernen Sie die Hülle Ihres Telefons</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">Halten Sie den Kontakt zwischen Gerät und Dokument aufrecht, bis der Scanvorgang erfolgreich ist</string>
+	<string name="onfido_nfc_scan_error_inter_primary_button">Scannen wiederholen</string>
+	<string name="onfido_nfc_scan_error_inter_secondary_button">Lassen Sie sich ohne NFC verifizieren</string>
+	<string name="onfido_nfc_scan_error_final_title">Wir konnten dieses Dokument nicht überprüfen</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">Für dieses Dokument ist ein NFC-Scan erforderlich, der jedoch nicht abgeschlossen werden konnte.</string>
+	<string name="onfido_nfc_scan_error_final_list_item">Möchten Sie mit einem anderen Dokument fortfahren?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Anderes Dokument verwenden</string>
+	<string name="onfido_nfc_scan_error_final_secondary_button">Lassen Sie sich ohne NFC verifizieren</string>
+	<string name="onfido_nfc_scan_welcome_passport_title">Beschleunigen Sie den Prozess mit NFC</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Wir scannen den NFC-Chip Ihres Dokuments</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">Legen Sie Ihr Dokument auf eine ebene Fläche</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Öffnen Sie Ihr Dokument auf der inneren Rückseite</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Legen Sie Ihr Dokument auf die Rückseite Ihres Geräts</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Schieben Sie Ihr Gerät langsam auf und ab</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Sobald der Scan beginnt, halten Sie ihn ruhig</string>
+	<string name="onfido_nfc_scan_welcome_passport_button_primary">Scannen starten</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Lassen Sie sich ohne NFC verifizieren</string>
+	<string name="onfido_nfc_scan_error_inter_passport_title">Wir konnten Ihr Dokument nicht scannen</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">Entfernen Sie die Hülle Ihres Reisepasses (falls vorhanden) sowie Ihres Telefons</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Halten Sie den Kontakt zwischen Gerät und Dokument aufrecht, bis der Scanvorgang erfolgreich ist</string>
+	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Scannen wiederholen</string>
+	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Lassen Sie sich ohne NFC verifizieren</string>
 </resources>
