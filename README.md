@@ -255,6 +255,8 @@ Onfido onfido = OnfidoFactory.create(context).getClient();
 
 ⚠️ After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the Onfido SDK started, a new application instance will be created. To prevent reinitializing you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below:
 
+This will prevent initialization-related crashes such as: [`FirebaseApp is not initialized in this process`](https://github.com/firebase/firebase-android-sdk/issues/4693)
+
 ##### Kotlin
 
 ```kotlin
@@ -296,8 +298,6 @@ onfido.startActivityForResult(this,         /*must be an Activity or Fragment (s
                               config);
 ```
 
-
-This will prevent initialization-related crashes such as: [`FirebaseApp is not initialized in this process`](https://github.com/firebase/firebase-android-sdk/issues/4693)
 
 ## Handling callbacks
 
