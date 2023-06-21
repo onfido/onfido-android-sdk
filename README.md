@@ -255,6 +255,8 @@ Onfido onfido = OnfidoFactory.create(context).getClient();
 
 ⚠️ After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the Onfido SDK started, a new application instance will be created. To prevent reinitializing you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below:
 
+##### Kotlin
+
 ```kotlin
 class YourCustomApplication : MultiDexApplication() {
 	override fun onCreate() {
@@ -267,6 +269,22 @@ class YourCustomApplication : MultiDexApplication() {
 	 }
 }
 
+```
+
+##### Java
+
+```java
+public class YourCustomApplication extends MultiDexApplication {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        if (Onfido.Companion.isOnfidoProcess(this)) {
+            return;
+        }
+
+        // Your custom initialization calls ...
+    }
+}
 ```
 
 ### 7. Start the flow
