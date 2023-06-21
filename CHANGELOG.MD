@@ -22,8 +22,8 @@ translations. [More on language localisation](README.md#4-localisation)
 - Remove `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
 - Remove `Parcelable` implementation from `MediaCallback` and run it in the same process with the application
 - Deprecated `withNFCReadFeature()` in `OnfidoConfig`
+- Enabled NFC by default in `OnfidoConfig`. Added `disableNFC()` for disabling it
 - Remove Document Liveness deprecated feature
-- Enabled NFC by default in `OnfidoConfig`. Added `withNFCDisabled()` for disabling it
 - Update supported locals in public documentation
 - Update OpenCV library version to 4.7.0
 - Add all translations to github public documentation
