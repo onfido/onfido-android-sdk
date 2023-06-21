@@ -15,6 +15,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Payload signing for Selfie and Liveness 1.0 (aka Video)
 - Updated Consent screen. Disabled Accept and Reject buttons until the consent is read
+- Added `inOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://github.com/onfido/onfido-android-sdk/blob/master/README.md#6-custom-application-class).
 
 ### Changed
 
