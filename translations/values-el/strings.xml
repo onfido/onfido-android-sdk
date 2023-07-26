@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Χρησιμοποιήστε τη συσκευή σας για να:</string>
     <string name="onfido_welcome_list_item_doc_photo">Τραβήξετε μια φωτογραφία του εγγράφου ταυτότητάς σας</string>
     <string name="onfido_welcome_list_item_doc_video">Εγγράψετε ένα βίντεο του εγγράφου ταυτότητάς σας</string>
-    <string name="onfido_welcome_list_item_doc_generic">Σαρώσετε το έγγραφο ταυτότητάς σας</string>
+	<string name="onfido_welcome_list_item_doc_generic">Καταγράψτε ένα βίντεο του εγγράφου ταυτότητάς σας</string>
     <string name="onfido_welcome_list_item_face_photo">Τραβήξετε μια φωτογραφία του προσώπου σας</string>
     <string name="onfido_welcome_list_item_face_video">Εγγράψτε ένα βίντεο του προσώπου σας</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Βεβαιωθείτε ότι ο αριθμός που παρείχατε αντιστοιχεί στον αριθμό που αναγράφεται στο έγγραφο.</string>
     <string name="onfido_enter_can_button_primary">Συνέχεια</string>
     <string name="onfido_enter_can_disclaimer">Μπορείτε να τον βρείτε στην μπροστινή όψη του εγγράφου σας. Είναι %dψήφιος και ελαφρώς μεγαλύτερος σε μέγεθος.</string>
-    <string name="onfido_enter_can_error_label">Έχετε %d %s ακόμη.</string>
+    <string name="onfido_enter_can_error_label">Έχετε %1$d %2$s ακόμη.</string>
     <string name="onfido_enter_can_substring_attempt_singular">προσπάθεια</string>
     <string name="onfido_enter_can_substring_attempt_plural">προσπάθειες</string>
 

@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Gunakan peranti anda untuk:</string>
     <string name="onfido_welcome_list_item_doc_photo">Ambil gambar dokumen pengenalan anda</string>
     <string name="onfido_welcome_list_item_doc_video">Rakam video dokumen pengenalan anda</string>
-    <string name="onfido_welcome_list_item_doc_generic">Imbas dokumen pengenalan anda</string>
+	<string name="onfido_welcome_list_item_doc_generic">Rakam video dokumen pengenalan anda</string>
     <string name="onfido_welcome_list_item_face_photo">Ambil gambar wajah anda</string>
     <string name="onfido_welcome_list_item_face_video">Rakam video wajah anda</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Sila pastikan nombor yang diberikan sepadan dengan nombor pada dokumen.</string>
     <string name="onfido_enter_can_button_primary">Teruskan</string>
     <string name="onfido_enter_can_disclaimer">Anda boleh menemuinya pada bahagian depan dokumen anda. Ia sepanjang %d-digit dan bersaiz lebih besar sedikit.</string>
-    <string name="onfido_enter_can_error_label">Anda mempunyai %d %s lagi.</string>
+    <string name="onfido_enter_can_error_label">Anda mempunyai %1$d %2$s lagi.</string>
     <string name="onfido_enter_can_substring_attempt_singular">percubaan</string>
     <string name="onfido_enter_can_substring_attempt_plural">percubaan</string>
 

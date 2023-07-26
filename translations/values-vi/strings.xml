@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Sử dụng thiết bị của bạn để:</string>
     <string name="onfido_welcome_list_item_doc_photo">Chụp ảnh giấy tờ tùy thân của bạn</string>
     <string name="onfido_welcome_list_item_doc_video">Quay video giấy tờ tùy thân của bạn</string>
-    <string name="onfido_welcome_list_item_doc_generic">Quét giấy tờ tùy thân của bạn</string>
+	<string name="onfido_welcome_list_item_doc_generic">Ghi lại video của giấy tờ tùy thân của bạn</string>
     <string name="onfido_welcome_list_item_face_photo">Chụp ảnh khuôn mặt của bạn</string>
     <string name="onfido_welcome_list_item_face_video">Quay video khuôn mặt của bạn</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Vui lòng đảm bảo số được cung cấp khớp với số trên giấy tờ.</string>
     <string name="onfido_enter_can_button_primary">Tiếp tục</string>
     <string name="onfido_enter_can_disclaimer">Bạn có thể tìm thấy nó ở mặt trước giấy tờ. Nó dài %d chữ số và có kích thước lớn hơn một chút.</string>
-    <string name="onfido_enter_can_error_label">Bạn còn lại %d %s.</string>
+    <string name="onfido_enter_can_error_label">Bạn còn lại %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">lần thực hiện</string>
     <string name="onfido_enter_can_substring_attempt_plural">lần thực hiện</string>
 

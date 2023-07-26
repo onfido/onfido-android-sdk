@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Utilizați dispozitivul dvs. pentru:</string>
     <string name="onfido_welcome_list_item_doc_photo">Faceți o poză cu documentul dvs. de identitate</string>
     <string name="onfido_welcome_list_item_doc_video">Înregistrați un clip video cu documentul dvs. de identitate</string>
-	<string name="onfido_welcome_list_item_doc_generic">A scana documentul dvs. de identitate</string>
+	<string name="onfido_welcome_list_item_doc_generic">Înregistrați un videoclip cu documentul dvs. de identitate</string>
 	<string name="onfido_welcome_list_item_face_photo">A face o poză a feței dvs.</string>
     <string name="onfido_welcome_list_item_face_video">Înregistrați un clip video cu fața dvs.</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Vă rugăm să vă asigurați că numărul furnizat corespunde cu cel de pe document.</string>
     <string name="onfido_enter_can_button_primary">Continuați</string>
     <string name="onfido_enter_can_disclaimer">Numărul de %d cifre se află în partea din față a documentului.</string>
-	<string name="onfido_enter_can_error_label">Mai aveți %d %s.</string>
+	<string name="onfido_enter_can_error_label">Mai aveți %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">încercare</string>
     <string name="onfido_enter_can_substring_attempt_plural">încercări</string>
 

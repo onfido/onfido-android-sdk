@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Használja eszközét a következőkhöz:</string>
     <string name="onfido_welcome_list_item_doc_photo">Készítsen fényképet személyazonosító okmányáról</string>
     <string name="onfido_welcome_list_item_doc_video">Készítsen videót személyazonosító okmányáról</string>
-    <string name="onfido_welcome_list_item_doc_generic">Szkennelje be személyazonosító okmányát</string>
+	<string name="onfido_welcome_list_item_doc_generic">Készítsen videót személyazonosító okmányáról</string>
     <string name="onfido_welcome_list_item_face_photo">Fényképezze le az arcát</string>
     <string name="onfido_welcome_list_item_face_video">Készítsen videófelvételt az arcáról</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Ellenőrizze, hogy a megadott szám egyezik-e a dokumentumon szereplő számmal.</string>
     <string name="onfido_enter_can_button_primary">Tovább</string>
     <string name="onfido_enter_can_disclaimer">A dokumentum előlapján található. %d számjegy hosszú és valamivel nagyobb méretű.</string>
-    <string name="onfido_enter_can_error_label">Összesen %d %s maradt.</string>
+    <string name="onfido_enter_can_error_label">Összesen %1$d %2$s maradt.</string>
     <string name="onfido_enter_can_substring_attempt_singular">próbálkozás</string>
     <string name="onfido_enter_can_substring_attempt_plural">próbálkozások</string>
 

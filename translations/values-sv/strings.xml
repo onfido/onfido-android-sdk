@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Använd din enhet för att:</string>
     <string name="onfido_welcome_list_item_doc_photo">Ta ett foto av ditt identitetsdokument</string>
     <string name="onfido_welcome_list_item_doc_video">Spela in en video av ditt identitetsdokument</string>
-    <string name="onfido_welcome_list_item_doc_generic">Skanna ditt identitetsdokument</string>
+	<string name="onfido_welcome_list_item_doc_generic">Spela in en video av ditt identitetsdokument</string>
     <string name="onfido_welcome_list_item_face_photo">Ta ett foto av ditt ansikte</string>
     <string name="onfido_welcome_list_item_face_video">Spela in en video av ditt ansikte</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Se till att det angivna numret matchar numret i dokumentet.</string>
     <string name="onfido_enter_can_button_primary">Fortsätt</string>
     <string name="onfido_enter_can_disclaimer">Du hittar det på dokumentets framsida. Det är %d-siffrigt och något större i storlek.</string>
-    <string name="onfido_enter_can_error_label">Du har %d %s kvar.</string>
+    <string name="onfido_enter_can_error_label">Du har %1$d %2$s kvar.</string>
     <string name="onfido_enter_can_substring_attempt_singular">försök</string>
     <string name="onfido_enter_can_substring_attempt_plural">försök</string>
 

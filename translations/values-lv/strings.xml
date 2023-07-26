@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Izmantojiet ierīci, lai:</string>
     <string name="onfido_welcome_list_item_doc_photo">Nofotografētu savu personu apliecinošo dokumentu.</string>
     <string name="onfido_welcome_list_item_doc_video">Ierakstītu sava personu apliecinošā dokumenta videoklipu.</string>
-    <string name="onfido_welcome_list_item_doc_generic">Noskenētu savu personu apliecinošo dokumentu.</string>
+	<string name="onfido_welcome_list_item_doc_generic">Ierakstiet video, kurā redzams jūsu identitātes dokuments</string>
     <string name="onfido_welcome_list_item_face_photo">Nofotografētu savu seju.</string>
     <string name="onfido_welcome_list_item_face_video">Ierakstītu savas sejas videoklipu.</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Pārliecinieties, vai norādītais numurs atbilst dokumentā redzamajam numuram.</string>
     <string name="onfido_enter_can_button_primary">Turpināt</string>
     <string name="onfido_enter_can_disclaimer">Tas ir dokumenta priekšpusē. Tajā ir šāds ciparu skaits: %d, un tas ir nedaudz lielāks.</string>
-    <string name="onfido_enter_can_error_label">Jums ir atlicis %d %s.</string>
+    <string name="onfido_enter_can_error_label">Jums ir atlicis %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">mēģinājums</string>
     <string name="onfido_enter_can_substring_attempt_plural">mēģinājumu</string>
 

@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Utilice su dispositivo para:</string>
     <string name="onfido_welcome_list_item_doc_photo">Tome una foto de su documento de identidad</string>
     <string name="onfido_welcome_list_item_doc_video">Grabe un vídeo de su documento de identidad</string>
-    <string name="onfido_welcome_list_item_doc_generic">Escanee su documento de identidad</string>
+	<string name="onfido_welcome_list_item_doc_generic">Grabe un video de su documento de identidad</string>
     <string name="onfido_welcome_list_item_face_photo">Tome una foto de su cara</string>
     <string name="onfido_welcome_list_item_face_video">Grabe un vídeo de su cara</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Asegúrese de que el número facilitado coincide con el del documento.</string>
     <string name="onfido_enter_can_button_primary">Continuar</string>
     <string name="onfido_enter_can_disclaimer">El número de dígitos %d se encuentra en la parte delantera del documento.</string>
-	<string name="onfido_enter_can_error_label">Te quedan %d %s.</string>
+	<string name="onfido_enter_can_error_label">Te quedan %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">intente</string>
     <string name="onfido_enter_can_substring_attempt_plural">intentos</string>
 

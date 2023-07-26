@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Brug din enhed til at:</string>
     <string name="onfido_welcome_list_item_doc_photo">Tag et billede af dit ID-dokument</string>
     <string name="onfido_welcome_list_item_doc_video">Optag en video af dit ID-dokument</string>
-    <string name="onfido_welcome_list_item_doc_generic">Scan dit ID-dokument</string>
+	<string name="onfido_welcome_list_item_doc_generic">Optag en video af dit identitetsdokument</string>
     <string name="onfido_welcome_list_item_face_photo">Tag et billede af dit ansigt</string>
     <string name="onfido_welcome_list_item_face_video">Optag en video af dit ansigt</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Sørg for, at det angivne nummer stemmer overens med nummeret på dokumentet.</string>
     <string name="onfido_enter_can_button_primary">Fortsæt</string>
     <string name="onfido_enter_can_disclaimer">Du kan finde det på dit dokuments forside. Nummeret er på %d cifre og lidt større i størrelse.</string>
-    <string name="onfido_enter_can_error_label">Du har %d %s tilbage.</string>
+    <string name="onfido_enter_can_error_label">Du har %1$d %2$s tilbage.</string>
     <string name="onfido_enter_can_substring_attempt_singular">forsøg</string>
     <string name="onfido_enter_can_substring_attempt_plural">forsøg</string>
 

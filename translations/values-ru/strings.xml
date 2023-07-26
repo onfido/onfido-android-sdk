@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Используйте свое устройство, чтобы:</string>
     <string name="onfido_welcome_list_item_doc_photo">Сфотографировать удостоверение личности</string>
     <string name="onfido_welcome_list_item_doc_video">Записать видео с удостоверением личности</string>
-    <string name="onfido_welcome_list_item_doc_generic">Отсканировать документ, удостоверяющий личность</string>
+	<string name="onfido_welcome_list_item_doc_generic">Сделайте видеозапись вашего документа, подтверждающего личность</string>
     <string name="onfido_welcome_list_item_face_photo">Сфотографировать лицо</string>
     <string name="onfido_welcome_list_item_face_video">Записать видео лица</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Убедитесь, что указанный номер совпадает с номером в документе.</string>
     <string name="onfido_enter_can_button_primary">Продолжить</string>
     <string name="onfido_enter_can_disclaimer">Он указан на лицевой стороне документа. Это %d-значный номер и он немного длиннее.</string>
-	<string name="onfido_enter_can_error_label">У Вас осталось %d%s</string>
+	<string name="onfido_enter_can_error_label">У Вас осталось %1$d%2$s</string>
     <string name="onfido_enter_can_substring_attempt_singular">попытка</string>
     <string name="onfido_enter_can_substring_attempt_plural">попытки/попыток</string>
 

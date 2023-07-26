@@ -312,7 +312,7 @@
 	<string name="onfido_welcome_list_header">Utilisez votre appareil pour:</string>
 	<string name="onfido_welcome_list_item_doc_photo">Prendre une photo de votre pièce d\'identité</string>
 	<string name="onfido_welcome_list_item_doc_video">Enregistrer une vidéo de votre pièce d\'identité</string>
-    <string name="onfido_welcome_list_item_doc_generic">Numériser votre pièce d’identité</string>
+	<string name="onfido_welcome_list_item_doc_generic">Enregistrez une vidéo de votre document d\'identité</string>
     <string name="onfido_welcome_list_item_face_photo">Prendre une photo de votre visage</string>
     <string name="onfido_welcome_list_item_face_video">Enregistrer une vidéo de votre visage</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Veuillez vous assurer que le numéro fourni correspond au numéro sur le document.</string>
     <string name="onfido_enter_can_button_primary">Continuer</string>
 	<string name="onfido_enter_can_disclaimer">Vous pouvez le trouver au recto de votre document. Il compte %d chiffres et sa taille est légèrement plus importante.</string>
-    <string name="onfido_enter_can_error_label">Il vous reste %d %s.</string>
+    <string name="onfido_enter_can_error_label">Il vous reste %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">tentative</string>
     <string name="onfido_enter_can_substring_attempt_plural">tentatives</string>
 

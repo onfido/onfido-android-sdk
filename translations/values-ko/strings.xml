@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">기기로 진행할 작업:</string>
     <string name="onfido_welcome_list_item_doc_photo">신분증 서류 사진을 촬영합니다</string>
     <string name="onfido_welcome_list_item_doc_video">신분증 서류 동영상을 녹화합니다</string>
-    <string name="onfido_welcome_list_item_doc_generic">신분증 서류를 스캔합니다</string>
+	<string name="onfido_welcome_list_item_doc_generic">당신의 신분증 문서를 비디오로 기록하세요</string>
     <string name="onfido_welcome_list_item_face_photo">얼굴 사진을 촬영합니다</string>
     <string name="onfido_welcome_list_item_face_video">얼굴 동영상을 녹화합니다</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">입력하신 번호가 서류에 기재된 번호와 일치하는지 확인하세요.</string>
     <string name="onfido_enter_can_button_primary">계속</string>
     <string name="onfido_enter_can_disclaimer">서류 앞면 해당 번호를 확인하실 수 있습니다. %d자리 숫자로 폰트 크기가 약간 큽니다.</string>
-    <string name="onfido_enter_can_error_label">%d%s이(가) 남았습니다.</string>
+    <string name="onfido_enter_can_error_label">%1$d%2$s이(가) 남았습니다.</string>
     <string name="onfido_enter_can_substring_attempt_singular">회 시도</string>
     <string name="onfido_enter_can_substring_attempt_plural">회 시도</string>
 

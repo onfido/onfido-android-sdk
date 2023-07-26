@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Käytä laitettasi:</string>
     <string name="onfido_welcome_list_item_doc_photo">ottaaksesi kuvan henkilötodistuksestasi</string>
     <string name="onfido_welcome_list_item_doc_video">tallentaaksesi videon henkilötodistuksestasi</string>
-    <string name="onfido_welcome_list_item_doc_generic">skannataksesi henkilötodistuksesi</string>
+	<string name="onfido_welcome_list_item_doc_generic">Tee video henkilöllisyysasiakirjastasi</string>
     <string name="onfido_welcome_list_item_face_photo">ottaaksesi kuvan kasvoistasi</string>
     <string name="onfido_welcome_list_item_face_video">tallentaaksesi videon kasvoistasi</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Varmista, että annettu numero vastaa asiakirjassa olevaa numeroa.</string>
     <string name="onfido_enter_can_button_primary">Jatka</string>
     <string name="onfido_enter_can_disclaimer">Löydät sen asiakirjan etuosasta. Se on %d numeroa pitkä ja hieman suurempi.</string>
-    <string name="onfido_enter_can_error_label">Sinulla on %d %s jäljellä.</string>
+    <string name="onfido_enter_can_error_label">Sinulla on %1$d %2$s jäljellä.</string>
     <string name="onfido_enter_can_substring_attempt_singular">yritys</string>
     <string name="onfido_enter_can_substring_attempt_plural">yritystä</string>
 

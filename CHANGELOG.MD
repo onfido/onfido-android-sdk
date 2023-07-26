@@ -9,13 +9,36 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.1.0] - 2023-07-26
+
+### Added
+
+- Introduced dark theme
+- Added theme selection to Onfido SDK's public APIs
+
+### Changed
+
+- Added NFC dependencies to the SDK by default
+- Please check documentation if you don't need NFC and want to exclude corresponding dependencies
+- Removed `Multiple substitutions specified in non-positional format of string resource` warnings
+
+### Fixed
+
+- Fixed last two countries in the countries list are not visible
+- Fixed the BadTokenException crashes that occurred when users moved the app to the background while capturing
+- Fixed the crash occurs when decoding bitmap
+- Fixed the Fatal 6 signal error after the document capture
+- Fixed `IllegalArgumentException` crash occurring during image cropping operations
+- Fixed 'CameraDevice was already closed' crashes, occurring when leaving the camera screen right after opening it
+- Fixed infinite loop issue on document capture with Redmi phones
+
 ## [19.0.0] - 2023-06-21
 
 ### Added
 
 - Payload signing for Selfie and Liveness 1.0 (aka Video)
 - Updated Consent screen. Disabled Accept and Reject buttons until the consent is read
-- Added `inOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://github.com/onfido/onfido-android-sdk/blob/master/README.md#6-custom-application-class).
+- Added `inOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://github.com/onfido/onfido-android-sdk/blob/master/README.md#6-custom-application-class)
 
 ### Changed
 

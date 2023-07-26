@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">अपने डिवाइस का इस्तेमाल करके:</string>
     <string name="onfido_welcome_list_item_doc_photo">अपनी पहचान से जुड़े डॉक्यूमेंट की फ़ोटो खींचें</string>
     <string name="onfido_welcome_list_item_doc_video">अपनी पहचान से जुड़े डॉक्यूमेंट का वीडियो रिकॉर्ड करें</string>
-    <string name="onfido_welcome_list_item_doc_generic">अपनी पहचान से जुड़े डॉक्यूमेंट को स्कैन करें</string>
+	<string name="onfido_welcome_list_item_doc_generic">अपने पहचान पत्र का वीडियो रिकॉर्ड करें</string>
     <string name="onfido_welcome_list_item_face_photo">अपने चेहरे की फ़ोटो खींचें</string>
     <string name="onfido_welcome_list_item_face_video">अपने चेहरे का वीडियो रिकॉर्ड करें</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">कृपया पक्का करें कि आपकी डाली गई संख्या डॉक्यूमेंट में दर्ज संख्या से मेल खाती है।</string>
     <string name="onfido_enter_can_button_primary">जारी रखें</string>
     <string name="onfido_enter_can_disclaimer">आप इसे अपने डॉक्यूमेंट के सामने वाले हिस्से पर देख सकते हैं। इसमें %d-डिजिट होते हैं और इनका आकार थोड़ा बड़ा होता है।</string>
-    <string name="onfido_enter_can_error_label">आपके पास %d %s बचे हैं।</string>
+    <string name="onfido_enter_can_error_label">आपके पास %1$d %2$s बचे हैं।</string>
     <string name="onfido_enter_can_substring_attempt_singular">प्रयास</string>
     <string name="onfido_enter_can_substring_attempt_plural">प्रयास</string>
 

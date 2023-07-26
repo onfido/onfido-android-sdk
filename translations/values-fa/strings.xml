@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">از دستگاه خود برای موارد زیر استفاده کنید:</string>
     <string name="onfido_welcome_list_item_doc_photo">از مدرک هویتی خود عکس بگیرید</string>
     <string name="onfido_welcome_list_item_doc_video">از مدارک هویتی خود فیلم بگیرید</string>
-    <string name="onfido_welcome_list_item_doc_generic">مدارک هویتی خود را اسکن کنید</string>
+	<string name="onfido_welcome_list_item_doc_generic">یک ویدیو از سند هویتی خود ضبط کنید</string>
     <string name="onfido_welcome_list_item_face_photo">از چهره خود عکس بگیرید</string>
     <string name="onfido_welcome_list_item_face_video">از چهره خود فیلم بگیرید</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">لطفاً مطمئن شوید که شماره ارائه شده با شماره مندرج در مدرک مطابقت دارد.</string>
     <string name="onfido_enter_can_button_primary">ادامه</string>
     <string name="onfido_enter_can_disclaimer">می‌توانید این شماره را بر روی مدرک خود پیدا کنید. این شماره، %d رقمی است و اندازه آن کمی بزرگتر است.</string>
-    <string name="onfido_enter_can_error_label">شما %d %s باقی‌مانده دارید.</string>
+	<string name="onfido_enter_can_error_label">شمشما %1$d %2$s باقی‌مانده دارید.</string>
     <string name="onfido_enter_can_substring_attempt_singular">فرصت</string>
     <string name="onfido_enter_can_substring_attempt_plural">فرصت</string>
 

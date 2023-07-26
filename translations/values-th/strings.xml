@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">ใช้อุปกรณ์ของคุณ:</string>
     <string name="onfido_welcome_list_item_doc_photo">ถ่ายรูปเอกสารยืนยันตัวตนของคุณ</string>
     <string name="onfido_welcome_list_item_doc_video">บันทึกวิดีโอเอกสารยืนยันตัวตนของคุณ</string>
-    <string name="onfido_welcome_list_item_doc_generic">สแกนเอกสารยืนยันตัวตนของคุณ</string>
+	<string name="onfido_welcome_list_item_doc_generic">ทำการบันทึกวิดีโอเอกสารที่ใช้ในการยืนยันตัวตนของคุณ</string>
     <string name="onfido_welcome_list_item_face_photo">ถ่ายรูปใบหน้าของคุณ</string>
     <string name="onfido_welcome_list_item_face_video">บันทึกวิดีโอใบหน้าของคุณ</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">โปรดเช็คให้แน่ใจว่าหมายเลขที่กรอกตรงกับหมายเลขบนเอกสาร</string>
     <string name="onfido_enter_can_button_primary">ดำเนินการต่อ</string>
     <string name="onfido_enter_can_disclaimer">ดูได้ที่ด้านหน้าเอกสารของคุณ โดยจะเป็นหมายเลข %d หลักที่มีขนาดใหญ่กว่าเล็กน้อย</string>
-    <string name="onfido_enter_can_error_label">คุณลองได้อีก %d %s</string>
+    <string name="onfido_enter_can_error_label">คุณลองได้อีก %1$d %2$s</string>
     <string name="onfido_enter_can_substring_attempt_singular">ครั้ง</string>
     <string name="onfido_enter_can_substring_attempt_plural">ครั้ง</string>
 

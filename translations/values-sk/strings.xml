@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Pomocou zariadenia vykonajte tieto kroky:</string>
     <string name="onfido_welcome_list_item_doc_photo">Odfoťte doklad totožnosti</string>
     <string name="onfido_welcome_list_item_doc_video">Zaznamenajte video dokladu totožnosti</string>
-    <string name="onfido_welcome_list_item_doc_generic">Naskenujte doklad totožnosti</string>
+	<string name="onfido_welcome_list_item_doc_generic">Vytvorte videozáznam vášho dokladu totožnosti</string>
     <string name="onfido_welcome_list_item_face_photo">Odfoťte svoju tvár</string>
     <string name="onfido_welcome_list_item_face_video">Zaznamenajte video svojej tváre</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Uistite sa, že zadané číslo sa zhoduje s číslom uvedeným v doklade.</string>
     <string name="onfido_enter_can_button_primary">Pokračovať</string>
     <string name="onfido_enter_can_disclaimer">Nájdete ho na prednej strane dokladu. Počet číslic je %d a je o niečo väčšie.</string>
-    <string name="onfido_enter_can_error_label">Počet zostávajúcich pokusov: %d %s.</string>
+    <string name="onfido_enter_can_error_label">Počet zostávajúcich pokusov: %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">pokus</string>
     <string name="onfido_enter_can_substring_attempt_plural">pokusov</string>
 

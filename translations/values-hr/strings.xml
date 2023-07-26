@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Upotrijebite uređaj i učinite sljedeće:</string>
     <string name="onfido_welcome_list_item_doc_photo">Fotografirajte svoj identifikacijski dokument</string>
     <string name="onfido_welcome_list_item_doc_video">Snimite videozapis svog identifikacijskog dokumenta</string>
-    <string name="onfido_welcome_list_item_doc_generic">Skenirajte svoj identifikacijski dokument</string>
+	<string name="onfido_welcome_list_item_doc_generic">Snimite video svog identifikacijskog dokumenta</string>
     <string name="onfido_welcome_list_item_face_photo">Fotografirajte svoje lice</string>
     <string name="onfido_welcome_list_item_face_video">Snimite videozapis svog lica</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Provjeri podudara li se navedeni broj s brojem iz dokumenta.</string>
     <string name="onfido_enter_can_button_primary">Nastavak</string>
     <string name="onfido_enter_can_disclaimer">Možete ga pronaći na prednjoj strani dokumenta. Sadrži više znamenki (%d) i malo je većih dimenzija.</string>
-    <string name="onfido_enter_can_error_label">Preostaje vam još nekoliko pokušaja (%d %s).</string>
+    <string name="onfido_enter_can_error_label">Preostaje vam još nekoliko pokušaja (%1$d %2$s).</string>
     <string name="onfido_enter_can_substring_attempt_singular">pokušaj</string>
     <string name="onfido_enter_can_substring_attempt_plural">pokušaja</string>
 

@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 8.86 Mb  |
-| arm64-v8a   | 8.65 Mb  |
+| armeabi-v7a | 11.51 Mb  |
+| arm64-v8a   | 11.30 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 5.74 Mb  |
+| universal   | 8.40 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -297,7 +297,6 @@ onfido.startActivityForResult(this,         /*must be an Activity or Fragment (s
                               1,            /*this request code will be important for you on onActivityResult() to identify the onfido callback*/
                               config);
 ```
-
 
 ## Handling callbacks
 
@@ -625,35 +624,30 @@ With version [18.1.0] of the Onfido Android SDK, NFC is enabled by default and o
 
 For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
-##### Prerequisites
+##### Disabling NFC and excluding dependencies
 
-NFC dependencies are not included in the SDK to avoid increasing the SDK size when the NFC feature is disabled. To use the NFC feature, you need to include the following dependencies (with the specified versions) in your build script:
+As NFC is enabled by default and library dependencies are included in the build automatically, the following section details the steps required to disable NFC and remove any libraries from the build process:
 
+Call `disableNFC()` while configuring `OnfidoConfig`:
+
+```kotlin
+val config = OnfidoConfig.builder(this@MainActivity)
+    .withSDKToken(“<YOUR_SDK_TOKEN_HERE>”)
+    .disableNFC() //Disable NFC feature
+    .withCustomFlow(flowSteps)
+    .build()
 ```
-implementation "net.sf.scuba:scuba-sc-android:0.0.23"
-implementation "org.jmrtd:jmrtd:0.7.34"
-implementation "com.madgag.spongycastle:prov:1.58.0.0"
-```
 
-##### SDK integration
+Exclude dependencies required for NFC from your build:
 
-You also need to add the following Proguard rules to your `proguard-rules.pro` file:
-
-```
--keep class org.jmrtd.** { *; }
--keep class net.sf.scuba.** {*;}
--keep class org.bouncycastle.** {*;}
--keep class org.spongycastle.** {*;}
--keep class org.ejbca.** {*;}
-
--dontwarn kotlin.time.jdk8.DurationConversionsJDK8Kt
--dontwarn org.ejbca.**
--dontwarn org.bouncycastle.**
--dontwarn org.spongycastle.**
-
--dontwarn module-info
--dontwarn org.jmrtd.**
--dontwarn net.sf.scuba.**
+```gradle
+dependencies {
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:x.y.z' {
+    exclude group: 'net.sf.scuba', module: 'scuba-sc-android'
+    exclude group: 'org.jmrtd', module: 'jmrtd'
+    exclude group: 'com.madgag.spongycastle', module: 'prov'
+  }
+}
 ```
 
 ### UI customization
@@ -674,8 +668,7 @@ You can define custom colors inside your own `colors.xml` file:
 
 * `onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the alert dialogs shown during the flow
 
-* `onfidoPrimaryButtonColor`: Defines the background color of the primary action buttons (e.g. proceed to the next flow step, confirm picture/video, etc),
-the color of the text on the secondary action buttons (e.g. retake picture/video) and the background color of some icons and markers during the flow
+* `onfidoPrimaryButtonColor`: Defines the background color of the primary action buttons (e.g. proceed to the next flow step, confirm picture/video, etc) and the color of the text on the secondary action buttons (e.g. retake picture/video)
 
 * `onfidoPrimaryButtonColorPressed`: Defines the background color of the primary action buttons when pressed
 

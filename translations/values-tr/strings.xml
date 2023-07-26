@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Cihazınızı şu amaçlarla kullanın:</string>
     <string name="onfido_welcome_list_item_doc_photo">Kimlik belgenizin fotoğrafını çekin</string>
     <string name="onfido_welcome_list_item_doc_video">Kimlik belgenizin bir videosunu kaydedin</string>
-    <string name="onfido_welcome_list_item_doc_generic">Kimlik belgenizi tarayın</string>
+	<string name="onfido_welcome_list_item_doc_generic">Kimlik belgenizin bir video kaydını yapın</string>
     <string name="onfido_welcome_list_item_face_photo">Yüzünüzün fotoğrafını çekin</string>
     <string name="onfido_welcome_list_item_face_video">Yüzünüzün bir videosunu kaydedin</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Lütfen verilen numaranın belgedeki numarayla eşleştiğinden emin olun.</string>
     <string name="onfido_enter_can_button_primary">Devam et</string>
     <string name="onfido_enter_can_disclaimer">Belgenizin ön yüzünde bulabilirsiniz. %d hanelidir ve biraz daha büyük boyuttadır.</string>
-    <string name="onfido_enter_can_error_label">%d %s kaldı.</string>
+    <string name="onfido_enter_can_error_label">%1$d %2$s kaldı.</string>
     <string name="onfido_enter_can_substring_attempt_singular">deneme</string>
     <string name="onfido_enter_can_substring_attempt_plural">deneme</string>
 

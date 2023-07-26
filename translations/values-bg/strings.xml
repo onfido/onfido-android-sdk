@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Използвайте устройството си, за да:</string>
     <string name="onfido_welcome_list_item_doc_photo">Направите снимка на документа си за самоличност</string>
     <string name="onfido_welcome_list_item_doc_video">Запишете видео с документа си за самоличност</string>
-    <string name="onfido_welcome_list_item_doc_generic">Сканирате документа си за самоличност</string>
+	<string name="onfido_welcome_list_item_doc_generic">Запишете видео на вашия документ за самоличност</string>
     <string name="onfido_welcome_list_item_face_photo">Направите снимка на лицето си</string>
     <string name="onfido_welcome_list_item_face_video">Запишете видео на лицето си</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Уверете се, че предоставеният номер съответства на номера в документа.</string>
     <string name="onfido_enter_can_button_primary">Продължаване</string>
     <string name="onfido_enter_can_disclaimer">Можете да го намерите на лицевата страна на вашия документ. Той е %d-цифреният номер и е в малко по-голям формат.</string>
-    <string name="onfido_enter_can_error_label">Остава ви %d %s.</string>
+    <string name="onfido_enter_can_error_label">Остава ви %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">опит</string>
     <string name="onfido_enter_can_substring_attempt_plural">опити</string>
 

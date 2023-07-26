@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Seadme abil saate teha järgmist.</string>
     <string name="onfido_welcome_list_item_doc_photo">Isikut tõendava dokumendi pildistamine</string>
     <string name="onfido_welcome_list_item_doc_video">Isikut tõendavast dokumendist video salvestamine</string>
-    <string name="onfido_welcome_list_item_doc_generic">Isikut tõendava dokumendi skannimine</string>
+	<string name="onfido_welcome_list_item_doc_generic">Salvesta video oma isikut tõendavast dokumendist</string>
     <string name="onfido_welcome_list_item_face_photo">Näo pildistamine</string>
     <string name="onfido_welcome_list_item_face_video">Näost video salvestamine</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Veenduge, et esitatud number vastab dokumendil olevale numbrile.</string>
     <string name="onfido_enter_can_button_primary">Jätkake</string>
     <string name="onfido_enter_can_disclaimer">Leiate selle oma dokumendi esiküljelt. See on %d-kohaline number, mis on esitatud veidi suuremas kirjas.</string>
-	<string name="onfido_enter_can_error_label">Jäänud on %d %s.</string>
+	<string name="onfido_enter_can_error_label">Jäänud on %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">katse</string>
     <string name="onfido_enter_can_substring_attempt_plural">katset</string>
 

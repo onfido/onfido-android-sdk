@@ -166,12 +166,12 @@
     <string name="onfido_doc_capture_alert_no_mrz_detail">Stellen Sie sicher, dass das vollständige Dokument zu sehen ist</string>
 
     <!-- User Consent Screen -->
-    <string name="onfido_user_consent_button_primary">Accept</string>
-    <string name="onfido_user_consent_button_secondary">Do not accept</string>
-    <string name="onfido_user_consent_prompt_no_consent_title">Are you sure?</string>
-    <string name="onfido_user_consent_prompt_no_consent_detail">If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.</string>
-    <string name="onfido_user_consent_prompt_button_primary">Yes, don’t verify me</string>
-    <string name="onfido_user_consent_prompt_button_secondary">Review again</string>
+	<string name="onfido_user_consent_button_primary">Akzeptieren</string>
+	<string name="onfido_user_consent_button_secondary">Nicht akzeptieren</string>
+	<string name="onfido_user_consent_prompt_no_consent_title">Bist du sicher?</string>
+	<string name="onfido_user_consent_prompt_no_consent_detail">Wenn Sie die Datenschutzerklärungen und Nutzungsbedingungen von Onfido nicht akzeptieren, können wir Ihre Identität nicht überprüfen und Sie werden diesen Schritt beenden.</string>
+	<string name="onfido_user_consent_prompt_button_primary">Ja, verifizieren Sie mich nicht</string>
+	<string name="onfido_user_consent_prompt_button_secondary">Nochmal überprüfen</string>
 
     <!-- Doc Liveness -->
     <string name="onfido_welcome_list_item_doc_video_flash">Während der Videoaufnahme schalten wird den Blitz Ihres Geräts ein</string>
@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Benutzen Sie Ihr Gerät:</string>
     <string name="onfido_welcome_list_item_doc_photo">Machen Sie ein Foto von Ihrem Ausweisdokument</string>
     <string name="onfido_welcome_list_item_doc_video">Nehmen Sie ein Video von Ihrem Ausweisdokument auf</string>
-    <string name="onfido_welcome_list_item_doc_generic">Scannen Sie Ihr Ausweisdokument</string>
+	<string name="onfido_welcome_list_item_doc_generic">Nehmen Sie ein Video von Ihrem Identitätsdokument auf</string>
     <string name="onfido_welcome_list_item_face_photo">Machen Sie ein Foto von Ihrem Gesicht</string>
     <string name="onfido_welcome_list_item_face_video">Nehmen Sie ein Video von Ihrem Gesicht auf</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Bitte vergewissern Sie sich, dass die angegebene Nummer mit der Nummer auf dem Dokument übereinstimmt.</string>
     <string name="onfido_enter_can_button_primary">Fortfahren</string>
     <string name="onfido_enter_can_disclaimer">Die %d-stellige Nummer befindet sich auf der Vorderseite Ihres Dokuments.</string>
-	<string name="onfido_enter_can_error_label">Sie haben noch %d %s übrig.</string>
+	<string name="onfido_enter_can_error_label">Sie haben noch %1$d %2$s übrig.</string>
     <string name="onfido_enter_can_substring_attempt_singular">Versuch</string>
     <string name="onfido_enter_can_substring_attempt_plural">Versuche</string>
 

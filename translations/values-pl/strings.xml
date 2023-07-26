@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Użyj urządzenia, aby:</string>
     <string name="onfido_welcome_list_item_doc_photo">Zrobić zdjęcie swojego dokumentu tożsamości</string>
     <string name="onfido_welcome_list_item_doc_video">Nagrać wideo z dokumentem tożsamości</string>
-    <string name="onfido_welcome_list_item_doc_generic">Zeskanować swój dokument tożsamości</string>
+	<string name="onfido_welcome_list_item_doc_generic">Nagraj wideo swojego dokumentu tożsamości</string>
     <string name="onfido_welcome_list_item_face_photo">Zrobić zdjęcie swojej twarzy</string>
     <string name="onfido_welcome_list_item_face_video">Nagrać wideo swojej twarzy</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Upewnij się, że podany numer jest zgodny z numerem na dokumencie.</string>
     <string name="onfido_enter_can_button_primary">Kontynuuj</string>
     <string name="onfido_enter_can_disclaimer">%d-cyfrowy numer znajduje się z przodu dokumentu.</string>
-	<string name="onfido_enter_can_error_label">Zostało Ci %d %s.</string>
+	<string name="onfido_enter_can_error_label">Zostało Ci %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">prób</string>
     <string name="onfido_enter_can_substring_attempt_plural">prób</string>
 

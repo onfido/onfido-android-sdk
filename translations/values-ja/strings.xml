@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">デバイスを使用して次のことを行います。</string>
     <string name="onfido_welcome_list_item_doc_photo">身分証明書の写真を撮影する</string>
     <string name="onfido_welcome_list_item_doc_video">身分証明書の動画を録画する</string>
-    <string name="onfido_welcome_list_item_doc_generic">本人確認書類をスキャンする</string>
+	<string name="onfido_welcome_list_item_doc_generic">あなたの身分証明書のビデオを記録してください</string>
     <string name="onfido_welcome_list_item_face_photo">顔写真を撮る</string>
     <string name="onfido_welcome_list_item_face_video">顔の動画を録画する</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">入力した番号がドキュメントに記載された番号と一致しているか確認してください。</string>
     <string name="onfido_enter_can_button_primary">続行</string>
     <string name="onfido_enter_can_disclaimer">ドキュメントの表面に記載されています。長さは%d桁で、サイズはやや大きめです。</string>
-    <string name="onfido_enter_can_error_label">%d%sが残っています。</string>
+    <string name="onfido_enter_can_error_label">%1$d%2$sが残っています。</string>
     <string name="onfido_enter_can_substring_attempt_singular">試行</string>
     <string name="onfido_enter_can_substring_attempt_plural">試行</string>
 

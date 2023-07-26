@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">ודא שהמספר שסופק תואם למספר שמופיע במסמך.</string>
     <string name="onfido_enter_can_button_primary">המשך</string>
     <string name="onfido_enter_can_disclaimer">ניתן למצוא אותו בעמוד הראשי של המסמך. אורכו %d ספרות והוא מעט גדול יותר.</string>
-    <string name="onfido_enter_can_error_label">נותרו לך %d %s.</string>
+    <string name="onfido_enter_can_error_label">נותרו לך %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">נסיון</string>
     <string name="onfido_enter_can_substring_attempt_plural">ניסיונות</string>
 

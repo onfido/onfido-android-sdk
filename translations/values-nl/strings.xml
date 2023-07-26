@@ -167,10 +167,10 @@
 
     <!-- User Consent Screen -->
 	<string name="onfido_user_consent_button_primary">Accepteren</string>
-	<string name="onfido_user_consent_button_secondary">Niet accepteren</string>
+	<string name="onfido_user_consent_button_secondary">Niet aanvaarden</string>
 	<string name="onfido_user_consent_prompt_no_consent_title">Weet u het zeker?</string>
-    <string name="onfido_user_consent_prompt_no_consent_detail">If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.</string>
-    <string name="onfido_user_consent_prompt_button_primary">Yes, don’t verify me</string>
+	<string name="onfido_user_consent_prompt_no_consent_detail">Als u de privacyverklaringen en de servicevoorwaarden van Onfido niet accepteert, kunnen we uw identiteit niet verifiëren en zult u deze stap verlaten.</string>
+	<string name="onfido_user_consent_prompt_button_primary">Ja, verifieer mij niet</string>
 	<string name="onfido_user_consent_prompt_button_secondary">Controleer opniew</string>
 
     <!-- Doc Liveness -->
@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Gebruik uw apparaat om:</string>
 	<string name="onfido_welcome_list_item_doc_photo">Maak een foto van uw identiteitsbewijs</string>
 	<string name="onfido_welcome_list_item_doc_video">Maak een filmpje van uw identiteitsbewijs</string>
-	<string name="onfido_welcome_list_item_doc_generic">Scan uw identiteitsbewijs</string>
+	<string name="onfido_welcome_list_item_doc_generic">Maak een video van uw identiteitsdocument</string>
 	<string name="onfido_welcome_list_item_face_photo">Maak een foto van uw gezicht</string>
 	<string name="onfido_welcome_list_item_face_video">Maak een fimpje van uw gezicht</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Zorg ervoor dat het opgegeven nummer overeenkomt met het nummer op het document.</string>
     <string name="onfido_enter_can_button_primary">Doorgaan</string>
     <string name="onfido_enter_can_disclaimer">Het %d-cijfer staat voorin uw document.</string>
-	<string name="onfido_enter_can_error_label">Je hebt %d %s over.</string>
+	<string name="onfido_enter_can_error_label">Je hebt %1$d %2$s over.</string>
     <string name="onfido_enter_can_substring_attempt_singular">poging</string>
     <string name="onfido_enter_can_substring_attempt_plural">pogingen</string>
 

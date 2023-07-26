@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Uporabite napravo za:</string>
     <string name="onfido_welcome_list_item_doc_photo">Fotografirajte osebni dokument</string>
     <string name="onfido_welcome_list_item_doc_video">Posnemite video posnetek osebnega dokumenta</string>
-    <string name="onfido_welcome_list_item_doc_generic">Skenirajte osebni dokument</string>
+	<string name="onfido_welcome_list_item_doc_generic">Posnemite video vašega osebnega dokumenta</string>
     <string name="onfido_welcome_list_item_face_photo">Fotografirajte obraz</string>
     <string name="onfido_welcome_list_item_face_video">Posnemite videoposnetek svojega obraza</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Prepričajte se, da se navedena številka ujema s številko na dokumentu.</string>
     <string name="onfido_enter_can_button_primary">Nadaljuj</string>
     <string name="onfido_enter_can_disclaimer">Najdete jo lahko na sprednji strani dokumenta. Je %d-mestna in nekoliko večja po velikosti.</string>
-    <string name="onfido_enter_can_error_label">Na voljo imate še %d %s.</string>
+    <string name="onfido_enter_can_error_label">Na voljo imate še %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">poskus</string>
     <string name="onfido_enter_can_substring_attempt_plural">poskusov</string>
 

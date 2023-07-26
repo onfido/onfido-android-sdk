@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">使用您的设备：</string>
     <string name="onfido_welcome_list_item_doc_photo">拍一张您身份证件的照片</string>
     <string name="onfido_welcome_list_item_doc_video">录制一段您身份证件的视频</string>
-    <string name="onfido_welcome_list_item_doc_generic">扫描您的身份证件</string>
+	<string name="onfido_welcome_list_item_doc_generic">录制您身份证件的视频</string>
     <string name="onfido_welcome_list_item_face_photo">拍一张您面部的照片</string>
     <string name="onfido_welcome_list_item_face_video">录制一段您面部的视频</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">请确保提供的号码与证明文件上的号码相符。</string>
     <string name="onfido_enter_can_button_primary">继续</string>
     <string name="onfido_enter_can_disclaimer">您可以在证明文件的正面找到它。其长度为%d位数字，尺寸略大。</string>
-    <string name="onfido_enter_can_error_label">您还可以尝试%d%s。</string>
+    <string name="onfido_enter_can_error_label">您还可以尝试%1$d%2$s。</string>
     <string name="onfido_enter_can_substring_attempt_singular">次</string>
     <string name="onfido_enter_can_substring_attempt_plural">次</string>
 

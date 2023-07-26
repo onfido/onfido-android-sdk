@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Bruk enheten til å:</string>
     <string name="onfido_welcome_list_item_doc_photo">Ta et bilde av legitimasjonen din</string>
     <string name="onfido_welcome_list_item_doc_video">Spille inn en video av legitimasjonen din</string>
-    <string name="onfido_welcome_list_item_doc_generic">Skanne legitimasjonen din</string>
+	<string name="onfido_welcome_list_item_doc_generic">Lag en video av identitetsdokumentet ditt</string>
     <string name="onfido_welcome_list_item_face_photo">Ta et bilde av ansiktet ditt</string>
     <string name="onfido_welcome_list_item_face_video">Ta opp en video av ansiktet ditt</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Kontroller at det oppgitte nummeret samsvarer med nummeret på dokumentet.</string>
     <string name="onfido_enter_can_button_primary">Fortsett</string>
     <string name="onfido_enter_can_disclaimer">Du finner det på forsiden av dokumentet. Det er %d-sifret og litt større i størrelse.</string>
-    <string name="onfido_enter_can_error_label">Du har %d %s igjen.</string>
+    <string name="onfido_enter_can_error_label">Du har %1$d %2$s igjen.</string>
     <string name="onfido_enter_can_substring_attempt_singular">forsøk</string>
     <string name="onfido_enter_can_substring_attempt_plural">forsøk</string>
 

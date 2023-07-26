@@ -166,12 +166,12 @@
     <string name="onfido_doc_capture_alert_no_mrz_detail">Assurez-vous que l’intégralité du document est visible</string>
 
     <!-- User Consent Screen -->
-    <string name="onfido_user_consent_button_primary">Accept</string>
-    <string name="onfido_user_consent_button_secondary">Do not accept</string>
-    <string name="onfido_user_consent_prompt_no_consent_title">Are you sure?</string>
-    <string name="onfido_user_consent_prompt_no_consent_detail">If you do not accept Onfido’s privacy statements and terms of service, we will not be able to verify your identity and you will exit this step.</string>
-    <string name="onfido_user_consent_prompt_button_primary">Yes, don’t verify me</string>
-    <string name="onfido_user_consent_prompt_button_secondary">Review again</string>
+	<string name="onfido_user_consent_button_primary">Accepter</string>
+	<string name="onfido_user_consent_button_secondary">Ne pas accepter</string>
+	<string name="onfido_user_consent_prompt_no_consent_title">Êtes-vous sûr ?</string>
+	<string name="onfido_user_consent_prompt_no_consent_detail">Si vous n\'acceptez pas les déclarations de confidentialité et les conditions d\'utilisation d\'Onfido, nous ne pourrons pas vérifier votre identité et vous quitterez cette étape.</string>
+	<string name="onfido_user_consent_prompt_button_primary">Oui, ne me vérifiez pas</string>
+	<string name="onfido_user_consent_prompt_button_secondary">Revoir encore</string>
 
     <!-- Doc Liveness -->
     <string name="onfido_welcome_list_item_doc_video_flash">Nous activerons le flash de votre appareil pendant l’enregistrement de la vidéo</string>
@@ -312,7 +312,7 @@
 	<string name="onfido_welcome_list_header">Utilisez votre appareil pour:</string>
 	<string name="onfido_welcome_list_item_doc_photo">Prendre une photo de votre pièce d’identité</string>
     <string name="onfido_welcome_list_item_doc_video">Enregistrez une vidéo de votre pièce d’identité</string>
-    <string name="onfido_welcome_list_item_doc_generic">Scannez votre pièce d’identité</string>
+	<string name="onfido_welcome_list_item_doc_generic">Enregistrez une vidéo de votre document d\'identité</string>
 	<string name="onfido_welcome_list_item_face_photo">Prendre une photo de votre document</string>
 	<string name="onfido_welcome_list_item_face_video">Enregistrer une vidéo de votre visage</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Veuillez vous assurer que le numéro fourni correspond au numéro figurant sur le document.</string>
     <string name="onfido_enter_can_button_primary">Continuer</string>
     <string name="onfido_enter_can_disclaimer">Le numéro à %d chiffres est situé au début de votre document.</string>
-	<string name="onfido_enter_can_error_label">Il vous reste %d %s.</string>
+	<string name="onfido_enter_can_error_label">Il vous reste %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">tentative</string>
     <string name="onfido_enter_can_substring_attempt_plural">tentatives</string>
 

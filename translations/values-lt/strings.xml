@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Naudodami savo įrenginį, galite:</string>
     <string name="onfido_welcome_list_item_doc_photo">Nufotografuokite savo asmens tapatybės dokumentą</string>
     <string name="onfido_welcome_list_item_doc_video">Padarykite savo asmens tapatybės dokumento vaizdo įrašą</string>
-    <string name="onfido_welcome_list_item_doc_generic">Nuskaitykite savo asmens tapatybės dokumentą</string>
+	<string name="onfido_welcome_list_item_doc_generic">Įrašykite vaizdo įrašą su savo asmens tapatybės dokumentu</string>
     <string name="onfido_welcome_list_item_face_photo">Nufotografuokite savo veidą</string>
     <string name="onfido_welcome_list_item_face_video">Padarykite savo veido vaizdo įrašą</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Įsitikinkite, kad pateiktas numeris atitinka dokumente nurodytą numerį.</string>
     <string name="onfido_enter_can_button_primary">Tęsti</string>
     <string name="onfido_enter_can_disclaimer">Jį rasite dokumento priekinėje pusėje. Jis yra %d skaitmenų ilgio ir šiek tiek didesniu šriftu.</string>
-    <string name="onfido_enter_can_error_label">Jums liko %d %s.</string>
+    <string name="onfido_enter_can_error_label">Jums liko %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">mėginimas</string>
     <string name="onfido_enter_can_substring_attempt_plural">bandymai</string>
 

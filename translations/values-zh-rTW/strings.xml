@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">使用您的裝置：</string>
     <string name="onfido_welcome_list_item_doc_photo">拍攝身分證件相片</string>
     <string name="onfido_welcome_list_item_doc_video">錄製您身份證件的影片</string>
-    <string name="onfido_welcome_list_item_doc_generic">掃描您的身份證件</string>
+	<string name="onfido_welcome_list_item_doc_generic">錄製您身份證件的影片</string>
     <string name="onfido_welcome_list_item_face_photo">拍攝您的臉部相片</string>
     <string name="onfido_welcome_list_item_face_video">錄製您的臉部影片</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">請確認所提供的號碼與文件上的號碼相符。</string>
     <string name="onfido_enter_can_button_primary">繼續</string>
     <string name="onfido_enter_can_disclaimer">您可以在文件正面找到。這是一組稍大字號的 %d 位數。</string>
-    <string name="onfido_enter_can_error_label">目前剩下 %d %s 嘗試次數。</string>
+    <string name="onfido_enter_can_error_label">目前剩下 %1$d %2$s 嘗試次數。</string>
     <string name="onfido_enter_can_substring_attempt_singular">嘗試</string>
     <string name="onfido_enter_can_substring_attempt_plural">嘗試</string>
 

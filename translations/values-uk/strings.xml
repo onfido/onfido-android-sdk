@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Використовуйте свій пристрій, щоб:</string>
     <string name="onfido_welcome_list_item_doc_photo">сфотографувати документ, що посвідчує особу;</string>
     <string name="onfido_welcome_list_item_doc_video">записати відео з документом, що посвідчує особу;</string>
-    <string name="onfido_welcome_list_item_doc_generic">відсканувати документ, що посвідчує особу;</string>
+	<string name="onfido_welcome_list_item_doc_generic">Зробіть відеозапис вашого документа, що посвідчує особу</string>
     <string name="onfido_welcome_list_item_face_photo">сфотографувати своє обличчя;</string>
     <string name="onfido_welcome_list_item_face_video">зняти відео свого обличчя;</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Переконайтеся, що вказаний номер збігається з номером на документі.</string>
     <string name="onfido_enter_can_button_primary">Продовжити</string>
     <string name="onfido_enter_can_disclaimer">Його можна переглянути на лицьовому боці документа. Це %d-значний номер, введений трохи більшим шрифтом.</string>
-    <string name="onfido_enter_can_error_label">Залишилося: %d %s.</string>
+    <string name="onfido_enter_can_error_label">Залишилося: %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">спроба</string>
     <string name="onfido_enter_can_substring_attempt_plural">спроби/спроб</string>
 

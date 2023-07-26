@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Pastikan nomor yang diberikan sesuai dengan nomor pada dokumen.</string>
     <string name="onfido_enter_can_button_primary">Lanjutkan</string>
     <string name="onfido_enter_can_disclaimer">Anda dapat menemukannya di bagian depan dokumen Anda. Panjangnya %d digit dan ukurannya sedikit lebih besar.</string>
-    <string name="onfido_enter_can_error_label">Anda memiliki %d %s tersisa.</string>
+    <string name="onfido_enter_can_error_label">Anda memiliki %1$d %2$s tersisa.</string>
     <string name="onfido_enter_can_substring_attempt_singular">upaya</string>
     <string name="onfido_enter_can_substring_attempt_plural">upaya</string>
 

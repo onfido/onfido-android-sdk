@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">استخدم جهازك من أجل:</string>
     <string name="onfido_welcome_list_item_doc_photo">التقط صورة لمستند هويتك</string>
     <string name="onfido_welcome_list_item_doc_video">سجّل فيديو لمستند هويتك</string>
-    <string name="onfido_welcome_list_item_doc_generic">امسح مستند هويتك ضوئيًا</string>
+	<string name="onfido_welcome_list_item_doc_generic">قم بتسجيل فيديو لمستند هويتك</string>
     <string name="onfido_welcome_list_item_face_photo">التقط صورة لوجهك</string>
     <string name="onfido_welcome_list_item_face_video">سجِّل فيديو لوجهك</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">يرجى التأكد من أن الرقم المقدم يطابق الرقم الموجود في المستند.</string>
     <string name="onfido_enter_can_button_primary">متابعة</string>
     <string name="onfido_enter_can_disclaimer">يمكنك العثور عليه في الجزء الأمامي من مستندك. إنه بطول %d من الأرقام وحجمه أكبر قليلاً.</string>
-    <string name="onfido_enter_can_error_label">لدي %d %s متبقية.</string>
+    <string name="onfido_enter_can_error_label">لدي %1$d %2$s متبقية.</string>
     <string name="onfido_enter_can_substring_attempt_singular">محاولة</string>
     <string name="onfido_enter_can_substring_attempt_plural">محاولات</string>
 

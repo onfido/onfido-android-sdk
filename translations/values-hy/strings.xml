@@ -312,7 +312,7 @@
     <string name="onfido_welcome_list_header">Օգտագործեք ձեր սարքը հետևյալ նպատակներով․</string>
     <string name="onfido_welcome_list_item_doc_photo">Լուսանկարեք ձեր անձը հաստատող փաստաթուղթը</string>
     <string name="onfido_welcome_list_item_doc_video">Տեսագրեք ձեր անձը հաստատող փաստաթուղթը</string>
-    <string name="onfido_welcome_list_item_doc_generic">Սկանավորեք ձեր անձը հաստատող փաստաթուղթը</string>
+	<string name="onfido_welcome_list_item_doc_generic">Ձեր անձը հաստատող փաստաթուղթի վիդեոն գրանցեք</string>
     <string name="onfido_welcome_list_item_face_photo">Լուսանկարեք ձեր դեմքը</string>
     <string name="onfido_welcome_list_item_face_video">Տեսագրեք ձեր դեմքը</string>
 
@@ -366,7 +366,7 @@
     <string name="onfido_enter_can_subtitle">Համոզվեք, որ տրամադրված համարը համապատասխանում է փաստաթղթում նշված համարին։</string>
     <string name="onfido_enter_can_button_primary">Շարունակել</string>
     <string name="onfido_enter_can_disclaimer">Այն կարող եք գտնել ձեր փաստաթղթի դիմերեսի վրա։ Այն պարունակում է %d նիշ և մի փոքր ավելի մեծ չափի է։</string>
-    <string name="onfido_enter_can_error_label">Ձեզ մնացել է %d %s։</string>
+    <string name="onfido_enter_can_error_label">Ձեզ մնացել է %1$d %2$s։</string>
     <string name="onfido_enter_can_substring_attempt_singular">փորձ</string>
     <string name="onfido_enter_can_substring_attempt_plural">փորձեր</string>
 
