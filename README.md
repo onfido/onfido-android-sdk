@@ -70,7 +70,7 @@ You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) env
 
 #### 1.1 Regions
 
-Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
 
 ### 2. Add the SDK dependency
 
@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 11.51 Mb  |
-| arm64-v8a   | 11.30 Mb  |
+| armeabi-v7a | 6.25 Mb |
+| arm64-v8a   | 7.14 Mb |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 8.40 Mb  |
+| universal   | 3.72 Mb |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -654,35 +654,120 @@ dependencies {
 
 For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#android).
 
-**Colors**
+#### Dark theme
 
-You can define custom colors inside your own `colors.xml` file:
+Starting from version 19.1.0, Onfido SDK supports the dark theme. By default, the user's active device theme will be 
+automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time 
+and instead set a theme statically at the build time as shown below. In this case, the flow will always be in displayed 
+in the selected theme regardless of the user's device theme.
 
-* `onfidoColorPrimary`: Defines the background color of the `Toolbar` which guides the user through the flow
+To force select dark theme:
 
-* `onfidoColorPrimaryDark`: Defines the color of the status bar above the `Toolbar`
+```kotlin
+onfidoConfigBuilder.withTheme(OnfidoTheme.DARK)
+```
 
-* `onfidoTextColorPrimary`: Defines the color of the title on the `Toolbar`
+To force select light theme:
 
-* `onfidoTextColorSecondary`: Defines the color of the subtitle on the `Toolbar`
+```kotlin
+onfidoConfigBuilder.withTheme(OnfidoTheme.LIGHT)
+```
 
-* `onfidoColorAccent`: Defines the color of the `FloatingActionButton` which allows the user to move between steps, as well as some details on the alert dialogs shown during the flow
+#### Appearance and Colors
 
-* `onfidoPrimaryButtonColor`: Defines the background color of the primary action buttons (e.g. proceed to the next flow step, confirm picture/video, etc) and the color of the text on the secondary action buttons (e.g. retake picture/video)
+You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoActivityTheme` 
+and `OnfidoDarkTheme`) in your `themes.xml` or `styles.xml`. 
+Make sure to set `OnfidoBaseActivityTheme` as the parent of either of the Onfido themes in your style definitions.
+All colors referenced in the themes should be defined in your `colors.xml`.  Alternatively, you can use hexadecimal 
+color values directly in the themes. When customising fonts, all referenced fonts must be added to your project first. 
+Further instructions for adding fonts can be found 
+[here](https://developer.android.com/develop/ui/views/text-and-emoji/fonts-in-xml).   
 
-* `onfidoPrimaryButtonColorPressed`: Defines the background color of the primary action buttons when pressed
+For instance, you can add these themes to your `themes.xml` to change the toolbar background and primary buttons' 
+color:
 
-* `onfidoPrimaryButtonTextColor`: Defines the color of the text inside the primary action buttons
+```xml
+<!-- Light theme -->
+<style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
+    <item name="onfidoColorToolbarBackground">@color/brand_dark_blue</item>
+    <item name="onfidoColorActionMain">@color/brand_accent_color</item>
+</style>
 
-* `onfidoSecondaryButtonTextColor`: Defines the color of the text inside and border color of secondary action buttons
+<!-- Dark theme -->
+<style name="OnfidoDarkTheme" parent="OnfidoBaseActivityTheme">
+    <item name="onfidoColorToolbarBackground">@color/brand_dark_blue</item>
+    <item name="onfidoColorActionMain">@color/brand_accent_color</item>
+</style>
+```
 
-**Widgets**
+The following attributes are currently supported:
+
+* `onfidoColorToolbarBackground`: Background color of the `Toolbar` which guides the user through the flow
+
+* `colorPrimaryDark`: Color of the status bar (with system icons) above the `Toolbar`
+
+* `onfidoColorContentToolbarTitle`: Color of the `Toolbar`'s title text
+
+* `onfidoColorContentMain`: Color of primary texts on screen, e.g. titles and regular body texts
+
+* `onfidoColorContentSecondary`: Color of secondary texts on screen, e.g. subtitles
+
+* `onfidoColorContentNegative`: Color of error texts
+
+* `onfidoColorActionMain`: Background color of primary buttons
+
+* `onfidoColorActionMainPressed`: Background color of primary buttons when pressed
+
+* `onfidoColorActionMainDisabled`: Background color of primary buttons when disabled
+
+* `onfidoColorContentOnAction`: Text color of primary buttons
+
+* `onfidoColorContentOnActionDisabled`: Text color of primary buttons when disabled
+
+* `onfidoColorActionSecondary`: Background color of secondary buttons
+
+* `onfidoColorActionSecondaryPressed`: Background color of secondary buttons when pressed
+
+* `onfidoColorActionSecondaryDisabled`: Background color of secondary buttons when disabled
+
+* `onfidoColorContentOnActionSecondary`: Text color of secondary buttons
+
+* `onfidoColorContentOnActionSecondaryDisabled`: Text color of secondary buttons when disabled
+
+* `onfidoColorActionSecondaryBorder`: Border of the secondary buttons
+
+* `onfidoColorActionSecondaryBorderDisabled`: Border of the secondary buttons when disabled
+
+* `onfidoColorProgressTrack`: Track color of progress indicators (background color)
+
+* `onfidoColorProgressIndicator`: Indicator color of progress indicators (foreground color)
+
+* `colorAccent`: Defines alert dialogs' accent color, and text input fields' focused underline, cursor, and floating
+  label color
+
+* `onfidoColorWatermark`: Color of the Onfido logo and co-brand logo in the footer of screens 
+
+* `onfidoColorDisclaimerBackground`: Background color of disclaimer boxes
+
+* `onfidoColorContentDisclaimer`: Text color of disclaimer boxes
+
+* `onfidoColorIconDisclaimer`: Icon color of disclaimer boxes
+
+* `onfidoColorIconStroke`: Stroke color of icons
+
+* `onfidoColorIconFill`: Fill color of icons
+
+* `onfidoColorIconBackground`: Background color of icons
+
+* `onfidoColorIconAccent`: Background color of accented icons
+
+#### Widgets
 
 You can customize the appearance of some widgets in your `dimens.xml` file by overriding:
 
 * `onfidoButtonCornerRadius`: Defines the radius dimension of all the corners of primary and secondary buttons
 
-**Typography**
+#### Typography
 
 You can customize the fonts by providing [font XML resources](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) to the theme by setting `OnfidoActivityTheme` to one of the following:
 
