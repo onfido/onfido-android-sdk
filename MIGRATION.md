@@ -1,5 +1,15 @@
 # Onfido Android SDK Migration Guide
 
+## `19.0.0` -> `19.1.0`
+- Onfido SDK now supports the dark theme. By default, the user's active device theme will be
+  automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time
+  and instead set a theme statically at the build time. In this case, the flow will always be in displayed
+  in the selected theme regardless of the user's device theme. Please refer to the dark theme section in `README.md` for 
+  further details on how to configure the SDK with a static UI theme.
+- Onfido's public colors defined in your `colors.xml` are now deprecated. Please refer to the "appearance and colors" 
+  section in `README.md` for our new theme-based UI customization approach and the list of available attributes and 
+  UI customization options.
+
 ## `18.0.0` -> `19.0.0`
 
 #### Breaking changes
