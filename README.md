@@ -677,7 +677,7 @@ onfidoConfigBuilder.withTheme(OnfidoTheme.LIGHT)
 
 You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoActivityTheme` 
 and `OnfidoDarkTheme`) in your `themes.xml` or `styles.xml`. 
-Make sure to set `OnfidoBaseActivityTheme` as the parent of either of the Onfido themes in your style definitions.
+Make sure to set `OnfidoBaseActivityTheme` as the parent of `OnfidoActivityTheme` and  `OnfidoBaseDarkTheme` as the parent of `OnfidoDarkTheme` in your style definition.
 All colors referenced in the themes should be defined in your `colors.xml`.  Alternatively, you can use hexadecimal 
 color values directly in the themes. When customising fonts, all referenced fonts must be added to your project first. 
 Further instructions for adding fonts can be found 
@@ -694,7 +694,7 @@ color:
 </style>
 
 <!-- Dark theme -->
-<style name="OnfidoDarkTheme" parent="OnfidoBaseActivityTheme">
+<style name="OnfidoDarkTheme" parent="OnfidoBaseDarkTheme">
     <item name="onfidoColorToolbarBackground">@color/brand_dark_blue</item>
     <item name="onfidoColorActionMain">@color/brand_accent_color</item>
 </style>
