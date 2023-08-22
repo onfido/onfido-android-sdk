@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Bandyti nuskaityti dar kartą</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Gauti patvirtinimą be NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Įrašomas vaizdo įrašas</string>
+	<string name="onfido_doc_capture_header_recording_complete">Įrašymas baigtas</string>
 </resources>

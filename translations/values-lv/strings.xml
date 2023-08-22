@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Saglabājiet ierīci un dokumentu, līdz skenēšana ir veiksmīga</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Mēģiniet noskenēt atkārtoti</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Iegūt verifikāciju bez NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Ieraksta video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Ieraksts pabeigts</string>
 </resources>

@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Hoidke oma seadet ja dokumenti ühenduses, kuni skannimine on edukas</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Proovige uuesti skannida</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Kinnitamine ilma NFC-ta</string>
+	<string name="onfido_doc_capture_header_recording_video">Video salvestamine</string>
+	<string name="onfido_doc_capture_header_recording_complete">Salvestamine lõpetatud</string>
 </resources>

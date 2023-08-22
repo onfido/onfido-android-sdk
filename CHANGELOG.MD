@@ -9,11 +9,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.2.0] - 2023-08-22
+
+### Changed
+
+- Fixed the extended white screen issue when the SDK flow starts and finishes.
+
+### Fixed
+
+- Fix Driving license was not displayed for Haiti.
+
 ## [19.1.0] - 2023-07-26
 
 ### Added
 
-- Introduced dark theme
+- Introduced `withTheme(theme)` which enables you to either force set a dark/light theme, or follow the device’s system setting. More details can be found [here](https://documentation.onfido.com/sdk/android/#ui-customization)
 - Added theme selection to Onfido SDK's public APIs
 
 ### Changed

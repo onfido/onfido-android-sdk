@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">A beolvasás végéig tartsa egymáson a telefont és a dokumentumot</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">A beolvasás megismétlése</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Ellenőrzés NFC nélkül</string>
+	<string name="onfido_doc_capture_header_recording_video">Videó rögzítése</string>
+	<string name="onfido_doc_capture_header_recording_complete">Felvétel kész</string>
 </resources>

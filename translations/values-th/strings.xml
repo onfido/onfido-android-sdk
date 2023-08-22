@@ -524,4 +524,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">โปรดอย่าเล่นเสียงบนอุปกรณ์ขณะกำลังบันทึกเสียง</string>
 	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">ลองอีกครั้ง</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_doc_capture_header_recording_video">กำลังบันทึกวิดีโอ</string>
+	<string name="onfido_doc_capture_header_recording_complete">บันทึกเสร็จสมบูรณ์</string>
 </resources>

@@ -524,4 +524,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Thử lại</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Âm thanh đang được một ứng dụng khác phát</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vui lòng không phát bất kỳ âm thanh nào trên thiết bị của bạn trong khi ghi âm</string>
+	<string name="onfido_doc_capture_header_recording_video">Ghi video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Ghi hình đã hoàn tất</string>
 </resources>

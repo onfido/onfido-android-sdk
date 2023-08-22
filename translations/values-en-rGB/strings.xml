@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Keep your device and document in contact until the scanning is successful</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Retry scanning</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Get verified without NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Recording video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Recording complete</string>
 </resources>

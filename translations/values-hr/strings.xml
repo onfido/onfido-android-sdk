@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Držite svoj uređaj i dokument u kontaktu dok skeniranje ne bude uspješno</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Pokušajte ponovno skenirati</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Provjeri bez NFC-a</string>
+	<string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
+	<string name="onfido_doc_capture_header_recording_complete">Snimanje je završeno</string>
 </resources>

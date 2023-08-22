@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Houd uw apparaat en document in contact totdat het scannen is gelukt</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Probeer opnieuw te scannen</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Word geverifieerd zonder NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Video opnemen</string>
+	<string name="onfido_doc_capture_header_recording_complete">Opname voltooid</string>
 </resources>

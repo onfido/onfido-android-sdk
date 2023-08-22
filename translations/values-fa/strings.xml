@@ -524,4 +524,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">لطفاً در هنگام ضبط از پخش فایل صوتی در دستگاه خودداری کنید</string>
 	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">سعی مجدد‌</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">سعی مجدد‌</string>
+	<string name="onfido_doc_capture_header_recording_video">ضبط ویدیو</string>
+	<string name="onfido_doc_capture_header_recording_complete">ضبط کامل شد</string>
 </resources>

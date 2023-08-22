@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">스캔이 성공할 때까지 장치와 문서를 접촉 상태로 유지하십시오.</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">스캔 재시도</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">NFC 없이 인증 받기</string>
+	<string name="onfido_doc_capture_header_recording_video">비디오 녹화</string>
+	<string name="onfido_doc_capture_header_recording_complete">녹화 완료</string>
 </resources>

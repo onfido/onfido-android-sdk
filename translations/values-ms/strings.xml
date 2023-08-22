@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Cuba semula pengimbasan</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Dapatkan pengesahan tanpa NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Merekod video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Rakaman selesai</string>
 </resources>

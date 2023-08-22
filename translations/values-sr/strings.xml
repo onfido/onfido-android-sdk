@@ -524,4 +524,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Tokom snimanja nemojte reprodukovati nikakav zvuk na uređaju</string>
 	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Probajte ponovo</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Probajte ponovo</string>
+	<string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
+	<string name="onfido_doc_capture_header_recording_complete">Snimanje je završeno</string>
 </resources>

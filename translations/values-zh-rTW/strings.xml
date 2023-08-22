@@ -554,4 +554,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">保持您的設備和文檔接觸，直到掃描成功</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">重新進行掃描</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">無需NFC即可獲得驗證</string>
+	<string name="onfido_doc_capture_header_recording_video">錄製影片</string>
+	<string name="onfido_doc_capture_header_recording_complete">錄製完成</string>
 </resources>

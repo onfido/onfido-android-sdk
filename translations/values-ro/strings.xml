@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Păstrați dispozitivul și documentul în contact până când scanarea are succes</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Încercați din nou scanarea</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Obțineți verificarea fără NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Înregistrare video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Înregistrare finalizată</string>
 </resources>

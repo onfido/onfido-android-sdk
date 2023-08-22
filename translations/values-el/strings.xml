@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Επανάληψη σάρωσης</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Επαληθεύστε χωρίς NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Καταγραφή βίντεο</string>
+	<string name="onfido_doc_capture_header_recording_complete">Η εγγραφή ολοκληρώθηκε</string>
 </resources>

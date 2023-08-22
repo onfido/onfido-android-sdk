@@ -70,7 +70,7 @@ You can use our [sandbox](https://documentation.onfido.com/#sandbox-testing) env
 
 #### 1.1 Regions
 
-Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
+Onfido offers region-specific environments. Refer to the [Regions](https://documentation.onfido.com/#regions) section in our API documentation for token format and API base URL information.
 
 ### 2. Add the SDK dependency
 
@@ -128,8 +128,8 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| armeabi-v7a | 6.25 Mb |
-| arm64-v8a   | 7.14 Mb |
+| armeabi-v7a | 11.62 Mb  |
+| arm64-v8a   | 11.42 Mb  |
 
 #### 2.2 `onfido-capture-sdk-core`
 
@@ -149,7 +149,7 @@ Average size (with Proguard enabled):
 
 | ABI         |  Size   |
 | ----------- | :-----: |
-| universal   | 3.72 Mb |
+| universal   | 8.51 Mb  |
 
 
 **Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
@@ -676,7 +676,7 @@ onfidoConfigBuilder.withTheme(OnfidoTheme.LIGHT)
 #### Appearance and Colors
 
 You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoActivityTheme` 
-and `OnfidoDarkTheme`) in your `themes.xml` or `styles.xml`. 
+and `OnfidoDarkTheme`) in your `themes.xml` or `styles.xml`.
 Make sure to set `OnfidoBaseActivityTheme` as the parent of `OnfidoActivityTheme` and  `OnfidoBaseDarkTheme` as the parent of `OnfidoDarkTheme` in your style definition.
 All colors referenced in the themes should be defined in your `colors.xml`.  Alternatively, you can use hexadecimal 
 color values directly in the themes. When customising fonts, all referenced fonts must be added to your project first. 

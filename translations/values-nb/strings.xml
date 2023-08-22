@@ -524,4 +524,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Prøv igjen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">En annen app spiller av lyd</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Ikke spill av lyd på enheten din under opptak</string>
+	<string name="onfido_doc_capture_header_recording_video">Opptak av video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Opptaket er fullført</string>
 </resources>

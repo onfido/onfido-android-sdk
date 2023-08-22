@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Կրկին սկանավորել</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
+	<string name="onfido_doc_capture_header_recording_video">Տեսանյութի գրանցում</string>
+	<string name="onfido_doc_capture_header_recording_complete">Տեսագրումն ավարտված է</string>
 </resources>

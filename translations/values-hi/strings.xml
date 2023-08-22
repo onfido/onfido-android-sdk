@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">स्कैनिंग सफल होने तक अपने डिवाइस और दस्तावेज़ को संपर्क में रखें</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">फिर से स्कैन करें</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">एनएफसी के बिना सत्यापित हो जाओ</string>
+	<string name="onfido_doc_capture_header_recording_video">वीडियो रिकॉर्ड करना</string>
+	<string name="onfido_doc_capture_header_recording_complete">रिकॉर्डिंग पूरी हुई</string>
 </resources>

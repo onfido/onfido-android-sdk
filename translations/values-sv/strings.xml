@@ -555,4 +555,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Håll din enhet och dokument i kontakt tills skanningen är framgångsrik</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Försök igen med skanning</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Bli verifierad utan NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Spelar in video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Inspelning slutförd</string>
 </resources>

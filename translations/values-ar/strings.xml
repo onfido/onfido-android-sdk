@@ -554,4 +554,6 @@
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">حافظ على جهازك والمستندات في وضع تلامس حتى يتم الانتهاء من المسح الضوئي بنجاح</string>
 	<string name="onfido_nfc_scan_error_inter_passport_primary_button">إعادة محاولة المسح الضوئي</string>
 	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">الحصول على التحقق دون NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">تسجيل الفيديو</string>
+	<string name="onfido_doc_capture_header_recording_complete">اكتمل التسجيل</string>
 </resources>
