@@ -702,64 +702,44 @@ color:
 
 The following attributes are currently supported:
 
-* `onfidoColorToolbarBackground`: Background color of the `Toolbar` which guides the user through the flow
-
-* `colorPrimaryDark`: Color of the status bar (with system icons) above the `Toolbar`
-
-* `onfidoColorContentToolbarTitle`: Color of the `Toolbar`'s title text
-
-* `onfidoColorContentMain`: Color of primary texts on screen, e.g. titles and regular body texts
-
-* `onfidoColorContentSecondary`: Color of secondary texts on screen, e.g. subtitles
-
-* `onfidoColorContentNegative`: Color of error texts
-
-* `onfidoColorActionMain`: Background color of primary buttons
-
-* `onfidoColorActionMainPressed`: Background color of primary buttons when pressed
-
-* `onfidoColorActionMainDisabled`: Background color of primary buttons when disabled
-
-* `onfidoColorContentOnAction`: Text color of primary buttons
-
-* `onfidoColorContentOnActionDisabled`: Text color of primary buttons when disabled
-
-* `onfidoColorActionSecondary`: Background color of secondary buttons
-
-* `onfidoColorActionSecondaryPressed`: Background color of secondary buttons when pressed
-
-* `onfidoColorActionSecondaryDisabled`: Background color of secondary buttons when disabled
-
-* `onfidoColorContentOnActionSecondary`: Text color of secondary buttons
-
-* `onfidoColorContentOnActionSecondaryDisabled`: Text color of secondary buttons when disabled
-
-* `onfidoColorActionSecondaryBorder`: Border of the secondary buttons
-
-* `onfidoColorActionSecondaryBorderDisabled`: Border of the secondary buttons when disabled
-
-* `onfidoColorProgressTrack`: Track color of progress indicators (background color)
-
-* `onfidoColorProgressIndicator`: Indicator color of progress indicators (foreground color)
-
-* `colorAccent`: Defines alert dialogs' accent color, and text input fields' focused underline, cursor, and floating
-  label color
-
-* `onfidoColorWatermark`: Color of the Onfido logo and co-brand logo in the footer of screens 
-
-* `onfidoColorDisclaimerBackground`: Background color of disclaimer boxes
-
-* `onfidoColorContentDisclaimer`: Text color of disclaimer boxes
-
-* `onfidoColorIconDisclaimer`: Icon color of disclaimer boxes
-
-* `onfidoColorIconStroke`: Stroke color of icons
-
-* `onfidoColorIconFill`: Fill color of icons
-
-* `onfidoColorIconBackground`: Background color of icons
-
-* `onfidoColorIconAccent`: Background color of accented icons
+* **Colors**
+    * General
+        * `colorAccent`: Defines alert dialogs' accent color, and text input fields' focused underline, cursor, and floating label color
+    * Content
+        * `onfidoColorContentMain`: Color of primary texts on screen, e.g. titles and regular body texts
+        * `onfidoColorContentSecondary`: Color of secondary texts on screen, e.g. subtitles
+        * `onfidoColorContentNegative`: Color of error texts
+    * Main buttons
+        * `onfidoColorActionMain`: Background color of primary buttons
+        * `onfidoColorActionMainPressed`: Background color of primary buttons when pressed
+        * `onfidoColorActionMainDisabled`: Background color of primary buttons when disabled
+        * `onfidoColorContentOnAction`: Text color of primary buttons
+        * `onfidoColorContentOnActionDisabled`: Text color of primary buttons when disabled
+    * Secondary buttons
+        * `onfidoColorActionSecondary`: Background color of secondary buttons
+        * `onfidoColorActionSecondaryPressed`: Background color of secondary buttons when pressed
+        * `onfidoColorActionSecondaryDisabled`: Background color of secondary buttons when disabled
+        * `onfidoColorContentOnActionSecondary`: Text color of secondary buttons
+        * `onfidoColorContentOnActionSecondaryDisabled`: Text color of secondary buttons when disabled
+        * `onfidoColorActionSecondaryBorder`: Border of the secondary buttons
+        * `onfidoColorActionSecondaryBorderDisabled`: Border of the secondary buttons when disabled
+    * Disclaimers
+        * `onfidoColorDisclaimerBackground`: Background color of disclaimer boxes
+        * `onfidoColorContentDisclaimer`: Text color of disclaimer boxes
+        * `onfidoColorIconDisclaimer`: Icon color of disclaimer boxes
+    * Toolbar and status bar
+        * `onfidoColorToolbarBackground`: Background color of the `Toolbar` which guides the user through the flow
+        * `colorPrimaryDark`: Color of the status bar (with system icons) above the `Toolbar`
+        * `onfidoColorContentToolbarTitle`: Color of the `Toolbar`'s title text
+    * Icons
+        * `onfidoColorIconStroke`: Stroke color of icons
+        * `onfidoColorIconFill`: Fill color of icons
+        * `onfidoColorIconBackground`: Background color of icons
+        * `onfidoColorIconAccent`: Background color of accented icons
+        * `onfidoColorWatermark`: Color of the Onfido logo and co-brand logo in the footer of screens
+    * Spinner / progress indicator
+        * `onfidoColorProgressTrack`: Track color of progress indicators (background color)
+        * `onfidoColorProgressIndicator`: Indicator color of progress indicators (foreground color)
 
 #### Widgets
 
@@ -771,17 +751,17 @@ You can customize the appearance of some widgets in your `dimens.xml` file by ov
 
 You can customize the fonts by providing [font XML resources](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) to the theme by setting `OnfidoActivityTheme` to one of the following:
 
-* `onfidoFontFamilyTitle`: Defines the `fontFamily` attribute that is used for text which has typography type `Title`
+* `onfidoFontFamilyTitleAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Title`
 
-* `onfidoFontFamilyBody`: Defines the `fontFamily` attribute that is used for text which has typography type `Body`
+* `onfidoFontFamilyBodyAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Body`
 
-* `onfidoFontFamilySubtitle`: Defines the `fontFamily` attribute that is used for text which has typography type `Subtitle`
+* `onfidoFontFamilySubtitleAttr`: Defines the `fontFamily` attribute that is used for text which has typography type `Subtitle`
 
-* `onfidoFontFamilyButton`: Defines the `fontFamily` attribute that is applied to all primary and secondary buttons
+* `onfidoFontFamilyButtonAttr`: Defines the `fontFamily` attribute that is applied to all primary and secondary buttons
 
-* `onfidoFontFamilyToolbarTitle`: Defines the `fontFamily` attribute that is applied to the title and subtitle displayed inside the `Toolbar`
+* `onfidoFontFamilyToolbarTitleAttr`: Defines the `fontFamily` attribute that is applied to the title and subtitle displayed inside the `Toolbar`
 
-* `*onfidoFontFamilyDialogButton`: Defines the `fontFamily` attribute that is applied to the buttons inside `AlertDialog` and `BottomSheetDialog`
+* `*onfidoFontFamilyDialogButtonAttr`: Defines the `fontFamily` attribute that is applied to the buttons inside `AlertDialog` and `BottomSheetDialog`
 
 For example:
 
