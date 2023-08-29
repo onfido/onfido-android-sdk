@@ -704,9 +704,11 @@ The following attributes are currently supported:
 
 * **Colors**
     * General
+        * `onfidoColorBackground`: Background color of the non-capture screens
         * `colorAccent`: Defines alert dialogs' accent color, and text input fields' focused underline, cursor, and floating label color
     * Content
         * `onfidoColorContentMain`: Color of primary texts on screen, e.g. titles and regular body texts
+        * `onfidoColorContentMainDark`: Color of the content on capture screens (those with dark backgrounds)
         * `onfidoColorContentSecondary`: Color of secondary texts on screen, e.g. subtitles
         * `onfidoColorContentNegative`: Color of error texts
     * Main buttons
@@ -733,10 +735,12 @@ The following attributes are currently supported:
         * `onfidoColorContentToolbarTitle`: Color of the `Toolbar`'s title text
     * Icons
         * `onfidoColorIconStroke`: Stroke color of icons
+        * `onfidoColorIconStrokeNegative`: Stroke color for error icons
         * `onfidoColorIconFill`: Fill color of icons
         * `onfidoColorIconBackground`: Background color of icons
         * `onfidoColorIconAccent`: Background color of accented icons
         * `onfidoColorWatermark`: Color of the Onfido logo and co-brand logo in the footer of screens
+        * `onfidoColorWatermarkDark`: Color of the Onfido logo and co-brand logo in the footer of capture screens
     * Spinner / progress indicator
         * `onfidoColorProgressTrack`: Track color of progress indicators (background color)
         * `onfidoColorProgressIndicator`: Indicator color of progress indicators (foreground color)

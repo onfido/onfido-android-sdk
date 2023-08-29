@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.2.1] - 2023-08-29
+
+### Changed
+
+- Updated serializers to supported lower versions of the Kotlinx.Serialization library
+
+### Fixed
+
+- Fix UI customization issues
+
 ## [19.2.0] - 2023-08-22
 
 ### Changed
