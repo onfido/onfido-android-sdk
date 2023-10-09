@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Selecteer land van uitgifte</string>
 	<string name="onfido_country_select_bottom_sheet_title">Kunt u uw land niet vinden?</string>
     <string name="onfido_country_select_bottom_sheet_details">Het lijkt erop dat het land van het document dat je hebt geselecteerd niet wordt ondersteund. Selecteer een ander land.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Sluiten</string>
-    <string name="onfido_selfie_intro_subtitle">We vergelijken deze met uw document</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">We vergelijken deze met uw document</string>
 	<string name="onfido_selfie_capture_body">Houd uw gezicht binnen het ovale kader</string>
 	<string name="onfido_video_capture_prompt_button_timeout">Opnieuw proberen</string>
     <string name="onfido_generic_error_camera_unavailable">Er is op dit apparaat geen camera beschikbaar</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Volgende stap</string>
 	<string name="onfido_video_confirmation_error_media_player">Er is iets misgegaan met uw filmpje. Neem een nieuw filmpje op.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Opnieuw laden</string>
-	<string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Voorbeeldvideo opnieuw laden</string>
     <string name="onfido_video_intro_error_network">We konden niet laden vanwege een instabiel netwerk</string>
-    <string name="onfido_video_intro_error_network_accessibility">We konden de voorbeeldvideo niet laden vanwege een instabiel netwerk</string>
-	<string name="onfido_video_intro_error_load_offline">We konden niet laden, omdat u offline bent</string>
+    <string name="onfido_video_intro_error_load_offline">We konden niet laden, omdat u offline bent</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Voorgesteld land</string>
     <string name="onfido_country_select_list_header_all">Alle landen</string>
     <string name="onfido_app_title_country_select_search">Zoek op</string>
-    <string name="onfido_country_select_error_no_country_title">Land niet gevonden</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Probeer handmatig een foto te nemen</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Onscherpe foto gedetecteerd</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Onscherpe foto gedetecteerd</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Streepjescode niet gedetecteerd</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ga op een goed verlichte plek staan en houd de kaart dichter bij de camera</string>
     <string name="onfido_permission_recovery_button_primary">Inschakelen in instellingen</string>
@@ -174,21 +170,7 @@
 	<string name="onfido_user_consent_prompt_button_secondary">Controleer opniew</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">We zetten de flits van uw apparaat aan tijdens het opnemen van een filmpje</string>
-	<string name="onfido_doc_video_capture_header">Houd uw document vast en plaats de voorkant in het kader</string>
-	<string name="onfido_doc_video_capture_header_step1">Beweeg nu niet</string>
-    <string name="onfido_doc_video_capture_detail_step2">Zorg dat het document altijd volledig zichtbaar is</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Volgende stap</string>
-    <string name="onfido_doc_video_capture_header_passport">Houd uw paspoort vast en plaats de fotopagina in het kader</string>
-	<string name="onfido_doc_video_capture_header_paper_doc_step2">Draai uw document langzaam om, zodat de buitenste pagina\'s zichtbaar worden</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Opnemen video is beperkt tot %1$s seconden</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Gelukt</string>
-	<string name="onfido_doc_video_capture_stepper">Stap %1$d van %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Draai uw document langzaam om, zodat de achterkant zichtbaar wordt</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Video weergeven</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Voltooi opname</string>
-	<string name="onfido_doc_video_capture_header_passport_progress">Niet bewegen</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Opname is beperkt tot %1$s seconden</string>
+    <string name="onfido_doc_video_capture_stepper">Stap %1$d van %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Verzend foto</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Neem foto opnieuw</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Zet uw bril af indien nodig</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Zet alles af wat uw gezicht bedekt. Een bril mag wel</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Lijn het document uit en druk op de knop</string>
     <string name="onfido_doc_select_subtitle">Het moet een officieel identiteitsbewijs met foto zijn</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Neem foto opnieuw</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Neem foto opnieuw</string>
     <string name="onfido_video_intro_title">Maak een filmpje</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Kies een ander document</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Draai uw hoofd naar links</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Draai uw hoofd naar rechts</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Gebruik uw apparaat om:</string>
 	<string name="onfido_welcome_list_item_doc_photo">Maak een foto van uw identiteitsbewijs</string>
-	<string name="onfido_welcome_list_item_doc_video">Maak een filmpje van uw identiteitsbewijs</string>
-	<string name="onfido_welcome_list_item_doc_generic">Maak een video van uw identiteitsdocument</string>
+    <string name="onfido_welcome_list_item_doc_generic">Maak een video van uw identiteitsdocument</string>
 	<string name="onfido_welcome_list_item_face_photo">Maak een foto van uw gezicht</string>
 	<string name="onfido_welcome_list_item_face_video">Maak een fimpje van uw gezicht</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Probeer opnieuw te scannen</string>
 	<string name="onfido_nfc_scan_error_button_secondary">Word geverifieerd zonder NFC</string>
     <string name="onfido_nfc_scan_error_title">We konden uw document niet scannen</string>
-    <string name="onfido_nfc_scan_error_list_item">Verwijder uw telefoonhoesje</string>
-	<string name="onfido_nfc_scan_error_list_item_2">Als de scan begint, beweeg dan niet</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Beweeg uw telefoon of paspoort tijdens het scannen niet</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">U kunt ook de binnenkant van de achterpagina proberen</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Leg uw telefoon bovenop uw paspoort</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Schuif je telefoon langzaam omlaag en omhoog</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Leg uw paspoort op een plat oppervlak</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Zodra de scan begint, houdt u uw telefoon stil</string>
-    <string name="onfido_nfc_intro_title_card">Scan uw NFC-kaart</string>
     <string name="onfido_nfc_intro_title_passport">Scan uw ePassport</string>
     <string name="onfido_nfc_intro_subtitle">Volg de onderstaande instructies</string>
     <string name="onfido_nfc_intro_button_primary">Start met scannen</string>
-	<string name="onfido_nfc_intro_list_item">Plaats uw kaart tegen de achterkant aan van uw toestel</string>
-    <string name="onfido_nfc_intro_list_item_2">Schuif je mobiel langzaam op en neer</string>
-	<string name="onfido_nfc_intro_list_item_3">Als de scan begint, beweeg dan niet</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">We hebben uw paspoort gescand</string>
     <string name="onfido_nfc_sheet_success_instruction_card">We hebben uw kaart gescand</string>
 
     <string name="onfido_nfc_select_title_passport">Versnel het proces met NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">We scannen de NFC-chip in uw paspoort</string>
-    <string name="onfido_nfc_select_body_passport">ePassports hebben dit symbool op de kaft</string>
     <string name="onfido_nfc_select_button_primary_passport">Gebruik ePassport</string>
     <string name="onfido_nfc_select_button_secondary_passport">Dit is geen ePassport</string>
 
     <string name="onfido_nfc_select_title_card">Versnel het proces met NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">We scannen de NFC-chip in uw kaart</string>
-    <string name="onfido_nfc_select_body_card">Kaart met NFC-chips hebben dit symbool</string>
     <string name="onfido_nfc_select_button_primary_card">Gebruik NFC-kaart</string>
-    <string name="onfido_nfc_select_button_secondary_card">Dit is geen NFC-kaart</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Leg uw telefoon ter hoogte van de bovenkant van uw paspoort</string>
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_card">Plaats uw telefoon op de kaart</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Houd uw telefoon stil</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Contact met kaart verloren</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Contact met paspoort verloren</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Maak een fimpje van uw gezicht</string>
 	<string name="onfido_avc_intro_video_accessibility">Voorbeeldfilmpje van iemand die zijn/haar hoofd naar beide kanten draait totdat hij/zij klaar is</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Blijf uw hoofd draaien</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Draai uw hoofd naar de andere kant</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Weergave vanaf selfiecamera</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Linkerkant voltooid</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OKÉ</string>
     <string name="onfido_poa_welcome_text">Neem een foto van een document met uw adres</string>
 	<string name="onfido_country_select_error_no_country_body">We voegen binnenkort meer landen aan de lijst toe. Probeer in de tussentijd een ander document te gebruiken.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Sorry, geen mobiele telefoon rekeningen</string>
-	<string name="onfido_doc_select_button_bill_detail">Gas, elektriciteit, water, vaste telefoonlijn of breedband</string>
+    <string name="onfido_doc_select_button_bill_detail">Gas, elektriciteit, water, vaste telefoonlijn of breedband</string>
 
 	<string name="onfido_doc_select_subtitle_country">Selecteer het land van uitgifte om te zien welke documenten we accepteren</string>
 	<string name="onfido_doc_select_section_header_country">Land van uitgifte</string>
 	<string name="onfido_doc_select_section_header_doc_type">Geaccepteerde documenten</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Geen resultaten</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Hele pagina</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Fotopagina</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Fotopagina</string>
 	<string name="onfido_doc_select_subtitle_front_back">Voor-en achterkant</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Selecteer land van uitgifte</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Opnieuw proberen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio wordt door een andere app afgespeeld</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Speel tijdens de opname geen audio af op uw apparaat.</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Versnel het proces met NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">We scannen de NFC-chip van uw document</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">We scannen de NFC-chip van uw document</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Plaats uw document aan de achterkant van uw toestel</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Schuif uw apparaat langzaam op en neer</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Zodra de scan begint, houdt u hem stil</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Start met scannen</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Word geverifieerd zonder NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">We konden uw document niet scannen</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Verwijder uw telefoonhoesje</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Word geverifieerd zonder NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Verwijder uw telefoonhoesje</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Houd uw apparaat en document in contact totdat het scannen is gelukt</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Probeer opnieuw te scannen</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Word geverifieerd zonder NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">We kunnen dit document niet verifiëren</string>
+    <string name="onfido_nfc_scan_error_final_title">We kunnen dit document niet verifiëren</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-scannen is vereist voor dit document, maar kon niet worden voltooid.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Heeft u een ander document om mee verder te gaan?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Ander document gebruiken</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Word geverifieerd zonder NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Versnel het proces met NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">We scannen de NFC-chip van uw document</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">We scannen de NFC-chip van uw document</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Leg uw document op een vlakke ondergrond</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Open uw document op de binnenste achterpagina</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Plaats uw document aan de achterkant van uw toestel</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Schuif uw apparaat langzaam op en neer</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Zodra de scan begint, houdt u hem stil</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Start met scannen</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Word geverifieerd zonder NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">We konden uw document niet scannen</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Verwijder de hoesjes van uw telefoon en paspoort</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Word geverifieerd zonder NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Verwijder de hoesjes van uw telefoon en paspoort</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Houd uw apparaat en document in contact totdat het scannen is gelukt</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Probeer opnieuw te scannen</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Word geverifieerd zonder NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Video opnemen</string>
+    <string name="onfido_doc_capture_header_recording_video">Video opnemen</string>
 	<string name="onfido_doc_capture_header_recording_complete">Opname voltooid</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Geen passende resultaten</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Eén resultaat gevonden</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d resultaten gevonden</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Foto van scherm gedetecteerd</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Schermafbeelding gedetecteerd</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopie gedetecteerd</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Scan gedetecteerd</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Gebruik alstublieft uw originele document. Foto\'s van schermen of fotokopieën worden niet geaccepteerd</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Kies een ander document</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Foto toch indienen</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Probeer handmatig video op te nemen</string>
 </resources>

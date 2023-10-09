@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Pilih negara penerbit</string>
 	<string name="onfido_country_select_bottom_sheet_title">Tidak dapat menemukan negara Anda?</string>
     <string name="onfido_country_select_bottom_sheet_details">Tampaknya negara dokumen yang Anda pilih tidak didukung. Pilihlah negara yang berbeda.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Tutup</string>
-    <string name="onfido_selfie_intro_subtitle">Kami akan membandingkan ini dengan dokumen Anda</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Kami akan membandingkan ini dengan dokumen Anda</string>
     <string name="onfido_selfie_capture_body">Posisikan wajah Anda di dalam bentuk oval</string>
     <string name="onfido_video_capture_prompt_button_timeout">Coba lagi</string>
     <string name="onfido_generic_error_camera_unavailable">Tidak ada kamera yang tersedia di perangkat ini</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Langkah berikutnya</string>
 	<string name="onfido_video_confirmation_error_media_player">Terjadi kesalahan pada video Anda. Silakan rekam ulang.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Muat ulang</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Muat ulang contoh video</string>
     <string name="onfido_video_intro_error_network">Tidak dapat memuat karena jaringan tidak stabil</string>
-    <string name="onfido_video_intro_error_network_accessibility">Tidak dapat memuat video contoh karena jaringan tidak stabil</string>
-	<string name="onfido_video_intro_error_load_offline">Tidak dapat memuat karena Anda sedang offline</string>
+    <string name="onfido_video_intro_error_load_offline">Tidak dapat memuat karena Anda sedang offline</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Negara yang disarankan</string>
     <string name="onfido_country_select_list_header_all">Semua negara</string>
     <string name="onfido_app_title_country_select_search">Cari</string>
-    <string name="onfido_country_select_error_no_country_title">Negara tidak ditemukan</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Coba ambil foto secara manual</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Foto buram terdeteksi</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Foto buram terdeteksi</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Barcode tidak terdeteksi</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Tetap di tempat yang terang dan dekatkan kartu ke kamera</string>
     <string name="onfido_permission_recovery_button_primary">Aktifkan di pengaturan</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Tinjau lagi</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Kami akan mengaktifkan lampu kilat perangkat Anda selama perekaman video</string>
-	<string name="onfido_doc_video_capture_header">Sambil memegang dokumen Anda, tempatkan sisi depan dalam bingkai</string>
-    <string name="onfido_doc_video_capture_header_step1">Sekarang, usahakan tidak goyang</string>
-    <string name="onfido_doc_video_capture_detail_step2">Jaga agar dokumen tetap dalam tampilan penuh</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Langkah berikutnya</string>
-    <string name="onfido_doc_video_capture_header_passport">Saat memegang paspor, tempatkan halaman foto dalam bingkai</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Balik dokumen perlahan untuk menampilkan halaman luar</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Rekaman video dibatasi hingga %1$s detik</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Berhasil</string>
-	<string name="onfido_doc_video_capture_stepper">Langkah %1$d dari %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Balik dokumen perlahan untuk menampilkan sisi belakang</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Pratinjau video</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Selesai merekam</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Jangan sampai goyang</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Rekaman dibatasi hingga %1$s detik</string>
+    <string name="onfido_doc_video_capture_stepper">Langkah %1$d dari %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Kirim foto</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Ambil foto lagi</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Lepaskan kacamata Anda, jika perlu</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Lepaskan apa pun yang menutupi wajah Anda. Kacamata diperbolehkan</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Sejajarkan dokumen, lalu tekan tombol</string>
     <string name="onfido_doc_select_subtitle">Ini harus berupa foto identitas resmi</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Ambil foto lagi</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Ambil foto lagi</string>
     <string name="onfido_video_intro_title">Rekam video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Pilih dokumen lain</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Putar kepala Anda ke kiri</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Putar kepala Anda ke kanan</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Gunakan perangkat Anda untuk:</string>
     <string name="onfido_welcome_list_item_doc_photo">Mengambil foto dokumen identitas Anda</string>
-    <string name="onfido_welcome_list_item_doc_video">Merekam video dokumen identitas Anda</string>
-    <string name="onfido_welcome_list_item_doc_generic">Memindai dokumen identitas Anda</string>
+	<string name="onfido_welcome_list_item_doc_generic">Rekam video dari dokumen identitas Anda</string>
     <string name="onfido_welcome_list_item_face_photo">Mengambil foto wajah Anda</string>
     <string name="onfido_welcome_list_item_face_video">Merekam video wajah Anda</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Coba memindai lagi</string>
     <string name="onfido_nfc_scan_error_button_secondary">Dapatkan verifikasi tanpa NFC</string>
     <string name="onfido_nfc_scan_error_title">Kami tidak dapat memindai dokumen Anda</string>
-    <string name="onfido_nfc_scan_error_list_item">Lepaskan pelindung ponsel Anda</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Begitu pemindaian dimulai, tahan</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Jangan menggerakkan ponsel atau paspor Anda saat memindai</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Anda juga dapat mencoba untuk bagian dalam halaman belakang</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Tempatkan ponsel Anda di bagian atas paspor Anda</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Geser perlahan ponsel Anda ke bawah dan ke atas</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Letakkan paspor Anda pada permukaan datar</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Setelah pemindaian dimulai, tahan ponsel Anda</string>
-    <string name="onfido_nfc_intro_title_card">Pindai kartu NFC Anda</string>
     <string name="onfido_nfc_intro_title_passport">Pindai e-Paspor Anda</string>
     <string name="onfido_nfc_intro_subtitle">Ikuti petunjuk di bawah ini</string>
     <string name="onfido_nfc_intro_button_primary">Mulai memindai</string>
-    <string name="onfido_nfc_intro_list_item">Tempatkan kartu Anda di bagian belakang perangkat Anda</string>
-    <string name="onfido_nfc_intro_list_item_2">Geser perlahan ponsel Anda ke atas dan ke bawah</string>
-    <string name="onfido_nfc_intro_list_item_3">Begitu pemindaian dimulai, tahan</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Kami berhasil memindai paspor Anda</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Kami berhasil memindai kartu Anda</string>
 
     <string name="onfido_nfc_select_title_passport">Percepat proses dengan NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Kami akan memindai chip NFC di paspor Anda</string>
-    <string name="onfido_nfc_select_body_passport">e-Paspor memiliki simbol ini di sampulnya</string>
     <string name="onfido_nfc_select_button_primary_passport">Gunakan e-Paspor</string>
     <string name="onfido_nfc_select_button_secondary_passport">Ini bukan e-Paspor</string>
 
     <string name="onfido_nfc_select_title_card">Percepat proses dengan NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Kami akan memindai chip NFC di kartu Anda</string>
-    <string name="onfido_nfc_select_body_card">Kartu dengan chip NFC memiliki simbol ini</string>
     <string name="onfido_nfc_select_button_primary_card">Gunakan kartu NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Ini bukan kartu NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Tempatkan ponsel Anda di dekat bagian atas paspor Anda</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Tempatkan ponsel Anda pada kartu</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Jaga ponsel Anda agar tidak goyang</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Kehilangan kontak dengan kartu</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Kehilangan kontak dengan paspor</string>
@@ -405,7 +365,7 @@
     <string name="onfido_avc_intro_list_item_one_accessibility">Pertama, Anda harus memosisikan wajah Anda di depan perangkat</string>
 	<string name="onfido_avc_intro_list_item_two">Kemudian, putar kepala Anda ke kedua sisi</string>
     <string name="onfido_avc_intro_list_item_two_accessibility">Kemudian, Anda harus memutar kepala perlahan ke kedua sisi</string>
-	<string name="onfido_avc_intro_disclaimer">Harap perhatikan bahwa kami akan merekam wajah dan latar belakang Anda</string>
+	<string name="onfido_avc_intro_disclaimer">Selama proses ini, wajah dan latar belakang Anda akan direkam</string>
 	<string name="onfido_avc_intro_button_primary_ready">Mulai merekam</string>
 	<string name="onfido_avc_face_alignment_title">Posisikan wajah Anda dalam bingkai</string>
 	<string name="onfido_avc_face_alignment_feedback_move_closer">Mendekatlah</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Merekam video wajah Anda</string>
 	<string name="onfido_avc_intro_video_accessibility">Contoh video seseorang memutar kepala ke kedua sisi hingga selesai</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Tetap putar kepala Anda</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Putar kepala Anda ke arah lain</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Lihat dari kamera swafoto</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Sisi kiri selesai</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">Oke</string>
     <string name="onfido_poa_welcome_text">Ambil foto dokumen dengan alamat Anda</string>
 	<string name="onfido_country_select_error_no_country_body">Kami tengah berupaya menambahkan lebih banyak negara ke daftar ini. Sementara itu, coba gunakan dokumen alternatif.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Maaf, tidak menerima tagihan telepon seluler</string>
-	<string name="onfido_doc_select_button_bill_detail">Gas, listrik, air, telepon rumah, atau broadband</string>
+    <string name="onfido_doc_select_button_bill_detail">Gas, listrik, air, telepon rumah, atau broadband</string>
 
 	<string name="onfido_doc_select_subtitle_country">Pilih negara penerbit untuk melihat dokumen apa saja yang kami terima</string>
 	<string name="onfido_doc_select_section_header_country">Negara penerbit</string>
 	<string name="onfido_doc_select_section_header_doc_type">Dokumen yang diterima</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Tidak Ada Hasil</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Seluruh halaman</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Halaman foto</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Halaman foto</string>
 	<string name="onfido_doc_select_subtitle_front_back">Depan dan belakang</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Pilih negara penerbit</string>
 
@@ -524,4 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Coba lagi</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio sedang diputar oleh aplikasi lain</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan memutar audio apa pun di perangkat Anda selama perekaman</string>
+	<string name="onfido_doc_capture_header_recording_video">Merekam video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Perekaman selesai</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Kami akan memindai chip NFC dokumen Anda</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Tempatkan dokumen Anda di bagian belakang perangkat Anda</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Perlahan geser perangkat Anda ke atas dan ke bawah</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Setelah pemindaian dimulai, tahan</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan verifikasi tanpa NFC</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">Lepaskan pelindung ponsel Anda</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">Jaga agar perangkat dan dokumen Anda tetap terhubung hingga pemindaian berhasil</string>
+	<string name="onfido_nfc_scan_error_final_title">Kami tidak dapat memverifikasi dokumen ini</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">Pemindaian NFC diperlukan untuk dokumen ini, tetapi tidak dapat diselesaikan.</string>
+	<string name="onfido_nfc_scan_error_final_list_item">Apakah Anda memiliki dokumen lain untuk melanjutkan?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Gunakan dokumen yang berbeda</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Kami akan memindai chip NFC dokumen Anda</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">Letakkan dokumen Anda di permukaan yang rata</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Buka dokumen Anda di halaman belakang bagian dalam</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Tempatkan dokumen Anda di bagian belakang perangkat Anda</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Perlahan geser perangkat Anda ke atas dan ke bawah</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Setelah pemindaian dimulai, tahan</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Dapatkan verifikasi tanpa NFC</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">Lepaskan sampul paspor dan pelindung ponsel Anda</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Jaga agar perangkat dan dokumen Anda tetap terhubung hingga pemindaian berhasil</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Tidak ada hasil yang cocok</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Satu hasil ditemukan</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d hasil ditemukan</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Foto layar terdeteksi</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Tangkapan layar terdeteksi</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopi terdeteksi</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Pemindaian terdeteksi</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Silakan gunakan dokumen asli Anda. Foto layar atau fotokopi tidak diterima</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Pilih dokumen lain</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Kirim foto saja</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Coba rekam video secara manual</string>
 </resources>

@@ -9,6 +9,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.3.0] - 2023-10-09
+
+### Added
+
+- Added a new artifact to facilitate integration in Dynamic Feature Modules
+
+### Changed
+
+- Increased Motion device coverage to devices that don't have Play Services
+- Added `installActivity` to allow Dynamic Feaature Modules
+- The compile sdk version has been upgraded to 33 to meet Google Play's target API level requirement
+
+### Fixed
+
+- Fixed the Out of Memory issue encountered during captured image confirmation
+- Replaced direct usage of Json serializer with our globally configured instance
+- Fixed background customization issue in capture confirmation screen
+
 ## [19.2.1] - 2023-08-29
 
 ### Changed

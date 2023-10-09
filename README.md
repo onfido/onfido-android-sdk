@@ -10,6 +10,7 @@
 * [Handling callbacks](#handling-callbacks)
 * [Custom Callbacks](#custom-callbacks)
 * [Customizing the SDK](#customizing-the-sdk)
+* [Dynamic Feature Module](#dynamic-feature-module)
 * [Creating checks](#creating-checks)
 * [User Analytics](#user-analytics)
 * [Going live](#going-live)
@@ -95,9 +96,57 @@ dependencies {
 }
 ```
 
-Due to the advanced validation support (in C++ code) we recommend that the integrator app performs [multi-APK split](#211-multi-apk-split) to optimize the app size for individual architectures.
+Due to the advanced validation support (in C++ code) we recommend that the integrator app performs [multi-APK split](#multi-apk-split) to optimize the app size for individual architectures.
 
-##### 2.1.1 Multi-APK split
+Average size (with Proguard enabled):
+
+| ABI         |   Size   |
+|-------------|:--------:|
+| armeabi-v7a | 13.02 Mb  |
+| arm64-v8a   | 12.88 Mb |
+| universal   | 40.13 Mb |
+
+#### 2.2 `onfido-capture-sdk-core`
+
+This is a lighter version. It provides a set of basic image validations, mostly completed on the backend. There are no real-time validations on-device for document capture.
+However, since our face capture utilizes NDK for advanced face recognition and yaw calculation, we still recommend [multi-APK split](#multi-apk-split) to optimize the app size for individual architectures.
+
+
+```gradle
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk-core:x.y.z'
+}
+```
+
+Average size (with Proguard enabled):
+
+| ABI              |   Size   |
+|------------------|:--------:|
+| core-armeabi-v7a | 9.90 Mb  |
+| core-arm64-v8a   | 9.97 Mb  |
+| core-universal   | 14.82 Mb |
+
+
+**Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
+using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
+Different versions of the dependencies, such as Gradle or NDK, may result in slightly different values.
+
+⚠️ In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
+According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running Android API 20+.
+If you need to support older devices, we need to access Google Play Services to install the latest security updates which enable this support.
+If you don't use Google Play Services on your integration yet, we require you to add the following dependency:
+
+```gradle
+compile ('com.google.android.gms:play-services-base:x.y.z') {
+           exclude group: 'com.android.support' // to avoid conflicts with your current support library
+}
+```
+
+##### Multi-APK split
 
 C++ code needs to be compiled for each of the CPU architectures (known as "ABIs") present on the Android environment. Currently, the SDK supports the following ABIs:
 
@@ -123,49 +172,6 @@ android {
 }
 ```
 Read the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits) for more information.
-
-Average size (with Proguard enabled):
-
-| ABI         |  Size   |
-| ----------- | :-----: |
-| armeabi-v7a | 11.62 Mb  |
-| arm64-v8a   | 11.42 Mb  |
-
-#### 2.2 `onfido-capture-sdk-core`
-
-This is a lighter version. It provides a set of basic image validations, mostly completed on the backend. There are no real-time validations on-device so ABI split is not needed.
-
-```gradle
-repositories {
-  mavenCentral()
-}
-
-dependencies {
-  implementation 'com.onfido.sdk.capture:onfido-capture-sdk-core:x.y.z'
-}
-```
-
-Average size (with Proguard enabled):
-
-| ABI         |  Size   |
-| ----------- | :-----: |
-| universal   | 8.51 Mb  |
-
-
-**Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
-using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
-Different versions of the dependencies, such as Gradle or NDK, may result in slightly different values.
-
-⚠️ In order to improve the security of our clients, we upgraded our infrastructure and SDK client SSL configurations to support TLSv1.2 only.
-According to the relevant [Google documentation](https://developer.android.com/reference/javax/net/ssl/SSLSocket.html), this support comes enabled by default on every device running Android API 20+.
-If you need to support older devices, we need to access Google Play Services to install the latest security updates which enable this support.
-If you don't use Google Play Services on your integration yet, we require you to add the following dependency:
-
-```gradle
-compile ('com.google.android.gms:play-services-base:x.y.z') {
-           exclude group: 'com.android.support' // to avoid conflicts with your current support library
-}
-```
 
 ### 3. Create an applicant
 
@@ -545,34 +551,11 @@ We provide an up-to-date list of our [supported documents](https://onfido.com/su
 In this step a user can use the front camera to capture their face in the form of photo, video or motion capture.
 
 The Face step has 3 variants:
-1. To configure for photo use `FlowStep.CAPTURE_FACE` or `FaceCaptureStepBuilder.forPhoto()`.
+1. To configure for photo use `FaceCaptureStepBuilder.forPhoto()`.
 2. To configure for video use `FaceCaptureStepBuilder.forVideo()`.
 3. To configure for motion use `FaceCaptureStepBuilder.forMotion()`.
 
 **Motion**
-
-The Motion variant may not be supported on certain devices due to device capabilities and/or Google Play Services availability along with MLKit Face Detection module.
-If the Motion variant is not supported on the user’s device, you can configure the SDK to allow the user to capture a Selfie or a Video instead by using the `withCaptureFallback` function.
-
-The following examples show how to configure the Motion variant with a Photo capture fallback and a Video capture fallback. 
-
-```java
-FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
-                .withCaptureFallback(
-                    FaceCaptureStepBuilder.forPhoto()
-                        .withIntro(showIntro)
-                )
-                .build();
-
-FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
-                .withCaptureFallback(
-                    FaceCaptureStepBuilder.forVideo()
-                        .withIntro(showIntro)
-                )
-                .build();
-```
-
-Please note that if no fallback is configured and Motion is not supported on the user device the flow will end with an `OnfidoException` resulting in an `onError` callback.
 
 Motion supports audio recording, but it is disabled by default. In order to enable it use `.withAudio(true)`.
 
@@ -584,14 +567,17 @@ FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
 
 **Introduction screen**
 
-By default both face and video variants show an introduction screen. This is an optional screen. You can disable it using the `withIntro(false)` function.
-Customization of introduction screen for motion variant is not available.
+By default all variants show an introduction screen. This is an optional screen only for face variant. You can disable it using the `withIntro(false)` function.
 
 ```java
-FlowStep faceCaptureStep = FaceCaptureStepBuilder.forVideo()
+FlowStep faceCaptureStep = FaceCaptureStepBuilder.forPhoto()
                 .withIntro(false)
                 .build();
 ```
+
+Please note that you can only hide the intro video (not the whole screen) in video variant by using the `withIntro(false)` function.
+
+Customization of introduction screen for motion variant is not available.
 
 **Confirmation screen**
 
@@ -848,7 +834,7 @@ If you want a locale translated you can get in touch with us at [android-sdk@onf
 
 ## Custom Callbacks
 
-### Media Callbacks BETA
+### Media Callbacks
 
 #### Introduction
 Onfido provides the possibility to integrate with our Smart Capture SDK, without the requirement of using this data only through the Onfido API. Media callbacks enable you to control the end user data collected by the SDK after the end user has submitted their captured media. As a result, you can leverage Onfido’s advanced on-device technology, including image quality validations, while still being able to handle end users’ data directly. This unlocks additional use cases, including compliance requirements and multi-vendor configurations, that require this additional flexibility.
@@ -940,6 +926,23 @@ After receiving the user data from the SDK, you can choose to [create a check](#
 
 Please see our [API documentation](https://documentation.onfido.com/#create-check) for more information on how to create a check.
 
+## Dynamic Feature Module (Beta)
+
+You can also integrate Onfido's Android SDK using a Dynamic Feature Module. The advantage of this configuration is that it reduces the SDK size to essentialy zero, as it is only initialized at run time.
+
+To configure the Dynamic Feature Module, follow these steps:
+
+1. Create a Dynamic Feature module
+2. Import the Onfido SDK as a library in the Dynamic Feature module
+   * Customers can decide how the module will be installed and this won’t affect Onfido SDK behaviour
+   * Configure [install-time delivery](https://developer.android.com/guide/playcore/feature-delivery/install-time)
+   * Configure [conditional delivery](https://developer.android.com/guide/playcore/feature-delivery/conditional)
+   * Configure [on-demand delivery](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
+3. Add a new Activity in this new Dynamic Feature Module
+   * Use the Activity to configure the Onfido SDK and launch
+   * Make sure to [call](https://developer.android.com/reference/com/google/android/play/core/splitcompat/SplitCompat.html#installActivity(android.content.Context)) `SplitCompat.installActivity`
+4. Add `implementation 'com.onfido.sdk:onfido-dfm-base:<onfido_version>'` in your base app module
+5. Finally, launch your Activity anywhere from your codebase
 
 ## Creating checks
 

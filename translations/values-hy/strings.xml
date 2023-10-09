@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Ընտրեք թողարկող երկիրը</string>
 	<string name="onfido_country_select_bottom_sheet_title">Չե՞ք կարողանում գտնել ձեր երկիրը։</string>
     <string name="onfido_country_select_bottom_sheet_details">Կարծես թե ձեր ընտրած փաստաթղուղթը տրամադրող երկիրը չի սպասարկվում։ Խնդրում ենք ընտրել այլ երկիր։</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Փակել</string>
-    <string name="onfido_selfie_intro_subtitle">Մենք այն կհամեմատենք ձեր փաստաթղթի հետ</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Մենք այն կհամեմատենք ձեր փաստաթղթի հետ</string>
     <string name="onfido_selfie_capture_body">Պահեք ձեր դեմքը շրջանակի ներսում</string>
     <string name="onfido_video_capture_prompt_button_timeout">Կրկին փորձել</string>
     <string name="onfido_generic_error_camera_unavailable">Այս սարքի մեջ տեսախցիկ առկա չէ</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Հաջորդ քայլ</string>
 	<string name="onfido_video_confirmation_error_media_player">Ձեր տեսանյութի հետ խնդիր է առաջացել։ Խնդրում ենք կրկին տեսագրել այն։</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Կրկին բեռնել</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Կրկին բեռնեք տեսանյութի օրինակը</string>
     <string name="onfido_video_intro_error_network">Չհաջողվեց բեռնել անկայուն կապի պատճառով</string>
-    <string name="onfido_video_intro_error_network_accessibility">Չհաջողվեց բեռնել տեսանյութի օրինակը՝ անկայուն կապի պատճառով</string>
-	<string name="onfido_video_intro_error_load_offline">Չհաջողվեց բեռնել կապի բացակայության պատճառով</string>
+    <string name="onfido_video_intro_error_load_offline">Չհաջողվեց բեռնել կապի բացակայության պատճառով</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Առաջարկվող երկիր</string>
     <string name="onfido_country_select_list_header_all">Բոլոր երկրները</string>
     <string name="onfido_app_title_country_select_search">Որոնել</string>
-    <string name="onfido_country_select_error_no_country_title">Երկիրը չի գտնվել</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Փորձեք լուսանկարել ձեռքով</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Գտնվել է խավար լուսանկար</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Գտնվել է խավար լուսանկար</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Շտրիխ կոդը չի գտնվել</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Կանգնեք լավ լուսավորված տեղում և քարտը մոտեցրեք տեսախցիկին</string>
     <string name="onfido_permission_recovery_button_primary">Ակտիվացնել կարգավորումների միջոցով</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Կրկին ստուգել</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Տեսագրության ընթացքում մենք կմիացնենք ձեր սարքի լուսաբռնկիչը</string>
-	<string name="onfido_doc_video_capture_header">Փաստաթուղթը պահեք այնպես, որ փաստաթղթի դիմերեսը տեղավորվի շրջանակի մեջ</string>
-    <string name="onfido_doc_video_capture_header_step1">Հիմա մի շարժվեք</string>
-    <string name="onfido_doc_video_capture_detail_step2">Ամբողջ ընթացքում տեսադաշտում պահեք փաստաթուղթն ամբողջությամբ</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Հաջորդ քայլ</string>
-    <string name="onfido_doc_video_capture_header_passport">Անձնագիրը պահեք այնպես, որ լուսանկարի էջը տեղավորվի շրջանակի մեջ</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Դանդաղ պտտեք ձեր փաստաթուղթը՝ ցույց տալու համար էջերի արտաքին կողմերը</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Տեսագրությունը կարող է տևել %1$s վայրկյանից ոչ ավելի։</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Կատարված է</string>
-	<string name="onfido_doc_video_capture_stepper">Քայլ %1$d՝ ընդհանուր %2$d-ից</string>
-    <string name="onfido_doc_video_capture_header_step2">Դանդաղ պտտեք ձեր փաստաթուղթը՝ դարձերեսը ցույց տալու համար</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Նախադիտել տեսանյութը</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Ավարտեք տեսագրումը</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Մի շարժվեք</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">Տեսագրությունը կարող է տևել %1$s վայրկյանից ոչ ավելի։</string>
+    <string name="onfido_doc_video_capture_stepper">Քայլ %1$d՝ ընդհանուր %2$d-ից</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Ուղարկել լուսանկարը</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Կրկին լուսանկարել</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Անհրաժեշտության դեպքում հանեք ակնոցը</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Հեռացրեք ձեր դեմքը ծածկող ցանկացած բան։ Ակնոցը չի խանգարում</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Հավասարեցրեք փաստաթուղթը, ապա սեղմեք կոճակը</string>
     <string name="onfido_doc_select_subtitle">Դա պետք է լինի անձը հաստատող պաշտոնական փաստաթուղթ՝ լուսանկարով</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Կրկին լուսանկարել</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Կրկին լուսանկարել</string>
     <string name="onfido_video_intro_title">Տեսագրել տեսանյութ</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Ընտրել մեկ այլ փաստաթուղթ</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Գլուխը պտտեք դեպի ձախ </string>
     <string name="onfido_video_capture_header_challenge_turn_right">Գլուխը պտտեք դեպի աջ </string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Օգտագործեք ձեր սարքը հետևյալ նպատակներով․</string>
     <string name="onfido_welcome_list_item_doc_photo">Լուսանկարեք ձեր անձը հաստատող փաստաթուղթը</string>
-    <string name="onfido_welcome_list_item_doc_video">Տեսագրեք ձեր անձը հաստատող փաստաթուղթը</string>
-	<string name="onfido_welcome_list_item_doc_generic">Ձեր անձը հաստատող փաստաթուղթի վիդեոն գրանցեք</string>
+    <string name="onfido_welcome_list_item_doc_generic">Ձեր անձը հաստատող փաստաթուղթի վիդեոն գրանցեք</string>
     <string name="onfido_welcome_list_item_face_photo">Լուսանկարեք ձեր դեմքը</string>
     <string name="onfido_welcome_list_item_face_video">Տեսագրեք ձեր դեմքը</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Կրկին սկանավորել</string>
     <string name="onfido_nfc_scan_error_button_secondary">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
-    <string name="onfido_nfc_scan_error_list_item">Հանեք ձեր հեռախոսի պատյանը</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Սկանավորման մեկնարկից հետո մի շարժվեք</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Սկանավորման ընթացքում մի շարժեք ձեր հեռախոսը կամ անձնագիրը</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Կարող եք փորձել նաև հետևի էջի ներսի կողմը</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Հեռախոսը դրեք ձեր անձնագրի վերևի մասում</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Դանդաղ սահեցրեք ձեր հեռախոսը ներքև և վերև</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Դրեք ձեր անձնագիրը հարթ մակերեսի վրա</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Սկանավորումը սկսելուն պես՝ հեռախոսն անշարժ պահեք</string>
-    <string name="onfido_nfc_intro_title_card">Սկանավորեք ձեր NFC քարտը</string>
     <string name="onfido_nfc_intro_title_passport">Սկանավորեք ձեր էլեկտրոնային անձնագիրը</string>
     <string name="onfido_nfc_intro_subtitle">Հետևեք ստորև բերված հրահանգներին</string>
     <string name="onfido_nfc_intro_button_primary">Սկսել սկանավորումը</string>
-    <string name="onfido_nfc_intro_list_item">Տեղադրեք ձեր քարտը ձեր սարքի հետևի մասում</string>
-    <string name="onfido_nfc_intro_list_item_2">Դանդաղ շարժեք ձեր բջջայինը վերև և ներքև</string>
-    <string name="onfido_nfc_intro_list_item_3">Սկանավորման մեկնարկից հետո մի շարժվեք</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Մենք հաջողությամբ սկանավորեցինք ձեր անձնագիրը</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Մենք հաջողությամբ սկանավորեցինք ձեր քարտը</string>
 
     <string name="onfido_nfc_select_title_passport">Արագացնել գործընթացը՝ օգտագործելով NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Մենք սկանավորելու ենք ձեր անձնագրի NFC չիպը</string>
-    <string name="onfido_nfc_select_body_passport">Էլեկտրոնային անձնագրերի կազմի վրա առկա է այս նշանը</string>
     <string name="onfido_nfc_select_button_primary_passport">Օգտագործել էլեկտրոնային անձնագիրը</string>
     <string name="onfido_nfc_select_button_secondary_passport">Սա էլեկտրոնային անձնագիր չէ</string>
 
     <string name="onfido_nfc_select_title_card">Արագացնել գործընթացը՝ օգտագործելով NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Մենք սկանավորելու ենք ձեր քարտի միջի NFC չիպը</string>
-    <string name="onfido_nfc_select_body_card">NFC չիպերով քարտերն ունեն այս նշանը</string>
     <string name="onfido_nfc_select_button_primary_card">Օգտագործել NFC քարտ</string>
-    <string name="onfido_nfc_select_button_secondary_card">Դա NFC քարտ չէ</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Հեռախոսը դրեք ձեր անձնագրի վերևի մասին մոտ</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Հեռախոսը դրեք քարտի վրա</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Ձեր հեռախոսը անշարժ պահեք</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Քարտի հետ կապը կորավ</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Անձնագրի հետ կապը կորավ</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Տեսագրեք ձեր դեմքը</string>
 	<string name="onfido_avc_intro_video_accessibility">Տեսանյութի օրինակ, որտեղ ինչ-որ մեկը գլուխը շրջում է երկու կողմ մինչ ավարտը</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Շարունակեք պտտել ձեր գլուխը</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Գլուխը պտտեք մյուս կողմ</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Սելֆիի խցիկից երևացող պատկեր։</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Ձախ կողմը գրանցված է</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">Լավ</string>
     <string name="onfido_poa_welcome_text">Լուսանկարեք ձեր հասցեն պարունակող փաստաթուղթը</string>
 	<string name="onfido_country_select_error_no_country_body">Մենք աշխատում ենք ցանկում ավելի շատ երկրներ ավելացնելու ուղղությամբ։ Մինչ այդ, փորձեք օգտագործել այլ փաստաթուղթ։</string>
-	<string name="onfido_doc_select_extra_no_mobile">Ներեցեք, շարժական հեռախոսի հաշիվները չեն ընդունվում</string>
-	<string name="onfido_doc_select_button_bill_detail">Գազ, էլեկտրաէներգիա, ջուր, ֆիքսված հեռախոսակապ կամ ինտերնետ</string>
+    <string name="onfido_doc_select_button_bill_detail">Գազ, էլեկտրաէներգիա, ջուր, ֆիքսված հեռախոսակապ կամ ինտերնետ</string>
 
 	<string name="onfido_doc_select_subtitle_country">Ընտրեք թողարկող երկիրը՝ տեսնելու համար, թե որ փաստաթղթերն են ընդունելի մեզ համար</string>
 	<string name="onfido_doc_select_section_header_country">Թողարկող երկիր</string>
 	<string name="onfido_doc_select_section_header_doc_type">Ընդունելի փաստաթղթեր</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Ոչ մի արդյունք չի գտնվել</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Ամբողջական էջը</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Լուսանկարով էջ</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Լուսանկարով էջ</string>
 	<string name="onfido_doc_select_subtitle_front_back">Դիմերես և դարձերես</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Ընտրեք թողարկող երկիրը</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Կրկին փորձել</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Արագացնել գործընթացը՝ օգտագործելով NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Դանդաղ սահեցրեք ձեր սարքը վեր ու վար</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Սկանավորումը սկսելուց հետո այն անշարժ պահեք</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Սկսել սկանավորումը</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
-	<string name="onfido_nfc_scan_error_inter_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Հանեք ձեր հեռախոսի պատյանը</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Հանեք ձեր հեռախոսի պատյանը</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Կրկին սկանավորել</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
-	<string name="onfido_nfc_scan_error_final_title">Մենք չկարողացանք ստուգել այս փաստաթուղթը</string>
+    <string name="onfido_nfc_scan_error_final_title">Մենք չկարողացանք ստուգել այս փաստաթուղթը</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-ի սկանավորումն անհրաժեշտ է այս փաստաթղթի համար, սակայն չհաջողվեց ավարտել:</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Դուք այլ փաստաթուղթ ունե՞ք շարունակելու համար:</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Օգտագործեք տարբեր փաստաթուղթ</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Արագացնել գործընթացը՝ օգտագործելով NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Դրեք ձեր փաստաթուղթը հարթ մակերեսի վրա</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Բացեք ձեր փաստաթուղթը ներքին հետևի էջում</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Դանդաղ սահեցրեք ձեր սարքը վեր ու վար</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Սկանավորումը սկսելուց հետո այն անշարժ պահեք</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Սկսել սկանավորումը</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Հանեք անձնագրի և հեռախոսի կազմերը</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Հանեք անձնագրի և հեռախոսի կազմերը</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Կրկին սկանավորել</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
-	<string name="onfido_doc_capture_header_recording_video">Տեսանյութի գրանցում</string>
+    <string name="onfido_doc_capture_header_recording_video">Տեսանյութի գրանցում</string>
 	<string name="onfido_doc_capture_header_recording_complete">Տեսագրումն ավարտված է</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Համապատասխանող արդյունքներ չկան</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Գտնվել է մեկ արդյունք</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d արդյունք է գտնվել</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">էկրանի լուսանկարը հայտնաբերվել է</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Պատկերանման հայտնաբերում</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Պատճենի հայտնաբերում</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Հայտնաբերվել է սկանավորում</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Օգտագործեք ձեր սկզբնական փաստաթուղթը։ Էկրանի լուսանկարները կամ ֆոտոկոպիաները չեն ընդունվում:</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Ընտրել մեկ այլ փաստաթուղթ</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Ներկայացրեք լուսանկարը ամեն դեպքում</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Փորձեք ձեռքով վիդեո գրանցել</string>
 </resources>

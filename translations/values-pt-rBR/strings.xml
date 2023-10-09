@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Selecionar país emissor</string>
 	<string name="onfido_country_select_bottom_sheet_title">Não consegue encontrar o seu país?</string>
     <string name="onfido_country_select_bottom_sheet_details">Parece que o país do documento que você selecionou não é suportado. Selecione um país diferente.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Fechar</string>
-    <string name="onfido_selfie_intro_subtitle">Compararemos ela com o seu documento</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Compararemos ela com o seu documento</string>
     <string name="onfido_selfie_capture_body">Mantenha seu rosto dentro da forma oval</string>
     <string name="onfido_video_capture_prompt_button_timeout">Tentar novamente</string>
     <string name="onfido_generic_error_camera_unavailable">Não há câmera disponível neste dispositivo</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Próxima etapa</string>
 	<string name="onfido_video_confirmation_error_media_player">Ocorreu um erro com seu vídeo. Repita o procedimento.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Recarregar</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Recarregar vídeo de exemplo</string>
     <string name="onfido_video_intro_error_network">Não foi possível carregar devido à rede instável</string>
-    <string name="onfido_video_intro_error_network_accessibility">Não foi possível carregar o vídeo de exemplo devido à rede instável</string>
-	<string name="onfido_video_intro_error_load_offline">Não foi possível carregar porque você está offline</string>
+    <string name="onfido_video_intro_error_load_offline">Não foi possível carregar porque você está offline</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">País sugerido</string>
     <string name="onfido_country_select_list_header_all">Todos os países</string>
     <string name="onfido_app_title_country_select_search">Pesquisar</string>
-    <string name="onfido_country_select_error_no_country_title">País não encontrado</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Tente tirar uma foto manualmente</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Foto desfocada detectada</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Foto desfocada detectada</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Código de barras não detectado</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Fique em um local bem iluminado e aproxime o cartão da câmera</string>
     <string name="onfido_permission_recovery_button_primary">Ativar nas configurações</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Revisar novamente</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Ativaremos o flash do seu dispositivo durante a gravação de vídeo</string>
-	<string name="onfido_doc_video_capture_header">Enquanto segura seu documento, mantenha a parte frontal dentro do quadro</string>
-    <string name="onfido_doc_video_capture_header_step1">Agora, não se mova</string>
-    <string name="onfido_doc_video_capture_detail_step2">Mantenha sempre o documento visível</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Próxima etapa</string>
-    <string name="onfido_doc_video_capture_header_passport">Enquanto segura seu passaporte, mantenha a página com foto dentro do quadro</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Vire lentamente o documento para mostrar as páginas externas</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">A gravação de vídeo é limitada a %1$s segundos.</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Sucesso</string>
-	<string name="onfido_doc_video_capture_stepper">Etapa %1$d de %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Vire lentamente o documento para mostrar a parte de trás</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Pré-visualização do vídeo</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Terminar gravação</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Não se mova</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">A gravação é limitada a ​%1$s​ segundos</string>
+    <string name="onfido_doc_video_capture_stepper">Etapa %1$d de %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Enviar foto</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Tirar uma nova foto</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Remova os óculos, se necessário</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Remova qualquer coisa que cubra seu rosto. Óculos podem ser usados</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Alinhe o documento e pressione o botão</string>
     <string name="onfido_doc_select_subtitle">Deve ser um ID oficial com foto</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Tirar uma nova foto</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Tirar uma nova foto</string>
     <string name="onfido_video_intro_title">Gravar um vídeo</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Escolher outro documento</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Vire a cabeça para a esquerda</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Vire a cabeça para a direita</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Use seu dispositivo para:</string>
     <string name="onfido_welcome_list_item_doc_photo">Tirar uma foto do seu documento de identidade</string>
-    <string name="onfido_welcome_list_item_doc_video">Gravar um vídeo do seu documento de identidade</string>
-	<string name="onfido_welcome_list_item_doc_generic">Faça uma gravação do seu documento de identidade</string>
+    <string name="onfido_welcome_list_item_doc_generic">Faça uma gravação do seu documento de identidade</string>
     <string name="onfido_welcome_list_item_face_photo">Tirar uma foto do seu rosto</string>
     <string name="onfido_welcome_list_item_face_video">Gravar um vídeo do seu rosto</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Repetir digitalização</string>
     <string name="onfido_nfc_scan_error_button_secondary">Seja verificado sem NFC</string>
     <string name="onfido_nfc_scan_error_title">Não foi possível digitalizar seu documento</string>
-    <string name="onfido_nfc_scan_error_list_item">Remova a capa do celular</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Assim que a digitalização começar, não se mova</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Não mova seu celular ou passaporte durante a digitalização</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Você também pode tentar o interior da página do verso</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Coloque seu celular na parte superior do passaporte</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Deslize lentamente o celular para baixo e para cima</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Coloque seu passaporte em uma superfície plana</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Assim que a digitalização começar, mantenha o celular parado</string>
-    <string name="onfido_nfc_intro_title_card">Digitalize seu cartão NFC</string>
     <string name="onfido_nfc_intro_title_passport">Digitalizar seu passaporte eletrônico</string>
     <string name="onfido_nfc_intro_subtitle">Siga as instruções abaixo</string>
     <string name="onfido_nfc_intro_button_primary">Iniciar digitalização</string>
-    <string name="onfido_nfc_intro_list_item">Coloque o seu cartão na parte de trás do seu dispositivo</string>
-    <string name="onfido_nfc_intro_list_item_2">Deslize lentamente seu celular para cima e para baixo</string>
-    <string name="onfido_nfc_intro_list_item_3">Assim que a digitalização começar, não se mova</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Digitalizamos seu passaporte com sucesso</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Digitalizamos seu cartão com sucesso</string>
 
     <string name="onfido_nfc_select_title_passport">Acelere o processo com NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Digitalizaremos o chip NFC no seu passaporte</string>
-    <string name="onfido_nfc_select_body_passport">Os passaportes eletrônicos têm este símbolo na capa</string>
     <string name="onfido_nfc_select_button_primary_passport">Usar passaporte eletrônico</string>
     <string name="onfido_nfc_select_button_secondary_passport">Não é um passaporte eletrônico</string>
 
     <string name="onfido_nfc_select_title_card">Acelere o processo com NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Digitalizaremos o chip NFC no seu cartão</string>
-    <string name="onfido_nfc_select_body_card">Cartões com chips NFC têm este símbolo</string>
     <string name="onfido_nfc_select_button_primary_card">Usar cartão NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Não é um cartão NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Coloque seu celular perto da parte superior do passaporte</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Coloque seu celular no cartão</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Mantenha seu celular parado</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Perda de contato com o cartão</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Perda de contato com o passaporte</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Gravar um vídeo do seu rosto</string>
 	<string name="onfido_avc_intro_video_accessibility">Exemplo de vídeo de alguém virando a cabeça para os dois lados até a conclusão</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Continue virando a cabeça</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Vire a cabeça para o outro lado</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Visualização de selfie pela câmera</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Lado esquerdo concluído</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">Ok</string>
     <string name="onfido_poa_welcome_text">Tire uma foto de um documento com o seu endereço</string>
 	<string name="onfido_country_select_error_no_country_body">Estamos trabalhando para adicionar mais países à lista. Enquanto isso, tente usar um documento diferente.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Desculpe, contas de celular não são aceitas</string>
-	<string name="onfido_doc_select_button_bill_detail">Gás, eletricidade, água, telefone fixo ou Internet</string>
+    <string name="onfido_doc_select_button_bill_detail">Gás, eletricidade, água, telefone fixo ou Internet</string>
 
 	<string name="onfido_doc_select_subtitle_country">Selecione o país emissor para ver quais documentos são aceitos</string>
 	<string name="onfido_doc_select_section_header_country">País emissor</string>
 	<string name="onfido_doc_select_section_header_doc_type">Documentos aceitos</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Sem resultados</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Página inteira</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Página com foto</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Página com foto</string>
 	<string name="onfido_doc_select_subtitle_front_back">Frente e verso</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Selecionar país emissor</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Tentar novamente</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">O áudio está sendo reproduzido por outro app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Não reproduza nenhum áudio em seu dispositivo durante a gravação</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Acelere o processo com NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Escaneamos o chip NFC do seu documento</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Escaneamos o chip NFC do seu documento</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Coloque o seu documento na parte de trás do seu dispositivo</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Deslize lentamente o dispositivo para cima e para baixo</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Assim que a verificação começar, mantenha-o imóvel</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Iniciar digitalização</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Seja verificado sem NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Não foi possível digitalizar seu documento</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Remova a capa do celular</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Seja verificado sem NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Remova a capa do celular</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Mantenha seu dispositivo e documento em contato até que a verificação seja bem-sucedida</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Repetir digitalização</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Seja verificado sem NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Não foi possível verificar este documento</string>
+    <string name="onfido_nfc_scan_error_final_title">Não foi possível verificar este documento</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">A verificação NFC é necessária para este documento, mas não pôde ser concluída.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Você tem um documento diferente para prosseguir?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Usar documento diferente</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Seja verificado sem NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Acelere o processo com NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Escaneamos o chip NFC do seu documento</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Escaneamos o chip NFC do seu documento</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Coloque seu documento em uma superfície plana</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Abra seu documento na última página interna</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Coloque o seu documento na parte de trás do seu dispositivo</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Deslize lentamente o dispositivo para cima e para baixo</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Assim que a verificação começar, mantenha-o imóvel</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Iniciar digitalização</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Seja verificado sem NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Não foi possível digitalizar seu documento</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Remova as capas do seu passaporte e celular</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Seja verificado sem NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Remova as capas do seu passaporte e celular</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Mantenha seu dispositivo e documento em contato até que a verificação seja bem-sucedida</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Repetir digitalização</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Seja verificado sem NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Gravando vídeo</string>
+    <string name="onfido_doc_capture_header_recording_video">Gravando vídeo</string>
 	<string name="onfido_doc_capture_header_recording_complete">Gravação concluída</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Não há resultados correspondentes</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Encontramos um resultado</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Encontramos %d resultados</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Foto da tela detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Captura de tela detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Cópia fotográfica detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Varredura detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Por favor, use seu documento original. Fotos de tela ou fotocópias não são aceitas</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Escolher outro documento</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Enviar foto mesmo assim</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Tente gravar vídeo manualmente</string>
 </resources>

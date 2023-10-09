@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Vælg udstedende land</string>
 	<string name="onfido_country_select_bottom_sheet_title">Kan du ikke finde dit land?</string>
     <string name="onfido_country_select_bottom_sheet_details">Det ser ud til, at det land, du har valgt for dokumentet, ikke understøttes. Vælg et andet land.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Luk</string>
-    <string name="onfido_selfie_intro_subtitle">Vi sammenligner billedet med dit dokument</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Vi sammenligner billedet med dit dokument</string>
     <string name="onfido_selfie_capture_body">Hold dit ansigt inden for den ovale cirkel</string>
     <string name="onfido_video_capture_prompt_button_timeout">Prøv igen</string>
     <string name="onfido_generic_error_camera_unavailable">Denne enhed har ikke noget kamera</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Næste trin</string>
 	<string name="onfido_video_confirmation_error_media_player">Der opstod en fejl med din video. Optag den igen.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Genindlæs</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Genindlæs videoeksempel</string>
     <string name="onfido_video_intro_error_network">Kan ikke indlæses på grund af ustabilt netværk</string>
-    <string name="onfido_video_intro_error_network_accessibility">Kan ikke indlæse videoeksemplet på grund af ustabilt netværk</string>
-	<string name="onfido_video_intro_error_load_offline">Kan ikke indlæse, fordi du er offline</string>
+    <string name="onfido_video_intro_error_load_offline">Kan ikke indlæse, fordi du er offline</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Foreslået land</string>
     <string name="onfido_country_select_list_header_all">Alle lande</string>
     <string name="onfido_app_title_country_select_search">Søg</string>
-    <string name="onfido_country_select_error_no_country_title">Landet blev ikke fundet</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Tag billedet manuelt</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Billedet er sløret</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Billedet er sløret</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Stregkoden er ikke detekteret</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ophold dig på et godt oplyst sted, og før kortet ind mod kameraet</string>
     <string name="onfido_permission_recovery_button_primary">Aktivér i indstillinger</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Gennemgå igen</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Vi slår din enheds blitz til under videooptagelsen</string>
-	<string name="onfido_doc_video_capture_header">Sørg for, at dokumentets forside er inden for rammen, mens du holder dokumentet</string>
-    <string name="onfido_doc_video_capture_header_step1">Hold det stille nu</string>
-    <string name="onfido_doc_video_capture_detail_step2">Dokumentet skal hele tiden være synligt</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Næste trin</string>
-    <string name="onfido_doc_video_capture_header_passport">Sørg for, at siden i passet, hvor billedet fremgår er inden for rammen, mens du holder passet</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Vend langsomt dit dokument om, så ydersiderne bliver vist</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Videoen må højst vare %1$s sekunder</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Gennemført</string>
-	<string name="onfido_doc_video_capture_stepper">Trin ​%1$d​ af ​%2$d​</string>
-    <string name="onfido_doc_video_capture_header_step2">Vend langsomt dit dokument om, så bagsiden bliver vist</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Forhåndsvis video</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Afslut optagelsen</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Hold det stille</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Optagelsen må højst vare %1$s sekunder</string>
+    <string name="onfido_doc_video_capture_stepper">Trin ​%1$d​ af ​%2$d​</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Indsend billede</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Tag billede igen</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Tag dine briller af, om nødvendigt</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Fjern alt, der dækker dit ansigt. Briller må anvendes</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Juster dokumentet, og tryk derefter på knappen</string>
     <string name="onfido_doc_select_subtitle">Det skal være et officielt billed-ID</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Tag billede igen</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Tag billede igen</string>
     <string name="onfido_video_intro_title">Optag en video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Vælg et andet dokument</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Drej hovedet til venstre</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Drej hovedet til højre</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Brug din enhed til at:</string>
     <string name="onfido_welcome_list_item_doc_photo">Tag et billede af dit ID-dokument</string>
-    <string name="onfido_welcome_list_item_doc_video">Optag en video af dit ID-dokument</string>
-	<string name="onfido_welcome_list_item_doc_generic">Optag en video af dit identitetsdokument</string>
+    <string name="onfido_welcome_list_item_doc_generic">Optag en video af dit identitetsdokument</string>
     <string name="onfido_welcome_list_item_face_photo">Tag et billede af dit ansigt</string>
     <string name="onfido_welcome_list_item_face_video">Optag en video af dit ansigt</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Prøv at scanne igen</string>
     <string name="onfido_nfc_scan_error_button_secondary">Bliv bekræftet uden NFC</string>
     <string name="onfido_nfc_scan_error_title">Vi kan ikke scanne dit dokument</string>
-    <string name="onfido_nfc_scan_error_list_item">Fjern dit telefonetui</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Når scanningen starter, skal du holde det stille</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Du må ikke flytte din telefon eller dit pas, mens du scanner</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Du kan også prøve indersiden af bagsiden</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Placer din telefon på den øverste del af passet</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Skub din telefon langsomt ned- og opad</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Læg dit pas på en plan overflade</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Når scanningen starter, skal du holde telefonen stille</string>
-    <string name="onfido_nfc_intro_title_card">Scan dit NFC-kort</string>
     <string name="onfido_nfc_intro_title_passport">Scan dit ePas</string>
     <string name="onfido_nfc_intro_subtitle">Følg anvisningerne nedenfor</string>
     <string name="onfido_nfc_intro_button_primary">Start scanning</string>
-    <string name="onfido_nfc_intro_list_item">Placer dit kort på bagsiden af din enhed</string>
-    <string name="onfido_nfc_intro_list_item_2">Skub din mobil langsomt op- og nedad</string>
-    <string name="onfido_nfc_intro_list_item_3">Når scanningen starter, skal du holde det stille</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Vi har nu scannet dit pas</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Vi har nu scannet dit kort</string>
 
     <string name="onfido_nfc_select_title_passport">Fremskynd processen med NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Vi scanner NFC-chippen i dit pas</string>
-    <string name="onfido_nfc_select_body_passport">ePas har dette symbol på forsiden</string>
     <string name="onfido_nfc_select_button_primary_passport">Brug ePas</string>
     <string name="onfido_nfc_select_button_secondary_passport">Det er ikke et ePas</string>
 
     <string name="onfido_nfc_select_title_card">Fremskynd processen med NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Vi scanner NFC-chippen på dit kort</string>
-    <string name="onfido_nfc_select_body_card">Kort med NFC-chips har dette symbol</string>
     <string name="onfido_nfc_select_button_primary_card">Brug et NFC-kort</string>
-    <string name="onfido_nfc_select_button_secondary_card">Det er ikke et NFC-kort</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Placer din telefon i nærheden af den øverste del af passet</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Placer din telefon på kortet</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Hold din telefon stille</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Ingen berøring af kortet</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Ingen berøring af passet</string>
@@ -437,7 +397,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Optag en video af dit ansigt</string>
 	<string name="onfido_avc_intro_video_accessibility">Videoeksempel på en person, der drejer hovedet til begge sider indtil handlingen er fuldført</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Bliv ved med at dreje hovedet</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Drej hovedet til den anden side</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Visning fra selfie-kameraet</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Venstre side er fuldført</string>
@@ -504,15 +463,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Tag et billede af et dokument med din adresse</string>
 	<string name="onfido_country_select_error_no_country_body">Vi arbejder på at føje flere lande til listen. I mellemtiden skal du bruge et andet dokument.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Vi beklager, men mobiltelefonregninger accepteres ikke</string>
-	<string name="onfido_doc_select_button_bill_detail">Gas, elektricitet, vand, fastnet eller bredbånd</string>
+    <string name="onfido_doc_select_button_bill_detail">Gas, elektricitet, vand, fastnet eller bredbånd</string>
 
 	<string name="onfido_doc_select_subtitle_country">Vælg udstedelsesland for at se, hvilke dokumenter vi accepterer</string>
 	<string name="onfido_doc_select_section_header_country">Udstedelsesland</string>
 	<string name="onfido_doc_select_section_header_doc_type">Accepterede dokumenter</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Ingen resultater</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Hele siden</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Side med billede</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Side med billede</string>
 	<string name="onfido_doc_select_subtitle_front_back">For- og bagside</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Vælg udstedende land</string>
 
@@ -523,37 +480,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Prøv igen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Der afspilles lyd i anden app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Afspil ikke lyd på enheden under optagelsen</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Fremskynd processen med NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Vi scanner NFC-chippen på dit dokument</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Vi scanner NFC-chippen på dit dokument</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Placer dit dokument på bagsiden af din enhed</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Skub langsomt din enhed op og ned</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Når scanningen starter, skal du holde den stille</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Start scanning</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Bliv bekræftet uden NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Vi kan ikke scanne dit dokument</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Fjern dit telefonetui</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Bliv bekræftet uden NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Fjern dit telefonetui</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Hold din enhed og dokument i kontakt, indtil scanningen er vellykket</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Prøv at scanne igen</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Bliv bekræftet uden NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Vi kunne ikke bekræfte dette dokument</string>
+    <string name="onfido_nfc_scan_error_final_title">Vi kunne ikke bekræfte dette dokument</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-scanning er påkrævet for dette dokument, men kunne ikke fuldføres.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Har du et andet dokument at gå videre med?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Brug et andet dokument</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Bliv bekræftet uden NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Fremskynd processen med NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Vi scanner NFC-chippen på dit dokument</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Vi scanner NFC-chippen på dit dokument</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Læg dit dokument på en flad overflade</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Åbn dit dokument på den indre bagside</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Placer dit dokument på bagsiden af din enhed</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Skub langsomt din enhed op og ned</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Når scanningen starter, skal du holde den stille</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Start scanning</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Bliv bekræftet uden NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Vi kan ikke scanne dit dokument</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Fjern dit pas og dine telefonetuier</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Bliv bekræftet uden NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Fjern dit pas og dine telefonetuier</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Hold din enhed og dokument i kontakt, indtil scanningen er vellykket</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Prøv at scanne igen</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Bliv bekræftet uden NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Optager video</string>
+    <string name="onfido_doc_capture_header_recording_video">Optager video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Optagelsen er fuldført</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Ingen matchende resultater</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Der er fundet ét resultat</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Der er fundet %d resultater</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Foto af skærm registreret</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Skærmbillede registreret</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopi detekteret</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Scan registreret</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Brug venligst dit originale dokument. Fotos af skærm eller fotokopier accepteres ikke</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Vælg et andet dokument</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Indsend foto alligevel</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Prøv at optage video manuelt</string>
 </resources>

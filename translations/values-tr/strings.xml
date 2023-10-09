@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Düzenleyen ülkeyi seçin</string>
 	<string name="onfido_country_select_bottom_sheet_title">Ülkenizi bulamadınız mı?</string>
     <string name="onfido_country_select_bottom_sheet_details">Seçtiğiniz belgenin ülkesi desteklenmiyor gibi görünüyor. Lütfen farklı bir ülke seçin.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Kapat</string>
-    <string name="onfido_selfie_intro_subtitle">Bunu belgenizle karşılaştıracağız</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Bunu belgenizle karşılaştıracağız</string>
     <string name="onfido_selfie_capture_body">Yüzünüzü oval içinde tutun</string>
     <string name="onfido_video_capture_prompt_button_timeout">Yeniden dene</string>
     <string name="onfido_generic_error_camera_unavailable">Bu cihazda kamera yok</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Sonraki adım</string>
 	<string name="onfido_video_confirmation_error_media_player">Videonuzla ilgili bir hata oluştu. Lütfen tekrar çekin.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Yeniden yükle</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Örnek videoyu yeniden yükle</string>
     <string name="onfido_video_intro_error_network">Kararsız ağ nedeniyle yüklenemiyor</string>
-    <string name="onfido_video_intro_error_network_accessibility">Ağ kararsızlığı nedeniyle örnek video yüklenemiyor</string>
-	<string name="onfido_video_intro_error_load_offline">Çevrim dışı olduğunuz için yüklenemiyor</string>
+    <string name="onfido_video_intro_error_load_offline">Çevrim dışı olduğunuz için yüklenemiyor</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Önerilen ülke</string>
     <string name="onfido_country_select_list_header_all">Tüm ülkeler</string>
     <string name="onfido_app_title_country_select_search">Ara</string>
-    <string name="onfido_country_select_error_no_country_title">Ülke bulunamadı</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Fotoğrafı manuel olarak çekmeyi deneyin</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Bulanık fotoğraf tespit edildi</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Bulanık fotoğraf tespit edildi</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Barkod tespit edilemedi</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">İyi aydınlatılmış bir yerde durun ve kartı kameraya yaklaştırın</string>
     <string name="onfido_permission_recovery_button_primary">Ayarlarda etkinleştir</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Tekrar gözden geçirin</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Video kaydı sırasında cihazınızın flaşını açacağız</string>
-	<string name="onfido_doc_video_capture_header">Belgenizi tutarken, ön tarafı çerçevenin içinde tutun</string>
-    <string name="onfido_doc_video_capture_header_step1">Şimdi, kıpırdamayın</string>
-    <string name="onfido_doc_video_capture_detail_step2">Belgeyi her zaman tamamen görünecek şekilde tutun</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Sonraki adım</string>
-    <string name="onfido_doc_video_capture_header_passport">Pasaportunuzu tutarken fotoğraf sayfasını çerçeve içinde tutun</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Dış sayfaları göstermek için belgenizi yavaşça çevirin</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Video kaydı ​%1$s​ saniyelerle sınırlıdır</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Başarılı</string>
-	<string name="onfido_doc_video_capture_stepper">Adım %1$d/%2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Belgenizin arkasını göstermek için yavaşça çevirin</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Videoyu ön izle</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Kaydı bitir</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Sabit kalın</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">Kayıt ​%1$s​ saniye ile sınırlıdır</string>
+    <string name="onfido_doc_video_capture_stepper">Adım %1$d/%2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Fotoğrafı gönder</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Fotoğrafı tekrar çekin</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Gerekirse gözlüklerinizi çıkarın</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Yüzünüzü kapatan unsurları kadrajdan çıkarın. Gözlükleriniz kalabilir</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Belgeyi hizalayın, ardından düğmeye basın</string>
     <string name="onfido_doc_select_subtitle">Resmî bir fotoğraflı kimlik olmalıdır</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Fotoğrafı tekrar çekin</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Fotoğrafı tekrar çekin</string>
     <string name="onfido_video_intro_title">Video kaydetme</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Başka bir belge seçin</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Başınızı sola çevirin</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Başınızı sağa çevirin</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Cihazınızı şu amaçlarla kullanın:</string>
     <string name="onfido_welcome_list_item_doc_photo">Kimlik belgenizin fotoğrafını çekin</string>
-    <string name="onfido_welcome_list_item_doc_video">Kimlik belgenizin bir videosunu kaydedin</string>
-	<string name="onfido_welcome_list_item_doc_generic">Kimlik belgenizin bir video kaydını yapın</string>
+    <string name="onfido_welcome_list_item_doc_generic">Kimlik belgenizin bir video kaydını yapın</string>
     <string name="onfido_welcome_list_item_face_photo">Yüzünüzün fotoğrafını çekin</string>
     <string name="onfido_welcome_list_item_face_video">Yüzünüzün bir videosunu kaydedin</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Taramayı yeniden deneyin</string>
     <string name="onfido_nfc_scan_error_button_secondary">NFC olmadan doğrulanın</string>
     <string name="onfido_nfc_scan_error_title">Belgenizi tarayamadık</string>
-    <string name="onfido_nfc_scan_error_list_item">Telefon kılıfınızı çıkarın</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Tarama başladıktan sonra sabit tutun</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Tarama sırasında telefonunuzu veya pasaportunuzu hareket ettirmeyin</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Arka sayfanın iç kısmını da deneyebilirsiniz</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Telefonunuzu pasaportunuzun üzerine yerleştirin</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Telefonunuzu yavaşça aşağı ve yukarı kaydırın</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Pasaportunuzu düz bir yüzeye koyun</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Tarama başladıktan sonra telefonunuzu sabit tutun</string>
-	<string name="onfido_nfc_intro_title_card">NFC\'li kimliğinizi tarayın</string>
-	<string name="onfido_nfc_intro_title_passport">e-Passport\'unuzu tarayın</string>
+    <string name="onfido_nfc_intro_title_passport">e-Passport\'unuzu tarayın</string>
     <string name="onfido_nfc_intro_subtitle">Aşağıdaki talimatları izleyin</string>
     <string name="onfido_nfc_intro_button_primary">Taramaya başla</string>
-    <string name="onfido_nfc_intro_list_item">Kartınızı cihazınızın arkasına yerleştirin</string>
-    <string name="onfido_nfc_intro_list_item_2">Cep telefonunuzu yavaşça yukarı ve aşağı kaydırın</string>
-    <string name="onfido_nfc_intro_list_item_3">Tarama başladıktan sonra sabit tutun</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Pasaportunuzu başarıyla taradık</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Kimliğinizi başarıyla taradık</string>
 
     <string name="onfido_nfc_select_title_passport">NFC ile süreci hızlandırın</string>
-    <string name="onfido_nfc_select_subtitle_passport">Pasaportunuzdaki NFC çipini tarayacağız</string>
-    <string name="onfido_nfc_select_body_passport">e-Pasaportların kapağında bu sembol bulunur</string>
     <string name="onfido_nfc_select_button_primary_passport">e-Passport kullan</string>
     <string name="onfido_nfc_select_button_secondary_passport">Bu bir e-pasaport değil</string>
 
     <string name="onfido_nfc_select_title_card">NFC ile süreci hızlandırın</string>
-    <string name="onfido_nfc_select_subtitle_card">Kimliğinizdeki NFC çipini tarayacağız</string>
-    <string name="onfido_nfc_select_body_card">NFC çipli kimliklerde bu sembol bulunur</string>
-	<string name="onfido_nfc_select_button_primary_card">NFC\'li kimlik kullan</string>
-    <string name="onfido_nfc_select_button_secondary_card">Bu kimlikte NFC yok</string>
+    <string name="onfido_nfc_select_button_primary_card">NFC\'li kimlik kullan</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Telefonunuzu pasaportunuzun üst kısmına yerleştirin</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Telefonunuzu kimliğin üstüne yerleştirin</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Telefonunuzu sabit tutun</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Kimlik ile temas kesildi</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Pasaportla teması kayboldu</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Yüzünüzün bir videosunu kaydedin</string>
 	<string name="onfido_avc_intro_video_accessibility">Tamamlanana kadar başını iki yana çeviren birinin örnek videosu</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Başınızı çevirmeye devam edin</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Başınızı diğer tarafa çevirin</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Selfie kamerasından görüntü</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Sol taraf tamamlandı</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">Tamam</string>
     <string name="onfido_poa_welcome_text">Adresinizi içeren bir belgenin fotoğrafını çekin</string>
 	<string name="onfido_country_select_error_no_country_body">Listeye daha fazla ülke eklemek için çalışıyoruz. Bu arada, farklı bir belge kullanmayı deneyin.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Üzgünüz, cep telefonu faturası kabul edilmez</string>
-	<string name="onfido_doc_select_button_bill_detail">Gaz, elektrik, su, sabit hat veya internet</string>
+    <string name="onfido_doc_select_button_bill_detail">Gaz, elektrik, su, sabit hat veya internet</string>
 
 	<string name="onfido_doc_select_subtitle_country">Hangi belgeleri kabul ettiğimizi görmek için düzenleyen ülkeyi seçin</string>
 	<string name="onfido_doc_select_section_header_country">Düzenleyen ülke</string>
 	<string name="onfido_doc_select_section_header_doc_type">Kabul edilen belgeler</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Sonuç Yok</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Tüm sayfa</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Fotoğraf sayfası</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Fotoğraf sayfası</string>
 	<string name="onfido_doc_select_subtitle_front_back">Ön ve arka</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Düzenleyen ülkeyi seçin</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yeniden dene</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Ses başka bir uygulama tarafından oynatılıyor</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lütfen kayıt sırasında cihazınızda herhangi bir ses oynatmayın</string>
-	<string name="onfido_nfc_scan_welcome_card_title">NFC ile süreci hızlandırın</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Belgenizin NFC çipini tarayacağız</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Belgenizin NFC çipini tarayacağız</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Belgenizi cihazınızın arkasına yerleştirin</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Cihazınızı yavaşça yukarı ve aşağı kaydırın</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Tarama başladığında, sabit tutun</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Taramaya başla</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">NFC olmadan doğrulanın</string>
-	<string name="onfido_nfc_scan_error_inter_title">Belgenizi tarayamadık</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Telefon kılıfınızı çıkarın</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">NFC olmadan doğrulanın</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Telefon kılıfınızı çıkarın</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Tarama başarılı olana kadar cihazınızı ve belgenizi iletişim halinde tutun</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Taramayı yeniden deneyin</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">NFC olmadan doğrulanın</string>
-	<string name="onfido_nfc_scan_error_final_title">Bu belgeyi doğrulayamadık</string>
+    <string name="onfido_nfc_scan_error_final_title">Bu belgeyi doğrulayamadık</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Bu belge için NFC taraması gerekiyor, ancak tamamlanamadı.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Devam etmek için farklı bir belgeniz var mı?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Farklı belge kullan</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">NFC olmadan doğrulanın</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">NFC ile süreci hızlandırın</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Belgenizin NFC çipini tarayacağız</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Belgenizin NFC çipini tarayacağız</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Belgenizi düz bir yüzeye yerleştirin</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Belgenizi iç arka sayfada açın</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Belgenizi cihazınızın arkasına yerleştirin</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Cihazınızı yavaşça yukarı ve aşağı kaydırın</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Tarama başladığında, sabit tutun</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Taramaya başla</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">NFC olmadan doğrulanın</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Belgenizi tarayamadık</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Pasaport ve telefon koruyucularını çıkarın</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">NFC olmadan doğrulanın</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Pasaport ve telefon koruyucularını çıkarın</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Tarama başarılı olana kadar cihazınızı ve belgenizi iletişim halinde tutun</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Taramayı yeniden deneyin</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">NFC olmadan doğrulanın</string>
-	<string name="onfido_doc_capture_header_recording_video">Video kaydediliyor</string>
+    <string name="onfido_doc_capture_header_recording_video">Video kaydediliyor</string>
 	<string name="onfido_doc_capture_header_recording_complete">Kayıt tamamlandı</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Eşleşen sonuç yok</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Bir sonuç bulundu</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d sonuç bulundu</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Ekran fotoğrafı algılandı</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Ekran görüntüsü algılandı</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopi tespit edildi</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Tarama algılandı</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Lütfen orijinal belgenizi kullanın. Ekran fotoğrafları veya fotokopiler kabul edilmez</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Başka bir belge seçin</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Yine de fotoğrafı gönder</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Videoyu manuel olarak kaydetmeyi deneyin</string>
 </resources>

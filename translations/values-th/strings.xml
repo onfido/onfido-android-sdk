@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">เลือกประเทศที่ออกเอกสาร</string>
 	<string name="onfido_country_select_bottom_sheet_title">ไม่พบประเทศของคุณใช่ไหม?</string>
     <string name="onfido_country_select_bottom_sheet_details">ดูเหมือนว่าระบบจะไม่รองรับประเทศของเอกสารที่คุณเลือก โปรดเลือกประเทศอื่น</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">ปิด</string>
-    <string name="onfido_selfie_intro_subtitle">เราจะเปรียบเทียบรูปนี้กับเอกสารของคุณ</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">เราจะเปรียบเทียบรูปนี้กับเอกสารของคุณ</string>
     <string name="onfido_selfie_capture_body">วางใบหน้าของคุณให้อยู่ในกรอบรูปไข่</string>
     <string name="onfido_video_capture_prompt_button_timeout">ลองอีกครั้ง</string>
     <string name="onfido_generic_error_camera_unavailable">อุปกรณ์นี้ไม่มีกล้อง</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">ขั้นตอนถัดไป</string>
 	<string name="onfido_video_confirmation_error_media_player">เกิดข้อผิดพลาดกับวิดีโอของคุณ โปรดถ่ายอีกครั้ง</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">โหลดอีกครั้ง</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">โหลดวิดีโอตัวอย่างอีกครั้ง</string>
     <string name="onfido_video_intro_error_network">โหลดไม่ได้เนื่องจากเครือข่ายไม่เสถียร</string>
-    <string name="onfido_video_intro_error_network_accessibility">โหลดวิดีโอตัวอย่างไม่ได้ เนื่องจากเครือข่ายไม่เสถียร</string>
-	<string name="onfido_video_intro_error_load_offline">โหลดไม่ได้เนื่องจากคุณออฟไลน์อยู่</string>
+    <string name="onfido_video_intro_error_load_offline">โหลดไม่ได้เนื่องจากคุณออฟไลน์อยู่</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">ประเทศที่แนะนำ</string>
     <string name="onfido_country_select_list_header_all">ทุกประเทศ</string>
     <string name="onfido_app_title_country_select_search">ค้นหา</string>
-    <string name="onfido_country_select_error_no_country_title">ไม่พบประเทศ</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">ลองถ่ายรูปด้วยตนเอง</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">ตรวจพบรูปภาพเบลอ</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">ตรวจพบรูปภาพเบลอ</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">ไม่พบบาร์โค้ด</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">อยู่ในที่ที่มีแสงสว่างเพียงพอ และนำบัตรมาใกล้ๆ กล้อง</string>
     <string name="onfido_permission_recovery_button_primary">เปิดใช้งานในการตั้งค่า</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">ตรวจสอบอีกครั้ง</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">เราจะเปิดแฟลชอุปกรณ์ของคุณระหว่างบันทึกวิดีโอ</string>
-	<string name="onfido_doc_video_capture_header">ถือเอกสารของคุณโดยให้ด้านหน้าอยู่ในกรอบ</string>
-    <string name="onfido_doc_video_capture_header_step1">ตอนนี้ก็อยู่นิ่งๆ</string>
-    <string name="onfido_doc_video_capture_detail_step2">ให้เอกสารอยู่ในมุมที่เห็นได้ทั้งหมดตลอดเวลา</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">ขั้นตอนถัดไป</string>
-    <string name="onfido_doc_video_capture_header_passport">ถือหนังสือเดินทางโดยให้หน้ารูปถ่ายอยู่ในกรอบ</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">ค่อยๆ พลิกเอกสารของคุณเพื่อแสดงหน้าด้านนอก</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">บันทึกวิดีโอได้ไม่เกิน %1$s วินาที</string>
-    <string name="onfido_doc_video_capture_success_accessibility">สำเร็จ</string>
-	<string name="onfido_doc_video_capture_stepper">ขั้นตอนที่ %1$d จาก %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">ค่อยๆ พลิกเอกสารของคุณเพื่อแสดงด้านหลัง</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">ดูตัวอย่างวิดีโอ</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">ยุติการบันทึก</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">อยู่นิ่งๆ</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">การบันทึกถูกจำกัดไว้ที่%1$sวินาที</string>
+    <string name="onfido_doc_video_capture_stepper">ขั้นตอนที่ %1$d จาก %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">ส่งรูปภาพ</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">ถ่ายรูปอีกครั้ง</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">ถอดแว่นตาออก หากจำเป็น</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">ถอดสิ่งที่คลุมหน้าออกไป แต่สวมแว่นสายตาได้</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">จัดเรียงเอกสาร แล้วกดปุ่ม</string>
     <string name="onfido_doc_select_subtitle">ต้องเป็นบัตรประจำตัวอย่างเป็นทางการที่มีรูปถ่าย</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">ถ่ายรูปอีกครั้ง</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">ถ่ายรูปอีกครั้ง</string>
     <string name="onfido_video_intro_title">บันทึกวิดีโอ</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">เลือกเอกสารอื่น</string>
     <string name="onfido_video_capture_header_challenge_turn_left">หันศีรษะไปทางซ้าย</string>
     <string name="onfido_video_capture_header_challenge_turn_right">หันศีรษะไปทางขวา</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">ใช้อุปกรณ์ของคุณ:</string>
     <string name="onfido_welcome_list_item_doc_photo">ถ่ายรูปเอกสารยืนยันตัวตนของคุณ</string>
-    <string name="onfido_welcome_list_item_doc_video">บันทึกวิดีโอเอกสารยืนยันตัวตนของคุณ</string>
-	<string name="onfido_welcome_list_item_doc_generic">ทำการบันทึกวิดีโอเอกสารที่ใช้ในการยืนยันตัวตนของคุณ</string>
+    <string name="onfido_welcome_list_item_doc_generic">ทำการบันทึกวิดีโอเอกสารที่ใช้ในการยืนยันตัวตนของคุณ</string>
     <string name="onfido_welcome_list_item_face_photo">ถ่ายรูปใบหน้าของคุณ</string>
     <string name="onfido_welcome_list_item_face_video">บันทึกวิดีโอใบหน้าของคุณ</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">ลองสแกนอีกครั้ง</string>
     <string name="onfido_nfc_scan_error_button_secondary">รับการตรวจสอบโดยไม่มี NFC</string>
     <string name="onfido_nfc_scan_error_title">เราสแกนเอกสารของคุณไม่ได้</string>
-    <string name="onfido_nfc_scan_error_list_item">ถอดเคสโทรศัพท์ออก</string>
-    <string name="onfido_nfc_scan_error_list_item_2">ให้อยู่นิ่งๆ เมื่อเริ่มสแกน</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">อย่าเลื่อนโทรศัพท์หรือหนังสือเดินทางขณะสแกน</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">คุณยังลองด้านในของหน้าหลังได้ด้วย</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">วางโทรศัพท์ไว้บนหนังสือเดินทาง</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">ค่อยๆ เลื่อนโทรศัพท์ของคุณลงและขึ้นช้าๆ</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">วางหนังสือเดินทางของคุณบนพื้นผิวราบ</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">ถือโทรศัพท์ของคุณไว้นิ่งๆ เมื่อเริ่มสแกน</string>
-    <string name="onfido_nfc_intro_title_card">สแกนบัตร NFC ของคุณ</string>
     <string name="onfido_nfc_intro_title_passport">สแกนหนังสือเดินทางอิเล็กทรอนิกส์ของคุณ</string>
     <string name="onfido_nfc_intro_subtitle">ทำตามคำแนะนำด้านล่าง</string>
     <string name="onfido_nfc_intro_button_primary">เริ่มสแกน</string>
-    <string name="onfido_nfc_intro_list_item">วางบัตรไว้ที่ด้านหลังอุปกรณ์</string>
-    <string name="onfido_nfc_intro_list_item_2">ค่อยๆ เลื่อนโทรศัพท์ขึ้นและลง</string>
-    <string name="onfido_nfc_intro_list_item_3">ให้อยู่นิ่งๆ เมื่อเริ่มสแกน</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">เราสแกนหนังสือเดินทางของคุณเรียบร้อยแล้ว</string>
     <string name="onfido_nfc_sheet_success_instruction_card">เราสแกนบัตรของคุณเรียบร้อยแล้ว</string>
 
     <string name="onfido_nfc_select_title_passport">ยืนยันได้เร็วขึ้นด้วย NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">เราจะสแกนชิป NFC ในหนังสือเดินทางของคุณ</string>
-    <string name="onfido_nfc_select_body_passport">หนังสือเดินทางอิเล็กทรอนิกส์จะมีสัญลักษณ์นี้บนหน้าปก</string>
     <string name="onfido_nfc_select_button_primary_passport">ใช้หนังสือเดินทางอิเล็กทรอนิกส์</string>
     <string name="onfido_nfc_select_button_secondary_passport">เอกสารนี้ไม่ใช่หนังสือเดินทางอิเล็กทรอนิกส์</string>
 
     <string name="onfido_nfc_select_title_card">ยืนยันได้เร็วขึ้นด้วย NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">เราจะสแกนชิป NFC ในบัตรของคุณ</string>
-    <string name="onfido_nfc_select_body_card">บัตรที่มีชิป NFC จะมีสัญลักษณ์นี้</string>
     <string name="onfido_nfc_select_button_primary_card">ใช้บัตรที่มี NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">บัตรไม่มี NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">วางโทรศัพท์ไว้ใกล้ๆ ด้านบนของหนังสือเดินทาง</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">วางโทรศัพท์ของคุณไว้บนบัตร</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">ถือโทรศัพท์ไว้นิ่งๆ</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">ขาดการติดต่อกับบัตร</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">ขาดการติดต่อกับหนังสือเดินทาง</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">บันทึกวิดีโอใบหน้าของคุณ</string>
 	<string name="onfido_avc_intro_video_accessibility">ตัวอย่างวิดีโอแสดงคนที่หันศีรษะไปทั้ง 2 ข้างจนเสร็จสิ้น</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">หันศีรษะของคุณไปเรื่อยๆ</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">หันศีรษะไปอีกด้าน</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">ดูจากกล้องหน้า</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">ด้านซ้ายเสร็จแล้ว</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">ตกลง</string>
     <string name="onfido_poa_welcome_text">ถ่ายรูปเอกสารที่มีที่อยู่ของคุณ</string>
 	<string name="onfido_country_select_error_no_country_body">เรากำลังเพิ่มประเทศในรายการ ในระหว่างนี้ ให้ลองใช้เอกสารอื่น</string>
-	<string name="onfido_doc_select_extra_no_mobile">ขออภัยที่ใช้ใบเรียกเก็บเงินโทรศัพท์มือถือไม่ได้</string>
-	<string name="onfido_doc_select_button_bill_detail">แก๊ซ ไฟฟ้า ประปา โทรศัพท์บ้าน หรือบรอดแบนด์</string>
+    <string name="onfido_doc_select_button_bill_detail">แก๊ซ ไฟฟ้า ประปา โทรศัพท์บ้าน หรือบรอดแบนด์</string>
 
 	<string name="onfido_doc_select_subtitle_country">เลือกประเทศที่ออกเอกสาร เพื่อดูว่าเรารับเอกสารใดบ้าง</string>
 	<string name="onfido_doc_select_section_header_country">ประเทศที่ออกเอกสาร</string>
 	<string name="onfido_doc_select_section_header_doc_type">เอกสารที่ยอมรับ</string>
 	<string name="onfido_doc_select_section_input_country_not_found">ไม่มีผลลัพธ์</string>
-	<string name="onfido_doc_select_subtitle_entire_page">ทั้งหน้า</string>
-	<string name="onfido_doc_select_subtitle_photo_page">หน้ารูปภาพ</string>
+    <string name="onfido_doc_select_subtitle_photo_page">หน้ารูปภาพ</string>
 	<string name="onfido_doc_select_subtitle_front_back">ด้านหน้าและด้านหลัง</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">เลือกประเทศที่ออกเอกสาร</string>
 
@@ -526,4 +483,35 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">ลองอีกครั้ง</string>
 	<string name="onfido_doc_capture_header_recording_video">กำลังบันทึกวิดีโอ</string>
 	<string name="onfido_doc_capture_header_recording_complete">บันทึกเสร็จสมบูรณ์</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">เราจะสแกนชิป NFC ของเอกสารของคุณ</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">วางเอกสารของคุณที่ด้านหลังอุปกรณ์ของคุณ</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">เลื่อนอุปกรณ์ของคุณขึ้นและลงช้าๆ</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">เมื่อการสแกนเริ่มขึ้น ให้กดค้างไว้</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">รับการตรวจสอบโดยไม่มี NFC</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">ถอดเคสโทรศัพท์ออก</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">ให้อุปกรณ์และเอกสารของคุณติดต่อกันจนกว่าการสแกนจะสำเร็จ</string>
+	<string name="onfido_nfc_scan_error_final_title">เราไม่สามารถยืนยันเอกสารนี้ได้</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">จำเป็นต้องมีการสแกน NFC สำหรับเอกสารนี้ แต่ไม่สามารถทำได้</string>
+	<string name="onfido_nfc_scan_error_final_list_item">คุณมีเอกสารอื่นที่จะดำเนินการต่อหรือไม่?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">ใช้เอกสารอื่น</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">เราจะสแกนชิป NFC ของเอกสารของคุณ</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">วางเอกสารของคุณบนพื้นผิวเรียบ</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">เปิดเอกสารของคุณที่หน้าหลังด้านใน</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">วางเอกสารของคุณที่ด้านหลังอุปกรณ์ของคุณ</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">เลื่อนอุปกรณ์ของคุณขึ้นและลงช้าๆ</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">เมื่อการสแกนเริ่มขึ้น ให้กดค้างไว้</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">รับการตรวจสอบโดยไม่มี NFC</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">ถอดซองหนังสือเดินทางและเคสโทรศัพท์ออก</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">ให้อุปกรณ์และเอกสารของคุณติดต่อกันจนกว่าการสแกนจะสำเร็จ</string>
+	<string name="onfido_country_select_search_results_none_accessibility">ไม่มีผลลัพธ์ที่ตรงกัน</string>
+	<string name="onfido_country_select_search_results_one_accessibility">พบผลลัพธ์ 1 รายการ</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">พบผลลัพธ์ %d รายการ</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">ตรวจพบภาพของหน้าจอ</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">ตรวจพบภาพหน้าจอ</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">ตรวจพบการถ่ายเอกสาร</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">ตรวจพบการสแกน</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">โปรดใช้เอกสารต้นฉบับของคุณ ภาพถ่ายจากหน้าจอหรือการถ่ายเอกสารไม่ได้รับการยอมรับ</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">เลือกเอกสารอื่น</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">ส่งรูปถ่ายอยู่ดี</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">ลองบันทึกวิดีโอด้วยตนเอง</string>
 </resources>

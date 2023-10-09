@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Vyberte zemi, kde došlo k vydání</string>
 	<string name="onfido_country_select_bottom_sheet_title">Nemůžete najít svou zemi?</string>
     <string name="onfido_country_select_bottom_sheet_details">Zdá se, že země dokumentu, který jste vybrali, není podporována. Vyberte prosím jinou zemi.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Zavřít</string>
-    <string name="onfido_selfie_intro_subtitle">Porovnáme to s vaším dokumentem</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Porovnáme to s vaším dokumentem</string>
     <string name="onfido_selfie_capture_body">Držte obličej v oválu</string>
     <string name="onfido_video_capture_prompt_button_timeout">Opakování</string>
     <string name="onfido_generic_error_camera_unavailable">V tomto zařízení není k dispozici žádná kamera</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Další krok</string>
 	<string name="onfido_video_confirmation_error_media_player">Ve Vašem videu došlo k chybě. Natočte je znovu.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Znovu načíst</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Nahrávání vzorového videa</string>
     <string name="onfido_video_intro_error_network">Nelze načíst z důvodu nestabilní sítě</string>
-    <string name="onfido_video_intro_error_network_accessibility">Nelze nahrát vzorové video z důvodu nestabilní sítě</string>
-	<string name="onfido_video_intro_error_load_offline">Nelze načíst, protože jste off-line</string>
+    <string name="onfido_video_intro_error_load_offline">Nelze načíst, protože jste off-line</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Navrhovaná země</string>
     <string name="onfido_country_select_list_header_all">Všechny země</string>
     <string name="onfido_app_title_country_select_search">Vyhledávání</string>
-    <string name="onfido_country_select_error_no_country_title">Země nebyla nalezena</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Zkuste pořídit fotografii ručně</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Detekce rozmazané fotografie</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Detekce rozmazané fotografie</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Čárový kód nebyl detekován</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Zůstaňte na dobře osvětleném místě a přiblížte kartu k fotoaparátu</string>
     <string name="onfido_permission_recovery_button_primary">Povolit v nastavení</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Review again</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Během nahrávání videa zapneme blesk Vašeho zařízení</string>
-	<string name="onfido_doc_video_capture_header">Při držení dokumentu držte přední stranu v rámečku</string>
-    <string name="onfido_doc_video_capture_header_step1">Nyní se nehýbejte</string>
-    <string name="onfido_doc_video_capture_detail_step2">Mějte dokument stále na očích</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Další krok</string>
-    <string name="onfido_doc_video_capture_header_passport">Když držíte pas, držte stránku s fotografií v rámečku</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Pomalu otočte dokument tak, abyste viděli vnější stránky</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Nahrávání videa je omezeno na %1$s sekund</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Úspěch</string>
-	<string name="onfido_doc_video_capture_stepper">Krok %1$d z %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Pomalu otočte dokument tak, abyste viděli jeho zadní stranu</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Náhled videa</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Dokončení nahrávání</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Vydržte v klidu</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Nahrávání je omezeno na %1$s sekundy</string>
+    <string name="onfido_doc_video_capture_stepper">Krok %1$d z %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Odeslat fotografii</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Znovu pořídit fotografii</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">V případě potřeby si sundejte brýle</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Odstraňte vše, co vám zakrývá obličej. Brýle si můžete nechat</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Zarovnejte dokument a stiskněte tlačítko</string>
     <string name="onfido_doc_select_subtitle">Musí se jednat o oficiální průkaz totožnosti s fotografií</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Znovu pořídit fotografii</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Znovu pořídit fotografii</string>
     <string name="onfido_video_intro_title">Nahrajte video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Použijte jiný dokument</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Otočte hlavu doleva</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Otočte hlavu doprava</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Pomocí svého zařízení můžete:</string>
     <string name="onfido_welcome_list_item_doc_photo">Vyfoťte si svůj doklad totožnosti</string>
-    <string name="onfido_welcome_list_item_doc_video">Nahrát video svého dokladu totožnosti</string>
-	<string name="onfido_welcome_list_item_doc_generic">Vytvořte video svého dokladu totožnosti</string>
+    <string name="onfido_welcome_list_item_doc_generic">Vytvořte video svého dokladu totožnosti</string>
     <string name="onfido_welcome_list_item_face_photo">Vyfotit svůj obličej</string>
     <string name="onfido_welcome_list_item_face_video">Nahrát video svého obličeje</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Opakování skenování</string>
     <string name="onfido_nfc_scan_error_button_secondary">Získej ověření bez NFC</string>
     <string name="onfido_nfc_scan_error_title">Váš dokument se nám nepodařilo naskenovat</string>
-    <string name="onfido_nfc_scan_error_list_item">Odstraňte kryt telefonu</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Jakmile se skenování spustí, držte se v klidu</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Při skenování nehýbejte telefonem ani pasem</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Můžete také zkusit zadní stranu</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Položte telefon na horní část pasu</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Pomalu posouvejte telefon dolů a nahoru.</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Položte pas na rovný povrch</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Po spuštění skenování držte telefon v klidu.</string>
-    <string name="onfido_nfc_intro_title_card">Naskenujte kartu NFC</string>
     <string name="onfido_nfc_intro_title_passport">Naskenujte svůj ePas</string>
     <string name="onfido_nfc_intro_subtitle">Postupujte podle níže uvedených pokynů</string>
     <string name="onfido_nfc_intro_button_primary">Zahájení skenování</string>
-    <string name="onfido_nfc_intro_list_item">Umístěte kartu na zadní stranu zařízení</string>
-    <string name="onfido_nfc_intro_list_item_2">Pomalu posouvejte mobilní telefon nahoru a dolů.</string>
-    <string name="onfido_nfc_intro_list_item_3">Jakmile se skenování spustí, držte se v klidu</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Úspěšně jsme naskenovali Váš pas</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Úspěšně jsme naskenovali Vaši kartu</string>
 
     <string name="onfido_nfc_select_title_passport">Urychlení procesu pomocí NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Naskenujeme čip NFC z Vašeho pasu</string>
-    <string name="onfido_nfc_select_body_passport">ePasy mají na obalu tento symbol</string>
     <string name="onfido_nfc_select_button_primary_passport">Použití ePasu</string>
     <string name="onfido_nfc_select_button_secondary_passport">Toto není ePas</string>
 
     <string name="onfido_nfc_select_title_card">Urychlení procesu pomocí NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Naskenujeme čip NFC na vaší kartě</string>
-    <string name="onfido_nfc_select_body_card">Karty s čipy NFC mají tento symbol</string>
     <string name="onfido_nfc_select_button_primary_card">Použití karty NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Toto není karta NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Umístěte telefon do blízkosti horní části pasu</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Položte telefon na kartu</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Nechte telefon v klidu</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Ztráta kontaktu s občanským průkazem</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Ztráta kontaktu s pasem</string>
@@ -437,7 +397,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Nahrát video svého obličeje</string>
 	<string name="onfido_avc_intro_video_accessibility">Příklad videa, na kterém někdo otáčí hlavou na obě strany až do dokončení</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Otáčejte hlavou</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Otočte hlavu na druhou stranu</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Pohled ze selfie kamery</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Levá strana je kompletní</string>
@@ -504,15 +463,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Vyfotit dokument s Vaší adresou</string>
 	<string name="onfido_country_select_error_no_country_body">Pracujeme na přidávání dalších zemí do seznamu. Do té doby zkuste použít alternativní dokument.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Litujeme, účty za mobilní telefon nepřijímáme</string>
-	<string name="onfido_doc_select_button_bill_detail">Plyn, elektřina, voda, pevná linka nebo internetové připojení</string>
+    <string name="onfido_doc_select_button_bill_detail">Plyn, elektřina, voda, pevná linka nebo internetové připojení</string>
 
 	<string name="onfido_doc_select_subtitle_country">Vyberte zemi vydání a podívejte se, které doklady přijímáme</string>
 	<string name="onfido_doc_select_section_header_country">Vydávající země</string>
 	<string name="onfido_doc_select_section_header_doc_type">Akceptované dokumenty</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Žádné výsledky</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Celá stránka</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Přední strana s fotografií</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Přední strana s fotografií</string>
 	<string name="onfido_doc_select_subtitle_front_back">Přední a zadní strana</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Vyberte zemi, kde došlo k vydání</string>
 
@@ -523,37 +480,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Opakování</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audiozáznam se přehrává na jiné aplikaci</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Během nahrávání nepřehrávejte na svém zařízení žádný audiozáznam</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Urychlení procesu pomocí NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Naskenujeme NFC čip vašeho dokumentu</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Naskenujeme NFC čip vašeho dokumentu</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Umístěte dokument na zadní stranu zařízení</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pomalu posuňte zařízení nahoru a dolů</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Jakmile se skenování spustí, držte jej v klidu</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Zahájení skenování</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Získej ověření bez NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Váš dokument se nám nepodařilo naskenovat</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Odstraňte kryt telefonu</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Získej ověření bez NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Odstraňte kryt telefonu</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Opakování skenování</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Získej ověření bez NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Tento dokument se nám nepodařilo ověřit</string>
+    <string name="onfido_nfc_scan_error_final_title">Tento dokument se nám nepodařilo ověřit</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Tento dokument vyžaduje skenování NFC, které však nebylo možné dokončit.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Máte jiný dokument, se kterým můžete pokračovat?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Použijte jiný dokument</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Získej ověření bez NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Urychlení procesu pomocí NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Naskenujeme NFC čip vašeho dokumentu</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Naskenujeme NFC čip vašeho dokumentu</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Položte dokument na rovný povrch</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Otevřete dokument na vnitřní zadní straně</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Umístěte dokument na zadní stranu zařízení</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Pomalu posuňte zařízení nahoru a dolů</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Jakmile se skenování spustí, držte jej v klidu</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Zahájení skenování</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Získej ověření bez NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Váš dokument se nám nepodařilo naskenovat</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Sundejte obaly pasu a telefonu</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Získej ověření bez NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Sundejte obaly pasu a telefonu</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Opakování skenování</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Získej ověření bez NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Nahrávání videa</string>
+    <string name="onfido_doc_capture_header_recording_video">Nahrávání videa</string>
 	<string name="onfido_doc_capture_header_recording_complete">Nahrávání bylo dokončeno</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Žádné odpovídající výsledky</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Byl zjištěn jeden výsledek</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Nalezeno %d výsledků</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Fotografie obrazovky detekována</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Detekován snímek obrazovky</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Detekována fotokopie</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Skenování detekováno</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Prosím, použijte svůj původní dokument. Fotografie obrazovky nebo fotokopie nejsou přijímány.</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Použijte jiný dokument</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Odeslat fotku tak jako tak</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Zkuste nahrávat video manuálně</string>
 </resources>

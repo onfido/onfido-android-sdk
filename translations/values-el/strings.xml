@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Επιλέξτε χώρα έκδοσης</string>
 	<string name="onfido_country_select_bottom_sheet_title">Δεν μπορείτε να βρείτε τη χώρα σας;</string>
     <string name="onfido_country_select_bottom_sheet_details">Φαίνεται ότι η χώρα του εγγράφου που επιλέξατε δεν υποστηρίζεται. Επιλέξτε μια διαφορετική χώρα.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Κλείσιμο</string>
-    <string name="onfido_selfie_intro_subtitle">Θα το συγκρίνουμε με το έγγραφό σας</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Θα το συγκρίνουμε με το έγγραφό σας</string>
     <string name="onfido_selfie_capture_body">Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ</string>
 	<string name="onfido_video_capture_prompt_button_timeout">Προσπαθήστε ξανά</string>
     <string name="onfido_generic_error_camera_unavailable">Δεν υπάρχει διαθέσιμη κάμερα σε αυτήν τη συσκευή</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Επόμενο βήμα</string>
 	<string name="onfido_video_confirmation_error_media_player">Παρουσιάστηκε σφάλμα με το βίντεό σας. Επαναλάβετε τη λήψη.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Επαναφόρτωση</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Επαναφόρτωση παραδείγματος βίντεο</string>
     <string name="onfido_video_intro_error_network">Η φόρτωση δεν είναι δυνατή λόγω ασταθούς δικτύου</string>
-    <string name="onfido_video_intro_error_network_accessibility">Η φόρτωση του παραδείγματος βίντεο δεν είναι δυνατή λόγω ασταθούς δικτύου</string>
-	<string name="onfido_video_intro_error_load_offline">Δεν είναι δυνατή η φόρτωση επειδή είστε εκτός σύνδεσης</string>
+    <string name="onfido_video_intro_error_load_offline">Δεν είναι δυνατή η φόρτωση επειδή είστε εκτός σύνδεσης</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Προτεινόμενη χώρα</string>
     <string name="onfido_country_select_list_header_all">Όλες οι χώρες</string>
     <string name="onfido_app_title_country_select_search">Αναζήτηση</string>
-    <string name="onfido_country_select_error_no_country_title">Η χώρα δεν βρέθηκε</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Δοκιμάστε να τραβήξετε χειροκίνητα μια φωτογραφία</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Ανιχνεύτηκε θολή φωτογραφία</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Ανιχνεύτηκε θολή φωτογραφία</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Δεν εντοπίστηκε γραμμωτός κώδικας</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Σταθείτε σε ένα καλά φωτισμένο μέρος και φέρτε το δελτίο πιο κοντά στην κάμερα</string>
     <string name="onfido_permission_recovery_button_primary">Ενεργοποίηση στις ρυθμίσεις</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Νέος έλεγχος</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Θα ενεργοποιήσουμε το φλας της συσκευής σας κατά τη διάρκεια της εγγραφής βίντεο</string>
-	<string name="onfido_doc_video_capture_header">Κρατώντας το έγγραφο στα χέρια σας, κρατήστε την μπροστινή όψη εντός του πλαισίου</string>
-    <string name="onfido_doc_video_capture_header_step1">Τώρα, μείνετε ακίνητος/η</string>
-    <string name="onfido_doc_video_capture_detail_step2">Να διατηρείτε το έγγραφο πλήρως ορατό ανά πάσα στιγμή</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Επόμενο βήμα</string>
-    <string name="onfido_doc_video_capture_header_passport">Κρατώντας το διαβατήριο στα χέρια σας, κρατήστε τη σελίδα με τη φωτογραφία εντός του πλαισίου</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Γυρίστε αργά το έγγραφό σας για να εμφανιστούν οι εξωτερικές σελίδες</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Η εγγραφή βίντεο περιορίζεται σε %1$s δευτερόλεπτα</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Επιτυχία</string>
-	<string name="onfido_doc_video_capture_stepper">Βήμα %1$d από %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Γυρίστε αργά το έγγραφό σας για να εμφανιστεί η πίσω όψη</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Προεπισκόπηση βίντεο</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Ολοκλήρωση εγγραφής</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Μείνετε ακίνητος/η</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">Η εγγραφή βίντεο περιορίζεται σε %1$s δευτερόλεπτα</string>
+    <string name="onfido_doc_video_capture_stepper">Βήμα %1$d από %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Υποβολή φωτογραφίας</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Επανάληψη λήψης φωτογραφίας</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Αφαιρέστε τα γυαλιά σας, εάν είναι απαραίτητο</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Αφαιρέστε οτιδήποτε καλύπτει το πρόσωπό σας. Τα γυαλιά επιτρέπονται</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Ευθυγραμμίστε το έγγραφο και, στη συνέχεια, πατήστε το κουμπί</string>
     <string name="onfido_doc_select_subtitle">Πρέπει να είναι επίσημη ταυτότητα με φωτογραφία</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Επανάληψη λήψης φωτογραφίας</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Επανάληψη λήψης φωτογραφίας</string>
     <string name="onfido_video_intro_title">Εγγραφή βίντεο</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Επιλέξτε άλλο έγγραφο</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Γυρίστε το κεφάλι σας προς τα αριστερά</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Γυρίστε το κεφάλι σας προς τα δεξιά</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Χρησιμοποιήστε τη συσκευή σας για να:</string>
     <string name="onfido_welcome_list_item_doc_photo">Τραβήξετε μια φωτογραφία του εγγράφου ταυτότητάς σας</string>
-    <string name="onfido_welcome_list_item_doc_video">Εγγράψετε ένα βίντεο του εγγράφου ταυτότητάς σας</string>
-	<string name="onfido_welcome_list_item_doc_generic">Καταγράψτε ένα βίντεο του εγγράφου ταυτότητάς σας</string>
+    <string name="onfido_welcome_list_item_doc_generic">Καταγράψτε ένα βίντεο του εγγράφου ταυτότητάς σας</string>
     <string name="onfido_welcome_list_item_face_photo">Τραβήξετε μια φωτογραφία του προσώπου σας</string>
     <string name="onfido_welcome_list_item_face_video">Εγγράψτε ένα βίντεο του προσώπου σας</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Επανάληψη σάρωσης</string>
     <string name="onfido_nfc_scan_error_button_secondary">Επαληθεύστε χωρίς NFC</string>
     <string name="onfido_nfc_scan_error_title">Δεν ήταν δυνατή η σάρωση του εγγράφου σας</string>
-    <string name="onfido_nfc_scan_error_list_item">Αφαιρέστε το κάλυμμα του τηλεφώνου σας</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητος/η</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Μη μετακινείτε το τηλέφωνο ή το διαβατήριό σας κατά τη σάρωση</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Μπορείτε επίσης να δοκιμάσετε το εσωτερικό της πίσω σελίδας</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Τοποθετήστε το τηλέφωνό σας στο επάνω μέρος του διαβατηρίου σας</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Σύρετε αργά το τηλέφωνό σας προς τα κάτω και προς τα επάνω</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Τοποθετήστε το διαβατήριό σας σε μια επίπεδη επιφάνεια</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνό σας ακίνητο</string>
-    <string name="onfido_nfc_intro_title_card">Σαρώστε το δελτίο σας με NFC</string>
     <string name="onfido_nfc_intro_title_passport">Σαρώστε το ηλεκτρονικό σας διαβατήριο</string>
     <string name="onfido_nfc_intro_subtitle">Ακολουθήστε τις παρακάτω οδηγίες</string>
     <string name="onfido_nfc_intro_button_primary">Έναρξη σάρωσης</string>
-    <string name="onfido_nfc_intro_list_item">Τοποθετήστε την κάρτα σας στο πίσω μέρος της συσκευής σας</string>
-    <string name="onfido_nfc_intro_list_item_2">Σύρετε αργά το κινητό σας επάνω και κάτω</string>
-    <string name="onfido_nfc_intro_list_item_3">Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητος/η</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Σαρώσαμε με επιτυχία το διαβατήριό σας</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Σαρώσαμε με επιτυχία το δελτίο σας</string>
 
     <string name="onfido_nfc_select_title_passport">Επιτάχυνση της διαδικασίας με NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Θα σαρώσουμε το τσιπ NFC στο διαβατήριό σας</string>
-    <string name="onfido_nfc_select_body_passport">Τα ηλεκτρονικά διαβατήρια έχουν αυτό το σύμβολο στο εξώφυλλο</string>
     <string name="onfido_nfc_select_button_primary_passport">Χρήση ηλεκτρονικού διαβατηρίου</string>
     <string name="onfido_nfc_select_button_secondary_passport">Δεν είναι ηλεκτρονικό διαβατήριο</string>
 
     <string name="onfido_nfc_select_title_card">Επιτάχυνση της διαδικασίας με NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Θα σαρώσουμε το τσιπ NFC στο δελτίο σας</string>
-    <string name="onfido_nfc_select_body_card">Τα δελτία με τσιπ NFC έχουν αυτό το σύμβολο</string>
     <string name="onfido_nfc_select_button_primary_card">Χρήση δελτίου με NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Δεν είναι δελτίο με NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Τοποθετήστε το τηλέφωνό σας κοντά στο επάνω μέρος του διαβατηρίου σας</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Τοποθετήστε το τηλέφωνό σας επάνω στο δελτίο</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Κρατήστε το τηλέφωνό σας ακίνητο</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Χάθηκε η επαφή με το δελτίο</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Χάθηκε η επαφή με το διαβατήριο</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Εγγράψτε ένα βίντεο του προσώπου σας</string>
 	<string name="onfido_avc_intro_video_accessibility">Παράδειγμα βίντεο κάποιου που γυρίζει το κεφάλι του και προς τις δύο πλευρές έως την ολοκλήρωση</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Συνεχίστε να γυρνάτε το κεφάλι σας</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Γυρίστε το κεφάλι σας προς την άλλη πλευρά</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Προβολή από κάμερα λήψης selfie</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Η αριστερή πλευρά ολοκληρώθηκε</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Τραβήξτε μια φωτογραφία ενός εγγράφου με τη διεύθυνσή σας</string>
 	<string name="onfido_country_select_error_no_country_body">Καταβάλουμε προσπάθεια να προσθέσουμε περισσότερες χώρες στη λίστα. Στο μεταξύ, δοκιμάστε να χρησιμοποιήσετε ένα εναλλακτικό έγγραφο.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Δυστυχώς, δεν δεχόμαστε λογαριασμούς κινητού τηλεφώνου</string>
-	<string name="onfido_doc_select_button_bill_detail">Αέριο, ηλεκτρικό ρεύμα, νερό, σταθερό τηλέφωνο ή ευρυζωνική σύνδεση</string>
+    <string name="onfido_doc_select_button_bill_detail">Αέριο, ηλεκτρικό ρεύμα, νερό, σταθερό τηλέφωνο ή ευρυζωνική σύνδεση</string>
 
 	<string name="onfido_doc_select_subtitle_country">Επιλέξτε εκδούσα χώρα για να δείτε ποια έγγραφα αποδεχόμαστε</string>
 	<string name="onfido_doc_select_section_header_country">Εκδούσα χώρα</string>
 	<string name="onfido_doc_select_section_header_doc_type">Αποδεκτά έγγραφα</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Δε βρέθηκαν αποτελέσματα</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Ολόκληρη σελίδα</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Σελίδα φωτογραφίας</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Σελίδα φωτογραφίας</string>
 	<string name="onfido_doc_select_subtitle_front_back">Μπροστινή και πίσω όψη</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Επιλέξτε χώρα έκδοσης</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Προσπαθήστε ξανά</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Γίνεται αναπαραγωγή ήχου από άλλη εφαρμογή</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Επιτάχυνση της διαδικασίας με NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Θα σαρώσουμε το τσιπ NFC του εγγράφου σας</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Θα σαρώσουμε το τσιπ NFC του εγγράφου σας</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Σύρετε αργά τη συσκευή σας πάνω και κάτω</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Μόλις ξεκινήσει η σάρωση, κρατήστε την ακίνητη</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Έναρξη σάρωσης</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Επαληθεύστε χωρίς NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Δεν ήταν δυνατή η σάρωση του εγγράφου σας</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Αφαιρέστε το κάλυμμα του τηλεφώνου σας</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Επαληθεύστε χωρίς NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Αφαιρέστε το κάλυμμα του τηλεφώνου σας</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Επανάληψη σάρωσης</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Επαληθεύστε χωρίς NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Δεν μπορέσαμε να επαληθεύσουμε αυτό το έγγραφο</string>
+    <string name="onfido_nfc_scan_error_final_title">Δεν μπορέσαμε να επαληθεύσουμε αυτό το έγγραφο</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Απαιτείται σάρωση NFC για αυτό το έγγραφο, αλλά δεν ήταν δυνατό να ολοκληρωθεί.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Έχετε διαφορετικό έγγραφο για να προχωρήσετε;</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Χρησιμοποιήστε διαφορετικό έγγραφο</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Επαληθεύστε χωρίς NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Επιτάχυνση της διαδικασίας με NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Θα σαρώσουμε το τσιπ NFC του εγγράφου σας</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Θα σαρώσουμε το τσιπ NFC του εγγράφου σας</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Τοποθετήστε το έγγραφό σας σε μια επίπεδη επιφάνεια</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Ανοίξτε το έγγραφό σας στην εσωτερική πίσω σελίδα</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Σύρετε αργά τη συσκευή σας πάνω και κάτω</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Μόλις ξεκινήσει η σάρωση, κρατήστε την ακίνητη</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Έναρξη σάρωσης</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Επαληθεύστε χωρίς NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Δεν ήταν δυνατή η σάρωση του εγγράφου σας</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Επαληθεύστε χωρίς NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Επανάληψη σάρωσης</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Επαληθεύστε χωρίς NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Καταγραφή βίντεο</string>
+    <string name="onfido_doc_capture_header_recording_video">Καταγραφή βίντεο</string>
 	<string name="onfido_doc_capture_header_recording_complete">Η εγγραφή ολοκληρώθηκε</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Δεν υπάρχουν αποτελέσματα που να ταιριάζουν</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Βρέθηκε ένα αποτέλεσμα</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d αποτελέσματα βρέθηκαν</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Ανιχνεύτηκε φωτογραφία οθόνης</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Ανιχνεύτηκε στιγμιότυπο οθόνης</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Ανιχνεύθηκε φωτοτυπία</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Εντοπίστηκε σάρωση</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Παρακαλώ χρησιμοποιήστε το αρχικό σας έγγραφο. Οι φωτογραφίες από οθόνη ή φωτοτυπίες δεν γίνονται δεκτές</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Επιλέξτε άλλο έγγραφο</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Υποβολή φωτογραφίας ούτως ή άλλως</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Δοκιμάστε να καταγράψετε βίντεο χειροκίνητα</string>
 </resources>

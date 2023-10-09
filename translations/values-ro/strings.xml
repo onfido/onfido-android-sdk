@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Selectați țara emitentă</string>
 	<string name="onfido_country_select_bottom_sheet_title">Nu vă găsiți țara?</string>
     <string name="onfido_country_select_bottom_sheet_details">Se pare că țara documentului pe care l-ați selectat nu este acceptată. Vă rugăm să selectați o altă țară.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Închideți</string>
-    <string name="onfido_selfie_intro_subtitle">Vom compara această imagine cu documentul dvs.</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Vom compara această imagine cu documentul dvs.</string>
     <string name="onfido_selfie_capture_body">Mențineți fața în oval</string>
     <string name="onfido_video_capture_prompt_button_timeout">Încercați din nou</string>
     <string name="onfido_generic_error_camera_unavailable">Nu există nicio cameră video disponibilă pe acest dispozitiv</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Următorul pas</string>
 	<string name="onfido_video_confirmation_error_media_player">A survenit o eroare la clipul dvs. video. Vă rugăm să faceți din nou un clip video.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Reîncărcați</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Încărcați din nou clipul video</string>
     <string name="onfido_video_intro_error_network">Imposibil de încărcat din cauza rețelei instabile</string>
-    <string name="onfido_video_intro_error_network_accessibility">Video Imposibil de încărcat din cauza rețelei instabile</string>
-	<string name="onfido_video_intro_error_load_offline">Imposibil de încărcat pentru că sunteți offline</string>
+    <string name="onfido_video_intro_error_load_offline">Imposibil de încărcat pentru că sunteți offline</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Țară sugerată</string>
     <string name="onfido_country_select_list_header_all">Toate țările</string>
     <string name="onfido_app_title_country_select_search">Căutare</string>
-    <string name="onfido_country_select_error_no_country_title">Țara nu a fost găsită</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Încercați să faceți o poză manual</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Poză încețoșată detectată</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Poză încețoșată detectată</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Codul de bare nu a fost detectat</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Stați într-un loc bine luminat și aduceți cardul mai aproape de camera video</string>
     <string name="onfido_permission_recovery_button_primary">Activați în setări</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Review again</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Vom porni funcția flash a dispozitivului dvs. pe parcursul înregistrării video</string>
-	<string name="onfido_doc_video_capture_header">În timp ce poziționați documentul dvs, țineți pagina față în cadru</string>
-    <string name="onfido_doc_video_capture_header_step1">Acum țineți nemișcat</string>
-    <string name="onfido_doc_video_capture_detail_step2">Țineți documentul la vedere permanent</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Următorul pas</string>
-    <string name="onfido_doc_video_capture_header_passport">În timp ce poziționați pașaportul dvs., țineți pagina cu poză în cadru</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Întoarceți ușor documentul dvs. pentru a arăta paginile externe</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Înregistrarea video este limitată la %1$s secunde</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Succes</string>
-	<string name="onfido_doc_video_capture_stepper">Pasul %1$d din %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Întoarceți ușor documentul dvs. pentru a arăta partea verso</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Previzualizare clip video</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Finalizați înregistrarea</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Țineți nemișcat</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Înregistrarea este limitată la %1$s secunde</string>
+    <string name="onfido_doc_video_capture_stepper">Pasul %1$d din %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Trimiteți poză</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Faceți din nou poză</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Dați-vă jos ochelarii dacă este necesar</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Îndepărtați tot ce vă acoperă fața. Ochelarii sunt acceptați</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Aliniați documentul și apoi apăsați butonul</string>
     <string name="onfido_doc_select_subtitle">Trebuie să fie un document de identitate cu poză oficial</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Faceți din nou poză</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Faceți din nou poză</string>
     <string name="onfido_video_intro_title">Înregistrați un clip video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Alegeți alt document</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Întoarceți capul spre stânga</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Întoarceți capul spre dreapta</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Utilizați dispozitivul dvs. pentru:</string>
     <string name="onfido_welcome_list_item_doc_photo">Faceți o poză cu documentul dvs. de identitate</string>
-    <string name="onfido_welcome_list_item_doc_video">Înregistrați un clip video cu documentul dvs. de identitate</string>
-	<string name="onfido_welcome_list_item_doc_generic">Înregistrați un videoclip cu documentul dvs. de identitate</string>
+    <string name="onfido_welcome_list_item_doc_generic">Înregistrați un videoclip cu documentul dvs. de identitate</string>
 	<string name="onfido_welcome_list_item_face_photo">A face o poză a feței dvs.</string>
     <string name="onfido_welcome_list_item_face_video">Înregistrați un clip video cu fața dvs.</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Reîncercați scanarea</string>
     <string name="onfido_nfc_scan_error_button_secondary">Obțineți verificarea fără NFC</string>
     <string name="onfido_nfc_scan_error_title">Nu am putut scana documentul dvs.</string>
-    <string name="onfido_nfc_scan_error_list_item">Scoateți husa telefonului dvs.</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Odată ce începe scanarea, țineți telefonul nemișcat</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Nu mutați telefonul sau pașaportul dvs. când se realizează scanarea</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">De asemenea, puteți încerca în interiorul paginii verso</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Așezați telefonul deasupra pașaportului dvs.</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Glisați încet telefonul în jos și în sus</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Așezați pașaportul pe o suprafață plană</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">După ce începe scanarea, țineți telefonul nemișcat</string>
-    <string name="onfido_nfc_intro_title_card">Scanați cardul dvs. NFC</string>
     <string name="onfido_nfc_intro_title_passport">Scanați ePassport</string>
     <string name="onfido_nfc_intro_subtitle">Urmați instrucțiunile de mai jos</string>
     <string name="onfido_nfc_intro_button_primary">Începeți scanarea</string>
-    <string name="onfido_nfc_intro_list_item">Așezați cardul în partea din spate a dispozitivului dvs.</string>
-    <string name="onfido_nfc_intro_list_item_2">Glisați încet mobilul în sus și în jos</string>
-    <string name="onfido_nfc_intro_list_item_3">Odată ce începe scanarea, țineți-vă nemișcați</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Am scanat cu succes pașaportul dvs.</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Am scanat cu succes cardul dvs.</string>
 
     <string name="onfido_nfc_select_title_passport">Accelerați procesul cu NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Vom scana cipul NFC din pașaportul dvs.</string>
-    <string name="onfido_nfc_select_body_passport">ePassports au acest simbol pe copertă</string>
     <string name="onfido_nfc_select_button_primary_passport">Utilizați ePassport</string>
     <string name="onfido_nfc_select_button_secondary_passport">Nu este un ePassport</string>
 
     <string name="onfido_nfc_select_title_card">Accelerați procesul cu NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Vom scana cipul NFC al cardului dvs.</string>
-    <string name="onfido_nfc_select_body_card">Cardurile cu cipuri NCF au acest simbol</string>
     <string name="onfido_nfc_select_button_primary_card">Utilizați cardul NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Nu este un card NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Plasați telefonul dvs. aproape de partea superioară a pașaportului dvs.</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Plasați telefonul dvs. deasupra cardului</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Țineți nemișcat telefonul dvs.</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">S-a pierdut contactul cu cardul</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">S-a pierdut contactul cu pașaportul</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Înregistrați un clip video cu fața dvs.</string>
 	<string name="onfido_avc_intro_video_accessibility">Clip video exemplificativ cu o persoană care își întoarce capul în ambele sensuri până la finalizare</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Întoarceți în continuare capul</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Întoarceți capul spre partea cealaltă</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Vizualizare din camera de selfie</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Partea stângă a fost finalizată</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Faceți o poză a unui document cu adresa dvs.</string>
 	<string name="onfido_country_select_error_no_country_body">Depunem eforturi pentru a adăuga mai multe țări pe listă. Între timp, încercați să utilizați un document alternativ.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Ne pare rău, fără facturi de telefon mobil</string>
-	<string name="onfido_doc_select_button_bill_detail">Gaz, electricitate, apă, telefon fix sau internet de bandă largă</string>
+    <string name="onfido_doc_select_button_bill_detail">Gaz, electricitate, apă, telefon fix sau internet de bandă largă</string>
 
 	<string name="onfido_doc_select_subtitle_country">Selectați țara emitentă pentru a vedea ce documente acceptăm</string>
 	<string name="onfido_doc_select_section_header_country">Țară emitentă</string>
 	<string name="onfido_doc_select_section_header_doc_type">Documente acceptate</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Niciun rezultat</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Întreaga pagină</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Pagina cu poză</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Pagina cu poză</string>
 	<string name="onfido_doc_select_subtitle_front_back">Față și verso</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Selectați țara emitentă</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Încercați din nou</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Semnalul audio este redat de altă aplicație</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vă rugăm să nu redați semnal audio pe dispozitivul dvs. pe parcursul înregistrării video</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Accelerați procesul cu NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Vom scana cipul NFC al documentului dvs</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Vom scana cipul NFC al documentului dvs</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Așezați documentul în spatele dispozitivului</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Glisați încet dispozitivul în sus și în jos</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Odată ce începe scanarea, țineți-o nemișcat</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Începeți scanarea</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Obțineți verificarea fără NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Nu am putut scana documentul dvs.</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Îndepărtați husa telefonului dvs.</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Obțineți verificarea fără NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Îndepărtați husa telefonului dvs.</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Păstrați dispozitivul și documentul în contact până când scanarea are succes</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Încercați din nou scanarea</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Obțineți verificarea fără NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Nu am putut verifica acest document</string>
+    <string name="onfido_nfc_scan_error_final_title">Nu am putut verifica acest document</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Scanarea NFC este necesară pentru acest document, dar nu a putut fi finalizată.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Aveți alt document cu care să continuați?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Utilizați un document diferit</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Obțineți verificarea fără NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Accelerați procesul cu NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Vom scana cipul NFC al documentului dvs</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Vom scana cipul NFC al documentului dvs</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Așezați documentul pe o suprafață plană</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Deschideți documentul pe pagina interioară din spate</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Așezați documentul în spatele dispozitivului</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Glisați încet dispozitivul în sus și în jos</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Odată ce începe scanarea, țineți-o nemișcat</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Începeți scanarea</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Obțineți verificarea fără NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Nu am putut scana documentul dvs.</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Îndepărtați husa pașaportului dvs. și a telefonului dvs.</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Obțineți verificarea fără NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Îndepărtați husa pașaportului dvs. și a telefonului dvs.</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Păstrați dispozitivul și documentul în contact până când scanarea are succes</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Încercați din nou scanarea</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Obțineți verificarea fără NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Înregistrare video</string>
+    <string name="onfido_doc_capture_header_recording_video">Înregistrare video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Înregistrare finalizată</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Niciun rezultat care să se potrivească</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Un rezultat găsit</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d rezultate găsite</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Fotografie a ecranului detectată</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Captură de ecran detectată</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotocopie detectată</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Scanare detectată</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Vă rugăm să utilizați documentul dvs. original. Fotografiile de pe ecran sau fotocopiile nu sunt acceptate</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Alegeți alt document</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Trimite oricum fotografia</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Încearcă să înregistrezi video manual</string>
 </resources>

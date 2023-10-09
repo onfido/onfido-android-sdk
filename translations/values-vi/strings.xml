@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Chọn quốc gia cấp giấy tờ</string>
 	<string name="onfido_country_select_bottom_sheet_title">Không tìm thấy quốc gia của bạn?</string>
     <string name="onfido_country_select_bottom_sheet_details">Có vẻ như quốc gia cấp giấy tờ bạn đã chọn không được hỗ trợ. Vui lòng chọn một quốc gia khác.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Đóng</string>
-    <string name="onfido_selfie_intro_subtitle">Chúng tôi sẽ so sánh thông tin này với giấy tờ của bạn</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Chúng tôi sẽ so sánh thông tin này với giấy tờ của bạn</string>
     <string name="onfido_selfie_capture_body">Giữ khuôn mặt của bạn trong hình bầu dục</string>
     <string name="onfido_video_capture_prompt_button_timeout">Thử lại</string>
     <string name="onfido_generic_error_camera_unavailable">Thiết bị này không có camera</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Bước tiếp theo</string>
 	<string name="onfido_video_confirmation_error_media_player">Đã xảy ra lỗi với video của bạn. Vui lòng quay lại video.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Tải lại</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Tải lại video mẫu</string>
     <string name="onfido_video_intro_error_network">Không thể tải trang do mạng không ổn định</string>
-    <string name="onfido_video_intro_error_network_accessibility">Không thể tải video mẫu do mạng không ổn định</string>
-	<string name="onfido_video_intro_error_load_offline">Không thể tải vì bạn đang ngoại tuyến</string>
+    <string name="onfido_video_intro_error_load_offline">Không thể tải vì bạn đang ngoại tuyến</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Quốc gia được đề xuất</string>
     <string name="onfido_country_select_list_header_all">Tất cả quốc gia</string>
     <string name="onfido_app_title_country_select_search">Tìm kiếm</string>
-    <string name="onfido_country_select_error_no_country_title">Không tìm thấy quốc gia</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Thử chụp ảnh thủ công</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Phát hiện ảnh mờ</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Phát hiện ảnh mờ</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Không tìm thấy mã vạch</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ở nơi có ánh sáng tốt và đưa thẻ đến gần máy ảnh</string>
     <string name="onfido_permission_recovery_button_primary">Bật trong phần cài đặt</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Xem lại</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Chúng tôi sẽ bật đèn flash thiết bị của bạn trong quá trình quay video</string>
-	<string name="onfido_doc_video_capture_header">Trong khi đặt tài liệu của bạn, giữ mặt trước trong khung</string>
-    <string name="onfido_doc_video_capture_header_step1">Bây giờ, hãy giữ yên</string>
-    <string name="onfido_doc_video_capture_detail_step2">Luôn giữ giấy tờ ở chế độ xem toàn bộ</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Bước tiếp theo</string>
-    <string name="onfido_doc_video_capture_header_passport">Trong khi cầm hộ chiếu, hãy giữ trang có ảnh trong khung hình</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Từ từ xoay giấy tờ để hiển thị các trang bên ngoài</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Thời lượng ghi video được giới hạn trong %1$s giây</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Thành công</string>
-	<string name="onfido_doc_video_capture_stepper">Bước  %1$d/%2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Từ từ xoay giấy tờ của bạn để hiển thị mặt sau</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Xem trước video</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Hoàn tất ghi hình</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Hãy giữ yên</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">Thời lượng ghi được giới hạn trong %1$s giây</string>
+    <string name="onfido_doc_video_capture_stepper">Bước  %1$d/%2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Gửi ảnh</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Chụp lại ảnh</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Tháo kính ra, nếu cần thiết</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Tháo bỏ bất cứ vật dụng nào che mặt của bạn. Bạn có thể vẫn đeo kính mắt</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Căn chỉnh tài liệu, sau đó nhấn nút</string>
     <string name="onfido_doc_select_subtitle">Phải là giấy tờ tùy thân có ảnh chính thức</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Chụp lại ảnh</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Chụp lại ảnh</string>
     <string name="onfido_video_intro_title">Quay video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Chọn giấy tờ khác</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Xoay đầu sang trái</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Xoay đầu sang phải</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Sử dụng thiết bị của bạn để:</string>
     <string name="onfido_welcome_list_item_doc_photo">Chụp ảnh giấy tờ tùy thân của bạn</string>
-    <string name="onfido_welcome_list_item_doc_video">Quay video giấy tờ tùy thân của bạn</string>
-	<string name="onfido_welcome_list_item_doc_generic">Ghi lại video của giấy tờ tùy thân của bạn</string>
+    <string name="onfido_welcome_list_item_doc_generic">Ghi lại video của giấy tờ tùy thân của bạn</string>
     <string name="onfido_welcome_list_item_face_photo">Chụp ảnh khuôn mặt của bạn</string>
     <string name="onfido_welcome_list_item_face_video">Quay video khuôn mặt của bạn</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Thử quét lại</string>
     <string name="onfido_nfc_scan_error_button_secondary">Được xác minh mà không cần NFC</string>
     <string name="onfido_nfc_scan_error_title">Chúng tôi không thể quét giấy tờ của bạn</string>
-    <string name="onfido_nfc_scan_error_list_item">Tháo ốp điện thoại của bạn</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Khi quá trình quét bắt đầu, hãy giữ yên điện thoại của bạn</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Không di chuyển điện thoại hoặc hộ chiếu của bạn trong khi quét</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Bạn cũng có thể thử bên trong trang sau</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Đặt điện thoại lên đầu hộ chiếu của bạn</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Từ từ trượt điện thoại của bạn lên xuống</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Đặt hộ chiếu của bạn trên một mặt phẳng</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Khi quá trình quét bắt đầu, hãy giữ yên điện thoại của bạn</string>
-    <string name="onfido_nfc_intro_title_card">Quét thẻ NFC của bạn</string>
     <string name="onfido_nfc_intro_title_passport">Quét ePassport của bạn</string>
     <string name="onfido_nfc_intro_subtitle">Làm theo hướng dẫn bên dưới</string>
     <string name="onfido_nfc_intro_button_primary">Bắt đầu quét</string>
-    <string name="onfido_nfc_intro_list_item">Đặt thẻ ở phía sau thiết bị của bạn</string>
-    <string name="onfido_nfc_intro_list_item_2">Từ từ trượt điện thoại di động của bạn lên và xuống</string>
-    <string name="onfido_nfc_intro_list_item_3">Khi quá trình quét bắt đầu, hãy giữ yên điện thoại của bạn</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Chúng tôi đã quét thành công hộ chiếu của bạn</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Chúng tôi đã quét thẻ của bạn thành công</string>
 
     <string name="onfido_nfc_select_title_passport">Đẩy nhanh quá trình bằng NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Chúng tôi sẽ quét chip NFC trong hộ chiếu của bạn</string>
-    <string name="onfido_nfc_select_body_passport">Các ePassport có biểu tượng này trên bìa</string>
     <string name="onfido_nfc_select_button_primary_passport">Sử dụng ePassport</string>
     <string name="onfido_nfc_select_button_secondary_passport">Giấy tờ này không phải là ePassport</string>
 
     <string name="onfido_nfc_select_title_card">Đẩy nhanh quá trình bằng NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Chúng tôi sẽ quét chip NFC trong thẻ của bạn</string>
-    <string name="onfido_nfc_select_body_card">Thẻ có chip NFC có biểu tượng này</string>
     <string name="onfido_nfc_select_button_primary_card">Sử dụng thẻ NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Đó không phải là thẻ NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Đặt điện thoại gần đầu hộ chiếu của bạn</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Đặt điện thoại của bạn trên thẻ</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Giữ yên điện thoại của bạn</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Mất tiếp xúc với thẻ</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Mất tiếp xúc với hộ chiếu</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Quay video khuôn mặt của bạn</string>
 	<string name="onfido_avc_intro_video_accessibility">Video mẫu về một người xoay đầu sang cả hai bên cho đến khi hoàn thành</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Tiếp tục xoay đầu</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Xoay đầu sang bên kia</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Xem từ máy ảnh selfie</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Đã hoàn thành phía bên trái</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">Đồng ý</string>
     <string name="onfido_poa_welcome_text">Chụp ảnh giấy tờ có địa chỉ của bạn</string>
 	<string name="onfido_country_select_error_no_country_body">Chúng tôi đang nỗ lực bổ sung thêm nhiều quốc gia vào danh sách. Trong thời gian chờ đợi, hãy thử sử dụng tài liệu thay thế.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Rất tiếc, chúng tôi không chấp nhận hóa đơn điện thoại di động</string>
-	<string name="onfido_doc_select_button_bill_detail">Khí đốt, điện, nước, điện thoại cố định hoặc internet</string>
+    <string name="onfido_doc_select_button_bill_detail">Khí đốt, điện, nước, điện thoại cố định hoặc internet</string>
 
 	<string name="onfido_doc_select_subtitle_country">Nhập quốc gia phát hành để chọn loại giấy tờ được chấp nhận</string>
 	<string name="onfido_doc_select_section_header_country">Quốc gia cấp giấy tờ</string>
 	<string name="onfido_doc_select_section_header_doc_type">Những giấy tờ được chấp nhận</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Không có kết quả</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Toàn trang</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Trang có ảnh</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Trang có ảnh</string>
 	<string name="onfido_doc_select_subtitle_front_back">Mặt trước và mặt sau</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Chọn quốc gia cấp giấy tờ</string>
 
@@ -526,4 +483,35 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vui lòng không phát bất kỳ âm thanh nào trên thiết bị của bạn trong khi ghi âm</string>
 	<string name="onfido_doc_capture_header_recording_video">Ghi video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Ghi hình đã hoàn tất</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Chúng tôi sẽ quét chip NFC đối với tài liệu của bạn</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Đặt tài liệu ở phía sau thiết bị của bạn</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Từ từ trượt thiết bị của bạn lên và xuống</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Khi quá trình quét bắt đầu, hãy giữ yên</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Được xác minh mà không cần NFC</string>
+	<string name="onfido_nfc_scan_error_inter_list_item">Tháo ốp điện thoại của bạn</string>
+	<string name="onfido_nfc_scan_error_inter_list_item_2">Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công</string>
+	<string name="onfido_nfc_scan_error_final_title">Chúng tôi không thể xác minh tài liệu này</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">Cần quét NFC đối với tài liệu này nhưng không thể hoàn tất.</string>
+	<string name="onfido_nfc_scan_error_final_list_item">Bạn có một tài liệu khác để tiếp tục?</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Sử dụng tài liệu khác nhau</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Chúng tôi sẽ quét chip NFC đối với tài liệu của bạn</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item">Đặt tài liệu của bạn trên một bề mặt phẳng</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Mở tài liệu của bạn ở trang sau bên trong</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Đặt tài liệu ở phía sau thiết bị của bạn</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Từ từ trượt thiết bị của bạn lên và xuống</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Khi quá trình quét bắt đầu, hãy giữ yên</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Được xác minh mà không cần NFC</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item">Tháo bìa hộ chiếu và ốp điện thoại của bạn</string>
+	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Không có kết quả phù hợp</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Đã tìm thấy một kết quả</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Đã tìm thấy %d kết quả</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Đã phát hiện ảnh của màn hình</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Đã phát hiện ảnh chụp màn hình</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Phát hiện bản sao</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Quét đã phát hiện</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Vui lòng sử dụng tài liệu gốc của bạn. Ảnh chụp màn hình hoặc bản sao không được chấp nhận</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Chọn giấy tờ khác</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Gửi ảnh bất kể</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Thử quay video theo cách thủ công</string>
 </resources>

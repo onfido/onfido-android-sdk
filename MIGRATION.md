@@ -1,5 +1,27 @@
 # Onfido Android SDK Migration Guide
 
+## `19.2.2` -> `19.3.0`
+
+#### Deprecation
+- Motion capture fallbacks configuration is no longer supported from version 19.3.0 onwards as the SDK has been improved to mitigate device coverage issues.
+  `withCaptureFallback` configuration has been marked as Deprecated and will be removed in an upcoming version.
+
+### String Changes
+
+#### Added
+
+- `onfido_country_select_search_results_none_accessibility`
+- `onfido_country_select_search_results_one_accessibility`
+- `onfido_country_select_search_results_multiple_accessibility`
+- `onfido_doc_confirmation_alert_odp_photo_of_screen_title`
+- `onfido_doc_confirmation_alert_odp_screenshot_title`
+- `onfido_doc_confirmation_alert_odp_photocopy_title`
+- `onfido_doc_confirmation_alert_odp_scan_title`
+- `onfido_doc_confirmation_alert_odp_detail`
+- `onfido_doc_confirmation_button_secondary_change_document`
+- `onfido_doc_confirmation_button_secondary_submit_anyway`
+- `onfido_doc_capture_alert_manual_capture_video_title`
+
 ## `19.0.0` -> `19.1.0`
 - Onfido SDK now supports the dark theme. By default, the user's active device theme will be
   automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time

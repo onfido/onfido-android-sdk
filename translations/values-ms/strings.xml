@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Pilih negara yang mengeluarkan</string>
 	<string name="onfido_country_select_bottom_sheet_title">Tidak menemui negara anda?</string>
     <string name="onfido_country_select_bottom_sheet_details">Nampaknya negara dokumen yang anda pilih tidak disokong. Sila pilih negara lain.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Tutup</string>
-    <string name="onfido_selfie_intro_subtitle">Kami akan membandingkan swafoto tersebut dengan dokumen anda</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Kami akan membandingkan swafoto tersebut dengan dokumen anda</string>
     <string name="onfido_selfie_capture_body">Pastikan wajah anda berada dalam bingkai berbentuk bujur</string>
     <string name="onfido_video_capture_prompt_button_timeout">Cuba Semula</string>
     <string name="onfido_generic_error_camera_unavailable">Tiada kamera tersedia pada peranti ini</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Langkah seterusnya</string>
 	<string name="onfido_video_confirmation_error_media_player">Berlaku ralat pada video anda. Sila rakam semula video.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Muat Semula</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Muat semula video contoh</string>
     <string name="onfido_video_intro_error_network">Tidak dapat memuatkan kerana rangkaian tidak stabil</string>
-    <string name="onfido_video_intro_error_network_accessibility">Tidak boleh memuatkan video contoh kerana rangkaian tidak stabil</string>
-	<string name="onfido_video_intro_error_load_offline">Tidak boleh memuatkan kerana anda berada di luar talian</string>
+    <string name="onfido_video_intro_error_load_offline">Tidak boleh memuatkan kerana anda berada di luar talian</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Negara cadangan</string>
     <string name="onfido_country_select_list_header_all">Semua negara</string>
     <string name="onfido_app_title_country_select_search">Carian</string>
-    <string name="onfido_country_select_error_no_country_title">Negara tidak ditemui</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Cuba ambil gambar secara manual</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Gambar kabur dikesan</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Gambar kabur dikesan</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Kod bar tidak dikesan</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Berada di tempat yang terang dan dekatkan kad dengan kamera</string>
     <string name="onfido_permission_recovery_button_primary">Dayakannya pada tetapan</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Semak semula</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Kami akan menghidupkan lampu denyar peranti anda semasa rakaman video</string>
-	<string name="onfido_doc_video_capture_header">Ketika memegang dokumen anda, pastikan bahagian depan dokumen berada dalam bingkai</string>
-    <string name="onfido_doc_video_capture_header_step1">Sekarang, jangan bergerak</string>
-    <string name="onfido_doc_video_capture_detail_step2">Pastikan dokumen sentiasa dalam paparan penuh pada setiap masa</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Langkah seterusnya</string>
-    <string name="onfido_doc_video_capture_header_passport">Ketika memegang pasport anda, pastikan halaman foto berada dalam bingkai</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Pusing dokumen anda secara perlahan-lahan untuk menunjukkan halaman luar</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Rakaman video terhad kepada %1$s saat.</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Berjaya</string>
-	<string name="onfido_doc_video_capture_stepper">Langkah ​%1$d​ daripada ​%2$d​</string>
-    <string name="onfido_doc_video_capture_header_step2">Pusing dokumen anda secara perlahan-lahan untuk menunjukkan bahagian belakang</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Pratonton video</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Tamatkan rakaman</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Jangan bergerak</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">Rakaman video terhad kepada ​%1$s​ saat</string>
+    <string name="onfido_doc_video_capture_stepper">Langkah ​%1$d​ daripada ​%2$d​</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Hantar gambar</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Ambil semula gambar</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Tanggalkan cermin mata anda, jika perlu</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Tanggalkan apa sahaja yang menutupi muka anda. Cermin mata dibenarkan</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Susun dokumen secara selari, kemudian tekan butang</string>
     <string name="onfido_doc_select_subtitle">Ia mestilah ID bergambar yang rasmi</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Ambil semula gambar</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Ambil semula gambar</string>
     <string name="onfido_video_intro_title">Rakam video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Pilih dokumen lain</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Toleh kepala anda ke kiri</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Toleh kepala anda ke kanan</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Gunakan peranti anda untuk:</string>
     <string name="onfido_welcome_list_item_doc_photo">Ambil gambar dokumen pengenalan anda</string>
-    <string name="onfido_welcome_list_item_doc_video">Rakam video dokumen pengenalan anda</string>
-	<string name="onfido_welcome_list_item_doc_generic">Rakam video dokumen pengenalan anda</string>
+    <string name="onfido_welcome_list_item_doc_generic">Rakam video dokumen pengenalan anda</string>
     <string name="onfido_welcome_list_item_face_photo">Ambil gambar wajah anda</string>
     <string name="onfido_welcome_list_item_face_video">Rakam video wajah anda</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Cuba semula pengimbasan</string>
     <string name="onfido_nfc_scan_error_button_secondary">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_title">Kami tidak dapat mengimbas dokumen anda</string>
-    <string name="onfido_nfc_scan_error_list_item">Tanggalkan penutup telefon anda</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Sebaik sahaja imbasan bermula, jangan bergerak</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Jangan gerakkan telefon atau pasport anda semasa mengimbas</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Anda juga boleh mencuba pada bahagian dalam halaman belakang</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Letakkan telefon anda pada bahagian atas pasport anda</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Gelongsor telefon anda ke bawah dan ke atas secara perlahan-lahan</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Letakkan pasport anda di atas permukaan yang rata</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Sebaik sahaja imbasan bermula, pastikan telefon anda tidak bergerak</string>
-    <string name="onfido_nfc_intro_title_card">Imbas kad NFC anda</string>
     <string name="onfido_nfc_intro_title_passport">Imbas e-Pasport anda</string>
     <string name="onfido_nfc_intro_subtitle">Ikut arahan di bawah</string>
     <string name="onfido_nfc_intro_button_primary">Mula mengimbas</string>
-    <string name="onfido_nfc_intro_list_item">Letakkan kad anda di bahagian belakang peranti anda</string>
-    <string name="onfido_nfc_intro_list_item_2">Gelongsor telefon anda ke bawah dan ke atas secara perlahan-lahan</string>
-    <string name="onfido_nfc_intro_list_item_3">Sebaik sahaja imbasan bermula, jangan bergerak</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Kami telah berjaya mengimbas pasport anda</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Kami telah berjaya mengimbas kad anda</string>
 
     <string name="onfido_nfc_select_title_passport">Percepatkan proses dengan NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Kami akan mengimbas cip NFC pada pasport anda</string>
-    <string name="onfido_nfc_select_body_passport">e-Pasport mempunyai simbol ini pada bahagian kulit depan</string>
     <string name="onfido_nfc_select_button_primary_passport">Guna e-Pasport</string>
     <string name="onfido_nfc_select_button_secondary_passport">Ia bukan e-Pasport</string>
 
     <string name="onfido_nfc_select_title_card">Percepatkan proses dengan NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Kami akan mengimbas cip NFC dalam kad anda</string>
-    <string name="onfido_nfc_select_body_card">Kad dengan cip NFC mempunyai simbol ini</string>
     <string name="onfido_nfc_select_button_primary_card">Guna kad NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Ini bukan kad NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Letakkan telefon anda berhampiran bahagian atas pasport anda</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Letakkan telefon anda pada kad</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Pastikan telefon anda tidak bergerak</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Terputus sambungan dengan kad</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Terputus sambungan dengan pasport</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Rakam video wajah anda</string>
 	<string name="onfido_avc_intro_video_accessibility">Contoh video cara menoleh kepala ke kedua-dua belah sisi sehingga tamat</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Teruskan menoleh kepala anda</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Toleh kepala anda ke sebelah sisi yang lain</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Pandangan dari kamera swafoto</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Bahagian kiri selesai</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Ambil gambar dokumen yang mempunyai alamat anda</string>
 	<string name="onfido_country_select_error_no_country_body">Kami sedang berusaha untuk menambah lebih banyak negara ke senarai ini. Sementara itu, cuba gunakan dokumen alternatif.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Maaf, bil telefon bimbit tidak diterima</string>
-	<string name="onfido_doc_select_button_bill_detail">Gas, elektrik, air, talian tetap atau jalur lebar</string>
+    <string name="onfido_doc_select_button_bill_detail">Gas, elektrik, air, talian tetap atau jalur lebar</string>
 
 	<string name="onfido_doc_select_subtitle_country">Pilih negara yang mengeluarkan untuk melihat dokumen yang kami terima</string>
 	<string name="onfido_doc_select_section_header_country">Negara yang mengeluarkan</string>
 	<string name="onfido_doc_select_section_header_doc_type">Dokumen yang diterima</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Tiada Hasil</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Seluruh halaman</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Halaman foto</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Halaman foto</string>
 	<string name="onfido_doc_select_subtitle_front_back">Bahagian depan dan belakang</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Pilih negara yang mengeluarkan</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Cuba Semula</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio sedang dimainkan oleh aplikasi lain</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan mainkan apa-apa audio pada peranti anda semasa rakaman dibuat</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Percepatkan proses dengan NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Kami akan mengimbas cip NFC dokumen anda</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Kami akan mengimbas cip NFC dokumen anda</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Letakkan dokumen anda di bahagian belakang peranti anda</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Luncurkan peranti anda ke atas dan ke bawah perlahan-lahan</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Sebaik sahaja imbasan bermula, tahan ia tetap</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Mula mengimbas</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan pengesahan tanpa NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Kami tidak dapat mengimbas dokumen anda</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Tanggalkan penutup telefon anda</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan pengesahan tanpa NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Tanggalkan penutup telefon anda</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Cuba semula pengimbasan</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Dapatkan pengesahan tanpa NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Kami tidak dapat mengesahkan dokumen ini</string>
+    <string name="onfido_nfc_scan_error_final_title">Kami tidak dapat mengesahkan dokumen ini</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Pengimbasan NFC diperlukan untuk dokumen ini, tetapi tidak dapat diselesaikan.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Adakah anda mempunyai dokumen lain untuk meneruskan?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Gunakan dokumen yang berbeza</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Dapatkan pengesahan tanpa NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Percepatkan proses dengan NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Kami akan mengimbas cip NFC dokumen anda</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Kami akan mengimbas cip NFC dokumen anda</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Letakkan dokumen anda di atas permukaan rata</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Buka dokumen anda di halaman belakang dalam</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Letakkan dokumen anda di bahagian belakang peranti anda</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Luncurkan peranti anda ke atas dan ke bawah perlahan-lahan</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Sebaik sahaja imbasan bermula, tahan ia tetap</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Mula mengimbas</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Dapatkan pengesahan tanpa NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Kami tidak dapat mengimbas dokumen anda</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Tanggalkan sarung pasport dan penutup telefon anda</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Dapatkan pengesahan tanpa NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Tanggalkan sarung pasport dan penutup telefon anda</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Cuba semula pengimbasan</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Dapatkan pengesahan tanpa NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Merekod video</string>
+    <string name="onfido_doc_capture_header_recording_video">Merekod video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Rakaman selesai</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Tiada hasil yang sepadan</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Satu hasil ditemui</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d hasil ditemui</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Gambar skrin dikesan</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Pengambilan skrin dikesan</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopi dikesan</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Imbasan dikesan</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Sila gunakan dokumen asal anda. Foto skrin atau fotokopi tidak diterima</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Pilih dokumen lain</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Hantar foto sekalipun</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Cuba merakam video secara manual</string>
 </resources>

@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">اختر الدولة المصدِرة</string>
 	<string name="onfido_country_select_bottom_sheet_title">لا يمكنك العثور على بلدك؟</string>
     <string name="onfido_country_select_bottom_sheet_details">يبدو أن بلد المستند الذي حددته غير معتمد. يُرجى تحديد بلد مختلف.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">إغلاق</string>
-    <string name="onfido_selfie_intro_subtitle">سنقارنها بمستندك</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">سنقارنها بمستندك</string>
     <string name="onfido_selfie_capture_body">أبقِ وجهك داخل الإطار البيضاوي</string>
     <string name="onfido_video_capture_prompt_button_timeout">إعادة المحاولة</string>
     <string name="onfido_generic_error_camera_unavailable">لا توجد كاميرا متاحة في هذا الجهاز</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">الخطوة التالية</string>
 	<string name="onfido_video_confirmation_error_media_player">حدث خطأ في الفيديو الخاص بك. يُرجى التقاطه مرةً أخرى.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">إعادة التحميل</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">إعادة تحميل مثال الفيديو</string>
     <string name="onfido_video_intro_error_network">تعذّر التحميل بسبب عدم استقرار الشبكة</string>
-    <string name="onfido_video_intro_error_network_accessibility">تعذّر تحميل الفيديو التوضيحي بسبب عدم استقرار الشبكة</string>
-	<string name="onfido_video_intro_error_load_offline">يتعذّر التحميل لأنك غير متصل بالشبكة</string>
+    <string name="onfido_video_intro_error_load_offline">يتعذّر التحميل لأنك غير متصل بالشبكة</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">البلد المقترح</string>
     <string name="onfido_country_select_list_header_all">جميع البلدان</string>
     <string name="onfido_app_title_country_select_search">البحث</string>
-    <string name="onfido_country_select_error_no_country_title">البلد غير موجود</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">حاول التقاط الصورة يدويًا</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">تم كشف صورة ضبابية</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">تم كشف صورة ضبابية</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">لم يتم الكشف عن الباركود</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">ابقَ في مكان جيد الإضاءة واجعل البطاقة أقرب إلى الكاميرا</string>
     <string name="onfido_permission_recovery_button_primary">تمكين في الإعدادات</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">مراجعة مرة أخرى</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">سنشغّل فلاش جهازك أثناء تسجيل الفيديو</string>
-	<string name="onfido_doc_video_capture_header">أثناء الإمساك بالمستند، أبقِ الجانب الأمامي داخل الإطار</string>
-    <string name="onfido_doc_video_capture_header_step1">الآن، ابقَ ساكنًا</string>
-    <string name="onfido_doc_video_capture_detail_step2">حافظ على عرض المستند بالكامل في جميع الأوقات</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">الخطوة التالية</string>
-    <string name="onfido_doc_video_capture_header_passport">مع إمساك جواز سفرك، أبقِ صفحة الصورة داخل الإطار</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">أدر المستند ببطء لإظهار الصفحات الخارجية</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">يقتصر تسجيل الفيديو على ​%1$s​ ثوانٍ</string>
-    <string name="onfido_doc_video_capture_success_accessibility">تم بنجاح</string>
-	<string name="onfido_doc_video_capture_stepper">الخطوة ​%1$d​ من ​%2$d​</string>
-    <string name="onfido_doc_video_capture_header_step2">أدر المستند ببطء لإظهار الجزء الخلفي</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">معاينة الفيديو</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">إنهاء التسجيل</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">ابقَ ساكنًا</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">يقتصر تسجيل الفيديو على ​%1$s​ ثوانٍ</string>
+    <string name="onfido_doc_video_capture_stepper">الخطوة ​%1$d​ من ​%2$d​</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">أرسِل صورة</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">إعادة التقاط الصورة</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">انزع نظارتك، إذا لزم الأمر</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">قم بإزالة أي شيء يغطي وجهك. النظارات مقبولة</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">قم بمحاذاة المستند، ثم اضغط على الزر</string>
     <string name="onfido_doc_select_subtitle">يجب أن تكون بطاقة هوية رسمية تحمل صورة</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">إعادة التقاط الصورة</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">إعادة التقاط الصورة</string>
     <string name="onfido_video_intro_title">تسجيل فيديو</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">اختر مستندًا آخر</string>
     <string name="onfido_video_capture_header_challenge_turn_left">أدر رأسك لليسار</string>
     <string name="onfido_video_capture_header_challenge_turn_right">أدر رأسك لليمين</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">استخدم جهازك من أجل:</string>
     <string name="onfido_welcome_list_item_doc_photo">التقط صورة لمستند هويتك</string>
-    <string name="onfido_welcome_list_item_doc_video">سجّل فيديو لمستند هويتك</string>
-	<string name="onfido_welcome_list_item_doc_generic">قم بتسجيل فيديو لمستند هويتك</string>
+    <string name="onfido_welcome_list_item_doc_generic">قم بتسجيل فيديو لمستند هويتك</string>
     <string name="onfido_welcome_list_item_face_photo">التقط صورة لوجهك</string>
     <string name="onfido_welcome_list_item_face_video">سجِّل فيديو لوجهك</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">إعادة محاولة المسح الضوئي</string>
     <string name="onfido_nfc_scan_error_button_secondary">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_title">لم نتمكن من مسح المستند ضوئيًا</string>
-    <string name="onfido_nfc_scan_error_list_item">قم بإزالة غطاء هاتفك</string>
-    <string name="onfido_nfc_scan_error_list_item_2">ابقَ ساكنًا بمجرد بدء المسح الضوئي</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">لا تحرك هاتفك أو جواز سفرك أثناء المسح الضوئي</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">يمكنك أيضًا تجربة الجزء الداخلي من الصفحة الخلفية</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">ضع هاتفك على الجزء العلوي من جواز سفرك</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">حرك هاتفك ببطء للأسفل وللأعلى</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">ضع جواز سفرك على سطح مستو</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">بمجرد بدء المسح الضوئي، امسك هاتفك</string>
-    <string name="onfido_nfc_intro_title_card">مسح بطاقة NFC ‏ضوئيًا</string>
     <string name="onfido_nfc_intro_title_passport">امسح جواز سفرك الإلكتروني ضوئيًا</string>
     <string name="onfido_nfc_intro_subtitle">اتبع التعليمات أدناه</string>
     <string name="onfido_nfc_intro_button_primary">بدء المسح الضوئي</string>
-    <string name="onfido_nfc_intro_list_item">ضع بطاقتك في الجزء الخلفي من جهازك</string>
-    <string name="onfido_nfc_intro_list_item_2">حرك هاتفك المحمول ببطء للأعلى وللأسفل</string>
-    <string name="onfido_nfc_intro_list_item_3">ابقَ ساكنًا بمجرد بدء المسح الضوئي</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">لقد قمنا بمسح جواز سفرك بنجاح</string>
     <string name="onfido_nfc_sheet_success_instruction_card">لقد مسحنا بطاقتك ضوئيًا بنجاح</string>
 
     <string name="onfido_nfc_select_title_passport">تسريع العملية مع NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">سنقوم بمسح رقاقة NFC في جواز سفرك</string>
-    <string name="onfido_nfc_select_body_passport">تتضمّن جوازات السفر الإلكترونية هذا الرمز على الغلاف</string>
     <string name="onfido_nfc_select_button_primary_passport">استخدام جواز السفر الإلكتروني</string>
     <string name="onfido_nfc_select_button_secondary_passport">هذا ليس جواز سفر إلكتروني</string>
 
     <string name="onfido_nfc_select_title_card">تسريع العملية مع NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">سنقوم بمسح رقاقة NFC في بطاقتك</string>
-    <string name="onfido_nfc_select_body_card">تحتوي البطاقات التي تحتوي على رقاقات NFC على هذا الرمز</string>
     <string name="onfido_nfc_select_button_primary_card">استخدام بطاقة NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">هذه ليست بطاقة NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">ضع هاتفك بالقرب من الجزء العلوي من جواز سفرك</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">ضع هاتفك على البطاقة</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">حافظ على هاتفك ثابتًا</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">فقد الاتصال بالبطاقة</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">فقد الاتصال بجواز السفر</string>
@@ -437,7 +397,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">سجِّل فيديو لوجهك</string>
 	<string name="onfido_avc_intro_video_accessibility">مثال فيديو لشخص يدير رأسه لكلا الجانبين حتى الانتهاء</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">استمر بتَدوير رأسك</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">أدر رأسك إلى الجانب الآخر</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">عرض من كاميرا سيلفي</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">اكتمل الجانب الأيسر</string>
@@ -504,15 +463,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">موافق</string>
     <string name="onfido_poa_welcome_text">التقط صورة لمستند بعنوانك</string>
 	<string name="onfido_country_select_error_no_country_body">إننا نعمل على إضافة المزيد من البلدان إلى القائمة. في هذه الأثناء، حاول استخدام مستند بديل.</string>
-	<string name="onfido_doc_select_extra_no_mobile">عذرًا، لا توجد فواتير للهاتف المحمول</string>
-	<string name="onfido_doc_select_button_bill_detail">غاز أو كهرباء أو مياه أو هاتف أرضي أو النطاق العريض</string>
+    <string name="onfido_doc_select_button_bill_detail">غاز أو كهرباء أو مياه أو هاتف أرضي أو النطاق العريض</string>
 
 	<string name="onfido_doc_select_subtitle_country">حدد الدولة المصدرة لمعرفة المستندات التي نقبلها</string>
 	<string name="onfido_doc_select_section_header_country">دولة الإصدار</string>
 	<string name="onfido_doc_select_section_header_doc_type">المستندات المقبولة</string>
 	<string name="onfido_doc_select_section_input_country_not_found">لا توجد نتائج</string>
-	<string name="onfido_doc_select_subtitle_entire_page">الصفحة بأكملها</string>
-	<string name="onfido_doc_select_subtitle_photo_page">التقط صورة للصفحة</string>
+    <string name="onfido_doc_select_subtitle_photo_page">التقط صورة للصفحة</string>
 	<string name="onfido_doc_select_subtitle_front_back">من الأمام والخلف</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">اختر الدولة المصدِرة</string>
 
@@ -523,37 +480,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">إعادة المحاولة</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">جارٍ تشغيل المقطع الصوتي بواسطة تطبيق آخر</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">يرجى عدم تشغيل أي مقاطع صوتية على جهازك أثناء التسجيل</string>
-	<string name="onfido_nfc_scan_welcome_card_title">تسريع العملية مع NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">ضع المستند في الجزء الخلفي من جهازك</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">حرك جهازك ببطء لأعلى ولأسفل</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">بمجرد بدء المسح الضوئي، حاول الحفاظ على الجهاز ثابتا</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">بدء المسح الضوئي</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">الحصول على التحقق دون NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">لم نتمكن من مسح المستند ضوئيًا</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">قم بإزالة غطاء هاتفك</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">الحصول على التحقق دون NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">قم بإزالة غطاء هاتفك</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">حافظ على جهازك والمستندات في وضع تلامس حتى يتم الانتهاء من المسح الضوئي بنجاح</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">إعادة محاولة المسح الضوئي</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">الحصول على التحقق دون NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">لم نستطع التحقق من هذا المستند</string>
+    <string name="onfido_nfc_scan_error_final_title">لم نستطع التحقق من هذا المستند</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">المسح الضوئي عن طريق NFC مطلوب لهذا المستند ، لكن تعذر إكماله.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">هل لديك مستند مختلف لاكمال العملية؟</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">استخدم مستند مختلف</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">الحصول على التحقق دون NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">تسريع العملية مع NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">ضع المستند على سطح مستو</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">افتح الصفحة الخلفية الداخلية للمستند</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">ضع المستند في الجزء الخلفي من جهازك</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">حرك جهازك ببطء لأعلى ولأسفل</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">بمجرد بدء المسح الضوئي، حاول الحفاظ على الجهاز ثابتا</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">بدء المسح الضوئي</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">الحصول على التحقق دون NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">لم نتمكن من مسح المستند ضوئيًا</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">أزل جواز السفر وأغطية الهاتف</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">الحصول على التحقق دون NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">أزل جواز السفر وأغطية الهاتف</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">حافظ على جهازك والمستندات في وضع تلامس حتى يتم الانتهاء من المسح الضوئي بنجاح</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">إعادة محاولة المسح الضوئي</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">الحصول على التحقق دون NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">تسجيل الفيديو</string>
+    <string name="onfido_doc_capture_header_recording_video">تسجيل الفيديو</string>
 	<string name="onfido_doc_capture_header_recording_complete">اكتمل التسجيل</string>
+	<string name="onfido_country_select_search_results_none_accessibility">لا توجد نتائج مطابقة</string>
+	<string name="onfido_country_select_search_results_one_accessibility">تم العثور على نتيجة واحدة</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">تم العثور على %d من النتائج</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">تم اكتشاف صورة للشاشة</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">تم اكتشاف لقطة شاشة</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">تم اكتشاف نسخة طبق الأصل</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">تم اكتشاف الفحص</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">يرجى استخدام المستند الأصلي الخاص بك. لا يتم قبول الصور من الشاشة أو النسخ الفوتوغرافية</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">اختر مستندًا آخر</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">أرسل الصورة على أي حال</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">حاول تسجيل الفيديو يدويًا</string>
 </resources>

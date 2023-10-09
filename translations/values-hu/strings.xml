@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Kibocsátó ország kiválasztása</string>
 	<string name="onfido_country_select_bottom_sheet_title">Nem találja az országot?</string>
     <string name="onfido_country_select_bottom_sheet_details">Úgy tűnik, a kiválasztott dokumentumhoz tartozó ország nem támogatott. Válasszon ki egy másik országot.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Bezár</string>
-    <string name="onfido_selfie_intro_subtitle">Összehasonlítjuk ezt a dokumentumán szereplő képpel</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Összehasonlítjuk ezt a dokumentumán szereplő képpel</string>
     <string name="onfido_selfie_capture_body">Tartsa az arcát az ovális kereten belül</string>
     <string name="onfido_video_capture_prompt_button_timeout">Próbálja újra</string>
     <string name="onfido_generic_error_camera_unavailable">Az eszközön nincs fényképezőgép</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Következő lépés</string>
 	<string name="onfido_video_confirmation_error_media_player">Hiba történt a videófelvétel közben. Kérjük, vegye fel újra.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Újratöltés</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Példavideó újratöltése</string>
     <string name="onfido_video_intro_error_network">Instabil hálózat miatt a betöltés nem sikerült</string>
-    <string name="onfido_video_intro_error_network_accessibility">Instabil hálózat miatt nem lehet betölteni a példavideót</string>
-	<string name="onfido_video_intro_error_load_offline">Nem lehet betölteni, mert nincs internetkapcsolat</string>
+    <string name="onfido_video_intro_error_load_offline">Nem lehet betölteni, mert nincs internetkapcsolat</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Javasolt ország</string>
     <string name="onfido_country_select_list_header_all">Összes ország</string>
     <string name="onfido_app_title_country_select_search">Keresés</string>
-    <string name="onfido_country_select_error_no_country_title">Az ország nem található</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Próbáljon manuálisan készíteni képet</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Homályos a fénykép</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Homályos a fénykép</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Vonalkód nem észlelhető</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Tartózkodjon jól megvilágított helyen, és tartsa közelebb a kártyát a fényképezőgéphez</string>
     <string name="onfido_permission_recovery_button_primary">Engedélyezés a beállításokban</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Ismételt ellenőrzés</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">A videófelvétel közben bekapcsoljuk az eszköz vakuját</string>
-	<string name="onfido_doc_video_capture_header">Tartsa úgy a dokumentumot, hogy az elülső oldala a kereten belül legyen</string>
-    <string name="onfido_doc_video_capture_header_step1">Maradjon most mozdulatlan</string>
-    <string name="onfido_doc_video_capture_detail_step2">A dokumentum mindig legyen teljes egészében látható</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Következő lépés</string>
-    <string name="onfido_doc_video_capture_header_passport">Tartsa úgy az útlevélét, hogy a fényképes oldal a kereten belül legyen</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Lassan fordítsa meg a dokumentumot, hogy a külső oldalai láthatóak legyenek</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">A videófelvétel időkorlátja %1$s másodperc</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Sikeres</string>
-	<string name="onfido_doc_video_capture_stepper">​%1$d​ / ​%2$d​ lépés</string>
-    <string name="onfido_doc_video_capture_header_step2">Lassan fordítsa meg a dokumentumot, hogy látszódjon a hátoldala</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Videó előnézete</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Felvétel befejezése</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Ne mozduljon</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">A videófelvétel időkorlátja %1$s másodperc</string>
+    <string name="onfido_doc_video_capture_stepper">​%1$d​ / ​%2$d​ lépés</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Küldje el a fényképet</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Készítse el a fényképet újra</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Ha szükséges, vegye le a szemüvegét</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Távolítson el mindent, ami eltakarja az arcát. Szemüvege maradhat</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Igazítsa el a dokumentumot, majd nyomja meg a gombot</string>
     <string name="onfido_doc_select_subtitle">Hivatalos fényképes igazolványnak kell lennie</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Készítse el a fényképet újra</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Készítse el a fényképet újra</string>
     <string name="onfido_video_intro_title">Készítsen videófelvételt</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Válasszon másik dokumentumot</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Fordítsa a fejét balra</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Fordítsa a fejét jobbra</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Használja eszközét a következőkhöz:</string>
     <string name="onfido_welcome_list_item_doc_photo">Készítsen fényképet személyazonosító okmányáról</string>
-    <string name="onfido_welcome_list_item_doc_video">Készítsen videót személyazonosító okmányáról</string>
-	<string name="onfido_welcome_list_item_doc_generic">Készítsen videót személyazonosító okmányáról</string>
+    <string name="onfido_welcome_list_item_doc_generic">Készítsen videót személyazonosító okmányáról</string>
     <string name="onfido_welcome_list_item_face_photo">Fényképezze le az arcát</string>
     <string name="onfido_welcome_list_item_face_video">Készítsen videófelvételt az arcáról</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">A beolvasás megismétlése</string>
     <string name="onfido_nfc_scan_error_button_secondary">Ellenőrzés NFC nélkül</string>
     <string name="onfido_nfc_scan_error_title">Nem tudtuk beolvasni a dokumentumát</string>
-    <string name="onfido_nfc_scan_error_list_item">Távolítsa el a telefon tokját</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Miután a szkennelés elkezdődött, tartsa mozdulatlanul</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Szkennelés közben ne mozgassa a telefont és az útlevelet</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">A hátlap belső oldalával is próbálkozhat</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Helyezze a telefonját az útlevelére</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Lassan csúsztassa a telefont le és fel</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Fektesse az útlevelét egy sima felületre</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">A szkennelés megkezdése után tartsa mozdulatlanul a telefont</string>
-    <string name="onfido_nfc_intro_title_card">NFC-kártya beolvasása</string>
     <string name="onfido_nfc_intro_title_passport">Olvassa be az e-útlevelét</string>
     <string name="onfido_nfc_intro_subtitle">Kövesse az alábbi utasításokat</string>
     <string name="onfido_nfc_intro_button_primary">Szkennelés indítása</string>
-    <string name="onfido_nfc_intro_list_item">Helyezze a kártyát az eszköz hátuljára</string>
-    <string name="onfido_nfc_intro_list_item_2">Lassan csúsztassa a mobilját fel-le</string>
-    <string name="onfido_nfc_intro_list_item_3">Miután a szkennelés elkezdődött, tartsa mozdulatlanul</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Sikeresen beolvastuk az útlevelét</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Sikeresen beszkenneltük a kártyáját</string>
 
     <string name="onfido_nfc_select_title_passport">Gyorsítsa fel a folyamatot NFC-vel</string>
-    <string name="onfido_nfc_select_subtitle_passport">Leolvassuk az NFC-chipet az útlevelében</string>
-    <string name="onfido_nfc_select_body_passport">Az e-útlevelek borítóján ez a szimbólum látható</string>
     <string name="onfido_nfc_select_button_primary_passport">Használjon elektronikus útlevelet</string>
     <string name="onfido_nfc_select_button_secondary_passport">Ez nem elektronikus útlevél</string>
 
     <string name="onfido_nfc_select_title_card">Gyorsítsa fel a folyamatot NFC-vel</string>
-    <string name="onfido_nfc_select_subtitle_card">Leolvassuk a kártyáján lévő NFC-chipet</string>
-    <string name="onfido_nfc_select_body_card">Az NFC-chipekkel rendelkező kártyákon ez a szimbólum látható</string>
     <string name="onfido_nfc_select_button_primary_card">Használjon NFC-kártyát</string>
-    <string name="onfido_nfc_select_button_secondary_card">Ez nem egy NFC-kártya</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Helyezze a telefonját az útlevele felső része közelébe</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Helyezze a telefont a kártyára</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Tartsa a telefonját egy helyben</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Megszakadt a kapcsolat a kártyával</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Megszakadt a kapcsolat az útlevéllel</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Készítsen videófelvételt az arcáról</string>
 	<string name="onfido_avc_intro_video_accessibility">Példavideó, amelyen valaki mindkét oldalra elfordítja a fejét a befejezésig</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Fordítsa el a fejét</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Fordítsa el fejét a másik oldalra</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Szelfikamera képe</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">A bal oldal kész</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Készítsen fényképet a címét tartalmazó dokumentumról</string>
 	<string name="onfido_country_select_error_no_country_body">Dolgozunk azon, hogy további országokat vegyünk fel a listára. Addig is próbáljon meg egy másik dokumentumot használni.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Sajnáljuk, mobiltelefon-számlát nem fogadunk el</string>
-	<string name="onfido_doc_select_button_bill_detail">Gáz, villamos energia, víz, vezetékes telefon vagy szélessávú kapcsolat</string>
+    <string name="onfido_doc_select_button_bill_detail">Gáz, villamos energia, víz, vezetékes telefon vagy szélessávú kapcsolat</string>
 
 	<string name="onfido_doc_select_subtitle_country">Válassza ki a kibocsátó országot, hogy lássa, mely dokumentumokat fogadjuk el</string>
 	<string name="onfido_doc_select_section_header_country">Kibocsátó ország</string>
 	<string name="onfido_doc_select_section_header_doc_type">Elfogadott dokumentumok</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Nincs találat</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Teljes oldal</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Arcképes oldal</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Arcképes oldal</string>
 	<string name="onfido_doc_select_subtitle_front_back">Elülső és hátsó oldal</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Kibocsátó ország kiválasztása</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Próbálja újra</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">A hangot egy másik alkalmazás játsza le</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Kérjük, felvétel közben ne játsszon le semmilyen hangot a készülékén</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Gyorsítsa fel a folyamatot NFC-vel</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Leolvassuk a dokumentumán lévő NFC-chipet</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Leolvassuk a dokumentumán lévő NFC-chipet</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Illessze eszközét a dokumentuma tetejéhez</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lassan csúsztassa eszközet fel és le</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Amint a szkennelés elkezdődött, tartsa eszközét mozdulatlanul</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Szkennelés indítása</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Ellenőrzés NFC nélkül</string>
-	<string name="onfido_nfc_scan_error_inter_title">Nem tudtuk beolvasni a dokumentumát</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Távolítsa el a telefon tokját</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Ellenőrzés NFC nélkül</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Távolítsa el a telefon tokját</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">A beolvasás végéig tartsa egymáson a telefont és a dokumentumot</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">A beolvasás megismétlése</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Ellenőrzés NFC nélkül</string>
-	<string name="onfido_nfc_scan_error_final_title">Nem tudtuk ellenőrizni dokumentumát</string>
+    <string name="onfido_nfc_scan_error_final_title">Nem tudtuk ellenőrizni dokumentumát</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Dokumentuma ellenőrzéséhez NFC szükséges, de a szkennelés sikertelen volt.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Van másik dokumentuma amit használni tud?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Használjon egy másik dokumentumot</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Ellenőrzés NFC nélkül</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Gyorsítsa fel a folyamatot NFC-vel</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Leolvassuk a dokumentumán lévő NFC-chipet</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Leolvassuk a dokumentumán lévő NFC-chipet</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Tegye a dokumentumat egy sík feluletre</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Nyissa ki a dokumentumát a hátsó lapnál</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Illessze eszközét a dokumentuma tetejéhez</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Lassan csúsztassa eszközet fel és le</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Amint a szkennelés elkezdődött, tartsa eszközét mozdulatlanul</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Szkennelés indítása</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Ellenőrzés NFC nélkül</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Nem tudtuk beolvasni a dokumentumát</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Távolítsa el az útlevél- és telefonborítót</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Ellenőrzés NFC nélkül</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Távolítsa el az útlevél- és telefonborítót</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">A beolvasás végéig tartsa egymáson a telefont és a dokumentumot</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">A beolvasás megismétlése</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Ellenőrzés NFC nélkül</string>
-	<string name="onfido_doc_capture_header_recording_video">Videó rögzítése</string>
+    <string name="onfido_doc_capture_header_recording_video">Videó rögzítése</string>
 	<string name="onfido_doc_capture_header_recording_complete">Felvétel kész</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Nincs megfelelő találat</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Egy találat</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d találat</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Az észlelt képernyő fotó</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Képernyőfotó észlelve</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fénymásolat észlelve</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Szkennelés észlelve</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Kérjük, az eredeti dokumentumot használja. A képernyőfotók vagy fénymásolatok nem megfelelőek.</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Válasszon másik dokumentumot</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Küldje el a fotót így is</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Próbálja meg manuálisan felvenni a videót</string>
 </resources>

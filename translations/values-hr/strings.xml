@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Odaberite zemlju izdavanja</string>
 	<string name="onfido_country_select_bottom_sheet_title">Ne možete pronaći svoju zemlju?</string>
     <string name="onfido_country_select_bottom_sheet_details">Čini se da zemlja odabranog dokumenta nije podržana. Odaberite drugu zemlju.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Zatvori</string>
-    <string name="onfido_selfie_intro_subtitle">Usporedit ćemo to s vašim dokumentom</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Usporedit ćemo to s vašim dokumentom</string>
     <string name="onfido_selfie_capture_body">Držite lice unutar ovalnog dijela</string>
     <string name="onfido_video_capture_prompt_button_timeout">Pokušajte ponovno</string>
     <string name="onfido_generic_error_camera_unavailable">Na ovom uređaju nije dostupna kamera</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Sljedeći korak</string>
 	<string name="onfido_video_confirmation_error_media_player">Došlo je do pogreške prilikom snimanja videozapisa. Snimite ga ponovno.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Ponovno učitaj</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Ponovno učitajte videozapis s primjerom</string>
     <string name="onfido_video_intro_error_network">Učitavanje nije moguće jer je mreža nestabilna</string>
-    <string name="onfido_video_intro_error_network_accessibility">Učitavanje videozapisa s primjerom nije moguće jer je mreža nestabilna</string>
-	<string name="onfido_video_intro_error_load_offline">Učitavanje nije moguće jer ste izvan mreže</string>
+    <string name="onfido_video_intro_error_load_offline">Učitavanje nije moguće jer ste izvan mreže</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Predložena zemlja</string>
     <string name="onfido_country_select_list_header_all">Sve zemlje</string>
     <string name="onfido_app_title_country_select_search">Traži</string>
-    <string name="onfido_country_select_error_no_country_title">Zemlja nije pronađena</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Pokušajte fotografirati ručno</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Otkrivena je mutna fotografija</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Otkrivena je mutna fotografija</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Barkod nije otkriven</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ostanite na dobro osvijetljenom mjestu i približite karticu kameri</string>
     <string name="onfido_permission_recovery_button_primary">Omogućite u postavkama</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Ponovno pregledaj</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Tijekom snimanja videozapisa na vašem ćemo uređaju uključiti bljeskalicu</string>
-	<string name="onfido_doc_video_capture_header">Dok držite dokument, prednju stranu držite unutar okvira</string>
-    <string name="onfido_doc_video_capture_header_step1">Sada budite mirni</string>
-    <string name="onfido_doc_video_capture_detail_step2">Pazite da dokument bude jasno vidljiv u svakom trenutku</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Sljedeći korak</string>
-    <string name="onfido_doc_video_capture_header_passport">Dok držite putovnicu, stranicu na kojoj se nalazi fotografija držite unutar okvira</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Polako okrenite dokument tako da se prikažu vanjske stranice</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Snimanje videozapisa ograničeno je na nekoliko sekundi (%1$s)</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Uspjeli ste</string>
-	<string name="onfido_doc_video_capture_stepper">Korak ​%1$d​ od ​%2$d​</string>
-    <string name="onfido_doc_video_capture_header_step2">Polako okrenite dokument tako da se prikaže stražnja strana ili poleđina</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Pregledajte videozapis</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Završi snimanje</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Držite mirno</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Snimanje je ograničeno na nekoliko sekundi (%1$s)</string>
+    <string name="onfido_doc_video_capture_stepper">Korak ​%1$d​ od ​%2$d​</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Pošalji fotografiju</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Ponovno snimite fotografiju</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Skinite naočale ako je potrebno</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Uklonite sve što vam pokriva lice. Naočale neće smetati</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Poravnajte dokument, a zatim pritisnite tipku</string>
     <string name="onfido_doc_select_subtitle">Dokument koji šaljete za identifikaciju mora biti s vašom fotografijom</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Ponovno snimite fotografiju</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Ponovno snimite fotografiju</string>
     <string name="onfido_video_intro_title">Snimite videozapis</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Odaberite drugi dokument</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Okrenite glavu ulijevo</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Okrenite glavu udesno</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Upotrijebite uređaj i učinite sljedeće:</string>
     <string name="onfido_welcome_list_item_doc_photo">Fotografirajte svoj identifikacijski dokument</string>
-    <string name="onfido_welcome_list_item_doc_video">Snimite videozapis svog identifikacijskog dokumenta</string>
-	<string name="onfido_welcome_list_item_doc_generic">Snimite video svog identifikacijskog dokumenta</string>
+    <string name="onfido_welcome_list_item_doc_generic">Snimite video svog identifikacijskog dokumenta</string>
     <string name="onfido_welcome_list_item_face_photo">Fotografirajte svoje lice</string>
     <string name="onfido_welcome_list_item_face_video">Snimite videozapis svog lica</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Pokušajte ponovno skenirati</string>
     <string name="onfido_nfc_scan_error_button_secondary">Provjeri bez NFC-a</string>
     <string name="onfido_nfc_scan_error_title">Nismo uspjeli skenirati vaš dokument</string>
-    <string name="onfido_nfc_scan_error_list_item">Uklonite masku s mobitela</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Kad skeniranje započne, budite mirni</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Nemojte pomicati mobitel ili putovnicu tijekom skeniranja</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Možete probati snimiti i stražnju stranicu s unutarnje strane</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Stavite mobitel na putovnicu</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Polako pomičite mobitel dolje-gore</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Stavite putovnicu na ravnu podlogu</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Nakon što skeniranje započne, mobitel držite mirno</string>
-    <string name="onfido_nfc_intro_title_card">Skenirajte svoju osobnu iskaznicu s NFC čipom</string>
     <string name="onfido_nfc_intro_title_passport">Skenirajte svoju e-putovnicu</string>
     <string name="onfido_nfc_intro_subtitle">Pridržavajte se dolje navedenih uputa</string>
     <string name="onfido_nfc_intro_button_primary">Započnite skeniranje</string>
-    <string name="onfido_nfc_intro_list_item">Stavite iskaznicu na stražnju stranu uređaja</string>
-    <string name="onfido_nfc_intro_list_item_2">Polako pomičite mobitel gore-dolje</string>
-    <string name="onfido_nfc_intro_list_item_3">Kad skeniranje započne, budite mirni</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Uspješno smo skenirali vašu putovnicu</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Uspješno smo skenirali vašu osobnu iskaznicu</string>
 
     <string name="onfido_nfc_select_title_passport">Ubrzajte postupak uz NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Skenirat ćemo NFC čip iz vaše putovnice</string>
-    <string name="onfido_nfc_select_body_passport">Ovakav simbol imaju e-putovnice na koricama</string>
     <string name="onfido_nfc_select_button_primary_passport">Upotrijebite e-putovnicu</string>
     <string name="onfido_nfc_select_button_secondary_passport">Ovo nije e-putovnica</string>
 
     <string name="onfido_nfc_select_title_card">Ubrzajte postupak uz NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Skenirat ćemo NFC čip na vašoj osobnoj iskaznici</string>
-    <string name="onfido_nfc_select_body_card">Ovakav simbol imaju osobne iskaznice s NFC čipom</string>
     <string name="onfido_nfc_select_button_primary_card">Upotrijebite osobnu iskaznicu s NFC čipom</string>
-    <string name="onfido_nfc_select_button_secondary_card">Ova iskaznica nema NFC čip</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Stavite mobitel pored gornjeg dijela putovnice</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Stavite mobitel na osobnu iskaznicu</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Mirno držite mobitel</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Izgubljen je kontakt s osobnom iskaznicom</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Mobitel više nije u kontaktu s putovnicom</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Snimite videozapis svog lica</string>
 	<string name="onfido_avc_intro_video_accessibility">Primjer videozapisa u kojem netko okreće glavu u obje strane sve dok snimanje ne završi</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Nastavite okretati glavu</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Okrenite glavu u drugu stranu</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Pogledajte na selfie kameri</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Lijeva strana je dovršena</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">U redu</string>
     <string name="onfido_poa_welcome_text">Fotografirajte dokument sa svojom adresom</string>
 	<string name="onfido_country_select_error_no_country_body">Na popis neprekidno dodajemo nove zemlje. U međuvremenu pokušajte upotrijebiti neki drugi dokument.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Žao nam je, nema računa za mobitel</string>
-	<string name="onfido_doc_select_button_bill_detail">Plin, struja, voda, fiksni telefon i mobitel</string>
+    <string name="onfido_doc_select_button_bill_detail">Plin, struja, voda, fiksni telefon i mobitel</string>
 
 	<string name="onfido_doc_select_subtitle_country">Odaberite zemlju izdavanja kako biste provjerili koje dokumente prihvaćamo</string>
 	<string name="onfido_doc_select_section_header_country">Zemlja izdavanja</string>
 	<string name="onfido_doc_select_section_header_doc_type">Dokumenti koje prihvaćamo</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Nije pronađen nijedan rezultat</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Cijela stranica</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Stranica s fotografijom</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Stranica s fotografijom</string>
 	<string name="onfido_doc_select_subtitle_front_back">Sprijeda i straga</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Odaberite zemlju izdavanja</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Pokušajte ponovno</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Zvuk reproducira druga aplikacija</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Nemojte reproducirati zvuk na svojem uređaju tijekom snimanja</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Ubrzajte postupak uz NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Skenirati ćemo NFC čip vašeg dokumenta</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Skenirati ćemo NFC čip vašeg dokumenta</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Stavite dokument na stražnju stranu uređaja</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Polako pomičite uređaj gore-dolje</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kada skeniranje započne, držite ga mirno</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Započnite skeniranje</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Provjeri bez NFC-a</string>
-	<string name="onfido_nfc_scan_error_inter_title">Nismo uspjeli skenirati vaš dokument</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Uklonite masku s mobitela</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Provjeri bez NFC-a</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Uklonite masku s mobitela</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Držite svoj uređaj i dokument u kontaktu dok skeniranje ne bude uspješno</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Pokušajte ponovno skenirati</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Provjeri bez NFC-a</string>
-	<string name="onfido_nfc_scan_error_final_title">Nismo mogli potvrditi ovaj dokument</string>
+    <string name="onfido_nfc_scan_error_final_title">Nismo mogli potvrditi ovaj dokument</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC skeniranje je potrebno za ovaj dokument, ali nije ga moguće dovršiti.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Imate li neki drugi dokument za nastavak?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Koristite drugi dokument</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Provjeri bez NFC-a</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Ubrzajte postupak uz NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Skenirati ćemo NFC čip vašeg dokumenta</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Skenirati ćemo NFC čip vašeg dokumenta</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Položite dokument na ravnu površinu</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Otvorite svoj dokument na unutarnjoj stražnjoj stranici</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Stavite dokument na stražnju stranu uređaja</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Polako pomičite uređaj gore-dolje</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Kada skeniranje započne, držite ga mirno</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Započnite skeniranje</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Provjeri bez NFC-a</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Nismo uspjeli skenirati vaš dokument</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Uklonite omot i masku s putovnice i mobitela</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Provjeri bez NFC-a</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Uklonite omot i masku s putovnice i mobitela</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Držite svoj uređaj i dokument u kontaktu dok skeniranje ne bude uspješno</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Pokušajte ponovno skenirati</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Provjeri bez NFC-a</string>
-	<string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
+    <string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
 	<string name="onfido_doc_capture_header_recording_complete">Snimanje je završeno</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Nema odgovarajućih rezultata</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Pronađen je jedan rezultat</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Pronađeno je više rezultata (%d)</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Fotografija ekrana detektirana</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Otkriven je snimak zaslona</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Otkrivena fotokopija</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Otkriveno skeniranje</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Molimo koristite svoj izvorni dokument. Fotografije ekrana ili fotokopije nisu prihvaćene</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Odaberite drugi dokument</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Pošalji fotografiju unatoč tome</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Pokušajte ručno snimiti video</string>
 </resources>

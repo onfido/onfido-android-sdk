@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Valitse myöntämismaa</string>
 	<string name="onfido_country_select_bottom_sheet_title">Etkö löydä maatasi?</string>
     <string name="onfido_country_select_bottom_sheet_details">Näyttää siltä, että valitsemasi asiakirjan maata ei tueta. Valitse toinen maa.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Sulje</string>
-    <string name="onfido_selfie_intro_subtitle">Vertaamme sitä asiakirjaasi</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Vertaamme sitä asiakirjaasi</string>
     <string name="onfido_selfie_capture_body">Pidä kasvosi soikion sisällä</string>
 	<string name="onfido_video_capture_prompt_button_timeout">Yritä uudelleen</string>
     <string name="onfido_generic_error_camera_unavailable">Tässä laitteessa ei ole kameraa käytettävissä</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Seuraava vaihe</string>
 	<string name="onfido_video_confirmation_error_media_player">Videossasi tapahtui virhe. Kuvaa se uudelleen.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Lataa uud.</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Lataa esimerkkivideo uudelleen</string>
     <string name="onfido_video_intro_error_network">Ei voida ladata epävakaan verkon takia</string>
-    <string name="onfido_video_intro_error_network_accessibility">Esimerkkivideota ei voida ladata epävakaan verkon vuoksi</string>
-	<string name="onfido_video_intro_error_load_offline">Lataus ei onnistu, koska olet offline-tilassa</string>
+    <string name="onfido_video_intro_error_load_offline">Lataus ei onnistu, koska olet offline-tilassa</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Ehdotettu maa</string>
     <string name="onfido_country_select_list_header_all">Kaikki maat</string>
     <string name="onfido_app_title_country_select_search">Hae</string>
-    <string name="onfido_country_select_error_no_country_title">Maata ei löydy</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Kokeile ottaa kuva manuaalisesti</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Epäselvä kuva havaittu</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Epäselvä kuva havaittu</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Viivakoodia ei havaittu</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ole hyvin valaistussa paikassa ja tuo kortti lähemmäs kameraa</string>
     <string name="onfido_permission_recovery_button_primary">Ota käyttöön asetuksissa</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Tarkista uudelleen</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Kytkemme laitteesi salaman päälle videon tallennuksen aikana</string>
-	<string name="onfido_doc_video_capture_header">Kun pidät asiakirjaasi kädessäsi, pidä etupuoli kehyksen sisällä</string>
-    <string name="onfido_doc_video_capture_header_step1">Nyt pysy paikoillasi</string>
-    <string name="onfido_doc_video_capture_detail_step2">Pidä asiakirja aina kokonaan näkyvissä</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Seuraava vaihe</string>
-    <string name="onfido_doc_video_capture_header_passport">Kun pitelet passiasi, pidä valokuvasivu kehyksen sisällä</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Käännä asiakirjasi hitaasti ympäri näyttääksesi uloimmat sivut</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Videon tallennus on rajoitettu %1$s sekuntiin</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Onnistui</string>
-	<string name="onfido_doc_video_capture_stepper">Vaihe ​%1$d​/​%2$d​</string>
-    <string name="onfido_doc_video_capture_header_step2">Käännä asiakirjasi hitaasti ympäri näyttääksesi takaosan</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Esikatsele videota</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Viimeistele tallennus</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Pidä paikallaan</string>
-    <string name="onfido_welcome_list_item_doc_video_timeout">Tallennus on rajoitettu %1$s sekunteihin</string>
+    <string name="onfido_doc_video_capture_stepper">Vaihe ​%1$d​/​%2$d​</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Lähetä kuva</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Ota kuva uudelleen</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">Ota silmälasisi pois tarvittaessa</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Poista kaikki, mikä peittää kasvosi. Silmälasit ovat ok</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Kohdista asiakirja ja paina sitten painiketta</string>
     <string name="onfido_doc_select_subtitle">Sen on oltava virallinen kuvallinen henkilökortti</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Ota kuva uudelleen</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Ota kuva uudelleen</string>
     <string name="onfido_video_intro_title">Tallenna video</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Valitse toinen asiakirja</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Käännä päätäsi vasemmalle</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Käännä päätäsi oikealle</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Käytä laitettasi:</string>
     <string name="onfido_welcome_list_item_doc_photo">ottaaksesi kuvan henkilötodistuksestasi</string>
-    <string name="onfido_welcome_list_item_doc_video">tallentaaksesi videon henkilötodistuksestasi</string>
-	<string name="onfido_welcome_list_item_doc_generic">Tee video henkilöllisyysasiakirjastasi</string>
+    <string name="onfido_welcome_list_item_doc_generic">Tee video henkilöllisyysasiakirjastasi</string>
     <string name="onfido_welcome_list_item_face_photo">ottaaksesi kuvan kasvoistasi</string>
     <string name="onfido_welcome_list_item_face_video">tallentaaksesi videon kasvoistasi</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Yritä skannata uudell.</string>
     <string name="onfido_nfc_scan_error_button_secondary">Vahvista ilman NFC: tä</string>
     <string name="onfido_nfc_scan_error_title">Asiakirjaasi ei voitu skannata</string>
-    <string name="onfido_nfc_scan_error_list_item">Poista puhelimesi suojus</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Kun skannaus alkaa, pysy paikallaan</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Älä liikuta puhelintasi tai passiasi skannauksen aikana</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Voit myös kokeilla takasivun sisäpuolta</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Aseta puhelimesi passisi yläosaa vasten</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Liu\'uta puhelintasi hitaasti alas ja ylös</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Aseta passisi tasaiselle alustalle</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Kun skannaus alkaa, pidä puhelimesi paikallaan</string>
-    <string name="onfido_nfc_intro_title_card">Skannaa NFC-korttisi</string>
     <string name="onfido_nfc_intro_title_passport">Skannaa sirupassisi</string>
     <string name="onfido_nfc_intro_subtitle">Noudata alla olevia ohjeita</string>
     <string name="onfido_nfc_intro_button_primary">Aloita skannaus</string>
-    <string name="onfido_nfc_intro_list_item">Aseta korttisi laitteesi takaosaan</string>
-	<string name="onfido_nfc_intro_list_item_2">Liu\'uta matkapuhelintasi hitaasti ylös ja alas</string>
-    <string name="onfido_nfc_intro_list_item_3">Kun skannaus alkaa, pysy paikallaan</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Passisi skannaus onnistui</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Korttisi skannaus onnistui</string>
 
     <string name="onfido_nfc_select_title_passport">Nopeuta prosessia NFC:llä</string>
-    <string name="onfido_nfc_select_subtitle_passport">Skannaamme passisi NFC-sirun</string>
-    <string name="onfido_nfc_select_body_passport">Sirupassien kannessa on tämä symboli</string>
     <string name="onfido_nfc_select_button_primary_passport">Käytä sirupassia</string>
     <string name="onfido_nfc_select_button_secondary_passport">Se ei ole sirupassi</string>
 
     <string name="onfido_nfc_select_title_card">Nopeuta prosessia NFC:llä</string>
-    <string name="onfido_nfc_select_subtitle_card">Skannaamme korttisi NFC-sirun</string>
-    <string name="onfido_nfc_select_body_card">NFC-sirun sisältävissä korteissa on tämä symboli</string>
     <string name="onfido_nfc_select_button_primary_card">Käytä NFC-korttia</string>
-    <string name="onfido_nfc_select_button_secondary_card">Se ei ole NFC-kortti</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Aseta puhelimesi passisi yläosan lähelle</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Aseta puhelimesi korttia vasten</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Pidä puhelimesi paikallaan</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Yhteys korttiin katkesi</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Yhteys passiin katkesi</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Tallenna video kasvoistasi</string>
 	<string name="onfido_avc_intro_video_accessibility">Esimerkkivideo, jossa joku kääntää päätään molemmille puolille, kunnes on valmis</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Jatka pääsi kääntämistä</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Käännä päätäsi toiselle puolelle</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Näkymä selfiekamerasta</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Vasen puoli valmis</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Ota kuva asiakirjasta, jossa on osoitteesi</string>
 	<string name="onfido_country_select_error_no_country_body">Pyrimme lisäämään uusia maita listalle. Kokeile sillä välin toista asiakirjaa.</string>
-	<string name="onfido_doc_select_extra_no_mobile">Pahoittelut, ei matkapuhelinlaskuja</string>
-	<string name="onfido_doc_select_button_bill_detail">Kaasu, sähkö, vesi, kiinteä verkko tai laajakaista</string>
+    <string name="onfido_doc_select_button_bill_detail">Kaasu, sähkö, vesi, kiinteä verkko tai laajakaista</string>
 
 	<string name="onfido_doc_select_subtitle_country">Valitse asiakirjan myöntämismaa nähdäksesi, mitkä asiakirjat hyväksymme</string>
 	<string name="onfido_doc_select_section_header_country">Myöntämismaa</string>
 	<string name="onfido_doc_select_section_header_doc_type">Hyväksytyt asiakirjat</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Ei tuloksia</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Koko sivu</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Valokuvasivu</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Valokuvasivu</string>
 	<string name="onfido_doc_select_subtitle_front_back">Etu- ja takaosa</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Valitse myöntämismaa</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yritä uudelleen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Jokin toinen sovellus toistaa ääntä</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Älä toista laitteellasi mitään ääntä tallennuksen aikana</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Nopeuta prosessia NFC:llä</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Skannaamme asiakirjasi NFC-sirun</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Skannaamme asiakirjasi NFC-sirun</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Aseta asiakirja laitteesi takaosaan</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Liu\'uta laitetta hitaasti ylös ja alas</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kun skannaus alkaa, pidä se paikallaan</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Aloita skannaus</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Vahvista ilman NFC: tä</string>
-	<string name="onfido_nfc_scan_error_inter_title">Asiakirjaasi ei voitu skannata</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Poista puhelimesi suojus</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Vahvista ilman NFC: tä</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Poista puhelimesi suojus</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Pidä laite ja asiakirja kosketuksissa, kunnes skannaus onnistuu</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Yritä skannata uudell.</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Vahvista ilman NFC: tä</string>
-	<string name="onfido_nfc_scan_error_final_title">Emme voineet vahvistaa tätä asiakirjaa</string>
+    <string name="onfido_nfc_scan_error_final_title">Emme voineet vahvistaa tätä asiakirjaa</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Tämä asiakirja edellyttää NFC-skannausta, mutta sitä ei voitu suorittaa loppuun.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Onko sinulla eri asiakirja jatkaaksesi?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Käytä eri asiakirjaa</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Vahvista ilman NFC: tä</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Nopeuta prosessia NFC:llä</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Skannaamme asiakirjasi NFC-sirun</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Skannaamme asiakirjasi NFC-sirun</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Aseta asiakirja tasaiselle alustalle</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Avaa asiakirjasi takasivun sisäpuolelta</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Aseta asiakirja laitteesi takaosaan</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Liu\'uta laitetta hitaasti ylös ja alas</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Kun skannaus alkaa, pidä se paikallaan</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Aloita skannaus</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Vahvista ilman NFC: tä</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Asiakirjaasi ei voitu skannata</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Poista passisi ja puhelimesi suojukset</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Vahvista ilman NFC: tä</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Poista passisi ja puhelimesi suojukset</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Pidä laite ja asiakirja kosketuksissa, kunnes skannaus onnistuu</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Yritä skannata uudell.</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Vahvista ilman NFC: tä</string>
-	<string name="onfido_doc_capture_header_recording_video">Video tallennus</string>
+    <string name="onfido_doc_capture_header_recording_video">Video tallennus</string>
 	<string name="onfido_doc_capture_header_recording_complete">Tallennus valmis</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Ei vastaavia tuloksia</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Yksi tulos löydetty</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d tulosta löydetty</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Näytön kuva havaittu</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Näyttökuva havaittu</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopio havaittu</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Skannaus havaittu</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Käytä alkuperäistä asiakirjaasi. Näytön valokuvia tai valokopioita ei hyväksytä</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Valitse toinen asiakirja</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Lähetä kuva joka tapauksessa</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Yritä tallentaa video manuaalisesti</string>
 </resources>

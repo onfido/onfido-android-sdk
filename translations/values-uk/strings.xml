@@ -42,8 +42,7 @@
     <string name="onfido_app_title_country_select">Виберіть країну видачі</string>
 	<string name="onfido_country_select_bottom_sheet_title">Не можете знайти потрібну країну?</string>
     <string name="onfido_country_select_bottom_sheet_details">Схоже, країна видачі вибраного документа не підтримується. Виберіть іншу країну.</string>
-    <string name="onfido_country_select_bottom_sheet_link_close">Закрити</string>
-    <string name="onfido_selfie_intro_subtitle">Ми порівняємо його з фотографією у вашому документі</string>    <!-- Capture Document/Face -->
+    <string name="onfido_selfie_intro_subtitle">Ми порівняємо його з фотографією у вашому документі</string>
     <string name="onfido_selfie_capture_body">Наведіть овал на обличчя</string>
     <string name="onfido_video_capture_prompt_button_timeout">Повторити</string>
     <string name="onfido_generic_error_camera_unavailable">Немає доступу до камери на цьому пристрої</string>
@@ -92,18 +91,15 @@
     <string name="onfido_video_capture_button_primary_fallback">Наступний крок</string>
 	<string name="onfido_video_confirmation_error_media_player">За відтворення вашого відео сталася помилка. Виконайте зйомку ще раз.</string>
     <string name="onfido_video_intro_prompt_button_primary_reload_player">Перезавантажити</string>
-    <string name="onfido_video_intro_prompt_button_primary_reload_player_accessibility">Перезавантажити зразок відео</string>
     <string name="onfido_video_intro_error_network">Неможливо завантажити через нестабільне інтернет-з’єднання</string>
-    <string name="onfido_video_intro_error_network_accessibility">Неможливо завантажити зразок відео через нестабільне з’єднання мережі</string>
-	<string name="onfido_video_intro_error_load_offline">Неможливо завантажити, оскільки відсутнє з’єднання з мережею</string>
+    <string name="onfido_video_intro_error_load_offline">Неможливо завантажити, оскільки відсутнє з’єднання з мережею</string>
 
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Пропонована країна</string>
     <string name="onfido_country_select_list_header_all">Усі країни</string>
     <string name="onfido_app_title_country_select_search">Пошук</string>
-    <string name="onfido_country_select_error_no_country_title">Країну не знайдено</string>    <!-- Autocapture -->
     <string name="onfido_doc_capture_alert_manual_capture_title">Спробуйте зробити фото в ручному режимі</string>
-    <string name="onfido_doc_confirmation_alert_blur_title">Виявлено розмиту фотографію</string>    <!-- US DL Barcode Detector -->
+    <string name="onfido_doc_confirmation_alert_blur_title">Виявлено розмиту фотографію</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Штрих-код не виявлено</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Перебуваючи в добре освітленому місці, піднесіть посвідчення ближче до камери</string>
     <string name="onfido_permission_recovery_button_primary">Увімкнути в налаштуваннях</string>
@@ -174,21 +170,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Переглянути ще раз</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_welcome_list_item_doc_video_flash">Під час запису відео на вашому пристрої ввімкнеться спалах</string>
-	<string name="onfido_doc_video_capture_header">Тримаючи документ, наведіть рамку на його лицьовий бік</string>
-    <string name="onfido_doc_video_capture_header_step1">Тримайте телефон непорушно</string>
-    <string name="onfido_doc_video_capture_detail_step2">Документ має повністю потрапляти в кадр</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback">Наступний крок</string>
-    <string name="onfido_doc_video_capture_header_passport">Тримаючи паспорт, наведіть рамку на сторінку з фото</string>
-    <string name="onfido_doc_video_capture_header_paper_doc_step2">Повільно поверніть документ, щоб показати зовнішній розворот</string>
-    <string name="onfido_doc_video_capture_prompt_detail_timeout">Запис відео може тривати не більше ​%1$s​ сек</string>
-    <string name="onfido_doc_video_capture_success_accessibility">Успішно</string>
-	<string name="onfido_doc_video_capture_stepper">Крок %1$d із %2$d</string>
-    <string name="onfido_doc_video_capture_header_step2">Повільно поверніть документ, щоб показати зворотний бік</string>
-    <string name="onfido_doc_video_confirmation_button_secondary">Попередній перегляд відео</string>
-    <string name="onfido_doc_video_capture_button_primary_fallback_end">Завершити запис</string>
-    <string name="onfido_doc_video_capture_header_passport_progress">Тримайте телефон непорушно</string>
-	<string name="onfido_welcome_list_item_doc_video_timeout">Запис може тривати не більше ​%1$s​ сек</string>
+    <string name="onfido_doc_video_capture_stepper">Крок %1$d із %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Надіслати фото</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Зробити фото повторно</string>
@@ -235,7 +217,6 @@
     <string name="onfido_doc_capture_detail_id_back"></string>
     <string name="onfido_doc_capture_detail_permit_work_front"></string>
     <string name="onfido_doc_capture_detail_permit_work_back"></string>
-    <string name="onfido_selfie_intro_list_item_no_glasses">За необхідності зніміть окуляри</string>
     <string name="onfido_selfie_intro_list_item_no_face_cover">Приберіть усе, що закриває обличчя. Окуляри можна залишити</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Розмістіть документ правильно, а тоді натисніть кнопку</string>
     <string name="onfido_doc_select_subtitle">Це має бути офіційне посвідчення особи з фотографією</string>
@@ -250,7 +231,6 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Зробити фото повторно</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Зробити фото повторно</string>
     <string name="onfido_video_intro_title">Записати відео</string>
-    <string name="onfido_country_select_bottom_sheet_link_doc_select">Виберіть інший документ</string>
     <string name="onfido_video_capture_header_challenge_turn_left">Поверніть голову ліворуч</string>
     <string name="onfido_video_capture_header_challenge_turn_right">Поверніть голову праворуч</string>
     <string name="onfido_doc_capture_detail_passport"></string>
@@ -311,8 +291,7 @@
 
     <string name="onfido_welcome_list_header">Використовуйте свій пристрій, щоб:</string>
     <string name="onfido_welcome_list_item_doc_photo">сфотографувати документ, що посвідчує особу;</string>
-    <string name="onfido_welcome_list_item_doc_video">записати відео з документом, що посвідчує особу;</string>
-	<string name="onfido_welcome_list_item_doc_generic">Зробіть відеозапис вашого документа, що посвідчує особу</string>
+    <string name="onfido_welcome_list_item_doc_generic">Зробіть відеозапис вашого документа, що посвідчує особу</string>
     <string name="onfido_welcome_list_item_face_photo">сфотографувати своє обличчя;</string>
     <string name="onfido_welcome_list_item_face_video">зняти відео свого обличчя;</string>
 
@@ -323,40 +302,21 @@
     <string name="onfido_nfc_scan_error_button_primary">Повторити сканування</string>
     <string name="onfido_nfc_scan_error_button_secondary">Отримати підтвердження без NFC</string>
     <string name="onfido_nfc_scan_error_title">Не вдалося відсканувати документ</string>
-    <string name="onfido_nfc_scan_error_list_item">Зніміть чохол із телефона</string>
-    <string name="onfido_nfc_scan_error_list_item_2">Щойно сканування розпочнеться, тримайте телефон непорушно</string>
 
-    <string name="onfido_nfc_intro_carousel_body_dont_move">Не переміщуйте телефон або паспорт під час сканування</string>
-    <string name="onfido_nfc_intro_carousel_body_last_page">Ви також можете спробувати сфотографувати внутрішній бік звороту обкладинки</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Покладіть телефон на паспорт</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Повільно переміщайте телефон униз і вгору</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Покладіть паспорт на рівну поверхню</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Після початку сканування тримайте телефон непорушно</string>
-    <string name="onfido_nfc_intro_title_card">Відскануйте посвідчення з NFC</string>
     <string name="onfido_nfc_intro_title_passport">Відскануйте свій електронний паспорт</string>
     <string name="onfido_nfc_intro_subtitle">Дотримуйтесь наведених нижче вказівок</string>
     <string name="onfido_nfc_intro_button_primary">Почати сканування</string>
-    <string name="onfido_nfc_intro_list_item">Покладіть картку позаду пристрою</string>
-    <string name="onfido_nfc_intro_list_item_2">Повільно пересувайте мобільний телефон угору й униз</string>
-    <string name="onfido_nfc_intro_list_item_3">Щойно сканування розпочнеться, тримайте телефон непорушно</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Ми успішно відсканували ваш паспорт</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Ми успішно відсканували ваше посвідчення</string>
 
     <string name="onfido_nfc_select_title_passport">Прискорити процес за допомогою NFC</string>
-    <string name="onfido_nfc_select_subtitle_passport">Ми відскануємо чіп NFC у вашому паспорті</string>
-    <string name="onfido_nfc_select_body_passport">Електронні паспорти мають цей символ на обкладинці</string>
     <string name="onfido_nfc_select_button_primary_passport">Використовувати електронний паспорт</string>
     <string name="onfido_nfc_select_button_secondary_passport">Це не електронний паспорт</string>
 
     <string name="onfido_nfc_select_title_card">Прискорити процес за допомогою NFC</string>
-    <string name="onfido_nfc_select_subtitle_card">Ми відскануємо чіп NFC у вашому посвідченні</string>
-    <string name="onfido_nfc_select_body_card">Посвідчення з NFC-чіпами мають цей символ</string>
     <string name="onfido_nfc_select_button_primary_card">Скористатися посвідченням з NFC</string>
-    <string name="onfido_nfc_select_button_secondary_card">Це посвідчення не має функції NFC</string>
 
-	<string name="onfido_nfc_intro_sheet_ready_subtitle_passport">Покладіть телефон біля верхньої частини паспорта</string>
-    <string name="onfido_nfc_intro_sheet_ready_subtitle_card">Покладіть телефон на посвідчення</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Тримайте телефон непорушно</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Утрачено контакт із посвідченням</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Утрачено контакт із паспортом</string>
@@ -438,7 +398,6 @@
     <!-- Motion Accessibility  -->
 	<string name="onfido_avc_intro_title_accessibility">Зніміть відео свого обличчя</string>
 	<string name="onfido_avc_intro_video_accessibility">Приклад відео, на якому особа повертає голову в обидва боки до завершення перевірки</string>
-    <string name="onfido_avc_face_capture_keep_turning_accessibility">Продовжуйте повертати головою</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Поверніть голову в інший бік</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Увімкніть селфі-камеру.</string>
 	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Поворот вліво успішно виконано</string>
@@ -505,15 +464,13 @@
 	<string name="onfido_poa_err_invalid_file_ok">OK</string>
     <string name="onfido_poa_welcome_text">Сфотографуйте документ, що містить вашу адресу</string>
 	<string name="onfido_country_select_error_no_country_body">Ми працюємо над розширенням списку країн. Тим часом спробуйте скористатися альтернативним документом.</string>
-	<string name="onfido_doc_select_extra_no_mobile">На жаль, ми не приймаємо рахунки за мобільний зв’язок</string>
-	<string name="onfido_doc_select_button_bill_detail">Газ, електроенергія, вода, стаціонарний телефон або широкосмуговий інтернет-зв’язок</string>
+    <string name="onfido_doc_select_button_bill_detail">Газ, електроенергія, вода, стаціонарний телефон або широкосмуговий інтернет-зв’язок</string>
 
 	<string name="onfido_doc_select_subtitle_country">Виберіть країну видачі, щоб дізнатися, які документи ми приймаємо</string>
 	<string name="onfido_doc_select_section_header_country">Країна видачі</string>
 	<string name="onfido_doc_select_section_header_doc_type">Документи, які ми приймаємо</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Результатів немає</string>
-	<string name="onfido_doc_select_subtitle_entire_page">Уся сторінка</string>
-	<string name="onfido_doc_select_subtitle_photo_page">Сторінка з фото</string>
+    <string name="onfido_doc_select_subtitle_photo_page">Сторінка з фото</string>
 	<string name="onfido_doc_select_subtitle_front_back">Лицьовий і зворотний боки</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Виберіть країну видачі</string>
 
@@ -524,37 +481,37 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Повторити</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Аудіо відтворюється іншим застосунком</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Не відтворюйте звук на вашому пристрої під час запису</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Прискорити процес за допомогою NFC</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Ми відскануємо чіп NFC вашого документа</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Ми відскануємо чіп NFC вашого документа</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Розмістіть документ на задній панелі пристрою</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Повільно пересувайте пристрій вгору та вниз</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Після початку сканування тримайте його нерухомо</string>
-	<string name="onfido_nfc_scan_welcome_card_button_primary">Почати сканування</string>
-	<string name="onfido_nfc_scan_welcome_card_secondary_button">Отримати підтвердження без NFC</string>
-	<string name="onfido_nfc_scan_error_inter_title">Не вдалося відсканувати документ</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">Зніміть чохол із телефона</string>
+    <string name="onfido_nfc_scan_welcome_card_secondary_button">Отримати підтвердження без NFC</string>
+    <string name="onfido_nfc_scan_error_inter_list_item">Зніміть чохол із телефона</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Тримайте пристрій і документ на зв’язку, доки сканування не завершиться</string>
-	<string name="onfido_nfc_scan_error_inter_primary_button">Повторити сканування</string>
-	<string name="onfido_nfc_scan_error_inter_secondary_button">Отримати підтвердження без NFC</string>
-	<string name="onfido_nfc_scan_error_final_title">Нам не вдалося перевірити цей документ</string>
+    <string name="onfido_nfc_scan_error_final_title">Нам не вдалося перевірити цей документ</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Для цього документа потрібне сканування NFC, але його не вдалося виконати.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">У вас є інший документ для продовження?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Використовуйте інший документ</string>
-	<string name="onfido_nfc_scan_error_final_secondary_button">Отримати підтвердження без NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_title">Прискорити процес за допомогою NFC</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Ми відскануємо чіп NFC вашого документа</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Ми відскануємо чіп NFC вашого документа</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Покладіть документ на рівну поверхню</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Відкрийте документ на внутрішній задній сторінці</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Розмістіть документ на задній панелі пристрою</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Повільно пересувайте пристрій вгору та вниз</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Після початку сканування тримайте його нерухомо</string>
-	<string name="onfido_nfc_scan_welcome_passport_button_primary">Почати сканування</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Отримати підтвердження без NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_title">Не вдалося відсканувати документ</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">Зніміть чохол із телефона й обкладинку з паспорта</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">Отримати підтвердження без NFC</string>
+    <string name="onfido_nfc_scan_error_inter_passport_list_item">Зніміть чохол із телефона й обкладинку з паспорта</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Тримайте пристрій і документ на зв’язку, доки сканування не завершиться</string>
-	<string name="onfido_nfc_scan_error_inter_passport_primary_button">Повторити сканування</string>
-	<string name="onfido_nfc_scan_error_inter_passport_secondary_button">Отримати підтвердження без NFC</string>
-	<string name="onfido_doc_capture_header_recording_video">Запис відео</string>
+    <string name="onfido_doc_capture_header_recording_video">Запис відео</string>
 	<string name="onfido_doc_capture_header_recording_complete">Запис завершено</string>
+	<string name="onfido_country_select_search_results_none_accessibility">Немає відповідних результатів</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Знайдено один результат</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Знайдено результатів: %d</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Фото екрану виявлено</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Зроблено знімок екрана</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Виявлено фотокопію</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Сканування виявлено</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Будь ласка, використовуйте ваш оригінальний документ. Фотографії екрану або ксерокопії не приймаються</string>
+	<string name="onfido_doc_confirmation_button_secondary_change_document">Виберіть інший документ</string>
+	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Надіслати фото все одно</string>
+	<string name="onfido_doc_capture_alert_manual_capture_video_title">Спробуйте записати відео вручну</string>
 </resources>
