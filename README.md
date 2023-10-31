@@ -102,7 +102,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 13.02 Mb  |
+| armeabi-v7a | 13.12 Mb  |
 | arm64-v8a   | 12.88 Mb |
 | universal   | 40.13 Mb |
 
@@ -126,7 +126,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 9.90 Mb  |
+| core-armeabi-v7a | 10.01 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -1131,10 +1131,10 @@ Further information about the Onfido API is available in our [API reference](htt
 
 ### Support
 
-Please open an issue through [GitHub](https://github.com/onfido/onfido-android-sdk/issues). Please be as detailed as you can. Remember **not** to submit your token in the issue. Also check the closed issues to see whether it has been previously raised and answered.
+Should you encounter any technical issues during integration, please contact Onfido's Customer Support team via [email](mailto:support@onfido.com), including the word ISSUE at the start of the subject line. 
 
-If you have any issues that contain sensitive information please send us an email with the `ISSUE:` at the start of the subject to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
+Alternatively, you can search the support documentation available via the customer experience portal, [public.support.onfido.com](https://public.support.onfido.com/s/).
 
-Previous version of the SDK will be supported for a month after a new major version release. Note that when the support period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further notice).
+Previous versions of the SDK will be supported for a month after a new major version release. Note that when the support period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further notice).
 
-Copyright 2018 Onfido, Ltd. All rights reserved.
+Copyright 2023 Onfido, Ltd. All rights reserved.

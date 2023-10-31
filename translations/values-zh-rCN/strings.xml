@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">如果不使用麦克风，我们将无法验证您的身份</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">您可以通过设备设置恢复麦克风访问</string>
     <string name="onfido_permission_recovery_list_item_action_mic">转到应用设置并启用此应用的麦克风访问</string>
-    <string name="onfido_permission_recovery_subtitle_mic">如果不使用麦克风，我们就无法验证您的身份</string>
+	<string name="onfido_permission_recovery_subtitle_mic">我们需要访问您的麦克风以验证您的身份。请按照以下指示恢复访问权限</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">允许相机和麦克风访问</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">返回</string>
     <string name="onfido_permission_body_both">如果不同时使用相机和麦克风，我们将无法验证您的身份</string>
     <string name="onfido_permission_button_primary_both">启用两者</string>
-	<string name="onfido_permission_recovery_subtitle_both">如果不使用相机和麦克风，我们就无法验证您的身份</string>
+	<string name="onfido_permission_recovery_subtitle_both">恢复相机和麦克风访问，以拍摄视频并完成验证流程</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">您可以通过设备设置恢复相机和麦克风访问</string>
     <string name="onfido_permission_recovery_list_item_action_both">转到应用设置并将此应用的相机和麦克风访问全部启用</string>
 
@@ -513,4 +513,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">选择另一个证明文件</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">无论如何提交照片</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">尝试手动录制视频</string>
+	<string name="onfido_interactive_task_waiting_title_1">正在检查图像质量...</string>
+	<string name="onfido_interactive_task_waiting_title_2">正在上传图片...</string>
+	<string name="onfido_interactive_task_waiting_title_3">正在上传视频...</string>
+	<string name="onfido_interactive_task_waiting_title_4">正在检查数据质量...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">连接不稳定。请稍等一会，等待任务完成。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">正在编译数据...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">我们正在整理收集的数据，请等待。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">正在保护数据...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">我们正在保护您的信息，请等待。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">保护您的数据非常重要，请稍等片刻，让此任务完成。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">正在处理数据...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">我们正在处理您的信息，请等待。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">处理中...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">请稍等一会，等待此过程完成，感谢您的耐心等待。</string>
 </resources>

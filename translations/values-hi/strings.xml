@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">जब तक आप अपना माइक्रोफ़ोन इस्तेमाल नहीं करेंगे, तब तक हम आपको वेरिफ़ाई नहीं कर पाएँगे</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">आप अपनी डिवाइस सेटिंग के ज़रिए माइक्रोफ़ोन का ऐक्सेस रिकवर कर सकते हैं</string>
     <string name="onfido_permission_recovery_list_item_action_mic">ऐप सेटिंग पर जाएँ और इस ऐप के लिए माइक्रोफ़ोन का ऐक्सेस चालू करें</string>
-    <string name="onfido_permission_recovery_subtitle_mic">हम आपके माइक्रोफ़ोन के बिना आपको वेरिफ़ाई नहीं कर सकते</string>
+	<string name="onfido_permission_recovery_subtitle_mic">हमें आपकी पहचान की पुष्टि करने के लिए आपके माइक्रोफ़ोन तक पहुँच की आवश्यकता है। पहुँच पुनः प्राप्त करने के लिए नीचे दिए गए निर्देशों का पालन करें</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">कैमरा और माइक्रोफ़ोन ऐक्सेस की अनुमति दें</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">पीछे जाएँ</string>
     <string name="onfido_permission_body_both">जब तक आप अपने कैमरे और माइक्रोफ़ोन दोनों का इस्तेमाल नहीं करेंगे, तब तक हम आपको वेरिफ़ाई नहीं कर पाएँगे</string>
     <string name="onfido_permission_button_primary_both">दोनों चालू करें</string>
-	<string name="onfido_permission_recovery_subtitle_both">हम आपके कैमरे और माइक्रोफ़ोन के बिना आपको वेरिफ़ाई नहीं कर सकते</string>
+	<string name="onfido_permission_recovery_subtitle_both">वीडियो लेने और वेरिफ़िकेशन प्रोसेस पूरी करने के लिए कैमरा और माइक्रोफ़ोन ऐक्सेस रिकवर करें</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">आप अपनी डिवाइस सेटिंग के ज़रिए कैमरे और माइक्रोफ़ोन का ऐक्सेस रिकवर कर सकते हैं</string>
     <string name="onfido_permission_recovery_list_item_action_both">ऐप सेटिंग पर जाएँ और इस ऐप के लिए कैमरे और माइक्रोफ़ोन दोनों का ऐक्सेस चालू करें</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">कोई दूसरा डॉक्यूमेंट चुनें</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">फिर भी फ़ोटो सबमिट करें</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">मैन्युअल रूप से वीडियो रिकॉर्ड करने का प्रयास करें</string>
+	<string name="onfido_interactive_task_waiting_title_1">छवि की गुणवत्ता की जांच कर रहे हैं...</string>
+	<string name="onfido_interactive_task_waiting_title_2">छवि अपलोड कर रहे हैं...</string>
+	<string name="onfido_interactive_task_waiting_title_3">वीडियो अपलोड कर रहा है...</string>
+	<string name="onfido_interactive_task_waiting_title_4">डेटा की गुणवत्ता जांच रहे हैं...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">कनेक्शन अस्थिर है। कृपया कार्य समाप्त होने के लिए थोड़ा और इंतजार करें।</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">डेटा संकलित कर रहा है...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">हम संग्रहित डेटा को संकलित कर रहे हैं, कृपया प्रतीक्षा करें।</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">डेटा सुरक्षित कर रहा है...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">हम आपकी जानकारी को सुरक्षित कर रहे हैं, कृपया प्रतीक्षा करें।</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">आपका डाटा सुरक्षित करना महत्वपूर्ण है, कृपया इस कार्य को समाप्त होने के लिए एक क्षण प्रतीक्षा करें।</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">डेटा प्रसंस्करण कर रहा है...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">हम आपकी जानकारी को प्रसंस्करण कर रहे हैं, कृपया प्रतीक्षा करें।</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">प्रक्रिया जारी है...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">कृपया इस प्रक्रिया को समाप्त होने के लिए थोड़ा और इंतजार करें, आपकी धैर्यशीलता की सराहना की जाती है।</string>
 </resources>

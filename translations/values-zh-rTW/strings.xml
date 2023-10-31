@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">若不使用麥克風，我們無法驗證您的身份</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">您可以透過裝置設定恢復麥克風存取權限</string>
     <string name="onfido_permission_recovery_list_item_action_mic">前往應用程式設定，為此應用程式啟用麥克風存取權限</string>
-    <string name="onfido_permission_recovery_subtitle_mic">不使用麥克風，我們無法驗證您的身份</string>
+	<string name="onfido_permission_recovery_subtitle_mic">我們需要訪問您的麥克風以驗證您的身份。請按照以下指示恢復訪問權限</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">允許使用相機和麥克風</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">返回</string>
     <string name="onfido_permission_body_both">若不同時使用相機和麥克風，我們無法驗證您的身份</string>
     <string name="onfido_permission_button_primary_both">同時啟用兩者</string>
-	<string name="onfido_permission_recovery_subtitle_both">不使用相機和麥克風，我們無法驗證您的身份</string>
+	<string name="onfido_permission_recovery_subtitle_both">恢復相機和麥克風存取權限，以拍攝影片，並完成驗證流程</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">您可以透過裝置設定恢復相機和麥克風存取權限</string>
     <string name="onfido_permission_recovery_list_item_action_both">前往應用程式設定，為此應用程式啟用相機和麥克風存取權限</string>
 
@@ -418,9 +418,9 @@
 	<string name="onfido_poa_intro_button_primary">開始驗證</string>
 	<string name="onfido_poa_intro_title">讓我們驗證您的地址</string>
 	<string name="onfido_poa_intro_subtitle">您需要提供以下文件：</string>
-	<string name="onfido_poa_intro_list_shows_address">顯示您的* *目前* *地址</string>
+	<string name="onfido_poa_intro_list_shows_address">顯示您的 目前 地址</string>
 	<string name="onfido_poa_intro_list_matches_signup">與您在註冊時使用的地址相符</string>
-	<string name="onfido_poa_intro_list_most_recent">這是您的* *最新* *文件嗎</string>
+	<string name="onfido_poa_intro_list_most_recent">這是您的 最新 文件嗎</string>
 	<string name="onfido_poa_type_selection_title_uk">選擇英國文件</string>
 	<string name="onfido_poa_type_selection_title">選擇文件</string>
 	<string name="onfido_doc_select_subtitle_poa">這些是最可能顯示您目前住家地址的文件</string>
@@ -433,10 +433,10 @@
 	<string name="onfido_doc_select_button_benefits_letter_detail">政府批准的家庭福利，例如：求職者津貼、住房福利、稅收抵免</string>
     <string name="onfido_doc_select_button_address_card">地址卡</string>
     <string name="onfido_doc_select_button_address_card_detail">接受臨時和永久地址卡</string>
-	<string name="onfido_poa_guidance_subtitle_bank_statement">必須在* *最近 3 個月* *內核發</string>
-	<string name="onfido_poa_guidance_subtitle_bill">必須在* *最近 3 個月* *內核發</string>
-	<string name="onfido_poa_guidance_subtitle_benefits_letter">必須在* *最近 12 個月* *內核發</string>
-	<string name="onfido_poa_guidance_subtitle_tax_letter">必須在* *最近 12 個月* *內核發</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">必須在 最近 3 個月 內核發</string>
+	<string name="onfido_poa_guidance_subtitle_bill">必須在 最近 3 個月 內核發</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">必須在 最近 12 個月 內核發</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">必須在 最近 12 個月 內核發</string>
     <string name="onfido_poa_guidance_subtitle_address_card">必須是有效的地址卡</string>
 	<string name="onfido_poa_guidance_instructions_label">擷取整份文件，並確保其清楚顯示：</string>
 	<string name="onfido_poa_guidance_instructions_logo">標誌</string>
@@ -513,4 +513,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">選擇其他文件</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">無論如何提交照片</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">嘗試手動錄製影片</string>
+	<string name="onfido_interactive_task_waiting_title_1">正在檢查圖像質量...</string>
+	<string name="onfido_interactive_task_waiting_title_2">正在上峰圖片...</string>
+	<string name="onfido_interactive_task_waiting_title_3">正在上傳影片...</string>
+	<string name="onfido_interactive_task_waiting_title_4">正在檢查數據質量...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">連線不穩定。請稍等一會，讓任務完成。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">正在編譯數據...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">我們正在彙總收集的數據，請稍候。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">正在保護數據...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">我們正在保護您的資訊，請稍候。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">保護您的數據非常重要，請稍等片刻讓此任務完成。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">正在處理數據...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">我們正在處理您的資訊，請稍候。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">處理中...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">請稍等一下，讓這個過程完成，感謝您的耐心等待。</string>
 </resources>

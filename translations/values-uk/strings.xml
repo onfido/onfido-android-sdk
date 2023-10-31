@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Верифікація можлива лише за наявності доступу до мікрофона</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Доступ до мікрофона можна відновити в меню налаштувань пристрою</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Перейдіть у меню налаштувань програми й увімкніть доступ до мікрофона для цієї програми</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Верифікація можлива лише за наявності доступу до мікрофона</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Нам потрібен доступ до вашого мікрофона для верифікації вашої особи. Дотримуйтесь інструкцій нижче, щоб відновити доступ</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Дозволити доступ до камери та мікрофона</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">назад</string>
     <string name="onfido_permission_body_both">Верифікація можлива лише за наявності доступу до камери та мікрофона</string>
     <string name="onfido_permission_button_primary_both">Увімкнути камеру й мікрофон</string>
-	<string name="onfido_permission_recovery_subtitle_both">Верифікація можлива лише за наявності доступу до камери та мікрофона</string>
+	<string name="onfido_permission_recovery_subtitle_both">Відновіть доступ до камери й мікрофона, щоб зняти відео й завершити процес підтвердження</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Доступ до камери та мікрофона можна відновити в меню налаштувань пристрою</string>
     <string name="onfido_permission_recovery_list_item_action_both">Перейдіть у меню налаштувань програми й увімкніть доступ до камери та мікрофона для цієї програми</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Виберіть інший документ</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Надіслати фото все одно</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Спробуйте записати відео вручну</string>
+	<string name="onfido_interactive_task_waiting_title_1">Перевірка якості зображення...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Завантаження зображення...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Завантаження відео...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Перевірка якості даних...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">З\'єднання нестабільне. Будь ласка, зачекайте трохи довше, щоб завдання завершилося.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Компіляція даних...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Ми обробляємо зібрані дані, будь ласка, зачекайте.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Забезпечення даних...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Ми захищаємо вашу інформацію, будь ласка, зачекайте.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Захист вашого даних є важливим, будь ласка, зачекайте момент, поки це завдання завершиться.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Обробка даних...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Ми обробляємо вашу інформацію, будь ласка, зачекайте.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Обробка триває...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Будь ласка, зачекайте трохи довше, поки цей процес завершиться, ваше терпіння оцінюється.</string>
 </resources>

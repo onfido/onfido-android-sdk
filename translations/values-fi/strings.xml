@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Emme voi vahvistaa sinua käyttämättä mikrofoniasi</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Voit palauttaa mikrofonin käyttöoikeuden laitteesi asetuksista</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Siirry sovellusasetuksiin ja salli mikrofonin käyttö tässä sovelluksessa</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Emme voi vahvistaa sinua ilman mikrofoniasi</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Tarvitsemme pääsyn mikrofoniisi henkilöllisyytesi varmistamiseksi. Noudata alla olevia ohjeita pääsyn palauttamiseksi</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Salli kameran ja mikrofonin käyttö</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">edell</string>
     <string name="onfido_permission_body_both">Emme voi vahvistaa sinua käyttämättä sekä kameraasi että mikrofoniasi</string>
     <string name="onfido_permission_button_primary_both">Ota molemm. käytt.</string>
-	<string name="onfido_permission_recovery_subtitle_both">Emme voi vahvistaa sinua ilman kameraasi ja mikrofoniasi</string>
+	<string name="onfido_permission_recovery_subtitle_both">Palauta kameran ja mikrofonin käyttöoikeus videon kuvaamiseksi ja vahvistusprosessin viimeistelemiseksi</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Voit palauttaa kameran ja mikrofonin käyttöoikeuden laitteesi asetuksista</string>
     <string name="onfido_permission_recovery_list_item_action_both">Siirry sovellusasetuksiin ja salli kameran ja mikrofonin käyttö tässä sovelluksessa</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Valitse toinen asiakirja</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Lähetä kuva joka tapauksessa</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Yritä tallentaa video manuaalisesti</string>
+	<string name="onfido_interactive_task_waiting_title_1">Tarkistetaan kuvan laatua...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Kuvan lataaminen...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Ladataan videota...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Tarkistetaan tietojen laatua...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Yhteys on epävakaa. Odota hieman kauemmin, että tehtävä saadaan päätökseen.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kokoaa tietoja...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Kokoamme kerättyjä tietoja, odota hetki.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Turvataan tietoja...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Olemme turvaamassa tietojasi, odota hetki.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Tietojesi turvaaminen on tärkeää, odota hetki, että tehtävä saadaan päätökseen.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Käsitellään tietoja...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Käsittelemme tietojasi, odota hetki.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Käsittely käynnissä...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Ole hyvä ja odota hieman kauemmin, että tämä prosessi saadaan päätökseen, kärsivällisyytesi on arvostettu.</string>
 </resources>

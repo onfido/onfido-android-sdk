@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Me ei saa teie isikut kinnitada ilma mikrofoni kasutamata</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Juurdepääsu mikrofonile saate taastada seadme sätete kaudu</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs mikrofonile</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Meil ei ole võimalik teie isikut kinnitada ilma mikrofonita</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Meil on vaja juurdepääsu teie mikrofonile, et kinnitada teie isikut. Järgige allpool toodud juhiseid juurdepääsu taastamiseks</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Lubage juurdepääs kaamerale ja mikrofonile</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">tagasi</string>
     <string name="onfido_permission_body_both">Me ei saa teie isikut kinnitada ilma nii kaamerat kui ka mikrofoni kasutamata</string>
     <string name="onfido_permission_button_primary_both">Lubage mõlemad</string>
-	<string name="onfido_permission_recovery_subtitle_both">Meil ei ole võimalik teie isikut kinnitada ilma nii kaamerat kui ka mikrofoni kasutamata</string>
+	<string name="onfido_permission_recovery_subtitle_both">Võimaldage juurdepääs kaamerale ja mikrofonile video tegemiseks ja kinnitamise lõpuleviimiseks</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Juurdepääsu kaamerale ja mikrofonile saate taastada seadme sätete kaudu</string>
     <string name="onfido_permission_recovery_list_item_action_both">Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale ning mikrofonile</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Valige teine dokument</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Esita foto ikkagi</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Proovige videot käsitsi salvestada</string>
+	<string name="onfido_interactive_task_waiting_title_1">Kontrollin pildi kvaliteeti...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Pildi üleslaadimine...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Video üleslaadimine...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Kontrollin andmete kvaliteeti...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Ühendus on ebastabiilne. Palun oodake natuke kauem, kuni ülesanne on lõpetatud.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Andmete koostamine...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Me koondame kogutud andmeid, palun oodake.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Andmete turvamine...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Me turvame teie teavet, palun oodake.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Teie andmete turvamine on oluline, palun oodake hetk, kuni see ülesanne on lõpule viidud.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Andmete töötlemine...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Me töötleme teie andmeid, palun oodake.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Töötlemine käib...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Palun oodake natuke kauem, kuni see protsess on lõppenud, teie kannatlikkust hinnatakse.</string>
 </resources>

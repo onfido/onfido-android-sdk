@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">We kunnen u niet verifiëren zonder uw microfoon te gebruiken</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">U kunt toegang tot de microfoon herstellen via de instellingen van uw apparaat</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Ga naar de instellingen van de app en schakel toegang tot de microfoon in voor deze app</string>
-    <string name="onfido_permission_recovery_subtitle_mic">We kunnen u niet verifiëren zonder microfoon</string>
+	<string name="onfido_permission_recovery_subtitle_mic">We hebben toegang tot uw microfoon nodig om uw identiteit te verifiëren. Volg de onderstaande instructies om toegang te herstellen</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Sta toegang toe tot camera en microfoon</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">terug</string>
     <string name="onfido_permission_body_both">We kunnen u niet verifiëren zonder uw camera en microfoon te gebruiken</string>
     <string name="onfido_permission_button_primary_both">Allebei inschakelen</string>
-	<string name="onfido_permission_recovery_subtitle_both">We kunnen u niet verifiëren zonder gebruik van uw camera en microfoon</string>
+	<string name="onfido_permission_recovery_subtitle_both">Herstel toegang tot de camera en de microfoon om een filmpje op te nemen en de verificatie van uw gezicht te voltooien</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">U kunt toegang tot de camera en de microfoon herstellen via de instellingen van uw apparaat</string>
     <string name="onfido_permission_recovery_list_item_action_both">Ga naar de instellingen van de app en schakel toegang tot zowel de camera als de microfoon in voor deze app</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Kies een ander document</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Foto toch indienen</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Probeer handmatig video op te nemen</string>
+	<string name="onfido_interactive_task_waiting_title_1">Beeldkwaliteit controleren...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Afbeelding uploaden...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Video uploaden...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Controleren van datakwaliteit...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">De verbinding is onstabiel. Wacht alstublieft iets langer tot de taak is voltooid.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Gegevens aan het compileren...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We zijn de verzamelde gegevens aan het compileren, even geduld aub.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Gegevens beveiligen...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">We beveiligen uw informatie, even geduld a.u.b.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Het beveiligen van uw gegevens is belangrijk, wacht alstublieft even tot deze taak is voltooid.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Gegevens verwerken...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">We verwerken uw informatie, even geduld aub.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Verwerking bezig...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Wacht alstublieft nog even tot dit proces is voltooid, uw geduld wordt op prijs gesteld.</string>
 </resources>

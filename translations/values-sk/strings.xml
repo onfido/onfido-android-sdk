@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Nemôžeme vás overiť bez použitia mikrofónu</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Prístup k mikrofónu môžete obnoviť prostredníctvom nastavení zariadenia</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k mikrofónu</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Nemôžeme vás overiť bez mikrofónu</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Potrebujeme prístup k vášmu mikrofónu na overenie vašej identity. Postupujte podľa pokynov nižšie na obnovenie prístupu</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Povoliť prístup k fotoaparátu a mikrofónu</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">späť</string>
     <string name="onfido_permission_body_both">Nemôžeme vás overiť bez použitia fotoaparátu a mikrofónu</string>
     <string name="onfido_permission_button_primary_both">Povoliť oboje</string>
-	<string name="onfido_permission_recovery_subtitle_both">Nemôžeme vás overiť bez fotoaparátu a mikrofónu</string>
+	<string name="onfido_permission_recovery_subtitle_both">Obnovte prístup k fotoaparátu a mikrofónu, aby ste mohli nahrať video a dokončiť proces overenia</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Prístup k fotoaparátu a mikrofónu môžete obnoviť prostredníctvom nastavení zariadenia</string>
     <string name="onfido_permission_recovery_list_item_action_both">Prejdite do nastavení aplikácie a povoľte tejto aplikácii prístup k fotoaparátu a mikrofónu</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Vyberte iný doklad</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Odoslať fotografiu aj tak</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Skúste nahrávať video manuálne</string>
+	<string name="onfido_interactive_task_waiting_title_1">Kontrola kvality obrázka...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Nahrávanie obrázka...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Nahrávanie videa...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Kontrola kvality dát...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Spojenie je nestabilné. Prosím, počkajte ešte chvíľu, kým sa úloha dokončí.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilácia dát...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Kompilujeme zhromaždené údaje, prosím počkajte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Zabezpečovanie dát...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Zabezpečujeme vaše informácie, prosím počkajte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Zabezpečenie vašich údajov je dôležité, prosím počkajte chvíľu, kým sa táto úloha dokončí.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Spracovávam dáta...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Spracovávame vaše informácie, prosím počkajte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Spracovávanie prebieha...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prosím, počkajte ešte chvíľu, kým sa tento proces dokončí, vaša trpezlivosť je ocenená.</string>
 </resources>

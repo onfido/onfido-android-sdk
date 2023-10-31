@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.4.0] - 2023-10-31
+
+### Changed
+
+- Replaced `com.google.android.play:core` library with a more specific `com.google.android.play:feature-delivery` library for Dynamic Feature Module compatibility
+
+### Fixed
+
+- Fixed Motion Capture screen restoration after Camera/Mic permissions being removed 
+
 ## [19.3.0] - 2023-10-09
 
 ### Added
@@ -26,6 +36,7 @@ translations. [More on language localisation](README.md#4-localisation)
 - Fixed the Out of Memory issue encountered during captured image confirmation
 - Replaced direct usage of Json serializer with our globally configured instance
 - Fixed background customization issue in capture confirmation screen
+- Used TextureView to workaround Android 14 Beta crashes in SurfaceView
 
 ## [19.2.1] - 2023-08-29
 

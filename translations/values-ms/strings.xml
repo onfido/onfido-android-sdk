@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Kami tidak dapat mengesahkan anda tanpa menggunakan mikrofon anda</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Anda boleh mengembalikan akses mikrofon melalui tetapan peranti anda</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Pergi ke tetapan aplikasi dan dayakan akses mikrofon untuk aplikasi ini</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Kami tidak dapat mengesahkan anda tanpa mikrofon anda</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Kami memerlukan akses ke mikrofon anda untuk mengesahkan identiti anda. Ikuti arahan di bawah untuk mendapatkan semula akses</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Benarkan akses kamera dan mikrofon</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">belakang</string>
     <string name="onfido_permission_body_both">Kami tidak dapat mengesahkan anda tanpa menggunakan kamera dan juga mikrofon anda</string>
     <string name="onfido_permission_button_primary_both">Dayakan kedua-duanya</string>
-	<string name="onfido_permission_recovery_subtitle_both">Kami tidak dapat mengesahkan anda tanpa kamera dan mikrofon anda</string>
+	<string name="onfido_permission_recovery_subtitle_both">Kembalikan akses kamera dan mikrofon untuk merakam video dan melengkapkan proses pengesahan</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Anda boleh mengembalikan semula akses mikrofon melalui tetapan peranti anda</string>
     <string name="onfido_permission_recovery_list_item_action_both">Pergi ke tetapan aplikasi dan dayakan akses kamera dan mikrofon untuk aplikasi ini</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Pilih dokumen lain</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Hantar foto sekalipun</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Cuba merakam video secara manual</string>
+	<string name="onfido_interactive_task_waiting_title_1">Memeriksa kualiti imej...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Memuat naik imej...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Memuat naik video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Memeriksa kualiti data...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Sambungan tidak stabil. Sila tunggu sebentar lagi untuk tugas selesai.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Memproses data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Kami sedang mengumpulkan data yang dikumpulkan, sila tunggu.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Mengamankan data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Kami sedang melindungi maklumat anda, sila tunggu.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Mengamankan data anda adalah penting, sila tunggu sebentar untuk tugas ini selesai.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Memproses data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Kami sedang memproses maklumat anda, sila tunggu.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Pemprosesan sedang berlangsung...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Sila tunggu sebentar lagi untuk proses ini selesai, kesabaran anda sangat dihargai.</string>
 </resources>

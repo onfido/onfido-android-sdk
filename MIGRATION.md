@@ -1,5 +1,9 @@
 # Onfido Android SDK Migration Guide
 
+The guides below are provided to ease the transition of existing applications using the Onfido SDK from one version to another that introduces breaking API changes.
+
+If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
+
 ## `19.2.2` -> `19.3.0`
 
 #### Deprecation
@@ -35,9 +39,11 @@
 ## `18.0.0` -> `19.0.0`
 
 #### Breaking changes
-- Remove `Parcelable` implementation from `MediaCallback` and run it in the same process with the application.
-- Remove `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application.
-- Remove `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
+- Removed `Parcelable` implementation from `MediaCallback` and run it in the same process with the application.
+- Removed `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application.
+- Removed `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
+- Deprecated `withNFCReadFeature()` in `OnfidoConfig`, as NFC is now enabled by default. Use `disableNFC()` if you want to disable NFC.
+
 
 ## `17.0.0` -> `18.0.0`
 

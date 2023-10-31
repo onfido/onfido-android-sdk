@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">ما نمی‌توانیم بدون استفاده از میکروفون، هویت شما را تأیید کنیم</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">می‌توانید از طریق تنظیمات دستگاه خود دسترسی به میکروفون را مجدداً فعال کنید</string>
     <string name="onfido_permission_recovery_list_item_action_mic">به بخش تنظیمات برنامه بروید و دسترسی به میکروفون را برای این برنامه فعال کنید</string>
-    <string name="onfido_permission_recovery_subtitle_mic">ما نمی‌توانیم بدون میکروفون، هویت شما را تأیید کنیم</string>
+	<string name="onfido_permission_recovery_subtitle_mic">ما برای تأیید هویت شما به دسترسی به میکروفون شما نیاز داریم. دستورالعمل های زیر را برای بازیابی دسترسی دنبال کنید</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">اجازه دسترسی به دوربین و میکروفون را بدهید</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">بازگشت</string>
     <string name="onfido_permission_body_both">ما نمی‌توانیم بدون استفاده از دوربین و میکروفون، هویت شما را تأیید کنیم</string>
     <string name="onfido_permission_button_primary_both">دسترسی به هر دو را فعال کنید</string>
-	<string name="onfido_permission_recovery_subtitle_both">ما نمی‌توانیم بدون استفاده از دوربین و میکروفون، هویت شما را تأیید کنیم</string>
+	<string name="onfido_permission_recovery_subtitle_both">برای فیلم‌برداری و تکمیل فرآیند تأیید هویت، دسترسی به دوربین و میکروفن را مجدداً فعال کنید</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">می‌توانید از طریق تنظیمات دستگاه خود دسترسی به دوربین و میکروفون را مجدداً فعال کنید</string>
     <string name="onfido_permission_recovery_list_item_action_both">به بخش تنظیمات برنامه بروید و دسترسی به دوربین و میکروفون را برای این برنامه فعال کنید</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">مدرک دیگری را انتخاب کنید</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">عکس را در هر صورت ارسال کنید</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">سعی کنید ویدیو را به صورت دستی رکورد کنید</string>
+	<string name="onfido_interactive_task_waiting_title_1">در حال بررسی کیفیت تصویر...</string>
+	<string name="onfido_interactive_task_waiting_title_2">در حال بارگذاری تصویر...</string>
+	<string name="onfido_interactive_task_waiting_title_3">در حال بارگذاری ویدیو...</string>
+	<string name="onfido_interactive_task_waiting_title_4">در حال بررسی کیفیت داده...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">اتصال ناپایدار است. لطفاً کمی بیشتر منتظر بمانید تا کار تمام شود.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">در حال جمع‌آوری داده‌ها...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">ما در حال تهیه داده های جمع آوری شده هستیم، لطفا صبر کنید.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">در حال امن سازی داده ها...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">ما در حال امن کردن اطلاعات شما هستیم، لطفا صبر کنید.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">امنیت داده های شما مهم است، لطفاً یک لحظه منتظر بمانید تا این کار تمام شود.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">در حال پردازش داده...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">ما در حال پردازش اطلاعات شما هستیم، لطفا صبر کنید.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">در حال پردازش...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">لطفاً کمی بیشتر برای اتمام این فرآیند صبر کنید، صبر شما قدردانی می شود.</string>
 </resources>

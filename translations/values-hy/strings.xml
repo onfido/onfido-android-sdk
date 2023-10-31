@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Մենք չենք կարող նույնականացնել ձեզ առանց խոսափողի առկայության</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Մենք չենք կարող նույնականացնել ձեզ առանց խոսափողի</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Մեզ անհրաժեշտ է ձեր միկրոֆոնին ձեր իսկությունը ստուգելու համար։ Հետեւեք ստորև ներկայացված հրահանգներին մուտքի վերականգնելու համար։</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Թույլատրել մուտքը դեպի տեսախցիկ և խոսափող</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">հետ</string>
     <string name="onfido_permission_body_both">Մենք չենք կարող նույնականացնել ձեզ առանց տեսախցիկի և խոսափողի առկայության</string>
     <string name="onfido_permission_button_primary_both">Երկուսն էլ միացնել</string>
-	<string name="onfido_permission_recovery_subtitle_both">Մենք չենք կարող նույնականացնել ձեզ առանց տեսախցիկի և խոսափողի առկայության</string>
+	<string name="onfido_permission_recovery_subtitle_both">Վերականգնեք տեսախցիկի և խոսափողի հասանելիությունը՝ տեսանյութը նկարահանելու և հաստատման գործընթացն ավարտելու համար</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
     <string name="onfido_permission_recovery_list_item_action_both">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Ընտրել մեկ այլ փաստաթուղթ</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Ներկայացրեք լուսանկարը ամեն դեպքում</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Փորձեք ձեռքով վիդեո գրանցել</string>
+	<string name="onfido_interactive_task_waiting_title_1">Ստուգում ենք պատկերի որակը․․․</string>
+	<string name="onfido_interactive_task_waiting_title_2">Նկարը բեռնվում է...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Վիդեոն բեռնվում է․․․</string>
+	<string name="onfido_interactive_task_waiting_title_4">Ստուգում ենք տվյալների որակը․․․</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Կապը անվտանգ չէ։ Խնդրում ենք մի փոքր սպասել, որպեսզի առաջադրանքը ավարտվի։</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Տվյալների կոմպիլյացիա...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Մենք հավաքված տվյալները համադրում ենք, խնդրում ենք սպասել:</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Տվյալների ապահովում...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Մենք ապահովում ենք ձեր տվյալները, խնդրում ենք սպասել:</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Ձեր տվյալների ապահովությունը կարևոր է, խնդրում ենք մի հատ պահ սպասել, մինչդեռ այս առաջադրանքը ավարտվի։</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Տվյալների մշակում...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Մենք մշակում ենք ձեր տվյալները, խնդրում ենք սպասել:</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Կատարումը ընթացքում է․․․</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Հաճելի է մի քիչ ավելի երկար սպասել, որպեսզի այս գործընթացը ավարտվի, ձեր համբերատարությունը գնահատվում է։</string>
 </resources>

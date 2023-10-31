@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">A mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Az eszköz beállításaiban visszaállíthatja a mikrofonhoz való hozzáférést</string>
     <string name="onfido_permission_recovery_list_item_action_mic">A beállításokban engedélyezze a mikrofonhoz való hozzáférést az alkalmazás számára</string>
-    <string name="onfido_permission_recovery_subtitle_mic">A mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Szükségünk van a mikrofonjához való hozzáférésre azonosításának ellenőrzéséhez. Kövesse az alábbi utasításokat a hozzáférés visszaszerzéséhez</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Kamera- és mikrofon-hozzáférés engedélyezése</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">vissza</string>
     <string name="onfido_permission_body_both">A fényképezőgép és a mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát</string>
     <string name="onfido_permission_button_primary_both">Mindkettő engedélyezése</string>
-	<string name="onfido_permission_recovery_subtitle_both">A fényképezőgép és a mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát</string>
+	<string name="onfido_permission_recovery_subtitle_both">Videó készítéséhez és az ellenőrzési folyamat befejezéséhez állítsa vissza a kamera és a mikrofon hozzáférését</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Az eszköz beállításaiban visszaállíthatja a kamerához és a mikrofonhoz való hozzáférést</string>
     <string name="onfido_permission_recovery_list_item_action_both">A beállításokban engedélyezze mind a kamerához, mind a mikrofonhoz való hozzáférést az alkalmazás számára</string>
 
@@ -421,7 +421,7 @@
 	<string name="onfido_poa_intro_subtitle">Olyan dokumentumra lesz szüksége:</string>
 	<string name="onfido_poa_intro_list_shows_address">Megjeleníti a jelenlegi címét</string>
 	<string name="onfido_poa_intro_list_matches_signup">Amely egyezik a regisztrációkor megadott címmel</string>
-	<string name="onfido_poa_intro_list_most_recent">* * Legfrissebb * * dokumentuma</string>
+	<string name="onfido_poa_intro_list_most_recent">Legfrissebb dokumentuma</string>
 	<string name="onfido_poa_type_selection_title_uk">Egyesült királyságbeli dokumentum kiválasztása</string>
 	<string name="onfido_poa_type_selection_title">Dokumentum kiválasztása</string>
 	<string name="onfido_doc_select_subtitle_poa">Ezek azok a dokumentumok, amelyek a legnagyobb valószínűséggel jelzik az Ön jelenlegi lakcímét</string>
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Válasszon másik dokumentumot</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Küldje el a fotót így is</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Próbálja meg manuálisan felvenni a videót</string>
+	<string name="onfido_interactive_task_waiting_title_1">Képminőség ellenőrzése...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Kép feltöltése...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Videó feltöltése...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Az adatminőség ellenőrzése...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">A kapcsolat instabil. Kérjük, várjon egy kicsit tovább, hogy a feladat befejeződjön.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Adatok összegyűjtése...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Összeállítjuk a gyűjtött adatokat, kérjük várjon.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Adatok biztosítása...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Biztosítjuk az Ön információit, kérjük várjon.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Fontos, hogy adatai biztonságban legyenek, kérjük várjon egy kicsit, amíg a művelet befejeződik.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Adatfeldolgozás...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Adatainak feldolgozása folyamatban van, kérjük várjon.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Feldolgozás folyamatban...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Kérjük, várjon még egy kicsit, amíg a folyamat befejeződik, értékeljük a türelmét.</string>
 </resources>

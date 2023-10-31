@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '19.3.0'
-def versionCodeNumber = 1922
+def sdkVersion = '19.4.0'
+def versionCodeNumber = 1940
 
 android {
     compileSdkVersion 33
@@ -18,8 +18,8 @@ android {
         abortOnError false
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     buildTypes {
         debug {

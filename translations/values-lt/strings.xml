@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Negalime jūsų patvirtinti nenaudojant mikrofono</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Prieigą prie mikrofono galite atkurti naudodami įrenginio nustatymus</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Eikite į programėlės nustatymus ir įjunkite šios programėlės prieigą prie mikrofono</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Negalime jūsų patvirtinti be mikrofono</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Mums reikia prieigos prie jūsų mikrofono, kad patikrintume jūsų tapatybę. Sekite žemiau pateiktas instrukcijas, kad atkurtumėte prieigą</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Leisti prieigą prie kameros ir mikrofono</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">atgal</string>
     <string name="onfido_permission_body_both">Negalime jūsų patvirtinti, jei kamera ir mikrofonas nenaudojami kartu</string>
     <string name="onfido_permission_button_primary_both">Įjungti abu</string>
-	<string name="onfido_permission_recovery_subtitle_both">Negalime jūsų patvirtinti be kameros ir mikrofono</string>
+	<string name="onfido_permission_recovery_subtitle_both">Atkurkite prieigą prie kameros ir mikrofono, kad galėtumėte padaryti vaizdo įrašą ir užbaigti patvirtinimo procesą</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Prieigą prie kameros ir mikrofono galite atkurti naudodami įrenginio nustatymus</string>
     <string name="onfido_permission_recovery_list_item_action_both">Eikite į programėlės nustatymus ir šiai programėlei įjunkite prieigą ir prie kameros, ir prie mikrofono</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Pasirinkti kitą dokumentą</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Pateikti nuotrauką vis tiek</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Pabandykite įrašyti vaizdo įrašą rankiniu būdu</string>
+	<string name="onfido_interactive_task_waiting_title_1">Tikrinama vaizdo kokybė...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Įkeliamas vaizdas...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Įkeliamas vaizdo įrašas...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Tikrinama duomenų kokybė...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Ryšys yra nestabilus. Prašome palaukti šiek tiek ilgiau, kol užduotis bus baigta.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompiliuojami duomenys...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Mes surinkome surinktus duomenis, prašome palaukti.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Apsaugojama informacija...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Mes užtikriname jūsų informacijos saugumą, prašome palaukti.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Jūsų duomenų apsauga yra svarbi, prašome palaukti kol šis uždavinys bus baigtas.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Apdorojami duomenys...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Mes apdorojame jūsų informaciją, prašome palaukti.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Apdorojimas vyksta...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.</string>
 </resources>

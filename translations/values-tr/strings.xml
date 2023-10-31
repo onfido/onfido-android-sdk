@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Cihaz ayarlarınızdan mikrofon erişimini kurtarabilirsiniz</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Uygulama ayarlarına gidin ve bu uygulama için mikrofon erişimini etkinleştirin</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Kimliğinizi doğrulamak için mikrofonunuza erişim hakkına ihtiyacımız var. Erişimi geri almak için aşağıdaki talimatları izleyin</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Kamera ve mikrofon erişimine izin ver</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">geri</string>
     <string name="onfido_permission_body_both">Hem kameranızı hem de mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
     <string name="onfido_permission_button_primary_both">Her ikisini de etkinleştir</string>
-	<string name="onfido_permission_recovery_subtitle_both">Kameranız ve mikrofonunuz olmadan sizi doğrulayamayız</string>
+	<string name="onfido_permission_recovery_subtitle_both">Video çekmek ve hem kamera hem de doğrulama sürecini tamamlamak için kamera erişimini sağlayın</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Kamera ve mikrofon erişimini cihaz ayarlarınızdan kurtarabilirsiniz</string>
     <string name="onfido_permission_recovery_list_item_action_both">Uygulama ayarlarına gidin ve bu uygulama için hem kamera hem de mikrofon erişimini etkinleştirin</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Başka bir belge seçin</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Yine de fotoğrafı gönder</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Videoyu manuel olarak kaydetmeyi deneyin</string>
+	<string name="onfido_interactive_task_waiting_title_1">Görüntü kalitesi kontrol ediliyor...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Resim yükleniyor...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Video yükleniyor...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Veri kalitesi kontrol ediliyor...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Bağlantı kararsız. Lütfen görevin bitmesi için biraz daha bekleyin.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Veri derleniyor...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Toplanan verileri derliyoruz, lütfen bekleyin.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Verileri güvenceye alıyor...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Bilgilerinizi güvence altına alıyoruz, lütfen bekleyin.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Verilerinizi güvence altına almak önemlidir, bu görevin bitmesi için lütfen bir an bekleyin.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Veri işleniyor...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Bilgilerinizi işliyoruz, lütfen bekleyin.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">İşlem devam ediyor...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Lütfen bu işlemin bitmesi için biraz daha bekleyin, sabrınız takdir edilmektedir.</string>
 </resources>

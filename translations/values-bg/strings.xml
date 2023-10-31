@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Не можем да потвърдим самоличността ви, без да използваме микрофона</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Можете да възстановите достъпа до микрофона от настройките на устройството си</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Влезте в настройките на приложението и активирайте достъпа до микрофона за това приложение</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Не можем да потвърдим самоличността ви, без да използваме микрофона</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Нуждаем се от достъп до вашия микрофон, за да потвърдим самоличността ви. Следвайте инструкциите по-долу, за да възстановите достъпа</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Разрешете достъпа до камерата и микрофона</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">назад</string>
     <string name="onfido_permission_body_both">Не можем да потвърдим самоличността ви, без да използваме камерата и микрофона ви</string>
     <string name="onfido_permission_button_primary_both">Активиране на двете</string>
-	<string name="onfido_permission_recovery_subtitle_both">Не можем да потвърдим самоличността ви, без да използваме камерата и микрофона</string>
+	<string name="onfido_permission_recovery_subtitle_both">Възстановете достъпа до камерата и микрофона, за да заснемете видео и да завършите процеса на проверка</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Можете да възстановите достъпа до камерата и микрофона от настройките на устройството си</string>
     <string name="onfido_permission_recovery_list_item_action_both">Влезте в настройките на приложението и активирайте достъпа до камерата и микрофона за това приложение</string>
 
@@ -513,4 +513,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Изберете друг документ</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Изпратете снимката все пак</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Опитайте да записвате видео ръчно</string>
+	<string name="onfido_interactive_task_waiting_title_1">Проверка на качеството на изображението...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Качване на изображение...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Качване на видео...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Проверка на качеството на данните...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Връзката е нестабилна. Моля, изчакайте малко повече време за завършване на задачата.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Компилиране на данни...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Компилираме събраните данни, моля изчакайте.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Сигурност на данните...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Сигурни сме за вашата информация, моля изчакайте.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Сигурността на вашите данни е важна, моля изчакайте момент, за да завърши тази задача.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Обработка на данни...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Обработваме вашата информация, моля изчакайте.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Обработката е в ход...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Моля, изчакайте малко по-дълго този процес да приключи, търпението ви се цени.</string>
 </resources>

@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Chúng tôi không thể xác minh bạn mà không sử dụng cả máy ảnh và micrô</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Bạn có thể khôi phục quyền truy cập micrô thông qua phần cài đặt thiết bị</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Vào phần cài đặt ứng dụng và bật quyền truy cập vào micrô cho ứng dụng này</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Chúng tôi không thể xác minh bạn mà không có micrô</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Chúng tôi cần quyền truy cập vào microphone của bạn để xác minh danh tính. Hãy làm theo hướng dẫn dưới đây để khôi phục quyền truy cập</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Cho phép truy cập camera và micrô</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">quay lại</string>
     <string name="onfido_permission_body_both">Chúng tôi không thể xác minh bạn mà không sử dụng cả máy ảnh và micrô</string>
     <string name="onfido_permission_button_primary_both">Cho phép cả hai</string>
-	<string name="onfido_permission_recovery_subtitle_both">Chúng tôi không thể xác minh bạn mà không có máy ảnh và micrô</string>
+	<string name="onfido_permission_recovery_subtitle_both">Khôi phục quyền truy cập máy ảnh và micrô để quay video và hoàn tất quy trình xác minh</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Bạn có thể khôi phục quyền truy cập máy ảnh và micrô thông qua phần cài đặt thiết bị</string>
     <string name="onfido_permission_recovery_list_item_action_both">Vào phần cài đặt ứng dụng và bật quyền truy cập vào máy ảnh và micrô cho ứng dụng này</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Chọn giấy tờ khác</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Gửi ảnh bất kể</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Thử quay video theo cách thủ công</string>
+	<string name="onfido_interactive_task_waiting_title_1">Đang kiểm tra chất lượng hình ảnh...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Đang tải lên hình ảnh...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Đang tải video lên...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Đang kiểm tra chất lượng dữ liệu...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Kết nối không ổn định. Vui lòng đợi thêm một chút để công việc hoàn thành.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Đang biên dịch dữ liệu...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Chúng tôi đang tổng hợp dữ liệu đã thu thập, vui lòng đợi.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Đang bảo mật dữ liệu...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Chúng tôi đang bảo mật thông tin của bạn, vui lòng đợi.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Việc bảo mật dữ liệu của bạn rất quan trọng, vui lòng đợi một chút để công việc này hoàn tất.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Đang xử lý dữ liệu...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Chúng tôi đang xử lý thông tin của bạn, vui lòng đợi.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Đang xử lý...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vui lòng chờ thêm một chút để quá trình này hoàn tất, sự kiên nhẫn của bạn rất được trân trọng.</string>
 </resources>

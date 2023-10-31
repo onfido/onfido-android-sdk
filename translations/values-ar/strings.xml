@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">لا يمكننا التحقق منك من دون استخدام الميكروفون</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">يمكنك استعادة الوصول إلى الميكروفون من خلال إعدادات جهازك</string>
     <string name="onfido_permission_recovery_list_item_action_mic">انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى الميكروفون لهذا التطبيق</string>
-    <string name="onfido_permission_recovery_subtitle_mic">لا يمكننا التحقق منك من دون الميكروفون الخاص بك</string>
+	<string name="onfido_permission_recovery_subtitle_mic">نحتاج إلى الوصول إلى ميكروفونك للتحقق من هويتك. اتبع التعليمات أدناه لاستعادة الوصول</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">السماح باستخدام الكاميرا والميكروفون</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">عودة</string>
     <string name="onfido_permission_body_both">لا يمكننا التحقق منك من دون استخدام كل من الكاميرا والميكروفون</string>
     <string name="onfido_permission_button_primary_both">تمكين كلا الإثنين</string>
-	<string name="onfido_permission_recovery_subtitle_both">لا يمكننا التحقق منك من دون الكاميرا والميكروفون</string>
+	<string name="onfido_permission_recovery_subtitle_both">استعادة الوصول إلى الكاميرا والميكروفون لالتقاط مقطع فيديو وإكمال عملية التحقق</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">يمكنك استرداد الوصول إلى الكاميرا والميكروفون من خلال إعدادات جهازك</string>
     <string name="onfido_permission_recovery_list_item_action_both">انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى كل من الكاميرا والميكروفون لهذا التطبيق</string>
 
@@ -513,4 +513,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">اختر مستندًا آخر</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">أرسل الصورة على أي حال</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">حاول تسجيل الفيديو يدويًا</string>
+	<string name="onfido_interactive_task_waiting_title_1">جارٍ التحقق من جودة الصورة...</string>
+	<string name="onfido_interactive_task_waiting_title_2">جاري تحميل الصورة...</string>
+	<string name="onfido_interactive_task_waiting_title_3">جاري تحميل الفيديو...</string>
+	<string name="onfido_interactive_task_waiting_title_4">جارٍ التحقق من جودة البيانات...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">الاتصال غير مستقر. يرجى الانتظار قليلاً حتى ينتهي العمل.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">جاري تجميع البيانات...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">نحن نقوم بتجميع البيانات المجمعة، يرجى الانتظار.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">تأمين البيانات...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">نحن نؤمن معلوماتك، يرجى الانتظار.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">تأمين بياناتك مهم، يرجى الانتظار لحظة لإنهاء هذه المهمة.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">جاري معالجة البيانات...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">نحن نقوم بمعالجة معلوماتك، يرجى الانتظار.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">المعالجة جارية...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">يرجى الانتظار قليلاً أطول حتى ينتهي هذا العمل، نقدر صبرك.</string>
 </resources>

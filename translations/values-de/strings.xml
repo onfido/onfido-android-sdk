@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Wir können Sie nicht verifizieren, ohne auf Ihr Mikrofon zuzugreifen</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Sie können den Mikrofonzugriff über Ihre Geräteeinstellungen wiederherstellen</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Gehen Sie zu App-Einstellungen und aktivieren Sie den Mikrofonzugriff für diese App</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Wir können Sie nicht ohne Ihr Mikrofon überprüfen</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Wir benötigen Zugriff auf Ihr Mikrofon, um Ihre Identität zu überprüfen. Befolgen Sie die unten stehenden Anweisungen, um den Zugriff wiederherzustellen</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Zugriff auf Kamera und Mikrofon erlauben</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">zurück</string>
     <string name="onfido_permission_body_both">Wir können Sie nicht verifizieren, ohne auf Ihr Mikrofon und Ihre Kamera zuzugreifen</string>
     <string name="onfido_permission_button_primary_both">Beides aktivieren</string>
-	<string name="onfido_permission_recovery_subtitle_both">Wir können Sie nicht ohne Ihre Kamera und Ihr Mikrofon überprüfen</string>
+	<string name="onfido_permission_recovery_subtitle_both">Stellen Sie den Zugriff auf Kamera und Mikrofon wieder her, um ein Video aufzunehmen und den Überprüfungsprozess abzuschließen</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Sie können Kamera- und Mikrofonzugriff über Ihre Geräteeinstellungen wiederherstellen</string>
     <string name="onfido_permission_recovery_list_item_action_both">Gehen Sie zu App-Einstellungen und aktivieren Sie Kamera- und Mikrofonzugriff für diese App</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Wählen Sie ein anderes Dokument aus</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Foto trotzdem einreichen</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Versuchen Sie, das Video manuell aufzunehmen</string>
+	<string name="onfido_interactive_task_waiting_title_1">Überprüfung der Bildqualität...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Bild wird hochgeladen...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Video wird hochgeladen...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Überprüfung der Datenqualität...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Die Verbindung ist instabil. Bitte warten Sie noch ein wenig, bis die Aufgabe abgeschlossen ist.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Daten werden zusammengestellt...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Wir kompilieren die gesammelten Daten, bitte warten Sie.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Daten sichern...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Wir sichern Ihre Informationen, bitte warten Sie.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Die Sicherung Ihrer Daten ist wichtig, bitte warten Sie einen Moment, bis diese Aufgabe abgeschlossen ist.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Daten werden verarbeitet...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Wir verarbeiten Ihre Informationen, bitte warten Sie.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Verarbeitung läuft...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Bitte warten Sie noch ein wenig länger, bis dieser Prozess abgeschlossen ist, Ihre Geduld wird geschätzt.</string>
 </resources>

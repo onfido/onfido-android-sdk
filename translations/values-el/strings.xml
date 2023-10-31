@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Δεν μπορούμε να σας επαληθεύσουμε χωρίς να χρησιμοποιήσουμε το μικρόφωνό σας</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Μπορείτε να ανακτήσετε την πρόσβαση στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στο μικρόφωνο για αυτήν την εφαρμογή</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Δεν μπορούμε να σας επαληθεύσουμε χωρίς το μικρόφωνό σας</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Χρειαζόμαστε πρόσβαση στο μικρόφωνό σας για να επαληθεύσουμε την ταυτότητά σας. Ακολουθήστε τις οδηγίες παρακάτω για να ανακτήσετε την πρόσβαση</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Να επιτρέπεται η πρόσβαση στην κάμερα και στο μικρόφωνο</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">επιστροφή</string>
     <string name="onfido_permission_body_both">Δεν μπορούμε να σας επαληθεύσουμε χωρίς να χρησιμοποιήσουμε και την κάμερα και το μικρόφωνό σας</string>
     <string name="onfido_permission_button_primary_both">Ενεργοποίηση και των δύο</string>
-	<string name="onfido_permission_recovery_subtitle_both">Δεν μπορούμε να επαληθεύσουμε την ταυτότητά σας χωρίς την κάμερα και το μικρόφωνό σας</string>
+	<string name="onfido_permission_recovery_subtitle_both">Ανακτήστε την πρόσβαση στην κάμερα και στο μικρόφωνο για να τραβήξετε ένα βίντεο και να ολοκληρώσετε τη διαδικασία επαλήθευσης</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Μπορείτε να ανακτήσετε την πρόσβαση στην κάμερα και στο μικρόφωνο μέσω των ρυθμίσεων της συσκευής σας</string>
     <string name="onfido_permission_recovery_list_item_action_both">Μεταβείτε στις ρυθμίσεις της εφαρμογής και ενεργοποιήστε την πρόσβαση στην κάμερα και στο μικρόφωνο για αυτήν την εφαρμογή</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Επιλέξτε άλλο έγγραφο</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Υποβολή φωτογραφίας ούτως ή άλλως</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Δοκιμάστε να καταγράψετε βίντεο χειροκίνητα</string>
+	<string name="onfido_interactive_task_waiting_title_1">Έλεγχος ποιότητας εικόνας...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Μεταφόρτωση εικόνας...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Μεταφόρτωση βίντεο...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Έλεγχος ποιότητας δεδομένων...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Η σύνδεση είναι ασταθής. Παρακαλώ περιμένετε λίγο περισσότερο για να ολοκληρωθεί η εργασία.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Συγκεντρώνοντας δεδομένα...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Συγκεντρώνουμε τα δεδομένα που συλλέχθηκαν, παρακαλώ περιμένετε.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Ασφάλιση δεδομένων...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Ασφαλίζουμε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Η ασφάλεια των δεδομένων σας είναι σημαντική, παρακαλώ περιμένετε λίγο για να ολοκληρωθεί αυτή η εργασία.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Επεξεργασία δεδομένων...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Επεξεργαζόμαστε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Επεξεργασία σε εξέλιξη...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Παρακαλούμε περιμένετε λίγο περισσότερο για να ολοκληρωθεί αυτή η διαδικασία, η υπομονή σας εκτιμάται.</string>
 </resources>

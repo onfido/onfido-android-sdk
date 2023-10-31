@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้ไมโครโฟน</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">คุณกู้คืนสิทธิ์การเข้าถึงไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="onfido_permission_recovery_list_item_action_mic">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงไมโครโฟนสำหรับแอปนี้</string>
-    <string name="onfido_permission_recovery_subtitle_mic">เรายืนยันตัวตนคุณไม่ได้ หากไม่มีไมโครโฟน</string>
+	<string name="onfido_permission_recovery_subtitle_mic">เราต้องการเข้าถึงไมโครโฟนของคุณเพื่อยืนยันตัวตนของคุณ กรุณาปฏิบัติตามคำแนะนำด้านล่างเพื่อกู้คืนการเข้าถึง</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">อนุญาตให้เข้าถึงกล้องและไมโครโฟน</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">ย้อนกลับ</string>
     <string name="onfido_permission_body_both">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้องและไมโครโฟน</string>
     <string name="onfido_permission_button_primary_both">เปิดใช้งานทั้ง 2 อย่าง</string>
-	<string name="onfido_permission_recovery_subtitle_both">เรายืนยันตัวตนคุณไม่ได้ หากไม่มีกล้องและไมโครโฟน</string>
+	<string name="onfido_permission_recovery_subtitle_both">กู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟน เพื่อถ่ายวิดีโอและดำเนินการตามขั้นตอนยืนยันให้เสร็จ</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">คุณกู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="onfido_permission_recovery_list_item_action_both">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงทั้งกล้องและไมโครโฟนสำหรับแอปนี้</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">เลือกเอกสารอื่น</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">ส่งรูปถ่ายอยู่ดี</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">ลองบันทึกวิดีโอด้วยตนเอง</string>
+	<string name="onfido_interactive_task_waiting_title_1">กำลังตรวจสอบคุณภาพรูปภาพ...</string>
+	<string name="onfido_interactive_task_waiting_title_2">กำลังอัปโหลดรูปภาพ...</string>
+	<string name="onfido_interactive_task_waiting_title_3">กำลังอัปโหลดวิดีโอ...</string>
+	<string name="onfido_interactive_task_waiting_title_4">กำลังตรวจสอบคุณภาพข้อมูล...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">การเชื่อมต่อไม่เสถียร โปรดรอสักครู่ให้งานเสร็จสิ้น</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">กำลังรวบรวมข้อมูล...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">เรากำลังรวบรวมข้อมูลที่ได้รับ โปรดรอสักครู่</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">กำลังรักษาความปลอดภัยของข้อมูล...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">เรากำลังรักษาความปลอดภัยของข้อมูลของคุณ กรุณารอสักครู่</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">การรักษาความปลอดภัยของข้อมูลของคุณเป็นสิ่งสคัญ โปรดรอสักครู่ให้งานนี้เสร็จสิ้น</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">กำลังประมวลผลข้อมูล...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">เรากำลังประมวลผลข้อมูลของคุณ โปรดรอ</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">กำลังดำเนินการ...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">โปรดรออีกสักครู่ให้กระบวนการนี้เสร็จสิ้น วามอดทนของคุณมีค่ามาก</string>
 </resources>

@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Nous ne pouvons pas commencer la vérification sans utiliser votre micro</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Vous pouvez récupérer l’accès au micro via les paramètres de votre mobile</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Accédez aux paramètres de l’application et activez l’accès au micro pour cette application</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Nous ne pouvons pas vous vérifier sans votre micro</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Nous avons besoin d\'accéder à votre microphone pour vérifier votre identité. Suivez les instructions ci-dessous pour récupérer l\'accès</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Autoriser l’accès à l’appareil photo et au micro</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">retour</string>
     <string name="onfido_permission_body_both">Nous ne pouvons pas vous vérifier sans utiliser votre appareil photo et votre micro</string>
     <string name="onfido_permission_button_primary_both">Activer les deux</string>
-	<string name="onfido_permission_recovery_subtitle_both">Nous ne pouvons pas vous vérifier sans votre appareil photo et votre micro</string>
+	<string name="onfido_permission_recovery_subtitle_both">Autorisez l’accès à l’appareil photo et au micro pour prendre une vidéo et compléter votre vérification d’identité</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Vous pouvez récupérer l’accès à l’appareil photo et au micro via les paramètres de votre mobile</string>
     <string name="onfido_permission_recovery_list_item_action_both">Accédez aux paramètres de l’application et activez l’accès à l’appareil photo et au micro pour cette application</string>
 
@@ -220,7 +220,7 @@
     <string name="onfido_selfie_intro_list_item_no_face_cover">Ôtez tout élément couvrant votre visage. Les lunettes sont acceptées</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Alignez le document, puis appuyez sur le bouton</string>
     <string name="onfido_doc_select_subtitle">Il doit s’agir d’une pièce d’identité officielle avec photo</string>
-    <string name="onfido_selfie_confirmation_button_primary">Envoyer une photo</string>
+	<string name="onfido_selfie_confirmation_button_primary">Envoyer la photo</string>
     <string name="onfido_doc_select_title">Sélectionnez un document</string>
     <string name="onfido_doc_capture_detail_visa_front"></string>
     <string name="onfido_doc_capture_detail_visa_back"></string>
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Choisissez un autre document</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Soumettre la photo quand même</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Essayez d\'enregistrer la vidéo manuellement</string>
+	<string name="onfido_interactive_task_waiting_title_1">Vérification de la qualité de l\'image...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Téléchargement de l\'image...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Téléchargement de la vidéo...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Vérification de la qualité des données...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">La connexion est instable. Veuillez attendre un peu plus longtemps pour que la tâche se termine.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilation des données...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Nous compilons les données collectées, veuillez patienter.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Sécurisation des données...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Nous sécurisons vos informations, veuillez patienter.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">La sécurisation de vos données est importante, veuillez attendre un moment que cette tâche se termine.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Traitement des données...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Nous traitons vos informations, veuillez patienter.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Traitement en cours...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Veuillez attendre un peu plus longtemps pour que ce processus se termine, votre patience est appréciée.</string>
 </resources>

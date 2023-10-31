@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Bez použití mikrofonu Vás nemůžeme ověřit</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Přístup k mikrofonu můžete obnovit prostřednictvím nastavení zařízení</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Přejděte do nastavení aplikace a povolte přístup k mikrofonu pro tuto aplikaci</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Bez Vašeho mikrofonu Vás nemůžeme ověřit</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Potřebujeme přístup k vašemu mikrofonu pro ověření vaší identity. Postupujte podle níže uvedených pokynů k obnovení přístupu</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Povolení přístupu ke kameře a mikrofonu</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">zpět</string>
     <string name="onfido_permission_body_both">Bez použití kamery a mikrofonu Vás nemůžeme ověřit</string>
     <string name="onfido_permission_button_primary_both">Povolte obě možnosti</string>
-	<string name="onfido_permission_recovery_subtitle_both">Vyberte zemi, kde došlo k vydání</string>
+	<string name="onfido_permission_recovery_subtitle_both">Obnovení přístupu ke kameře a mikrofonu pro pořízení videa a dokončení procesu ověřování</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Přístup k fotoaparátu a mikrofonu můžete obnovit prostřednictvím nastavení zařízení</string>
     <string name="onfido_permission_recovery_list_item_action_both">Přejděte do nastavení aplikace a povolte pro tuto aplikaci přístup k fotoaparátu i mikrofonu</string>
 
@@ -220,7 +220,7 @@
     <string name="onfido_selfie_intro_list_item_no_face_cover">Odstraňte vše, co vám zakrývá obličej. Brýle si můžete nechat</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Zarovnejte dokument a stiskněte tlačítko</string>
     <string name="onfido_doc_select_subtitle">Musí se jednat o oficiální průkaz totožnosti s fotografií</string>
-    <string name="onfido_selfie_confirmation_button_primary">Nahrajte fotografii</string>
+	<string name="onfido_selfie_confirmation_button_primary">Nahrát fotku</string>
     <string name="onfido_doc_select_title">Vyberte svůj dokument</string>
     <string name="onfido_doc_capture_detail_visa_front"></string>
     <string name="onfido_doc_capture_detail_visa_back"></string>
@@ -513,4 +513,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Použijte jiný dokument</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Odeslat fotku tak jako tak</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Zkuste nahrávat video manuálně</string>
+	<string name="onfido_interactive_task_waiting_title_1">Kontrola kvality obrázku...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Nahrávání obrázku...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Nahrávání videa...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Kontrola kvality dat...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Připojení je nestabilní. Počkejte prosím o něco déle, než se úloha dokončí.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilace dat...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Sestavujeme shromážděná data, prosím počkejte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Zabezpečování dat...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Zabezpečujeme vaše informace, prosím počkejte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Zabezpečení vašich dat je důležité, prosím počkejte chvíli, než se tato úloha dokončí.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Zpracovávání dat...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Zpracováváme vaše informace, prosím čekejte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Zpracování probíhá...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prosím, počkejte ještě chvíli, než tento proces skončí, vaše trpělivost je oceněna.</string>
 </resources>

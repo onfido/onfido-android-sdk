@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Vi kan ikke verifisere deg uten å bruke mikrofonen din</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Du kan gjenopprette mikrofontilgangen via enhetsinnstillingene</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Gå til appinnstillinger og aktiver kameratilgang for denne appen</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Vi kan ikke verifisere deg uten å bruke mikrofonen din</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Vi trenger tilgang til mikrofonen din for å verifisere identiteten din. Følg instruksjonene nedenfor for å gjenopprette tilgangen</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Tillat kamera- og mikrofontilgang</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">tilbake</string>
     <string name="onfido_permission_body_both">Vi kan ikke verifisere deg uten å bruke både kameraet og mikrofonen din</string>
     <string name="onfido_permission_button_primary_both">Aktiver begge</string>
-	<string name="onfido_permission_recovery_subtitle_both">Vi kan ikke verifisere deg uten å bruke både kameraet og mikrofonen din</string>
+	<string name="onfido_permission_recovery_subtitle_both">Gjenopprett kameratilgang for å ta en video og fullfør verifiseringsprosessen</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Du kan gjenopprette kamera- og mikrofontilgang via enhetsinnstillingene</string>
     <string name="onfido_permission_recovery_list_item_action_both">Gå til appinnstillinger og aktiver kamera- og mikrofontilgang for denne appen</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Velg et annet dokument</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Send inn bilde uansett</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Prøv å ta opp video manuelt</string>
+	<string name="onfido_interactive_task_waiting_title_1">Sjekker bildekvalitet...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Laster opp bilde...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Laster opp video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Sjekker datakvalitet...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Tilkoblingen er ustabil. Vennligst vent litt lenger for at oppgaven skal bli ferdig.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Samler data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Vi samler inn dataene som er samlet inn, vennligst vent.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Sikrer data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Vi sikrer informasjonen din, vennligst vent.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Sikring av dataene dine er viktig, vennligst vent et øyeblikk for at denne oppgaven skal bli ferdig.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Behandler data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Vi behandler informasjonen din, vennligst vent.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Bearbeiding pågår...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vennligst vent litt lenger for at denne prosessen skal bli ferdig, din tålmodighet settes pris på.</string>
 </resources>

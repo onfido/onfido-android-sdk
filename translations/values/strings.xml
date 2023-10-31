@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">We can’t verify you without using your microphone</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">You can recover microphone access through your device settings</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Go to app settings and enable microphone access for this app</string>
-    <string name="onfido_permission_recovery_subtitle_mic">We can’t verify you without your microphone</string>
+	<string name="onfido_permission_recovery_subtitle_mic">We need access to your microphone to verify your identity. Follow the instructions below to recover access</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Allow camera and microphone access</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">back</string>
     <string name="onfido_permission_body_both">We can’t verify you without using both your camera and microphone</string>
     <string name="onfido_permission_button_primary_both">Enable both</string>
-	<string name="onfido_permission_recovery_subtitle_both">We can’t verify you without your camera and microphone</string>
+	<string name="onfido_permission_recovery_subtitle_both">Recover camera and microphone access to take a video and complete the verification process</string>
     <string name="onfido_permission_recovery_list_item_how_to_both">You can recover camera and microphone access through your device settings</string>
     <string name="onfido_permission_recovery_list_item_action_both">Go to app settings and enable both camera and microphone access for this app</string>
 
@@ -220,7 +220,7 @@
     <string name="onfido_selfie_intro_list_item_no_face_cover">Remove anything that covers your face. Eyeglasses are okay</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Align document, then press button</string>
     <string name="onfido_doc_select_subtitle">It must be an official photo ID</string>
-	<string name="onfido_selfie_confirmation_button_primary">Got it.</string>
+	<string name="onfido_selfie_confirmation_button_primary">Upload photo</string>
     <string name="onfido_doc_select_title">Choose your document</string>
     <string name="onfido_doc_capture_detail_visa_front"></string>
     <string name="onfido_doc_capture_detail_visa_back"></string>
@@ -512,4 +512,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Choose another document</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Submit photo anyway</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Try recording video manually</string>
+	<string name="onfido_interactive_task_waiting_title_1">Checking image quality...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Uploading image...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Uploading video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Checking data quality...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">The connection is unstable. Please wait a little longer for the task to finish.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compiling data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We are compiling the data collected, please wait.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Securing data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">We are securing your information, please wait.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Securing your data is important, please wait a moment for this task to finish.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Processing data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">We are processing your information, please wait.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Processing in progress...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Please wait a little longer for this process to finish, your patience is appreciated.</string>
 </resources>

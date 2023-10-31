@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">마이크를 사용하지 않고서는 본인 인증 절차를 진행할 수 없습니다</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">기기 설정에서 마이크 접근 권한을 복원할 수 있습니다</string>
     <string name="onfido_permission_recovery_list_item_action_mic">앱 설정으로 이동하여 이 앱에 마이크 접근 권한을 허용하세요</string>
-    <string name="onfido_permission_recovery_subtitle_mic">마이크 없이는 본인 인증 절차를 진행할 수 없습니다</string>
+	<string name="onfido_permission_recovery_subtitle_mic">당신의 신원을 확인하기 위해 마이크에 접근할 필요가 있습니다. 아래의 지시사항을 따라 접근을 복구하세요.</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">카메라와 마이크에 대한 접근 권한 허용</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">뒤로</string>
     <string name="onfido_permission_body_both">카메라와 마이크 기능 둘 다를 사용하지 않고서는 본인 인증 절차를 진행할 수 없습니다</string>
     <string name="onfido_permission_button_primary_both">둘 다 사용</string>
-	<string name="onfido_permission_recovery_subtitle_both">카메라와 마이크 없이는 본인 인증 절차를 진행할 수 없습니다</string>
+	<string name="onfido_permission_recovery_subtitle_both">동영상을 촬영하고 인증 절차를 완료하려면 카메라 및 마이크에 대한 접근 권한을 복원하세요</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">기기 설정에서 카메라와 마이크 접근 권한을 복원할 수 있습니다</string>
     <string name="onfido_permission_recovery_list_item_action_both">앱 설정으로 이동하여 이 앱에 카메라와 마이크 접근 권한을 허용하세요</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">다른 서류 선택하기</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">그래도 사진 제출</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">비디오를 수동으로 녹화해 보세요</string>
+	<string name="onfido_interactive_task_waiting_title_1">이미지 품질 확인 중...</string>
+	<string name="onfido_interactive_task_waiting_title_2">이미지 업로드 중...</string>
+	<string name="onfido_interactive_task_waiting_title_3">비디오 업로드 중...</string>
+	<string name="onfido_interactive_task_waiting_title_4">데이터 품질 확인 중...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">연결이 불안정합니다. 작업이 완료되기까지 잠시만 기다려 주세요.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">데이터를 컴파일 중...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">우리는 수집된 데이터를 컴파일하고 있습니다, 기다려 주세요.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">데이터를 보호하는 중...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">귀하의 정보를 보호 중입니다, 잠시 기다려 주십시오.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">데이터를 보호하는 것이 중요하므로, 이 작업이 완료될 때까지 잠시 기다려 주십시오.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">데이터 처리 중...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">귀하의 정보를 처리 중입니다, 잠시 기다려 주십시오.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">처리 중...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">이 과정이 끝나기까지 조금 더 기다려 주시기 바랍니다, 귀하의 인내심에 감사드립니다.</string>
 </resources>

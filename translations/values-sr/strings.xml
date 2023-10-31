@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Ne možemo da vam proverimo identitet bez korišćenja mikrofona</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Pristup mikrofonu možete ponovo da odobrite putem podešavanja uređaja</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Idite na podešavanja aplikacije i omogućite pristup mikrofonu za ovu aplikaciju</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Ne možemo da vam proverimo identitet bez mikrofona</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Potrebna nam je pristup vašem mikrofonu kako bismo verifikovali vaš identitet. Pratite uputstva ispod da povratite pristup</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Dozvoli pristup kameri i mikrofonu</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">nazad</string>
     <string name="onfido_permission_body_both">Ne možemo da vam proverimo identitet bez korišćenja i kamere i mikrofona</string>
     <string name="onfido_permission_button_primary_both">Omogući oba</string>
-	<string name="onfido_permission_recovery_subtitle_both">Ne možemo da vam proverimo identitet bez kamere i mikrofona</string>
+	<string name="onfido_permission_recovery_subtitle_both">Ponovo dozvolite pristup kameri i mikrofonu da biste snimili video i dovršili postupak provere identiteta</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Pristup kameri i mikrofonu možete ponovo da odobrite putem podešavanja uređaja</string>
     <string name="onfido_permission_recovery_list_item_action_both">Idite na podešavanja aplikacije i omogućite pristup i kameri i mikrofonu za ovu aplikaciju</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Izaberite drugi dokument</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Pošalji fotografiju svejedno</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Pokušajte da ručno snimite video</string>
+	<string name="onfido_interactive_task_waiting_title_1">Provera kvaliteta slike...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Otpremanje slike...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Otpremanje videa...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Provera kvaliteta podataka...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Konekcija je nestabilna. Molimo vas da malo duže sačekate da se zadatak završi.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilacija podataka...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Sakupljamo prikupljene podatke, molimo sačekajte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Обезбеђивање података...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Osiguravamo vaše informacije, molimo sačekajte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Bezbednost vaših podataka je važna, molimo vas sačekajte trenutak da se ovaj zadatak završi.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Procesuiranje podataka...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Obrađujemo vaše informacije, molimo sačekajte.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Procesiranje u toku...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Molimo vas da malo duže sačekate da se ovaj proces završi, vaše strpljenje je cenjeno.</string>
 </resources>

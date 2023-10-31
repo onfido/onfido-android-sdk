@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Мы не можем верифицировать Вас без использования микрофона</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Доступ к микрофону можно восстановить с помощью настроек устройства</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Перейдите в настройки приложения и включите доступ к микрофону для этого приложения</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Мы не можем верифицировать Вас без микрофона</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Нам нужен доступ к вашему микрофону для проверки вашей личности. Следуйте инструкциям ниже, чтобы восстановить доступ</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Разрешить доступ к камере и микрофону</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">Назад</string>
     <string name="onfido_permission_body_both">Мы не можем верифицировать Вас без использования камеры и микрофона</string>
     <string name="onfido_permission_button_primary_both">Включить камеру и микрофон</string>
-	<string name="onfido_permission_recovery_subtitle_both">Мы не можем верифицировать вас без использования камеры и микрофона</string>
+	<string name="onfido_permission_recovery_subtitle_both">Восстановите доступ к камере и микрофону, чтобы сделать видео и завершить процесс верификации</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Доступ к камере и микрофону можно восстановить с помощью настроек устройства</string>
     <string name="onfido_permission_recovery_list_item_action_both">Перейдите в настройки приложения и включите доступ к камере и микрофону для этого приложения</string>
 
@@ -421,7 +421,7 @@
 	<string name="onfido_poa_intro_subtitle">Вам понадобится документ, который:</string>
 	<string name="onfido_poa_intro_list_shows_address">Содержит Ваш текущий адрес</string>
 	<string name="onfido_poa_intro_list_matches_signup">Соответствует адресу, который Вы использовали при регистрации</string>
-	<string name="onfido_poa_intro_list_most_recent">Является самым недавним Вашим документом</string>
+	<string name="onfido_poa_intro_list_most_recent">Является вашим самым недавним документом</string>
 	<string name="onfido_poa_type_selection_title_uk">Выбрать документ Великобритании</string>
 	<string name="onfido_poa_type_selection_title">Выбрать документ</string>
 	<string name="onfido_doc_select_subtitle_poa">Именно в этих документах чаще всего указывается Ваш текущий домашний адрес</string>
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Выберите другой документ</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Отправить фото в любом случае</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Попробуйте записать видео вручную</string>
+	<string name="onfido_interactive_task_waiting_title_1">Проверка качества изображения...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Загрузка изображения...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Загрузка видео...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Проверка качества данных...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Соединение нестабильно. Пожалуйста, подождите немного дольше, чтобы задача завершилась.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Компиляция данных...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Мы компилируем собранные данные, пожалуйста, подождите.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Защита данных...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Мы обеспечиваем безопасность вашей информации, пожалуйста, подождите.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Защита ваших данных важна, пожалуйста, подождите немного, пока задача не будет завершена.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Обработка данных...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Мы обрабатываем вашу информацию, пожалуйста, подождите.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Выполняется обработка...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Пожалуйста, подождите немного дольше, чтобы этот процесс завершился, ваше терпение ценится.</string>
 </resources>

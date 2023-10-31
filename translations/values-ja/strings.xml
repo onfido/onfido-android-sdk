@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">マイクを使用しないと確認できません</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">デバイスの設定からマイクへのアクセスを回復できます</string>
     <string name="onfido_permission_recovery_list_item_action_mic">アプリの設定に移動して、このアプリのマイクへのアクセスを有効にします</string>
-    <string name="onfido_permission_recovery_subtitle_mic">マイクを使用しないと確認できません</string>
+	<string name="onfido_permission_recovery_subtitle_mic">あなたの身元を確認するために、マイクへのアクセスが必要です。以下の指示に従ってアクセスを回復してください。</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">カメラとマイクへのアクセスを許可する</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">戻る</string>
     <string name="onfido_permission_body_both">カメラとマイクの両方を使用しないと認証できません</string>
     <string name="onfido_permission_button_primary_both">両方を有効にする</string>
-	<string name="onfido_permission_recovery_subtitle_both">カメラとマイクを使用しないと認証できません</string>
+	<string name="onfido_permission_recovery_subtitle_both">カメラとマイクへのアクセスを回復して動画を撮影し、認証プロセスを完了します</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">デバイスの設定からカメラとマイクへのアクセスを回復できます</string>
     <string name="onfido_permission_recovery_list_item_action_both">アプリの設定に移動して、このアプリのカメラとマイク両方へのアクセスを有効にします</string>
 
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">別のドキュメントを選択</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">それでも写真を提出する</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">手動でビデオを録画してみてください</string>
+	<string name="onfido_interactive_task_waiting_title_1">画像の品質を確認しています...</string>
+	<string name="onfido_interactive_task_waiting_title_2">画像をアップロード中...</string>
+	<string name="onfido_interactive_task_waiting_title_3">ビデオをアップロード中...</string>
+	<string name="onfido_interactive_task_waiting_title_4">データ品質を確認中...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">接続が不安定です。タスクが終了するまで少し長くお待ちください。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">データをコンパイル中...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">収集したデータをコンパイルしています、お待ちください。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">データを保護中...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">お客様の情報を保護しています、お待ちください。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">あなたのデータの安全性は重要です、このタスクが終了するまで少々お待ちください。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">データを処理中...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">お客様の情報を処理しています、お待ちください。</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">処理中...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">このプロセスが終了するまで、もう少しお待ちいただきますようお願い申し上げます。ご理解とご協力を賜り、誠にありがとうございます。</string>
 </resources>

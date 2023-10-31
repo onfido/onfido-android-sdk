@@ -123,7 +123,7 @@
     <string name="onfido_permission_body_mic">Nu vă putem verifica fără a utiliza microfonul dvs.</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Puteți recupera accesul la microfon din setările dispozitivului dvs.</string>
     <string name="onfido_permission_recovery_list_item_action_mic">Mergeți în setările aplicației și activați accesul la microfon pentru această aplicație</string>
-    <string name="onfido_permission_recovery_subtitle_mic">Nu vă putem verifica fără microfonul dvs.</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Avem nevoie de acces la microfonul dvs. pentru a vă verifica identitatea. Urmați instrucțiunile de mai jos pentru a recupera accesul</string>
 
     <!-- Camera + Microphone Permissions -->
     <string name="onfido_permission_title_both">Permiteți accesul la camera video și microfon</string>
@@ -136,7 +136,7 @@
 	<string name="onfido_generic_back">înapoi</string>
     <string name="onfido_permission_body_both">Nu vă putem verifica fără a utiliza atât camera video, cât și microfonul dvs.</string>
     <string name="onfido_permission_button_primary_both">Activați ambele</string>
-	<string name="onfido_permission_recovery_subtitle_both">Nu vă putem verifica fără camera video și microfonul dvs.</string>
+	<string name="onfido_permission_recovery_subtitle_both">Recuperați accesul la camera video și microfon pentru a face un clip video și a finaliza procesul de verificare</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Puteți recupera accesul la camera video și microfon din setările dispozitivului dvs.</string>
     <string name="onfido_permission_recovery_list_item_action_both">Mergeți în setările aplicației și activați atât accesul la camera video, cât și la microfon pentru această aplicație</string>
 
@@ -183,7 +183,7 @@
 
     <string name="onfido_video_capture_header_challenge_turn_forward">apoi să vă uitați înainte</string>
     <string name="onfido_nfc_sheet_ready_subtitle">Gata de scanare</string>
-    <string name="onfido_nfc_sheet_button_secondary">Anulați</string>
+	<string name="onfido_nfc_sheet_button_secondary">Anulează</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Scanare în curs...</string>
     <string name="onfido_nfc_sheet_scanning_instruction">Țineți nemișcat telefonul dvs.</string>
     <string name="onfido_nfc_sheet_success_subtitle">Scanare cu succes</string>
@@ -220,7 +220,7 @@
     <string name="onfido_selfie_intro_list_item_no_face_cover">Îndepărtați tot ce vă acoperă fața. Ochelarii sunt acceptați</string>
     <string name="onfido_doc_capture_alert_manual_capture_detail">Aliniați documentul și apoi apăsați butonul</string>
     <string name="onfido_doc_select_subtitle">Trebuie să fie un document de identitate cu poză oficial</string>
-    <string name="onfido_selfie_confirmation_button_primary">Încărcați poza</string>
+	<string name="onfido_selfie_confirmation_button_primary">Încarcă fotografie</string>
     <string name="onfido_doc_select_title">Alegeți documentul dvs.</string>
     <string name="onfido_doc_capture_detail_visa_front"></string>
     <string name="onfido_doc_capture_detail_visa_back"></string>
@@ -514,4 +514,18 @@
 	<string name="onfido_doc_confirmation_button_secondary_change_document">Alegeți alt document</string>
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Trimite oricum fotografia</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Încearcă să înregistrezi video manual</string>
+	<string name="onfido_interactive_task_waiting_title_1">Verificarea calității imaginii...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Încărcare imagine...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Încărcare video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Verificarea calității datelor...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Conexiunea este instabilă. Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilare date...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Compilăm datele colectate, vă rugăm să așteptați.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Securizarea datelor...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Securizăm informațiile dvs., vă rugăm să așteptați.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Securizarea datelor dumneavoastră este importantă, vă rugăm să așteptați un moment pentru ca această sarcină să se finalizeze.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Procesare date...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Procesăm informațiile dumneavoastră, vă rugăm să așteptați.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Procesare în curs...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vă rugăm să așteptați puțin mai mult pentru ca acest proces să se încheie, răbdarea dvs. este apreciată.</string>
 </resources>
