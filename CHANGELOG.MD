@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.4.1] - 2023-11-03
+
+### Fixed
+
+- Fixed crashes during the PoA capture
+- Fixed NPE occurring during `isOnfidoProcess` check
+
 ## [19.4.0] - 2023-10-31
 
 ### Changed
