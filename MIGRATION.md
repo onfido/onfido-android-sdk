@@ -52,9 +52,6 @@ If your migration involves upgrading across multiple SDK versions, be sure to re
 - Dropped `Attr` suffix from font attribute names in `OnfidoBaseActivityTheme`.
 - Removed the internal `onfidoFontFamily` attribute in `OnfidoBaseActivityTheme`.
 
-#### Added
-- The `inOnfidoProcess` extension function has been integrated into the Application class. If you have implemented a custom Application class and are also using Firebase, please ensure to follow the instructions provided in [this documentation](https://github.com/onfido/onfido-android-sdk#6-custom-application-class) for correct setup and integration.
-
 ## `16.3.2` -> `17.0.0`
 
 #### Breaking changes

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '19.4.1'
-def versionCodeNumber = 1941
+def sdkVersion = '19.4.2'
+def versionCodeNumber = 1942
 
 android {
     compileSdkVersion 33

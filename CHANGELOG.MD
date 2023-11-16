@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [19.4.2] - 2023-11-16
+
+### Fixed
+
+- Fixed flow termination when user clicks cancel during NFC scanning process
+- Fix submit button is visible on document confirmation screen when image quality error is returned for the first time
+- Forced and lowered the `kotlinx-serialization-json` library version to `1.3.1` to be more compatible for customer integrators using lower versions.
+- Fixed a Studio issue where the workflow-run-id was kept between successive executions of the same workflow
+
+### Added
+
+- Added Proguard rules to consumer rules for Kotlinx.Serialization 1.3.1 version to keep DTO classes serializers from being removed
+
 ## [19.4.1] - 2023-11-03
 
 ### Fixed
