@@ -263,6 +263,8 @@ Onfido onfido = OnfidoFactory.create(context).getClient();
 
 This will prevent initialization-related crashes such as: [`FirebaseApp is not initialized in this process`](https://github.com/firebase/firebase-android-sdk/issues/4693)
 
+The `inOnfidoProcess` extension function has been integrated into the Application class to prevent accidental reinitialization of instances within custom application classes. This feature is especially useful for optimizing the Onfido initialization process. Be aware that the Onfido process uses your custom Application class for its own initialization. If you decide to use `inOnfidoProcess` to selectively skip the initialization of certain instances during the Onfido process, be cautious not to access these uninitialized instances elsewhere in your Application class, such as in the `onTrimMemory` method, to avoid unexpected behavior. Furthermore, instances initialized by providers like Firebase will not be reinitialized in the Onfido process. If you wish to use such instances within the Onfido process, you'll need to manually initialize them. More info can be found [here](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp#initializeApp(android.content.Context)).
+
 ##### Kotlin
 
 ```kotlin
