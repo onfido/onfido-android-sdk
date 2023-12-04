@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Մենք մշակում ենք ձեր տվյալները, խնդրում ենք սպասել:</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Կատարումը ընթացքում է․․․</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Հաճելի է մի քիչ ավելի երկար սպասել, որպեսզի այս գործընթացը ավարտվի, ձեր համբերատարությունը գնահատվում է։</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Առաջադրանքը դեռ շարունակվում է, ձեր համբերատարությունը գնահատվում է:</string>
 </resources>

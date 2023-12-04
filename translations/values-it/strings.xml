@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Stiamo elaborando le tue informazioni, per favore aspetta.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Elaborazione in corso...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Si prega di attendere un po\' più a lungo affinché questo processo si concluda, la tua pazienza è apprezzata.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Il compito è ancora in esecuzione, la tua pazienza è apprezzata.</string>
 </resources>

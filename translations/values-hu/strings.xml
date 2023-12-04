@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Adatainak feldolgozása folyamatban van, kérjük várjon.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Feldolgozás folyamatban...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Kérjük, várjon még egy kicsit, amíg a folyamat befejeződik, értékeljük a türelmét.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">A feladat még mindig fut, türelmét köszönjük.</string>
 </resources>

@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Ми обробляємо вашу інформацію, будь ласка, зачекайте.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Обробка триває...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Будь ласка, зачекайте трохи довше, поки цей процес завершиться, ваше терпіння оцінюється.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Завдання все ще виконується, ваше терпіння цінується.</string>
 </resources>

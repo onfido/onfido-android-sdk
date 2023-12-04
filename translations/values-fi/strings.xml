@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Käsittelemme tietojasi, odota hetki.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Käsittely käynnissä...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Ole hyvä ja odota hieman kauemmin, että tämä prosessi saadaan päätökseen, kärsivällisyytesi on arvostettu.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Tehtävä on edelleen käynnissä, kiitämme kärsivällisyydestäsi.</string>
 </resources>

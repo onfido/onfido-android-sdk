@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Onfido Sample App</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="bank_app">Bank app</string>
+    <string name="example">example</string>
+    <string name="bank_instructions">Set up your bank account in 5 minutes</string>
+</resources>

@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Obdelujemo vaše podatke, prosimo počakajte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Obdelava v teku...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prosimo, počakajte malo dlje, da se ta postopek konča, vaša potrpežljivost je cenjena.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Naloga se še vedno izvaja, vaša potrpežljivost je cenjena.</string>
 </resources>

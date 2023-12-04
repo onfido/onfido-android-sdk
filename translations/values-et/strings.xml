@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Me töötleme teie andmeid, palun oodake.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Töötlemine käib...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Palun oodake natuke kauem, kuni see protsess on lõppenud, teie kannatlikkust hinnatakse.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Ülesanne on endiselt käimas, teie kannatlikkust hinnatakse.</string>
 </resources>

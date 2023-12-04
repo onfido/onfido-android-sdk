@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">אנו מעבדים את המידע שלך, אנא המתן.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">העיבוד בתהליך...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">אנא המתן עוד מעט עד שהתהליך יסתיים, אנו מעריכים את סבלנותך.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">המשימה עדיין בתהליך, אנו מעריכים את סבלנותך.</string>
 </resources>

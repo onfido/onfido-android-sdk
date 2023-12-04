@@ -527,4 +527,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Zpracováváme vaše informace, prosím čekejte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Zpracování probíhá...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prosím, počkejte ještě chvíli, než tento proces skončí, vaše trpělivost je oceněna.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Úloha stále běží, vaše trpělivost je oceňována.</string>
 </resources>

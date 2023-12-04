@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">ما در حال پردازش اطلاعات شما هستیم، لطفا صبر کنید.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">در حال پردازش...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">لطفاً کمی بیشتر برای اتمام این فرآیند صبر کنید، صبر شما قدردانی می شود.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">کار هنوز در حال اجرا است، صبر شما قدردانی می شود.</string>
 </resources>

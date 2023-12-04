@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">お客様の情報を処理しています、お待ちください。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">処理中...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">このプロセスが終了するまで、もう少しお待ちいただきますようお願い申し上げます。ご理解とご協力を賜り、誠にありがとうございます。</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">タスクはまだ実行中です、お待ちいただきありがとうございます。</string>
 </resources>

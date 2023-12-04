@@ -527,4 +527,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">نحن نقوم بمعالجة معلوماتك، يرجى الانتظار.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">المعالجة جارية...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">يرجى الانتظار قليلاً أطول حتى ينتهي هذا العمل، نقدر صبرك.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">المهمة لا تزال قيد التشغيل، نقدر صبرك.</string>
 </resources>

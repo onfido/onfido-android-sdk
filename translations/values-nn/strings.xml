@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Vi behandler informasjonen din, vennligst vent.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Bearbeiding pågår...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vennligst vent litt lenger for at denne prosessen skal bli ferdig, din tålmodighet settes pris på.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Oppgaven kjører fortsatt, din tålmodighet settes pris på.</string>
 </resources>

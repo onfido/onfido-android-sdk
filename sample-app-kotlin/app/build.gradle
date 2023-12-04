@@ -1,0 +1,59 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+def sdkVersion = '19.5.0'
+def versionCodeNumber = 1950
+
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        applicationId "com.onfido.sampleapp"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode versionCodeNumber
+        versionName "$versionCode-sdk:$sdkVersion"
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            universalApk true //generate an additional APK that contains all the ABIs
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.onfido.sdk.capture:onfido-capture-sdk:$sdkVersion"
+    implementation "com.onfido.sdk:onfido-workflow:$sdkVersion"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    testImplementation 'junit:junit:4.12'
+}

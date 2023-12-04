@@ -526,4 +526,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">We are processing your information, please wait.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Processing in progress...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Please wait a little longer for this process to finish, your patience is appreciated.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">The task is still running, your patience is appreciated.</string>
 </resources>

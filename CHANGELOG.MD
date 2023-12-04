@@ -9,24 +9,51 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [19.4.2] - 2023-11-16
+## [19.5.0] - 2023-12-04
+
+### Added
+
+- Expanded Studio to support the integration of Qualified Electronic Signature (QES) and One-Time Password (OTP) capture steps
+- Added an uploading view while uploading Proof of Address documents
+- Added Proguard rules for Retrofit to support R8 full mode according to the R8 [FAQ](https://r8.googlesource.com/r8/+/refs/heads/master/compatibility-faq.md)
+- Added `dontwarn` for our internal dagger shadow classes to Proguard rules
+- Added a new sample app in Kotlin
+
+### Changed
+
+- Improved Motion camera preview to support different screen form factors and fix Android 14 Beta compatibility issue
+- Updated the Consumer Proguard rules (`consumer-proguard-rules.pro`) to keep DTO serializers of the Kotlinx serialization library (version 1.3.1)
+
+### Fixed
+
+- Forced and lowered the `kotlinx-serialization-json` library version to `1.3.1` to be more compatible for customer integrators using lower versions
+- Fixed unmute button height animation in Video capture confirmation screen
+- Fixed flow termination when user clicks cancel during NFC scanning process
+- Fixed an issue with the Submit button being visible on document confirmation screen when image quality error is returned for the first time
+- Fixed a Studio issue where, in case the capture was cancelled by the user, the `onError` callback was being triggered instead of `userExited` in a specific navigation scenario
+- Fixed a Studio issue where the workflow-run-id was kept between successive executions of the same workflow
+- Fixed NPE occurring during `isOnfidoProcess` check
+- Fixed crashes during the Proof of Address capture
+- Fixed missing translation for voice-over text on selfie preview screen
+
+## [19.4.2] - 2023-11-10
 
 ### Fixed
 
 - Fixed flow termination when user clicks cancel during NFC scanning process
-- Fix submit button is visible on document confirmation screen when image quality error is returned for the first time
+- Fixed an issue with the Submit button being visible on document confirmation screen when image quality error is returned for the first time
 - Forced and lowered the `kotlinx-serialization-json` library version to `1.3.1` to be more compatible for customer integrators using lower versions.
 - Fixed a Studio issue where the workflow-run-id was kept between successive executions of the same workflow
 
-### Added
+### Changed
 
-- Added Proguard rules to consumer rules for Kotlinx.Serialization 1.3.1 version to keep DTO classes serializers from being removed
+- Updated the Consumer Proguard rules (`consumer-proguard-rules.pro`) to keep DTO serializers of the Kotlinx serialization library (version 1.3.1)
 
 ## [19.4.1] - 2023-11-03
 
 ### Fixed
 
-- Fixed crashes during the PoA capture
+- Fixed crashes during the Proof of Address capture
 - Fixed NPE occurring during `isOnfidoProcess` check
 
 ## [19.4.0] - 2023-10-31
@@ -38,6 +65,14 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Fixed
 
 - Fixed Motion Capture screen restoration after Camera/Mic permissions being removed 
+
+## [19.3.1] - 2023-11-15
+
+### Fixed
+
+- Fixed a Studio issue where the workflow-run-id was kept between successive executions of the same workflow
+- Fixed a flow termination issue when the user clicked on Cancel during the NFC scanning process
+- Fixed an issue with the Submit button being visible on document confirmation screen when image quality error is returned for the first time
 
 ## [19.3.0] - 2023-10-09
 
@@ -107,7 +142,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Payload signing for Selfie and Liveness 1.0 (aka Video)
 - Updated Consent screen. Disabled Accept and Reject buttons until the consent is read
-- Added `inOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://github.com/onfido/onfido-android-sdk/blob/master/README.md#6-custom-application-class)
+- Added `isOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://github.com/onfido/onfido-android-sdk/blob/master/README.md#6-custom-application-class)
 
 ### Changed
 

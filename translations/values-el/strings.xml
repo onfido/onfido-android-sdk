@@ -528,4 +528,5 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Επεξεργαζόμαστε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Επεξεργασία σε εξέλιξη...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Παρακαλούμε περιμένετε λίγο περισσότερο για να ολοκληρωθεί αυτή η διαδικασία, η υπομονή σας εκτιμάται.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Η εργασία εξακολουθεί να εκτελείται, η υπομονή σας εκτιμάται.</string>
 </resources>
