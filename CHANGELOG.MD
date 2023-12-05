@@ -35,6 +35,7 @@ translations. [More on language localisation](README.md#4-localisation)
 - Fixed NPE occurring during `isOnfidoProcess` check
 - Fixed crashes during the Proof of Address capture
 - Fixed missing translation for voice-over text on selfie preview screen
+- Fixed infinite loading after document capture when the SDK is sent to the background
 
 ## [19.4.2] - 2023-11-10
 
