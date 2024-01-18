@@ -39,7 +39,7 @@
     <string name="onfido_welcome_subtitle">Tai turėtų užtrukti kelias minutes</string>
 	<string name="onfido_selfie_capture_button_accessibility">Užraktas</string>
     <string name="onfido_selfie_intro_title">Padarykite asmenukę</string>
-	<string name="onfido_app_title_country_select">Dokumentą išdavusi šalis</string>
+    <string name="onfido_app_title_country_select">Pasirinkite išdavusią šalį</string>
 	<string name="onfido_country_select_bottom_sheet_title">Nerandate savo šalies?</string>
     <string name="onfido_country_select_bottom_sheet_details">Atrodo, kad jūsų pasirinkta dokumento šalis nepalaikoma. Pasirinkite kitą šalį.</string>
     <string name="onfido_selfie_intro_subtitle">Palyginsime tai su jūsų dokumentu</string>
@@ -107,9 +107,9 @@
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Leisti prieigą prie kameros</string>
     <string name="onfido_permission_subtitle_cam">Kai būsite paraginti, turite įjungti prieigą prie kameros, kad galėtumėte tęsti</string>
-	<string name="onfido_permission_body_cam">Negalime patvirtinti Jūsų be prieigos prie kameros</string>
+	<string name="onfido_permission_body_cam">Negalime jūsų patvirtinti be jūsų kameros</string>
     <string name="onfido_permission_button_primary_cam">Įjungti kamerą</string>
-	<string name="onfido_permission_recovery_subtitle_cam">Negalime patvirtinti Jūsų be prieigos prie kameros</string>
+	<string name="onfido_permission_recovery_subtitle_cam">Negalime jūsų patvirtinti be jūsų kameros</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Eikite į programėlės nustatymus ir įjunkite šios programėlės prieigą prie kameros</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Prieigą prie kameros galite atkurti įrenginio nustatymuose</string>
 
@@ -289,11 +289,11 @@
     <string name="onfido_video_capture_prompt_detail_restart">Norėdami tinkamai atlikti šį veiksmą, turite išlaikyti veidą matomoje vietoje viso įrašymo metu.</string>
     <string name="onfido_video_capture_prompt_button_restart">Paleisti iš naujo</string>
 
-	<string name="onfido_welcome_list_header">Naudodami savo įrenginį:</string>
-	<string name="onfido_welcome_list_item_doc_photo">Nufotografuosite savo asmens tapatybės dokumentą</string>
+    <string name="onfido_welcome_list_header">Naudodami savo įrenginį, galite:</string>
+    <string name="onfido_welcome_list_item_doc_photo">Nufotografuokite savo asmens tapatybės dokumentą</string>
     <string name="onfido_welcome_list_item_doc_generic">Įrašykite vaizdo įrašą su savo asmens tapatybės dokumentu</string>
-	<string name="onfido_welcome_list_item_face_photo">Nufotografuosite savo veidą</string>
-	<string name="onfido_welcome_list_item_face_video">Padarysite savo veido vaizdo įrašą</string>
+    <string name="onfido_welcome_list_item_face_photo">Nufotografuokite savo veidą</string>
+    <string name="onfido_welcome_list_item_face_video">Padarykite savo veido vaizdo įrašą</string>
 
     <string name="onfido_doc_capture_alert_no_mrz3_title">Nesimato trijų apatinių eilučių</string>
 
@@ -396,7 +396,7 @@
 	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Iš naujo pradėti įrašymą</string>
 
     <!-- Motion Accessibility  -->
-	<string name="onfido_avc_intro_title_accessibility">Padarysite savo veido vaizdo įrašą</string>
+	<string name="onfido_avc_intro_title_accessibility">Padarykite savo veido vaizdo įrašą</string>
 	<string name="onfido_avc_intro_video_accessibility">Vaizdo įrašo, kaip žmogus sukinėja galvą į abi puses iki pabaigos, pavyzdys</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Pasukite galvą į kitą pusę</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Vaizdas iš asmenukių kameros</string>
@@ -466,9 +466,9 @@
 	<string name="onfido_country_select_error_no_country_body">Stengiamės į sąrašą įtraukti daugiau šalių. Kol kas bandykite naudoti kitą dokumentą.</string>
     <string name="onfido_doc_select_button_bill_detail">Dujos, elektra, vanduo, fiksuotasis ryšys arba plačiajuostis ryšys</string>
 
-	<string name="onfido_doc_select_subtitle_country">Pasirinkite dokumento išdavimo šalį, kad pamatytumėte dokumentus, kuriuos priimame</string>
-	<string name="onfido_doc_select_section_header_country">Dokumentą išdavusi šalis</string>
-	<string name="onfido_doc_select_section_header_doc_type">Priimami dokumentai</string>
+	<string name="onfido_doc_select_subtitle_country">Pasirinkite išdavusią šalį, kad pamatytumėte, kuriuos dokumentus priimame</string>
+	<string name="onfido_doc_select_section_header_country">Išdavusi šalis</string>
+	<string name="onfido_doc_select_section_header_doc_type">Priimtini dokumentai</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Nėra rezultatų</string>
     <string name="onfido_doc_select_subtitle_photo_page">Nuotraukos puslapis</string>
 	<string name="onfido_doc_select_subtitle_front_back">Priekinė ir galinė pusė</string>
@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Mes apdorojame jūsų informaciją, prašome palaukti.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Apdorojimas vyksta...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Užduotis vis dar vykdoma, dėkojame už kantrybę.</string>
 </resources>

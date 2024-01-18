@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Chúng tôi đang xử lý thông tin của bạn, vui lòng đợi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Đang xử lý...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vui lòng chờ thêm một chút để quá trình này hoàn tất, sự kiên nhẫn của bạn rất được trân trọng.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Công việc vẫn đang được thực hiện, xin cảm ơn sự kiên nhẫn của bạn.</string>
 </resources>

@@ -12,7 +12,6 @@ import com.onfido.android.sdk.capture.Onfido;
 import com.onfido.android.sdk.capture.OnfidoConfig;
 import com.onfido.android.sdk.capture.OnfidoFactory;
 import com.onfido.android.sdk.capture.errors.OnfidoException;
-import com.onfido.android.sdk.capture.ui.camera.face.stepbuilder.FaceCaptureStepBuilder;
 import com.onfido.android.sdk.capture.ui.options.FlowStep;
 import com.onfido.android.sdk.capture.upload.Captures;
 
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         final FlowStep[] flowStepsWithOptions = new FlowStep[]{
                 FlowStep.WELCOME,
                 FlowStep.CAPTURE_DOCUMENT,
-                FaceCaptureStepBuilder.forPhoto().build(),
+                FlowStep.CAPTURE_FACE,
                 FlowStep.FINAL
         };
 

@@ -6,15 +6,13 @@ If your migration involves upgrading across multiple SDK versions, be sure to re
 
 ## `19.2.2` -> `19.3.0`
 
-### Deprecation
+#### Deprecation
 - Motion capture fallbacks configuration is no longer supported from version 19.3.0 onwards as the SDK has been improved to mitigate device coverage issues.
   `withCaptureFallback` configuration has been marked as Deprecated and will be removed in an upcoming version.
 
 ### String Changes
 
 #### Added
-
-The following string keys have been **added**:
 
 - `onfido_country_select_search_results_none_accessibility`
 - `onfido_country_select_search_results_one_accessibility`
@@ -29,7 +27,6 @@ The following string keys have been **added**:
 - `onfido_doc_capture_alert_manual_capture_video_title`
 
 ## `19.0.0` -> `19.1.0`
-
 - Onfido SDK now supports the dark theme. By default, the user's active device theme will be
   automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time
   and instead set a theme statically at the build time. In this case, the flow will always be in displayed
@@ -41,44 +38,34 @@ The following string keys have been **added**:
 
 ## `18.0.0` -> `19.0.0`
 
-### Breaking API changes
-
+#### Breaking changes
 - Removed `Parcelable` implementation from `MediaCallback` and run it in the same process with the application.
 - Removed `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application.
 - Removed `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
-
-### Deprecated API changes
-
 - Deprecated `withNFCReadFeature()` in `OnfidoConfig`, as NFC is now enabled by default. Use `disableNFC()` if you want to disable NFC.
+
 
 ## `17.0.0` -> `18.0.0`
 
-### Breaking API changes
-
+#### Breaking changes
 - Updated the properties of `MediaFile` (used for custom media callbacks) - it now contains 3 attributes: the file data, file type and file name
 - Dropped `Attr` suffix from font attribute names in `OnfidoBaseActivityTheme`.
 - Removed the internal `onfidoFontFamily` attribute in `OnfidoBaseActivityTheme`.
 
-#### Added
-- The `isOnfidoProcess` extension function has been integrated into the Application class. If you have implemented a custom Application class and are also using Firebase, please ensure to follow the instructions provided in [this documentation](https://github.com/onfido/onfido-android-sdk#6-custom-application-class) for correct setup and integration.
-
 ## `16.3.2` -> `17.0.0`
 
-### Breaking changes
-
+#### Breaking changes
 -  After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK.
 
 ## `16.3.0` -> `16.3.1`
 
-### Platform Changes
-
+#### Added
 - Added default value to `DocumentSide#nfcSupported` to support backward compatibility.
 
 ## `15.4.0` -> `16.0.0`
 
-### Breaking API changes
-
-- Removed `setUserEventHandler` and `getUserEventHandler` for the `UserEventHandler` since it is deprecated. Please use `OnfidoConfig.builder(context).withAnalyticsEventListener()`.
+### Breaking changes
+- Removed setUserEventHandler and getUserEventHandler for the UserEventHandler since it is deprecated. Please use OnfidoConfig.builder(context).withAnalyticsEventListener().
 
 ## `15.3.0` -> `15.4.0`
 
@@ -86,13 +73,9 @@ The following string keys have been **added**:
 
 #### Added
 
-The following string keys have been **added**:
-
 - `onfido_avc_intro_disclaimer_camera_and_audio_on`
 
 #### Changed
-
-The following string keys have been **changed**:
 
 - `onfido_avc_intro_button_primary_ready`
 - `onfido_avc_intro_disclaimer`
@@ -102,8 +85,6 @@ The following string keys have been **changed**:
 ### String Changes
 
 #### Added
-
-The following string keys have been **added**:
 
 - `onfido_enter_can_title`
 - `onfido_enter_can_subtitle`
@@ -119,9 +100,6 @@ The following string keys have been **added**:
 - `onfido_nfc_scan_error_list_item_2`
 
 #### Removed
-
-The following string keys have been **removed**:
-
 - `onfido_nfc_fail_title`
 - `onfido_nfc_fail_button_primary`
 - `onfido_nfc_fail_button_secondary`
@@ -133,9 +111,6 @@ The following string keys have been **removed**:
 - `onfido_nfc_intro_button_primary_passport`
 
 #### Changed
-
-The following string keys have been **changed**:
-
 - `onfido_nfc_intro_passport_scan_guide_1`
 - `onfido_nfc_intro_passport_scan_guide_2`
 - `onfido_nfc_intro_passport_scan_guide_3`
@@ -145,9 +120,7 @@ The following string keys have been **changed**:
 
 ### String Changes
 
-#### Changed
-
-The following string keys have been **changed**:
+#### Renamed
 
 - `onfido_country_select_error_no_country_body_poa` -> `onfido_country_select_error_no_country_body`
 - `onfido_nfc_sheet_scanning_button_secondary` -> `onfido_nfc_sheet_button_secondary`
@@ -164,15 +137,14 @@ The following string keys have been **changed**:
 ## `14.0.0` -> `15.0.0`
 
 ### Breaking changes
-
 - In order to use Studio/Workflow, now it is required to include it as a separate dependency as below: 
   `implementation "com.onfido.sdk:onfido-workflow:$onfidoSdkVersion"`
 
 ## `13.2.0` -> `14.0.0`
 
-### Breaking API changes
-
+### Breaking changes
 - Removed all references to wording around beta for the NFC feature. NFC is no longer beta and generally available.
+
 
 ## `12.3.1` -> `13.0.0`
 
@@ -180,16 +152,12 @@ The following string keys have been **changed**:
 
 #### Added
 
-The following string keys have been **added**:
-
 - `onfido_avc_face_alignment_feedback_move_left_accessibility`
 - `onfido_avc_face_alignment_feedback_move_right_accessibility`
 - `onfido_avc_face_alignment_feedback_move_up_accessibility`
 - `onfido_avc_face_alignment_feedback_move_down_accessibility`
 
 #### Removed
-
-The following string keys have been **removed**:
 
 - `onfido_permission_recovery_button_secondary_cam`
 - `onfido_permission_recovery_button_secondary_mic`
@@ -246,9 +214,7 @@ The following string keys have been **removed**:
 
 ## `12.2.3` -> `12.3.0`
 
-### Added
-
-The following string keys have been **added**:
+### Added Strings
 
 - `onfido_avc_intro_title_accessibility`
 - `onfido_avc_intro_video_accessibility`
@@ -265,26 +231,15 @@ The following string keys have been **added**:
 
 ## `11.5.0` -> `12.0.0`
 
-### Breaking API changes
-
+### Breaking changes
 - Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://developers.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
 
-### String Changes
-
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed strings:
 - `onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility`
 
 ## `11.0.0` -> `11.1.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings
 - `onfido_nfc_intro_sheet_ready_subtitle_passport`
 - `onfido_nfc_intro_sheet_scanning_subtitle`
 - `onfido_nfc_intro_sheet_ready_subtitle_card`
@@ -295,18 +250,12 @@ The following string keys have been **added**:
 
 ## `10.3.1` -> `11.0.0`
 
-### Breaking API changes
-
+### Breaking changes
 - Removed deprecated `withToken(token)` and `withApplicant(ID)` from `OnfidoConfig.Builder` class. 
   Mobile tokens are not supported anymore, please use SDK tokens with `withSDKToken(token)`, 
   otherwise you will get an authorization exception when creating an applicant.
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings
 - `onfido_doc_capture_header_capturing`
 - `onfido_nfc_intro_carousel_body_dont_move`
 - `onfido_nfc_intro_carousel_body_last_page`
@@ -314,26 +263,15 @@ The following string keys have been **added**:
 - `onfido_nfc_intro_carousel_body_phone_top`
 - `onfido_nfc_intro_carousel_body_remove_cover`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed strings:
 - `onfido_nfc_intro_subtitle_passport`
 
-#### Removed
-
-The following string keys have been **removed**:
-
+### Removed strings:
 - `onfido_doc_capture_header_scanning`
 
 ## `10.3.0` -> `10.3.1`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings
 - `onfido_nfc_select_title_passport`
 - `onfido_nfc_select_subtitle_passport`
 - `onfido_nfc_select_body_passport`
@@ -366,17 +304,11 @@ The following string keys have been **added**:
 - `onfido_nfc_fail_button_primary_card`
 - `onfido_nfc_fail_button_secondary_card`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed strings:
 - `onfido_doc_capture_header_live_guidance_no_doc`
 - `onfido_nfc_sheet_success_instruction`
 
-#### Removed
-
-The following string keys have been **removed**:
-
+### Removed strings:
 - `onfido_nfc_select_title`
 - `onfido_nfc_select_subtitle`
 - `onfido_nfc_select_button_primary`
@@ -396,12 +328,7 @@ The following string keys have been **removed**:
 
 ## `10.2.0` -> `10.3.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings
 - `onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility`
 - `onfido_doc_capture_header_live_guidance_no_doc`
 - `onfido_doc_capture_header_live_guidance_no_doc_accessibility`
@@ -433,12 +360,7 @@ The following string keys have been **added**:
 
 ## `10.1.0` -> `10.2.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_welcome_list_header`
 - `onfido_welcome_list_item_doc_photo`
 - `onfido_welcome_list_item_doc_video`
@@ -479,10 +401,7 @@ The following string keys have been **added**:
 - `onfido_nfc_fail_button_primary_card`
 - `onfido_nfc_fail_button_secondary_card`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed strings:
 - `onfido_doc_capture_header_folded_doc_front`
 - `onfido_doc_capture_header_folded_doc_back`
 - `onfido_doc_capture_header_license_front`
@@ -519,9 +438,7 @@ The following string keys have been **changed**:
 - `onfido_doc_capture_frame_accessibility_ic_za_back_manual`
 - `onfido_doc_capture_frame_accessibility_pp_cover_manual`
 
-#### Removed
-
-The following string keys have been **removed**:
+### Removed strings:
 
 - `onfido_nfc_select_title`
 - `onfido_nfc_select_subtitle`
@@ -541,12 +458,7 @@ The following string keys have been **removed**:
 
 ## `10.0.0` -> `10.1.0`
 
-### String Changes
-
-#### Added 
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_doc_capture_frame_accessibility_pp_auto`
 - `onfido_doc_capture_frame_accessibility_dl_front_auto`
 - `onfido_doc_capture_frame_accessibility_dl_back_auto`
@@ -563,24 +475,15 @@ The following string keys have been **added**:
 - `onfido_doc_capture_frame_accessibility_ic_za_back_manual`
 - `onfido_video_capture_frame_accessibility`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed strings:
 - `onfido_selfie_capture_frame_accessibility`
 
 ## `9.3.1` -> `10.0.0`
 
-### Breaking API changes
+### Breaking changes
+- Removed deprecated methods and constructors of DocumentType class
 
-- Removed deprecated methods and constructors of `DocumentType` class
-
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_permission_recovery_button_primary`
 - `onfido_permission_recovery_list_item_how_to_cam`
 - `onfido_permission_recovery_list_item_action_cam`
@@ -611,10 +514,7 @@ The following string keys have been **added**:
 - `onfido_app_title_doc_video_confirmation`
 - `onfido_video_capture_turn_success_accessibility`
 
-#### Removed
-
-The following string keys have been **removed**:
-
+### Removed strings:
 - `onfido_permission_extra_instructions_cam`
 - `onfido_permission_extra_instructions_mic`
 - `onfido_permission_extra_instructions_both`
@@ -645,10 +545,7 @@ The following string keys have been **removed**:
 - `onfido_welcome_button_primary_video`
 - `onfido_doc_capture_detail_license_front_auto`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed Strings:
 - `onfido_app_title_welcome`
 - `onfido_permission_subtitle_cam`
 - `onfido_permission_body_cam`
@@ -753,18 +650,12 @@ The following string keys have been **changed**:
 
 ## `9.2.0` -> `9.3.0`
 
-### Platform changes
-
+### Changes
 - Migrated from JCenter to Maven Central. You will need to add `mavenCentral()` into the `repositories` block, if it is not already added.
 
 ## `9.0.0` -> `9.1.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added Strings:
 - `onfido_user_consent_button_primary`
 - `onfido_user_consent_button_secondary`
 - `onfido_user_consent_prompt_no_consent_title`
@@ -773,47 +664,31 @@ The following string keys have been **added**:
 - `onfido_user_consent_prompt_button_secondary`
 - `onfido_app_title_user_consent`
 
-### Deprecated API Changes
+#### Deprecation
 - `CAMERA_PERMISSION_DENIED` in `ExitCode` enum is deprecated as permissions are being handled inside the SDK.
 
 ## `8.1.0` -> `9.0.0`
 
 ### Breaking changes
-
 - Updated to [OkHttp4](https://square.github.io/okhttp/upgrading_to_okhttp_4/). In order to prevent runtime issues due to library conflicts, the host app must match the major version of the OkHttp.
 
 ## `7.4.0` -> `8.0.0`
 
 ### Breaking changes
-
 - Minimum Android API level (minSdkVersion) support has been updated from 16 to 21. Onfido SDK will stop supporting Android 4.x starting with this version.
 
-### String Changes
-
-#### Added:
-
-The following string keys have been **added**:
-
+### Added Strings:
 - `onfido_outro_body`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed Strings:
 - `onfido_video_confirmation_button_primary`
 
 ## `7.3.0` -> `7.4.0`
 
-### String Changes
-
-#### Added:
-
-The following string keys have been **added**:
-
+### Added Strings:
 - `onfido_app_title_doc_capture_id_za`
 
-#### Changed
-
+### Changed Strings:
 - ⚠️ Most of the localisation keys have been renamed. If you have customised any of the Onfido SDK's strings in your project, you may use [migrate-keys.rb](key_migration/migrate-keys.rb) script and key mapping file [key_migration_7_3_0_mapping.json](key_migration/key_migration_7_3_0_mapping.json) to migrate from 7.3.0 to 7.4.0
 
 ```bash
@@ -822,11 +697,10 @@ The following string keys have been **added**:
 
 ## `7.0.0` -> `7.1.0`
 
-#### Deprecated API Changes
-
+#### Deprecation
 - EnterpriseFeatures class' constructor is deprecated. Please use `EnterpriseFeatures.Builder` instead.
 
-Before:
+#####before
 
 ###### Kotlin
 ```kotlin
@@ -837,7 +711,7 @@ EnterpriseFeatures(true)
 new EnterpriseFeatures(true);
 ```
 
-After:
+#####after
 
 ###### Kotlin
 ```kotlin
@@ -851,41 +725,28 @@ EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder().withHideOnf
 ## `6.0.0` -> `7.0.0`
 
 ### Breaking changes
-
 - Migrated to AndroidX. If your app hasn't completed AndroidX migration yet, please see [AndroidX Migration](https://developer.android.com/jetpack/androidx/migrate).
 
-### String Changes
-
-#### Changed:
-
-The following string keys have been **changed**:
-
+### Changed Strings:
 - `onfido_autocapture_manual_fallback_title`
 - `onfido_autocapture_manual_fallback_description`
 
 ## `5.6.0` -> `6.0.0`
 
 ### Breaking changes
-
 - Removed out-of-the-box Portuguese (`pt`) translation. If you would like to keep supporting Portuguese by providing your own XML files, please see [README](https://github.com/onfido/onfido-android-sdk#4-localisation)
 - SDK will return `DocumentType.UNKNOWN` to mirror the Onfido API response as part of the `Captures` object which is provided by `handleActivityResult` if `residence permit` or `generic` is selected
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_accessibility_video_pause`
 - `onfido_accessibility_video_play`
 
 ## `5.5.0` -> `5.6.0`
 
-#### Deprecated API Changes
-
+#### Deprecation
 - The `CaptureScreenStep` class is deprecated. We now recommend `DocumentCaptureStepBuilder` to customise document capture steps
 
-Before:
+#####before
 
 ###### Java
 
@@ -899,7 +760,7 @@ new CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB);
 CaptureScreenStep(DocumentType.NATIONAL_IDENTITY_CARD, CountryCode.GB)
 ```
 
-After:
+#####after
 
 ###### Java
 
@@ -919,7 +780,7 @@ DocumentCaptureStepBuilder.forNationalIdentity()
 
 - The `FaceCaptureStep` class is deprecated. We now recommend `FaceCaptureStepBuilder` to customise face capture steps
 
-Before:
+#####before
 
 ###### Java
 
@@ -937,7 +798,7 @@ val selfieCaptureStep = FaceCaptureStep(FaceCaptureVariantPhoto(false))
 val videoCaptureStep = FaceCaptureStep(FaceCaptureVariantVideo(false))
 ```
 
-After:
+#####after
 
 ###### Java
 
@@ -963,23 +824,13 @@ val selfieCaptureStep = FaceCaptureStepBuilder.forPhoto()
                 .build()
 ```
 
-### String Changes
-
-#### Added:
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_mrz_not_detected_title`
 - `onfido_mrz_not_detected_subtitle`
 
 ## `5.3.3` -> `5.4.0`
 
-### String Changes
-
-#### Added:
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_italian_id_capture_title`
 - `onfido_french_driving_license_capture_title`
 - `onfido_folded_paper_option`
@@ -999,45 +850,26 @@ The following string keys have been **added**:
 
 ## `4.5.0-F5` -> `5.3.2` - [enterprise]
 
-### Breaking API changes
-
+### Breaking changes
 - Removed `OnfidoCertificatePinningSettings` class which has `ONFIDO_API` parameter to provide root certificate's hash value.
 For more information, please visit our [README.md](README.md#certificate-pinning) 
 
 ## `5.2.0` -> `5.3.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_label_doc_type_generic_up`
 
-#### Changed
-
-The following string keys have been **changed**:
-
+### Changed Strings:
 - `onfido_accessibility_liveness_video_example`
 
 ## `5.1.0` -> `5.2.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_accessibility_liveness_face_detected`
 
 ## `5.0.1` -> `5.1.0`
 
-### String Changes
-
-#### Added
-
-The following string keys have been **added**:
-
+### Added strings:
 - `onfido_accessibility_camera_document_capture_view`
 - `onfido_accessibility_face_confirmation_view`
 - `onfido_accessibility_document_confirmation_view`

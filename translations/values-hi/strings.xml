@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">हम आपकी जानकारी को प्रसंस्करण कर रहे हैं, कृपया प्रतीक्षा करें।</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">प्रक्रिया जारी है...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">कृपया इस प्रक्रिया को समाप्त होने के लिए थोड़ा और इंतजार करें, आपकी धैर्यशीलता की सराहना की जाती है।</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">कार्य अभी भी चल रहा है, आपकी धैर्यता की सराहना की जाती है।</string>
 </resources>

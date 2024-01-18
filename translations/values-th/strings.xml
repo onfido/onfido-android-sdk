@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">เรากำลังประมวลผลข้อมูลของคุณ โปรดรอ</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">กำลังดำเนินการ...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">โปรดรออีกสักครู่ให้กระบวนการนี้เสร็จสิ้น วามอดทนของคุณมีค่ามาก</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">งานยังคงทำงานอยู่ ขอขอบคุณสำหรับความอดทนของคุณ</string>
 </resources>

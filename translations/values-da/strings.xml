@@ -527,5 +527,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Vi behandler dine oplysninger, vent venligst.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Bearbejdning i gang...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vent venligst lidt længere på, at denne proces er færdig, din tålmodighed værdsættes.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Opgaven kører stadig, din tålmodighed værdsættes.</string>
 </resources>

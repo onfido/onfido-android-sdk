@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Obrađujemo vaše informacije, molimo sačekajte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Procesiranje u toku...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Molimo vas da malo duže sačekate da se ovaj proces završi, vaše strpljenje je cenjeno.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Zadatak je još uvek u toku, hvala na strpljenju.</string>
 </resources>

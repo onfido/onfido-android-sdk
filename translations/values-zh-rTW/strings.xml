@@ -527,5 +527,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">我們正在處理您的資訊，請稍候。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">處理中...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">請稍等一下，讓這個過程完成，感謝您的耐心等待。</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">任務仍在運行中，感謝您的耐心等待。</string>
 </resources>

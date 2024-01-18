@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Mēs apstrādājam jūsu informāciju, lūdzu, uzgaidiet.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Apstrāde notiek...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Lūdzu, vēl nedaudz pagaidiet, kamēr šis process tiek pabeigts, mēs novērtējam jūsu pacietību.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Uzdevums joprojām tiek izpildīts, mēs novērtējam jūsu pacietību.</string>
 </resources>

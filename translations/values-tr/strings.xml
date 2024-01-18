@@ -528,5 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Bilgilerinizi işliyoruz, lütfen bekleyin.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">İşlem devam ediyor...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Lütfen bu işlemin bitmesi için biraz daha bekleyin, sabrınız takdir edilmektedir.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Görev hala devam ediyor, sabrınız takdir edilmektedir.</string>
 </resources>
