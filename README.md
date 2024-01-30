@@ -11,7 +11,7 @@
 * [Custom Callbacks](#custom-callbacks)
 * [Customizing the SDK](#customizing-the-sdk)
 * [Dynamic Feature Module](#dynamic-feature-module)
-* [Creating checks](#creating-checks)
+* [Generating verification reports](#generating-verification-reports)
 * [User Analytics](#user-analytics)
 * [Going live](#going-live)
 * [Cross platform frameworks](#cross-platform-frameworks)
@@ -20,6 +20,7 @@
 * [Accessibility](#accessibility)
 * [Licensing](#licensing)
 * [More information](#more-information)
+* [Raising support issues](#support)
 
 ## Overview
 
@@ -32,7 +33,7 @@ It offers a number of benefits to help you create the best identity verification
 - Advanced image quality detection technology to ensure the quality of the captured images meets the requirement of the Onfido identity verification process, guaranteeing the best success rate
 - Direct image upload to the Onfido service, to simplify integration
 
-⚠️ Note: The SDK is only responsible for capturing and uploading photos, videos and motion captures. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and perform checks.
+⚠️ Note: The SDK is only responsible for capturing and uploading document photos, live selfies, live videos and motion captures. You still need to access the [Onfido API](https://documentation.onfido.com/) to manage applicants and [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product) to build verification workflows.
 
 ![Various views from the SDK](screenshots.jpg)
 ![Various views from the SDK](gifs.gif)
@@ -102,7 +103,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 13.11 Mb  |
+| armeabi-v7a | 13.30 Mb  |
 | arm64-v8a   | 12.88 Mb |
 | universal   | 40.13 Mb |
 
@@ -126,7 +127,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 9.99 Mb  |
+| core-armeabi-v7a | 10.19 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -259,9 +260,11 @@ Onfido onfido = OnfidoFactory.create(context).getClient();
 ### 6. Custom Application Class
 **Note**: You can skip this step if you don't have any custom application class.
 
-⚠️ After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the Onfido SDK started, a new application instance will be created. To prevent reinitializing you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below:
+⚠️ After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the Onfido SDK gets started, a new application instance will be created. To prevent re-executing the initializations you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below:
 
 This will prevent initialization-related crashes such as: [`FirebaseApp is not initialized in this process`](https://github.com/firebase/firebase-android-sdk/issues/4693)
+
+The `isOnfidoProcess` extension function has been integrated into the Application class to prevent accidental reinitialization of instances within custom application classes. This feature is especially useful for optimizing the Onfido initialization process. Be aware that the Onfido process uses your custom Application class for its own initialization. If you decide to use `isOnfidoProcess` to selectively skip the initialization of certain instances during the Onfido process, be cautious not to access these uninitialized instances elsewhere in your Application class, such as in the `onTrimMemory` method, to avoid unexpected behavior. Furthermore, instances initialized by providers like Firebase will not be reinitialized in the Onfido process. If you wish to use such instances within the Onfido process, you'll need to manually initialize them. More info can be found [here](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp#initializeApp(android.content.Context)).
 
 ##### Kotlin
 
@@ -636,6 +639,20 @@ dependencies {
 }
 ```
 
+If your application already uses the same libraries that the Onfido SDK needs for the NFC feature, you may encounter some dependency conflicts that will impact and could interfere with the NFC capture in our SDK. In such cases, we propose using the dependency resolution strategy below, by adding the following lines to your `build.gradle` file:
+
+```gradle
+implementation ("com.onfido.sdk:onfido-<variant>:19.1.0"){
+     exclude group: "org.bouncycastle"
+ }
+ implementation ("the other library that conflicts with Onfido on BouncyCastle") {
+     exclude group: "org.bouncycastle"
+ }
+ 
+ implementation "org.bouncycastle:bcprov-jdk15to18:1.69"
+ implementation "org.bouncycastle:bcutil-jdk15to18:1.69"
+```
+
 ### UI customization
 
 For visualizations of the available options please see our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#android).
@@ -944,17 +961,17 @@ To configure the Dynamic Feature Module, follow these steps:
 4. Add `implementation 'com.onfido.sdk:onfido-dfm-base:<onfido_version>'` in your base app module
 5. Finally, launch your Activity anywhere from your codebase
 
-## Creating checks
+## Generating verification reports
 
-The SDK is responsible for the capture of identity documents and selfie photos, videos and motion captures. It doesn't perform any checks against the Onfido API. You need to access the [Onfido API](https://documentation.onfido.com/) in order to manage applicants and perform checks.
+While the SDK is responsible for capturing and uploading document photos, live selfies, live videos and motion captures, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product). 
 
-For a walkthrough of how to create a check with a Document and Facial Similarity report using the Android SDK read our [Mobile SDK Quick Start guide](https://developers.onfido.com/guide/mobile-sdk-quick-start).
+For a step-by-step walkthrough of creating an identity verification using Onfido Studio and our SDKs, please refer to our [Quick Start Guide](https://developers.onfido.com/guide/quick-start-guide).
 
-Read our API documentation for further details on how to [create a check](https://documentation.onfido.com/#create-check) with the Onfido API.
+Alternatively, you can [create checks](https://documentation.onfido.com/#create-check) and [retrieve report results](https://documentation.onfido.com/#retrieve-report) manually using the Onfido API. You can also configure [webhooks](https://documentation.onfido.com/#webhooks) to be notified asynchronously of report results.
 
-**Note**: If you're testing with a sandbox token, please be aware that the results are pre-determined. You can learn more about [sandbox responses](https://documentation.onfido.com/#pre-determined-responses).
+**Note**: If you're using API v2 for API calls, please refer to the [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) for more information.
 
-**Note**: If you're using API v2, please refer to the [API v2 to v3 migration guide](https://developers.onfido.com/guide/v2-to-v3-migration-guide#checks-in-api-v3) for more information.
+**Note**: If you're testing with a sandbox token, please be aware that report results are pre-determined. You can learn more about sandbox responses [here](https://documentation.onfido.com/#pre-determined-responses).
 
 ### Setting up webhooks
 
@@ -1129,7 +1146,7 @@ We have included a [sample app](sample-app) to show how to integrate the Onfido 
 
 Further information about the Onfido API is available in our [API reference](https://documentation.onfido.com).
 
-### Support
+## Support
 
 Should you encounter any technical issues during integration, please contact Onfido's Customer Support team via [email](mailto:support@onfido.com), including the word ISSUE at the start of the subject line. 
 

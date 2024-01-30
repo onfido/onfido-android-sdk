@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '19.4.2'
-def versionCodeNumber = 1942
+def sdkVersion = '19.6.0'
+def versionCodeNumber = 1960
 
 android {
     compileSdkVersion 33
@@ -53,9 +53,4 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     testImplementation 'junit:junit:4.12'
-
-    // only required to support TLSv1.2 for devices with Android API lower than 5.x
-    implementation('com.google.android.gms:play-services-base:18.2.0') {
-        exclude group: 'com.android.support' // to avoid conflicts with your current support library
-    }
 }
