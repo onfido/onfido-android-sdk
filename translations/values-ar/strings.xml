@@ -34,6 +34,7 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">التحقق من هويتك</string>
+    <string name="onfido_app_title_doc_select">التحقق من هويتك</string>
     <string name="onfido_welcome_title">التحقق من هويتك</string>
     <string name="onfido_welcome_subtitle">ستأخذ بعض الوقت</string>
 	<string name="onfido_selfie_capture_button_accessibility">مصراع</string>
@@ -302,7 +303,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_title">لم نتمكن من مسح المستند ضوئيًا</string>
 
-	<string name="onfido_nfc_intro_title_passport">قم بمسح ضوئي لجواز سفرك</string>
+    <string name="onfido_nfc_intro_title_passport">امسح جواز سفرك الإلكتروني ضوئيًا</string>
     <string name="onfido_nfc_intro_subtitle">اتبع التعليمات أدناه</string>
     <string name="onfido_nfc_intro_button_primary">بدء المسح الضوئي</string>
 
@@ -321,8 +322,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">فقد الاتصال بجواز السفر</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">حرك هاتفك لأعلى أو لأسفل قليلاً</string>
 
-	<string name="onfido_enter_can_title">أدخل رقم الCAN</string>
-	<string name="onfido_enter_can_subtitle">الرقم المكون من %d رقمًا موجود على الجهة الأمامية من المستند الخاص بك</string>
+    <string name="onfido_enter_can_title">أدخل CAN</string>
+    <string name="onfido_enter_can_subtitle">يرجى التأكد من أن الرقم المقدم يطابق الرقم الموجود في المستند.</string>
     <string name="onfido_enter_can_button_primary">متابعة</string>
     <string name="onfido_enter_can_disclaimer">يمكنك العثور عليه في الجزء الأمامي من مستندك. إنه بطول %d من الأرقام وحجمه أكبر قليلاً.</string>
     <string name="onfido_enter_can_error_label">لدي %1$d %2$s متبقية.</string>
@@ -427,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">كشف حساب مصرف</string>
 	<string name="onfido_doc_select_extra_estatements_ok">البيانات الإلكترونية مقبولة</string>
 	<string name="onfido_doc_select_button_bill">فواتير المرافق</string>
-	<string name="onfido_doc_select_button_tax_letter">رسالة ضريبة الحكومة المحلية</string>
+    <string name="onfido_doc_select_button_tax_letter">خطاب ضريبة المجلس</string>
 	<string name="onfido_doc_select_button_benefits_letter">خطاب المنافع</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">مزايا الأسرة المصرح بها من الحكومة على سبيل المثال. بدل الباحث عن عمل، إعانة السكن، الإعفاءات الضريبية</string>
     <string name="onfido_doc_select_button_address_card">بطاقة عنوان</string>
@@ -479,10 +480,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">إعادة المحاولة</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">جارٍ تشغيل المقطع الصوتي بواسطة تطبيق آخر</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">يرجى عدم تشغيل أي مقاطع صوتية على جهازك أثناء التسجيل</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">استخدم هاتفك لمسح الرقاقة في وثيقتك</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">بمجرد بدء الفحص، ابقى ثابتًا حتى يمكن إكمال الفحص</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">ضع المستند في الجزء الخلفي من جهازك</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">حرك جهازك ببطء لأعلى ولأسفل</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">بمجرد بدء المسح الضوئي، حاول الحفاظ على الجهاز ثابتا</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">قم بإزالة غطاء هاتفك</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">حافظ على جهازك والمستندات في وضع تلامس حتى يتم الانتهاء من المسح الضوئي بنجاح</string>
@@ -490,12 +491,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">المسح الضوئي عن طريق NFC مطلوب لهذا المستند ، لكن تعذر إكماله.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">هل لديك مستند مختلف لاكمال العملية؟</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">استخدم مستند مختلف</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">استخدم هاتفك لمسح الرقاقة في وثيقتك</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">سنقوم بمسح ضوئي لشريحة NFC لمستندك ضوئيًا</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">ضع المستند على سطح مستو</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">افتح الصفحة الخلفية الداخلية للمستند</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">ضع المستند في الجزء الخلفي من جهازك</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">حرك جهازك ببطء لأعلى ولأسفل</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">بمجرد بدء الفحص، ابقى ثابتًا حتى يمكن إكمال الفحص</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">بمجرد بدء المسح الضوئي، حاول الحفاظ على الجهاز ثابتا</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">أزل جواز السفر وأغطية الهاتف</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">حافظ على جهازك والمستندات في وضع تلامس حتى يتم الانتهاء من المسح الضوئي بنجاح</string>
@@ -516,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">جاري تحميل الصورة...</string>
 	<string name="onfido_interactive_task_waiting_title_3">جاري تحميل الفيديو...</string>
 	<string name="onfido_interactive_task_waiting_title_4">جارٍ التحقق من جودة البيانات...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">يرجى الانتظار لفترة أطول قليلاً حتى يتم الانتهاء من المهمة.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">الاتصال غير مستقر. يرجى الانتظار قليلاً حتى ينتهي العمل.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">جاري تجميع البيانات...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">نحن نقوم بتجميع البيانات المجمعة، يرجى الانتظار.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">تأمين البيانات...</string>
@@ -526,37 +527,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">نحن نقوم بمعالجة معلوماتك، يرجى الانتظار.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">المعالجة جارية...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">يرجى الانتظار قليلاً أطول حتى ينتهي هذا العمل، نقدر صبرك.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">المهمة لا تزال قيد التشغيل، نقدر صبرك.</string>
-	<string name="onfido_nfc_intro_subtitle_passport">استخدم هاتفك لمسح الرقاقة في جواز سفرك</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">ضع جواز سفرك مفتوحًا على سطح مستوي</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">ضع هاتفك مباشرة فوق جواز سفرك حتى يكونا على اتصال مباشر</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">قم بتحريك هاتفك ببطء على كلا الصفحتين حتى يبدأ عملية الفحص</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص</string>
-	<string name="onfido_nfc_scan_welcome_card_title">افحص الوثيقة الخاصة بك</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">قم بإزالة أي أغطية من وثيقتك وجهازك</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">حافظ على جهازك والمستند في اتصال حتى يكون الفحص ناجحًا</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">قم بإنزلاق هاتفك ببطء عبر الصفحتين حتى يبدأ الفحص</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص</string>
-	<string name="onfido_nfc_scan_error_document_title">الوثيقة غير مدعومة</string>
-	<string name="onfido_nfc_scan_error_document_subtitle">يرجى المحاولة مع وثيقة أخرى</string>
-	<string name="onfido_nfc_scan_error_document_primary_button">اختر وثيقة أخرى</string>
-	<string name="onfido_nfc_scan_error_document_secondary_button">التحقق عند الخروج</string>
-	<string name="onfido_nfc_scan_error_device_title">جهاز غير مدعوم</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">عذرًا على أي إزعاج. يرجى استخدام جهاز مختلف للتحقق من هويتك</string>
-	<string name="onfido_nfc_scan_error_device_primary_button">التحقق عند الخروج</string>
-	<string name="onfido_nfc_scan_doc_selection_disclaimer">نحن نقبل فقط الوثائق التي تحتوي على رقاقة. ابحث عن هذا الرمز على وثيقتك</string>
-	<string name="onfido_nfc_fail_card_title">لم نتمكن من مسح هذا الوثيقة</string>
-	<string name="onfido_nfc_fail_card_list_item_1">قم بإزالة أي غطاء من جهازك</string>
-	<string name="onfido_nfc_fail_card_list_item_2">حافظ على اتصال جهازك والمستند حتى يكتمل الفحص بنجاح</string>
-	<string name="onfido_nfc_fail_card_list_item_3">قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص</string>
-	<string name="onfido_nfc_fail_card_list_item_4">بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص</string>
-	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">تحقق بدون مسح</string>
-	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">التحقق عند الخروج</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">قد يتم مطالبتك بإدخال الCAN قبل الاستمرار في الفحص</string>
-	<string name="onfido_enter_can_secondary_button">ليس لدي CAN</string>
-	<string name="onfido_nfc_scan_error_can_title">تم الوصول إلى الحد الأقصى للمحاولات</string>
-	<string name="onfido_nfc_scan_error_can_subtitle">لقد وصلت إلى الحد الأقصى لمحاولات إدخال رقم CAN الخاص بك</string>
-	<string name="onfido_nfc_scan_error_can_primary_button">التحقق عند الخروج</string>
-	<string name="onfido_nfc_scan_error_document_alt_primary_button">إعادة المحاولة</string>
-	<string name="onfido_interactive_task_waiting_title_5">جاري تحميل الوسائط...</string>
 </resources>

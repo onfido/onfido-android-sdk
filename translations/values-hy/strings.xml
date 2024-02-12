@@ -34,6 +34,7 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Հաստատեք ձեր ինքնությունը</string>
+    <string name="onfido_app_title_doc_select">Հաստատեք ձեր ինքնությունը</string>
     <string name="onfido_welcome_title">Հաստատեք ձեր ինքնությունը</string>
     <string name="onfido_welcome_subtitle">Դա կարող է տևել մի քանի րոպե</string>
 	<string name="onfido_selfie_capture_button_accessibility">Կոճակ</string>
@@ -230,8 +231,8 @@
     <string name="onfido_doc_confirmation_button_secondary_permit_work">Կրկին լուսանկարել</string>
     <string name="onfido_doc_confirmation_button_secondary_generic">Կրկին լուսանկարել</string>
     <string name="onfido_video_intro_title">Տեսագրել տեսանյութ</string>
-	<string name="onfido_video_capture_header_challenge_turn_left">Գլուխը պտտեք դեպի ձախ</string>
-	<string name="onfido_video_capture_header_challenge_turn_right">Գլուխը պտտեք դեպի աջ</string>
+    <string name="onfido_video_capture_header_challenge_turn_left">Գլուխը պտտեք դեպի ձախ </string>
+    <string name="onfido_video_capture_header_challenge_turn_right">Գլուխը պտտեք դեպի աջ </string>
     <string name="onfido_doc_capture_detail_passport"></string>
 
     <string name="onfido_video_capture_body">Տեսագրումը սկսելու համար ձեր դեմքը պահեք շրջանակի ներսում</string>
@@ -302,7 +303,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
 
-	<string name="onfido_nfc_intro_title_passport">Սկանավորեք ձեր անձնագիրը</string>
+    <string name="onfido_nfc_intro_title_passport">Սկանավորեք ձեր էլեկտրոնային անձնագիրը</string>
     <string name="onfido_nfc_intro_subtitle">Հետևեք ստորև բերված հրահանգներին</string>
     <string name="onfido_nfc_intro_button_primary">Սկսել սկանավորումը</string>
 
@@ -321,8 +322,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Անձնագրի հետ կապը կորավ</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Հեռախոսը մի փոքր վերև կամ ներքև շարժեք</string>
 
-	<string name="onfido_enter_can_title">Մուտքագրեք CAN համարը</string>
-	<string name="onfido_enter_can_subtitle">Ձեր փաստաթուղթի վրա գտնվող %d-նիշանոց համարը ստուգեք։</string>
+    <string name="onfido_enter_can_title">Մուտքագրեք CAN-ը</string>
+    <string name="onfido_enter_can_subtitle">Համոզվեք, որ տրամադրված համարը համապատասխանում է փաստաթղթում նշված համարին։</string>
     <string name="onfido_enter_can_button_primary">Շարունակել</string>
     <string name="onfido_enter_can_disclaimer">Այն կարող եք գտնել ձեր փաստաթղթի դիմերեսի վրա։ Այն պարունակում է %d նիշ և մի փոքր ավելի մեծ չափի է։</string>
     <string name="onfido_enter_can_error_label">Ձեզ մնացել է %1$d %2$s։</string>
@@ -428,7 +429,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Բանկային քաղվածք</string>
 	<string name="onfido_doc_select_extra_estatements_ok">էլեկտրոնային քաղվածքներ ընդունվում են</string>
 	<string name="onfido_doc_select_button_bill">Կոմունալ ծառայության հաշիվ</string>
-	<string name="onfido_doc_select_button_tax_letter">Լոկալ կառավարության հարկային նամակ</string>
+    <string name="onfido_doc_select_button_tax_letter">Համայնքային հարկ</string>
 	<string name="onfido_doc_select_button_benefits_letter">Նպաստներ</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Կառավարության կողմից հաստատված նպաստներ՝ տնային տնտեսությունների համար (օրինակ՝ Աշխատանք փնտրողի նպաստ, բնակարանային նպաստ, հարկային արտոնություններ</string>
     <string name="onfido_doc_select_button_address_card">Հասցեն պարունակող քարտ</string>
@@ -480,10 +481,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Կրկին փորձել</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Դանդաղ տեղաշարժեք ձեր փաստաթուղթը վրաև ներքև սարքի դեմ, մինչդեռ չսկսվի սկանավորումը:</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Դանդաղ սահեցրեք ձեր սարքը վեր ու վար</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Սկանավորումը սկսելուց հետո այն անշարժ պահեք</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Հանեք ձեր հեռախոսի պատյանը</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի</string>
@@ -491,12 +492,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-ի սկանավորումն անհրաժեշտ է այս փաստաթղթի համար, սակայն չհաջողվեց ավարտել:</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Դուք այլ փաստաթուղթ ունե՞ք շարունակելու համար:</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Օգտագործեք տարբեր փաստաթուղթ</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Մենք կսկանավորենք ձեր փաստաթղթի NFC չիպը</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Դրեք ձեր փաստաթուղթը հարթ մակերեսի վրա</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Բացեք ձեր փաստաթուղթը ներքին հետևի էջում</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Դանդաղ սահեցրեք ձեր սարքը վեր ու վար</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Սկանավորումը սկսելուց հետո այն անշարժ պահեք</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Հանեք անձնագրի և հեռախոսի կազմերը</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Ձեր սարքը և փաստաթուղթը կապի մեջ պահեք մինչև սկանավորումը հաջողությամբ ավարտվի</string>
@@ -517,7 +518,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Նկարը բեռնվում է...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Վիդեոն բեռնվում է․․․</string>
 	<string name="onfido_interactive_task_waiting_title_4">Ստուգում ենք տվյալների որակը․․․</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Խնդրում ենք մի փոքր ավելի երկար սպասել, մինչև առաջադրանքը ավարտվի։</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Կապը անվտանգ չէ։ Խնդրում ենք մի փոքր սպասել, որպեսզի առաջադրանքը ավարտվի։</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Տվյալների կոմպիլյացիա...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Մենք հավաքված տվյալները համադրում ենք, խնդրում ենք սպասել:</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Տվյալների ապահովում...</string>
@@ -527,37 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Մենք մշակում ենք ձեր տվյալները, խնդրում ենք սպասել:</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Կատարումը ընթացքում է․․․</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Հաճելի է մի քիչ ավելի երկար սպասել, որպեսզի այս գործընթացը ավարտվի, ձեր համբերատարությունը գնահատվում է։</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Առաջադրանքը դեռ շարունակվում է, ձեր համբերատարությունը գնահատվում է:</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Օգտագործեք ձեր հեռախոսը ձեր անձնագրի չիպը սկանավորելու համար</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Հարթ մակերեսի վրա դնեք ձեր բացված անձնագիրը</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Ձեր անձնագրի վրա դրեք ձեր հեռախոսը</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Դանդաղ սահեցրեք ձեր հեռախոսը երկու էջերի վրա, մինչև սկանավորումը չսկսվի:</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Սկանավորումը սկսվելուն պես՝ պահեք ձեր մարմինը անշարժ</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Սկանավորեք ձեր փաստաթուղթը</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Հեռացրեք ձեր փաստաթուղթի և սարքի վրայով բոլոր կազմակերպողները</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Պահեք ձեր սարքը և փաստաթուղթը կոտակային, մինչև սկանավորումը հաջողվի</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Աստիճան ձեր հեռախոսը սարքեք երկու էջերի վրա, մինչև սկանավորումը չսկսվի</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Սկանավո</string>
-	<string name="onfido_nfc_scan_error_document_title">Փաստաթուղթը չի աջակցվում</string>
-	<string name="onfido_nfc_scan_error_document_subtitle">Փորձեք այլ փաստաթուղթով</string>
-	<string name="onfido_nfc_scan_error_document_primary_button">Ընտրեք մեկ այլ փաստաթուղթ</string>
-	<string name="onfido_nfc_scan_error_document_secondary_button">Ելքի ստուգում</string>
-	<string name="onfido_nfc_scan_error_device_title">Չաջակցվող սարք</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Ներողություն ամենայն անհարմարության համար։ Խնդրում ենք օգտագործել այլ սարքը ձեր իսկությունը հաստատելու համար</string>
-	<string name="onfido_nfc_scan_error_device_primary_button">Ելքի ստուգում</string>
-	<string name="onfido_nfc_scan_doc_selection_disclaimer">Մենք ընդունում ենք միայն շերտեր չիպով։ Որոնեք այս պատկերը ձեր շերտում</string>
-	<string name="onfido_nfc_fail_card_title">Մենք չկարողացանք սկանավորել այս փաստաթուղթը</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Հեռացրեք ձեր սարքից բոլոր կազմակերպողները</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Պահեք ձեր սարքը և փաստաթուղթը կոնտակտում, մինչև սկանավորումը հաջողվի</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Դանդաղ սարքեք ձեր փաստաթուղթը վերև և ներքև սարքի դեմ, մինչդեռ սկանավորումը չսկսվի:</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը ավարտվի</string>
-	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Ստուգել սկանավորման առանց</string>
-	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Ելքի ստուգում</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">Ձեզ կարող է խնդրվել մուտքագրել CAN-ը, մինչև շարունակել սկանավորումը</string>
-	<string name="onfido_enter_can_secondary_button">Ես չունեմ CAN</string>
-	<string name="onfido_nfc_scan_error_can_title">Մաքսիմալ փորձերը հասել են</string>
-	<string name="onfido_nfc_scan_error_can_subtitle">Դուք հասել եք ձեր CAN համարը մուտքագրելու առավելագույն փորձերին</string>
-	<string name="onfido_nfc_scan_error_can_primary_button">Ելքի ստուգում</string>
-	<string name="onfido_nfc_scan_error_document_alt_primary_button">Կրկին փորձել</string>
-	<string name="onfido_interactive_task_waiting_title_5">Մեդիայի բեռնում...</string>
 </resources>

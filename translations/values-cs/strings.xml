@@ -34,13 +34,14 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Potvrďte svou totožnost</string>
+    <string name="onfido_app_title_doc_select">Potvrďte svou totožnost</string>
     <string name="onfido_welcome_title">Potvrďte svou totožnost</string>
     <string name="onfido_welcome_subtitle">Mělo by to trvat několik minut</string>
 	<string name="onfido_selfie_capture_button_accessibility">Závěrka</string>
     <string name="onfido_selfie_intro_title">Pořiďte si selfie</string>
     <string name="onfido_app_title_country_select">Vyberte zemi, kde došlo k vydání</string>
 	<string name="onfido_country_select_bottom_sheet_title">Nemůžete najít svou zemi?</string>
-	<string name="onfido_country_select_bottom_sheet_details">Vypadá to, že země vybraného dokumentu není podporována. Prosím, vyberte jinou zemi.</string>
+    <string name="onfido_country_select_bottom_sheet_details">Zdá se, že země dokumentu, který jste vybrali, není podporována. Vyberte prosím jinou zemi.</string>
     <string name="onfido_selfie_intro_subtitle">Porovnáme to s vaším dokumentem</string>
     <string name="onfido_selfie_capture_body">Držte obličej v oválu</string>
     <string name="onfido_video_capture_prompt_button_timeout">Opakování</string>
@@ -131,7 +132,7 @@
     <string name="onfido_video_capture_alert_wrong_side">Nesprávná strana</string>
     <string name="onfido_video_capture_prompt_button_primary_network_timeout">Pokyny pro opětovné nahrávání</string>
     <string name="onfido_video_capture_prompt_network_timeout_title">Časový limit připojení</string>
-	<string name="onfido_video_capture_prompt_network_timeout_detail">Ujistěte se, že máte stabilní připojení a zkuste to znovu</string>
+    <string name="onfido_video_capture_prompt_network_timeout_detail">Zkontrolujte, zda je připojení stabilní, a opakujte akci</string>
 	<string name="onfido_generic_back">zpět</string>
     <string name="onfido_permission_body_both">Bez použití kamery a mikrofonu Vás nemůžeme ověřit</string>
     <string name="onfido_permission_button_primary_both">Povolte obě možnosti</string>
@@ -302,7 +303,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Získej ověření bez NFC</string>
     <string name="onfido_nfc_scan_error_title">Váš dokument se nám nepodařilo naskenovat</string>
 
-	<string name="onfido_nfc_intro_title_passport">Skenovat svůj pas</string>
+    <string name="onfido_nfc_intro_title_passport">Naskenujte svůj ePas</string>
     <string name="onfido_nfc_intro_subtitle">Postupujte podle níže uvedených pokynů</string>
     <string name="onfido_nfc_intro_button_primary">Zahájení skenování</string>
 
@@ -321,8 +322,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Ztráta kontaktu s pasem</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Posuňte telefon mírně nahoru nebo dolů</string>
 
-	<string name="onfido_enter_can_title">Zadejte číslo CAN</string>
-	<string name="onfido_enter_can_subtitle">%d-místné číslo se nachází na přední straně vašeho dokumentu</string>
+    <string name="onfido_enter_can_title">Vstup do sběrnice CAN</string>
+    <string name="onfido_enter_can_subtitle">Ujistěte se, že uvedené číslo odpovídá číslu na dokladu.</string>
     <string name="onfido_enter_can_button_primary">Pokračovat</string>
     <string name="onfido_enter_can_disclaimer">Číslo %d je umístěno v přední části dokumentu.</string>
 	<string name="onfido_enter_can_error_label">Zbývá vám %1$d %2$s.</string>
@@ -427,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bankovní výpis</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Přijímání elektronických výpisů</string>
 	<string name="onfido_doc_select_button_bill">Účet za komunální služby</string>
-	<string name="onfido_doc_select_button_tax_letter">Dopis místní vlády o daních</string>
+    <string name="onfido_doc_select_button_tax_letter">Dopis o dani</string>
 	<string name="onfido_doc_select_button_benefits_letter">Dopis o výhodách</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Vládou schválené dávky pro domácnosti, např. příspěvek pro uchazeče o zaměstnání, příspěvek na bydlení, daňové úlevy.</string>
     <string name="onfido_doc_select_button_address_card">Adresní karta</string>
@@ -479,10 +480,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Opakování</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audiozáznam se přehrává na jiné aplikaci</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Během nahrávání nepřehrávejte na svém zařízení žádný audiozáznam</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Použijte svůj telefon k naskenování čipu ve vašem dokumentu</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Umístěte svůj dokument na zadní stranu svého zařízení, aby se dotýkaly</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pomalu posouvejte svůj dokument nahoru a dolů po zařízení, dokud se skenování nespustí</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Naskenujeme NFC čip vašeho dokumentu</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Umístěte dokument na zadní stranu zařízení</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pomalu posuňte zařízení nahoru a dolů</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Jakmile se skenování spustí, držte jej v klidu</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Získej ověření bez NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Odstraňte kryt telefonu</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné</string>
@@ -490,12 +491,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">Tento dokument vyžaduje skenování NFC, které však nebylo možné dokončit.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Máte jiný dokument, se kterým můžete pokračovat?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Použijte jiný dokument</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Použijte svůj telefon k naskenování čipu ve vašem dokumentu</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Naskenujeme NFC čip vašeho dokumentu</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Položte dokument na rovný povrch</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Otevřete dokument na vnitřní zadní straně</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Umístěte svůj dokument na zadní stranu svého zařízení, aby se dotýkaly</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Umístěte dokument na zadní stranu zařízení</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Pomalu posuňte zařízení nahoru a dolů</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Jakmile se skenování spustí, držte jej v klidu</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Získej ověření bez NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Sundejte obaly pasu a telefonu</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné</string>
@@ -516,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Nahrávání obrázku...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Nahrávání videa...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Kontrola kvality dat...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Prosíme o trochu více trpělivosti, úloha ještě není dokončena.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Připojení je nestabilní. Počkejte prosím o něco déle, než se úloha dokončí.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilace dat...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Sestavujeme shromážděná data, prosím počkejte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Zabezpečování dat...</string>
@@ -526,37 +527,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Zpracováváme vaše informace, prosím čekejte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Zpracování probíhá...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prosím, počkejte ještě chvíli, než tento proces skončí, vaše trpělivost je oceněna.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Úloha stále běží, vaše trpělivost je oceňována.</string>
-	<string name="onfido_interactive_task_waiting_title_5">Nahrávání médií...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Použijte svůj telefon k naskenování čipu ve vašem pasu</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Položte svůj otevřený pas na rovný povrch</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Umístěte svůj telefon přímo na vrch svého pasu, tak aby se dotýkaly</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Pomalu přesouvejte telefon přes obě stránky, dokud se nespustí skenování</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Skenovat váš dokument</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Odstraňte jakékoliv kryty z vašeho dokumentu a zařízení</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Pomalu přesouvejte telefon přes obě stránky, dokud se nespustí skenování</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Jakmile se skenování začne, zůstaňte v klidu, aby mohlo skenování proběhnout</string>
-	<string name="onfido_nfc_scan_error_document_title">Dokument není podporován</string>
-	<string name="onfido_nfc_scan_error_document_subtitle">Zkuste to prosím s jiným dokumentem</string>
-	<string name="onfido_nfc_scan_error_document_primary_button">Vyberte jiný dokument</string>
-	<string name="onfido_nfc_scan_error_document_secondary_button">Ověření při odchodu</string>
-	<string name="onfido_nfc_scan_error_device_title">Nepodporované zařízení</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Omlouváme se za jakékoliv nepříjemnosti. Prosím, použijte jiné zařízení k ověření své identity.</string>
-	<string name="onfido_nfc_scan_error_device_primary_button">Ověření při odchodu</string>
-	<string name="onfido_nfc_scan_doc_selection_disclaimer">Přijímáme pouze dokumenty s čipem. Hledejte tuto ikonu na svém dokumentu</string>
-	<string name="onfido_nfc_fail_card_title">Tento dokument se nám nepodařilo naskenovat</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Odstraňte jakékoliv kryty z vašeho zařízení</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Udržujte své zařízení a dokument v kontaktu, dokud nebude skenování úspěšné</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Pomalu posouvejte svůj dokument nahoru a dolů po zařízení, dokud se skenování nespustí</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout</string>
-	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Ověřit bez skenování</string>
-	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Ověření při odchodu</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">Může se stát, že budete vyzváni k zadání CAN před pokračováním ve skenování</string>
-	<string name="onfido_enter_can_secondary_button">Nemám CAN</string>
-	<string name="onfido_nfc_scan_error_can_title">Maximální počet pokusů dosažen</string>
-	<string name="onfido_nfc_scan_error_can_subtitle">Dosáhli jste maximálního počtu pokusů o zadání vašeho čísla CAN</string>
-	<string name="onfido_nfc_scan_error_can_primary_button">Ověření při odchodu</string>
-	<string name="onfido_nfc_scan_error_document_alt_primary_button">Opakování</string>
 </resources>

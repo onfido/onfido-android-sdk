@@ -34,6 +34,7 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Потвърдете самоличността си</string>
+    <string name="onfido_app_title_doc_select">Потвърдете самоличността си</string>
     <string name="onfido_welcome_title">Потвърдете самоличността си</string>
     <string name="onfido_welcome_subtitle">Ще отнеме няколко минути</string>
 	<string name="onfido_selfie_capture_button_accessibility">Затвор</string>
@@ -302,7 +303,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Получаване на потвърждение без NFC</string>
     <string name="onfido_nfc_scan_error_title">Не можахме да сканираме документа ви</string>
 
-	<string name="onfido_nfc_intro_title_passport">Извършете сканиране на паспорта си</string>
+    <string name="onfido_nfc_intro_title_passport">Сканирайте биометричния си паспорт</string>
     <string name="onfido_nfc_intro_subtitle">Следвайте предоставените по-долу инструкции</string>
     <string name="onfido_nfc_intro_button_primary">Започнете сканирането</string>
 
@@ -321,8 +322,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Прекъснат контакт с паспорта</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Преместете телефона си леко нагоре или надолу</string>
 
-	<string name="onfido_enter_can_title">Въведете номера на CAN</string>
-	<string name="onfido_enter_can_subtitle">%d-цифреният номер се намира на предната част на вашия документ</string>
+    <string name="onfido_enter_can_title">Въведете CAN</string>
+    <string name="onfido_enter_can_subtitle">Уверете се, че предоставеният номер съответства на номера в документа.</string>
     <string name="onfido_enter_can_button_primary">Продължаване</string>
     <string name="onfido_enter_can_disclaimer">Можете да го намерите на лицевата страна на вашия документ. Той е %d-цифреният номер и е в малко по-голям формат.</string>
     <string name="onfido_enter_can_error_label">Остава ви %1$d %2$s.</string>
@@ -427,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Банково извлечение</string>
 	<string name="onfido_doc_select_extra_estatements_ok">приемат се електронни извлечения</string>
 	<string name="onfido_doc_select_button_bill">Сметка за комунални услуги</string>
-	<string name="onfido_doc_select_button_tax_letter">Писмо за данък от местното правителство</string>
+    <string name="onfido_doc_select_button_tax_letter">Данъчен документ</string>
 	<string name="onfido_doc_select_button_benefits_letter">Служебна бележка за получени помощи</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Официални удостоверения за получаване на помощи за домакинства, като напр. Финансова помощ при безработица, жилищна помощ, данъчни кредити</string>
     <string name="onfido_doc_select_button_address_card">Адресна карта</string>
@@ -479,10 +480,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Повторен опит</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Възпроизвежда се аудио от друго приложение</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Моля, не възпроизвеждайте аудио на устройството си по време на записа</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Използвайте телефона си, за да сканирате чипа във вашия документ</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Поставете документа си в контакт с гърба на вашето устройство</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Премествайте документа си бавно нагоре и надолу по устройството, докато не започне сканирането</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">След като сканирането стартира, не се движете, за да може да приключи успешно</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Ние ще сканираме NFC чипа на вашия документ</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Поставете документа си на гърба на вашето устройство</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Бавно плъзнете устройството нагоре и надолу</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">След като сканирането започне, задръжте го неподвижно</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Получаване на потвърждение без NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Премахнете калъфа на телефона си</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Дръжте вашето устройство и документ в контакт, докато сканирането е успешно</string>
@@ -490,12 +491,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">За този документ се изисква NFC сканиране, но не можа да бъде завършено.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Имате ли друг документ, с който да продължите?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Използвайте различен документ</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Използвайте телефона си, за да сканирате чипа във вашия документ</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Ние ще сканираме NFC чипа на вашия документ</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Поставете документа си върху равна повърхност</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Отворете документа си на вътрешната задна страница</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Поставете документа си в контакт с гърба на вашето устройство</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Поставете документа си на гърба на вашето устройство</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Бавно плъзнете устройството нагоре и надолу</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">След като сканирането стартира, не се движете, за да може да приключи успешно</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">След като сканирането започне, задръжте го неподвижно</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Получаване на потвърждение без NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Премахнете калъфите на паспорта и телефона си</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Дръжте вашето устройство и документ в контакт, докато сканирането е успешно</string>
@@ -503,7 +504,7 @@
 	<string name="onfido_doc_capture_header_recording_complete">Записът е завършен</string>
 	<string name="onfido_country_select_search_results_none_accessibility">Няма съответстващи резултати</string>
 	<string name="onfido_country_select_search_results_one_accessibility">Намерен е един резултат</string>
-	<string name="onfido_country_select_search_results_multiple_accessibility">%d намерени резултата</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">%d намерени резултата</string>
 	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Засечено е снимка на екрана</string>
 	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Засечен екранен снимак</string>
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Открито е фотокопие</string>
@@ -516,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Качване на изображение...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Качване на видео...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Проверка на качеството на данните...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Моля, имайте още малко търпение, докато задачата приключи.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Връзката е нестабилна. Моля, изчакайте малко повече време за завършване на задачата.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Компилиране на данни...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Компилираме събраните данни, моля изчакайте.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Сигурност на данните...</string>
@@ -526,37 +527,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Обработваме вашата информация, моля изчакайте.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Обработката е в ход...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Моля, изчакайте малко по-дълго този процес да приключи, търпението ви се цени.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Задачата все още се изпълнява, благодарим ви за търпението.</string>
-	<string name="onfido_interactive_task_waiting_title_5">Качване на медия...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Използвайте телефона си, за да сканирате чипа в паспорта си</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Поставете отворения си паспорт на равна повърхност</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Поставете телефона си директно върху паспорта си, така че да се докосват</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Плъзнете бавно телефона си през двете страници, докато сканирането не започне</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Когато започне сканирането, останете неподвижни, за да може сканирането да приключи</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Сканирайте вашия документ</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Премахнете всички капаци от вашия документ и устройство</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Пазете вашето устройство и документ в контакт, докато сканирането не бъде успешно</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Бавно плъзгайте телефона си през двете страници, докато сканирането не започне</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">След като сканирането започне, останете неподвижни, за да може сканирането да приключи</string>
-	<string name="onfido_nfc_scan_error_document_title">Документът не се поддържа</string>
-	<string name="onfido_nfc_scan_error_document_subtitle">Моля, опитайте с друг документ</string>
-	<string name="onfido_nfc_scan_error_document_primary_button">Изберете друг документ</string>
-	<string name="onfido_nfc_scan_error_document_secondary_button">Изход от верификация</string>
-	<string name="onfido_nfc_scan_error_device_title">Неподдържано устройство</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Съжаляваме за причиненото неудобство. Моля, използвайте различно устройство, за да потвърдите самоличността си</string>
-	<string name="onfido_nfc_scan_error_device_primary_button">Изход от верификация</string>
-	<string name="onfido_nfc_scan_doc_selection_disclaimer">Приемаме само документи с чип. Търсете тази икона на вашия документ</string>
-	<string name="onfido_nfc_fail_card_title">Не можахме да сканираме този документ</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Премахнете всички капаци от вашето устройство</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Пазете вашето устройство и документ в контакт, докато сканирането не бъде успешно</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Бавно плъзгайте вашия документ нагоре и надолу по устройството, докато сканирането не започне</string>
-	<string name="onfido_nfc_fail_card_list_item_4">След като сканирането започне, останете неподвижни, за да може сканирането да приключи</string>
-	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Потвърждаване без сканиране</string>
-	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Изход от верификация</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">Може да ви бъде поискано да въведете CAN преди да продължите към сканирането</string>
-	<string name="onfido_enter_can_secondary_button">Нямам CAN</string>
-	<string name="onfido_nfc_scan_error_can_title">Достигнати са максимални опити</string>
-	<string name="onfido_nfc_scan_error_can_subtitle">Достигнахте максималния брой опити за въвеждане на вашия CAN номер</string>
-	<string name="onfido_nfc_scan_error_can_primary_button">Изход от верификация</string>
-	<string name="onfido_nfc_scan_error_document_alt_primary_button">Повторен опит</string>
 </resources>

@@ -34,6 +34,7 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">验证您的身份</string>
+    <string name="onfido_app_title_doc_select">验证您的身份</string>
     <string name="onfido_welcome_title">验证您的身份</string>
     <string name="onfido_welcome_subtitle">这应该会需要几分钟时间</string>
 	<string name="onfido_selfie_capture_button_accessibility">快门</string>
@@ -302,7 +303,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">不用NFC获得验证</string>
     <string name="onfido_nfc_scan_error_title">我们无法扫描您的证明文件</string>
 
-	<string name="onfido_nfc_intro_title_passport">扫描您的护照</string>
+    <string name="onfido_nfc_intro_title_passport">扫描您的电子护照</string>
     <string name="onfido_nfc_intro_subtitle">请按照下面的说明操作</string>
     <string name="onfido_nfc_intro_button_primary">开始扫描</string>
 
@@ -321,8 +322,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">失去与护照的接触</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">将手机稍微向上或向下移动</string>
 
-	<string name="onfido_enter_can_title">输入CAN号码</string>
-	<string name="onfido_enter_can_subtitle">这个%d位数的数字位于您的文件的正面</string>
+    <string name="onfido_enter_can_title">输入CAN</string>
+    <string name="onfido_enter_can_subtitle">请确保提供的号码与证明文件上的号码相符。</string>
     <string name="onfido_enter_can_button_primary">继续</string>
     <string name="onfido_enter_can_disclaimer">您可以在证明文件的正面找到它。其长度为%d位数字，尺寸略大。</string>
     <string name="onfido_enter_can_error_label">您还可以尝试%1$d%2$s。</string>
@@ -427,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">银行对账单</string>
 	<string name="onfido_doc_select_extra_estatements_ok">已接受电子对账单</string>
 	<string name="onfido_doc_select_button_bill">水电费账单</string>
-	<string name="onfido_doc_select_button_tax_letter">地方政府税务信函</string>
+    <string name="onfido_doc_select_button_tax_letter">市政税务函</string>
 	<string name="onfido_doc_select_button_benefits_letter">福利函</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">政府批准的家庭福利，例如求职者津贴、住房福利、税收抵免</string>
     <string name="onfido_doc_select_button_address_card">含地址身份证</string>
@@ -479,10 +480,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">重试</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">音频正在被另一个应用播放</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">录制期间请勿在您的设备上播放任何音频</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">使用您的手机扫描您的文档中的芯片</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">将您的文件放在设备的背面，使它们接触</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">慢慢地将您的文档在设备上上下滑动，直到扫描开始</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">一旦扫描开始，保持不动以便扫描能够完成</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">我们将扫描您文件的 NFC 芯片</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">将文档放在设备的背面</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">慢慢上下滑动您的设备</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">扫描开始后，保持不动</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">不用NFC获得验证</string>
     <string name="onfido_nfc_scan_error_inter_list_item">取下手机保护套</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">保持您的设备和文档接触，直到扫描成功</string>
@@ -490,12 +491,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">此文档需要 NFC 扫描，但无法完成。</string>
 	<string name="onfido_nfc_scan_error_final_list_item">您有其他文件要处理吗？</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">使用不同的文档</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">使用您的手机扫描您的文档中的芯片</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">我们将扫描您文件的 NFC 芯片</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">将文档放在平坦的表面上</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">在内页打开您的文件</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">将您的文件放在设备的背面，使它们接触</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">将文档放在设备的背面</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">慢慢上下滑动您的设备</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">一旦扫描开始，保持不动以便扫描能够完成</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">扫描开始后，保持不动</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">不用NFC获得验证</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">取下护照和手机保护套</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">保持您的设备和文档接触，直到扫描成功</string>
@@ -516,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">正在上传图片...</string>
 	<string name="onfido_interactive_task_waiting_title_3">正在上传视频...</string>
 	<string name="onfido_interactive_task_waiting_title_4">正在检查数据质量...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">请稍微等待一下，让任务完成。</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">连接不稳定。请稍等一会，等待任务完成。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">正在编译数据...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">我们正在整理收集的数据，请等待。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">正在保护数据...</string>
@@ -526,37 +527,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">我们正在处理您的信息，请等待。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">处理中...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">请稍等一会，等待此过程完成，感谢您的耐心等待。</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">任务仍在运行中，感谢您的耐心等待。</string>
-	<string name="onfido_nfc_intro_subtitle_passport">使用您的手机扫描护照中的芯片</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">将您的护照打开放在平面上</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">将您的手机直接放在护照上，使它们接触</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">慢慢滑动您的手机跨越两页，直到扫描开始</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">一旦扫描开始，保持不动以便扫描能够完成</string>
-	<string name="onfido_nfc_scan_welcome_card_title">扫描您的文档</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">从您的文档和设备上移除所有的覆盖物</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">将您的设备和文件保持接触，直到扫描成功</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">慢慢滑动您的手机跨越两页，直到扫描开始</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">一旦扫描开始，保持不动以便扫描能够完成</string>
-	<string name="onfido_nfc_scan_error_document_title">不支持的文档</string>
-	<string name="onfido_nfc_scan_error_document_subtitle">请尝试使用另一份文档</string>
-	<string name="onfido_nfc_scan_error_document_primary_button">选择另一个文档</string>
-	<string name="onfido_nfc_scan_error_document_secondary_button">退出验证</string>
-	<string name="onfido_nfc_scan_error_device_title">不支持的设备</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">对于给您带来的任何不便，我们深感抱歉。请使用其他设备来验证您的身份</string>
-	<string name="onfido_nfc_scan_error_device_primary_button">退出验证</string>
-	<string name="onfido_nfc_scan_doc_selection_disclaimer">我们只接受带有芯片的文件。请在您的文件上寻找此图标</string>
-	<string name="onfido_nfc_fail_card_title">我们无法扫描此文档</string>
-	<string name="onfido_nfc_fail_card_list_item_1">从您的设备上移除所有的覆盖物</string>
-	<string name="onfido_nfc_fail_card_list_item_2">将您的设备和文件保持接触，直到扫描成功</string>
-	<string name="onfido_nfc_fail_card_list_item_3">慢慢地将您的文档在设备上上下滑动，直到扫描开始</string>
-	<string name="onfido_nfc_fail_card_list_item_4">一旦扫描开始，保持不动以便扫描能够完成</string>
-	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">无需扫描即可验证</string>
-	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">退出验证</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">在继续扫描之前，您可能会被提示输入CAN</string>
-	<string name="onfido_enter_can_secondary_button">我没有CAN</string>
-	<string name="onfido_nfc_scan_error_can_title">已达到最大尝试次数</string>
-	<string name="onfido_nfc_scan_error_can_subtitle">您已达到输入CAN号码的最大尝试次数</string>
-	<string name="onfido_nfc_scan_error_can_primary_button">退出验证</string>
-	<string name="onfido_nfc_scan_error_document_alt_primary_button">重试</string>
-	<string name="onfido_interactive_task_waiting_title_5">正在上传媒体...</string>
 </resources>

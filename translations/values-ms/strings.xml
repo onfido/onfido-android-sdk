@@ -34,6 +34,7 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Sahkan identiti anda</string>
+    <string name="onfido_app_title_doc_select">Sahkan identiti anda</string>
     <string name="onfido_welcome_title">Sahkan identiti anda</string>
     <string name="onfido_welcome_subtitle">Ia akan mengambil masa beberapa minit</string>
 	<string name="onfido_selfie_capture_button_accessibility">Pengatup</string>
@@ -302,7 +303,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_title">Kami tidak dapat mengimbas dokumen anda</string>
 
-	<string name="onfido_nfc_intro_title_passport">Imbas pasportmu</string>
+    <string name="onfido_nfc_intro_title_passport">Imbas e-Pasport anda</string>
     <string name="onfido_nfc_intro_subtitle">Ikut arahan di bawah</string>
     <string name="onfido_nfc_intro_button_primary">Mula mengimbas</string>
 
@@ -321,8 +322,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Terputus sambungan dengan pasport</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Gerakkan telefon anda ke atas atau ke bawah sedikit</string>
 
-	<string name="onfido_enter_can_title">Sila masukkan nombor CAN</string>
-	<string name="onfido_enter_can_subtitle">Nombor %d-digit terletak di bahagian depan dokumen anda</string>
+    <string name="onfido_enter_can_title">Masukkan CAN</string>
+    <string name="onfido_enter_can_subtitle">Sila pastikan nombor yang diberikan sepadan dengan nombor pada dokumen.</string>
     <string name="onfido_enter_can_button_primary">Teruskan</string>
     <string name="onfido_enter_can_disclaimer">Anda boleh menemuinya pada bahagian depan dokumen anda. Ia sepanjang %d-digit dan bersaiz lebih besar sedikit.</string>
     <string name="onfido_enter_can_error_label">Anda mempunyai %1$d %2$s lagi.</string>
@@ -428,7 +429,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Penyata bank</string>
 	<string name="onfido_doc_select_extra_estatements_ok">e-penyata diterima</string>
 	<string name="onfido_doc_select_button_bill">Bil Utiliti</string>
-	<string name="onfido_doc_select_button_tax_letter">Surat Cukai Kerajaan Tempatan</string>
+    <string name="onfido_doc_select_button_tax_letter">Surat Cukai Majlis</string>
 	<string name="onfido_doc_select_button_benefits_letter">Surat Faedah</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Faedah isi rumah yang dibenarkan oleh kerajaan cth. Elaun pencari kerja, Faedah perumahan, Kredit cukai</string>
     <string name="onfido_doc_select_button_address_card">Kad alamat</string>
@@ -480,10 +481,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Cuba Semula</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio sedang dimainkan oleh aplikasi lain</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan mainkan apa-apa audio pada peranti anda semasa rakaman dibuat</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telefon anda untuk mengimbas cip dalam dokumen anda</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Posisikan dokumen anda sehingga menyentuh bahagian belakang peranti anda</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Geselkan dokumen anda perlahan-lahan naik dan turun pada peranti sehingga proses pemindaian bermula</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Apabila proses pemindaian dimulakan, jangan bergerak supaya pemindaian dapat dilakukan dengan sempurna</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Kami akan mengimbas cip NFC dokumen anda</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Letakkan dokumen anda di bahagian belakang peranti anda</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Luncurkan peranti anda ke atas dan ke bawah perlahan-lahan</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Sebaik sahaja imbasan bermula, tahan ia tetap</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Tanggalkan penutup telefon anda</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya</string>
@@ -491,12 +492,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">Pengimbasan NFC diperlukan untuk dokumen ini, tetapi tidak dapat diselesaikan.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Adakah anda mempunyai dokumen lain untuk meneruskan?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Gunakan dokumen yang berbeza</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Gunakan telefon anda untuk mengimbas cip dalam dokumen anda</string>
+    <string name="onfido_nfc_scan_welcome_passport_subtitle">Kami akan mengimbas cip NFC dokumen anda</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Letakkan dokumen anda di atas permukaan rata</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Buka dokumen anda di halaman belakang dalam</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Posisikan dokumen anda sehingga menyentuh bahagian belakang peranti anda</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Letakkan dokumen anda di bahagian belakang peranti anda</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Luncurkan peranti anda ke atas dan ke bawah perlahan-lahan</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Apabila proses pemindaian dimulakan, jangan bergerak supaya pemindaian dapat dilakukan dengan sempurna</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Sebaik sahaja imbasan bermula, tahan ia tetap</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Tanggalkan sarung pasport dan penutup telefon anda</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Pastikan peranti dan dokumen anda bersentuhan sehingga pengimbasan berjaya</string>
@@ -517,7 +518,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Memuat naik imej...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Memuat naik video...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Memeriksa kualiti data...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Sila bersabar sebentar lagi untuk tugas ini selesai.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Sambungan tidak stabil. Sila tunggu sebentar lagi untuk tugas selesai.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Memproses data...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Kami sedang mengumpulkan data yang dikumpulkan, sila tunggu.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Mengamankan data...</string>
@@ -527,37 +528,4 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Kami sedang memproses maklumat anda, sila tunggu.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Pemprosesan sedang berlangsung...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Sila tunggu sebentar lagi untuk proses ini selesai, kesabaran anda sangat dihargai.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Tugas masih berjalan, kesabaran anda dihargai.</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Gunakan telefon anda untuk mengimbas cip dalam pasport anda</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Anda perlu meletakkan pasport anda yang terbuka di atas permukaan yang datar</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Letakkan telefon anda secara langsung di atas pasport anda sehingga mereka bersentuhan</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Secara perlahan-lahan, geser telefon anda merentasi kedua-dua halaman sehingga imbasan bermula</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Apabila proses pengimbasan dimulakan, jangan bergerak agar pengimbasan dapat diselesaikan</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Imbas dokumen anda</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Buang sebarang penutup dari dokumen dan peranti anda</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Pastikan peranti dan dokumen anda berada dalam hubungan sehingga pengimbasan berjaya</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Pelahan-lahan geser telefon anda di kedua-dua halaman sehingga imbasan bermula</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Sekali imbasan bermula, kekal diam supaya imbasan dapat diselesaikan</string>
-	<string name="onfido_nfc_scan_error_document_title">Dokumen tidak disokong</string>
-	<string name="onfido_nfc_scan_error_document_subtitle">Sila cuba dengan dokumen lain</string>
-	<string name="onfido_nfc_scan_error_document_primary_button">Pilih dokumen lain</string>
-	<string name="onfido_nfc_scan_error_document_secondary_button">Pengesahan keluar</string>
-	<string name="onfido_nfc_scan_error_device_title">Peranti tidak disokong</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Maaf atas sebarang kesulitan. Sila gunakan peranti yang berbeza untuk mengesahkan identiti anda</string>
-	<string name="onfido_nfc_scan_error_device_primary_button">Pengesahan keluar</string>
-	<string name="onfido_nfc_scan_doc_selection_disclaimer">Kami hanya menerima dokumen dengan cip. Cari ikon ini pada dokumen anda</string>
-	<string name="onfido_nfc_fail_card_title">Kami tidak dapat mengimbas dokumen ini</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Buang sebarang penutup dari peranti anda</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Simpan peranti dan dokumen anda dalam hubungan sehingga pengimbasan berjaya</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Pelan-pelan geser dokumen anda naik dan turun melawan peranti sehingga pemindaian bermula</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Sekali imbasan bermula, kekal diam supaya imbasan dapat diselesaikan</string>
-	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Sahkan tanpa mengimbas</string>
-	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Pengesahan keluar</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">Anda mungkin diminta untuk memasukkan CAN sebelum meneruskan ke imbasan</string>
-	<string name="onfido_enter_can_secondary_button">Saya tidak mempunyai CAN</string>
-	<string name="onfido_nfc_scan_error_can_title">Percubaan maksimum dicapai</string>
-	<string name="onfido_nfc_scan_error_can_subtitle">Anda telah mencapai percubaan maksimum untuk memasukkan nombor CAN anda</string>
-	<string name="onfido_nfc_scan_error_can_primary_button">Pengesahan keluar</string>
-	<string name="onfido_nfc_scan_error_document_alt_primary_button">Cuba Semula</string>
-	<string name="onfido_interactive_task_waiting_title_5">Memuat naik media...</string>
 </resources>
