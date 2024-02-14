@@ -34,14 +34,13 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Verifica la tua identità</string>
-    <string name="onfido_app_title_doc_select">Verifica la tua identità</string>
     <string name="onfido_welcome_title">Verifica la tua identità</string>
     <string name="onfido_welcome_subtitle">L’operazione richiederà pochi minuti</string>
 	<string name="onfido_selfie_capture_button_accessibility">Pulsante di scatto</string>
     <string name="onfido_selfie_intro_title">Scatta un selfie</string>
     <string name="onfido_app_title_country_select">Seleziona il paese di emissione</string>
 	<string name="onfido_country_select_bottom_sheet_title">Non trovi il tuo paese?</string>
-    <string name="onfido_country_select_bottom_sheet_details">Sembra che il paese del documento che hai selezionato non sia supportato. Seleziona un paese diverso.</string>
+	<string name="onfido_country_select_bottom_sheet_details">Sembra che il paese del documento che hai scelto non sia supportato. Per favore, scegli un altro paese.</string>
     <string name="onfido_selfie_intro_subtitle">Lo confronteremo con il tuo documento</string>
     <string name="onfido_selfie_capture_body">Tieni il viso nell’ovale</string>
     <string name="onfido_video_capture_prompt_button_timeout">Riprova</string>
@@ -132,7 +131,7 @@
     <string name="onfido_video_capture_alert_wrong_side">Lato errato</string>
     <string name="onfido_video_capture_prompt_button_primary_network_timeout">Ricarica le istruzioni</string>
     <string name="onfido_video_capture_prompt_network_timeout_title">Timeout di connessione</string>
-    <string name="onfido_video_capture_prompt_network_timeout_detail">Verifica che la connessione sia stabile e riprova</string>
+	<string name="onfido_video_capture_prompt_network_timeout_detail">Assicurati che la connessione sia stabile e prova di nuovo</string>
 	<string name="onfido_generic_back">indietro</string>
     <string name="onfido_permission_body_both">Impossibile verificare la tua identità senza usare sia la fotocamera che il microfono</string>
     <string name="onfido_permission_button_primary_both">Abilita entrambi</string>
@@ -303,7 +302,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Ottenere la verifica senza NFC</string>
     <string name="onfido_nfc_scan_error_title">Non siamo riusciti a scansionare il documento</string>
 
-    <string name="onfido_nfc_intro_title_passport">Scansiona il passaporto elettronico</string>
+	<string name="onfido_nfc_intro_title_passport">Scansiona il tuo passaporto</string>
     <string name="onfido_nfc_intro_subtitle">Seguire le istruzioni riportate di seguito</string>
     <string name="onfido_nfc_intro_button_primary">Inizia la scansione</string>
 
@@ -322,8 +321,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Contatto perso con il passaporto</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Muovi il telefono leggermente su o giù</string>
 
-    <string name="onfido_enter_can_title">Inserire il CAN</string>
-    <string name="onfido_enter_can_subtitle">Assicurarsi che il numero fornito corrisponda a quello riportato sul documento.</string>
+	<string name="onfido_enter_can_title">Inserisci il numero CAN</string>
+	<string name="onfido_enter_can_subtitle">Il numero di %d cifre si trova sul fronte del tuo documento</string>
     <string name="onfido_enter_can_button_primary">Continua</string>
     <string name="onfido_enter_can_disclaimer">Il numero di %d cifre si trova nella parte anteriore del documento.</string>
 	<string name="onfido_enter_can_error_label">Ti sono rimaste %1$d %2$s.</string>
@@ -396,7 +395,7 @@
 	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Riavvia la registrazione</string>
 
     <!-- Motion Accessibility  -->
-	<string name="onfido_avc_intro_title_accessibility">Registra un video del tuo viso</string>
+	<string name="onfido_avc_intro_title_accessibility">Registrare un video del tuo viso</string>
 	<string name="onfido_avc_intro_video_accessibility">Video di esempio di una persona che ruota la testa verso entrambi i lati fino al completamento</string>
     <string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Ruota la testa verso l\'altro lato</string>
 	<string name="onfido_avc_face_capture_frame_accessibility">Vista dalla fotocamera frontale</string>
@@ -429,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Estratto conto della banca</string>
 	<string name="onfido_doc_select_extra_estatements_ok">sono accettati gli estratti conto elettronici</string>
 	<string name="onfido_doc_select_button_bill">Bolletta</string>
-	<string name="onfido_doc_select_button_tax_letter">Lettera sull\'imposta locale</string>
+	<string name="onfido_doc_select_button_tax_letter">Lettera di Tassa del Governo Locale</string>
 	<string name="onfido_doc_select_button_benefits_letter">Lettera sulle prestazioni previdenziali</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Prestazioni previdenziali autorizzate dal governo, come sussidio di disoccupazione, indennità di alloggio o credito d\'imposta</string>
     <string name="onfido_doc_select_button_address_card">Scheda indirizzo</string>
@@ -481,10 +480,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Riprova</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Un’altra app sta riproducendo audio</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Non riprodurre audio sul dispositivo durante la registrazione</string>
-    <string name="onfido_nfc_scan_welcome_card_subtitle">Eseguiremo la scansione del chip NFC del tuo documento</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Posiziona il documento sul retro del dispositivo</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Fai scorrere lentamente il dispositivo su e giù</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Una volta avviata la scansione, tienilo fermo</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Usa il tuo telefono per scansionare il chip nel tuo documento</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Posiziona il tuo documento sul retro del tuo dispositivo in modo che si tocchino</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Scorri lentamente il tuo documento su e giù contro il dispositivo fino a quando non inizia la scansione</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Una volta avviata la scansione, rimani fermo affinché la scansione possa completarsi</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Ottenere la verifica senza NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Rimuovi la cover del telefono</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Mantieni il dispositivo e il documento in contatto fino a quando la scansione non va a buon fine</string>
@@ -492,12 +491,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">La scansione NFC è necessaria per questo documento, ma non è stato possibile completarla.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Hai un altro documento con cui procedere?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Usa un documento diverso</string>
-    <string name="onfido_nfc_scan_welcome_passport_subtitle">Eseguiremo la scansione del chip NFC del tuo documento</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Usa il tuo telefono per scansionare il chip nel tuo documento</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Appoggia il documento su una superficie piana</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Apri il documento nella pagina posteriore interna</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Posiziona il documento sul retro del dispositivo</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Posiziona il tuo documento sul retro del tuo dispositivo in modo che si tocchino</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Fai scorrere lentamente il dispositivo su e giù</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Una volta avviata la scansione, tienilo fermo</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Una volta avviata la scansione, rimani fermo affinché la scansione possa completarsi</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Ottenere la verifica senza NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Rimuovi passaporto e telefono dalle custodie</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Mantieni il dispositivo e il documento in contatto fino a quando la scansione non va a buon fine</string>
@@ -518,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Caricamento immagine...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Caricamento video...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Verifica della qualità dei dati...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">La connessione è instabile. Si prega di attendere un po\' più a lungo per il completamento del compito.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Si prega di attendere un po\' di più per il completamento del compito.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilazione dei dati...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Stiamo compilando i dati raccolti, attendere prego.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Protezione dei dati in corso...</string>
@@ -528,4 +527,37 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Stiamo elaborando le tue informazioni, per favore aspetta.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Elaborazione in corso...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Si prega di attendere un po\' più a lungo affinché questo processo si concluda, la tua pazienza è apprezzata.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Il compito è ancora in esecuzione, la tua pazienza è apprezzata.</string>
+	<string name="onfido_interactive_task_waiting_title_5">Caricamento dei media in corso...</string>
+	<string name="onfido_nfc_intro_subtitle_passport">Usa il tuo telefono per scansionare il chip nel tuo passaporto</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Posiziona il tuo passaporto aperto su una superficie piana</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Posiziona il tuo telefono direttamente sopra il tuo passaporto in modo che si tocchino</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Scorri lentamente il tuo telefono su entrambe le pagine fino a quando non inizia la scansione</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Una volta avviata la scansione, rimani fermo affinché la scansione possa completarsi</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Scansiona il tuo documento</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Rimuovi qualsiasi copertura dal tuo documento e dispositivo</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Mantieni il tuo dispositivo e il documento in contatto fino a quando la scansione non ha successo</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Scorri lentamente il tuo telefono su entrambe le pagine fino a quando non inizia la scansione</string>
+	<string name="onfido_nfc_fail_passport_list_item_4">Una volta avviata la scansione, rimani fermo affinché la scansione possa completarsi</string>
+	<string name="onfido_nfc_scan_error_document_title">Documento non supportato</string>
+	<string name="onfido_nfc_scan_error_document_subtitle">Prova con un altro documento</string>
+	<string name="onfido_nfc_scan_error_document_primary_button">Scegli un altro documento</string>
+	<string name="onfido_nfc_scan_error_document_secondary_button">Uscita dalla verifica</string>
+	<string name="onfido_nfc_scan_error_device_title">Dispositivo non supportato</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Spiacenti per l\'inconveniente. Utilizza un dispositivo diverso per verificare la tua identità</string>
+	<string name="onfido_nfc_scan_error_device_primary_button">Uscita dalla verifica</string>
+	<string name="onfido_nfc_scan_doc_selection_disclaimer">Accettiamo solo documenti con un chip. Cerca questa icona sul tuo documento</string>
+	<string name="onfido_nfc_fail_card_title">Non siamo riusciti a scansionare questo documento</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Rimuovi qualsiasi copertura dal tuo dispositivo</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Mantieni il tuo dispositivo e il documento in contatto fino a quando la scansione ha successo</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Scorri lentamente il tuo documento su e giù contro il dispositivo fino a quando non inizia la scansione</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Una volta avviata la scansione, rimani fermo affinché la scansione possa completarsi</string>
+	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifica senza scansione</string>
+	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Uscita dalla verifica</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">Potrebbe essere richiesto di inserire il CAN prima di procedere con la scansione</string>
+	<string name="onfido_enter_can_secondary_button">Non ho un CAN</string>
+	<string name="onfido_nfc_scan_error_can_title">Numero massimo di tentativi raggiunto</string>
+	<string name="onfido_nfc_scan_error_can_subtitle">Hai raggiunto il numero massimo di tentativi per inserire il tuo numero CAN</string>
+	<string name="onfido_nfc_scan_error_can_primary_button">Uscita dalla verifica</string>
+	<string name="onfido_nfc_scan_error_document_alt_primary_button">Riprova</string>
 </resources>

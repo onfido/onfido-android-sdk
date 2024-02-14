@@ -34,7 +34,6 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Verifieer uw identiteit</string>
-    <string name="onfido_app_title_doc_select">Verifieer uw identiteit</string>
     <string name="onfido_welcome_title">Verifieer uw identiteit</string>
     <string name="onfido_welcome_subtitle">Dat duurt maar een paar minuten</string>
 	<string name="onfido_selfie_capture_button_accessibility">Sluiterknop</string>
@@ -303,7 +302,7 @@
 	<string name="onfido_nfc_scan_error_button_secondary">Word geverifieerd zonder NFC</string>
     <string name="onfido_nfc_scan_error_title">We konden uw document niet scannen</string>
 
-    <string name="onfido_nfc_intro_title_passport">Scan uw ePassport</string>
+	<string name="onfido_nfc_intro_title_passport">Scan uw paspoort</string>
     <string name="onfido_nfc_intro_subtitle">Volg de onderstaande instructies</string>
     <string name="onfido_nfc_intro_button_primary">Start met scannen</string>
 
@@ -322,8 +321,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Contact met paspoort verloren</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Beweeg je telefoon iets omhoog of omlaag</string>
 
-    <string name="onfido_enter_can_title">Voer de CAN in</string>
-    <string name="onfido_enter_can_subtitle">Zorg ervoor dat het opgegeven nummer overeenkomt met het nummer op het document.</string>
+	<string name="onfido_enter_can_title">Voer het CAN-nummer in</string>
+	<string name="onfido_enter_can_subtitle">Het %d-cijferig nummer bevindt zich aan de voorkant van uw document</string>
     <string name="onfido_enter_can_button_primary">Doorgaan</string>
     <string name="onfido_enter_can_disclaimer">Het %d-cijfer staat voorin uw document.</string>
 	<string name="onfido_enter_can_error_label">Je hebt %1$d %2$s over.</string>
@@ -429,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bankafschrift</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Elektronische afschriften geaccepteerd</string>
 	<string name="onfido_doc_select_button_bill">Energierekening</string>
-    <string name="onfido_doc_select_button_tax_letter">Brief gemeentelijke belastingen</string>
+	<string name="onfido_doc_select_button_tax_letter">Brief van de lokale overheid over belasting</string>
 	<string name="onfido_doc_select_button_benefits_letter">Brief belastingvoordelen</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Door de overheid toegestane uitkeringen voor huishoudens, bv. uitkering voor werkzoekenden, huursubsidie, heffingskorting</string>
     <string name="onfido_doc_select_button_address_card">Adres kaart</string>
@@ -481,10 +480,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Opnieuw proberen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio wordt door een andere app afgespeeld</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Speel tijdens de opname geen audio af op uw apparaat.</string>
-    <string name="onfido_nfc_scan_welcome_card_subtitle">We scannen de NFC-chip van uw document</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Plaats uw document aan de achterkant van uw toestel</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Schuif uw apparaat langzaam op en neer</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Zodra de scan begint, houdt u hem stil</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Gebruik uw telefoon om de chip in uw document te scannen</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Plaats uw document tegen de achterkant van uw apparaat zodat ze elkaar raken</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2"> Schuif uw document langzaam op en neer tegen het apparaat totdat de scan begint</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Zodra de scan begint, blijf stil zodat de scan kan voltooien</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Word geverifieerd zonder NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Verwijder uw telefoonhoesje</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Houd uw apparaat en document in contact totdat het scannen is gelukt</string>
@@ -492,12 +491,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-scannen is vereist voor dit document, maar kon niet worden voltooid.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Heeft u een ander document om mee verder te gaan?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Ander document gebruiken</string>
-    <string name="onfido_nfc_scan_welcome_passport_subtitle">We scannen de NFC-chip van uw document</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Gebruik uw telefoon om de chip in uw document te scannen</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Leg uw document op een vlakke ondergrond</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Open uw document op de binnenste achterpagina</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Plaats uw document aan de achterkant van uw toestel</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Plaats uw document tegen de achterkant van uw apparaat zodat ze elkaar raken</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Schuif uw apparaat langzaam op en neer</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Zodra de scan begint, houdt u hem stil</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Zodra de scan begint, blijf stil zodat de scan kan voltooien</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Word geverifieerd zonder NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Verwijder de hoesjes van uw telefoon en paspoort</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Houd uw apparaat en document in contact totdat het scannen is gelukt</string>
@@ -518,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Afbeelding uploaden...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Video uploaden...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Controleren van datakwaliteit...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">De verbinding is onstabiel. Wacht alstublieft iets langer tot de taak is voltooid.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Wacht alstublieft nog even, de taak is bijna voltooid.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Gegevens aan het compileren...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We zijn de verzamelde gegevens aan het compileren, even geduld aub.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Gegevens beveiligen...</string>
@@ -528,4 +527,37 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">We verwerken uw informatie, even geduld aub.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Verwerking bezig...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Wacht alstublieft nog even tot dit proces is voltooid, uw geduld wordt op prijs gesteld.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">De taak is nog steeds bezig, uw geduld wordt op prijs gesteld.</string>
+	<string name="onfido_interactive_task_waiting_title_5">Media uploaden...</string>
+	<string name="onfido_nfc_intro_subtitle_passport">Gebruik uw telefoon om de chip in uw paspoort te scannen</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Leg uw paspoort open op een vlakke ondergrond</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Plaats uw telefoon direct bovenop uw paspoort zodat ze elkaar raken</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Veeg langzaam met uw telefoon over beide pagina\'s totdat de scan begint</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Zodra de scan begint, blijf stil zodat de scan kan voltooien</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Scan uw document</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Verwijder alle hoezen van uw document en apparaat</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Houd uw apparaat en document in contact totdat het scannen succesvol is</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Veeg langzaam met uw telefoon over beide pagina\'s totdat de scan begint</string>
+	<string name="onfido_nfc_fail_passport_list_item_4">Zodra de scan begint, blijf stil zodat de scan kan voltooien</string>
+	<string name="onfido_nfc_scan_error_document_title">Document niet ondersteund</string>
+	<string name="onfido_nfc_scan_error_document_subtitle">Probeer het met een ander document</string>
+	<string name="onfido_nfc_scan_error_document_primary_button">Kies een ander document</string>
+	<string name="onfido_nfc_scan_error_document_secondary_button">Verificatie afsluiten</string>
+	<string name="onfido_nfc_scan_error_device_title">Niet-ondersteund apparaat</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Onze excuses voor het ongemak. Gebruik alstublieft een ander apparaat om uw identiteit te verifiëren</string>
+	<string name="onfido_nfc_scan_error_device_primary_button">Verificatie afsluiten</string>
+	<string name="onfido_nfc_scan_doc_selection_disclaimer">We accepteren alleen documenten met een chip. Zoek naar dit pictogram op uw document</string>
+	<string name="onfido_nfc_fail_card_title">We konden dit document niet scannen</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Verwijder alle hoesjes van uw apparaat</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Houd uw apparaat en document in contact totdat het scannen succesvol is</string>
+	<string name="onfido_nfc_fail_card_list_item_3"> Schuif uw document langzaam op en neer tegen het apparaat totdat de scan begint</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Zodra de scan begint, blijf stil zodden zodat de scan kan voltooien</string>
+	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifiëren zonder te scannen</string>
+	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Verificatie afsluiten</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">U wordt mogelijk gevraagd om de CAN in te voeren voordat u doorgaat met de scan</string>
+	<string name="onfido_enter_can_secondary_button">Ik heb geen CAN</string>
+	<string name="onfido_nfc_scan_error_can_title">Maximaal aantal pogingen bereikt</string>
+	<string name="onfido_nfc_scan_error_can_subtitle">U heeft het maximale aantal pogingen bereikt om uw CAN-nummer in te voeren</string>
+	<string name="onfido_nfc_scan_error_can_primary_button">Verificatie afsluiten</string>
+	<string name="onfido_nfc_scan_error_document_alt_primary_button">Opnieuw proberen</string>
 </resources>

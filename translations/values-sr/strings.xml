@@ -34,7 +34,6 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Obavite proveru identiteta</string>
-    <string name="onfido_app_title_doc_select">Obavite proveru identiteta</string>
     <string name="onfido_welcome_title">Obavite proveru identiteta</string>
     <string name="onfido_welcome_subtitle">Trebalo bi da traje nekoliko minuta</string>
 	<string name="onfido_selfie_capture_button_accessibility">Okidač</string>
@@ -303,7 +302,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Verifikujte bez NFC-a</string>
     <string name="onfido_nfc_scan_error_title">Nismo uspeli da skeniramo vaš dokument</string>
 
-    <string name="onfido_nfc_intro_title_passport">Skenirajte e-pasoš</string>
+	<string name="onfido_nfc_intro_title_passport">Učinite skeniranje svog pasoša</string>
     <string name="onfido_nfc_intro_subtitle">Sledite uputstva u nastavku</string>
     <string name="onfido_nfc_intro_button_primary">Započnite skeniranje</string>
 
@@ -322,8 +321,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Izgubljen je kontakt sa pasošem</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Pomerite telefon malo nagore ili nadole</string>
 
-    <string name="onfido_enter_can_title">Unesite CAN</string>
-    <string name="onfido_enter_can_subtitle">Proverite da li se navedeni broj podudara sa brojem na dokumentu.</string>
+	<string name="onfido_enter_can_title">Unesite broj CAN</string>
+	<string name="onfido_enter_can_subtitle">%d-cifreni broj se nalazi na prednjoj strani vašeg dokumenta</string>
     <string name="onfido_enter_can_button_primary">Nastavi</string>
     <string name="onfido_enter_can_disclaimer">Možete ga naći na prednjoj strani dokumenta. To je %d-cifren broj i nešto je krupnije odštampan.</string>
     <string name="onfido_enter_can_error_label">Imate još %1$d %2$s.</string>
@@ -429,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Izvod iz banke</string>
 	<string name="onfido_doc_select_extra_estatements_ok">se prihvataju</string>
 	<string name="onfido_doc_select_button_bill">Račun za komunalije</string>
-    <string name="onfido_doc_select_button_tax_letter">Potvrda o gradskom porezu</string>
+	<string name="onfido_doc_select_button_tax_letter">Pismo lokalne poreske uprave</string>
 	<string name="onfido_doc_select_button_benefits_letter">Potvrda o naknadama</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Vladine odobrene naknade za domaćinstva, npr. naknada za nezaposlene, naknada za stanovanje, poreski krediti</string>
     <string name="onfido_doc_select_button_address_card">Kartica sa adresom</string>
@@ -483,10 +482,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Probajte ponovo</string>
 	<string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
 	<string name="onfido_doc_capture_header_recording_complete">Snimanje je završeno</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Скенираћемо НФЦ чип вашег документа</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Поставите документ на полеђину уређаја</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Полако померајте уређај горе-доле</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Када скенирање почне, држите га мирно</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Koristite svoj telefon da skenirate čip u vašem dokumentu</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Поставите свој документ на задњу страну уређаја тако да се додирују</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Polako pomerajte svoj dokument gore-dole uz uređaj dok se skeniranje ne pokrene</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kada započne skeniranje, ne pomerajte se kako bi se proces mogao uspešno završiti</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Verifikujte bez NFC-a</string>
 	<string name="onfido_nfc_scan_error_inter_list_item">Uklonite masku sa telefona</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Држите уређај и документ у контакту док скенирање не буде успешно</string>
@@ -494,12 +493,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">НФЦ скенирање је потребно за овај документ, али није могло да се заврши.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Да ли имате неки други документ за наставак?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Користите другачији документ</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Скенираћемо НФЦ чип вашег документа</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Koristite svoj telefon da skenirate čip u vašem dokumentu</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Положите документ на равну површину</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Отворите свој документ на унутрашњој задњој страни</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Поставите документ на полеђину уређаја</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Поставите свој документ на задњу страну уређаја тако да се додирују</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Полако померајте уређај горе-доле</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Када скенирање почне, држите га мирно</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Kada započne skeniranje, ne pomerajte se kako bi se proces mogao uspešno završiti</string>
 	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Verifikujte bez NFC-a</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item">Uklonite omot sa pasoša i masku sa telefona</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Држите уређај и документ у контакту док скенирање не буде успешно</string>
@@ -518,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Otpremanje slike...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Otpremanje videa...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Provera kvaliteta podataka...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Konekcija je nestabilna. Molimo vas da malo duže sačekate da se zadatak završi.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Molimo vas da malo duže sačekate da se zadatak završi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilacija podataka...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Sakupljamo prikupljene podatke, molimo sačekajte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Обезбеђивање података...</string>
@@ -528,4 +527,37 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Obrađujemo vaše informacije, molimo sačekajte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Procesiranje u toku...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Molimo vas da malo duže sačekate da se ovaj proces završi, vaše strpljenje je cenjeno.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Zadatak je još uvek u toku, hvala na strpljenju.</string>
+	<string name="onfido_interactive_task_waiting_title_5">Otpremanje medija...</string>
+	<string name="onfido_nfc_intro_subtitle_passport">Koristite svoj telefon da skenirate čip u vašem pasošu</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Rasporedite svoj pasoš otvoren na ravnoj površini</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Stavite svoj telefon direktno na vrh svog pasoša tako da se dodiruju</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Polako prevucite telefon preko obe stranice dok se skeniranje ne pokrene</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Kada počne skeniranje, nemojte se pomerati kako bi se skeniranje moglo završiti</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Skenirajte svoj dokument</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Uklonite sve poklopce sa vašeg dokumenta i uređaja</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Držite svoj uređaj i dokument u kontaktu dok skeniranje ne bude uspešno</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Polako prevucite telefon preko obe stranice dok skeniranje ne počne</string>
+	<string name="onfido_nfc_fail_passport_list_item_4">Jednom kada skeniranje počne, ostanite mirni kako bi skeniranje moglo da se završi</string>
+	<string name="onfido_nfc_scan_error_document_title">Dokument nije podržan</string>
+	<string name="onfido_nfc_scan_error_document_subtitle">Molim vas, pokušajte sa drugim dokumentom</string>
+	<string name="onfido_nfc_scan_error_document_primary_button">Izaberite drugi dokument</string>
+	<string name="onfido_nfc_scan_error_document_secondary_button">Izlazna verifikacija</string>
+	<string name="onfido_nfc_scan_error_device_title">Nepodržani uređaj</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Izvinjavamo se za bilo kakvu neprijatnost. Molimo vas da koristite drugi uređaj da potvrdite svoj identitet</string>
+	<string name="onfido_nfc_scan_error_device_primary_button">Izlazna verifikacija</string>
+	<string name="onfido_nfc_scan_doc_selection_disclaimer">Prihvatamo samo dokumente sa čipom. Potražite ovu ikonicu na vašem dokumentu</string>
+	<string name="onfido_nfc_fail_card_title">Nismo mogli da skeniramo ovaj dokument</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Uklonite sve poklopce sa vašeg uređaja</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Držite svoj uređaj i dokument u kontaktu dok skeniranje ne bude uspešno</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Polako klizite svoj dokument gore-dole uz uređaj dok skeniranje ne počne</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Jednom kada skeniranje počne, držite se mirno kako bi skeniranje moglo da se završi</string>
+	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifikuj bez skeniranja</string>
+	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Izlazna verifikacija</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">Može vam biti zatraženo da unesete CAN pre nego što nastavite sa skeniranjem</string>
+	<string name="onfido_enter_can_secondary_button">Nemam CAN</string>
+	<string name="onfido_nfc_scan_error_can_title">Достигнут је максимум покушаја</string>
+	<string name="onfido_nfc_scan_error_can_subtitle">Dostigli ste maksimalan broj pokušaja za unos vašeg CAN broja</string>
+	<string name="onfido_nfc_scan_error_can_primary_button">Izlazna verifikacija</string>
+	<string name="onfido_nfc_scan_error_document_alt_primary_button">Probajte ponovo</string>
 </resources>

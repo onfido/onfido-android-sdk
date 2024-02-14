@@ -34,7 +34,6 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Xác minh danh tính của bạn</string>
-    <string name="onfido_app_title_doc_select">Xác minh danh tính của bạn</string>
     <string name="onfido_welcome_title">Xác minh danh tính của bạn</string>
     <string name="onfido_welcome_subtitle">Quá trình này có thể mất vài phút</string>
 	<string name="onfido_selfie_capture_button_accessibility">Chụp</string>
@@ -303,7 +302,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Được xác minh mà không cần NFC</string>
     <string name="onfido_nfc_scan_error_title">Chúng tôi không thể quét giấy tờ của bạn</string>
 
-    <string name="onfido_nfc_intro_title_passport">Quét ePassport của bạn</string>
+	<string name="onfido_nfc_intro_title_passport">Quét hộ chiếu của bạn</string>
     <string name="onfido_nfc_intro_subtitle">Làm theo hướng dẫn bên dưới</string>
     <string name="onfido_nfc_intro_button_primary">Bắt đầu quét</string>
 
@@ -322,8 +321,8 @@
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Mất tiếp xúc với hộ chiếu</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Di chuyển điện thoại của bạn lên trên hoặc xuống dưới một chút</string>
 
-    <string name="onfido_enter_can_title">Nhập CAN</string>
-    <string name="onfido_enter_can_subtitle">Vui lòng đảm bảo số được cung cấp khớp với số trên giấy tờ.</string>
+	<string name="onfido_enter_can_title">Nhập số CAN</string>
+	<string name="onfido_enter_can_subtitle">Số %d-chữ số nằm ở mặt trước của tài liệu của bạn</string>
     <string name="onfido_enter_can_button_primary">Tiếp tục</string>
     <string name="onfido_enter_can_disclaimer">Bạn có thể tìm thấy nó ở mặt trước giấy tờ. Nó dài %d chữ số và có kích thước lớn hơn một chút.</string>
     <string name="onfido_enter_can_error_label">Bạn còn lại %1$d %2$s.</string>
@@ -429,7 +428,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bảng sao kê của ngân hàng</string>
 	<string name="onfido_doc_select_extra_estatements_ok">các bảng sao kê điện tử được chấp nhận</string>
 	<string name="onfido_doc_select_button_bill">Hóa đơn dịch vụ thiết yếu</string>
-    <string name="onfido_doc_select_button_tax_letter">Công văn thuế của hội đồng</string>
+	<string name="onfido_doc_select_button_tax_letter">Thư Thuế Chính Quyền Địa Phương</string>
 	<string name="onfido_doc_select_button_benefits_letter">Công văn phúc lợi</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Trợ cấp cho hộ gia đình do chính phủ cấp, ví dụ: Trợ cấp cho người tìm việc, Trợ cấp nhà ở, Tín dụng thuế</string>
     <string name="onfido_doc_select_button_address_card">Thẻ địa chỉ</string>
@@ -483,10 +482,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vui lòng không phát bất kỳ âm thanh nào trên thiết bị của bạn trong khi ghi âm</string>
 	<string name="onfido_doc_capture_header_recording_video">Ghi video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Ghi hình đã hoàn tất</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Chúng tôi sẽ quét chip NFC đối với tài liệu của bạn</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Đặt tài liệu ở phía sau thiết bị của bạn</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Từ từ trượt thiết bị của bạn lên và xuống</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Khi quá trình quét bắt đầu, hãy giữ yên</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Sử dụng điện thoại của bạn để quét chip trong tài liệu của bạn</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Đặt tài liệu của bạn vào phía sau của thiết bị để chúng tiếp xúc với nhau</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Được xác minh mà không cần NFC</string>
 	<string name="onfido_nfc_scan_error_inter_list_item">Tháo ốp điện thoại của bạn</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công</string>
@@ -494,12 +493,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">Cần quét NFC đối với tài liệu này nhưng không thể hoàn tất.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Bạn có một tài liệu khác để tiếp tục?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Sử dụng tài liệu khác nhau</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Chúng tôi sẽ quét chip NFC đối với tài liệu của bạn</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Sử dụng điện thoại của bạn để quét chip trong tài liệu của bạn</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Đặt tài liệu của bạn trên một bề mặt phẳng</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Mở tài liệu của bạn ở trang sau bên trong</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Đặt tài liệu ở phía sau thiết bị của bạn</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Đặt tài liệu của bạn vào phía sau của thiết bị để chúng tiếp xúc với nhau</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Từ từ trượt thiết bị của bạn lên và xuống</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Khi quá trình quét bắt đầu, hãy giữ yên</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
 	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Được xác minh mà không cần NFC</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item">Tháo bìa hộ chiếu và ốp điện thoại của bạn</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Giữ kết nối giữa thiết bị và tài liệu của bạn cho đến khi quá trình quét thành công</string>
@@ -518,7 +517,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Đang tải lên hình ảnh...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Đang tải video lên...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Đang kiểm tra chất lượng dữ liệu...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Kết nối không ổn định. Vui lòng đợi thêm một chút để công việc hoàn thành.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Vui lòng đợi thêm một chút để công việc hoàn thành.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Đang biên dịch dữ liệu...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Chúng tôi đang tổng hợp dữ liệu đã thu thập, vui lòng đợi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Đang bảo mật dữ liệu...</string>
@@ -528,4 +527,37 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Chúng tôi đang xử lý thông tin của bạn, vui lòng đợi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Đang xử lý...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vui lòng chờ thêm một chút để quá trình này hoàn tất, sự kiên nhẫn của bạn rất được trân trọng.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Công việc vẫn đang được thực hiện, xin cảm ơn sự kiên nhẫn của bạn.</string>
+	<string name="onfido_interactive_task_waiting_title_5">Đang tải lên phương tiện...</string>
+	<string name="onfido_nfc_intro_subtitle_passport">Sử dụng điện thoại của bạn để quét chip trong hộ chiếu của bạn</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Đặt hộ chiếu của bạn đã mở ra trên một bề mặt phẳng</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Đặt điện thoại của bạn trực tiếp lên hộ chiếu sao cho chúng tiếp xúc với nhau</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Từ từ trượt điện thoại của bạn qua cả hai trang cho đến khi quét bắt đầu</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Quét tài liệu của bạn</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Gỡ bỏ bất kỳ vỏ bọc nào từ tài liệu và thiết bị của bạn</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Từ từ trượt điện thoại của bạn qua cả hai trang cho đến khi quét bắt đầu</string>
+	<string name="onfido_nfc_fail_passport_list_item_4">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
+	<string name="onfido_nfc_scan_error_document_title">Tài liệu không được hỗ trợ</string>
+	<string name="onfido_nfc_scan_error_document_subtitle">Vui lòng thử với một tài liệu khác</string>
+	<string name="onfido_nfc_scan_error_document_primary_button">Chọn một tài liệu khác</string>
+	<string name="onfido_nfc_scan_error_document_secondary_button">Xác minh thoát</string>
+	<string name="onfido_nfc_scan_error_device_title">Thiết bị không được hỗ trợ</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Xin lỗi vì bất kỳ sự bất tiện nào. Vui lòng sử dụng một thiết bị khác để xác minh danh tính của bạn</string>
+	<string name="onfido_nfc_scan_error_device_primary_button">Xác minh thoát</string>
+	<string name="onfido_nfc_scan_doc_selection_disclaimer">Chúng tôi chỉ chấp nhận các tài liệu có chip. Hãy tìm biểu tượng này trên tài liệu của bạn</string>
+	<string name="onfido_nfc_fail_card_title">Chúng tôi không thể quét tài liệu này</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Gỡ bỏ bất kỳ vỏ bảo vệ nào khỏi thiết bị của bạn</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Giữ thiết bị và tài liệu của bạn tiếp xúc cho đến khi quét thành công</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
+	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Xác minh mà không cần quét</string>
+	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Xác minh thoát</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">Bạn có thể được yêu cầu nhập CAN trước khi tiếp tục quét</string>
+	<string name="onfido_enter_can_secondary_button">Tôi không có một CAN</string>
+	<string name="onfido_nfc_scan_error_can_title">Đã đạt tới số lần thử tối đa</string>
+	<string name="onfido_nfc_scan_error_can_subtitle">Bạn đã đạt đến số lần thử nhập số CAN tối đa</string>
+	<string name="onfido_nfc_scan_error_can_primary_button">Xác minh thoát</string>
+	<string name="onfido_nfc_scan_error_document_alt_primary_button">Thử lại</string>
 </resources>

@@ -34,7 +34,6 @@
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Verificer din identitet</string>
-    <string name="onfido_app_title_doc_select">Verificer din identitet</string>
     <string name="onfido_welcome_title">Verificer din identitet</string>
     <string name="onfido_welcome_subtitle">Det tager nok et par minutter</string>
 	<string name="onfido_selfie_capture_button_accessibility">Udløser</string>
@@ -118,7 +117,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Tillad adgang til mikrofon</string>
     <string name="onfido_permission_subtitle_mic">Når du bliver bedt om det, skal du aktivere adgang til mikrofonen for at fortsætte</string>
-    <string name="onfido_permission_button_primary_mic">Aktivér mikrofon</string>
+	<string name="onfido_permission_button_primary_mic">Aktiver mikrofon</string>
     <string name="onfido_permission_recovery_title_mic">Adgang til mikrofon er nægtet</string>
     <string name="onfido_permission_body_mic">Vi kan ikke verificere dig uden at bruge din mikrofon</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Du kan gendanne adgang til mikrofonen via dine enhedsindstillinger</string>
@@ -303,7 +302,7 @@
     <string name="onfido_nfc_scan_error_button_secondary">Bliv bekræftet uden NFC</string>
     <string name="onfido_nfc_scan_error_title">Vi kan ikke scanne dit dokument</string>
 
-    <string name="onfido_nfc_intro_title_passport">Scan dit ePas</string>
+	<string name="onfido_nfc_intro_title_passport">Scan dit pas</string>
     <string name="onfido_nfc_intro_subtitle">Følg anvisningerne nedenfor</string>
     <string name="onfido_nfc_intro_button_primary">Start scanning</string>
 
@@ -323,7 +322,7 @@
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Flyt din telefon lidt op- eller nedad</string>
 
     <string name="onfido_enter_can_title">Indtast CAN-nummeret</string>
-    <string name="onfido_enter_can_subtitle">Sørg for, at det angivne nummer stemmer overens med nummeret på dokumentet.</string>
+	<string name="onfido_enter_can_subtitle">Det %d-cifrene nummer er placeret på forsiden af dit dokument</string>
     <string name="onfido_enter_can_button_primary">Fortsæt</string>
     <string name="onfido_enter_can_disclaimer">Du kan finde det på dit dokuments forside. Nummeret er på %d cifre og lidt større i størrelse.</string>
     <string name="onfido_enter_can_error_label">Du har %1$d %2$s tilbage.</string>
@@ -428,7 +427,7 @@
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Kontoudtog</string>
 	<string name="onfido_doc_select_extra_estatements_ok">accepterede e-erklæringer</string>
 	<string name="onfido_doc_select_button_bill">Regning på forbrugsydelser</string>
-    <string name="onfido_doc_select_button_tax_letter">Brev om kommuneskat</string>
+	<string name="onfido_doc_select_button_tax_letter">Lokal skattebrev fra regeringen</string>
 	<string name="onfido_doc_select_button_benefits_letter">Brev om sociale ydelser</string>
 	<string name="onfido_doc_select_button_benefits_letter_detail">Myndighedsgodkendte boligydelser, f.eks. Arbejdsløshedsunderstøttelse, boligstøtte, skattefradrag</string>
     <string name="onfido_doc_select_button_address_card">Adressekort</string>
@@ -480,10 +479,10 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Prøv igen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Der afspilles lyd i anden app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Afspil ikke lyd på enheden under optagelsen</string>
-    <string name="onfido_nfc_scan_welcome_card_subtitle">Vi scanner NFC-chippen på dit dokument</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Placer dit dokument på bagsiden af din enhed</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Skub langsomt din enhed op og ned</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Når scanningen starter, skal du holde den stille</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Brug din telefon til at scanne chippen i dit dokument</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Placer dit dokument mod bagsiden af din enhed, så de rører ved hinanden</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Bliv bekræftet uden NFC</string>
     <string name="onfido_nfc_scan_error_inter_list_item">Fjern dit telefonetui</string>
 	<string name="onfido_nfc_scan_error_inter_list_item_2">Hold din enhed og dokument i kontakt, indtil scanningen er vellykket</string>
@@ -491,12 +490,12 @@
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-scanning er påkrævet for dette dokument, men kunne ikke fuldføres.</string>
 	<string name="onfido_nfc_scan_error_final_list_item">Har du et andet dokument at gå videre med?</string>
 	<string name="onfido_nfc_scan_error_final_primary_button">Brug et andet dokument</string>
-    <string name="onfido_nfc_scan_welcome_passport_subtitle">Vi scanner NFC-chippen på dit dokument</string>
+	<string name="onfido_nfc_scan_welcome_passport_subtitle">Brug din telefon til at scanne chippen i dit dokument</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Læg dit dokument på en flad overflade</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Åbn dit dokument på den indre bagside</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Placer dit dokument på bagsiden af din enhed</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Placer dit dokument mod bagsiden af din enhed, så de rører ved hinanden</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Skub langsomt din enhed op og ned</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Når scanningen starter, skal du holde den stille</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Bliv bekræftet uden NFC</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Fjern dit pas og dine telefonetuier</string>
 	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Hold din enhed og dokument i kontakt, indtil scanningen er vellykket</string>
@@ -517,7 +516,7 @@
 	<string name="onfido_interactive_task_waiting_title_2">Uploader billede...</string>
 	<string name="onfido_interactive_task_waiting_title_3">Uploader video...</string>
 	<string name="onfido_interactive_task_waiting_title_4">Kontrollerer datakvalitet...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Forbindelsen er ustabil. Vent venligst lidt længere for at opgaven kan blive færdig.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Vent venligst lidt længere, indtil opgaven er færdig.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Samler data...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Vi samler de indsamlede data, vent venligst.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Sikrer data...</string>
@@ -527,4 +526,37 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Vi behandler dine oplysninger, vent venligst.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Bearbejdning i gang...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Vent venligst lidt længere på, at denne proces er færdig, din tålmodighed værdsættes.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">Opgaven kører stadig, din tålmodighed værdsættes.</string>
+	<string name="onfido_interactive_task_waiting_title_5">Uploader medier...</string>
+	<string name="onfido_nfc_intro_subtitle_passport">Brug din telefon til at scanne chippen i dit pas</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_1">Læg dit pas åbent på en flad overflade</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_2">Placer din telefon direkte oven på dit pas, så de rører ved hinanden</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_3">Skub langsomt din telefon hen over begge sider, indtil scanningen starter</string>
+	<string name="onfido_nfc_intro_passport_scan_guide_4">Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Scan dit dokument</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Fjern alle omslag fra dit dokument og enhed</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Hold din enhed og dokument i kontakt, indtil scanningen er vellykket</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Skub langsomt din telefon hen over begge sider, indtil scanningen starter</string>
+	<string name="onfido_nfc_fail_passport_list_item_4">Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig</string>
+	<string name="onfido_nfc_scan_error_document_title">Dokument understøttes ikke</string>
+	<string name="onfido_nfc_scan_error_document_subtitle">Prøv venligst med et andet dokument</string>
+	<string name="onfido_nfc_scan_error_document_primary_button">Vælg et andet dokument</string>
+	<string name="onfido_nfc_scan_error_document_secondary_button">Afslut verifikation</string>
+	<string name="onfido_nfc_scan_error_device_title">Ikke-understøttet enhed</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Beklager eventuelle ulemper. Brug venligst en anden enhed til at verificere din identitet</string>
+	<string name="onfido_nfc_scan_error_device_primary_button">Afslut verifikation</string>
+	<string name="onfido_nfc_scan_doc_selection_disclaimer">Vi accepterer kun dokumenter med en chip. Kig efter dette ikon på dit dokument</string>
+	<string name="onfido_nfc_fail_card_title">Vi kunne ikke scanne dette dokument</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Fjern alle covers fra din enhed</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Hold din enhed og dokument i kontakt, indtil scanningen er vellykket</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Skub langsomt dit dokument op og ned mod enheden, indtil scanningen starter</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Når scanningen starter, skal du holde dig stille, så scanningen kan blive færdig</string>
+	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Bekræft uden scanning</string>
+	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Afslut verifikation</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">Du kan blive bedt om at indtaste CAN, før du fortsætter til scanningen</string>
+	<string name="onfido_enter_can_secondary_button">Jeg har ikke en CAN</string>
+	<string name="onfido_nfc_scan_error_can_title">Maksimalt antal forsøg nået</string>
+	<string name="onfido_nfc_scan_error_can_subtitle">Du har nået det maksimale antal forsøg på at indtaste dit CAN-nummer</string>
+	<string name="onfido_nfc_scan_error_can_primary_button">Afslut verifikation</string>
+	<string name="onfido_nfc_scan_error_document_alt_primary_button">Prøv igen</string>
 </resources>
