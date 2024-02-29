@@ -3,8 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 
-def sdkVersion = '19.5.0'
-def versionCodeNumber = 1950
+def sdkVersion = '19.6.1'
+def versionCodeNumber = 1961
 
 android {
     compileSdkVersion 33
