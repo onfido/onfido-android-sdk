@@ -290,7 +290,7 @@
 
 	<string name="onfido_welcome_list_header">Utilisez votre appareil pour:</string>
 	<string name="onfido_welcome_list_item_doc_photo">Prendre une photo de votre pièce d’identité</string>
-    <string name="onfido_welcome_list_item_doc_generic">Enregistrez une vidéo de votre document d\'identité</string>
+	<string name="onfido_welcome_list_item_doc_generic">Enregistrer une vidéo de votre document d\'identité</string>
 	<string name="onfido_welcome_list_item_face_photo">Prendre une photo de votre document</string>
 	<string name="onfido_welcome_list_item_face_video">Enregistrer une vidéo de votre visage</string>
 

@@ -9,11 +9,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
-## [19.6.1] - 2024-02-29
+## [20.0.0] - 2024-03-04
 
 ### Changed
 
+- Separated Onfido SDK and Workflow APIs to onfido-public-api and onfido-workflow-api respectively, with no API or integration change
+- Updated documentation on how to integrate and use the SDK as a Dynamic Feature Module
 - Improved Resolution Selection Algorithm
+- Removed dfm-base module and merged it with onfido-public-api
+
+### Fixed
+
+- Fixed visible toolbar back navigation while SDK is initializing
+- Fixed a crash due to a FileNotFoundException, when launching Motion on certain devices by disabling compression of essential asset files
 
 ## [19.6.0] - 2024-01-29
 

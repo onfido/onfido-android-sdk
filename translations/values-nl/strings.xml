@@ -449,7 +449,7 @@
 	<string name="onfido_poa_upload_instructions_upload_button">Uploaden</string>
 	<string name="onfido_poa_upload_instructions_take_photo_button">Foto nemen</string>
 	<string name="onfido_poa_select_document_details_upload_text">Selecteer een document uit</string>
-	<string name="onfido_poa_capture_confirm">Document indienen</string>
+	<string name="onfido_poa_capture_confirm">Verzend document</string>
 	<string name="onfido_poa_capture_choose_another">Een andere kiezen</string>
 	<string name="onfido_poa_capture_redo">Neem foto opnieuw</string>
 	<string name="onfido_doc_confirmation_body">Zorg ervoor dat u de volledige documentpagina heeft geüpload, en dat de details duidelijk en zonder wazigheid of spiegeling te lezen zijn</string>

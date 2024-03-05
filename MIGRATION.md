@@ -4,6 +4,12 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
+## `19.6.0` -> `20.0.0`
+
+### Breaking API Changes
+
+- If you have imported the onfido-dfm-base module please remove the import and use onfido-public-api instead
+
 ## `19.5.0` -> `19.6.0`
 
 ### Breaking API Changes

@@ -1,8 +1,8 @@
 <resources>
 
     <!-- Document Capture -->
-	<string name="onfido_app_title_doc_capture_id_it">Cărții de identitate italian</string>
-	<string name="onfido_app_title_doc_capture_id_za">Cărții de identitate sud african</string>
+	<string name="onfido_app_title_doc_capture_id_it">Carte de identitate italiană</string>
+	<string name="onfido_app_title_doc_capture_id_za">Carte de identitate sud-africanǎ</string>
     <string name="onfido_app_title_doc_capture_license_de">Permis de conducere german</string>
     <string name="onfido_app_title_doc_capture_license_fr">Permis de conducere francez</string>
     <string name="onfido_doc_capture_prompt_button_paper">Document hârtie</string>
