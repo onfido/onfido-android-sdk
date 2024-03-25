@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [20.0.2] - 2024-03-25
+
+### Fixed
+
+- Fixed an issue where a `NoSuchFieldError` error occurred when utilizing Gradle plugin version 8.3 or later.
+
+## [20.0.1] - 2024-03-21
+
+### Fixed
+
+- Fixed an issue where a wrong callback was called when launching a Studio workflow and navigating backwards
+
 ## [20.0.0] - 2024-03-04
 
 ### Changed
@@ -17,11 +29,24 @@ translations. [More on language localisation](README.md#4-localisation)
 - Updated documentation on how to integrate and use the SDK as a Dynamic Feature Module
 - Improved Resolution Selection Algorithm
 - Removed dfm-base module and merged it with onfido-public-api
+- Use custom data input (phone number) payload in otp workflows
 
 ### Fixed
 
 - Fixed visible toolbar back navigation while SDK is initializing
 - Fixed a crash due to a FileNotFoundException, when launching Motion on certain devices by disabling compression of essential asset files
+
+## [19.6.1] - 2024-02-29
+
+### Changed
+
+- Improved Resolution Selection Algorithm
+
+## [19.4.4] - 2024-02-12
+
+### Changed
+
+- Improved resolution selection algorithm
 
 ## [19.6.0] - 2024-01-29
 
@@ -41,6 +66,13 @@ translations. [More on language localisation](README.md#4-localisation)
 - Enhanced the stability of the SDK during initial startup and when resuming after being in the background. This update ensures a smoother, more reliable experience both when launching the app and returning to it after multitasking.
 - Fixed Camera lifecyle related issues
 - Fixed broken theme after restoring state in document selection screen
+
+## [19.4.3] - 2024-01-18
+
+### Fixed
+
+- Fixed Camera Lifecycle Related Issues
+- Enhanced the stability of the SDK during initial startup and when resuming after being in the background. This update ensures a smoother, more reliable experience both when launching the app and returning to it after multitasking.
 
 ## [19.5.0] - 2023-12-04
 
