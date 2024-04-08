@@ -19,7 +19,7 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Fixed
 
 - Fixed upload error for Kosovo documents
-- Fixed an accessibility issue in the Country selection screen, where the 'Can't find your country' button used to behave incorrectly
+- Fixed an accessibility issue in the Country selection screen, where the "Can't find your country" button used to behave incorrectly
 - Fixed the Search icon not visible in dark mode
 - Fixed a crash at SDK initialization time for customers using WebViews and initializing their directory inside the onCreate method of the Application class
 - Added a ContentProvider so that the initialization of the Onfido process happens earlier than any other potential Android component
