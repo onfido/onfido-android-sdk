@@ -13,18 +13,18 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- Added missing VIEW event type to analytics documentation 
+- Added missing VIEW event type to analytics documentation
 - Integrated CameraX into the Motion feature
 
 ### Fixed
 
 - Fixed upload error for Kosovo documents
-- Fixed an accessibility issue in the Country selection screen, where the "Can't find your country" button used to behave incorrectly
+- Fixed an accessibility issue in the Country selection screen, where the Can't find your country button used to behave incorrectly
 - Fixed the Search icon not visible in dark mode
 - Fixed a crash at SDK initialization time for customers using WebViews and initializing their directory inside the onCreate method of the Application class
 - Added a ContentProvider so that the initialization of the Onfido process happens earlier than any other potential Android component
 - Fixed `IllegalStateException` when launching SDK
-- Fixed displaying problems with the "Invalid file" dialog in the Proof of Address flows 
+- Fixed displaying problems with the Invalid file dialog in the Proof of Address flows 
 - Fixed Liveness back navigation
 - Fixed hidden non functional back button in studio flows
 - Fixed crash in Motion Upload screen when recovered from process death
