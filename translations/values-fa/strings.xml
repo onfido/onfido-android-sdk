@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">شما به حداکثر تلاش ها برای وارد کردن شماره CAN خود رسیده اید</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">تأیید خروج</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">سعی مجدد‌</string>
+	<string name="onfido_generic_close_sdk_title">آیا مطمئن هستید که می خواهید خارج شوید؟</string>
+	<string name="onfido_generic_close_sdk_subtitle">شما ممکن است نیاز به شروع مجدد فرآیند تأیید هویت داشته باشید اگر بازگردید.</string>
+	<string name="onfido_generic_close_sdk_exit">خروج</string>
+	<string name="onfido_generic_close_sdk_cancel">لغو</string>
+	<string name="onfido_doc_capture_alert_mrz_title">خطوط پایین %d (MRZ) غیرقابل تشخیص هستند</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">پایین سند خود را قابل مشاهده کنید</string>
 </resources>

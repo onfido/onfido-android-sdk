@@ -98,7 +98,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 13.31 Mb  |
+| armeabi-v7a | 13.37 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -122,7 +122,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 10.20 Mb  |
+| core-armeabi-v7a | 10.25 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -1059,10 +1059,10 @@ The code inside the overridden method will now be called when a particular event
 
 For a full list of events, see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 
-| property | description |
-| ---- | ----- |
-|`type` | **OnfidoAnalyticsEventType** <br /> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `ACTION`, `ERROR`.|
-| `properties` | **Map<OnfidoAnalyticsPropertyKey, String?>** <br /> Contains details of an event. For example, you can get the name of the visited screen using the `SCREEN_NAME` property. The current potential property keys are: `SCREEN_NAME`, `SCREEN_MODE`, `DOCUMENT_TYPE`, `COUNTRY_CODE`, `DOCUMENT_FORMAT`, `VIDEO_CHALLENGE_TYPE` and `IS_AUTOCAPTURE`.|
+| property     | description                                                                                                                                                                                                                                                                                                                                         |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `type`       | **OnfidoAnalyticsEventType** <br /> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `VIEW`, `ACTION`, `ERROR`.                                                                                                                                                                                                 |
+| `properties` | **Map<OnfidoAnalyticsPropertyKey, String?>** <br /> Contains details of an event. For example, you can get the name of the visited screen using the `SCREEN_NAME` property. The current potential property keys are: `SCREEN_NAME`, `SCREEN_MODE`, `DOCUMENT_TYPE`, `COUNTRY_CODE`, `DOCUMENT_FORMAT`, `VIDEO_CHALLENGE_TYPE` and `IS_AUTOCAPTURE`. |
 
 #### Properties
 
@@ -1135,8 +1135,8 @@ Should you encounter any technical issues during integration, please contact Onf
 
 Alternatively, you can search the support documentation available via the customer experience portal, [public.support.onfido.com](https://public.support.onfido.com/s/).
 
-Previous versions of the SDK will be supported for a month after a new major version release. Note that when the support
-period has expired for an SDK version, no bug fixes will be provided, but the SDK will keep functioning (until further
-notice). More details can be found in our [SDK version releases guide](https://developers.onfido.com/guide/sdk-version-releases).
+We recommend you update your SDK to the latest version release as frequently as possible. Customers on newer versions of the Onfido SDK consistently see better performance across user onboarding and fraud mitigation, so we strongly advise keeping your SDK integration up-to-date.
+
+You can review our full SDK versioning policy [here](https://developers.onfido.com/guide/sdk-version-releases).
 
 Copyright 2024 Onfido, Ltd. All rights reserved.

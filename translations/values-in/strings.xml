@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Anda telah mencapai batas maksimum percobaan untuk memasukkan nomor CAN Anda</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Verifikasi keluar</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Coba lagi</string>
+	<string name="onfido_generic_close_sdk_title">Apakah Anda yakin ingin keluar?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Anda mungkin perlu memulai ulang proses verifikasi jika Anda kembali.</string>
+	<string name="onfido_generic_close_sdk_exit">Keluar</string>
+	<string name="onfido_generic_close_sdk_cancel">Batalkan</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Baris bawah %d (MRZ) tidak jelas</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Buat bagian bawah dokumen Anda terlihat</string>
 </resources>

@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Olete jõudnud oma CAN-numbri sisestamise maksimaalse katsete arvuni</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Väljumise kontroll</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Proovige uuesti</string>
+	<string name="onfido_generic_close_sdk_title">Kas olete kindel, et soovite väljuda?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Võite peate identiteedi kinnitamise protsessi taaskäivitama, kui naasete.</string>
+	<string name="onfido_generic_close_sdk_exit">Välju</string>
+	<string name="onfido_generic_close_sdk_cancel">Tühistage</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Alumised %d read (MRZ) on ebaselged</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Teie dokumendi alaosa peaks olema nähtav</string>
 </resources>

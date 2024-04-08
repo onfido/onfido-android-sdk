@@ -9,6 +9,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [20.1.0] - 2024-04-08
+
+### Changed
+
+- Added missing VIEW event type to analytics documentation 
+- Integrated CameraX into the Motion feature
+
+### Fixed
+
+- Fixed upload error for Kosovo documents
+- Fixed an accessibility issue in the Country selection screen, where the 'Can't find your country' button used to behave incorrectly
+- Fixed the Search icon not visible in dark mode
+- Fixed a crash at SDK initialization time for customers using WebViews and initializing their directory inside the onCreate method of the Application class
+- Added a ContentProvider so that the initialization of the Onfido process happens earlier than any other potential Android component
+- Fixed `IllegalStateException` when launching SDK
+- Fixed displaying problems with the "Invalid file" dialog in the Proof of Address flows 
+- Fixed Liveness back navigation
+- Fixed hidden non functional back button in studio flows
+- Fixed crash in Motion Upload screen when recovered from process death
+- Fixed accessibility issues around focus for TalkBack navigation
+- Enabled Accessibility system wide set font sizes on camera screen texts
+
 ## [20.0.2] - 2024-03-25
 
 ### Fixed
@@ -19,7 +41,8 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Fixed
 
-- Fixed an issue where a wrong callback was called when launching a Studio workflow and navigating backwards
+- Fixed an issue where a wrong `onException` callback was called instead of `onUserExited` when launching a Studio workflow and navigating backwards
+- Fixed biometric features integrity signing
 
 ## [20.0.0] - 2024-03-04
 
@@ -29,7 +52,6 @@ translations. [More on language localisation](README.md#4-localisation)
 - Updated documentation on how to integrate and use the SDK as a Dynamic Feature Module
 - Improved Resolution Selection Algorithm
 - Removed dfm-base module and merged it with onfido-public-api
-- Use custom data input (phone number) payload in otp workflows
 
 ### Fixed
 

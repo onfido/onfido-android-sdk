@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Osiągnąłeś maksymalną liczbę prób wprowadzenia swojego numeru CAN</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Weryfikacja wyjścia</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Spróbuj ponownie</string>
+	<string name="onfido_generic_close_sdk_title">Czy na pewno chcesz wyjść?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Możesz potrzebować zrestartować proces weryfikacji, jeśli wrócisz.</string>
+	<string name="onfido_generic_close_sdk_exit">Wyjście</string>
+	<string name="onfido_generic_close_sdk_cancel">Anuluj</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Dolne %d linie (MRZ) są niejasne</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Upewnij się, że dolna część twojego dokumentu jest widoczna</string>
 </resources>

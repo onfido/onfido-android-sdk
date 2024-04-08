@@ -559,4 +559,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">退出验证</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">重试</string>
 	<string name="onfido_interactive_task_waiting_title_5">正在上传媒体...</string>
+	<string name="onfido_generic_close_sdk_title">您确定要退出吗？</string>
+	<string name="onfido_generic_close_sdk_subtitle">如果您返回，可能需要重新启动验证过程。</string>
+	<string name="onfido_generic_close_sdk_exit">退出</string>
+	<string name="onfido_generic_close_sdk_cancel">取消</string>
+	<string name="onfido_doc_capture_alert_mrz_title">底部 %d 行（MRZ）不清晰</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">使您的证件底部可见</string>
 </resources>

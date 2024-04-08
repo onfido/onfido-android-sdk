@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">CAN numaranızı girmek için maksimum deneme sayısına ulaştınız</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Çıkış doğrulaması</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Yeniden dene</string>
+	<string name="onfido_generic_close_sdk_title">Çıkmak istediğinizden emin misiniz?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Geri dönerseniz doğrulama sürecini yeniden başlatmanız gerekebilir.</string>
+	<string name="onfido_generic_close_sdk_exit">Çıkış</string>
+	<string name="onfido_generic_close_sdk_cancel">İptal</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Alt %d satır (MRZ) belirsiz</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Belgenizin alt kısmını görünür yapın</string>
 </resources>

@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Dosiahli ste maximálny počet pokusov o zadanie vášho čísla CAN</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Overenie pri odchode</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Skúsiť znova</string>
+	<string name="onfido_generic_close_sdk_title">Ste si istý, že chcete skončiť?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Možno budete musieť reštartovať proces overovania, ak sa vrátite.</string>
+	<string name="onfido_generic_close_sdk_exit">Odísť</string>
+	<string name="onfido_generic_close_sdk_cancel">Zrušiť</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Spodné %d riadky (MRZ) sú nejasné</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Urobte spodok vášho dokumentu viditeľným</string>
 </resources>

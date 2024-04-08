@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">Exit verification</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Retry</string>
 	<string name="onfido_interactive_task_waiting_title_5">Uploading media...</string>
+	<string name="onfido_generic_close_sdk_title">Are you sure you want to exit?</string>
+	<string name="onfido_generic_close_sdk_subtitle">You may need to restart the verification process if you return.</string>
+	<string name="onfido_generic_close_sdk_exit">Exit</string>
+	<string name="onfido_generic_close_sdk_cancel">Cancel</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Bottom %d lines (MRZ) unclear</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Make the bottom of your document visible</string>
 </resources>

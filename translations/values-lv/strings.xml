@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Jūs esat sasniedzis maksimālo mēģinājumu skaitu, ievadot savu CAN numuru</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Izejas pārbaude</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Mēģināt vēlreiz</string>
+	<string name="onfido_generic_close_sdk_title">Vai tiešām vēlaties iziet?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Jums var nākties atkārtoti sākt verifikācijas procesu, ja jūs atgriezīsities.</string>
+	<string name="onfido_generic_close_sdk_exit">Iziet</string>
+	<string name="onfido_generic_close_sdk_cancel">Atcelt</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Apakšējās %d rindas (MRZ) nav skaidras</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Padariet savu dokumenta apakšdaļu redzamu</string>
 </resources>

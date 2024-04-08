@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Olet yrittänyt syöttää CAN-numeroasi maksimimäärän kertoja</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Poistumisvarmennus</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Yritä uudelleen</string>
+	<string name="onfido_generic_close_sdk_title">Oletko varma, että haluat poistua?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Saatat joutua aloittamaan tunnistautumisprosessin alusta, jos palaat takaisin.</string>
+	<string name="onfido_generic_close_sdk_exit">Poistu</string>
+	<string name="onfido_generic_close_sdk_cancel">Peruuta</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Alimmaiset %d riviä (MRZ) epäselviä</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Tee asiakirjasi alaosa näkyväksi</string>
 </resources>

@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Ați atins numărul maxim de încercări pentru introducerea numărului CAN</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Ieşire din verificare</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Încercați din nou</string>
+	<string name="onfido_generic_close_sdk_title">Ești sigur că vrei să ieși?</string>
+	<string name="onfido_generic_close_sdk_subtitle">S-ar putea să fie nevoie să reporniți procesul de verificare dacă vă întoarceți.</string>
+	<string name="onfido_generic_close_sdk_exit">Ieșire</string>
+	<string name="onfido_generic_close_sdk_cancel">Anulați</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Ultimile %d linii (MRZ) sunt neclare</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Fă ca partea de jos a documentului tău să fie vizibilă</string>
 </resources>

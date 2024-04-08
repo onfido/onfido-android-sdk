@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Bạn đã đạt đến số lần thử nhập số CAN tối đa</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Xác minh thoát</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Thử lại</string>
+	<string name="onfido_generic_close_sdk_title">Bạn có chắc chắn muốn thoát không?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Bạn có thể cần khởi động lại quá trình xác minh nếu bạn quay trở lại.</string>
+	<string name="onfido_generic_close_sdk_exit">Thoát</string>
+	<string name="onfido_generic_close_sdk_cancel">Hủy</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Dòng dưới cùng %d (MRZ) không rõ ràng</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Làm cho phần dưới của tài liệu của bạn trở nên hữu ích</string>
 </resources>

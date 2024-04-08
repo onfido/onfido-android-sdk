@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Elérte a CAN szám megadásának maximális próbálkozásait</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Azonosítás megszakítása</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Próbálja újra</string>
+	<string name="onfido_generic_close_sdk_title">Biztosan ki szeretne lépni?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Lehet, hogy újra el kell indítania az azonosítási folyamatot, ha visszatér.</string>
+	<string name="onfido_generic_close_sdk_exit">Kilépés</string>
+	<string name="onfido_generic_close_sdk_cancel">Mégse</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Az alsó %d sor (MRZ) nem olvasható</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Tegye láthatóvá az okmányának az alját</string>
 </resources>

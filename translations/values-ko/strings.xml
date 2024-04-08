@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">당신은 CAN 번호를 입력하는 최대 시도 횟수에 도달했습니다</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">출구 확인</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">재시도</string>
+	<string name="onfido_generic_close_sdk_title">정말로 종료하시겠습니까?</string>
+	<string name="onfido_generic_close_sdk_subtitle">돌아오시면 인증 과정을 다시 시작해야 할 수도 있습니다.</string>
+	<string name="onfido_generic_close_sdk_exit">나가기</string>
+	<string name="onfido_generic_close_sdk_cancel">취소</string>
+	<string name="onfido_doc_capture_alert_mrz_title">하단 %d 줄 (MRZ)이 불분명합니다</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">문서의 하단을 보이게 하십시오</string>
 </resources>

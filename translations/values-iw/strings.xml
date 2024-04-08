@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">הגעת למספר הניסיונות המרבי להזין את מספר ה-CAN שלך</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">אימות יציאה</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">נסה שוב</string>
+	<string name="onfido_generic_close_sdk_title">האם אתה בטוח שאתה רוצה לצאת?</string>
+	<string name="onfido_generic_close_sdk_subtitle">ייתכן שתצטרך להתחיל מחדש את תהליך האימות אם תחזור.</string>
+	<string name="onfido_generic_close_sdk_exit">יציאה</string>
+	<string name="onfido_generic_close_sdk_cancel">ביטול</string>
+	<string name="onfido_doc_capture_alert_mrz_title">השורות התחתונות %d (MRZ) לא ברורות</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">הפוך את החלק התחתון של המסמך שלך לגלוי</string>
 </resources>

@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">คุณได้พยายามใส่หมายเลข CAN ของคุณเกินจำนวนสูงสุดแล้ว</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">การตรวจสอบการออก</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">ลองอีกครั้ง</string>
+	<string name="onfido_generic_close_sdk_title">คุณแน่ใจหรือว่าต้องการออก?</string>
+	<string name="onfido_generic_close_sdk_subtitle">คุณอาจจำเป็นต้องเริ่มกระบวนการตรวจสอบตัวตนใหม่หากคุณกลับมา</string>
+	<string name="onfido_generic_close_sdk_exit">ออก</string>
+	<string name="onfido_generic_close_sdk_cancel">ยกเลิก</string>
+	<string name="onfido_doc_capture_alert_mrz_title">บรรทัดล่าง %d บรรทัด (MRZ) ไม่ชัดเจน</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">ทำให้ด้านล่างของเอกสารของคุณสามารถมองเห็นได้</string>
 </resources>

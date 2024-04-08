@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Du har nått maximalt antal försök att ange ditt CAN-nummer</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Avsluta verifiering</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Försök igen</string>
+	<string name="onfido_generic_close_sdk_title">Är du säker på att du vill avsluta?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Du kan behöva starta om verifieringsprocessen om du kommer tillbaka.</string>
+	<string name="onfido_generic_close_sdk_exit">Avsluta</string>
+	<string name="onfido_generic_close_sdk_cancel">Avbryt</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Nedersta %d raderna (MRZ) otydliga</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Gör botten av ditt dokument synligt</string>
 </resources>

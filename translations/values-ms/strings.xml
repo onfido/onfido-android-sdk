@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">Pengesahan keluar</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Cuba Semula</string>
 	<string name="onfido_interactive_task_waiting_title_5">Memuat naik media...</string>
+	<string name="onfido_generic_close_sdk_title">Adakah anda pasti ingin keluar?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Anda mungkin perlu memulakan semula proses pengesahan identiti jika anda kembali.</string>
+	<string name="onfido_generic_close_sdk_exit">Keluar</string>
+	<string name="onfido_generic_close_sdk_cancel">Batalkan</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Baris bawah %d (MRZ) tidak jelas</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Buat bahagian bawah dokumen anda kelihatan</string>
 </resources>

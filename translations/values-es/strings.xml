@@ -294,7 +294,7 @@
     <string name="onfido_welcome_list_item_face_photo">Tome una foto de su cara</string>
     <string name="onfido_welcome_list_item_face_video">Grabe un vídeo de su cara</string>
 
-    <string name="onfido_doc_capture_alert_no_mrz3_title">Las ultimas tres lineas no son visibles</string>
+	<string name="onfido_doc_capture_alert_no_mrz3_title">Las últimas tres lineas no son visibles</string>
 
     <!-- NFC -->
 
@@ -469,7 +469,7 @@
 	<string name="onfido_doc_select_section_header_country">País emisor</string>
 	<string name="onfido_doc_select_section_header_doc_type">Documentos aceptados</string>
 	<string name="onfido_doc_select_section_input_country_not_found">Sin resultados</string>
-    <string name="onfido_doc_select_subtitle_photo_page">página de fotos</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Página de fotos</string>
 	<string name="onfido_doc_select_subtitle_front_back">Frente y detrás</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Elija el país de emisión</string>
 
@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Has alcanzado el máximo de intentos para ingresar tu número CAN</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Salir de la verificación</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Reintentar</string>
+	<string name="onfido_generic_close_sdk_title">¿Estás seguro de que quieres salir?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Es posible que necesites reiniciar el proceso de verificación si vuelves.</string>
+	<string name="onfido_generic_close_sdk_exit">Salir</string>
+	<string name="onfido_generic_close_sdk_cancel">Cancelar</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Las últimas %d líneas (MRZ) no están claras</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Haga visible la parte inferior de su documento</string>
 </resources>

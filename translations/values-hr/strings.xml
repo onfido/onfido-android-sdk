@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Dosegli ste maksimalan broj pokušaja unosa vašeg CAN broja</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Izlazna provjera</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Pokušajte ponovno</string>
+	<string name="onfido_generic_close_sdk_title">Jeste li sigurni da želite izaći?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Možda ćete morati ponovno pokrenuti postupak provjere identiteta ako se vratite.</string>
+	<string name="onfido_generic_close_sdk_exit">Izlaz</string>
+	<string name="onfido_generic_close_sdk_cancel">Otkaži</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Donje %d linije (MRZ) nisu jasne</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Učinite dno vašeg dokumenta vidljivim</string>
 </resources>

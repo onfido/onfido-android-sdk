@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">Verificación de salida</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Volver a intentar</string>
 	<string name="onfido_interactive_task_waiting_title_5">Subiendo medios...</string>
+	<string name="onfido_generic_close_sdk_title">¿Estás seguro de que quieres salir?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Es posible que necesites reiniciar el proceso de verificación si regresas.</string>
+	<string name="onfido_generic_close_sdk_exit">Salir</string>
+	<string name="onfido_generic_close_sdk_cancel">Cancelar</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Las últimas %d líneas (MRZ) no están claras</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Haz visible la parte inferior de tu documento</string>
 </resources>

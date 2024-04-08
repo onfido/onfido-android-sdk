@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">आपने अपना CAN नंबर दर्ज करने की अधिकतम कोशिशें पूरी कर दी हैं</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">पहचान सत्यापन से बाहर निकलें</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">फिर से कोशिश करें</string>
+	<string name="onfido_generic_close_sdk_title">क्या आप निश्चित हैं कि आप बाहर निकलना चाहते हैं?</string>
+	<string name="onfido_generic_close_sdk_subtitle">यदि आप वापस आते हैं तो आपको सत्यापन प्रक्रिया को पुनः शुरू करने की आवश्यकता हो सकती है।</string>
+	<string name="onfido_generic_close_sdk_exit">बाहर जाएं</string>
+	<string name="onfido_generic_close_sdk_cancel">कैंसिल करें</string>
+	<string name="onfido_doc_capture_alert_mrz_title">निचली %d पंक्तियाँ (MRZ) अस्पष्ट</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">अपने दस्तावेज़ के निचले हिस्से को दिखाएं</string>
 </resources>

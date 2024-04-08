@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">Avslutt verifisering</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Prøv igjen</string>
 	<string name="onfido_interactive_task_waiting_title_5">Laster opp media...</string>
+	<string name="onfido_generic_close_sdk_title">Er du sikker på at du vil avslutte?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Du må kanskje starte verifiseringsprosessen på nytt hvis du kommer tilbake.</string>
+	<string name="onfido_generic_close_sdk_exit">Avslutt</string>
+	<string name="onfido_generic_close_sdk_cancel">Avbryt</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Bunn %d linjer (MRZ) uklare</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Gjør bunnen av dokumentet ditt synlig</string>
 </resources>

@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">Ելքի ստուգում</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Կրկին փորձել</string>
 	<string name="onfido_interactive_task_waiting_title_5">Մեդիայի բեռնում...</string>
+	<string name="onfido_generic_close_sdk_title">Վստահ եք, որ ուզում եք դուրս գալ՞</string>
+	<string name="onfido_generic_close_sdk_subtitle">Դուք կարող եք պահանջվել վերսկսել հաստատման գործընթացը, եթե վերադառնաք։</string>
+	<string name="onfido_generic_close_sdk_exit">Ելք</string>
+	<string name="onfido_generic_close_sdk_cancel">Չեղարկել</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Ներքևի %d տողերը (MRZ) անհասկանալի են</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Պատճենի ձեր փայտի վերջը</string>
 </resources>

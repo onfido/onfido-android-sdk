@@ -559,4 +559,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Достигнахте максималния брой опити за въвеждане на вашия CAN номер</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Изход от верификация</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Повторен опит</string>
+	<string name="onfido_generic_close_sdk_title">Сигурни ли сте, че искате да излезете?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Може да се наложи да рестартирате процеса на потвърждение, ако се върнете.</string>
+	<string name="onfido_generic_close_sdk_exit">Изход</string>
+	<string name="onfido_generic_close_sdk_cancel">Отказ</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Долните %d реда (MRZ) са неясни</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Направете долната част на документа си видима</string>
 </resources>

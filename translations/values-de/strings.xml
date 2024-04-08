@@ -560,4 +560,10 @@
 	<string name="onfido_nfc_scan_error_can_subtitle">Sie haben die maximale Anzahl an Versuchen erreicht, um Ihre CAN-Nummer einzugeben</string>
 	<string name="onfido_nfc_scan_error_can_primary_button">Verifizierung beenden</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">Erneut versuchen</string>
+	<string name="onfido_generic_close_sdk_title">Sind Sie sicher, dass Sie beenden möchten?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Sie müssen den Verifizierungsprozess möglicherweise neu starten, wenn Sie zurückkehren.</string>
+	<string name="onfido_generic_close_sdk_exit">Beenden</string>
+	<string name="onfido_generic_close_sdk_cancel">Abbrechen</string>
+	<string name="onfido_doc_capture_alert_mrz_title">Untere %d Zeilen (MRZ) unklar</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">Machen Sie den unteren Teil Ihres Dokuments sichtbar</string>
 </resources>

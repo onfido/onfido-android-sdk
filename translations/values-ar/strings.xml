@@ -559,4 +559,10 @@
 	<string name="onfido_nfc_scan_error_can_primary_button">التحقق عند الخروج</string>
 	<string name="onfido_nfc_scan_error_document_alt_primary_button">إعادة المحاولة</string>
 	<string name="onfido_interactive_task_waiting_title_5">جاري تحميل الوسائط...</string>
+	<string name="onfido_generic_close_sdk_title">هل أنت متأكد أنك تريد الخروج؟</string>
+	<string name="onfido_generic_close_sdk_subtitle">قد تحتاج إلى إعادة بدء عملية التحقق من الهوية إذا عدت.</string>
+	<string name="onfido_generic_close_sdk_exit">خروج</string>
+	<string name="onfido_generic_close_sdk_cancel">إلغاء</string>
+	<string name="onfido_doc_capture_alert_mrz_title">السطور السفلية %d (MRZ) غير واضحة</string>
+	<string name="onfido_doc_capture_alert_mrz_detail">اجعل الجزء السفلي من وثيقتك مرئيًا</string>
 </resources>
