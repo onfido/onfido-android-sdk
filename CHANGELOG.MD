@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [20.3.0] - 2024-05-15
+
+### Added
+
+- Implemented user flow exit button on studio flows
+
 ## [20.2.0] - 2024-04-16
 
 ### Changed

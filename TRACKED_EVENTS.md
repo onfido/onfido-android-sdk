@@ -58,4 +58,6 @@ MOTION_FACIAL_UPLOAD - User's motion capture is uploading
 MOTION_FACIAL_UPLOAD_COMPLETED - User's motion capture finished uploading
 
 MOTION_FACIAL_CONNECTION_ERROR - User was presented the "motion connection error" screen during upload
+
+USER_EXITED_FLOW - User has exited studio flow using the close button.
 ```
