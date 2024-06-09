@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">שלח תמונה בכל מקרה</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">נסה להקליט וידאו באופן ידני</string>
 	<string name="onfido_interactive_task_waiting_title_1">בודק את איכות התמונה...</string>
-	<string name="onfido_interactive_task_waiting_title_2">מעלה תמונה...</string>
-	<string name="onfido_interactive_task_waiting_title_3">מעלה סרטון...</string>
-	<string name="onfido_interactive_task_waiting_title_4">בודק את איכות הנתונים...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">אנא המתן עוד קצת זמן עד שהמשימה תהיה מוכנה.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">אנא המתן עוד קצת זמן עד שהמשימה תהיה מוכנה.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">מהדר נתונים...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">אנו מקבצים את הנתונים שנאספו, אנא המתן.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">מאבטח נתונים...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">ביטול</string>
 	<string name="onfido_doc_capture_alert_mrz_title">השורות התחתונות %d (MRZ) לא ברורות</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">הפוך את החלק התחתון של המסמך שלך לגלוי</string>
+	<string name="onfido_nfc_scan_doc_realign_title">סריקה הופסקה</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">סגור את הדרכון שלך והניח אותו על משטח שטוח עם הצד הקדמי למעלה.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">הסיבו את חלקו העליון של הטלפון שלכם כך שיהיה במגע עם החלק התחתון של הדרכון שלכם.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">הניחו את הטלפון שלכם על חצי התחתון של הדרכון שלכם, כך שהם יהיו במגע.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">החליקו לאט את הטלפון שלכם למעלה ולמטה על הדרכון שלכם כדי לאתר את השבב.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">לאחר שהסריקה מתחילה, השאר את הטלפון והדרכון שלך במקום.</string>
 </resources>

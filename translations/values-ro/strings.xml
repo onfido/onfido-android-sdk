@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Trimite oricum fotografia</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Încearcă să înregistrezi video manual</string>
 	<string name="onfido_interactive_task_waiting_title_1">Verificarea calității imaginii...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Încărcare imagine...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Încărcare video...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Verificarea calității datelor...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Vă rugăm să așteptați puțin mai mult pentru ca sarcina să se finalizeze.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilare date...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Compilăm datele colectate, vă rugăm să așteptați.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Securizarea datelor...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Anulați</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Ultimile %d linii (MRZ) sunt neclare</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Fă ca partea de jos a documentului tău să fie vizibilă</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Scanare întreruptă</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Închideți pașaportul și așezați-l pe o suprafață plană cu fața în sus.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Repoziționează partea de sus a telefonului tău în contact cu partea de jos a pașaportului tău.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Puneți-vă telefonul pe partea de jos a pașaportului dvs., astfel încât să fie în contact.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Glisați încet telefonul în sus și în jos pe pașaportul dvs. pentru a localiza cipul.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Odată ce scanarea începe, țineți telefonul și pașaportul nemișcate.</string>
 </resources>

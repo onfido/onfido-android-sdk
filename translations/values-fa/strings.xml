@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">عکس را در هر صورت ارسال کنید</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">سعی کنید ویدیو را به صورت دستی رکورد کنید</string>
 	<string name="onfido_interactive_task_waiting_title_1">در حال بررسی کیفیت تصویر...</string>
-	<string name="onfido_interactive_task_waiting_title_2">در حال بارگذاری تصویر...</string>
-	<string name="onfido_interactive_task_waiting_title_3">در حال بارگذاری ویدیو...</string>
-	<string name="onfido_interactive_task_waiting_title_4">در حال بررسی کیفیت داده...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">لطفاً کمی بیشتر صبر کنید تا کار به اتمام برسد.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">لطفاً کمی بیشتر صبر کنید تا کار به اتمام برسد.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">در حال جمع‌آوری داده‌ها...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">ما در حال تهیه داده های جمع آوری شده هستیم، لطفا صبر کنید.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">در حال امن سازی داده ها...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">لغو</string>
 	<string name="onfido_doc_capture_alert_mrz_title">خطوط پایین %d (MRZ) غیرقابل تشخیص هستند</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">پایین سند خود را قابل مشاهده کنید</string>
+	<string name="onfido_nfc_scan_doc_realign_title">اسکن متوقف شد</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">گذرنامه خود را ببندید و آن را روی سطح صافی با روی جلد به بالا قرار دهید.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">بالای تلفن خود را در تماس با پایین گذرنامه خود قرار دهید.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">گوشی خود را روی نیمه پایینی گذرنامه خود قرار دهید، به طوری که با هم تماس داشته باشند.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">به آرامی گوشی خود را بر روی گذرنامه خود بالا و پایین بکشید تا چیپ را پیدا کنید.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">هنگامی که اسکن شروع می شود، تلفن و گذرنامه خود را ساکت نگه دارید.</string>
 </resources>

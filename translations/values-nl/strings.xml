@@ -514,9 +514,6 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Foto toch indienen</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Probeer handmatig video op te nemen</string>
 	<string name="onfido_interactive_task_waiting_title_1">Beeldkwaliteit controleren...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Afbeelding uploaden...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Video uploaden...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Controleren van datakwaliteit...</string>
 	<string name="onfido_interactive_task_waiting_subtitle_1">Wacht alstublieft nog even, de taak is bijna voltooid.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Gegevens aan het compileren...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We zijn de verzamelde gegevens aan het compileren, even geduld aub.</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Annuleren</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Onderste %d regels (MRZ) onduidelijk</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Maak de onderkant van uw document zichtbaar</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Scan onderbroken</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Sluit uw paspoort en leg het op een vlakke ondergrond met de voorkant naar boven.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Plaats de bovenkant van uw telefoon in contact met de onderkant van uw paspoort.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Leg uw telefoon op de onderste helft van uw paspoort, zodat ze in contact zijn.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Verplaats uw telefoon langzaam op en neer tegen uw paspoort om de chip te vinden.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Zodra de scan begint, houd je telefoon en paspoort stil.</string>
 </resources>

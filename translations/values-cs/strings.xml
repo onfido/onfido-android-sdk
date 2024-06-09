@@ -513,10 +513,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Odeslat fotku tak jako tak</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Zkuste nahrávat video manuálně</string>
 	<string name="onfido_interactive_task_waiting_title_1">Kontrola kvality obrázku...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Nahrávání obrázku...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Nahrávání videa...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Kontrola kvality dat...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Prosíme o trochu více trpělivosti, úloha ještě není dokončena.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Prosíme o trochu více trpělivosti, úloha ještě není dokončena.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilace dat...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Sestavujeme shromážděná data, prosím počkejte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Zabezpečování dat...</string>
@@ -565,4 +562,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Zrušit</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Spodní %d řádky (MRZ) nejsou jasné</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Udělejte spodní část svého dokumentu viditelnou</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Skenování přerušeno</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Zavřete svůj pas a položte ho na rovný povrch s přední stranou nahoru.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Umístěte vrch svého telefonu do kontaktu se spodní částí vašeho pasu.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Umístěte svůj telefon na spodní polovinu svého pasu, tak aby se dotýkaly.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Pomalu posouvejte svůj telefon nahoru a dolů po svém pasu, abyste našli čip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Jakmile se skenování spustí, nechte svůj telefon a pas na místě.</string>
 </resources>

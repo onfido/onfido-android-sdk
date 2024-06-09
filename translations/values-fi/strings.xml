@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Lähetä kuva joka tapauksessa</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Yritä tallentaa video manuaalisesti</string>
 	<string name="onfido_interactive_task_waiting_title_1">Tarkistetaan kuvan laatua...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Kuvan lataaminen...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Ladataan videota...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Tarkistetaan tietojen laatua...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Ole hyvä ja odota hieman pidempään, jotta tehtävä saadaan valmiiksi.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Ole hyvä ja odota hieman pidempään, jotta tehtävä saadaan valmiiksi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kokoaa tietoja...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Kokoamme kerättyjä tietoja, odota hetki.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Turvataan tietoja...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Peruuta</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Alimmaiset %d riviä (MRZ) epäselviä</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Tee asiakirjasi alaosa näkyväksi</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Skannaus keskeytettiin</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Sulje passisi ja aseta se tasaiselle pinnalle etupuoli ylöspäin.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Siirrä puhelimesi yläosa kosketuksiin passisi alaosan kanssa.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Aseta puhelimesi passisi alaosaan päälle, niin että ne ovat kosketuksissa.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Liuta puhelintasi hitaasti ylös ja alas passiasi vasten löytääksesi sirun.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kun skannaus alkaa, pidä puhelimesi ja passisi paikallaan.</string>
 </resources>

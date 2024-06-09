@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Υποβολή φωτογραφίας ούτως ή άλλως</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Δοκιμάστε να καταγράψετε βίντεο χειροκίνητα</string>
 	<string name="onfido_interactive_task_waiting_title_1">Έλεγχος ποιότητας εικόνας...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Μεταφόρτωση εικόνας...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Μεταφόρτωση βίντεο...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Έλεγχος ποιότητας δεδομένων...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Παρακαλώ περιμένετε λίγο περισσότερο για την ολοκλήρωση της εργασίας.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Παρακαλώ περιμένετε λίγο περισσότερο για την ολοκλήρωση της εργασίας.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Συγκεντρώνοντας δεδομένα...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Συγκεντρώνουμε τα δεδομένα που συλλέχθηκαν, παρακαλώ περιμένετε.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Ασφάλιση δεδομένων...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Ακύρωση</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Οι τελευταίες %d γραμμές (MRZ) είναι ασαφείς</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Κάντε ορατό το κάτω μέρος του εγγράφου σας</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Η σάρωση διακόπηκε</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Κλείστε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια με την εμπρόσθια πλευρά προς τα πάνω.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Τοποθετήστε την κορυφή του τηλεφώνου σας σε επαφή με το κάτω μέρος του διαβατηρίου σας.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Τοποθετήστε το τηλέφωνό σας πάνω στο κάτω μισό του διαβατηρίου σας, έτσι ώστε να έρθουν σε επαφή.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Μετακινήστε αργά το τηλέφωνό σας πάνω και κάτω κατά μήκος του διαβατηρίου σας για να εντοπίσετε το τσιπ.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.</string>
 </resources>

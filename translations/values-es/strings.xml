@@ -514,9 +514,6 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Enviar foto de todos modos</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Intenta grabar el vídeo manualmente</string>
 	<string name="onfido_interactive_task_waiting_title_1">Comprobando la calidad de la imagen...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Subiendo imagen...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Subiendo video...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Verificando la calidad de los datos...</string>
 	<string name="onfido_interactive_task_waiting_subtitle_1">Por favor, espere un poco más para que la tarea termine.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilando datos...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Estamos compilando los datos recopilados, por favor espera.</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Cancelar</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Las últimas %d líneas (MRZ) no están claras</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Haga visible la parte inferior de su documento</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Escaneo interrumpido</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Cierre su pasaporte y colóquelo en una superficie plana con el frente hacia arriba.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Vuelva a colocar la parte superior de su teléfono en contacto con la parte inferior de su pasaporte.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloque su teléfono encima de la mitad inferior de su pasaporte, de modo que estén en contacto.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Deslice lentamente su teléfono hacia arriba y hacia abajo contra su pasaporte para localizar el chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Una vez que comienza el escaneo, mantenga su teléfono y pasaporte quietos.</string>
 </resources>

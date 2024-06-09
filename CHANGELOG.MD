@@ -9,6 +9,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](README.md#4-localisation)
 
+## [20.4.0] - 2024-05-27
+
+### Added
+
+- Added haptic feedback for NFC
+- Implemented user flow exit button on studio flows
+
+### Changed
+
+- Updated NFC intro instructions
+- Handled the NFC scanning interruption. The NFC scanning process will resume from the point where the user left off.
+
+### Fixed
+
+- Fixed LoadingFragment IllegalStateException on capture screen.
+- Fixed the issue where the shutter button would disappear during document capture
+- Updated the search icon's stroke color attribute from `onfidoColorContentMain` to `onfidoColorIconStroke` to align with other icons and improve UI customization. This icon is used in the country selection screen.
+- Fixed proof of address file not found crash
+
 ## [20.3.0] - 2024-05-15
 
 ### Added

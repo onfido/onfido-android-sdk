@@ -4,7 +4,25 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
-## `19.6.0` -> `20.0.0`
+## `20.0.0` -> `20.4.0`
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_nfc_capture_scan_intro_passport_scan_guide_1` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_nfc_scan_doc_realign_title` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_nfc_capture_scan_doc_realign_body` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_nfc_capture_scan_intro_passport_scan_guide_android_2` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_nfc_capture_scan_intro_passport_scan_guide_android_3` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_nfc_capture_scan_intro_passport_scan_guide_android_4` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)## `19.6.0` -> `20.0.0`
 
 ### Breaking API Changes
 
