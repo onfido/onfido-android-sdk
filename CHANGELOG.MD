@@ -27,6 +27,7 @@ translations. [More on language localisation](README.md#4-localisation)
 - Fixed the issue where the shutter button would disappear during document capture
 - Updated the search icon's stroke color attribute from `onfidoColorContentMain` to `onfidoColorIconStroke` to align with other icons and improve UI customization. This icon is used in the country selection screen.
 - Fixed proof of address file not found crash
+- Fixed an issue where the Token expiration handler was not called for Studio integrations
 
 ## [20.3.0] - 2024-05-15
 
