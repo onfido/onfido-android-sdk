@@ -7,7 +7,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 **Note**: If the strings translations change it will result in a MINOR version change, therefore you
 are responsible for testing your translated layout in case you are using custom
-translations. [More on language localisation](README.md#4-localisation)
+translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
+
+## [20.2.2] - 2024-06-25
+
+### Fixed
+
+- Improved the user experience to eliminate the need for retries when a camera error occurs, resolving the issue where users were prompted with "Document capture didn't work. Please try again."
+
+## [20.3.1] - 2024-06-03
+
+### Fixed
+
+- Removed all toolbar titles from classic and studio
+- Fixed ImageCaptureException (shutter button disappears) during Document capture
 
 ## [20.4.0] - 2024-05-27
 
@@ -34,6 +47,12 @@ translations. [More on language localisation](README.md#4-localisation)
 ### Added
 
 - Implemented user flow exit button on studio flows
+
+## [20.2.1] - 2024-06-04
+
+### Fixed
+
+- Fixed the issue where the shutter button would disappear during document capture.
 
 ## [20.2.0] - 2024-04-16
 
@@ -262,7 +281,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 - Payload signing for Selfie and Liveness 1.0 (aka Video)
 - Updated Consent screen. Disabled Accept and Reject buttons until the consent is read
-- Added `isOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://github.com/onfido/onfido-android-sdk/blob/master/README.md#6-custom-application-class)
+- Added `isOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://documentation.onfido.com/sdk/android/#custom-application-class)
 
 ### Changed
 
@@ -634,7 +653,7 @@ translations. [More on language localisation](README.md#4-localisation)
 
 ### Changed
 
-- Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://developers.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
+- Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://documentation.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
 
 ## [11.5.0] - 2022-04-21
 
@@ -1002,7 +1021,7 @@ translations. [More on language localisation](README.md#4-localisation)
 - Added information on api/token regions to documentation
 
 ### Changed:
-- Now using [API v3](https://documentation.onfido.com/v3/) for communication with the backend
+- Now using [API v3](https://documentation.onfido.com/api/3.0.0) for communication with the backend
 - Internal: Extended basic device information logging to all relevant API requests
 
 ### Removed:
@@ -1378,11 +1397,11 @@ used to track flow completion
 
 ### Fixed
 - Internal: Fixed crash on returning from the capture screen to the country list and to the document selection right after
-- Internal: Fixed crash occasionally happening when closing the camera view (https://github.com/onfido/onfido-android-sdk/issues/12)
+- Internal: Fixed crash occasionally happening when closing the camera view
 - Internal: Fixed crash when requesting focus repeatedly on capture screen
-- Internal: Fixed crash occasionally happening when opening the camera view (https://github.com/onfido/onfido-android-sdk/issues/10)
-- Internal: Fixed crash occasionally happening when starting the camera preview (https://github.com/onfido/onfido-android-sdk/issues/11)
-- Internal: Fixed crash occasionally happening when the host app background process is killed while the SDK was running (https://github.com/onfido/onfido-android-sdk/issues/9)
+- Internal: Fixed crash occasionally happening when opening the camera view
+- Internal: Fixed crash occasionally happening when starting the camera preview
+- Internal: Fixed crash occasionally happening when the host app background process is killed while the SDK was running
 
 ## [2.4.0]
 

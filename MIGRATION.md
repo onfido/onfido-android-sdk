@@ -99,7 +99,7 @@ The following string keys have been **added**:
 - Removed the internal `onfidoFontFamily` attribute in `OnfidoBaseActivityTheme`.
 
 #### Added
-- The `isOnfidoProcess` extension function has been integrated into the Application class. If you have implemented a custom Application class and are also using Firebase, please ensure to follow the instructions provided in [this documentation](https://github.com/onfido/onfido-android-sdk#6-custom-application-class) for correct setup and integration.
+- The `isOnfidoProcess` extension function has been integrated into the Application class. If you have implemented a custom Application class and are also using Firebase, please ensure to follow the instructions provided in [this documentation](https://documentation.onfido.com/sdk/android/#custom-application-class) for correct setup and integration.
 
 ## `16.3.2` -> `17.0.0`
 
@@ -306,7 +306,7 @@ The following string keys have been **added**:
 
 ### Breaking API changes
 
-- Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://developers.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
+- Removed the option to implement the user consent screen directly in your configuration during SDK initialization. It is now controlled by the Onfido backend. Please see our [Onfido privacy notices and consent migration guide](https://documentation.onfido.com/guide/migration-guide-onfido-privacy-notices-and-consent) for further information.
 
 ### String Changes
 
@@ -906,7 +906,7 @@ The following string keys have been **changed**:
 
 ### Breaking changes
 
-- Removed out-of-the-box Portuguese (`pt`) translation. If you would like to keep supporting Portuguese by providing your own XML files, please see [README](https://github.com/onfido/onfido-android-sdk#4-localisation)
+- Removed out-of-the-box Portuguese (`pt`) translation. If you would like to keep supporting Portuguese by providing your own XML files, please see [README](https://documentation.onfido.com/sdk/android/#language-localization)
 - SDK will return `DocumentType.UNKNOWN` to mirror the Onfido API response as part of the `Captures` object which is provided by `handleActivityResult` if `residence permit` or `generic` is selected
 
 ### String Changes

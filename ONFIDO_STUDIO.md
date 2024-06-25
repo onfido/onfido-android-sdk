@@ -1,6 +1,6 @@
 ## Overview
 
-[Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product) is a drag and drop interface enabling you to build an optimised route to verify each end user, by defining and configuring different paths, as well as incorporating a combination of signals, in a single identity verification flow.
+[Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product) is a drag and drop interface enabling you to build an optimised route to verify each end user, by defining and configuring different paths, as well as incorporating a combination of signals, in a single identity verification flow.
 
 ## Integrating with Android SDK
 
@@ -77,8 +77,8 @@ for more information.
 
 ### 2. Build the configuration object
 
-To initialise the SDK, you must provide a workflowRunId, obtained by [creating a workflow run](https://documentation.onfido.com/#create-workflow-run), and an sdkToken, 
-obtained by [generating an SDK token](https://documentation.onfido.com/#generate-sdk-token).
+To initialise the SDK, you must provide a workflowRunId, obtained by [creating a workflow run](https://documentation.onfido.com/api/latest/#create-workflow-run), and an sdkToken, 
+obtained by [generating an SDK token](https://documentation.onfido.com/api/latest/#generate-sdk-token).
 
 ```kotlin
 const val REQUEST_CODE = 0x05
@@ -125,7 +125,7 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 
 | ATTRIBUTE       | NOTES                                                                                                                                                                                                                                                                                                                                |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| onUserCompleted | The end user completed all interactive tasks in the workflow. If you have configured [webhooks](https://documentation.onfido.com/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the Workflow. |
+| onUserCompleted | The end user completed all interactive tasks in the workflow. If you have configured [webhooks](https://documentation.onfido.com/api/latest/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the Workflow. |
 | onUserExited    | The flow was exited prematurely by the user. The reason can be an ExitCode e.g. `USER_CONSENT_DENIED`                                                                                                                                                                                                                                |
 | onException     | In case of an unexpected error, the onException method will be invoked with a relevant error message in the `WorkflowException` object. Error messages are not in a presentable format to the end user and are not localised.                                                                                                        |
 
@@ -151,9 +151,11 @@ override fun onException(exception: OnfidoWorkflow.WorkflowException) {
         is WorkflowUnsupportedTaskException ->
         // This happens when you are using an older version of the Android SDK. You can fix this by updating the SDK
         is WorkflowHttpException ->
-        // This happens when the SDK receives an error from an API call see [https://documentation.onfido.com/#errors](https://documentation.onfido.com/#errors) for more information
+        // This happens when the SDK receives an error from an API call see [https://documentation.onfido.com/api/latest/#errors](https://documentation.onfido.com/api/latest/#errors) for more information
         is WorkflowUnknownException ->
         // This happens when an unexpected error occurs. Please contact [android-sdk@onfido.com](mailto:android-sdk@onfido.com?Subject=ISSUE%3A) when this happens
+        is WorkflowAbandonedException ->
+        // This happens when workflow run is abandoned. In this case a new workflow run has to be created
         else -> 
         // Necessary because of Kotlin
     }
@@ -164,8 +166,8 @@ override fun onException(exception: OnfidoWorkflow.WorkflowException) {
 ## Customizing the SDK
 
 Studio uses the same appearance and localization objects as a standard integration. You can see how
-to create them here: [Appearance](https://github.com/onfido/onfido-android-sdk#ui-customization)
-and [Localization](https://github.com/onfido/onfido-android-sdk#localization).
+to create them here: [Appearance](https://documentation.onfido.com/sdk/android/#ui-customization)
+and [Localization](https://documentation.onfido.com/sdk/android/#language-localization).
 
 Note: For localisation you need to use `withLocale(locale: Locale)` method of
 the `WorkflowConfig.Builder` to set the preferred locale.
