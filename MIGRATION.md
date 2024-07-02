@@ -4,6 +4,12 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
+## `20.4.0` -> `20.5.0`
+
+### Deprecated API Changes
+
+- Deprecated `disableNFC()` use `withNFC(NFCOptions.Disabled)` instead
+
 ## `20.0.0` -> `20.4.0`
 
 ### String Changes

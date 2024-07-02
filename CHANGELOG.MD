@@ -9,6 +9,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [20.5.0] - 2024-07-02
+
+### Added
+
+- Added `withNFC(Disabled, Optional, Required)` when configuring NFC in `OnfidoConfig`
+- Deprecated `disableNFC()`, use `withNFC(NFCOptions.Disabled)` instead
+
+### Changed
+
+- Added handling for the Studio workflows with abandoned or error state
+- Fixed the ANR (Application Not Responding) issue that occurred when NFC scanning was canceled.
+
+### Fixed
+
+- Fixed tapping back from proof of address landing page exits the flow
+- Added proguard rules for `androidx.window` Sidecar classes to avoid them being removed by R8 which causes crashes in some devices with abstract method `void androidx.window.sidecar.SidecarInterface$SidecarCallback.onDeviceStateChanged`
+
 ## [20.2.2] - 2024-06-25
 
 ### Fixed
