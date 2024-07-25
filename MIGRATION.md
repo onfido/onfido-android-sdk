@@ -4,7 +4,18 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
-## `20.4.0` -> `20.5.0`
+## `20.5.0` -> `21.0.0`
+
+### Platform Changes
+
+- There might be a chance of getting "2 files found with path 'META-INF/versions/9/OSGI-INF/MANIFEST.MF'." during build or run tasks, if so, please add the following to your packagingOptions of the `app/build.gradle` file: `packagingOptions.resources.excludes += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"`
+- Please update your JDK version to version 17. Details: https://developer.android.com/build/jdks
+
+### Breaking API Changes
+
+- Motion functionality has been enhanced to work seamlessly on all devices. You can safely remove any existing `withCaptureFallback()` implementations from your code.
+- Deprecated APIs are removed and need to be replaced with current ones
+- Removed the deprecated `withNFCReadFeature` and `disableNFC` configuration options for `OnfidoConfig` in non-Studio usage scenarios. Please use `withNFC(NFCOptions.Disabled)` instead.## `20.4.0` -> `20.5.0`
 
 ### Deprecated API Changes
 

@@ -60,7 +60,7 @@ The SDK supports API level 21 and above ([refer to the distribution stats](https
 Our configuration is currently set to the following:
 
 - `minSdkVersion = 21`
-- `targetSdkVersion = 31`
+- `targetSdkVersion = 34`
 - `android.useAndroidX=true`
 - `Kotlin = 1.7.10+`
 ```
@@ -97,7 +97,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 13.33 Mb  |
+| armeabi-v7a | 14.85 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -121,7 +121,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 10.21 Mb  |
+| core-armeabi-v7a | 11.73 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -273,14 +273,14 @@ fun onCreate(savedInstanceState: Bundle?) {
 
 ### Start the flow
 
-##### Kotlin
+#### Kotlin
 
 ```kotlin
 onfidoWorkflow = OnfidoWorkflow.create(this)
 startActivityForResult(onfidoWorkflow.createIntent(workflowConfig), REQUEST_CODE)
 ```
 
-### Custom Application Class
+### Onfido Android Process - Custom Application Class
 
 **Note**: You can skip this step if you don't have any custom application class.
 
@@ -290,7 +290,7 @@ This will prevent initialization-related crashes such as: [`FirebaseApp is not i
 
 The `isOnfidoProcess` extension function has been integrated into the Application class to prevent accidental reinitialization of instances within custom application classes. This feature is especially useful for optimizing the Onfido initialization process. Be aware that the Onfido process uses your custom Application class for its own initialization. If you decide to use `isOnfidoProcess` to selectively skip the initialization of certain instances during the Onfido process, be cautious not to access these uninitialized instances elsewhere in your Application class, such as in the `onTrimMemory` method, to avoid unexpected behavior. Furthermore, instances initialized by providers like Firebase will not be reinitialized in the Onfido process. If you wish to use such instances within the Onfido process, you'll need to manually initialize them. More info can be found [here](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp#initializeApp(android.content.Context)).
 
-##### Kotlin
+#### Kotlin
 
 ```kotlin
 class YourCustomApplication : MultiDexApplication() {
@@ -306,7 +306,7 @@ class YourCustomApplication : MultiDexApplication() {
 
 ```
 
-##### Java
+#### Java
 
 ```java
 public class YourCustomApplication extends MultiDexApplication {
@@ -406,15 +406,15 @@ For example:
 In your application's `styles.xml` file:
 ```xml
 <style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
-        <item name="onfidoFontFamilyTitle">@font/montserrat_semibold</item>
-        <item name="onfidoFontFamilyBody">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyTitleAttr">@font/montserrat_semibold</item>
+        <item name="onfidoFontFamilyBodyAttr">@font/font_montserrat</item>
 
         <!-- You can also make the dialog buttons follow another fontFamily like a regular button -->
-        <item name="onfidoFontFamilyDialogButton">?onfidoFontFamilyButton</item>
+        <item name="onfidoFontFamilyDialogButtonAttr">?onfidoFontFamilyButton</item>
 
-        <item name="onfidoFontFamilySubtitle">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyButton">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyToolbarTitle">@font/font_montserrat_semibold</item>
+        <item name="onfidoFontFamilySubtitleAttr">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyButtonAttr">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyToolbarTitleAttr">@font/font_montserrat_semibold</item>
 </style>
 ```
 

@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '20.5.0'
-def versionCodeNumber = 2050
+def sdkVersion = '21.0.0'
+def versionCodeNumber = 2100
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     defaultConfig {
         applicationId "com.onfido.sampleapp"
         minSdkVersion 21
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode versionCodeNumber
         versionName "$versionCode-sdk:$sdkVersion"
         multiDexEnabled true
@@ -39,6 +39,8 @@ android {
             universalApk true //generate an additional APK that contains all the ABIs
         }
     }
+
+    packagingOptions.resources.excludes += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
 }
 
 repositories {

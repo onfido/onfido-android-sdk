@@ -19,7 +19,7 @@ above ([distribution stats](https://developer.android.com/about/dashboards/index
 Our configuration is currently set to the following:
 
 - `minSdkVersion = 21`
-- `targetSdkVersion = 31`
+- `targetSdkVersion = 34`
 - `android.useAndroidX=true`
 - `Kotlin = 1.7.10+`
 

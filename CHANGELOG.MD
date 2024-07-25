@@ -9,6 +9,26 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [21.0.0] - 2024-07-25
+
+### Added
+
+- Added support for electronic id verification (eID)
+- Added a fallback for any unsupported studio task to fallback to as a capture module
+
+### Changed
+
+- Removed deprecated Motion capture fallback API
+- Deprecated APIs are now marked with Error deprecation Level.
+- Bumped Android target SDK version to 34. This update indirectly means that, the Java version 17 is required to build the project. Details: https://developer.android.com/build/jdks
+- Updated JMRTD and SCUBA library versions to latest, to account for the deprecated functions on Android API 34
+- Removed the deprecated `withNFCReadFeature` and `disableNFC`.
+
+### Fixed
+
+- Fixed an issue with the `TokenExpirationHandler` for Studio, where the `onException` callback was triggered instead of the refresh token set in the expiration handler.
+- Fixed a crash when user enables NFC after entering the NFC intro screen
+
 ## [20.5.0] - 2024-07-02
 
 ### Added
