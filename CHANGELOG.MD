@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [21.0.1] - 2024-07-29
+
+### Fixed
+
+- Modified the video upload process to ensure ETSI compliance
+
 ## [21.0.0] - 2024-07-25
 
 ### Added
