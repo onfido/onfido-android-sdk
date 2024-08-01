@@ -193,64 +193,11 @@ When defining workflows and creating identity verifications, we highly recommend
 
 ### SDK authentication
 
-The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido Android SDK.
+The SDK is authenticated using SDK tokens. Onfido Studio generates and exposes SDK tokens in the workflow run payload returned by the API when a workflow run is [created](https://documentation.onfido.com/#create-workflow-run).
 
-For details on how to generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/api/latest/#generate-sdk-token).
+SDK tokens for Studio can only be used together with the specific workflow run they are generated for, and remain valid for a period of five weeks.
 
 **Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
-
-#### `tokenExpirationHandler`
-
-It's important to note that SDK tokens expire after 90 minutes.
-
-With this in mind, we recommend you use the optional `tokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, otherwise the flow will finish with a `TokenExpiredException` error.
-
-For example:
-
-##### Kotlin
-
-```kotlin
-
-class ExpirationHandler : TokenExpirationHandler {
-
-    override fun refreshToken(injectNewToken: (String) -> Unit) {
-        // Your network request logic to retrieve SDK token goes here
-        injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the SDK will exit with token expired error
-    }
-}
-
-val workflowConfig = WorkflowConfig.Builder(
-    workflowRunId = "<WORKFLOW_RUN_ID>",
-    sdkToken = "<SDK_TOKEN>"
-    )
-    .withTokenExpirationHandler(
-        tokenExpirationHandler = ExpirationHandler()   // ExpirationHandler is mandatory
-    )
-    .build()
-
-
-```
-
-##### Java
-
-```java
-class ExpirationHandler implements TokenExpirationHandler {
-
-    @Override
-    public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
-        // Your network request logic to retrieve SDK token goes here
-        injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the SDK will exit with token expired error
-    }
-}
-
-    WorkflowConfig workflowConfig = new WorkflowConfig.Builder(
-        "<WORKFLOW_RUN_ID>",
-        "<SDK_TOKEN>"
-    )
-    .withTokenExpirationHandler(new ExpirationHandler())   // ExpirationHandler is mandatory
-    .build();
-
-```
 
 ### Build a configuration object
 
@@ -508,9 +455,17 @@ The `FlowStep` parameter is mutually exclusive with `workflowRunId`, requiring a
 
 **Note** that this initialization process is **not recommended** as the majority of new features are exclusively released for Studio workflows.
 
-### Managing SDK Token Expiry with `expireHandler`
+### Manual SDK authentication
 
-When generating SDK tokens, it's important to note that they expire after 90 minutes.
+The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido Android SDK.
+
+For details on how to manually generate SDK tokens, please refer to the `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/#generate-sdk-token).
+
+**Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
+
+#### `tokenExpirationHandler`
+
+It's important to note that manually generated SDK tokens expire after 90 minutes (SDK tokens generated in Onfido Studio when creating workflow runs are **not** affected by this limit).
 
 With this in mind, we recommend you use the optional `tokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, otherwise the flow will finish with a `TokenExpiredException` error.
 
