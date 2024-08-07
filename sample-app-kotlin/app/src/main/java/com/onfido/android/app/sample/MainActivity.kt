@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main)
-        findViewById<View>(R.id.next).setOnClickListener { startFlow() }
+        findViewById<View>(R.id.next).setOnClickListener { v: View? -> startFlow() }
         client = OnfidoFactory.create(this).client
     }
 
@@ -54,8 +54,8 @@ class MainActivity : AppCompatActivity() {
                 startCheck(captures)
             }
 
-            override fun onError(exception: OnfidoException) {
-                exception.printStackTrace()
+            override fun onError(e: OnfidoException) {
+                e.printStackTrace()
                 showToast("Unknown error")
             }
         })

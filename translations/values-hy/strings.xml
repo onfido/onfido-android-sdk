@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Ներկայացրեք լուսանկարը ամեն դեպքում</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Փորձեք ձեռքով վիդեո գրանցել</string>
 	<string name="onfido_interactive_task_waiting_title_1">Ստուգում ենք պատկերի որակը․․․</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">Խնդրում ենք մի փոքր ավելի երկար սպասել, մինչև առաջադրանքը ավարտվի։</string>
+	<string name="onfido_interactive_task_waiting_title_2">Նկարը բեռնվում է...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Վիդեոն բեռնվում է․․․</string>
+	<string name="onfido_interactive_task_waiting_title_4">Ստուգում ենք տվյալների որակը․․․</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Խնդրում ենք մի փոքր ավելի երկար սպասել, մինչև առաջադրանքը ավարտվի։</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Տվյալների կոմպիլյացիա...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Մենք հավաքված տվյալները համադրում ենք, խնդրում ենք սպասել:</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Տվյալների ապահովում...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Չեղարկել</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Ներքևի %d տողերը (MRZ) անհասկանալի են</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Պատճենի ձեր փայտի վերջը</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Սկանավո</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Փակեք ձեր անձնագիրը և դնեք այն հարթ մակերեսում մեջտեղով վերև։</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Տեղադրեք ձեր հեռախոսի վերեւում ձեր անձնագրի ներքևում:</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի ներքևի կեսի վրա, որպեսզի նրանք կապվեն։</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Աստիճան ավելին և ներքև սահմանափակեք ձեր հեռախոսը ձեր անձնագրի դեմ չիպը գտնելու համար:</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Երբ սկանավորումը սկսվում է, պահեք ձեր հեռախոսը և անձնագիրը անշարժ։</string>
 </resources>

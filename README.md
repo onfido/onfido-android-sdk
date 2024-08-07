@@ -30,11 +30,12 @@ The Onfido Smart Capture SDKs provide a set of screens and functionalities that 
 - Direct image upload to the Onfido service, to simplify integration
 - A suite of advanced fraud detection signals to protect against malicious users
 
-All Onfido Smart Capture SDKs are orchestrated using [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product) workflows, with only minor customization differences between the available platforms.
+All Onfido Smart Capture SDKs are orchestrated using [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product) workflows, with only minor customization differences between the available platforms.
 
 The Onfido Android SDK is specifically designed for integrating Android applications.
 
 ![Various views from the SDK](screenshots.jpg)
+![Various views from the SDK](gifs.gif)
 
 ### Environments and testing with the SDK
 
@@ -47,7 +48,7 @@ The environment being used is determined by the API token that is used to genera
 
 ### Going Live
 
-Once you are satisfied with your integration and are ready to go live, please contact Onfido's [Customer Support](mailto:client-support@onfido.com) to obtain a live API token. You will have to replace the sandbox token in your code with the live token.
+Once you are satisfied with your integration and are ready to go live, please contact [client-support@onfido.com](mailto:client-support@onfido.com) to obtain a live API token. You will have to replace the sandbox token in your code with the live token.
 
 Check that you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/), before going live.
 
@@ -60,7 +61,7 @@ The SDK supports API level 21 and above ([refer to the distribution stats](https
 Our configuration is currently set to the following:
 
 - `minSdkVersion = 21`
-- `targetSdkVersion = 34`
+- `targetSdkVersion = 31`
 - `android.useAndroidX=true`
 - `Kotlin = 1.7.10+`
 ```
@@ -97,7 +98,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 14.85 Mb  |
+| armeabi-v7a | 13.37 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -121,12 +122,13 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.73 Mb  |
+| core-armeabi-v7a | 10.25 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
 
-**Note**: The average sizes were measured by building the minimum possible wrappers around our SDK.
+**Note**: The average sizes were measured by building the minimum possible wrappers around our SDK,
+using the following [stack](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/linux-docker-android-lts.log).
 Different versions of the dependencies, such as Gradle or NDK, may result in slightly different values.
 
 **Note**: To improve the security of our clients, our infrastructure and SDK client SSL configurations support TLSv1.2+ only.
@@ -175,11 +177,11 @@ The Android SDK has multiple initialization and customization options that provi
 
 ### Defining a workflow
 
-Onfido Studio is the platform used to create highly reusable identity verification workflows for use with the Onfido SDKs. For an introduction to working with workflows, please refer to our [Getting Started guide](https://documentation.onfido.com/getting-started/general-introduction), or the Onfido Studio [product guide](https://documentation.onfido.com/getting-started/onfido-studio-product).
+Onfido Studio is the platform used to create highly reusable identity verification workflows for use with the Onfido SDKs. For an introduction to working with workflows, please refer to our [Getting Started guide](https://developers.onfido.com/guide/general-introduction), or the Onfido Studio [product guide](https://developers.onfido.com/guide/onfido-studio-product).
 
 SDK sessions are orchestrated by a session-specific `workflow_run_id`, itself derived from a `workflow_id`, the unique identifier of a given workflow.
 
-For details on how to generate a `workflow_run_id`, please refer to the `POST /workflow_runs/` endpoint definition in the Onfido [API reference](https://documentation.onfido.com/api/latest/#workflow-runs).
+For details on how to generate a `workflow_run_id`, please refer to the `POST /workflow_runs/` endpoint definition in the Onfido [API reference](https://documentation.onfido.com/#workflow-runs).
 
 <Callout type="warning">
 
@@ -193,11 +195,52 @@ When defining workflows and creating identity verifications, we highly recommend
 
 ### SDK authentication
 
-The SDK is authenticated using SDK tokens. Onfido Studio generates and exposes SDK tokens in the workflow run payload returned by the API when a workflow run is [created](https://documentation.onfido.com/#create-workflow-run).
+The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido Android SDK.
 
-SDK tokens for Studio can only be used together with the specific workflow run they are generated for, and remain valid for a period of five weeks.
+For details on how to generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/#generate-sdk-token).
 
 **Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
+
+#### `tokenExpirationHandler`
+
+It's important to note that SDK tokens expire after 90 minutes.
+
+With this in mind, we recommend you use the optional `tokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, otherwise the flow will finish with a `TokenExpiredException` error.
+
+For example:
+
+##### Kotlin
+
+```kotlin
+
+class ExpirationHandler : TokenExpirationHandler {
+
+        override fun refreshToken(injectNewToken: (String?) -> Unit) {
+            TODO("<Your network request logic to retrieve SDK token goes here>")
+            injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the sdk will exit with token expired error
+        }
+    }
+
+val config = OnfidoConfig.builder(context)
+    .withSDKToken("<YOUR_SDK_TOKEN_HERE>", tokenExpirationHandler = ExpirationHandler()) // ExpirationHandler is optional
+```
+
+##### Java
+
+```java
+
+class ExpirationHandler implements TokenExpirationHandler {
+
+    @Override
+    public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
+        //Your network request logic to retrieve SDK token goes here
+        injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the sdk will exit with token expired error
+    }
+}
+
+OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
+                .withSDKToken("<YOUR_SDK_TOKEN>", new ExpirationHandler()); // ExpirationHandler is optional
+```
 
 ### Build a configuration object
 
@@ -220,24 +263,24 @@ fun onCreate(savedInstanceState: Bundle?) {
 
 ### Start the flow
 
-#### Kotlin
+##### Kotlin
 
 ```kotlin
 onfidoWorkflow = OnfidoWorkflow.create(this)
 startActivityForResult(onfidoWorkflow.createIntent(workflowConfig), REQUEST_CODE)
 ```
 
-### Onfido Android Process - Custom Application Class
+### Custom Application Class
 
 **Note**: You can skip this step if you don't have any custom application class.
 
-**Note**: Following the release of [version 17.0.0](https://documentation.onfido.com/sdk/android/migration/#no--1700---1800), the Android SDK runs in a separate process. This means that when the SDK gets started, a new application instance will be created. To prevent re-executing the initializations you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below.
+**Note**: Following the release of [version 17.0.0](https://documentation.onfido.com/sdk/android/#no--1700---1800), the Android SDK runs in a separate process. This means that when the SDK gets started, a new application instance will be created. To prevent re-executing the initializations you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below.
 
 This will prevent initialization-related crashes such as: [`FirebaseApp is not initialized in this process`](https://github.com/firebase/firebase-android-sdk/issues/4693)
 
 The `isOnfidoProcess` extension function has been integrated into the Application class to prevent accidental reinitialization of instances within custom application classes. This feature is especially useful for optimizing the Onfido initialization process. Be aware that the Onfido process uses your custom Application class for its own initialization. If you decide to use `isOnfidoProcess` to selectively skip the initialization of certain instances during the Onfido process, be cautious not to access these uninitialized instances elsewhere in your Application class, such as in the `onTrimMemory` method, to avoid unexpected behavior. Furthermore, instances initialized by providers like Firebase will not be reinitialized in the Onfido process. If you wish to use such instances within the Onfido process, you'll need to manually initialize them. More info can be found [here](https://firebase.google.com/docs/reference/android/com/google/firebase/FirebaseApp#initializeApp(android.content.Context)).
 
-#### Kotlin
+##### Kotlin
 
 ```kotlin
 class YourCustomApplication : MultiDexApplication() {
@@ -253,7 +296,7 @@ class YourCustomApplication : MultiDexApplication() {
 
 ```
 
-#### Java
+##### Java
 
 ```java
 public class YourCustomApplication extends MultiDexApplication {
@@ -319,11 +362,11 @@ color:
 </style>
 ```
 
-For a complete list and visualizations of the customizable attributes, refer to our [SDK customization guide](https://documentation.onfido.com/sdk/sdk-customization).
+For a complete list and visualizations of the customizable attributes, refer to our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization).
 
 #### Dark theme
 
-Starting from [version 19.1.0](https://documentation.onfido.com/sdk/android/migration/#no--1900---1910), the Android SDK supports the dark theme. By default, the user's active device theme will be 
+Starting from [version 19.1.0](https://documentation.onfido.com/sdk/android/#no--1900---1910), the Android SDK supports the dark theme. By default, the user's active device theme will be 
 automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time 
 and instead set a theme statically at the build time as shown below. In this case, the flow will always be displayed 
 in the selected theme regardless of the user's device theme.
@@ -353,15 +396,15 @@ For example:
 In your application's `styles.xml` file:
 ```xml
 <style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
-        <item name="onfidoFontFamilyTitleAttr">@font/montserrat_semibold</item>
-        <item name="onfidoFontFamilyBodyAttr">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyTitle">@font/montserrat_semibold</item>
+        <item name="onfidoFontFamilyBody">@font/font_montserrat</item>
 
         <!-- You can also make the dialog buttons follow another fontFamily like a regular button -->
-        <item name="onfidoFontFamilyDialogButtonAttr">?onfidoFontFamilyButton</item>
+        <item name="onfidoFontFamilyDialogButton">?onfidoFontFamilyButton</item>
 
-        <item name="onfidoFontFamilySubtitleAttr">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyButtonAttr">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyToolbarTitleAttr">@font/font_montserrat_semibold</item>
+        <item name="onfidoFontFamilySubtitle">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyButton">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyToolbarTitle">@font/font_montserrat_semibold</item>
 </style>
 ```
 
@@ -379,7 +422,7 @@ final OnfidoConfig config = OnfidoConfig.builder()
 
 **Note**: If no language is selected, the SDK will detect and use the end user's device language setting. If the device's language is not supported, the SDK will default to English (`en_US`).
 
-For the full list of languages supported by Onfido, please refer to our [SDK customization guide](https://documentation.onfido.com/sdk/sdk-customization#language-customization).
+For the full list of languages supported by Onfido, please refer to our [SDK customization guide](https://developers.onfido.com/guide/sdk-customization#language-customization).
 
 
 **Custom language**
@@ -390,15 +433,15 @@ When adding custom translations, please make sure you add the whole set of keys 
 
 **Note**: If the strings translations change, it will result in a minor version change. If you have custom translations, you're responsible for testing your translated layout.
 
-If you want a locale translated please contact Onfido's [Customer Support](mailto:support@onfido.com).
+If you want a locale translated, you can get in touch with us at [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ### NFC capture using Onfido Studio
 
 Recent passports, national identity cards and residence permits contain a chip that can be accessed using Near Field Communication (NFC). The Onfido SDKs provide a set of screens and functionalities to extract this information, verify its authenticity and provide the resulting verification as part of a Document report.
 
-From version [18.1.0](https://documentation.onfido.com/sdk/android/migration/#1800---1900) onwards of the Onfido Android SDK, NFC is enabled by default and offered to end users when both the document and the device support NFC.
+From version [18.1.0](https://github.com/onfido/onfido-android-sdk/blob/master/MIGRATION.md#1800---1900) onwards of the Onfido Android SDK, NFC is enabled by default and offered to end users when both the document and the device support NFC.
 
-For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://documentation.onfido.com/guide/document-report-nfc) guide.
+For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
 ## Completing a session
 
@@ -412,7 +455,7 @@ Available callback functions include:
 
 | Attribute     |    Notes    |
 | -----|-------|
-| `onUserCompleted` | Callback that fires when all interactive tasks in the workflow have been completed. If you have configured [webhooks](https://documentation.onfido.com/api/latest/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the workflow. |
+| `onUserCompleted` | Callback that fires when all interactive tasks in the workflow have been completed. If you have configured [webhooks](https://documentation.onfido.com/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the workflow. |
 | `onUserExited` | Callback that fires when the workflow was exited prematurely by the user. The reason can be an exitCode, e.g `USER_CONSENT_DENIED`. |
 | `onException` | In case of an unexpected error, the onException method will be invoked with a relevant error message in the `WorkflowException` object. Error messages are not in a presentable format to the end user and are not localized. |
 
@@ -440,12 +483,12 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 
 ### Generating verification reports
 
-While the SDK is responsible for capturing and uploading the user's media and data, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product).
+While the SDK is responsible for capturing and uploading the user's media and data, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://developers.onfido.com/guide/onfido-studio-product).
 
-For a step-by-step walkthrough of creating an identity verification using Onfido Studio and our SDKs, please refer to our [Quick Start Guide](https://documentation.onfido.com/getting-started/quick-start-guide).
+For a step-by-step walkthrough of creating an identity verification using Onfido Studio and our SDKs, please refer to our [Quick Start Guide](https://developers.onfido.com/guide/quick-start-guide).
 
-If your application initializes the Onfido Android SDK using the options defined in the [Advanced customization](#advanced-flow-customization) section of this document, you may [create checks](https://documentation.onfido.com/api/latest/#create-check) and [retrieve report results](https://documentation.onfido.com/api/latest/#retrieve-report) manually using the Onfido API.
-You may also configure [webhooks](https://documentation.onfido.com/api/latest/#webhooks) to be notified asynchronously when the report results have been generated.
+If your application initializes the Onfido Android SDK using the options defined in the [Advanced customization](#advanced-flow-customization) section of this document, you may [create checks](https://documentation.onfido.com/#create-check) and [retrieve report results](https://documentation.onfido.com/#retrieve-report) manually using the Onfido API.
+You may also configure [webhooks](https://documentation.onfido.com/#webhooks) to be notified asynchronously when the report results have been generated.
 
 ## Advanced flow customization
 
@@ -454,53 +497,6 @@ This section on 'Advanced customization' refers to the process of initializing t
 The `FlowStep` parameter is mutually exclusive with `workflowRunId`, requiring an alternative method of instantiating the client and starting the flow.
 
 **Note** that this initialization process is **not recommended** as the majority of new features are exclusively released for Studio workflows.
-
-### Manual SDK authentication
-
-The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido Android SDK.
-
-For details on how to manually generate SDK tokens, please refer to the `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/#generate-sdk-token).
-
-**Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
-
-#### `tokenExpirationHandler`
-
-It's important to note that manually generated SDK tokens expire after 90 minutes (SDK tokens generated in Onfido Studio when creating workflow runs are **not** affected by this limit).
-
-With this in mind, we recommend you use the optional `tokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, otherwise the flow will finish with a `TokenExpiredException` error.
-
-For example:
-
-##### Kotlin
-
-```kotlin
-
-class ExpirationHandler : TokenExpirationHandler {
-
-        override fun refreshToken(injectNewToken: (String?) -> Unit) {
-            TODO("<Your network request logic to retrieve SDK token goes here>")
-            injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the sdk will exit with token expired error
-        }
-    }
-
-val config = OnfidoConfig.builder(context)
-    .withSDKToken("<YOUR_SDK_TOKEN_HERE>", tokenExpirationHandler = ExpirationHandler()) // ExpirationHandler is optional
-```
-
-```java
-
-class ExpirationHandler implements TokenExpirationHandler {
-
-    @Override
-    public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
-        //Your network request logic to retrieve SDK token goes here
-        injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the sdk will exit with token expired error
-    }
-}
-
-OnfidoConfig.Builder config = new OnfidoConfig.Builder(context)
-                .withSDKToken("<YOUR_SDK_TOKEN>", new ExpirationHandler()); // ExpirationHandler is optional
-```
 
 ### Instantiate the client
 
@@ -564,17 +560,17 @@ While this screen is **optional**, we only recommend its removal if you already 
 
 #### Consent step
 
-This step contains the consent language required when you offer your service to US users, as well as links to Onfido's policies and terms of use. For applicants created with a [`location`](https://documentation.onfido.com/api/latest/#location-create-applicant) parameter value of the United States, consent collection is **mandatory**.
+This step contains the consent language required when you offer your service to US users, as well as links to Onfido's policies and terms of use. For applicants created with a [`location`](https://documentation.onfido.com/#location-create-applicant) parameter value of the United States, consent collection is **mandatory**.
 
 The user must click "Accept" to move past this step and continue with the flow. The content is available in English only, and is not translatable.
 
 **Note**: This step does not automatically inform Onfido that the user has given their consent:
-- When creating checks using API v3.3 or lower, you need to set the value of the API parameter `privacy_notices_read_consent_given` (now deprecated) at the end of the SDK flow when [creating a check](https://documentation.onfido.com/api/3.3.0/#create-check)
-- From API v3.4 onwards, user consent is confirmed when [creating](https://documentation.onfido.com/api/latest/#create-applicant) or [updating](https://documentation.onfido.com/api/latest/#update-applicant) an applicant using the [consents](https://documentation.onfido.com/api/latest/#consents) parameter
+- When creating checks using API v3.3 or lower, you need to set the value of the API parameter `privacy_notices_read_consent_given` (now deprecated) at the end of the SDK flow when [creating a check](https://documentation.onfido.com/v3.3/#create-check)
+- From API v3.4 onwards, user consent is confirmed when [creating](https://documentation.onfido.com/#create-applicant) or [updating](https://documentation.onfido.com/#update-applicant) an applicant using the [consents](https://documentation.onfido.com/#consents) parameter
 
 If you choose to disable Onfido’s SDK Consent step, you **must** still incorporate the required consent language and links to Onfido's policies and terms of use into your own application's flow before your users start interacting with the Onfido SDK.
 
-For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/getting-started/onfido-privacy-notices-and-consent).
+For more information about this step, and how to collect user consent, please visit [Onfido Privacy Notices and Consent](http://developers.onfido.com/guide/onfido-privacy-notices-and-consent).
 
 #### Document capture step
 
@@ -586,19 +582,19 @@ This selection screen is dynamic, and will be automatically hidden where the end
 document will be captured.
 
 You can specify allowed issuing countries and document types for the document capture step in one of three ways: 
-*   If you are using Onfido Studio, this is configured within a Document Capture task, documented in the [Studio Product Guide](https://documentation.onfido.com/getting-started/onfido-studio-product#document-capture-task)
+*   If you are using Onfido Studio, this is configured within a Document Capture task, documented in the [Studio Product Guide](https://developers.onfido.com/guide/onfido-studio-product#document-capture-task)
 *   Otherwise, the recommended approach is to apply this configuration globally in your [Dashboard](https://dashboard.onfido.com/) under Accounts \ Supported Documents, or hard code it into your SDK integration. Both of these options are documented below.
 
 ##### Country and document type selection by Dashboard 
 
 Configuring the issuing country and document type selection step using your Dashboard is the **recommended method** of integration (available from [iOS SDK](https://documentation.onfido.com/sdk/ios/) version 28.0.0 and [Android SDK](https://documentation.onfido.com/sdk/android/) version 16.0.0 onwards), as this configuration is also applied to your Document Reports. Any document that has been uploaded by an end user against your guidance will result in a Document Report sub-result of "rejected" and be flagged as `Image Integrity` > `Supported Document`.
 
-_We will be rolling out Dashboard-based configuration of allowed documents soon. In the meantime, contact Onfido's [Customer Support](mailto:support@onfido.com) or your Customer Support Manager to request access to this feature_.
+_We will be rolling out Dashboard-based configuration of allowed documents soon. In the meantime, contact [support@onfido.com](support@onfido.com) or your Customer Support Manager to request access to this feature_.
 
 *   Open the Accounts tab on your [Dashboard](https://dashboard.onfido.com/), then click Supported Documents
 *   You will be presented with a list of all available countries and their associated supported documents. Make your selection, then click Save Change. 
 
-![Dashboard country and document selection](dashboard-supported-docs.png)
+![Dashboard country and document selection](dashboard-supported-docs.png "")
 
 **Please note the following SDK behaviour**:
 *   Hard coding any document type and issuing country configuration in your SDK integration will fully override the Dashboard-based settings
@@ -775,27 +771,20 @@ The final screen displays a completion message to the user and signals the end o
 
 Recent passports, national identity cards and residence permits contain a chip that can be accessed using Near Field Communication (NFC). The Onfido SDKs provide a set of screens and functionalities to extract this information, verify its authenticity and provide the results as part of a Document report.
 
-With version [18.1.0](https://documentation.onfido.com/sdk/android/migration/#1800---1900) of the Onfido Android SDK, NFC is enabled by default and offered to end users when both the document and the device support NFC.
+With version [18.1.0](https://github.com/onfido/onfido-android-sdk/blob/master/MIGRATION.md#1800---1900) of the Onfido Android SDK, NFC is enabled by default and offered to end users when both the document and the device support NFC.
 
-To configure NFC, call the `withNFC(NFCOptions)` function while configuring `OnfidoConfig`. There are three NFC options:
-* Disabled: NFC reading will not be asked of end-users
-* Optional (Default): NFC reading will be attempted, if possible
-* Required: NFC reading will be enforced, preventing end-users from completing the flow without a successful reading
-
-For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://documentation.onfido.com/guide/document-report-nfc) guide.
+For more information on how to configure NFC and the list of supported documents, please refer to the [NFC for Document Report](https://developers.onfido.com/guide/document-report-nfc) guide.
 
 ##### Disabling NFC and excluding dependencies
 
 As NFC is enabled by default and library dependencies are included in the build automatically, the following section details the steps required to disable NFC and remove any libraries from the build process:
 
-Call `withNFC(NFCOptions.Disabled)` while configuring `OnfidoConfig`:
-
-##### Kotlin
+Call `disableNFC()` while configuring `OnfidoConfig`:
 
 ```kotlin
 val config = OnfidoConfig.builder(this@MainActivity)
     .withSDKToken(“<YOUR_SDK_TOKEN_HERE>”)
-    .withNFC(NFCOptions.Disabled) //Disable NFC feature
+    .disableNFC() //Disable NFC feature
     .withCustomFlow(flowSteps)
     .build()
 ```
@@ -879,7 +868,7 @@ Proof of address:
 ```
 **Note**: the `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
-**Note**: As part of the `userCompleted` method, the `DocumentType` property can only contain the values which are supported by the Onfido API. Please refer to [our API documentation](https://documentation.onfido.com/api/latest/#document-types)
+**Note**: As part of the `userCompleted` method, the `DocumentType` property can only contain the values which are supported by the Onfido API. Please refer to [our API documentation](https://documentation.onfido.com/#document-types)
 
 **`exitCode`**
 
@@ -931,7 +920,6 @@ private static class CustomMediaCallback implements MediaCallback {
 ```
 
 ##### Kotlin
-
 ```kotlin
 onfidoConfigBuilder
     .withMediaCallback { mediaResult ->
@@ -1066,7 +1054,7 @@ The code inside the overridden method will now be called when a particular event
 
 **Notes**:
 
-* From versions [16.0.0](https://documentation.onfido.com/sdk/android/migration/#no--1600---2023-02-21) onwards, `UserEventHandler` has been deprecated and **removed** from the SDK. If you are upgrading from a previous Onfido SDK version, please migrate to `OnfidoAnalyticsEventListener`
+* From versions [16.0.0](https://documentation.onfido.com/sdk/android/#no--1600---2023-02-21) onwards, `UserEventHandler` has been deprecated and **removed** from the SDK. If you are upgrading from a previous Onfido SDK version, please migrate to `OnfidoAnalyticsEventListener`
 * From version 18.0.0 onwards, for any usage of the `OnfidoEventListener`, implement `Parcelable` instead of `Serializable`
 
 For a full list of events, see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
@@ -1098,7 +1086,7 @@ We provide integration guides and sample applications to help customers integrat
 - [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
 
 We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
-Any issues or questions about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to Onfido's [Customer Support](mailto:support@onfido.com).
+Any issues or questions about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Migrating
 
@@ -1111,7 +1099,7 @@ You can find the migration guide in the [MIGRATION.md](MIGRATION.md) file.
 You can pin any communication between our SDK and server through the `.withCertificatePinning()` method in
 our `OnfidoConfig.Builder` configuration builder. This method accepts as a parameter an `Array<String>` with sha-1/sha-256 hashes of the certificate's public keys.
 
-For more information about the hashes, please email Onfido's [Customer Support](mailto:support@onfido.com).
+For more information about the hashes, please email [android-sdk@onfido.com](mailto:android-sdk@onfido.com).
 
 ## Accessibility
 
@@ -1122,7 +1110,7 @@ The Onfido Android SDK has been optimized to provide the following accessibility
 - Sufficient color contrast: default colors have been tested to meet the recommended level of contrast
 - Sufficient touch target size: all interactive elements have been designed to meet the recommended touch target size
 
-Refer to our [accessibility statement](https://documentation.onfido.com/sdk/sdk-accessibility-statement) for more details.
+Refer to our [accessibility statement](https://developers.onfido.com/guide/sdk-accessibility-statement) for more details.
 
 ## Licensing
 
@@ -1139,7 +1127,7 @@ We have included a [sample app](sample-app) to show how to integrate the Onfido 
 
 ### API Documentation
 
-Further information about the Onfido API is available in our [API reference](https://documentation.onfido.com/api).
+Further information about the Onfido API is available in our [API reference](https://documentation.onfido.com).
 
 ## Support
 
@@ -1149,6 +1137,6 @@ Alternatively, you can search the support documentation available via the custom
 
 We recommend you update your SDK to the latest version release as frequently as possible. Customers on newer versions of the Onfido SDK consistently see better performance across user onboarding and fraud mitigation, so we strongly advise keeping your SDK integration up-to-date.
 
-You can review our full SDK versioning policy [here](https://documentation.onfido.com/sdk/sdk-version-releases).
+You can review our full SDK versioning policy [here](https://developers.onfido.com/guide/sdk-version-releases).
 
 Copyright 2024 Onfido, Ltd. All rights reserved.

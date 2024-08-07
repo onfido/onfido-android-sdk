@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Submit photo regardless</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Try recording video manually</string>
 	<string name="onfido_interactive_task_waiting_title_1">Checking image quality...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">Please wait a bit longer for the task to finish.</string>
+	<string name="onfido_interactive_task_waiting_title_2">Uploading image...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Uploading video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Checking data quality...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Please wait a bit longer for the task to finish.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compiling data...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We are compiling the data collected, please wait.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Securing data...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Cancel</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Bottom %d lines (MRZ) unclear</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Make the bottom of your document visible</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Scan interrupted</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Close your passport and place it on a flat surface with the front side facing up.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Reposition the top of your mobile in contact with the bottom of your passport.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Place your mobile on top of the bottom half of your passport, so they\'re in contact.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Slowly slide your mobile up and down against your passport to locate the chip.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Once the scan starts, keep your mobile and passport still.</string>
 </resources>

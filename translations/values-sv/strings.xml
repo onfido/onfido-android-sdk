@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Skicka foto ändå</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Försök att spela in video manuellt</string>
 	<string name="onfido_interactive_task_waiting_title_1">Kontrollerar bildkvalitet...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">Vänligen vänta lite längre för att uppgiften ska bli klar.</string>
+	<string name="onfido_interactive_task_waiting_title_2">Laddar upp bild...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Laddar upp video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Kontrollerar datakvalitet...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Vänligen vänta lite längre för att uppgiften ska bli klar.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilerar data...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Vi sammanställer de insamlade uppgifterna, var god vänta.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Säkrar data...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Avbryt</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Nedersta %d raderna (MRZ) otydliga</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Gör botten av ditt dokument synligt</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Skanning avbruten</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Stäng ditt pass och placera det på en plan yta med framsidan uppåt.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Placera om toppen av din telefon i kontakt med botten på ditt pass.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Placera din telefon ovanpå den nedre halvan av ditt pass, så att de är i kontakt.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Glid långsamt upp och ner med din telefon mot ditt pass för att hitta chipet.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">När skanningen startar, håll din telefon och pass stilla.</string>
 </resources>

@@ -514,6 +514,9 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Soumettre la photo quand même</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Essayez d\'enregistrer la vidéo manuellement</string>
 	<string name="onfido_interactive_task_waiting_title_1">Vérification de la qualité de l\'image...</string>
+	<string name="onfido_interactive_task_waiting_title_2">Téléchargement de l\'image...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Téléchargement de la vidéo...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Vérification de la qualité des données...</string>
 	<string name="onfido_interactive_task_waiting_subtitle_1">Veuillez patienter un peu plus longtemps pour que la tâche soit terminée.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilation des données...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Nous compilons les données collectées, veuillez attendre.</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Annuler</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Les %d dernières lignes (MRZ) sont floues</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Rendez le bas de votre document visible</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Scan interrompu</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Fermez votre passeport et placez-le sur une surface plate avec le côté avant vers le haut.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Repositionnez le haut de votre téléphone en contact avec le bas de votre passeport.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Placez votre téléphone sur la moitié inférieure de votre passeport, de sorte qu\'ils soient en contact.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Faites lentement glisser votre téléphone de haut en bas contre votre passeport pour localiser la puce.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Une fois le balayage commencé, gardez votre téléphone et votre passeport immobiles.</string>
 </resources>

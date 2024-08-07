@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Esita foto ikkagi</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Proovige videot käsitsi salvestada</string>
 	<string name="onfido_interactive_task_waiting_title_1">Kontrollin pildi kvaliteeti...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">Palun oodake veidi kauem, kuni ülesanne on lõpule viidud.</string>
+	<string name="onfido_interactive_task_waiting_title_2">Pildi üleslaadimine...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Video üleslaadimine...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Kontrollin andmete kvaliteeti...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Palun oodake veidi kauem, kuni ülesanne on lõpule viidud.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Andmete koostamine...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Me koondame kogutud andmeid, palun oodake.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Andmete turvamine...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Tühistage</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Alumised %d read (MRZ) on ebaselged</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Teie dokumendi alaosa peaks olema nähtav</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Skaneerimine katkestati</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Sulgege oma pass ja asetage see tasasele pinnale esiküljega ülespoole.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Paigutage oma telefoni ülaosa kontakti oma passi alaosaga.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Asetage oma telefon oma passi alumise poole peale, nii et need oleksid kontaktis.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Liigutage aeglaselt oma telefoni üles ja alla oma passi vastas, et kiipi leida.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kui skaneerimine algab, hoidke oma telefoni ja passi paigal.</string>
 </resources>

@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">ส่งรูปถ่ายอยู่ดี</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">ลองบันทึกวิดีโอด้วยตนเอง</string>
 	<string name="onfido_interactive_task_waiting_title_1">กำลังตรวจสอบคุณภาพรูปภาพ...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">โปรดรออีกสักครู่เพื่อให้งานเสร็จสมบูรณ์</string>
+	<string name="onfido_interactive_task_waiting_title_2">กำลังอัปโหลดรูปภาพ...</string>
+	<string name="onfido_interactive_task_waiting_title_3">กำลังอัปโหลดวิดีโอ...</string>
+	<string name="onfido_interactive_task_waiting_title_4">กำลังตรวจสอบคุณภาพข้อมูล...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">โปรดรออีกสักครู่เพื่อให้งานเสร็จสมบูรณ์</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">กำลังรวบรวมข้อมูล...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">เรากำลังรวบรวมข้อมูลที่ได้รับ โปรดรอสักครู่</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">กำลังรักษาความปลอดภัยของข้อมูล...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">ยกเลิก</string>
 	<string name="onfido_doc_capture_alert_mrz_title">บรรทัดล่าง %d บรรทัด (MRZ) ไม่ชัดเจน</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">ทำให้ด้านล่างของเอกสารของคุณสามารถมองเห็นได้</string>
-	<string name="onfido_nfc_scan_doc_realign_title">การสแกนถูกขัดจังหวะ</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">ปิดหนังสือเดินทางของคุณและวางลงบนพื้นผิวแบนด้วยด้านหน้าขึ้น</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">ย้ายด้านบนของโทรศัพท์ของคุณให้สัมผัสกับด้านล่างของพาสปอร์ตของคุณ</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">วางโทรศัพท์ของคุณบนครึ่งล่างของพาสปอร์ตของคุณ เพื่อให้สัมผัสกัน</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">เลื่อนโทรศัพท์ของคุณขึ้นและลงช้า ๆ บนพาสปอร์ตของคุณเพื่อค้นหาชิป</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">เมื่อการสแกนเริ่มต้นแล้ว ให้คุณรักษาโทรศัพท์และหนังสือเดินทางให้นิ่ง</string>
 </resources>

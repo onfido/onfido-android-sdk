@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">それでも写真を提出する</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">手動でビデオを録画してみてください</string>
 	<string name="onfido_interactive_task_waiting_title_1">画像の品質を確認しています...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">タスクが完了するまで、もう少しお待ちいただきますようお願い申し上げます。</string>
+	<string name="onfido_interactive_task_waiting_title_2">画像をアップロード中...</string>
+	<string name="onfido_interactive_task_waiting_title_3">ビデオをアップロード中...</string>
+	<string name="onfido_interactive_task_waiting_title_4">データ品質を確認中...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">タスクが完了するまで、もう少しお待ちいただきますようお願い申し上げます。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">データをコンパイル中...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">収集したデータをコンパイルしています、お待ちください。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">データを保護中...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">キャンセル</string>
 	<string name="onfido_doc_capture_alert_mrz_title">下部の%d行（MRZ）が不明確です</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">あなたの書類の下部を見えるようにしてください</string>
-	<string name="onfido_nfc_scan_doc_realign_title">スキャンが中断されました</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">パスポートを閉じて、表面が上になるように平らな面に置いてください。</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">電話の上部をパスポートの下部に接触させて位置を調整してください。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">パスポートの下半分の上に携帯電話を置いて、接触させてください。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">ゆっくりと電話をパスポートの上下に滑らせて、チップを見つけてください。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">スキャンが開始されたら、携帯電話とパスポートを静止させてください。</string>
 </resources>

@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Надіслати фото все одно</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Спробуйте записати відео вручну</string>
 	<string name="onfido_interactive_task_waiting_title_1">Перевірка якості зображення...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">Будь ласка, зачекайте трохи довше, щоб завдання завершилося.</string>
+	<string name="onfido_interactive_task_waiting_title_2">Завантаження зображення...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Завантаження відео...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Перевірка якості даних...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Будь ласка, зачекайте трохи довше, щоб завдання завершилося.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Компіляція даних...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Ми обробляємо зібрані дані, будь ласка, зачекайте.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Забезпечення даних...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Скасувати</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Нижні %d лінії (MRZ) незрозумілі</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Зробіть нижню частину вашого документа видимою</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Сканування перервано</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Закрийте свій паспорт і покладіть його на рівну поверхню обличчям вгору.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Перемістіть верхню частину вашого телефону так, щоб вона торкалася нижньої частини вашого паспорта.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Покладіть свій телефон на нижню частину свого паспорта, щоб вони були в контакті.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Повільно проводьте телефоном вгору та вниз по паспорту, щоб знайти чіп.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Одразу після початку сканування, тримайте ваш телефон та паспорт нерухомо.</string>
 </resources>

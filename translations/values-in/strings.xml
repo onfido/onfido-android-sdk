@@ -514,7 +514,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Kirim foto saja</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Coba rekam video secara manual</string>
 	<string name="onfido_interactive_task_waiting_title_1">Memeriksa kualitas gambar...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">Harap bersabar sebentar lagi sampai tugas selesai.</string>
+	<string name="onfido_interactive_task_waiting_title_2">Mengunggah gambar...</string>
+	<string name="onfido_interactive_task_waiting_title_3">Mengunggah video...</string>
+	<string name="onfido_interactive_task_waiting_title_4">Memeriksa kualitas data...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Harap bersabar sebentar lagi sampai tugas selesai.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Mengkompilasi data...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Kami sedang mengkompilasi data yang dikumpulkan, harap tunggu.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Mengamankan data...</string>
@@ -563,10 +566,4 @@
 	<string name="onfido_generic_close_sdk_cancel">Batalkan</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Baris bawah %d (MRZ) tidak jelas</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Buat bagian bawah dokumen Anda terlihat</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Pemindaian terganggu</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Tutup paspor Anda dan letakkan di permukaan datar dengan sisi depan menghadap ke atas.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Posisikan bagian atas ponsel Anda bersentuhan dengan bagian bawah paspor Anda.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Letakkan ponsel Anda di atas setengah bagian bawah paspor Anda, sehingga mereka berkontak.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Geserlah perlahan telepon Anda naik dan turun di paspor Anda untuk menemukan chipnya.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Setelah pemindaian dimulai, tetapkan posisi ponsel dan paspor Anda.</string>
 </resources>

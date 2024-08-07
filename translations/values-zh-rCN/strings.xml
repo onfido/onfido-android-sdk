@@ -513,7 +513,10 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">无论如何提交照片</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">尝试手动录制视频</string>
 	<string name="onfido_interactive_task_waiting_title_1">正在检查图像质量...</string>
-    <string name="onfido_interactive_task_waiting_subtitle_1">请稍微等待一下，让任务完成。</string>
+	<string name="onfido_interactive_task_waiting_title_2">正在上传图片...</string>
+	<string name="onfido_interactive_task_waiting_title_3">正在上传视频...</string>
+	<string name="onfido_interactive_task_waiting_title_4">正在检查数据质量...</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">请稍微等待一下，让任务完成。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">正在编译数据...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">我们正在整理收集的数据，请等待。</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">正在保护数据...</string>
@@ -562,10 +565,4 @@
 	<string name="onfido_generic_close_sdk_cancel">取消</string>
 	<string name="onfido_doc_capture_alert_mrz_title">底部 %d 行（MRZ）不清晰</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">使您的证件底部可见</string>
-	<string name="onfido_nfc_scan_doc_realign_title">扫描中断</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">请关闭您的护照，并将其正面朝上放在平面上。</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">将您的手机顶部对准您护照的底部。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">将您的手机放在护照的下半部分上，使它们接触。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">慢慢地将您的手机在护照上下滑动，以找到芯片。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">一旦开始扫描，保持您的手机和护照静止。</string>
 </resources>
