@@ -495,7 +495,7 @@
 	<string name="onfido_nfc_scan_welcome_passport_list_item">Tegye a dokumentumat egy sík feluletre</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Nyissa ki a dokumentumát a hátsó lapnál</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Lassan csúsztassa eszközet fel és le</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Lassan csúsztassa eszközét fel és le</string>
 	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Ellenőrzés NFC nélkül</string>
     <string name="onfido_nfc_scan_error_inter_passport_list_item">Távolítsa el az útlevél- és telefonborítót</string>
@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Küldje el a fotót így is</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Próbálja meg manuálisan felvenni a videót</string>
 	<string name="onfido_interactive_task_waiting_title_1">Képminőség ellenőrzése...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Kép feltöltése...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Videó feltöltése...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Az adatminőség ellenőrzése...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Kérjük, várjon egy kicsit tovább, hogy a folyamat befejeződjön.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Kérjük, várjon egy kicsit tovább, hogy a folyamat befejeződjön.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Adatok összegyűjtése...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Összeállítjuk a gyűjtött adatokat, kérjük várjon.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Adatok biztonságos tárolása...</string>
@@ -554,7 +551,7 @@
 	<string name="onfido_nfc_fail_card_list_item_4">Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Ellenőrizze beolvasás nélkül</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Azonosítás megszakítása</string>
-	<string name="onfido_nfc_scan_welcome_card_disclaimer">Előfordulhat, hogy a folytatás előtt be kell írnia a CAN-t a szkenneléshez</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">Előfordulhat, hogy a folytatás előtt be kell írnia a CAN számát a szkenneléshez</string>
 	<string name="onfido_enter_can_secondary_button">Nincs CAN-em</string>
 	<string name="onfido_nfc_scan_error_can_title">Elérte a maximális próbálkozások számát</string>
 	<string name="onfido_nfc_scan_error_can_subtitle">Elérte a CAN szám megadásának maximális próbálkozásait</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Mégse</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Az alsó %d sor (MRZ) nem olvasható</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Tegye láthatóvá az okmányának az alját</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Szkennelés megszakítva</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Csukja be az útlevelét és helyezze azt egy sík felületre az előlap felfelé.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Helyezze újra a telefonja tetejét úgy, hogy az érintkezzen az útlevél aljával.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Helyezze a telefonját az útlevelének alsó felére, úgy, hogy érintkezzenek.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Lassan húzza fel és le a telefonját az útlevelén, hogy megtalálja a chipet.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Amint a szkennelés elindul, tartsa nyugodtan a telefonját és útlevelét.</string>
 </resources>

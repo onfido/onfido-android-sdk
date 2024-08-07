@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Pošalji fotografiju unatoč tome</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Pokušajte ručno snimiti video</string>
 	<string name="onfido_interactive_task_waiting_title_1">Provjeravanje kvalitete slike...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Postavljanje slike...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Postavljanje videa...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Provjeravanje kvalitete podataka...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Molimo vas da pričekate malo duže dok se zadatak ne završi.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Molimo vas da pričekate malo duže dok se zadatak ne završi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompilacija podataka...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Sastavljamo prikupljene podatke, molimo pričekajte.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Osiguravanje podataka...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Otkaži</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Donje %d linije (MRZ) nisu jasne</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Učinite dno vašeg dokumenta vidljivim</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Skeniranje prekinuto</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Zatvorite svoju putovnicu i stavite je na ravnu površinu s prednjom stranom prema gore.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Pozicionirajte vrh svog telefona u kontakt s dnom vaše putovnice.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Stavite svoj telefon na donju polovicu svoje putovnice, tako da su u kontaktu.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Polako klizite svoj telefon gore i dolje po svojoj putovnici kako biste locirali čip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Jednom kada skeniranje započne, držite svoj telefon i putovnicu mirno.</string>
 </resources>

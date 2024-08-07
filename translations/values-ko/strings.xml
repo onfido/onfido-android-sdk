@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">그래도 사진 제출</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">비디오를 수동으로 녹화해 보세요</string>
 	<string name="onfido_interactive_task_waiting_title_1">이미지 품질 확인 중...</string>
-	<string name="onfido_interactive_task_waiting_title_2">이미지 업로드 중...</string>
-	<string name="onfido_interactive_task_waiting_title_3">비디오 업로드 중...</string>
-	<string name="onfido_interactive_task_waiting_title_4">데이터 품질 확인 중...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">작업이 완료될 때까지 잠시만 더 기다려 주세요.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">작업이 완료될 때까지 잠시만 더 기다려 주세요.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">데이터를 컴파일 중...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">우리는 수집된 데이터를 컴파일하고 있습니다, 기다려 주세요.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">데이터를 보호하는 중...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">취소</string>
 	<string name="onfido_doc_capture_alert_mrz_title">하단 %d 줄 (MRZ)이 불분명합니다</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">문서의 하단을 보이게 하십시오</string>
+	<string name="onfido_nfc_scan_doc_realign_title">스캔 중단됨</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">여권을 닫고 앞면이 위로 오도록 평평한 표면에 놓으십시오.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">휴대폰의 상단을 여권의 하단에 접촉하도록 위치를 조정하세요.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">여권의 아래쪽 절반 위에 휴대폰을 올려놓으세요, 그래서 둘이 접촉하게 하세요.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">휴대폰을 여권에 대해 천천히 위아래로 움직여서 칩을 찾으세요.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">스캔이 시작되면 휴대폰과 여권을 움직이지 마세요.</string>
 </resources>

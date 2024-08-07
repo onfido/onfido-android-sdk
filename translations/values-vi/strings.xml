@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Gửi ảnh bất kể</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Thử quay video theo cách thủ công</string>
 	<string name="onfido_interactive_task_waiting_title_1">Đang kiểm tra chất lượng hình ảnh...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Đang tải lên hình ảnh...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Đang tải video lên...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Đang kiểm tra chất lượng dữ liệu...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Vui lòng đợi thêm một chút để công việc hoàn thành.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Vui lòng đợi thêm một chút để công việc hoàn thành.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Đang biên dịch dữ liệu...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Chúng tôi đang tổng hợp dữ liệu đã thu thập, vui lòng đợi.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Đang bảo mật dữ liệu...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Hủy</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Dòng dưới cùng %d (MRZ) không rõ ràng</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Làm cho phần dưới của tài liệu của bạn trở nên hữu ích</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Quét bị gián đoạn</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Đóng hộ chiếu của bạn và đặt nó trên một bề mặt phẳng với mặt trước hướng lên.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Đặt phần trên của điện thoại của bạn tiếp xúc với phần dưới của hộ chiếu của bạn.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Đặt điện thoại lên phần dưới cùng của hộ chiếu của bạn, để chúng tiếp xúc với nhau.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Từ từ trượt điện thoại của bạn lên và xuống trên hộ chiếu để tìm chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Một khi quá trình quét bắt đầu, hãy giữ điện thoại và hộ chiếu của bạn không động.</string>
 </resources>

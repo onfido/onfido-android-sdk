@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Pateikti nuotrauką vis tiek</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Pabandykite įrašyti vaizdo įrašą rankiniu būdu</string>
 	<string name="onfido_interactive_task_waiting_title_1">Tikrinama vaizdo kokybė...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Įkeliamas vaizdas...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Įkeliamas vaizdo įrašas...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Tikrinama duomenų kokybė...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Prašome dar šiek tiek palaukti, kol užduotis bus atlikta.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Prašome dar šiek tiek palaukti, kol užduotis bus atlikta.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompiliuojami duomenys...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Mes surinkome surinktus duomenis, prašome palaukti.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Apsaugojama informacija...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Atšaukti</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Apačios %d eilutės (MRZ) neaiškios</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Padarykite savo dokumento apačią matomą</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Nuskaitymas nutrauktas</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Uždarykite savo pasą ir padėkite jį ant plokščios paviršiaus priekinė puse į viršų.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Perkelti telefono viršų taip, kad jis liestų jūsų paso apačią.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Padėkite savo telefoną ant savo paso apatinės dalies, kad jie būtų susilietę.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Lėtai slenkite telefonu aukštyn ir žemyn prie savo paso, kad rastumėte lustą.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kai prasidės skenavimas, laikykite savo telefoną ir pasą nejudant.</string>
 </resources>

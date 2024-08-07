@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Foto trotzdem einreichen</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Versuchen Sie, das Video manuell aufzunehmen</string>
 	<string name="onfido_interactive_task_waiting_title_1">Überprüfung der Bildqualität...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Bild wird hochgeladen...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Video wird hochgeladen...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Überprüfung der Datenqualität...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Bitte haben Sie noch etwas Geduld, bis die Aufgabe abgeschlossen ist.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Bitte haben Sie noch etwas Geduld, bis die Aufgabe abgeschlossen ist.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Daten werden zusammengestellt...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Wir kompilieren die gesammelten Daten, bitte warten Sie.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Daten sichern...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">Abbrechen</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Untere %d Zeilen (MRZ) unklar</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Machen Sie den unteren Teil Ihres Dokuments sichtbar</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Scan unterbrochen</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Schließen Sie Ihren Pass und legen Sie ihn mit der Vorderseite nach oben auf eine flache Oberfläche.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Positionieren Sie die Oberseite Ihres Telefons in Kontakt mit der Unterseite Ihres Passes.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Legen Sie Ihr Telefon auf die untere Hälfte Ihres Passes, sodass sie in Kontakt sind.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Bewegen Sie Ihr Telefon langsam auf und ab entlang Ihres Passes, um den Chip zu lokalisieren.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Sobald der Scan beginnt, halten Sie Ihr Telefon und Ihren Pass still.</string>
 </resources>

@@ -514,10 +514,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Yine de fotoğrafı gönder</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">Videoyu manuel olarak kaydetmeyi deneyin</string>
 	<string name="onfido_interactive_task_waiting_title_1">Görüntü kalitesi kontrol ediliyor...</string>
-	<string name="onfido_interactive_task_waiting_title_2">Resim yükleniyor...</string>
-	<string name="onfido_interactive_task_waiting_title_3">Video yükleniyor...</string>
-	<string name="onfido_interactive_task_waiting_title_4">Veri kalitesi kontrol ediliyor...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Lütfen görevin bitmesi için biraz daha bekleyin.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Lütfen görevin bitmesi için biraz daha bekleyin.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Veri derleniyor...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Toplanan verileri derliyoruz, lütfen bekleyin.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Verileri güvenceye alıyor...</string>
@@ -566,4 +563,10 @@
 	<string name="onfido_generic_close_sdk_cancel">İptal</string>
 	<string name="onfido_doc_capture_alert_mrz_title">Alt %d satır (MRZ) belirsiz</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">Belgenizin alt kısmını görünür yapın</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Tarama kesildi</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Kimliğinizi kapatın ve ön yüzü yukarıda olacak şekilde düz bir yüzeye koyun.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Telefonunuzun üst kısmını pasaportunuzun alt kısmıyla temas halinde konumlandırın.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Telefonunuzu pasaportunuzun alt yarısının üzerine koyun, böylece temas halinde olsunlar.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Telefonunuzu pasaportunuzun üzerinde yavaşça yukarı ve aşağı kaydırarak çipi bulun.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Tarama başladığında, telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
 </resources>

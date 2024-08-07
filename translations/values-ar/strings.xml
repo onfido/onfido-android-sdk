@@ -513,10 +513,7 @@
 	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">أرسل الصورة على أي حال</string>
 	<string name="onfido_doc_capture_alert_manual_capture_video_title">حاول تسجيل الفيديو يدويًا</string>
 	<string name="onfido_interactive_task_waiting_title_1">جارٍ التحقق من جودة الصورة...</string>
-	<string name="onfido_interactive_task_waiting_title_2">جاري تحميل الصورة...</string>
-	<string name="onfido_interactive_task_waiting_title_3">جاري تحميل الفيديو...</string>
-	<string name="onfido_interactive_task_waiting_title_4">جارٍ التحقق من جودة البيانات...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">يرجى الانتظار لفترة أطول قليلاً حتى يتم الانتهاء من المهمة.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">يرجى الانتظار لفترة أطول قليلاً حتى يتم الانتهاء من المهمة.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">جاري تجميع البيانات...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">نحن نقوم بتجميع البيانات المجمعة، يرجى الانتظار.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">تأمين البيانات...</string>
@@ -565,4 +562,10 @@
 	<string name="onfido_generic_close_sdk_cancel">إلغاء</string>
 	<string name="onfido_doc_capture_alert_mrz_title">السطور السفلية %d (MRZ) غير واضحة</string>
 	<string name="onfido_doc_capture_alert_mrz_detail">اجعل الجزء السفلي من وثيقتك مرئيًا</string>
+	<string name="onfido_nfc_scan_doc_realign_title">تم إيقاف الفحص</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">أغلق جواز سفرك وضعه على سطح مستوي مع الجهة الأمامية للأعلى.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">أعد توجيه أعلى هاتفك ليكون على اتصال مع أسفل جواز سفرك.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">ضع هاتفك فوق النصف السفلي من جواز سفرك، بحيث يكونان على اتصال.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">قم بإنزلاق هاتفك ببطء لأعلى ولأسفل على جواز سفرك لتحديد موقع الشريحة.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">بمجرد بدء الفحص، حافظ على هاتفك وجواز سفرك ثابتين.</string>
 </resources>
