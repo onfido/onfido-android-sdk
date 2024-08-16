@@ -1,0 +1,539 @@
+<resources>
+
+    <!-- Document Capture -->
+	<string name="onfido_app_title_doc_capture_id_it">Documento de identidad italiano</string>
+	<string name="onfido_app_title_doc_capture_id_za">Documento de identidad sudafricano</string>
+	<string name="onfido_app_title_doc_capture_license_de">Licencia de conducir alemana</string>
+	<string name="onfido_app_title_doc_capture_license_fr">Licencia de conducir francesa</string>
+	<string name="onfido_doc_capture_prompt_button_paper">Documento en papel</string>
+	<string name="onfido_doc_capture_prompt_button_card">Tarjeta plástica</string>
+	<string name="onfido_doc_capture_prompt_title_license">¿Qué tipo de licencia tienes?</string>
+	<string name="onfido_doc_capture_prompt_title_id">¿Qué tipo de documento de identidad tienes?</string>
+	<string name="onfido_doc_capture_detail_folded_doc_front">Coloca tu documento en un lugar plano, incluye todas las páginas internas (debe tener tu foto)</string>
+	<string name="onfido_doc_capture_detail_folded_doc_back">Coloca el documento en un lugar plano, incluye todas las páginas externas</string>
+
+    <!-- Document Confirmation -->
+	<string name="onfido_doc_confirmation_body_folded_doc">Asegúrate de que el documento esté completamente desplegado y que la foto sea nítida</string>
+
+    <!-- General -->
+	<string name="onfido_outro_title">Gracias</string>
+	<string name="onfido_outro_body">Eso es todo lo que necesitamos para comenzar a verificar tu identidad</string>
+	<string name="onfido_continue">Continuar</string>
+	<string name="onfido_video_intro_button_primary">Grabar video</string>
+
+    <!-- Loading -->
+	<string name="onfido_generic_loading">Cargando</string>
+
+    <!-- Document Types -->
+	<string name="onfido_doc_select_button_passport">Pasaporte</string>
+    <string name="onfido_doc_select_button_visa">Visa</string>
+	<string name="onfido_doc_select_button_license">Licencia de conducir</string>
+	<string name="onfido_doc_select_button_id">Documento de identidad nacional</string>
+	<string name="onfido_doc_select_button_permit">Permiso de residencia</string>
+	<string name="onfido_doc_select_button_permit_work">Permiso de trabajo</string>
+
+    <!-- Welcome Screen -->
+	<string name="onfido_app_title_welcome">Verifica tu identidad</string>
+	<string name="onfido_welcome_title">Verifica tu identidad</string>
+	<string name="onfido_welcome_subtitle">Esto puede tomar unos pocos minutos</string>
+	<string name="onfido_selfie_capture_button_accessibility">Obturador</string>
+	<string name="onfido_selfie_intro_title">Tómate una selfi</string>
+	<string name="onfido_country_select_bottom_sheet_title">¿No encuentras tu país?</string>
+	<string name="onfido_country_select_bottom_sheet_details">Parece que el país del documento que seleccionaste no es compatible. Selecciona un país diferente.</string>
+	<string name="onfido_selfie_intro_subtitle">La compararemos con tu documento</string>
+	<string name="onfido_selfie_capture_body">Mantén el rostro dentro del óvalo</string>
+	<string name="onfido_video_capture_prompt_button_timeout">Volver a intentar</string>
+	<string name="onfido_generic_error_camera_unavailable">Este dispositivo no dispone de una cámara</string>
+	<string name="onfido_generic_error_camera_used_by_other_app">La cámara no está disponible. Es posible que otra aplicación la esté usando al mismo tiempo.</string>
+	<string name="onfido_selfie_confirmation_body">Asegúrate de que todo tu rostro sea visible</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_title">Ningún documento encontrado</string>
+	<string name="onfido_selfie_confirmation_alert_no_face_title">Rostro no detectado</string>
+	<string name="onfido_doc_confirmation_alert_multi_face_title">Múltiples rostros encontrados</string>
+	<string name="onfido_doc_confirmation_alert_multi_face_detail">Solo puede aparecer tu rostro en la selfi</string>
+	<string name="onfido_generic_errors_geoblocked_error_message">Servicio no disponible</string>
+	<string name="onfido_generic_errors_geoblocked_error_instruction">Lo sentimos, pero parece que no podemos continuar porque tu ubicación actual no es compatible</string>
+	<string name="onfido_selfie_confirmation_alert_no_face_detail">Asegúrate de que tu rostro sea visible</string>
+	<string name="onfido_generic_error_face_capture">La captura de rostros no funcionó. Inténtalo de nuevo.</string>
+	<string name="onfido_generic_error_doc_capture">La captura de documentos no funcionó. Inténtalo de nuevo.</string>
+	<string name="onfido_generic_error_video_capture">La captura de video no funcionó. Inténtalo de nuevo.</string>
+	<string name="onfido_doc_confirmation_body_generic">Asegúrate de que tus datos sean claros y no estén ocultos</string>
+
+    <!-- Glare Detection -->
+	<string name="onfido_doc_capture_alert_glare_title">Brillo detectado</string>
+	<string name="onfido_doc_capture_alert_glare_detail">Aléjate de la luz directa</string>
+
+    <!-- Final Screen -->
+	<string name="onfido_outro_button_primary">Enviar verificación</string>
+
+    <!-- Generic Error -->
+    <string name="onfido_generic_error_title">Error</string>
+	<string name="onfido_generic_error_network_title">Se perdió la conexión</string>
+	<string name="onfido_generic_error_network_detail">Ocurrió un error de red. Verifica tu conexión.</string>
+	<string name="onfido_generic_error_detail">Algo salió mal. Vuelve a intentarlo más tarde.</string>
+
+    <!-- Liveness -->
+	<string name="onfido_video_intro_subtitle">Por seguridad, necesitamos una captura en tiempo real</string>
+	<string name="onfido_video_intro_list_item_move_speak">Sigue las instrucciones para moverte o hablar</string>
+	<string name="onfido_video_intro_loader">Ejemplo de carga</string>
+	<string name="onfido_video_capture_header_challenge_digit_instructions">Menciona cada dígito en voz alta</string>
+	<string name="onfido_video_capture_prompt_title_timeout">Parece que tardaste demasiado</string>
+	<string name="onfido_video_capture_prompt_detail_timeout">Recuerda presionar el botón cuando termines.</string>
+	<string name="onfido_video_confirmation_button_secondary">Grabar video de nuevo</string>
+	<string name="onfido_video_confirmation_button_primary">Enviar video</string>
+	<string name="onfido_video_confirmation_error_no_video">No se encontró el video en tu dispositivo. Vuelve a grabarlo.</string>
+	<string name="onfido_video_capture_error_storage_title">Tu dispositivo está lleno</string>
+	<string name="onfido_video_capture_error_storage_detail">Libera espacio de almacenamiento y graba tu video de nuevo</string>
+	<string name="onfido_video_confirmation_button_audio_unmute">Activar sonido</string>
+	<string name="onfido_video_capture_button_primary_start">Iniciar grabación</string>
+	<string name="onfido_video_capture_button_primary_finish">Terminar grabación</string>
+	<string name="onfido_video_capture_button_primary_fallback">Siguiente paso</string>
+	<string name="onfido_video_confirmation_error_media_player">Hubo un error con tu video. Vuelve a grabarlo.</string>
+	<string name="onfido_video_intro_prompt_button_primary_reload_player">Volver a cargar</string>
+	<string name="onfido_video_intro_error_network">No se puede cargar debido a una red inestable</string>
+	<string name="onfido_video_intro_error_load_offline">No se puede cargar porque no tienes conexión</string>
+
+    <!-- Country Suggestion/Selection -->
+	<string name="onfido_country_select_list_header_suggested">País sugerido</string>
+	<string name="onfido_country_select_list_header_all">Todos los países</string>
+	<string name="onfido_app_title_country_select_search">Buscar</string>
+	<string name="onfido_doc_capture_alert_manual_capture_title">Intenta tomar la foto de forma manual</string>
+	<string name="onfido_doc_confirmation_alert_blur_title">Foto borrosa detectada</string>
+	<string name="onfido_doc_capture_alert_no_barcode_title">Código de barras no detectado</string>
+	<string name="onfido_doc_capture_alert_no_barcode_detail">Ubícate en un lugar bien iluminado y acerca la tarjeta a la cámara</string>
+	<string name="onfido_permission_recovery_button_primary">Activar en configuración</string>
+
+    <!-- Camera Permissions -->
+	<string name="onfido_permission_title_cam">Permitir acceso a la cámara</string>
+	<string name="onfido_permission_subtitle_cam">Cuando se te solicite, debes activar el acceso a la cámara para continuar</string>
+	<string name="onfido_permission_body_cam">No podemos verificar tu identidad sin tu cámara</string>
+	<string name="onfido_permission_button_primary_cam">Activar cámara</string>
+	<string name="onfido_permission_recovery_subtitle_cam">No podemos verificar tu identidad sin tu cámara</string>
+	<string name="onfido_permission_recovery_list_item_action_cam">Accede a la configuración de la aplicación y activa el acceso a la cámara para esta</string>
+	<string name="onfido_permission_recovery_list_item_how_to_cam">Puedes recuperar el acceso a la cámara a través de la configuración de tu dispositivo</string>
+
+	<string name="onfido_permission_recovery_title_cam">Acceso a la cámara denegado</string>
+
+    <!-- Microphone Permissions -->
+	<string name="onfido_permission_title_mic">Permitir acceso al micrófono</string>
+	<string name="onfido_permission_subtitle_mic">Cuando se te solicite, debes activar el acceso a ambos para continuar</string>
+	<string name="onfido_permission_button_primary_mic">Activar micrófono</string>
+	<string name="onfido_permission_recovery_title_mic">Acceso al micrófono denegado</string>
+	<string name="onfido_permission_body_mic">No podemos verificar tu identidad sin usar tu micrófono</string>
+	<string name="onfido_permission_recovery_list_item_how_to_mic">Puedes recuperar el acceso al micrófono a través de la configuración de tu dispositivo</string>
+	<string name="onfido_permission_recovery_list_item_action_mic">Accede a la configuración de la aplicación y activa el acceso al micrófono</string>
+	<string name="onfido_permission_recovery_subtitle_mic">Necesitamos acceso a su micrófono para verificar su identidad. Siga las instrucciones a continuación para recuperar el acceso</string>
+
+    <!-- Camera + Microphone Permissions -->
+	<string name="onfido_permission_title_both">Permitir acceso a la cámara y al micrófono</string>
+	<string name="onfido_permission_subtitle_both">Cuando se te solicite, debes activar el acceso a ambos para continuar</string>
+	<string name="onfido_permission_recovery_title_both">Acceso a la cámara y micrófono denegado</string>
+	<string name="onfido_video_capture_alert_wrong_side">Lado equivocado</string>
+	<string name="onfido_video_capture_prompt_button_primary_network_timeout">Volver a cargar las instrucciones</string>
+	<string name="onfido_video_capture_prompt_network_timeout_title">El límite de tiempo caducó</string>
+	<string name="onfido_video_capture_prompt_network_timeout_detail">Comprueba que la conexión sea estable y vuelve a intentarlo</string>
+	<string name="onfido_generic_back">volver</string>
+	<string name="onfido_permission_body_both">No podemos verificar tu identidad sin usar tu cámara y micrófono</string>
+	<string name="onfido_permission_button_primary_both">Activar ambos</string>
+	<string name="onfido_permission_recovery_subtitle_both">Recupera el acceso a la cámara y al micrófono para grabar un video y completar el proceso de verificación</string>
+	<string name="onfido_permission_recovery_list_item_how_to_both">Puedes recuperar el acceso a la cámara y al micrófono a través de la configuración de tu dispositivo</string>
+	<string name="onfido_permission_recovery_list_item_action_both">Accede a la configuración de la aplicación y activa el acceso a la cámara y al micrófono</string>
+
+    <!-- Accessibility strings for screen readers -->
+	<string name="onfido_video_intro_video_accessibility">Ejemplo de video de alguien que graba un video selfi. Para grabar un video selfi, mira a la cámara frontal y mantén el teléfono ligeramente alejado de tu rostro. Luego, deberás decir algunos números y girar la cabeza de acuerdo con las instrucciones en pantalla.</string>
+	<string name="onfido_doc_capture_frame_accessibility">Vista desde la cámara</string>
+	<string name="onfido_selfie_confirmation_image_accessibility">Foto de tu rostro</string>
+	<string name="onfido_doc_confirmation_image_accessibility">Foto de tu documento</string>
+	<string name="onfido_video_confirmation_body">Se grabó tu video</string>
+	<string name="onfido_video_confirmation_video_accessibility">Vista previa de tu video grabado</string>
+	<string name="onfido_video_capture_header_challenge_digit_instructions_accessibility">Debes oírte decir: %1$s</string>
+	<string name="onfido_video_capture_header_challenge_turn_instructions_accessibility">Debes verte girar la cabeza hacia la %1$s</string>
+	<string name="onfido_video_capture_header_extra_instructions_accessibility">Después</string>
+	<string name="onfido_video_capture_header_challenge_turn_left_accessibility">Izquierda</string>
+	<string name="onfido_video_capture_header_challenge_turn_right_accessibility">Derecha</string>
+	<string name="onfido_video_confirmation_button_play_and_pause_accessibility">Reproducir o pausar</string>
+	<string name="onfido_doc_capture_button_accessibility">Tomar una foto</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pausar video</string>
+	<string name="onfido_video_intro_button_play_accessibility">Reproducir video</string>
+
+    <!-- Document Error -->
+	<string name="onfido_doc_capture_alert_no_mrz_title">Las dos líneas inferiores no son visibles</string>
+	<string name="onfido_doc_capture_alert_no_mrz_detail">Asegúrate de que se muestre el documento completo</string>
+
+    <!-- User Consent Screen -->
+	<string name="onfido_user_consent_button_primary">Aceptar</string>
+	<string name="onfido_user_consent_button_secondary">No aceptar</string>
+	<string name="onfido_user_consent_prompt_no_consent_title">¿Confirmas la acción?</string>
+	<string name="onfido_user_consent_prompt_no_consent_detail">Si no aceptas las Política de privacidad y los Términos de servicio de Onfido, no podremos verificar tu identidad y saldrás de este paso.</string>
+	<string name="onfido_user_consent_prompt_button_primary">Sí, no me verifiquen</string>
+	<string name="onfido_user_consent_prompt_button_secondary">Revisar de nuevo</string>
+
+    <!-- Doc Liveness -->
+	<string name="onfido_doc_video_capture_stepper">Paso %1$d de %2$d</string>
+
+	<string name="onfido_doc_confirmation_button_primary_passport">Enviar foto</string>
+	<string name="onfido_doc_confirmation_button_secondary_passport">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_button_secondary_folded_doc">Tomar una foto nueva</string>
+
+	<string name="onfido_generic_uploading">Cargando</string>
+	<string name="onfido_doc_confirmation_alert_crop_detail">Asegúrate de que se vea el documento completo</string>
+	<string name="onfido_doc_confirmation_alert_crop_title">Imagen cortada detectada</string>
+	<string name="onfido_doc_upload_progress_label">Comprobar la calidad de la imagen</string>
+
+	<string name="onfido_video_capture_header_challenge_turn_forward">y, luego, mira hacia adelante</string>
+	<string name="onfido_nfc_sheet_ready_subtitle">Listo para escanear</string>
+	<string name="onfido_nfc_sheet_button_secondary">Cancelar</string>
+	<string name="onfido_nfc_intro_sheet_scanning_subtitle">Escaneando...</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Mantén tu teléfono y pasaporte quietos.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Escaneo exitoso</string>
+	<string name="onfido_nfc_permission_title">Activar NFC</string>
+	<string name="onfido_nfc_permission_subtitle">No se puede escanear tu pasaporte sin NFC</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Activa NFC desde la configuración de tu dispositivo</string>
+	<string name="onfido_nfc_permission_button_primary">Abrir configuración</string>
+
+	<string name="onfido_doc_confirmation_button_primary_permit">Enviar foto</string>
+	<string name="onfido_selfie_intro_banner_nudity_message">Tu rostro y tu fondo se capturarán durante este proceso</string>
+	<string name="onfido_selfie_intro_list_item_face_forward">Mira al frente y asegúrate de que tus ojos estén claramente visibles</string>
+	<string name="onfido_doc_confirmation_button_primary_permit_work">Enviar foto</string>
+	<string name="onfido_doc_confirmation_button_primary_folded_doc">Enviar foto</string>
+	<string name="onfido_doc_confirmation_button_primary_license">Enviar foto</string>
+	<string name="onfido_doc_confirmation_alert_blur_detail">Asegúrate de que todo sea nítido</string>
+	<string name="onfido_doc_confirmation_alert_no_doc_detail">Asegúrate de que todo el documento aparezca en la foto</string>
+	<string name="onfido_selfie_confirmation_button_secondary">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_button_secondary_id">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_button_secondary_visa">Tomar una foto nueva</string>
+	<string name="onfido_selfie_intro_button_primary">Tomarse una selfi</string>
+	<string name="onfido_video_intro_list_item_time_limit_copy">Tienes %1$d segundos para terminar</string>
+    <string name="onfido_doc_capture_detail_license_front"></string>
+	<string name="onfido_doc_confirmation_button_primary_id">Enviar foto</string>
+	<string name="onfido_doc_confirmation_button_primary_visa">Enviar foto</string>
+	<string name="onfido_doc_confirmation_button_primary_generic">Enviar foto</string>
+	<string name="onfido_doc_confirmation_button_primary_barcode">Enviar foto</string>
+    <string name="onfido_doc_capture_detail_license_back"></string>
+    <string name="onfido_doc_capture_detail_permit_front"></string>
+    <string name="onfido_doc_capture_detail_permit_back"></string>
+    <string name="onfido_doc_capture_detail_id_front"></string>
+    <string name="onfido_doc_capture_detail_id_back"></string>
+    <string name="onfido_doc_capture_detail_permit_work_front"></string>
+    <string name="onfido_doc_capture_detail_permit_work_back"></string>
+	<string name="onfido_selfie_intro_list_item_no_face_cover">Retira cualquier cosa que cubra tu rostro. Puedes usar anteojos</string>
+	<string name="onfido_doc_capture_alert_manual_capture_detail">Alinea el documento, luego presiona el botón</string>
+	<string name="onfido_doc_select_subtitle">Debe ser una ID oficial con foto</string>
+	<string name="onfido_selfie_confirmation_button_primary">Cargar foto</string>
+	<string name="onfido_doc_select_title">Elige tu documento</string>
+    <string name="onfido_doc_capture_detail_visa_front"></string>
+    <string name="onfido_doc_capture_detail_visa_back"></string>
+    <string name="onfido_doc_capture_detail_generic_front"></string>
+    <string name="onfido_doc_capture_detail_generic_back"></string>
+	<string name="onfido_doc_confirmation_button_secondary_license">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_button_secondary_permit">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_button_secondary_permit_work">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_button_secondary_generic">Tomar una foto nueva</string>
+	<string name="onfido_video_intro_title">Grabar un video</string>
+	<string name="onfido_video_capture_header_challenge_turn_left">Gira la cabeza hacia la izquierda</string>
+	<string name="onfido_video_capture_header_challenge_turn_right">Gira la cabeza hacia la derecha</string>
+    <string name="onfido_doc_capture_detail_passport"></string>
+
+	<string name="onfido_video_capture_body">Mantén el rostro dentro del óvalo para comenzar a grabar</string>
+
+	<string name="onfido_welcome_button_primary_doc">Elegir documento</string>
+	<string name="onfido_welcome_button_primary">Comenzar</string>
+
+	<string name="onfido_video_capture_frame_success_accessibility">Rostro detectado. La grabación comenzó.</string>
+	<string name="onfido_video_capture_turn_success_accessibility">Giro de cabeza detectado</string>
+
+	<string name="onfido_doc_capture_frame_success_accessibility">Imagen capturada</string>
+
+	<string name="onfido_selfie_capture_frame_accessibility">Vista desde la cámara selfi. Mantén el rostro dentro del óvalo y, luego, toca el botón del obturador</string>
+	<string name="onfido_video_capture_frame_accessibility">Vista desde la cámara selfi. Mantén la cara dentro del óvalo para comenzar a grabar.</string>
+
+	<string name="onfido_doc_capture_header_folded_doc_back">Coloca las páginas externas del documento en el marco</string>
+	<string name="onfido_doc_capture_header_license_front">Coloca la parte delantera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_license_back">Coloca la parte trasera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_permit_front">Coloca la parte delantera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_permit_back">Coloca la parte trasera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_id_front">Coloca la parte delantera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_id_back">Coloca la parte trasera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_permit_work_front">Coloca la parte delantera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_permit_work_back">Coloca la parte trasera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_visa_front">Coloca la página de la visa del documento en el marco</string>
+	<string name="onfido_doc_capture_header_generic_front">Coloca la parte delantero del documento en el marco</string>
+	<string name="onfido_doc_capture_header_generic_back">Coloca la parte trasera del documento en el marco</string>
+	<string name="onfido_doc_capture_header_passport">Coloca la página de la foto del documento en el marco</string>
+	<string name="onfido_doc_capture_frame_accessibility_pp_auto">Vista desde la cámara. Coloca la página con foto del documento en el marco. Tu dispositivo vibrará cuando se capture la imagen</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_front_manual">Vista desde la cámara. Coloca la parte delantera del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_back_manual">Vista desde la cámara. Coloca la parte trasera del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_front_auto">Vista desde la cámara. Coloca la parte delantera del documento en el marco. Tu dispositivo vibrará cuando se capture la imagen</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_back_auto">Vista desde la cámara. Coloca la parte trasera del documento en el marco</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_front_manual">Vista desde la cámara. Coloca la parte delantera del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_back_manual">Vista desde la cámara. Coloca la parte trasera del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_rp_front_manual">Vista desde la cámara. Coloca la parte delantera del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_rp_back_manual">Vista desde la cámara. Coloca la parte trasera del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_fr_front_manual">Vista desde la cámara. Coloca el lado con foto del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_fr_back_manual">Vista desde la cámara. Coloca las páginas externas del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_de_front_manual">Vista desde la cámara. Coloca el lado con foto del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_dl_de_back_manual">Vista desde la cámara. Coloca las páginas externas del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_it_front_manual">Vista desde la cámara. Coloca el lado con foto del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_it_back_manual">Vista desde la cámara. Coloca las páginas externas del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_za_front_manual">Vista desde la cámara. Coloca el lado con foto del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_frame_accessibility_ic_za_back_manual">Vista desde la cámara. Coloca las páginas externas del documento en el marco y toca el botón del obturador</string>
+	<string name="onfido_doc_capture_header_folded_doc_front">Coloca la página con foto del documento en el marco</string>
+	<string name="onfido_video_capture_prompt_header_restart">Reiniciar la grabación</string>
+	<string name="onfido_video_capture_prompt_detail_restart">Para concluir este paso, debes mantener tu rostro visible durante toda la grabación.</string>
+	<string name="onfido_video_capture_prompt_button_restart">Reiniciar</string>
+
+	<string name="onfido_welcome_list_header">Usa tu dispositivo para:</string>
+	<string name="onfido_welcome_list_item_doc_photo">Tomar una foto de tu documento de identidad</string>
+	<string name="onfido_welcome_list_item_doc_generic">Graba un video de tu documento de identidad</string>
+	<string name="onfido_welcome_list_item_face_photo">Tome una foto de su cara</string>
+	<string name="onfido_welcome_list_item_face_video">Grabar un video de tu rostro</string>
+
+	<string name="onfido_doc_capture_alert_no_mrz3_title">Las tres líneas inferiores no son visibles</string>
+
+    <!-- NFC -->
+
+	<string name="onfido_nfc_scan_error_button_primary">Iniciar escaneo</string>
+	<string name="onfido_nfc_scan_error_button_secondary">Obtener verificación sin NFC</string>
+	<string name="onfido_nfc_scan_error_title">No se pudo escanear tu documento</string>
+
+	<string name="onfido_nfc_intro_title_passport">Escanea el chip de tu pasaporte</string>
+	<string name="onfido_nfc_intro_subtitle">Sigue las instrucciones a continuación</string>
+	<string name="onfido_nfc_intro_button_primary">Iniciar escaneo</string>
+
+	<string name="onfido_nfc_sheet_success_instruction_passport">Tu pasaporte se escaneó con éxito</string>
+	<string name="onfido_nfc_sheet_success_instruction_card">Tu tarjeta se escaneó con éxito</string>
+
+	<string name="onfido_nfc_select_button_primary_passport">Usar pasaporte electrónico</string>
+	<string name="onfido_nfc_select_button_secondary_passport">No es un pasaporte electrónico</string>
+
+	<string name="onfido_nfc_select_button_primary_card">Usar tarjeta NFC</string>
+
+	<string name="onfido_nfc_intro_sheet_fail_instructions_card">Mantén tu teléfono firme</string>
+	<string name="onfido_nfc_intro_sheet_fail_subtitle_card">Pérdida de contacto con la tarjeta</string>
+	<string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Pérdida de contacto con el pasaporte</string>
+	<string name="onfido_nfc_intro_sheet_fail_instructions_passport">Mueve el teléfono ligeramente hacia arriba o hacia abajo</string>
+
+	<string name="onfido_enter_can_title">Ingrese el número CAN</string>
+	<string name="onfido_enter_can_subtitle">El número de %d dígitos se encuentra en el frente de su documento</string>
+	<string name="onfido_enter_can_button_primary">Continuar</string>
+	<string name="onfido_enter_can_error_label">Te quedan %1$d %2$s.</string>
+	<string name="onfido_enter_can_substring_attempt_singular">intento</string>
+	<string name="onfido_enter_can_substring_attempt_plural">intentos</string>
+
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front_accessibility">Vista desde la cámara. Coloca el teléfono al frente del documento y, luego, aléjalo lentamente en línea recta.</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc">Sostén tu teléfono sobre el documento</string>
+	<string name="onfido_doc_capture_header_live_guidance_no_doc_accessibility">No se encontró ningún documento. Sostén tu teléfono sobre el documento.</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close">El documento está demasiado cerca</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_close_accessibility">Documento demasiado cerca de la cámara</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far">Documento demasiado lejos</string>
+	<string name="onfido_doc_capture_header_live_guidance_distance_far_accessibility">Documento demasiado lejos de la cámara</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left">Mover hacia la izquierda</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_left_accessibility">Mueve tu dispositivo a la izquierda</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right">Mover hacia la derecha</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_right_accessibility">Mueve tu dispositivo a la derecha</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high">Mover hacia arriba</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_high_accessibility">Mueve tu dispositivo hacia arriba</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high">Mover hacia arriba</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_high_accessibility">Mueve tu dispositivo ligeramente hacia arriba</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low">Mover hacia abajo</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_too_low_accessibility">Mueve el dispositivo hacia abajo</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low">Mover hacia abajo</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_slightly_low_accessibility">Mueve tu dispositivo ligeramente hacia abajo</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok">No te muevas para capturar</string>
+	<string name="onfido_doc_capture_header_live_guidance_doc_position_ok_accessibility">Manténte inmóvil para capturar la imagen</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_front">Sostén el teléfono sobre la parte delantera del documento</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back">Sostén el teléfono sobre la parte trasera del documento</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_doc_back_accessibility">Vista desde la cámara. Coloca tu teléfono en la parte posterior del documento y, luego, aléjalo lentamente en línea recta.</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo">Sostén tu teléfono sobre la página con foto del pasaporte</string>
+	<string name="onfido_doc_capture_header_live_guidance_intro_pp_photo_accessibility">Vista desde la cámara. Coloca tu teléfono en la página con foto del pasaporte y, luego, aléjalo lentamente en línea recta.</string>
+	<string name="onfido_doc_capture_header_capturing">No te muevas</string>
+
+	<string name="onfido_avc_intro_title">Grabar un video</string>
+	<string name="onfido_avc_intro_subtitle">Esto es para verificar que eres una persona real</string>
+	<string name="onfido_avc_intro_list_item_one">Primero, coloca tu rostro en el marco</string>
+	<string name="onfido_avc_intro_list_item_one_accessibility">Primero, tendrás que colocar el rostro frente a tu dispositivo</string>
+	<string name="onfido_avc_intro_list_item_two">Luego, gira la cabeza lentamente hacia ambos lados</string>
+	<string name="onfido_avc_intro_list_item_two_accessibility">Luego, tendrás que girar la cabeza lentamente hacia ambos lados</string>
+	<string name="onfido_avc_intro_disclaimer">Grabaremos su rostro y su fondo en este proceso</string>
+	<string name="onfido_avc_intro_disclaimer_camera_and_audio_on">Su cara, fondo y audio se grabarán durante este proceso</string>
+	<string name="onfido_avc_intro_button_primary_ready">Iniciar grabación</string>
+	<string name="onfido_avc_face_alignment_title">Coloca tu rostro en el marco</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer">Acércate</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back">Aléjate</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected">Rostro no detectado</string>
+	<string name="onfido_avc_face_capture_title">Gira la cabeza lentamente hacia ambos lados</string>
+	<string name="onfido_avc_face_capture_title_completed">Grabación completa</string>
+	<string name="onfido_avc_face_capture_alert_timeout_title">Lo sentimos, se tiene que reiniciar la grabación</string>
+	<string name="onfido_avc_face_capture_alert_timeout_body">Tienes hasta 15 segundos para completar la grabación</string>
+	<string name="onfido_avc_face_capture_alert_timeout_button_primary">Volver a intentar</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_title">Giraste la cabeza demasiado rápido</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_body">Inténtalo de nuevo y gire la cabeza más despacio</string>
+	<string name="onfido_avc_face_capture_alert_too_fast_button_primary">Volver a intentar</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_title">Otra aplicación está usando su micrófono</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_body">Finalice las llamadas o actividades en curso que estén usando su micrófono durante la grabación</string>
+	<string name="onfido_avc_face_capture_alert_mic_conflict_button_primary">Volver a intentar</string>
+	<string name="onfido_avc_no_face_detected_title">No se puede detectar tu rostro</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Otra aplicación está reproduciendo el audio</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_body">No reproduzca audios en su dispositivo durante la grabación</string>
+	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Volver a intentar</string>
+	<string name="onfido_avc_no_face_detected_list_item_lighting">Asegúrate de estar en un lugar con buena iluminación</string>
+	<string name="onfido_avc_no_face_detected_list_item_eyes">Asegúrate de que tus ojos estén claramente visibles</string>
+	<string name="onfido_avc_no_face_detected_list_item_mask">Asegúrate de quitarte la mascarilla u otros artículos que cubran tu rostro. Puedes usar anteojos</string>
+	<string name="onfido_avc_no_face_detected_list_item_face">Asegúrate de mostrar solo tu rostro, no necesitamos ver tu ID</string>
+	<string name="onfido_avc_no_face_detected_list_item_face_accessibility">Asegúrate de mostrar solo tu rostro, no necesitamos ver tu documento de identidad</string>
+	<string name="onfido_avc_no_face_detected_button_primary_restart">Reiniciar grabación</string>
+	<string name="onfido_avc_confirmation_title">Grabación completa</string>
+	<string name="onfido_avc_confirmation_subtitle">Se grabó un video de tu rostro con éxito</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Subir grabación</string>
+	<string name="onfido_avc_connection_error_title">Error de conexión</string>
+	<string name="onfido_avc_connection_error_subtitle">Comprueba que la conexión sea estable y vuelve a intentarlo</string>
+	<string name="onfido_avc_face_alignment_feedback_not_centered">Rostro no centrado</string>
+	<string name="onfido_avc_connection_error_button_primary_retry_upload">Reintentar carga</string>
+	<string name="onfido_avc_connection_error_button_secondary_restart_recording">Reiniciar grabación</string>
+
+    <!-- Motion Accessibility  -->
+	<string name="onfido_avc_intro_title_accessibility">Grabar un video de tu rostro</string>
+	<string name="onfido_avc_intro_video_accessibility">Ejemplo de video de alguien girando la cabeza hacia ambos lados hasta completar</string>
+	<string name="onfido_avc_face_capture_feedback_turn_head_other_side_accessibility">Gira la cabeza hacia el otro lado</string>
+	<string name="onfido_avc_face_capture_frame_accessibility">Vista de cámara selfi</string>
+	<string name="onfido_avc_face_capture_confirmation_left_side_complete_accessibility">Lado izquierdo completo</string>
+	<string name="onfido_avc_face_capture_confirmation_right_side_complete_accessibility">Lado derecho completo</string>
+	<string name="onfido_avc_face_capture_title_accessibility">Gira la cabeza lentamente hacia ambos lados. Cuando se complete un lado, escucharás una confirmación y sentirás una vibración</string>
+	<string name="onfido_avc_face_capture_recording_started_accessibility">Comenzó la grabación</string>
+	<string name="onfido_avc_face_alignment_title_accessibility">Coloca el rostro frente al dispositivo</string>
+	<string name="onfido_avc_face_alignment_feedback_no_face_detected_accessibility">Rostro no detectado. Coloca el rostro frente al dispositivo</string>
+	<string name="onfido_avc_face_alignment_feedback_face_aligned_accessibility">Rostro alineado</string>
+	<string name="onfido_avc_face_alignment_feedback_face_misaligned_accessibility">Rostro desalineado</string>
+	<string name="onfido_avc_face_alignment_feedback_move_closer_accessibility">Acerca tu dispositivo</string>
+	<string name="onfido_avc_face_alignment_feedback_move_back_accessibility">Mover el dispositivo hacia atrás</string>
+	<string name="onfido_avc_face_alignment_feedback_move_left_accessibility">Mueve tu dispositivo a la izquierda</string>
+	<string name="onfido_avc_face_alignment_feedback_move_right_accessibility">Mueve tu dispositivo a la derecha</string>
+	<string name="onfido_avc_face_alignment_feedback_move_up_accessibility">Mueve tu dispositivo hacia arriba</string>
+	<string name="onfido_avc_face_alignment_feedback_move_down_accessibility">Mueve el dispositivo hacia abajo</string>
+
+    <!-- Proof of Address -->
+	<string name="onfido_poa_intro_button_primary">Iniciar verificación</string>
+	<string name="onfido_poa_intro_title">Vamos a verificar tu dirección</string>
+	<string name="onfido_poa_intro_subtitle">Necesitarás un documento que:</string>
+	<string name="onfido_poa_intro_list_shows_address">Muestre tu domicilio actual</string>
+	<string name="onfido_poa_intro_list_matches_signup">Coincida con la dirección que usaste al registrarte</string>
+	<string name="onfido_poa_intro_list_most_recent">Sea tu documento más reciente</string>
+	<string name="onfido_poa_type_selection_title_uk">Selecciona un documento del Reino Unido</string>
+	<string name="onfido_poa_type_selection_title">Selecciona un documento</string>
+	<string name="onfido_doc_select_subtitle_poa">Estos son los documentos que probablemente muestren tu domicilio actual</string>
+	<string name="onfido_doc_select_button_bank_statement">Estado de cuenta del banco o sociedad de crédito hipotecario</string>
+	<string name="onfido_doc_select_button_bank_statement_non_uk">Resumen bancario</string>
+	<string name="onfido_doc_select_extra_estatements_ok">Estados de cuenta electrónicos aceptados</string>
+	<string name="onfido_doc_select_button_bill">Recibo de servicios públicos</string>
+	<string name="onfido_doc_select_button_tax_letter">Carta de Impuesto del Gobierno Local</string>
+	<string name="onfido_doc_select_button_benefits_letter">Carta de beneficios</string>
+	<string name="onfido_doc_select_button_benefits_letter_detail">Beneficios domésticos autorizados por el Gobierno, por ejemplo Subsidio por desempleo, beneficio de vivienda, créditos fiscales</string>
+	<string name="onfido_doc_select_button_address_card">Documento de residencia</string>
+	<string name="onfido_doc_select_button_address_card_detail">Se aceptan documentos temporales y permanentes</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Debió emitirse en los últimos 3 meses</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Debió emitirse en los últimos 3 meses</string>
+	<string name="onfido_poa_guidance_subtitle_benefits_letter">Debió emitirse en los últimos 12 meses</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Debió emitirse en los últimos 12 meses</string>
+	<string name="onfido_poa_guidance_subtitle_address_card">Debe ser una documento de residencia válido</string>
+	<string name="onfido_poa_guidance_instructions_label">Captura todo el documento y asegúrate de que muestre lo siguiente con claridad:</string>
+	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
+	<string name="onfido_poa_guidance_instructions_full_name">Nombre completo</string>
+	<string name="onfido_poa_guidance_instructions_address">Domicilio actual</string>
+	<string name="onfido_poa_guidance_instructions_issue_date">Fecha de emisión o periodo de resumen</string>
+	<string name="onfido_poa_guidance_instructions_full_address">Dirección completa</string>
+	<string name="onfido_poa_guidance_instructions_address_card_issue_date">Fecha de emisión</string>
+	<string name="onfido_poa_guidance_instructions_expiry_date">Fecha de vencimiento, si corresponde</string>
+	<string name="onfido_poa_upload_instructions_upload_button">Cargar</string>
+	<string name="onfido_poa_upload_instructions_take_photo_button">Tomar una foto</string>
+	<string name="onfido_poa_select_document_details_upload_text">Seleccionar documento de</string>
+	<string name="onfido_poa_capture_confirm">Enviar documento</string>
+	<string name="onfido_poa_capture_choose_another">Elegir otro</string>
+	<string name="onfido_poa_capture_redo">Tomar una foto nueva</string>
+	<string name="onfido_doc_confirmation_body">Asegúrate de que cargaste toda la página del documento y de que los detalles sean claros para que no se vean borrosos ni fuera de foco</string>
+	<string name="onfido_poa_capture_enlarge">Ampliar documento</string>
+	<string name="onfido_poa_capture_enlarge_move">Usa un dedo para desplazarte. Pellizcar para ampliar.</string>
+	<string name="onfido_poa_capture_enlarge_close">Cerrar</string>
+	<string name="onfido_poa_capture_instructions">La parte delantera del documento de dirección</string>
+    <string name="onfido_poa_doc_capture_empty"></string>
+	<string name="onfido_poa_err_invalid_file_title">Archivo no válido</string>
+	<string name="onfido_poa_err_invalid_file_message">Elige un archivo diferente.</string>
+	<string name="onfido_poa_err_invalid_file_ok">ACEPTAR</string>
+	<string name="onfido_poa_welcome_text">Toma una foto de un documento con tu dirección</string>
+	<string name="onfido_country_select_error_no_country_body">Estamos trabajando para agregar más países a la lista. Mientras tanto, intenta usar un documento diferente.</string>
+	<string name="onfido_doc_select_button_bill_detail">Gas, electricidad, agua, teléfono fijo o Internet</string>
+
+	<string name="onfido_doc_select_subtitle_country">Selecciona el país emisor para conocer cuáles documentos aceptamos</string>
+	<string name="onfido_doc_select_section_header_country">País emisor</string>
+	<string name="onfido_doc_select_section_header_doc_type">Documentos aceptados</string>
+	<string name="onfido_doc_select_section_input_country_not_found">Sin resultados</string>
+	<string name="onfido_doc_select_subtitle_photo_page">Página con foto</string>
+	<string name="onfido_doc_select_subtitle_front_back">Delantero y Trasero</string>
+	<string name="onfido_doc_select_section_input_placeholder_country">Seleccionar país emisor</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Use su teléfono para escanear el chip en su documento</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Coloque su documento contra la parte trasera de su dispositivo para que estén en contacto</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Desliza lentamente tu documento hacia arriba y hacia abajo contra tu teléfono para localizar el chip.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse</string>
+	<string name="onfido_nfc_scan_welcome_card_secondary_button">Obtener verificación sin NFC</string>
+	<string name="onfido_nfc_scan_error_final_title">No pudimos verificar este documento</string>
+	<string name="onfido_nfc_scan_error_final_subtitle">Se requiere escaneo NFC para este documento, pero no se pudo completar.</string>
+	<string name="onfido_nfc_scan_error_final_primary_button">Usar un documento diferente</string>
+	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Deslice lentamente su dispositivo hacia arriba y hacia abajo</string>
+	<string name="onfido_nfc_scan_welcome_passport_secondary_button">Obtener verificación sin NFC</string>
+	<string name="onfido_doc_capture_header_recording_video">Grabando video</string>
+	<string name="onfido_doc_capture_header_recording_complete">Grabación completa</string>
+	<string name="onfido_country_select_search_results_none_accessibility">No hay resultados coincidentes</string>
+	<string name="onfido_country_select_search_results_one_accessibility">Se encontró un resultado</string>
+	<string name="onfido_country_select_search_results_multiple_accessibility">Se encontraron %d resultados</string>
+	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">Foto de pantalla detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_screenshot_title">Captura de pantalla detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotocopia detectada</string>
+	<string name="onfido_doc_confirmation_alert_odp_scan_title">Escaneo detectado</string>
+	<string name="onfido_doc_confirmation_alert_odp_detail">Por favor, use su documento original. No se aceptan fotos de pantalla ni fotocopias</string>
+	<string name="onfido_interactive_task_waiting_subtitle_1">Por favor, espere un poco más para que la tarea termine.</string>
+	<string name="onfido_interactive_task_waiting_subtitle_2">La tarea aún está en ejecución, se agradece su paciencia.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compiling data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We are compiling the data collected, please wait.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Securing data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">We are securing your information, please wait.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Securing your data is important, please wait a moment for this task to finish.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Processing data...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">We are processing your information, please wait.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Processing in progress...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Please wait a little longer for this process to finish, your patience is appreciated.</string>
+	<string name="onfido_nfc_scan_welcome_card_title">Escanea tu documento</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Intenta quitar la cubierta de tu pasaporte o la funda de tu teléfono. Esto es para evitar interferencias con el chip.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Cierra tu pasaporte y colócalo en una superficie plana con el lado frontal hacia arriba.</string>
+	<string name="onfido_nfc_fail_passport_list_item_4">Puede que necesites deslizar lentamente tu teléfono hacia arriba y hacia abajo contra tu pasaporte hasta que localices el chip.</string>
+	<string name="onfido_nfc_scan_error_document_title">Documento no compatible</string>
+	<string name="onfido_nfc_scan_error_document_subtitle">Por favor, intenta con otro documento</string>
+	<string name="onfido_nfc_scan_error_document_primary_button">Elija otro documento</string>
+	<string name="onfido_nfc_scan_error_document_secondary_button">Verificación de salida</string>
+	<string name="onfido_nfc_scan_error_device_title">Dispositivo no compatible</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Lo siento por cualquier inconveniente. Por favor, use un dispositivo diferente para verificar su identidad</string>
+	<string name="onfido_nfc_scan_error_device_primary_button">Verificación de salida</string>
+	<string name="onfido_nfc_scan_doc_selection_disclaimer">Solo aceptamos documentos con un chip. Busque este ícono en su documento</string>
+	<string name="onfido_nfc_fail_card_title">No se puede escanear el chip. ¿Necesitas ayuda?</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Intenta quitar la funda de tu teléfono. Esto es para evitar interferencias con el chip.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Coloca tu documento contra la parte trasera de tu teléfono, de modo que estén en contacto.</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Deslice lentamente su documento hacia arriba y hacia abajo contra el dispositivo hasta que comience el escaneo</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse</string>
+	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verificar sin escanear</string>
+	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Verificación de salida</string>
+	<string name="onfido_nfc_scan_welcome_card_disclaimer">Puede que se le solicite ingresar el CAN antes de continuar con el escaneo</string>
+	<string name="onfido_enter_can_secondary_button">No tengo un CAN</string>
+	<string name="onfido_nfc_scan_error_can_title">Se alcanzó el máximo de intentos</string>
+	<string name="onfido_nfc_scan_error_can_subtitle">Has alcanzado el máximo de intentos para ingresar tu número CAN</string>
+	<string name="onfido_nfc_scan_error_can_primary_button">Verificación de salida</string>
+	<string name="onfido_nfc_scan_error_document_alt_primary_button">Volver a intentar</string>
+	<string name="onfido_interactive_task_waiting_title_5">Subiendo medios...</string>
+	<string name="onfido_generic_close_sdk_title">¿Estás seguro de que quieres salir?</string>
+	<string name="onfido_generic_close_sdk_subtitle">Es posible que necesites reiniciar el proceso de verificación si regresas.</string>
+	<string name="onfido_generic_close_sdk_exit">Salir</string>
+	<string name="onfido_generic_close_sdk_cancel">Cancelar</string>
+
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Cierra tu pasaporte y colócalo sobre una superficie plana con el frente hacia arriba.</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Escaneo interrumpido</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Reposiciona tu teléfono contra tu pasaporte para localizar el chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloca tu teléfono contra tu pasaporte. Para localizar el chip, es posible que necesites deslizar tu teléfono hacia arriba y hacia abajo contra tu pasaporte.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Una vez que se detecta el chip, mantén tu teléfono y pasaporte quietos.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Una vez que comienza el escaneo, mantenga su teléfono y pasaporte quietos.</string>
+</resources>

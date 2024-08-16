@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">Cela devrait prendre quelques minutes</string>
 	<string name="onfido_selfie_capture_button_accessibility">Déclencheur</string>
     <string name="onfido_selfie_intro_title">Prenez un égoportrait</string>
-	<string name="onfido_app_title_country_select">Sélectionner le pays d\'émission</string>
-	<string name="onfido_country_select_bottom_sheet_title">Vous ne trouvez pas votre pays?</string>
+    <string name="onfido_country_select_bottom_sheet_title">Vous ne trouvez pas votre pays?</string>
 	<string name="onfido_country_select_bottom_sheet_details">Il semble que le pays du document que vous avez sélectionné n\'est pas pris en charge. Veuillez sélectionner un autre pays.</string>
     <string name="onfido_selfie_intro_subtitle">Nous comparerons cela avec votre document</string>
 	<string name="onfido_selfie_capture_body">Gardez votre visage à l\'intérieur de l\'ovale</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Prêt à numériser</string>
     <string name="onfido_nfc_sheet_button_secondary">Annuler</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Numérisation en cours…</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">Gardez votre téléphone immobile</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Gardez votre téléphone et votre passeport immobiles</string>
     <string name="onfido_nfc_sheet_success_subtitle">Numérisation réussie</string>
     <string name="onfido_nfc_permission_title">Activer NFC</string>
 	<string name="onfido_nfc_permission_subtitle">Nous ne pouvons pas numériser votre passeport sans NFC</string>
@@ -236,12 +235,6 @@
 
 	<string name="onfido_video_capture_body">Gardez votre visage à l\'intérieur de l\'ovale pour commencer l\'enregistrement</string>
 
-    <string name="onfido_app_title_doc_confirmation">Vérifier votre identité</string>
-    <string name="onfido_app_title_selfie_confirmation">Vérifier votre identité</string>
-    <string name="onfido_app_title_permission">Vérifier votre identité</string>
-    <string name="onfido_app_title_selfie_intro">Vérifier votre identité</string>
-    <string name="onfido_app_title_video_intro">Vérifier votre identité</string>
-    <string name="onfido_app_title_video_confirmation">Vérifier votre identité</string>
     <string name="onfido_welcome_button_primary_doc">Choisir un document</string>
     <string name="onfido_welcome_button_primary">Commencer</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">Vérifier sans NFC</string>
     <string name="onfido_nfc_scan_error_title">Impossible de numériser votre document</string>
 
-	<string name="onfido_nfc_intro_title_passport">Scannez votre passeport</string>
+	<string name="onfido_nfc_intro_title_passport">Numérisez la puce de votre passeport</string>
     <string name="onfido_nfc_intro_subtitle">Suivez les instructions ci-dessous</string>
     <string name="onfido_nfc_intro_button_primary">Démarrer la numérisation</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Nous avons numérisé votre passeport avec succès</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Nous avons numérisé votre carte avec succès</string>
 
-    <string name="onfido_nfc_select_title_passport">Accélérez le processus avec NFC</string>
     <string name="onfido_nfc_select_button_primary_passport">Utiliser le passeport électronique</string>
 	<string name="onfido_nfc_select_button_secondary_passport">Ce n\'est pas un passeport électronique</string>
 
-    <string name="onfido_nfc_select_title_card">Accélérez le processus avec NFC</string>
     <string name="onfido_nfc_select_button_primary_card">Utiliser la carte NFC</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Gardez votre téléphone immobile</string>
@@ -324,7 +315,6 @@
 	<string name="onfido_enter_can_title">Entrez le numéro CAN</string>
 	<string name="onfido_enter_can_subtitle">Le numéro à %d chiffres se trouve sur le devant de votre document</string>
     <string name="onfido_enter_can_button_primary">Continuer</string>
-	<string name="onfido_enter_can_disclaimer">Vous pouvez le trouver au recto de votre document. Il compte %d chiffres et sa taille est légèrement plus importante.</string>
     <string name="onfido_enter_can_error_label">Il vous reste %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">tentative</string>
     <string name="onfido_enter_can_substring_attempt_plural">tentatives</string>
@@ -482,24 +472,14 @@
     <string name="onfido_avc_face_capture_alert_audio_conflict_body">Merci de ne pas diffuser d\'audio sur votre appareil pendant l\'enregistrement.</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Utilisez votre téléphone pour scanner la puce dans votre document</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Placez votre document contre l\'arrière de votre appareil afin qu\'ils se touchent</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Faites lentement glisser votre document de haut en bas contre l\'appareil jusqu\'à ce que le scan commence</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Faites glisser lentement votre document vers le bas et vers le haut contre votre téléphone pour localiser la puce.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Vérifier sans NFC</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">Retirez votre étui de téléphone</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">Gardez votre appareil et votre document en contact jusqu\'à ce que la numérisation soit réussie</string>
     <string name="onfido_nfc_scan_error_final_title">Nous n\'avons pas pu vérifier ce document</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">La numérisation NFC est requise pour ce document, mais n\'a pas pu être effectuée.</string>
-	<string name="onfido_nfc_scan_error_final_list_item">Avez-vous un autre document à traiter ?</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">Utiliser un document différent</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Utilisez votre téléphone pour scanner la puce dans votre document</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">Posez votre document sur une surface plane</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Ouvrez votre document à l\'intérieur de la dernière page</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Placez votre document contre l\'arrière de votre appareil afin qu\'ils se touchent</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Faites glisser lentement votre appareil de haut en bas</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">Utiliser un document différent</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">Faites glisser lentement votre appareil de haut en bas</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Vérifier sans NFC</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">Retirez votre passeport et votre téléphone de leurs étuis</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Gardez votre appareil et votre document en contact jusqu\'à ce que la numérisation soit réussie</string>
     <string name="onfido_doc_capture_header_recording_video">Enregistrement vidéo</string>
 	<string name="onfido_doc_capture_header_recording_complete">Enregistrement terminé</string>
 	<string name="onfido_country_select_search_results_none_accessibility">Aucun résultat correspondant</string>
@@ -510,11 +490,9 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Photocopie détectée</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">Balayage détecté</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">Veuillez utiliser votre document original. Les photos d\'écran ou les photocopies ne sont pas acceptées</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">Choisir un autre document</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Soumettre la photo quand même</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">Essayez d\'enregistrer la vidéo manuellement</string>
-	<string name="onfido_interactive_task_waiting_title_1">Vérification de la qualité de l\'image...</string>
-	<string name="onfido_interactive_task_waiting_subtitle_1">Veuillez patienter un peu plus longtemps pour que la tâche soit terminée.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_1">Veuillez patienter un peu plus longtemps pour que la tâche soit terminée.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">La tâche est toujours en cours, votre patience est appréciée.</string>
+	<string name="onfido_interactive_task_waiting_title_5">Téléchargement de médias...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilation des données...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Nous compilons les données collectées, veuillez attendre.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Sécurisation des données...</string>
@@ -524,18 +502,10 @@
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Nous traitons vos informations, veuillez patienter.</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Traitement en cours...</string>
 	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Veuillez attendre un peu plus longtemps pour que ce processus se termine, votre patience est appréciée.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">La tâche est toujours en cours, votre patience est appréciée.</string>
-	<string name="onfido_interactive_task_waiting_title_5">Téléchargement de médias...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Utilisez votre téléphone pour scanner la puce dans votre passeport</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Déposez votre passeport ouvert sur une surface plate</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Placez votre téléphone directement sur votre passeport de sorte qu\'ils se touchent</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Faites glisser lentement votre téléphone sur les deux pages jusqu\'à ce que le scan commence</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer</string>
 	<string name="onfido_nfc_scan_welcome_card_title">Numérisez votre document</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Retirez tous les couvercles de votre document et appareil</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Gardez votre appareil et votre document en contact jusqu\'à ce que la numérisation soit réussie</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Faites glisser lentement votre téléphone sur les deux pages jusqu\'à ce que le scan commence</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Essayez de retirer la couverture de votre passeport ou l\'étui de votre téléphone. Ceci est pour éviter les interférences avec la puce.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Fermez votre passeport et placez-le sur une surface plane avec le côté avant vers le haut.</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">Il se peut que vous deviez faire glisser lentement votre téléphone vers le bas et vers le haut sur votre passeport jusqu\'à ce que vous localisiez la puce.</string>
 	<string name="onfido_nfc_scan_error_document_title">Document non pris en charge</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Veuillez essayer avec un autre document</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Choisissez un autre document</string>
@@ -544,9 +514,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">Désolé pour tout inconvénient. Veuillez utiliser un autre appareil pour vérifier votre identité</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Sortie de vérification</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Nous n\'acceptons que les documents avec une puce. Cherchez cette icône sur votre document</string>
-	<string name="onfido_nfc_fail_card_title">Nous n\'avons pas pu numériser ce document</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Retirez tous les couvercles de votre appareil</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Gardez votre appareil et votre document en contact jusqu\'à ce que la numérisation soit réussie</string>
+	<string name="onfido_nfc_fail_card_title">Incapable de numériser la puce. Besoin d\'aide?</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Essayez de retirer la coque de votre téléphone. Ceci est pour éviter les interférences avec la puce.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Placez votre document contre le dos de votre téléphone, de sorte qu\'ils se touchent.</string>
 	<string name="onfido_nfc_fail_card_list_item_3">Faites lentement glisser votre document de haut en bas contre l\'appareil jusqu\'à ce que le scan commence</string>
 	<string name="onfido_nfc_fail_card_list_item_4">Une fois le balayage commencé, restez immobile pour que le balayage puisse se terminer</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Vérifier sans numériser</string>
@@ -561,12 +531,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">Vous devrez peut-être redémarrer le processus de vérification si vous revenez.</string>
 	<string name="onfido_generic_close_sdk_exit">Sortie</string>
 	<string name="onfido_generic_close_sdk_cancel">Annuler</string>
-	<string name="onfido_doc_capture_alert_mrz_title">Les %d dernières lignes (MRZ) sont floues</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">Rendez le bas de votre document visible</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Scan interrompu</string>
+    <string name="onfido_nfc_scan_doc_realign_title">Scan interrompu</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Fermez votre passeport et placez-le sur une surface plate avec le côté avant vers le haut.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Repositionnez le haut de votre téléphone en contact avec le bas de votre passeport.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Placez votre téléphone sur la moitié inférieure de votre passeport, de sorte qu\'ils soient en contact.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Faites lentement glisser votre téléphone de haut en bas contre votre passeport pour localiser la puce.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Repositionnez votre téléphone contre votre passeport pour localiser la puce.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Positionnez votre téléphone contre votre passeport. Pour localiser la puce, vous devrez peut-être faire glisser votre téléphone de haut en bas contre votre passeport.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Une fois la puce détectée, gardez votre téléphone et votre passeport immobiles.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Une fois le balayage commencé, gardez votre téléphone et votre passeport immobiles.</string>
+	<string name="onfido_nfc_fail_passport_button_primary">Démarrer la numérisation</string>
+	<string name="onfido_nfc_fail_passport_title">Incapable de numériser la puce. Besoin d\'aide?</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Une fois que votre téléphone détecte la puce dans votre passeport, la numérisation commencera automatiquement. Gardez votre téléphone et votre passeport immobiles pour que la numérisation puisse se terminer.</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Placez votre document contre votre téléphone. Vous devrez peut-être faire glisser lentement votre document contre votre téléphone.</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">Repositionnez votre document en contact avec votre téléphone pour localiser la puce.</string>
+	<string name="onfido_nfc_fail_button_primary_card">Démarrer la numérisation</string>
 </resources>

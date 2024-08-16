@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">数分かかります</string>
 	<string name="onfido_selfie_capture_button_accessibility">シャッター</string>
     <string name="onfido_selfie_intro_title">自撮りをする</string>
-    <string name="onfido_app_title_country_select">発行国を選択</string>
-	<string name="onfido_country_select_bottom_sheet_title">お住まいの国が見つかりませんか？</string>
+    <string name="onfido_country_select_bottom_sheet_title">お住まいの国が見つかりませんか？</string>
     <string name="onfido_country_select_bottom_sheet_details">選択した国のドキュメントはサポートされていないようです。別の国を選択してください。</string>
     <string name="onfido_selfie_intro_subtitle">こちらをお手元のドキュメントと比較します</string>
     <string name="onfido_selfie_capture_body">顔を楕円の中に保ちます</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">スキャンの準備ができました</string>
     <string name="onfido_nfc_sheet_button_secondary">キャンセル</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">スキャンしています...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">スマートフォンを動かさないでください</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">スマートフォンとパスポートを動かさないでください</string>
     <string name="onfido_nfc_sheet_success_subtitle">スキャンに成功しました</string>
     <string name="onfido_nfc_permission_title">NFCをオンにする</string>
 	<string name="onfido_nfc_permission_subtitle">NFCなしではパスポートをスキャンできません</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">顔を楕円の中に保った状態で、録画を開始してください</string>
 
-    <string name="onfido_app_title_doc_confirmation">本人確認を行う</string>
-    <string name="onfido_app_title_selfie_confirmation">本人確認を行う</string>
-    <string name="onfido_app_title_permission">本人確認を行う</string>
-    <string name="onfido_app_title_selfie_intro">本人確認を行う</string>
-    <string name="onfido_app_title_video_intro">本人確認を行う</string>
-    <string name="onfido_app_title_video_confirmation">本人確認を行う</string>
     <string name="onfido_welcome_button_primary_doc">ドキュメントを選択</string>
     <string name="onfido_welcome_button_primary">開始</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">NFCなしで認証を受ける</string>
     <string name="onfido_nfc_scan_error_title">ドキュメントをスキャンできませんでした</string>
 
-	<string name="onfido_nfc_intro_title_passport">パスポートをスキャンしてください</string>
+	<string name="onfido_nfc_intro_title_passport">パスポートのチップをスキャンします</string>
     <string name="onfido_nfc_intro_subtitle">以下の手順に従ってください</string>
     <string name="onfido_nfc_intro_button_primary">スキャンを開始する</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">パスポートのスキャンに成功しました</string>
     <string name="onfido_nfc_sheet_success_instruction_card">カードのスキャンに成功しました</string>
 
-    <string name="onfido_nfc_select_title_passport">NFCでプロセスをスピードアップ</string>
     <string name="onfido_nfc_select_button_primary_passport">eパスポートを使用する</string>
     <string name="onfido_nfc_select_button_secondary_passport">eパスポートではありません</string>
 
-    <string name="onfido_nfc_select_title_card">NFCでプロセスをスピードアップ</string>
     <string name="onfido_nfc_select_button_primary_card">NFCカードを使う</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">スマートフォンを動かさないでください</string>
@@ -324,7 +315,6 @@
 	<string name="onfido_enter_can_title">CAN番号を入力してください</string>
 	<string name="onfido_enter_can_subtitle">あなたのドキュメントの表面にある%d桁の数字です</string>
     <string name="onfido_enter_can_button_primary">続行</string>
-    <string name="onfido_enter_can_disclaimer">ドキュメントの表面に記載されています。長さは%d桁で、サイズはやや大きめです。</string>
     <string name="onfido_enter_can_error_label">%1$d%2$sが残っています。</string>
     <string name="onfido_enter_can_substring_attempt_singular">試行</string>
     <string name="onfido_enter_can_substring_attempt_plural">試行</string>
@@ -482,24 +472,14 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">録画中はデバイスの音声を再生しないでください</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">あなたの電話を使って、ドキュメント内のチップをスキャンしてください</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">あなたのドキュメントをあなたのデバイスの背面に置いて、それらが触れるようにしてください</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">チップを見つけるために、あなたの身分証明書をゆっくりとスマートフォンに対して上下にスライドさせてください。</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">NFCなしで認証を受ける</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">スマートフォンのカバーを取り外してください</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">スキャンが成功するまで、デバイスとドキュメントを接触させたままにしてください</string>
     <string name="onfido_nfc_scan_error_final_title">この文書を確認できませんでした</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">このドキュメントには NFC スキャンが必要ですが、完了できませんでした。</string>
-	<string name="onfido_nfc_scan_error_final_list_item">別の書類をお持ちですか?</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">別のドキュメントを使用する</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">あなたの電話を使って、ドキュメント内のチップをスキャンしてください</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">書類を平らな面に置きます</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">文書の後ろのページを開きます</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">あなたのドキュメントをあなたのデバイスの背面に置いて、それらが触れるようにしてください</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">デバイスをゆっくりと上下にスライドさせます</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">別のドキュメントを使用する</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">デバイスをゆっくりと上下にスライドさせます</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">NFCなしで認証を受ける</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">パスポートとスマートフォンのカバーを取り外す</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">スキャンが成功するまで、デバイスとドキュメントを接触させたままにしてください</string>
     <string name="onfido_doc_capture_header_recording_video">ビデオを録画する</string>
 	<string name="onfido_doc_capture_header_recording_complete">記録が完了しました</string>
 	<string name="onfido_country_select_search_results_none_accessibility">一致する結果が見つかりませんでした</string>
@@ -510,32 +490,22 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">複写検出されました</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">スキャンが検出されました</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">元のドキュメントを使用してください。スクリーンの写真やコピーは受け付けていません</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">別のドキュメントを選択</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">それでも写真を提出する</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">手動でビデオを録画してみてください</string>
-	<string name="onfido_interactive_task_waiting_title_1">画像の品質を確認しています...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">タスクが完了するまで、もう少しお待ちいただきますようお願い申し上げます。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">データをコンパイル中...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">収集したデータをコンパイルしています、お待ちください。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">データを保護中...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">お客様の情報を保護しています、お待ちください。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">あなたのデータの安全性は重要です、このタスクが終了するまで少々お待ちください。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">データを処理中...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">お客様の情報を処理しています、お待ちください。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">処理中...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">このプロセスが終了するまで、もう少しお待ちいただきますようお願い申し上げます。ご理解とご協力を賜り、誠にありがとうございます。</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">タスクはまだ実行中です、お待ちいただきありがとうございます。</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">タスクはまだ実行中です、お待ちいただきありがとうございます。</string>
 	<string name="onfido_interactive_task_waiting_title_5">メディアをアップロード中...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">パスポート内のチップをスキャンするために電話を使用してください</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">パスポートを開いて平らな面に置いてください</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">パスポートの上に直接電話を置いて、触れるようにしてください</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
-	<string name="onfido_nfc_scan_welcome_card_title">あなたのドキュメントをスキャンする</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">あなたのドキュメントとデバイスからすべてのカバーを取り除いてください</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">スキャンが開始するまで、電話を両方のページにゆっくりとスライドさせてください</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">スキャンが開始されたら、スキャンが完了するまで静止してください</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">データをコンパイル中...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">収集したデータをコンパイルしています、お待ちください。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">データを保護中...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">お客様の情報を保護しています、お待ちください。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">あなたのデータの安全性は重要です、このタスクが終了するまで少々お待ちください。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">データを処理中...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">お客様の情報を処理しています、お待ちください。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">処理中...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">このプロセスが終了するまで、もう少しお待ちいただきますようお願い申し上げます。ご理解とご協力を賜り、誠にありがとうございます。</string>
+    <string name="onfido_nfc_scan_welcome_card_title">あなたのドキュメントをスキャンする</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">パスポートのカバーや携帯電話のケースを取り外してみてください。これはチップの干渉を避けるためです。</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">パスポートを閉じて、表面が上になるように平らな面に置いてください。</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">パスポートに対してチップを見つけるまで、スマートフォンをゆっくりと上下にスライドさせる必要があるかもしれません。</string>
 	<string name="onfido_nfc_scan_error_document_title">サポートされていないドキュメント</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">別のドキュメントで試してください</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">別のドキュメントを選択してください</string>
@@ -544,9 +514,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">ご不便をおかけして申し訳ありません。別のデバイスを使用して、あなたの身元を確認してください</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">退出確認</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">私たちはチップ付きの文書のみを受け付けます。あなたの文書にこのアイコンを探してください</string>
-	<string name="onfido_nfc_fail_card_title">このドキュメントをスキャンできませんでした</string>
-	<string name="onfido_nfc_fail_card_list_item_1">デバイスからすべてのカバーを取り外します</string>
-	<string name="onfido_nfc_fail_card_list_item_2">スキャンが成功するまで、あなたのデバイスとドキュメントを接触させておいてください</string>
+	<string name="onfido_nfc_fail_card_title">チップをスキャンできません。ヘルプが必要ですか？</string>
+	<string name="onfido_nfc_fail_card_list_item_1">スマートフォンのケースを取り外してみてください。これはチップの干渉を避けるためです。</string>
+	<string name="onfido_nfc_fail_card_list_item_2">ドキュメントを電話の背面に押し当てて、触れるように置きます。</string>
 	<string name="onfido_nfc_fail_card_list_item_3">スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください</string>
 	<string name="onfido_nfc_fail_card_list_item_4">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">スキャンせずに確認する</string>
@@ -561,12 +531,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">戻る場合、確認プロセスを再開する必要があるかもしれません。</string>
 	<string name="onfido_generic_close_sdk_exit">終了</string>
 	<string name="onfido_generic_close_sdk_cancel">キャンセル</string>
-	<string name="onfido_doc_capture_alert_mrz_title">下部の%d行（MRZ）が不明確です</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">あなたの書類の下部を見えるようにしてください</string>
-	<string name="onfido_nfc_scan_doc_realign_title">スキャンが中断されました</string>
+    <string name="onfido_nfc_scan_doc_realign_title">スキャンが中断されました</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">パスポートを閉じて、表面が上になるように平らな面に置いてください。</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">電話の上部をパスポートの下部に接触させて位置を調整してください。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">パスポートの下半分の上に携帯電話を置いて、接触させてください。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">ゆっくりと電話をパスポートの上下に滑らせて、チップを見つけてください。</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">チップを見つけるために、パスポートに対して電話を再配置してください。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">パスポートに対してスマートフォンを置いてください。チップを見つけるためには、パスポートに対してスマートフォンを上下にスライドさせる必要があるかもしれません。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">チップが検出されたら、スマートフォンとパスポートを静止させてください。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">スキャンが開始されたら、携帯電話とパスポートを静止させてください。</string>
+	<string name="onfido_nfc_fail_passport_button_primary">スキャンを開始</string>
+	<string name="onfido_nfc_fail_passport_title">チップをスキャンできません。ヘルプが必要ですか？</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">電話がパスポートのチップを検出すると、スキャンが自動的に開始されます。スキャンが完了するまで、電話とパスポートを静止させてください。</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">あなたのドキュメントをあなたの電話に対して置いてください。ドキュメントを電話に対してゆっくりとスライドさせる必要があるかもしれません。</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">チップを見つけるために、あなたの書類をあなたの電話に接触させて位置を調整してください。</string>
+	<string name="onfido_nfc_fail_button_primary_card">スキャンを開始</string>
 </resources>

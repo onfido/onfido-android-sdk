@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">תהליך זה אמור לקחת כמה דקות</string>
 	<string name="onfido_selfie_capture_button_accessibility">צמצם</string>
     <string name="onfido_selfie_intro_title">צלם סלפי</string>
-    <string name="onfido_app_title_country_select">בחר את ארץ ההנפקה</string>
-	<string name="onfido_country_select_bottom_sheet_title">לא מוצא את המדינה שלך?</string>
+    <string name="onfido_country_select_bottom_sheet_title">לא מוצא את המדינה שלך?</string>
     <string name="onfido_country_select_bottom_sheet_details">נראה שהארץ שבחרת במסמך אינה נתמכת. בחר ארץ אחרת.</string>
     <string name="onfido_selfie_intro_subtitle">אנחנו נשווה את הסלפי למסמך שלך</string>
     <string name="onfido_selfie_capture_body">השאר את הפנים שלך בתוך האליפסה</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">מוכן לסרוק</string>
     <string name="onfido_nfc_sheet_button_secondary">ביטול</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">מתבצעת סריקה...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">אל תזיז את הטלפון שלך</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">אל תזיז את הטלפון והדרכון שלך</string>
     <string name="onfido_nfc_sheet_success_subtitle">הסריקה הסתיימה בהצלחה</string>
     <string name="onfido_nfc_permission_title">הפעל NFC</string>
 	<string name="onfido_nfc_permission_subtitle">אנחנו לא יכולים לסרוק את הדרכון שלך בלי NFC</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">השאר את הפנים בתוך האליפסה כדי להתחיל לצלם</string>
 
-    <string name="onfido_app_title_doc_confirmation">אמת את זהותך</string>
-    <string name="onfido_app_title_selfie_confirmation">אמת את זהותך</string>
-    <string name="onfido_app_title_permission">אמת את זהותך</string>
-    <string name="onfido_app_title_selfie_intro">אמת את זהותך</string>
-    <string name="onfido_app_title_video_intro">אמת את זהותך</string>
-    <string name="onfido_app_title_video_confirmation">אמת את זהותך</string>
     <string name="onfido_welcome_button_primary_doc">בחר מסמך</string>
     <string name="onfido_welcome_button_primary">התחל</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">אימות ללא NFC</string>
     <string name="onfido_nfc_scan_error_title">לא הצלחנו לסרוק את המסמך</string>
 
-	<string name="onfido_nfc_intro_title_passport">סרוק את הדרכון שלך</string>
+	<string name="onfido_nfc_intro_title_passport">סרוק את שבב הדרכון שלך</string>
     <string name="onfido_nfc_intro_subtitle">פעל בהתאם להוראות שמופיעות בהמשך</string>
     <string name="onfido_nfc_intro_button_primary">התחל בסריקה</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">סרקנו בהצלחה את הדרכון שלך</string>
     <string name="onfido_nfc_sheet_success_instruction_card">סרקנו בהצלחה את הכרטיס שלך</string>
 
-    <string name="onfido_nfc_select_title_passport">האץ את התהליך עם NFC</string>
     <string name="onfido_nfc_select_button_primary_passport">השתמש בדרכון ביומטרי</string>
     <string name="onfido_nfc_select_button_secondary_passport">זה לא דרכון ביומטרי</string>
 
-    <string name="onfido_nfc_select_title_card">האץ את התהליך עם NFC</string>
     <string name="onfido_nfc_select_button_primary_card">שימוש בכרטיס NFC</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">אל תזיז את הטלפון שלך</string>
@@ -324,8 +315,7 @@
 	<string name="onfido_enter_can_title">הזן את מספר ה-CAN</string>
 	<string name="onfido_enter_can_subtitle">המספר באורך %d ספרות ממוקם בחזית המסמך שלך</string>
     <string name="onfido_enter_can_button_primary">המשך</string>
-    <string name="onfido_enter_can_disclaimer">ניתן למצוא אותו בעמוד הראשי של המסמך. אורכו %d ספרות והוא מעט גדול יותר.</string>
-	<string name="onfido_enter_can_error_label">נותרו לך %1$d %2$s.</string>
+    <string name="onfido_enter_can_error_label">נותרו לך %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">נסיון</string>
     <string name="onfido_enter_can_substring_attempt_plural">ניסיונות</string>
 
@@ -484,25 +474,15 @@
 	<string name="onfido_doc_capture_header_recording_complete">הצילום הושלם</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">השתמש בטלפון שלך כדי לסרוק את השבב במסמך שלך</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">הניחו את המסמך שלכם על גב המכשיר שלכם כך שהם מגעים</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">הזז לאט את המסמך שלך למעלה ולמטה נגד ההתקן עד שהסריקה מתחילה</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">החלק את המסמך שלך למטה ולמעלה מול הטלפון שלך באופן איטי כדי לאתר את השבב.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">לאחר שהסריקה מתחילה, המשך להחזיק במקום כדי שהסריקה תוכל להסתיים</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">אימות ללא NFC</string>
-	<string name="onfido_nfc_scan_error_inter_list_item">הסר את כיסוי הטלפון</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">שמור את המכשיר והמסמך שלך בקשר עד שהסריקה תצליח</string>
-	<string name="onfido_nfc_scan_error_final_title">לא הצלחנו לאמת את המסמך הזה</string>
+    <string name="onfido_nfc_scan_error_final_title">לא הצלחנו לאמת את המסמך הזה</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">נדרשת סריקת NFC עבור מסמך זה, אך לא ניתן היה להשלים.</string>
-	<string name="onfido_nfc_scan_error_final_list_item">האם יש לך מסמך אחר להמשיך איתו?</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">השתמש במסמך אחר</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">השתמש בטלפון שלך כדי לסרוק את השבב במסמך שלך</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">הנח את המסמך שלך על משטח ישר</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">פתח את המסמך שלך בעמוד האחורי הפנימי</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">הניחו את המסמך שלכם על גב המכשיר שלכם כך שהם מגעים</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">החלק לאט את המכשיר למעלה ולמטה</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">לאחר שהסריקה מתחילה, המשך להחזיק במקום כדי שהסריקה תוכל להסתיים</string>
-	<string name="onfido_nfc_scan_welcome_passport_secondary_button">אימות ללא NFC</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item">הסר את הכיסויים מהדרכון ומהטלפון</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">שמור את המכשיר והמסמך שלך בקשר עד שהסריקה תצליח</string>
-	<string name="onfido_country_select_search_results_none_accessibility">לא נמצאו תוצאות</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">השתמש במסמך אחר</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">החלק לאט את המכשיר למעלה ולמטה</string>
+    <string name="onfido_nfc_scan_welcome_passport_secondary_button">אימות ללא NFC</string>
+    <string name="onfido_country_select_search_results_none_accessibility">לא נמצאו תוצאות</string>
 	<string name="onfido_country_select_search_results_one_accessibility">נמצאה תוצאה אחת</string>
 	<string name="onfido_country_select_search_results_multiple_accessibility">נמצאו %d תוצאות</string>
 	<string name="onfido_doc_confirmation_alert_odp_photo_of_screen_title">זוהתה תמונה של מסך</string>
@@ -510,32 +490,22 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">זוהתה צילום</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">סריקה זוהתה</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">אנא השתמש במסמך המקורי שלך. תמונות של מסך או צילומי עותק לא מתקבלות</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">בחר מסמך אחר</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">שלח תמונה בכל מקרה</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">נסה להקליט וידאו באופן ידני</string>
-	<string name="onfido_interactive_task_waiting_title_1">בודק את איכות התמונה...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">אנא המתן עוד קצת זמן עד שהמשימה תהיה מוכנה.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">מהדר נתונים...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">אנו מקבצים את הנתונים שנאספו, אנא המתן.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">מאבטח נתונים...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">אנו מאבטחים את המידע שלך, אנא המתן.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">אבטחת המידע שלך חשובה, אנא המתן רגע עד שהמשימה תסתיים.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">מעבד נתונים...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">אנו מעבדים את המידע שלך, אנא המתן.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">העיבוד בתהליך...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">אנא המתן עוד מעט עד שהתהליך יסתיים, אנו מעריכים את סבלנותך.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">המשימה עדיין בתהליך, אנו מעריכים את סבלנותך.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">המשימה עדיין בתהליך, אנו מעריכים את סבלנותך.</string>
 	<string name="onfido_interactive_task_waiting_title_5">מעלה מדיה...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">השתמש בטלפון שלך כדי לסרוק את השבב בדרכון שלך</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">הניחו את הדרכון שלכם פתוח על משטח שטוח</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">הניחו את הטלפון שלכם ישירות על הדרכון שלכם כך שהם מגעים</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">החליקו לאט את הטלפון שלכם על שני הדפים עד שהסריקה מתחילה</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים</string>
-	<string name="onfido_nfc_scan_welcome_card_title">סרוק את המסמך שלך</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">הסר כל כיסוי מהמסמך והמכשיר שלך</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">החליקו לאט את הטלפון שלכם על שני הדפים עד שהסריקה מתחילה</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">מהדר נתונים...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">אנו מקבצים את הנתונים שנאספו, אנא המתן.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">מאבטח נתונים...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">אנו מאבטחים את המידע שלך, אנא המתן.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">אבטחת המידע שלך חשובה, אנא המתן רגע עד שהמשימה תסתיים.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">מעבד נתונים...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">אנו מעבדים את המידע שלך, אנא המתן.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">העיבוד בתהליך...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">אנא המתן עוד מעט עד שהתהליך יסתיים, אנו מעריכים את סבלנותך.</string>
+    <string name="onfido_nfc_scan_welcome_card_title">סרוק את המסמך שלך</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">נסה להסיר את הכיסוי מהדרכון שלך או את המקרה מהטלפון שלך. זה כדי למנוע התנגשויות עם השבב.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">סגור את הדרכון שלך והנח אותו על משטח שטוח עם הצד הקדמי למעלה.</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">ייתכן שתצטרך להחליק את הטלפון שלך למטה ולמעלה באופן איטי על הדרכון שלך עד שתמצא את השבב.</string>
 	<string name="onfido_nfc_scan_error_document_title">מסמך לא נתמך</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">נסה בבקשה עם מסמך אחר</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">בחר מסמך אחר</string>
@@ -544,9 +514,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">מצטערים על אי הנוחות. אנא השתמש במכשיר אחר כדי לאמת את זהותך</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">אימות יציאה</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">אנו מקבלים רק מסמכים עם שבב. חפש את הסמל הזה על המסמך שלך</string>
-	<string name="onfido_nfc_fail_card_title">לא הצלחנו לסרוק את המסמך הזה</string>
-	<string name="onfido_nfc_fail_card_list_item_1">הסר כל כיסוי מהמכשיר שלך</string>
-	<string name="onfido_nfc_fail_card_list_item_2">שמור על המכשיר והמסמך במגע עד שהסריקה מצליחה</string>
+	<string name="onfido_nfc_fail_card_title">לא ניתן לסרוק את השבב. צריך עזרה?</string>
+	<string name="onfido_nfc_fail_card_list_item_1">נסה להסיר את המסגרת מהטלפון שלך. זה כדי למנוע התנגשויות עם השבב.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">הנח את המסמך שלך על גב הטלפון שלך, כך שהם מגעים.</string>
 	<string name="onfido_nfc_fail_card_list_item_3">הזז לאט את המסמך שלך למעלה ולמטה נגד ההתקן עד שהסריקה מתחילה</string>
 	<string name="onfido_nfc_fail_card_list_item_4">ברגע שהסריקה מתחילה, הישאר במקום כדי שהסריקה תוכל להסתיים</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">אמת ללא סריקה</string>
@@ -561,12 +531,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">ייתכן שתצטרך להתחיל מחדש את תהליך האימות אם תחזור.</string>
 	<string name="onfido_generic_close_sdk_exit">יציאה</string>
 	<string name="onfido_generic_close_sdk_cancel">ביטול</string>
-	<string name="onfido_doc_capture_alert_mrz_title">השורות התחתונות %d (MRZ) לא ברורות</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">הפוך את החלק התחתון של המסמך שלך לגלוי</string>
-	<string name="onfido_nfc_scan_doc_realign_title">סריקה הופסקה</string>
+    <string name="onfido_nfc_scan_doc_realign_title">סריקה הופסקה</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">סגור את הדרכון שלך והניח אותו על משטח שטוח עם הצד הקדמי למעלה.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">הסיבו את חלקו העליון של הטלפון שלכם כך שיהיה במגע עם החלק התחתון של הדרכון שלכם.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">הניחו את הטלפון שלכם על חצי התחתון של הדרכון שלכם, כך שהם יהיו במגע.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">החליקו לאט את הטלפון שלכם למעלה ולמטה על הדרכון שלכם כדי לאתר את השבב.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">מקמו מחדש את הטלפון שלכם על הדרכון שלכם כדי לאתר את השבב.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">מקם את הטלפון שלך על הדרכון שלך. כדי לאתר את השבב, ייתכן שתצטרך להחליק את הטלפון שלך למעלה ולמטה על הדרכון שלך.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">לאחר שהשבב מזוהה, ודא שהטלפון והדרכון נשארים במקום.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">לאחר שהסריקה מתחילה, השאר את הטלפון והדרכון שלך במקום.</string>
+	<string name="onfido_nfc_fail_passport_button_primary">התחל סריקה</string>
+	<string name="onfido_nfc_fail_passport_title">לא מצליחים לסרוק את השבב. צריכים עזרה?</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">ברגע שהטלפון שלך מזהה את השבב בדרכון שלך, הסריקה תתחיל אוטומטית. השאר את הטלפון והדרכון שלך במקום כדי שהסריקה תוכל להסתיים.</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">הנח את המסמך שלך על הטלפון שלך. ייתכן ותצטרך להזיז לאט את המסמך שלך נגד הטלפון שלך.</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">ממקם מחדש את המסמך שלך במגע עם הטלפון שלך כדי לאתר את השבב.</string>
+	<string name="onfido_nfc_fail_button_primary_card">התחל סריקה</string>
 </resources>

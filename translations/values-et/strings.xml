@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">See peaks võtma mõne minuti</string>
 	<string name="onfido_selfie_capture_button_accessibility">Katik</string>
     <string name="onfido_selfie_intro_title">Tehke selfi</string>
-    <string name="onfido_app_title_country_select">Valige väljastanud riik</string>
-	<string name="onfido_country_select_bottom_sheet_title">Kas te ei leia oma riiki?</string>
+    <string name="onfido_country_select_bottom_sheet_title">Kas te ei leia oma riiki?</string>
     <string name="onfido_country_select_bottom_sheet_details">Paistab, et teie valitud dokumendil märgitud riiki ei toetata. Valige muu riik.</string>
     <string name="onfido_selfie_intro_subtitle">Võrdleme seda teie dokumendiga</string>
     <string name="onfido_selfie_capture_body">Hoidke oma nägu ovaali sees</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Skannimiseks valmis</string>
     <string name="onfido_nfc_sheet_button_secondary">Tühistage</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skaneerimine...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">Hoidke telefon paigal</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Hoidke telefon ja pass paigal</string>
     <string name="onfido_nfc_sheet_success_subtitle">Skannimine õnnestus</string>
     <string name="onfido_nfc_permission_title">Lülitage NFC sisse</string>
 	<string name="onfido_nfc_permission_subtitle">Me ei saa skannida teie passi ilma NFC-ta</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">Salvestamise alustamiseks hoidke oma nägu ovaali sees</string>
 
-    <string name="onfido_app_title_doc_confirmation">Kinnitage oma isik</string>
-    <string name="onfido_app_title_selfie_confirmation">Kinnitage oma isik</string>
-    <string name="onfido_app_title_permission">Kinnitage oma isik</string>
-    <string name="onfido_app_title_selfie_intro">Kinnitage oma isik</string>
-    <string name="onfido_app_title_video_intro">Kinnitage oma isik</string>
-    <string name="onfido_app_title_video_confirmation">Kinnitage oma isik</string>
     <string name="onfido_welcome_button_primary_doc">Valige dokument</string>
     <string name="onfido_welcome_button_primary">Alustage</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">Kinnitamine ilma NFC-ta</string>
     <string name="onfido_nfc_scan_error_title">Teie dokumendi skannimine ei õnnestunud</string>
 
-	<string name="onfido_nfc_intro_title_passport">Skaneeri oma pass</string>
+	<string name="onfido_nfc_intro_title_passport">Skaneerige oma passi kiip</string>
     <string name="onfido_nfc_intro_subtitle">Järgige alltoodud juhiseid</string>
     <string name="onfido_nfc_intro_button_primary">Alustage skannimist</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Teie passi skannimine õnnestus</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Teie kaardi skannimine õnnestus</string>
 
-    <string name="onfido_nfc_select_title_passport">Protsessi kiirendamine NFC abil</string>
     <string name="onfido_nfc_select_button_primary_passport">Kasuta ePassporti</string>
     <string name="onfido_nfc_select_button_secondary_passport">See ei ole ePassport</string>
 
-    <string name="onfido_nfc_select_title_card">Protsessi kiirendamine NFC abil</string>
     <string name="onfido_nfc_select_button_primary_card">Kasutage NFC-kiibiga kaarti</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Hoidke telefon paigal</string>
@@ -324,8 +315,7 @@
 	<string name="onfido_enter_can_title">Sisestage CAN number</string>
 	<string name="onfido_enter_can_subtitle">%d-kohaline number asub teie dokumendi esiküljel</string>
     <string name="onfido_enter_can_button_primary">Jätkake</string>
-    <string name="onfido_enter_can_disclaimer">Leiate selle oma dokumendi esiküljelt. See on %d-kohaline number, mis on esitatud veidi suuremas kirjas.</string>
-	<string name="onfido_enter_can_error_label">Jäänud on %1$d %2$s.</string>
+    <string name="onfido_enter_can_error_label">Jäänud on %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">katse</string>
     <string name="onfido_enter_can_substring_attempt_plural">katset</string>
 
@@ -482,24 +472,14 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Palun ärge mängige salvestamise ajal oma seadmes mingit heli</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Kasuta oma telefoni, et skaneerida kiip oma dokumendis</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Asetage oma dokument oma seadme tagakülje vastu nii, et need puutuvad kokku</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Liigutage aeglaselt oma dokumenti seadme vastu üles ja alla, kuni skaneerimine algab</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Libistage oma dokumendi aeglaselt alla ja üles oma telefoni vastu, et kiipi leida.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Kinnitamine ilma NFC-ta</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">Eemaldage oma telefoni kate</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">Hoidke oma seadet ja dokumenti ühenduses, kuni skannimine on edukas</string>
     <string name="onfido_nfc_scan_error_final_title">Me ei saanud seda dokumenti kinnitada</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Selle dokumendi jaoks on nõutav NFC-skannimine, kuid seda ei saanud lõpule viia.</string>
-	<string name="onfido_nfc_scan_error_final_list_item">Kas teil on jätkamiseks mõni muu dokument?</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">Kasutage teist dokumenti</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Kasuta oma telefoni, et skaneerida kiip oma dokumendis</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">Asetage dokument tasasele pinnale</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Avage oma dokument tagalehe sisemiselt</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Asetage oma dokument oma seadme tagakülje vastu nii, et need puutuvad kokku</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Libistage seadet aeglaselt üles ja alla</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">Kasutage teist dokumenti</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">Libistage seadet aeglaselt üles ja alla</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Kinnitamine ilma NFC-ta</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">Eemaldage passilt ja telefonilt katted</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Hoidke oma seadet ja dokumenti ühenduses, kuni skannimine on edukas</string>
     <string name="onfido_doc_capture_header_recording_video">Video salvestamine</string>
 	<string name="onfido_doc_capture_header_recording_complete">Salvestamine lõpetatud</string>
 	<string name="onfido_country_select_search_results_none_accessibility">Sobivaid tulemusi ei leitud</string>
@@ -510,32 +490,22 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokoopia tuvastatud</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">Skaneerimine tuvastatud</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">Palun kasutage oma algset dokumenti. Ekraanipiltide või fotokoopiate kasutamine ei ole lubatud</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">Valige teine dokument</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Esita foto ikkagi</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">Proovige videot käsitsi salvestada</string>
-	<string name="onfido_interactive_task_waiting_title_1">Kontrollin pildi kvaliteeti...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">Palun oodake veidi kauem, kuni ülesanne on lõpule viidud.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Andmete koostamine...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Me koondame kogutud andmeid, palun oodake.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Andmete turvamine...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Me turvame teie teavet, palun oodake.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Teie andmete turvamine on oluline, palun oodake hetk, kuni see ülesanne on lõpule viidud.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Andmete töötlemine...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Me töötleme teie andmeid, palun oodake.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Töötlemine käib...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Palun oodake natuke kauem, kuni see protsess on lõppenud, teie kannatlikkust hinnatakse.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Ülesanne on endiselt käimas, teie kannatlikkust hinnatakse.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">Ülesanne on endiselt käimas, teie kannatlikkust hinnatakse.</string>
 	<string name="onfido_interactive_task_waiting_title_5">Meedia üleslaadimine...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Kasutage oma telefoni, et skaneerida kiip oma passis</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Asetage oma pass lahtiselt tasasele pinnale</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Asetage oma telefon otse passi peale nii, et need puutuvad kokku</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Liigutage aeglaselt oma telefoni mõlema lehekülje üle, kuni skannimine algab</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Skaneeri oma dokument</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Eemaldage kõik katted oma dokumendilt ja seadmelt</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Liigutage aeglaselt oma telefoni mõlema lehekülje üle, kuni skannimine algab</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">Andmete koostamine...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Me koondame kogutud andmeid, palun oodake.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">Andmete turvamine...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Me turvame teie teavet, palun oodake.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Teie andmete turvamine on oluline, palun oodake hetk, kuni see ülesanne on lõpule viidud.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">Andmete töötlemine...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Me töötleme teie andmeid, palun oodake.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">Töötlemine käib...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Palun oodake natuke kauem, kuni see protsess on lõppenud, teie kannatlikkust hinnatakse.</string>
+    <string name="onfido_nfc_scan_welcome_card_title">Skaneeri oma dokument</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Proovige eemaldada oma passilt kate või oma telefonilt ümbris. See on vajalik, et vältida kiibi töö häireid.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Sulgege oma pass ja asetage see tasasele pinnale esiküljega ülespoole.</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">Võib-olla peate libistama telefoni aeglaselt alla ja üles oma passi vastu, kuni leiate kiibi.</string>
 	<string name="onfido_nfc_scan_error_document_title">Dokumenti ei toetata</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Palun proovige mõne teise dokumendiga</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Vali teine dokument</string>
@@ -544,9 +514,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">Vabandame ebamugavuste pärast. Palun kasutage oma identiteedi kinnitamiseks mõnda teist seadet</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Väljumise kontroll</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Me aktsepteerime ainult kiibiga dokumente. Otsige seda ikooni oma dokumendilt</string>
-	<string name="onfido_nfc_fail_card_title">Me ei saanud seda dokumenti skaneerida</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Eemaldage kõik katted oma seadmelt</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Hoidke oma seadet ja dokumenti kontaktis, kuni skaneerimine on edukas</string>
+	<string name="onfido_nfc_fail_card_title">Ei suuda kiipi skaneerida. Vajate abi?</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Proovige eemaldada oma telefonilt ümbris. See on vajalik, et vältida sekkumist kiibiga.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Asetage oma dokument telefoni taha, nii et need puutuvad kokku.</string>
 	<string name="onfido_nfc_fail_card_list_item_3">Liigutage aeglaselt oma dokumenti üles ja alla seadme vastu, kuni skaneerimine algab</string>
 	<string name="onfido_nfc_fail_card_list_item_4">Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Kinnita ilma skannimata</string>
@@ -561,12 +531,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">Võite peate identiteedi kinnitamise protsessi taaskäivitama, kui naasete.</string>
 	<string name="onfido_generic_close_sdk_exit">Välju</string>
 	<string name="onfido_generic_close_sdk_cancel">Tühistage</string>
-	<string name="onfido_doc_capture_alert_mrz_title">Alumised %d read (MRZ) on ebaselged</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">Teie dokumendi alaosa peaks olema nähtav</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Skaneerimine katkestati</string>
+    <string name="onfido_nfc_scan_doc_realign_title">Skaneerimine katkestati</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Sulgege oma pass ja asetage see tasasele pinnale esiküljega ülespoole.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Paigutage oma telefoni ülaosa kontakti oma passi alaosaga.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Asetage oma telefon oma passi alumise poole peale, nii et need oleksid kontaktis.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Liigutage aeglaselt oma telefoni üles ja alla oma passi vastas, et kiipi leida.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Paigutage oma telefon uuesti passi vastu, et kiipi leida.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Asetage telefon oma passi vastu. Kiibi asukoha leidmiseks võite vajada telefoni üles-alla liigutamist passi vastu.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kui kiip on tuvastatud, hoidke oma telefoni ja passi paigal.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kui skaneerimine algab, hoidke oma telefoni ja passi paigal.</string>
+	<string name="onfido_nfc_fail_passport_button_primary">Alustage skannimist</string>
+	<string name="onfido_nfc_fail_passport_title">Ei suuda kiipi skaneerida. Kas vajate abi?</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Kui teie telefon tuvastab passis oleva kiibi, algab skaneerimine automaatselt. Hoidke oma telefoni ja passi paigal, et skaneerimine saaks lõpule viia.</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Asetage oma dokument telefoni vastu. Võib-olla peate oma dokumenti aeglaselt telefoni vastu liigutama.</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">Paigutage oma dokument oma telefoni lähedusse, et kiip üles leida.</string>
+	<string name="onfido_nfc_fail_button_primary_card">Alustage skannimist</string>
 </resources>

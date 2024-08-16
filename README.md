@@ -10,7 +10,7 @@
 * [3. Initializing the SDK](#initializing-the-sdk)
 * [4. Completing a session](#completing-a-session)
 * [Advanced flow customization](#advanced-flow-customization)
-* [Advanced callbacks](#advanced-callbacks)
+* [Custom media callbacks](#custom-media-callbacks)
 * [User Analytics](#user-analytics)
 * [Cross platform frameworks](#cross-platform-frameworks)
 * [Migrating](#migrating)
@@ -62,7 +62,7 @@ Our configuration is currently set to the following:
 - `minSdkVersion = 21`
 - `targetSdkVersion = 34`
 - `android.useAndroidX=true`
-- `Kotlin = 1.7.10+`
+- `Kotlin = 1.7.10+` (**Please note**: Kotlin 2.0 is **not** supported)
 ```
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_8
@@ -97,7 +97,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 14.85 Mb  |
+| armeabi-v7a | 11.51 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -121,7 +121,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.73 Mb  |
+| core-armeabi-v7a | 11.51 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -171,6 +171,9 @@ Read the [Android documentation](http://tools.android.com/tech-docs/new-build-sy
 
 ## Initializing the SDK
 
+> ⚠️ The following SDK initialization documentation applies to identity verification workflows orchestrated using Onfido Studio.
+> For integrations where the verification steps are manually defined and configured, please refer to the [Advanced flow customization](#advanced-flow-customization) section below.
+
 The Android SDK has multiple initialization and customization options that provide flexibility to your integration, while remaining easy to integrate.
 
 ### Defining a workflow
@@ -193,64 +196,11 @@ When defining workflows and creating identity verifications, we highly recommend
 
 ### SDK authentication
 
-The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido Android SDK.
+The SDK is authenticated using SDK tokens. Onfido Studio generates and exposes SDK tokens in the workflow run payload returned by the API when a workflow run is [created](https://documentation.onfido.com/#create-workflow-run).
 
-For details on how to generate SDK tokens, please refer to `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/api/latest/#generate-sdk-token).
+SDK tokens for Studio can only be used together with the specific workflow run they are generated for, and remain valid for a period of five weeks.
 
 **Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
-
-#### `tokenExpirationHandler`
-
-It's important to note that SDK tokens expire after 90 minutes.
-
-With this in mind, we recommend you use the optional `tokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, otherwise the flow will finish with a `TokenExpiredException` error.
-
-For example:
-
-##### Kotlin
-
-```kotlin
-
-class ExpirationHandler : TokenExpirationHandler {
-
-    override fun refreshToken(injectNewToken: (String) -> Unit) {
-        // Your network request logic to retrieve SDK token goes here
-        injectNewToken("<NEW_SDK_TOKEN>") // if you pass `null` the SDK will exit with token expired error
-    }
-}
-
-val workflowConfig = WorkflowConfig.Builder(
-    workflowRunId = "<WORKFLOW_RUN_ID>",
-    sdkToken = "<SDK_TOKEN>"
-    )
-    .withTokenExpirationHandler(
-        tokenExpirationHandler = ExpirationHandler()   // ExpirationHandler is mandatory
-    )
-    .build()
-
-
-```
-
-##### Java
-
-```java
-class ExpirationHandler implements TokenExpirationHandler {
-
-    @Override
-    public void refreshToken(@NotNull Function1<? super String, Unit> injectNewToken) {
-        // Your network request logic to retrieve SDK token goes here
-        injectNewToken.invoke("<NEW_SDK_TOKEN>"); // if you pass `null` the SDK will exit with token expired error
-    }
-}
-
-    WorkflowConfig workflowConfig = new WorkflowConfig.Builder(
-        "<WORKFLOW_RUN_ID>",
-        "<SDK_TOKEN>"
-    )
-    .withTokenExpirationHandler(new ExpirationHandler())   // ExpirationHandler is mandatory
-    .build();
-
-```
 
 ### Build a configuration object
 
@@ -282,7 +232,7 @@ startActivityForResult(onfidoWorkflow.createIntent(workflowConfig), REQUEST_CODE
 
 ### Onfido Android Process - Custom Application Class
 
-**Note**: You can skip this step if you don't have any custom application class.
+**Note**: You can skip this step if you do not have any custom application class.
 
 **Note**: Following the release of [version 17.0.0](https://documentation.onfido.com/sdk/android/migration/#no--1700---1800), the Android SDK runs in a separate process. This means that when the SDK gets started, a new application instance will be created. To prevent re-executing the initializations you have in the Android application class, you can use the `isOnfidoProcess` extension function and return from `onCreate` as shown below.
 
@@ -418,6 +368,105 @@ In your application's `styles.xml` file:
 </style>
 ```
 
+### Co-branding
+
+The Onfido SDK allows for two co-branding options that affect the display of the Onfido logo at the bottom of the Onfido screens.
+
+#### Text co-branding
+
+- **`cobrand {Object}` - optional**
+
+  The most effective way to add your brand to the footer watermark is by use of the `cobrand` property under `enterpriseFeatures`. This property takes a `text` parameter.
+
+  ![Example of text cobranding](text_co_brand.png)
+
+##### Kotlin
+
+Define the co-branding text parameter:
+
+```kotlin
+val companyName = "MyCompany"
+val enterpriseFeatures = EnterpriseFeatures.builder()
+    .withCobrandingText(companyName)
+    .build()
+```
+
+Pass the property into `OnfidoConfig`:
+
+```kotlin
+OnfidoConfig.builder(<context>)
+      .<additional_config_options>  // replace with actual method chain
+      .withEnterpriseFeatures(enterpriseFeatures)
+      .build()
+```
+
+##### Java
+
+Define the co-branding text parameter:
+
+```java
+String companyName = "MyCompany";
+EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder()
+     .withCobrandingText(companyName)
+     .build();
+```
+
+Pass the property into `OnfidoConfig`:
+
+```java
+OnfidoConfig onfidoConfig = OnfidoConfig.builder(context)
+      .<additional_config_options>  // replace with actual method chain
+      .withEnterpriseFeatures(enterpriseFeatures)
+      .build();
+```
+
+**Please note**: Text co-branding must be enabled by Onfido. Please contact your Solutions Engineer or Customer Success Manager to activate the feature.
+
+#### Logo co-branding
+
+- **`logoCobrand {Object}` - optional**
+
+  As an alternative to `cobrand`, you may specify a set of images to be defined in the `logoCobrand` property under `enterpriseFeatures`. You must provide the path to an image for use in 'dark' mode and a separate image for 'light' mode. Both images must have a resolution of 144x32.
+
+##### Kotlin
+
+Designate the co-branding logo:
+
+```kotlin
+val enterpriseFeatures = EnterpriseFeatures.builder()
+    .withCobrandingLogo(R.drawable.logo_light_mode, R.drawable.logo_dark_mode)
+    .build()
+```
+
+Pass the property into `OnfidoConfig`:
+
+```kotlin
+OnfidoConfig.builder(<context>)
+      .<additional_config_options>  // replace with actual method chain
+      .withEnterpriseFeatures(enterpriseFeatures)
+      .build()
+```
+
+##### Java
+
+Designate the co-branding logo:
+
+```java
+EnterpriseFeatures enterpriseFeatures = EnterpriseFeatures.builder()
+     .withCobrandingLogo(R.drawable.logo_light_mode, R.drawable.logo_dark_mode)
+     .build();
+```
+Pass the property into `OnfidoConfig`:
+
+```java
+OnfidoConfig onfidoConfig = OnfidoConfig.builder(context)
+      .<additional_config_options>  // replace with actual method chain
+      .withEnterpriseFeatures(enterpriseFeatures)
+      .build();
+```
+
+**Please note**: Logo co-branding must be enabled by Onfido. Please contact your Solutions Engineer or Customer Success Manager to activate the feature.
+
 ### Language localization
 
 The Onfido SDK supports and maintains translations for over 40 languages.
@@ -441,7 +490,7 @@ The Android SDK also allows for the selection of a specific custom language for 
 
 When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). 
 
-**Note**: If the strings translations change, it will result in a minor version change. If you have custom translations, you're responsible for testing your translated layout.
+**Note**: If the strings translations change, it will result in a minor version change. If you have custom translations, you are responsible for testing your translated layout.
 
 If you want a locale translated please contact Onfido's [Customer Support](mailto:support@onfido.com).
 
@@ -457,17 +506,17 @@ For more information on how to configure NFC and the list of supported documents
 
 ### Handling callbacks
 
-When the Onfido SDK session concludes, a range of callback functions may be triggered.
+When the Onfido SDK session concludes, a range of callback functions may be triggered. The callbacks detailed in this section apply to identity verification workflows orchestrated using Onfido Studio. For callbacks for manually-defined verification flows implemented without Onfido Studio, please refer to the [section below](#callbacks-for-manually-defined-verification-flows). 
 
-For advanced callbacks used for user analytics and returning submitted media, please refer to the [Advanced Callbacks](#advanced-callbacks) section of this document.
+For advanced callbacks used for user analytics and returning submitted media, please refer to the [Custom Media Callbacks](#custom-media-callbacks) and [User Analytics](#user-analytics) sections of this document.
 
 Available callback functions include:
 
-| Attribute     |    Notes    |
+| Callback name     |    Notes    |
 | -----|-------|
-| `onUserCompleted` | Callback that fires when all interactive tasks in the workflow have been completed. If you have configured [webhooks](https://documentation.onfido.com/api/latest/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the workflow. |
-| `onUserExited` | Callback that fires when the workflow was exited prematurely by the user. The reason can be an exitCode, e.g `USER_CONSENT_DENIED`. |
-| `onException` | In case of an unexpected error, the onException method will be invoked with a relevant error message in the `WorkflowException` object. Error messages are not in a presentable format to the end user and are not localized. |
+| `onUserCompleted()` | Callback that fires when all interactive tasks in the workflow have been completed. If you have configured [webhooks](https://documentation.onfido.com/api/latest/#webhooks), a notification will be sent to your backend confirming the workflow run has finished. You do not need to create a check using your backend as this is handled directly by the workflow. |
+| `onUserExited(exitCode)` | Callback that fires when the workflow was exited prematurely by the user. Possible exitCode reasons include `USER_CONSENT_DENIED`, `USER_LEFT_ACTIVITY`, `REQUIRED_NFC_FLOW_NOT_COMPLETED` and `CAMERA_PERMISSION_DENIED` (deprecated). |
+| `onException(exception)` | In case of an unexpected error, the onException method will be invoked with a relevant error message in the `WorkflowException` object. Error messages are not in a presentable format to the end user and are not localized. Details of the range of workflow exceptions that can occur can be found in the [table below](#error-handling).|
 
 To receive the result from the flow, you should override the method `onActivityResult` on your Activity or Fragment. The following code is provided as an example:
 
@@ -491,6 +540,69 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 }
 ```
 
+##### Java
+
+```java
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    ...
+    onfidoWorkflow.handleActivityResult(resultCode, data, new OnfidoWorkflow.ResultListener() {
+        @Override
+        public void onUserCompleted() {
+        // Called when the entire workflow run has reached the terminal node.
+	}
+
+        @Override
+        public void onUserExited(ExitCode exitCode) {
+        // Called when the user has exited the flow before reaching the terminal node.
+	}
+
+        @Override
+        public void onException(OnfidoException exception) {
+        // Called when the flow has ended with an exception
+	}
+    });
+}
+```
+
+### Error handling
+
+The `exception` object returned as part of `onException(exception)` is of type `WorkflowException`.
+It is a sealed class with multiple cases depending on the exception type.
+
+##### Kotlin
+
+```kotlin
+
+override fun onException(exception: OnfidoWorkflow.WorkflowException) {
+    when (exception) {
+        is WorkflowInsufficientVersionException ->
+        // This happens when you are using an older version of the Android SDK and trying to access a new functionality from workflow. You can fix this by updating the SDK
+        is WorkflowInvalidSSLCertificateException ->
+        // When network requests fail because SSL certificate is invalid
+        is WorkflowTokenExpiredException ->
+        // When SDK token is expired and needs to be refreshed
+        is WorkflowCaptureCancelledException ->
+        // When the workflow is cancelled by the user
+        is WorkflowUnknownCameraException ->
+        // When some unknown camera exception happens
+        is WorkflowUnknownResultException ->
+        // When an corrupted intent result is passed to the SDK
+        is WorkflowUnsupportedTaskException ->
+        // This happens when you are using an older version of the Android SDK. You can fix this by updating the SDK
+        is WorkflowHttpException ->
+        // This happens when the SDK receives an error from an API call see [https://documentation.onfido.com/api/latest/#errors](https://documentation.onfido.com/api/latest/#errors) for more information
+        is WorkflowUnknownException ->
+        // This happens when an unexpected error occurs. Please contact [support@onfido.com](support@onfido.com?Subject=ISSUE%3A) when this happens
+        is WorkflowAbandonedException ->
+        // This happens when workflow run is abandoned. In this case a new workflow run has to be created
+        else -> 
+        // Necessary because of Kotlin
+    }
+}
+
+```
+
 ### Generating verification reports
 
 While the SDK is responsible for capturing and uploading the user's media and data, identity verification reports themselves are generated based on workflows created using [Onfido Studio](https://documentation.onfido.com/getting-started/onfido-studio-product).
@@ -508,9 +620,17 @@ The `FlowStep` parameter is mutually exclusive with `workflowRunId`, requiring a
 
 **Note** that this initialization process is **not recommended** as the majority of new features are exclusively released for Studio workflows.
 
-### Managing SDK Token Expiry with `expireHandler`
+### Manual SDK authentication
 
-When generating SDK tokens, it's important to note that they expire after 90 minutes.
+The SDK is authenticated using SDK tokens. As each SDK token must be specific to a given applicant and session, a new token must be generated each time you initialize the Onfido Android SDK.
+
+For details on how to manually generate SDK tokens, please refer to the `POST /sdk_token/` definition in the Onfido [API reference](https://documentation.onfido.com/#generate-sdk-token).
+
+**Note**: You must never use API tokens in the frontend of your application as malicious users could discover them in your source code. You should only use them on your server.
+
+#### `tokenExpirationHandler`
+
+It is important to note that manually generated SDK tokens expire after 90 minutes (SDK tokens generated in Onfido Studio when creating workflow runs are **not** affected by this limit).
 
 With this in mind, we recommend you use the optional `tokenExpirationHandler` parameter in the SDK token configuration function to generate and pass a new SDK token when it expires. This ensures the SDK continues its flow even after an SDK token has expired. You should inject a new token in 10 seconds after the callback is triggered, otherwise the flow will finish with a `TokenExpiredException` error.
 
@@ -531,6 +651,8 @@ class ExpirationHandler : TokenExpirationHandler {
 val config = OnfidoConfig.builder(context)
     .withSDKToken("<YOUR_SDK_TOKEN_HERE>", tokenExpirationHandler = ExpirationHandler()) // ExpirationHandler is optional
 ```
+
+##### Java
 
 ```java
 
@@ -871,13 +993,35 @@ implementation ("com.onfido.sdk:onfido-<variant>:19.1.0"){
  implementation "org.bouncycastle:bcutil-jdk15to18:1.69"
 ```
 
-## Advanced callbacks
+## Callbacks for manually defined verification flows
 
 ### Handling callbacks
 
-When the Onfido SDK session concludes, a range of callback functions may be triggered.
+When the Onfido SDK session concludes, a range of callback functions may be triggered. The callbacks detailed in this section apply to manually-defined identity verification flows implemented without Onfido Studio. For callbacks for verification workflows orchestrated using Onfido Studio, please refer to the [section above](#completing-a-session).
 
 To receive the result from the flow, you should override the method `onActivityResult` on your Activity or Fragment. Typically, on success, you would create a check on your backend server.
+
+##### Kotlin
+
+```kotlin
+override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+    onfido.handleActivityResult(resultCode, data, object : Onfido.OnfidoResultListener {
+        override fun userCompleted(captures: Captures) {
+            // Called when the entire workflow run has reached the terminal node.
+        }
+
+        override fun userExited(exitCode: ExitCode) {
+            // Called when the user has exited the flow before reaching the terminal node.
+        }
+
+        override fun onError(exception: OnfidoException) {
+            // Called when the flow has ended with an exception
+        }
+    })
+}
+```
+
+##### Java
 
 ```java
 @Override
@@ -901,11 +1045,11 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 Available callback functions include:
 
-| Attribute     |    Notes    |
+| Callback name     |    Notes    |
 | -----|-------|
-| `userCompleted` | User completed the flow. You can now create a check on your backend server. The `captures` object contains information about the document and face captures made during the flow.|
-| `userExited` | User left the SDK flow without completing it. Some images may have already been uploaded. The `exitCode` object contains information about the reason for exit. |
-| `onError` | User couldn't complete the flow because some error occurred. |
+| `userCompleted(captures)` | User completed the flow. You can now create a check on your backend server. The `captures` object contains information about the document and face captures made during the flow, which are detailed in the section below.|
+| `userExited(exitCode)` | User left the SDK flow without completing it. Some images may have already been uploaded. Possible exitCode reasons include `USER_CONSENT_DENIED`, `USER_LEFT_ACTIVITY`, `REQUIRED_NFC_FLOW_NOT_COMPLETED` and `CAMERA_PERMISSION_DENIED` (deprecated). |
+| `onError(exception)` | User couldn't complete the flow because some error occurred. |
 
 **`captures`**
 
@@ -926,18 +1070,11 @@ Proof of address:
 
 **Note**: As part of the `userCompleted` method, the `DocumentType` property can only contain the values which are supported by the Onfido API. Please refer to [our API documentation](https://documentation.onfido.com/api/latest/#document-types)
 
-**`exitCode`**
+### Error handling
 
-Potential `exitCode` reasons include:
+The `exception` object returned as part of `onError(exception)` is of type `OnfidoException`.
 
-| `exitCode`                            |
-| ------------------------------------- |
-| USER_LEFT_ACTIVITY                    |
-| USER_CONSENT_DENIED                   |
-| REQUIRED_NFC_FLOW_NOT_COMPLETED       |
-| CAMERA_PERMISSION_DENIED (Deprecated) |
-
-### Custom media callbacks
+## Custom media callbacks
 
 <Callout>
 
@@ -1041,13 +1178,72 @@ The `MediaFile` object contains the raw data, file type and the file name of the
 }
 ```
 
-### User Analytics
+## User Analytics
 
 The SDK allows you to track a user's progress through the SDK via an overridable hook. This gives insight into how your users make use of the SDK screens.
 
-#### Overriding the hook
+### Overriding the hook
 
-In order to expose a user's progress through the SDK, a hook method must be overridden using `OnfidoConfig.Builder`. You can do this when initializing the Onfido SDK. For example: 
+In order to expose a user's progress through the SDK, a hook method must be overridden when initializing the Onfido SDK.
+
+For integrations using Onfido Studio, this can be done using `WorkflowConfig.Builder`, while manual integrations using the checks and reports API should use `OnfidoConfig.Builder`.
+
+#### Overriding the hook with an Onfido Studio integration
+
+##### Java
+
+```java
+// Place your listener in a separate class file or make it a static class
+
+class OnfidoEventListener implements OnfidoAnalyticsEventListener {
+
+    private final Context applicationContext;
+    private final Storage storage;
+        
+    OnfidoEventListener(Context applicationContext, Storage storage) {
+        this.applicationContext = applicationContext;
+        this.storage = storage;
+    }
+
+    @Override
+    public void onEvent(@NonNull OnfidoAnalyticsEvent event) {
+        // Your tracking or persistence code
+        // You can persist the events to storage and track them once the SDK flow is completed or exited with an error
+        // This approach can help to scope your potential network calls to the lifecycle of your activity or fragment
+        // storage.addToList("onfidoEvents", event);
+    }
+}
+private String sdkToken = "token_here";
+
+WorkflowConfig workflowConfig = new WorkflowConfig.Builder(sdkToken, applicationContext)
+    .withAnalyticsEventListener(new OnfidoEventListener(applicationContext, storage))
+    .build();
+```
+
+##### Kotlin
+
+```kotlin
+// Place your listener in a separate class file
+
+class OnfidoEventListener(
+    private val applicationContext: Context,
+    private val storage: Storage
+) : OnfidoAnalyticsEventListener {
+
+    override fun onEvent(event: OnfidoAnalyticsEvent) {
+        // Your tracking or persistence code
+        // You can persist the events to storage and track them once the SDK flow is completed or exited with an error
+        // This approach can help to scope your potential network calls to the lifecycle of your activity or fragment
+        // storage.addToList("onfidoEvents", event)
+    }
+}
+
+val workflowConfig = WorkflowConfig.builder(applicationContext)
+    .withAnalyticsEventListener(new OnfidoEventListener(applicationContext, storage))
+    .build()
+```
+
+#### Overriding the hook with a manual API-based integration
 
 ##### Java
 
@@ -1116,6 +1312,7 @@ The code inside the overridden method will now be called when a particular event
 
 For a full list of events, see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 
+
 | property     | description                                                                                                                                                                                                                                                                                                                                         |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `type`       | **OnfidoAnalyticsEventType** <br /> Indicates the type of event. Potential values (enum instances) are `FLOW`, `SCREEN`, `VIEW`, `ACTION`, `ERROR`.                                                                                                                                                                                                 |
@@ -1142,7 +1339,7 @@ We provide integration guides and sample applications to help customers integrat
 - [Xamarin](https://github.com/onfido/onfido-xamarin-sample-app)
 - [React Native](https://github.com/onfido/onfido-sdk-react-native-sample-app)
 
-We don't have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
+We do not have out-of-the-box packages for such integrations yet, but these projects show complete examples of how our Android SDK can be successfully integrated in projects targeting these frameworks.
 Any issues or questions about the existing integrations should be raised on the corresponding repository and questions about further integrations should be sent to Onfido's [Customer Support](mailto:support@onfido.com).
 
 ## Migrating

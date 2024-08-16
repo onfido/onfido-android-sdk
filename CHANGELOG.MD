@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [21.1.0] - 2024-08-15
+
+### Changed
+
+- Removed the hardcoded support document list
+- Updated NFC scanning UI and improved product copy and translations for a better user experience
+- Enhanced Media Callback logic: The SDK now sends a cropped image after document capture rather than the full image, based on the position of the document. This will optimize the SDK’s performance and enhance the accuracy of the image capture
+
+### Fixed
+
+- Fixed the error where dark mode was not working on the QES screen
+- Fixed the back navigation from the permissions screen in Studio flows
+
 ## [21.0.1] - 2024-07-29
 
 ### Fixed

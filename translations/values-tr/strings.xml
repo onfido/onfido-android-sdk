@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">Sadece birkaç dakika sürer</string>
 	<string name="onfido_selfie_capture_button_accessibility">Deklanşör</string>
     <string name="onfido_selfie_intro_title">Bir selfie çekin</string>
-    <string name="onfido_app_title_country_select">Düzenleyen ülkeyi seçin</string>
-	<string name="onfido_country_select_bottom_sheet_title">Ülkenizi bulamadınız mı?</string>
+    <string name="onfido_country_select_bottom_sheet_title">Ülkenizi bulamadınız mı?</string>
     <string name="onfido_country_select_bottom_sheet_details">Seçtiğiniz belgenin ülkesi desteklenmiyor gibi görünüyor. Lütfen farklı bir ülke seçin.</string>
     <string name="onfido_selfie_intro_subtitle">Bunu belgenizle karşılaştıracağız</string>
     <string name="onfido_selfie_capture_body">Yüzünüzü oval içinde tutun</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Taramaya hazır</string>
     <string name="onfido_nfc_sheet_button_secondary">İptal</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Taranıyor...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">Telefonunuzu sabit tutun</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Telefonunuzu ve pasaportunuzu sabit tutun</string>
     <string name="onfido_nfc_sheet_success_subtitle">Tarama başarılı</string>
 	<string name="onfido_nfc_permission_title">NFC\'yi açın</string>
 	<string name="onfido_nfc_permission_subtitle">NFC olmadan pasaportunuzu tarayamayız</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">Kayda başlamak için yüzünüzü oval içinde tutun</string>
 
-    <string name="onfido_app_title_doc_confirmation">Kimliğinizi doğrulayın</string>
-    <string name="onfido_app_title_selfie_confirmation">Kimliğinizi doğrulayın</string>
-    <string name="onfido_app_title_permission">Kimliğinizi doğrulayın</string>
-    <string name="onfido_app_title_selfie_intro">Kimliğinizi doğrulayın</string>
-    <string name="onfido_app_title_video_intro">Kimliğinizi doğrulayın</string>
-    <string name="onfido_app_title_video_confirmation">Kimliğinizi doğrulayın</string>
     <string name="onfido_welcome_button_primary_doc">Belge seçin</string>
     <string name="onfido_welcome_button_primary">Başlat</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">NFC olmadan doğrulanın</string>
     <string name="onfido_nfc_scan_error_title">Belgenizi tarayamadık</string>
 
-	<string name="onfido_nfc_intro_title_passport">Pasaportunuzu tarayın</string>
+	<string name="onfido_nfc_intro_title_passport">Pasaportunuzun çipini tarayın</string>
     <string name="onfido_nfc_intro_subtitle">Aşağıdaki talimatları izleyin</string>
     <string name="onfido_nfc_intro_button_primary">Taramaya başla</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Pasaportunuzu başarıyla taradık</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Kimliğinizi başarıyla taradık</string>
 
-    <string name="onfido_nfc_select_title_passport">NFC ile süreci hızlandırın</string>
     <string name="onfido_nfc_select_button_primary_passport">e-Passport kullan</string>
     <string name="onfido_nfc_select_button_secondary_passport">Bu bir e-pasaport değil</string>
 
-    <string name="onfido_nfc_select_title_card">NFC ile süreci hızlandırın</string>
     <string name="onfido_nfc_select_button_primary_card">NFC\'li kimlik kullan</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Telefonunuzu sabit tutun</string>
@@ -324,7 +315,6 @@
 	<string name="onfido_enter_can_title">CAN numarasını girin</string>
 	<string name="onfido_enter_can_subtitle">%d-haneli numara belgenizin ön tarafında bulunmaktadır</string>
     <string name="onfido_enter_can_button_primary">Devam et</string>
-    <string name="onfido_enter_can_disclaimer">Belgenizin ön yüzünde bulabilirsiniz. %d hanelidir ve biraz daha büyük boyuttadır.</string>
     <string name="onfido_enter_can_error_label">%1$d %2$s kaldı.</string>
     <string name="onfido_enter_can_substring_attempt_singular">deneme</string>
     <string name="onfido_enter_can_substring_attempt_plural">deneme</string>
@@ -482,24 +472,14 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lütfen kayıt sırasında cihazınızda herhangi bir ses oynatmayın</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Telefonunuzu kullanarak belgenizdeki çipi tarayın</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Cihazınızın arkasına belgenizi yerleştirin, böylece birbirine değsinler</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Belgenizi cihaza karşı yavaşça yukarı ve aşağı kaydırın, tarama başlayana kadar</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Kimlik belgenizi telefonunuzun üzerinde yavaşça aşağı ve yukarı kaydırın, çipi bulmak için.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">NFC olmadan doğrulanın</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">Telefon kılıfınızı çıkarın</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">Tarama başarılı olana kadar cihazınızı ve belgenizi iletişim halinde tutun</string>
     <string name="onfido_nfc_scan_error_final_title">Bu belgeyi doğrulayamadık</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Bu belge için NFC taraması gerekiyor, ancak tamamlanamadı.</string>
-	<string name="onfido_nfc_scan_error_final_list_item">Devam etmek için farklı bir belgeniz var mı?</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">Farklı belge kullan</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Telefonunuzu kullanarak belgenizdeki çipi tarayın</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">Belgenizi düz bir yüzeye yerleştirin</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Belgenizi iç arka sayfada açın</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Cihazınızın arkasına belgenizi yerleştirin, böylece birbirine değsinler</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Cihazınızı yavaşça yukarı ve aşağı kaydırın</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">Farklı belge kullan</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">Cihazınızı yavaşça yukarı ve aşağı kaydırın</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">NFC olmadan doğrulanın</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">Pasaport ve telefon koruyucularını çıkarın</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Tarama başarılı olana kadar cihazınızı ve belgenizi iletişim halinde tutun</string>
     <string name="onfido_doc_capture_header_recording_video">Video kaydediliyor</string>
 	<string name="onfido_doc_capture_header_recording_complete">Kayıt tamamlandı</string>
 	<string name="onfido_country_select_search_results_none_accessibility">Eşleşen sonuç yok</string>
@@ -510,32 +490,23 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Fotokopi tespit edildi</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">Tarama algılandı</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">Lütfen orijinal belgenizi kullanın. Ekran fotoğrafları veya fotokopiler kabul edilmez</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">Başka bir belge seçin</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Yine de fotoğrafı gönder</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">Videoyu manuel olarak kaydetmeyi deneyin</string>
-	<string name="onfido_interactive_task_waiting_title_1">Görüntü kalitesi kontrol ediliyor...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">Lütfen görevin bitmesi için biraz daha bekleyin.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Veri derleniyor...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Toplanan verileri derliyoruz, lütfen bekleyin.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Verileri güvenceye alıyor...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Bilgilerinizi güvence altına alıyoruz, lütfen bekleyin.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Verilerinizi güvence altına almak önemlidir, bu görevin bitmesi için lütfen bir an bekleyin.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Veri işleniyor...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Bilgilerinizi işliyoruz, lütfen bekleyin.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">İşlem devam ediyor...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Lütfen bu işlemin bitmesi için biraz daha bekleyin, sabrınız takdir edilmektedir.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Görev hala devam ediyor, sabrınız takdir edilmektedir.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">Görev hala devam ediyor, sabrınız takdir edilmektedir.</string>
 	<string name="onfido_interactive_task_waiting_title_5">Medya yükleniyor...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Telefonunuzu pasaportunuzdaki çipi tarayarak kullanın</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Kimliğinizi düz bir yüzeye açık bir şekilde koyun</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Telefonunuzu pasaportunuzun tam üstüne, ona dokunacak şekilde yerleştirin</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Belgenizi tarayın</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Belgenizden ve cihazınızdan herhangi bir kapağı çıkarın</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Telefonunuzu her iki sayfa boyunca yavaşça kaydırın, tarama başlayana kadar</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">Veri derleniyor...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Toplanan verileri derliyoruz, lütfen bekleyin.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">Verileri güvenceye alıyor...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Bilgilerinizi güvence altına alıyoruz, lütfen bekleyin.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Verilerinizi güvence altına almak önemlidir, bu görevin bitmesi için lütfen bir an bekleyin.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">Veri işleniyor...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Bilgilerinizi işliyoruz, lütfen bekleyin.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">İşlem devam ediyor...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Lütfen bu işlemin bitmesi için biraz daha bekleyin, sabrınız takdir edilmektedir.</string>
+
+    <string name="onfido_nfc_scan_welcome_card_title">Belgenizi tarayın</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Pasaportunuzun kılıfını veya telefonunuzun kılıfını çıkarmayı deneyin. Bu, çiple olan müdahaleleri önlemek içindir.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Pasaportunuzu kapatın ve ön yüzü yukarıda olacak şekilde düz bir yüzeye koyun.</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">Çipin yerini bulana kadar pasaportunuzun üzerinde telefonunuzu yavaşça aşağı ve yukarı kaydırmanız gerekebilir.</string>
 	<string name="onfido_nfc_scan_error_document_title">Belge desteklenmiyor</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Lütfen başka bir belge ile deneyin</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Başka bir belge seçin</string>
@@ -544,9 +515,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">Herhangi bir rahatsızlık için özür dileriz. Lütfen kimliğinizi doğrulamak için farklı bir cihaz kullanın</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Çıkış doğrulaması</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Yalnızca çip içeren belgeleri kabul ediyoruz. Belgenizde bu simgeyi arayın</string>
-	<string name="onfido_nfc_fail_card_title">Bu belgeyi tarayamadık</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Cihazınızdaki tüm kapakları çıkarın</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Cihazınızı ve belgenizi tarama başarılı olana kadar temas halinde tutun</string>
+	<string name="onfido_nfc_fail_card_title">Çipi tarayamıyoruz. Yardıma mı ihtiyacınız var?</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Telefonunuzdan kılıfı çıkarmayı deneyin. Bu, çiple olan etkileşimleri önlemek içindir.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Belgenizi telefonunuzun arkasına yerleştirin, böylece birbirine değsinler.</string>
 	<string name="onfido_nfc_fail_card_list_item_3">Belgenizi cihaza karşı yavaşça yukarı ve aşağı kaydırın, tarama başlayana kadar</string>
 	<string name="onfido_nfc_fail_card_list_item_4">Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Taramadan doğrula</string>
@@ -561,12 +532,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">Geri dönerseniz doğrulama sürecini yeniden başlatmanız gerekebilir.</string>
 	<string name="onfido_generic_close_sdk_exit">Çıkış</string>
 	<string name="onfido_generic_close_sdk_cancel">İptal</string>
-	<string name="onfido_doc_capture_alert_mrz_title">Alt %d satır (MRZ) belirsiz</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">Belgenizin alt kısmını görünür yapın</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Tarama kesildi</string>
+    <string name="onfido_nfc_scan_doc_realign_title">Tarama kesildi</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Kimliğinizi kapatın ve ön yüzü yukarıda olacak şekilde düz bir yüzeye koyun.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Telefonunuzun üst kısmını pasaportunuzun alt kısmıyla temas halinde konumlandırın.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Telefonunuzu pasaportunuzun alt yarısının üzerine koyun, böylece temas halinde olsunlar.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Telefonunuzu pasaportunuzun üzerinde yavaşça yukarı ve aşağı kaydırarak çipi bulun.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Çipi bulmak için telefonunuzu pasaportunuza karşı yeniden konumlandırın.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Telefonunuzu pasaportunuza dayayın. Çipi bulmak için telefonunuzu pasaportunuzda yukarı ve aşağı kaydırmanız gerekebilir.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Çip algılandığında, telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Tarama başladığında, telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
+	<string name="onfido_nfc_fail_passport_button_primary">Taramayı başlat</string>
+	<string name="onfido_nfc_fail_passport_title">Çipi tarayamıyoruz. Yardıma mı ihtiyacınız var?</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Telefonunuz pasaportunuzdaki çipi algıladığında, tarama otomatik olarak başlayacaktır. Taramanın tamamlanabilmesi için telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Belgenizi telefonunuza yerleştirin. Belgenizi telefonunuza yavaşça kaydırmanız gerekebilir.</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">Çipi bulmak için belgenizi telefonunuzla temas halinde yeniden konumlandırın.</string>
+	<string name="onfido_nfc_fail_button_primary_card">Taramayı başlat</string>
 </resources>

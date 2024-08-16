@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">Θα διαρκέσει μερικά λεπτά</string>
 	<string name="onfido_selfie_capture_button_accessibility">Κλείστρο</string>
     <string name="onfido_selfie_intro_title">Τραβήξτε μια selfie</string>
-    <string name="onfido_app_title_country_select">Επιλέξτε χώρα έκδοσης</string>
-	<string name="onfido_country_select_bottom_sheet_title">Δεν μπορείτε να βρείτε τη χώρα σας;</string>
+    <string name="onfido_country_select_bottom_sheet_title">Δεν μπορείτε να βρείτε τη χώρα σας;</string>
     <string name="onfido_country_select_bottom_sheet_details">Φαίνεται ότι η χώρα του εγγράφου που επιλέξατε δεν υποστηρίζεται. Επιλέξτε μια διαφορετική χώρα.</string>
     <string name="onfido_selfie_intro_subtitle">Θα το συγκρίνουμε με το έγγραφό σας</string>
     <string name="onfido_selfie_capture_body">Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Έτοιμοι για σάρωση</string>
     <string name="onfido_nfc_sheet_button_secondary">Ακύρωση</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Σάρωση σε εξέλιξη...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">Κρατήστε το τηλέφωνό σας ακίνητο</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Κρατήστε το τηλέφωνό και το διαβατήριό σας ακίνητα</string>
     <string name="onfido_nfc_sheet_success_subtitle">Επιτυχής σάρωση</string>
     <string name="onfido_nfc_permission_title">Ενεργοποίηση NFC</string>
 	<string name="onfido_nfc_permission_subtitle">Δεν μπορούμε να σαρώσουμε το διαβατήριό σας χωρίς NFC</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">Κρατήστε το πρόσωπό σας εντός των ορίων του οβάλ για να ξεκινήσετε την εγγραφή</string>
 
-    <string name="onfido_app_title_doc_confirmation">Επαληθεύστε την ταυτότητά σας</string>
-    <string name="onfido_app_title_selfie_confirmation">Επαληθεύστε την ταυτότητά σας</string>
-    <string name="onfido_app_title_permission">Επαληθεύστε την ταυτότητά σας</string>
-    <string name="onfido_app_title_selfie_intro">Επαληθεύστε την ταυτότητά σας</string>
-    <string name="onfido_app_title_video_intro">Επαληθεύστε την ταυτότητά σας</string>
-    <string name="onfido_app_title_video_confirmation">Επαληθεύστε την ταυτότητά σας</string>
     <string name="onfido_welcome_button_primary_doc">Επιλέξτε έγγραφο</string>
     <string name="onfido_welcome_button_primary">Έναρξη</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">Επαληθεύστε χωρίς NFC</string>
     <string name="onfido_nfc_scan_error_title">Δεν ήταν δυνατή η σάρωση του εγγράφου σας</string>
 
-	<string name="onfido_nfc_intro_title_passport">Σαρώστε το διαβατήριό σας</string>
+	<string name="onfido_nfc_intro_title_passport">Σαρώστε το τσιπ του διαβατηρίου σας</string>
     <string name="onfido_nfc_intro_subtitle">Ακολουθήστε τις παρακάτω οδηγίες</string>
     <string name="onfido_nfc_intro_button_primary">Έναρξη σάρωσης</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Σαρώσαμε με επιτυχία το διαβατήριό σας</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Σαρώσαμε με επιτυχία το δελτίο σας</string>
 
-    <string name="onfido_nfc_select_title_passport">Επιτάχυνση της διαδικασίας με NFC</string>
     <string name="onfido_nfc_select_button_primary_passport">Χρήση ηλεκτρονικού διαβατηρίου</string>
     <string name="onfido_nfc_select_button_secondary_passport">Δεν είναι ηλεκτρονικό διαβατήριο</string>
 
-    <string name="onfido_nfc_select_title_card">Επιτάχυνση της διαδικασίας με NFC</string>
     <string name="onfido_nfc_select_button_primary_card">Χρήση δελτίου με NFC</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Κρατήστε το τηλέφωνό σας ακίνητο</string>
@@ -324,7 +315,6 @@
 	<string name="onfido_enter_can_title">Πληκτρολογήστε τον αριθμό CAN</string>
 	<string name="onfido_enter_can_subtitle">Ο %d-ψήφιος αριθμός βρίσκεται στο μπροστινό μέρος του εγγράφου σας</string>
     <string name="onfido_enter_can_button_primary">Συνέχεια</string>
-    <string name="onfido_enter_can_disclaimer">Μπορείτε να τον βρείτε στην μπροστινή όψη του εγγράφου σας. Είναι %dψήφιος και ελαφρώς μεγαλύτερος σε μέγεθος.</string>
     <string name="onfido_enter_can_error_label">Έχετε %1$d %2$s ακόμη.</string>
     <string name="onfido_enter_can_substring_attempt_singular">προσπάθεια</string>
     <string name="onfido_enter_can_substring_attempt_plural">προσπάθειες</string>
@@ -482,24 +472,14 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Κινήστε αργά το έγγραφό σας προς τα πάνω και τα κάτω κοντά στη συσκευή μέχρι να αρχίσει η σάρωση</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Μετακινήστε αργά το έγγραφό σας πάνω και κάτω εναντίον του τηλεφώνου σας για να εντοπίσετε το chip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Επαληθεύστε χωρίς NFC</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">Αφαιρέστε το κάλυμμα του τηλεφώνου σας</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής</string>
     <string name="onfido_nfc_scan_error_final_title">Δεν μπορέσαμε να επαληθεύσουμε αυτό το έγγραφο</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Απαιτείται σάρωση NFC για αυτό το έγγραφο, αλλά δεν ήταν δυνατό να ολοκληρωθεί.</string>
-	<string name="onfido_nfc_scan_error_final_list_item">Έχετε διαφορετικό έγγραφο για να προχωρήσετε;</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">Χρησιμοποιήστε διαφορετικό έγγραφο</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">Τοποθετήστε το έγγραφό σας σε μια επίπεδη επιφάνεια</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Ανοίξτε το έγγραφό σας στην εσωτερική πίσω σελίδα</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Σύρετε αργά τη συσκευή σας πάνω και κάτω</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">Χρησιμοποιήστε διαφορετικό έγγραφο</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">Σύρετε αργά τη συσκευή σας πάνω και κάτω</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Επαληθεύστε χωρίς NFC</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">Αφαιρέστε τα καλύμματα του διαβατηρίου και του τηλεφώνου σας</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Διατηρήστε τη συσκευή και το έγγραφό σας σε επαφή έως ότου η σάρωση είναι επιτυχής</string>
     <string name="onfido_doc_capture_header_recording_video">Καταγραφή βίντεο</string>
 	<string name="onfido_doc_capture_header_recording_complete">Η εγγραφή ολοκληρώθηκε</string>
 	<string name="onfido_country_select_search_results_none_accessibility">Δεν υπάρχουν αποτελέσματα που να ταιριάζουν</string>
@@ -510,32 +490,22 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Ανιχνεύθηκε φωτοτυπία</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">Εντοπίστηκε σάρωση</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">Παρακαλώ χρησιμοποιήστε το αρχικό σας έγγραφο. Οι φωτογραφίες από οθόνη ή φωτοτυπίες δεν γίνονται δεκτές</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">Επιλέξτε άλλο έγγραφο</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Υποβολή φωτογραφίας ούτως ή άλλως</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">Δοκιμάστε να καταγράψετε βίντεο χειροκίνητα</string>
-	<string name="onfido_interactive_task_waiting_title_1">Έλεγχος ποιότητας εικόνας...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">Παρακαλώ περιμένετε λίγο περισσότερο για την ολοκλήρωση της εργασίας.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Συγκεντρώνοντας δεδομένα...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Συγκεντρώνουμε τα δεδομένα που συλλέχθηκαν, παρακαλώ περιμένετε.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Ασφάλιση δεδομένων...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Ασφαλίζουμε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Η ασφάλεια των δεδομένων σας είναι σημαντική, παρακαλώ περιμένετε λίγο για να ολοκληρωθεί αυτή η εργασία.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Επεξεργασία δεδομένων...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Επεξεργαζόμαστε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Επεξεργασία σε εξέλιξη...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Παρακαλούμε περιμένετε λίγο περισσότερο για να ολοκληρωθεί αυτή η διαδικασία, η υπομονή σας εκτιμάται.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Η εργασία εξακολουθεί να εκτελείται, η υπομονή σας εκτιμάται.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">Η εργασία εξακολουθεί να εκτελείται, η υπομονή σας εκτιμάται.</string>
 	<string name="onfido_interactive_task_waiting_title_5">Μεταφόρτωση πολυμέσων...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το chip στο διαβατήριό σας</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Ανοίξτε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Βάλτε το τηλέφωνό σας ακριβώς πάνω στο διαβατήριό σας ώστε να έρχονται σε επαφή</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Μετακινήστε αργά το τηλέφωνό σας πάνω στις δύο σελίδες μέχρι να ξεκινήσει η σάρωση</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Όταν ξεκινήσει η σάρωση, μην κινείστε για να ολοκληρωθεί η διαδικασία</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Σαρώστε το έγγραφό σας</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Αφαιρέστε οποιαδήποτε καλύμματα από το έγγραφό σας και τη συσκευή σας</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι η σάρωση να είναι επιτυχής</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Μετακινήστε αργά το τηλέφωνό σας πάνω από τις δύο σελίδες μέχρι να ξεκινήσει η σάρωση</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">Συγκεντρώνοντας δεδομένα...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Συγκεντρώνουμε τα δεδομένα που συλλέχθηκαν, παρακαλώ περιμένετε.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">Ασφάλιση δεδομένων...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Ασφαλίζουμε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Η ασφάλεια των δεδομένων σας είναι σημαντική, παρακαλώ περιμένετε λίγο για να ολοκληρωθεί αυτή η εργασία.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">Επεξεργασία δεδομένων...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Επεξεργαζόμαστε τις πληροφορίες σας, παρακαλώ περιμένετε.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">Επεξεργασία σε εξέλιξη...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Παρακαλούμε περιμένετε λίγο περισσότερο για να ολοκληρωθεί αυτή η διαδικασία, η υπομονή σας εκτιμάται.</string>
+    <string name="onfido_nfc_scan_welcome_card_title">Σαρώστε το έγγραφό σας</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Δοκιμάστε να αφαιρέσετε τη θήκη από το διαβατήριό σας ή τη θήκη από το τηλέφωνό σας. Αυτό γίνεται για να αποφύγετε παρεμβολές με το chip.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Κλείστε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια με την εμπρόσθια πλευρά προς τα πάνω.</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">Ίσως χρειαστεί να σύρετε αργά το τηλέφωνό σας προς τα κάτω και προς τα επάνω πάνω στο διαβατήριό σας μέχρι να εντοπίσετε το chip.</string>
 	<string name="onfido_nfc_scan_error_document_title">Το έγγραφο δεν υποστηρίζεται</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Παρακαλώ δοκιμάστε με ένα άλλο έγγραφο</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Επιλέξτε ένα άλλο έγγραφο</string>
@@ -544,9 +514,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">Λυπούμαστε για τυχόν ταλαιπωρία. Παρακαλούμε χρησιμοποιήστε ένα διαφορετικό συσκευή για να επαληθεύσετε την ταυτότητά σας</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Έξοδος επαλήθευσης</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Αποδεχόμαστε μόνο έγγραφα με τσιπ. Αναζητήστε αυτό το εικονίδιο στο έγγραφό σας</string>
-	<string name="onfido_nfc_fail_card_title">Δεν μπορέσαμε να σαρώσουμε αυτό το έγγραφο</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Αφαιρέστε οποιαδήποτε καλύμματα από τη συσκευή σας</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Διατηρήστε τη συσκευή σας και το έγγραφο σε επαφή μέχρι η σάρωση να είναι επιτυχής</string>
+	<string name="onfido_nfc_fail_card_title">Αδυναμία σάρωσης του τσιπ. Χρειάζεστε βοήθεια;</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Δοκιμάστε να αφαιρέσετε τη θήκη από το τηλέφωνό σας. Αυτό γίνεται για να αποφύγετε παρεμβολές με το chip.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Βάλτε το έγγραφό σας κατά μήκος της πίσω πλευράς του τηλεφώνου σας, ώστε να έρχονται σε επαφή.</string>
 	<string name="onfido_nfc_fail_card_list_item_3">Σύρετε αργά το έγγραφό σας πάνω και κάτω στη συσκευή μέχρι να ξεκινήσει η σάρωση</string>
 	<string name="onfido_nfc_fail_card_list_item_4">Μόλις ξεκινήσει η σάρωση, μείνετε ακίνητοι ώστε να ολοκληρωθεί η σάρωση</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Επαληθεύστε χωρίς σάρωση</string>
@@ -561,12 +531,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">Ίσως χρειαστεί να επανεκκινήσετε τη διαδικασία επαλήθευσης εάν επιστρέψετε.</string>
 	<string name="onfido_generic_close_sdk_exit">Έξοδος</string>
 	<string name="onfido_generic_close_sdk_cancel">Ακύρωση</string>
-	<string name="onfido_doc_capture_alert_mrz_title">Οι τελευταίες %d γραμμές (MRZ) είναι ασαφείς</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">Κάντε ορατό το κάτω μέρος του εγγράφου σας</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Η σάρωση διακόπηκε</string>
+    <string name="onfido_nfc_scan_doc_realign_title">Η σάρωση διακόπηκε</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Κλείστε το διαβατήριό σας και τοποθετήστε το σε μια επίπεδη επιφάνεια με την εμπρόσθια πλευρά προς τα πάνω.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Τοποθετήστε την κορυφή του τηλεφώνου σας σε επαφή με το κάτω μέρος του διαβατηρίου σας.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Τοποθετήστε το τηλέφωνό σας πάνω στο κάτω μισό του διαβατηρίου σας, έτσι ώστε να έρθουν σε επαφή.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Μετακινήστε αργά το τηλέφωνό σας πάνω και κάτω κατά μήκος του διαβατηρίου σας για να εντοπίσετε το τσιπ.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Τοποθετήστε ξανά το τηλέφωνό σας πάνω στο διαβατήριό σας για να εντοπίσετε το chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Τοποθετήστε το τηλέφωνό σας πάνω στο διαβατήριό σας. Για να εντοπίσετε το chip, μπορεί να χρειαστεί να κινήσετε το τηλέφωνό σας πάνω και κάτω πάνω στο διαβατήριό σας.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Μόλις ανιχνευτεί το chip, κρατήστε το τηλέφωνό σας και το διαβατήριό σας ακίνητα.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.</string>
+	<string name="onfido_nfc_fail_passport_button_primary">Έναρξη σάρωσης</string>
+	<string name="onfido_nfc_fail_passport_title">Αδυναμία σάρωσης του τσιπ. Χρειάζεστε βοήθεια;</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Μόλις το τηλέφωνό σας ανιχνεύσει το chip στο διαβατήριό σας, η σάρωση θα ξεκινήσει αυτόματα. Κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα, ώστε η σάρωση να ολοκληρωθεί.</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Τοποθετήστε το έγγραφό σας στο τηλέφωνό σας. Ίσως χρειαστεί να σύρετε αργά το έγγραφό σας στο τηλέφωνό σας.</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">Τοποθετήστε ξανά το έγγραφό σας σε επαφή με το τηλέφωνό σας για να εντοπίσετε το τσιπ.</string>
+	<string name="onfido_nfc_fail_button_primary_card">Έναρξη σάρωσης</string>
 </resources>

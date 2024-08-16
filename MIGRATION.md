@@ -15,7 +15,9 @@ If your migration involves upgrading across multiple SDK versions, be sure to re
 
 - Motion functionality has been enhanced to work seamlessly on all devices. You can safely remove any existing `withCaptureFallback()` implementations from your code
 - Deprecated APIs are removed and need to be replaced with current ones
-- Removed the deprecated `withNFCReadFeature` and `disableNFC` configuration options for `OnfidoConfig` in non-Studio usage scenarios. Please use `withNFC(NFCOptions.Disabled)` instead.## `20.4.0` -> `20.5.0`
+- Removed the deprecated `withNFCReadFeature` and `disableNFC` configuration options for `OnfidoConfig` in non-Studio usage scenarios. Please use `withNFC(NFCOptions.Disabled)` instead.
+
+## `20.4.0` -> `20.5.0`
 
 ### Deprecated API Changes
 

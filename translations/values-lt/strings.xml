@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">Tai turėtų užtrukti kelias minutes</string>
 	<string name="onfido_selfie_capture_button_accessibility">Užraktas</string>
     <string name="onfido_selfie_intro_title">Padarykite asmenukę</string>
-	<string name="onfido_app_title_country_select">Dokumentą išdavusi šalis</string>
-	<string name="onfido_country_select_bottom_sheet_title">Nerandate savo šalies?</string>
+    <string name="onfido_country_select_bottom_sheet_title">Nerandate savo šalies?</string>
 	<string name="onfido_country_select_bottom_sheet_details">Panašu, kad ieškoma šalis nepalaikoma. Pasirinkite kitą šalį.</string>
     <string name="onfido_selfie_intro_subtitle">Palyginsime tai su jūsų dokumentu</string>
     <string name="onfido_selfie_capture_body">Laikykite veidą ovale</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Parengta nuskaityti</string>
     <string name="onfido_nfc_sheet_button_secondary">Atšaukti</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Nuskaitoma...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">Laikykite telefoną nejudindami</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Laikykite telefoną ir pasą nejudindami</string>
     <string name="onfido_nfc_sheet_success_subtitle">Nuskaitymas sėkmingas</string>
     <string name="onfido_nfc_permission_title">Įjungti NFC</string>
 	<string name="onfido_nfc_permission_subtitle">Negalime nuskaityti jūsų paso be NFC</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">Kad galėtumėte pradėti įrašymą, veidas turi būti ovale</string>
 
-    <string name="onfido_app_title_doc_confirmation">Patvirtinkite savo tapatybę</string>
-    <string name="onfido_app_title_selfie_confirmation">Patvirtinkite savo tapatybę</string>
-    <string name="onfido_app_title_permission">Patvirtinkite savo tapatybę</string>
-    <string name="onfido_app_title_selfie_intro">Patvirtinkite savo tapatybę</string>
-    <string name="onfido_app_title_video_intro">Patvirtinkite savo tapatybę</string>
-    <string name="onfido_app_title_video_confirmation">Patvirtinkite savo tapatybę</string>
     <string name="onfido_welcome_button_primary_doc">Pasirinkite dokumentą</string>
     <string name="onfido_welcome_button_primary">Pradžia</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">Gauti patvirtinimą be NFC</string>
     <string name="onfido_nfc_scan_error_title">Nepavyko nuskaityti jūsų dokumento</string>
 
-	<string name="onfido_nfc_intro_title_passport">Nuskanuokite savo pasą</string>
+	<string name="onfido_nfc_intro_title_passport">Nuskaitykite savo paso lustą</string>
     <string name="onfido_nfc_intro_subtitle">Laikykitės toliau pateiktų nurodymų</string>
     <string name="onfido_nfc_intro_button_primary">Pradėti nuskaitymą</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Sėkmingai nuskaitėme jūsų pasą</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Sėkmingai nuskaitėme jūsų kortelę</string>
 
-    <string name="onfido_nfc_select_title_passport">Pagreitinkite procesą naudodami NFC</string>
     <string name="onfido_nfc_select_button_primary_passport">Naudoti e. pasą</string>
 	<string name="onfido_nfc_select_button_secondary_passport">Tai ne e. pasas</string>
 
-    <string name="onfido_nfc_select_title_card">Pagreitinkite procesą naudodami NFC</string>
     <string name="onfido_nfc_select_button_primary_card">Naudoti NFC kortelę</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">Laikykite telefoną nejudindami</string>
@@ -324,7 +315,6 @@
 	<string name="onfido_enter_can_title">Įveskite CAN numerį</string>
 	<string name="onfido_enter_can_subtitle">%d-skaitmeninis numeris yra priešakinėje jūsų dokumento pusėje</string>
     <string name="onfido_enter_can_button_primary">Tęsti</string>
-    <string name="onfido_enter_can_disclaimer">Jį rasite dokumento priekinėje pusėje. Jis yra %d skaitmenų ilgio ir šiek tiek didesniu šriftu.</string>
     <string name="onfido_enter_can_error_label">Jums liko %1$d %2$s.</string>
     <string name="onfido_enter_can_substring_attempt_singular">mėginimas</string>
     <string name="onfido_enter_can_substring_attempt_plural">bandymai</string>
@@ -482,24 +472,14 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Įrašymo metu savo įrenginyje negrokite jokių garso įrašų</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lėtai stumkite savo dokumentą žemyn ir aukštyn prieš savo telefoną, kad rastumėte lustą.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Gauti patvirtinimą be NFC</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">Nuimkite telefono dangtelį</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas</string>
     <string name="onfido_nfc_scan_error_final_title">Nepavyko patikrinti šio dokumento</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Šiam dokumentui reikalingas NFC nuskaitymas, tačiau jo nepavyko užbaigti</string>
-	<string name="onfido_nfc_scan_error_final_list_item">Ar turite kitą dokumentą, su kuriuo galėtumėte tęsti?</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">Naudokite kitą dokumentą</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">Padėkite dokumentą ant lygaus paviršiaus</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">Atidarykite dokumento vidinį galinį puslapį</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">Lėtai stumkite savo įrenginį aukštyn ir žemyn</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">Naudokite kitą dokumentą</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">Lėtai stumkite savo įrenginį aukštyn ir žemyn</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">Gauti patvirtinimą be NFC</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">Nuimkite pasą ir telefono dangtelius</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">Laikykite įrenginį ir dokumentą susilietusius, kol nuskaitymas bus sėkmingas</string>
     <string name="onfido_doc_capture_header_recording_video">Įrašomas vaizdo įrašas</string>
 	<string name="onfido_doc_capture_header_recording_complete">Įrašymas baigtas</string>
 	<string name="onfido_country_select_search_results_none_accessibility">Nėra atitinkančių rezultatų</string>
@@ -510,32 +490,22 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">Nufotografuota kopija aptikta</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">Nuskaitymas aptiktas</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">Prašome naudoti savo originalų dokumentą. Ekrano nuotraukos arba fotokopijos nėra priimamos</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">Pasirinkti kitą dokumentą</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">Pateikti nuotrauką vis tiek</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">Pabandykite įrašyti vaizdo įrašą rankiniu būdu</string>
-	<string name="onfido_interactive_task_waiting_title_1">Tikrinama vaizdo kokybė...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">Prašome dar šiek tiek palaukti, kol užduotis bus atlikta.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompiliuojami duomenys...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Mes surinkome surinktus duomenis, prašome palaukti.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Apsaugojama informacija...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Mes užtikriname jūsų informacijos saugumą, prašome palaukti.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Jūsų duomenų apsauga yra svarbi, prašome palaukti kol šis uždavinys bus baigtas.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Apdorojami duomenys...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Mes apdorojame jūsų informaciją, prašome palaukti.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Apdorojimas vyksta...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">Užduotis vis dar vykdoma, dėkojame už kantrybę.</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">Užduotis vis dar vykdoma, dėkojame už kantrybę.</string>
 	<string name="onfido_interactive_task_waiting_title_5">Įkeliamas turinys...</string>
-	<string name="onfido_nfc_intro_subtitle_passport">Naudokite savo telefoną, kad nuskaitytumėte lustą savo pase</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">Padėkite savo pasą atvertą ant plokščios paviršiaus</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">Padėkite savo telefoną tiesiai ant savo paso, kad jie liestųsi</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas</string>
-	<string name="onfido_nfc_scan_welcome_card_title">Nuskanuokite savo dokumentą</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">Pašalinkite visas dangtis nuo savo dokumento ir įrenginio</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">Lėtai perstumkite savo telefoną per abu puslapius, kol prasidės nuskaitymas</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">Kompiliuojami duomenys...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Mes surinkome surinktus duomenis, prašome palaukti.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">Apsaugojama informacija...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Mes užtikriname jūsų informacijos saugumą, prašome palaukti.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Jūsų duomenų apsauga yra svarbi, prašome palaukti kol šis uždavinys bus baigtas.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">Apdorojami duomenys...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Mes apdorojame jūsų informaciją, prašome palaukti.</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">Apdorojimas vyksta...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Prašome palaukti šiek tiek ilgiau, kol šis procesas pasibaigs, jūsų kantrybė yra vertinama.</string>
+    <string name="onfido_nfc_scan_welcome_card_title">Nuskanuokite savo dokumentą</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">Pabandykite nuimti dangtelį nuo savo paso arba dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">Uždarykite pasą ir padėkite jį ant lygaus paviršiaus priekinė puse į viršų.</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">Jums gali tekti lėtai stumkite telefoną žemyn ir aukštyn prie savo paso, kol surasite lustą.</string>
 	<string name="onfido_nfc_scan_error_document_title">Dokumentas nepalaikomas</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Prašome bandyti su kitu dokumentu</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Pasirinkite kitą dokumentą</string>
@@ -544,9 +514,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">Atsiprašome už bet kokius nepatogumus. Prašome naudoti kitą įrenginį, kad patvirtintumėte savo tapatybę</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Išeiti iš patvirtinimo</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Mes priimame tik dokumentus su lustu. Ieškokite šios piktogramos savo dokumente</string>
-	<string name="onfido_nfc_fail_card_title">Mes negalėjome nuskaityti šio dokumento</string>
-	<string name="onfido_nfc_fail_card_list_item_1">Nuimkite visas dengtis nuo savo įrenginio</string>
-	<string name="onfido_nfc_fail_card_list_item_2">Laikykite savo įrenginį ir dokumentą kontakte, kol skenavimas bus sėkmingas</string>
+	<string name="onfido_nfc_fail_card_title">Nepavyko nuskaityti lusto. Reikia pagalbos?</string>
+	<string name="onfido_nfc_fail_card_list_item_1">Pabandykite nuimti dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.</string>
+	<string name="onfido_nfc_fail_card_list_item_2">Padėkite savo dokumentą prie telefono galo, kad jie liestųsi.</string>
 	<string name="onfido_nfc_fail_card_list_item_3">Lėtai slenkite savo dokumentą aukštyn ir žemyn prieš įrenginį, kol prasidės skenavimas</string>
 	<string name="onfido_nfc_fail_card_list_item_4">Kai prasideda skenavimas, nes judėkite, kad skenavimas būtų baigtas</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Patikrinti be skenavimo</string>
@@ -561,12 +531,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">Jums gali tekti iš naujo pradėti tapatybės patvirtinimo procesą, jei grįšite.</string>
 	<string name="onfido_generic_close_sdk_exit">Išeiti</string>
 	<string name="onfido_generic_close_sdk_cancel">Atšaukti</string>
-	<string name="onfido_doc_capture_alert_mrz_title">Apačios %d eilutės (MRZ) neaiškios</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">Padarykite savo dokumento apačią matomą</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Nuskaitymas nutrauktas</string>
+    <string name="onfido_nfc_scan_doc_realign_title">Nuskaitymas nutrauktas</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Uždarykite savo pasą ir padėkite jį ant plokščios paviršiaus priekinė puse į viršų.</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">Perkelti telefono viršų taip, kad jis liestų jūsų paso apačią.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Padėkite savo telefoną ant savo paso apatinės dalies, kad jie būtų susilietę.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Lėtai slenkite telefonu aukštyn ir žemyn prie savo paso, kad rastumėte lustą.</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">Pakoreguokite savo telefoną prie savo paso, kad rastumėte lustą.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Prispauskite telefoną prie savo paso. Norėdami rasti lustą, gali tekti slinkti telefonu aukštyn ir žemyn prie savo paso.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kai lustas aptinkamas, laikykite telefoną ir pasą nejudant.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kai prasidės skenavimas, laikykite savo telefoną ir pasą nejudant.</string>
+	<string name="onfido_nfc_fail_passport_button_primary">Pradėti nuskaitymą</string>
+	<string name="onfido_nfc_fail_passport_title">Nepavyko nuskaityti lusto. Reikia pagalbos?</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Kai jūsų telefonas aptinka lustą jūsų pase, nuskaitymas prasidės automatiškai. Laikykite savo telefoną ir pasą nejudant, kad nuskaitymas būtų baigtas.</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Prispauskite savo dokumentą prie telefono. Gali tekti lėtai judinti savo dokumentą prie telefono.</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">Perkelkite savo dokumentą taip, kad jis būtų kontakto su jūsų telefonu, kad rastumėte lustą.</string>
+	<string name="onfido_nfc_fail_button_primary_card">Pradėti nuskaitymą</string>
 </resources>

@@ -38,8 +38,7 @@
     <string name="onfido_welcome_subtitle">這可能需要幾分鐘的時間</string>
 	<string name="onfido_selfie_capture_button_accessibility">快門</string>
     <string name="onfido_selfie_intro_title">拍一張自拍照</string>
-    <string name="onfido_app_title_country_select">選擇核發國家</string>
-	<string name="onfido_country_select_bottom_sheet_title">找不到您的國家？</string>
+    <string name="onfido_country_select_bottom_sheet_title">找不到您的國家？</string>
     <string name="onfido_country_select_bottom_sheet_details">似乎不支援您所選文件的國家。請選擇國家。</string>
     <string name="onfido_selfie_intro_subtitle">我們會將此資料與您的文件進行比較</string>
     <string name="onfido_selfie_capture_body">請將臉部保持在橢圓形框內</string>
@@ -184,7 +183,7 @@
     <string name="onfido_nfc_sheet_ready_subtitle">準備掃描</string>
     <string name="onfido_nfc_sheet_button_secondary">取消</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">正在掃描……</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">請保持手機靜止不動</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">請保持手機和護照靜止不動</string>
     <string name="onfido_nfc_sheet_success_subtitle">掃描成功</string>
     <string name="onfido_nfc_permission_title">啟用 NFC</string>
 	<string name="onfido_nfc_permission_subtitle">不使用 NFC，我們無法掃描您的護照</string>
@@ -236,12 +235,6 @@
 
     <string name="onfido_video_capture_body">請將臉部保持在橢圓形框內，以開始錄製</string>
 
-    <string name="onfido_app_title_doc_confirmation">驗證您的身份</string>
-    <string name="onfido_app_title_selfie_confirmation">驗證您的身份</string>
-    <string name="onfido_app_title_permission">驗證您的身份</string>
-    <string name="onfido_app_title_selfie_intro">驗證您的身份</string>
-    <string name="onfido_app_title_video_intro">驗證您的身份</string>
-    <string name="onfido_app_title_video_confirmation">驗證您的身份</string>
     <string name="onfido_welcome_button_primary_doc">選擇文件</string>
     <string name="onfido_welcome_button_primary">開始</string>
 
@@ -302,18 +295,16 @@
     <string name="onfido_nfc_scan_error_button_secondary">無需NFC即可獲得驗證</string>
     <string name="onfido_nfc_scan_error_title">我們無法掃描您的文件</string>
 
-	<string name="onfido_nfc_intro_title_passport">掃描您的護照</string>
+	<string name="onfido_nfc_intro_title_passport">掃描您護照的晶片</string>
     <string name="onfido_nfc_intro_subtitle">按照下面的說明</string>
     <string name="onfido_nfc_intro_button_primary">開始掃描</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">我們已成功掃描您的護照</string>
     <string name="onfido_nfc_sheet_success_instruction_card">我們已成功掃描您的卡片</string>
 
-    <string name="onfido_nfc_select_title_passport">使用 NFC 加快流程</string>
     <string name="onfido_nfc_select_button_primary_passport">使用電子護照</string>
     <string name="onfido_nfc_select_button_secondary_passport">這不是電子護照</string>
 
-    <string name="onfido_nfc_select_title_card">使用 NFC 加快流程</string>
     <string name="onfido_nfc_select_button_primary_card">使用 NFC 卡片</string>
 
     <string name="onfido_nfc_intro_sheet_fail_instructions_card">請保持手機靜止不動</string>
@@ -324,7 +315,6 @@
 	<string name="onfido_enter_can_title">輸入CAN號碼</string>
 	<string name="onfido_enter_can_subtitle">這個%d位數的號碼位於您的文件前面</string>
     <string name="onfido_enter_can_button_primary">繼續</string>
-    <string name="onfido_enter_can_disclaimer">您可以在文件正面找到。這是一組稍大字號的 %d 位數。</string>
     <string name="onfido_enter_can_error_label">目前剩下 %1$d %2$s 嘗試次數。</string>
     <string name="onfido_enter_can_substring_attempt_singular">嘗試</string>
     <string name="onfido_enter_can_substring_attempt_plural">嘗試</string>
@@ -481,24 +471,14 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">錄製期間請勿在裝置上播放任何音訊</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">使用您的手機掃描您文件中的晶片</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">將您的文件放在您的設備背面，使它們接觸</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_2">慢慢地將您的文件在設備上上下滑動，直到掃描開始</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_2">慢慢地將您的證件在手機上下滑動以找到晶片。</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">掃描開始後，請保持不動以便掃描能完成</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">無需NFC即可獲得驗證</string>
-    <string name="onfido_nfc_scan_error_inter_list_item">取下手機套</string>
-	<string name="onfido_nfc_scan_error_inter_list_item_2">保持您的設備和文檔接觸，直到掃描成功</string>
     <string name="onfido_nfc_scan_error_final_title">我們無法驗證此文檔</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">此文檔需要 NFC 掃描，但無法完成。</string>
-	<string name="onfido_nfc_scan_error_final_list_item">您有其他文件要處理嗎？</string>
-	<string name="onfido_nfc_scan_error_final_primary_button">使用不同的文檔</string>
-	<string name="onfido_nfc_scan_welcome_passport_subtitle">使用您的手機掃描您文件中的晶片</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item">將文檔放在平坦的表面上</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_2">在內頁打開您的文檔</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_3">將您的文件放在您的設備背面，使它們接觸</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_4">慢慢上下滑動您的設備</string>
-	<string name="onfido_nfc_scan_welcome_passport_list_item_5">掃描開始後，請保持不動以便掃描能完成</string>
+    <string name="onfido_nfc_scan_error_final_primary_button">使用不同的文檔</string>
+    <string name="onfido_nfc_scan_welcome_passport_list_item_4">慢慢上下滑動您的設備</string>
     <string name="onfido_nfc_scan_welcome_passport_secondary_button">無需NFC即可獲得驗證</string>
-    <string name="onfido_nfc_scan_error_inter_passport_list_item">請取下護照和手機蓋</string>
-	<string name="onfido_nfc_scan_error_inter_passport_list_item_2">保持您的設備和文檔接觸，直到掃描成功</string>
     <string name="onfido_doc_capture_header_recording_video">錄製影片</string>
 	<string name="onfido_doc_capture_header_recording_complete">錄製完成</string>
 	<string name="onfido_country_select_search_results_none_accessibility">未有相符的結果</string>
@@ -509,31 +489,21 @@
 	<string name="onfido_doc_confirmation_alert_odp_photocopy_title">偵測到影印件</string>
 	<string name="onfido_doc_confirmation_alert_odp_scan_title">掃描檢測到</string>
 	<string name="onfido_doc_confirmation_alert_odp_detail">請使用您的原始文件。不接受螢幕照片或影印本</string>
-	<string name="onfido_doc_confirmation_button_secondary_change_document">選擇其他文件</string>
-	<string name="onfido_doc_confirmation_button_secondary_submit_anyway">無論如何提交照片</string>
-	<string name="onfido_doc_capture_alert_manual_capture_video_title">嘗試手動錄製影片</string>
-	<string name="onfido_interactive_task_waiting_title_1">正在檢查圖像質量...</string>
     <string name="onfido_interactive_task_waiting_subtitle_1">請稍微等待一下，讓任務完成。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">正在編譯數據...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">我們正在彙總收集的數據，請稍候。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">正在保護數據...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">我們正在保護您的資訊，請稍候。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">保護您的數據非常重要，請稍等片刻讓此任務完成。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">正在處理數據...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">我們正在處理您的資訊，請稍候。</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">處理中...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">請稍等一下，讓這個過程完成，感謝您的耐心等待。</string>
-	<string name="onfido_interactive_task_waiting_subtitle_2">任務仍在運行中，感謝您的耐心等待。</string>
-	<string name="onfido_nfc_intro_subtitle_passport">使用您的手機掃描護照中的晶片</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_1">將您的護照打開放在平面上</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_2">將您的手機直接放在您的護照上，使它們接觸</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_3">慢慢地將您的手機滑過兩頁，直到掃描開始</string>
-	<string name="onfido_nfc_intro_passport_scan_guide_4">掃描開始後，請保持不動以便掃描能完成</string>
-	<string name="onfido_nfc_scan_welcome_card_title">掃描您的文件</string>
-	<string name="onfido_nfc_fail_passport_list_item_1">從您的文件和設備上移除任何蓋子</string>
-	<string name="onfido_nfc_fail_passport_list_item_2">保持您的裝置和文件接觸，直到掃描成功</string>
-	<string name="onfido_nfc_fail_passport_list_item_3">慢慢滑動您的手機跨越兩頁，直到掃描開始</string>
-	<string name="onfido_nfc_fail_passport_list_item_4">掃描開始後，請保持不動以便掃描能完成</string>
+    <string name="onfido_interactive_task_waiting_subtitle_2">任務仍在運行中，感謝您的耐心等待。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_1">正在編譯數據...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">我們正在彙總收集的數據，請稍候。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_2">正在保護數據...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">我們正在保護您的資訊，請稍候。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">保護您的數據非常重要，請稍等片刻讓此任務完成。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_3">正在處理數據...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">我們正在處理您的資訊，請稍候。</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_title_4">處理中...</string>
+    <string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">請稍等一下，讓這個過程完成，感謝您的耐心等待。</string>
+    <string name="onfido_nfc_scan_welcome_card_title">掃描您的文件</string>
+	<string name="onfido_nfc_fail_passport_list_item_1">嘗試從您的護照上移除保護套，或從您的手機上移除殼。這是為了避免與晶片產生干擾。</string>
+	<string name="onfido_nfc_fail_passport_list_item_2">將您的護照關閉，並將其正面朝上放在平坦的表面上。</string>
+    <string name="onfido_nfc_fail_passport_list_item_4">您可能需要慢慢地將手機向上和向下滑動在您的護照上，直到您找到晶片。</string>
 	<string name="onfido_nfc_scan_error_document_title">不支援的文件</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">請嘗試使用另一份文件</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">選擇另一份文件</string>
@@ -542,9 +512,9 @@
 	<string name="onfido_nfc_scan_error_device_subtitle">對於任何不便，我們深感抱歉。請使用不同的裝置來驗證您的身份</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">退出驗證</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">我們只接受帶有晶片的文件。請在您的文件上尋找此圖標</string>
-	<string name="onfido_nfc_fail_card_title">我們無法掃描此文件</string>
-	<string name="onfido_nfc_fail_card_list_item_1">從您的裝置上移除任何保護套</string>
-	<string name="onfido_nfc_fail_card_list_item_2">保持您的裝置和文件接觸，直到掃描成功</string>
+	<string name="onfido_nfc_fail_card_title">無法掃描晶片。需要幫助嗎？</string>
+	<string name="onfido_nfc_fail_card_list_item_1">嘗試從您的手機上移除保護殼。這是為了避免與晶片產生干擾。</string>
+	<string name="onfido_nfc_fail_card_list_item_2">將您的文件靠在手機的背面，使它們接觸。</string>
 	<string name="onfido_nfc_fail_card_list_item_3">慢慢地將您的文件在設備上上下滑動，直到掃描開始</string>
 	<string name="onfido_nfc_fail_card_list_item_4">掃描開始後，請保持靜止以便掃描能夠完成</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">無需掃描即可驗證</string>
@@ -560,12 +530,16 @@
 	<string name="onfido_generic_close_sdk_subtitle">如果您返回，可能需要重新開始驗證過程。</string>
 	<string name="onfido_generic_close_sdk_exit">退出</string>
 	<string name="onfido_generic_close_sdk_cancel">取消</string>
-	<string name="onfido_doc_capture_alert_mrz_title">底部 %d 行（MRZ）不清楚</string>
-	<string name="onfido_doc_capture_alert_mrz_detail">使您的文件底部可見</string>
-	<string name="onfido_nfc_scan_doc_realign_title">掃描中斷</string>
+    <string name="onfido_nfc_scan_doc_realign_title">掃描中斷</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">請將您的護照關閉，並將其正面朝上放在平坦的表面上。</string>
-	<string name="onfido_nfc_capture_scan_doc_realign_body">將您的手機頂部與護照底部接觸。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">將您的手機放在護照的下半部，使它們接觸。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">請慢慢地將您的手機在您的護照上下滑動以找到晶片。</string>
+	<string name="onfido_nfc_capture_scan_doc_realign_body">重新放置您的手機靠近您的護照以找到晶片。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">請將手機放在護照上。要找到晶片，您可能需要在護照上下滑動您的手機。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">一旦偵測到晶片，請保持您的手機和護照靜止不動。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">掃描開始後，請保持您的手機和護照靜止。</string>
+	<string name="onfido_nfc_fail_passport_button_primary">開始掃描</string>
+	<string name="onfido_nfc_fail_passport_title">無法掃描晶片。需要幫助嗎？</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">一旦您的手機偵測到護照上的晶片，掃描將自動開始。請保持您的手機和護照靜止，以便掃描可以完成。</string>
+	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">將您的文件放在您的手機上。您可能需要慢慢地將您的文件在手機上滑動。</string>
+	<string name="onfido_nfc_capture_scan_card_realign_body">將您的文件重新放置在與您的手機接觸的位置以找到芯片。</string>
+	<string name="onfido_nfc_fail_button_primary_card">開始掃描</string>
 </resources>
