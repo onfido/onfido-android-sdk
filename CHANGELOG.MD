@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [21.1.1] - 2024-09-02
+
+### Fixed
+
+- Fixed the issue when the document capture Studio task was not completing for clients with Document Video report disabled
+- Fixed an issue where Studio flow terminates when user completes or skips NFC 
+
 ## [21.1.0] - 2024-08-15
 
 ### Changed

@@ -1,9 +1,10 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '21.1.0'
-def versionCodeNumber = 2110
+def sdkVersion = '21.1.1'
+def versionCodeNumber = 2111
 
 android {
+    namespace 'com.onfido.android.app.sample'
     compileSdkVersion 34
     defaultConfig {
         applicationId "com.onfido.sampleapp"
