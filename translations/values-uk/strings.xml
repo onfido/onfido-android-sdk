@@ -36,7 +36,7 @@
     <string name="onfido_app_title_welcome">Підтвердити особу</string>
     <string name="onfido_welcome_title">Підтвердити особу</string>
     <string name="onfido_welcome_subtitle">Це займе кілька хвилин</string>
-	<string name="onfido_selfie_capture_button_accessibility">Кнопка зйомки</string>
+	<string name="onfido_selfie_capture_button_accessibility">Кнопка знімання</string>
     <string name="onfido_selfie_intro_title">Зробіть селфі</string>
     <string name="onfido_country_select_bottom_sheet_title">Не можете знайти потрібну країну?</string>
     <string name="onfido_country_select_bottom_sheet_details">Схоже, країна видачі вибраного документа не підтримується. Виберіть іншу країну.</string>
@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">праворуч</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Відтворити або призупинити</string>
 	<string name="onfido_doc_capture_button_accessibility">Зробити знімок</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Призупинити відео</string>
-    <string name="onfido_video_intro_button_play_accessibility">Відтворити відео</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Призупинити ілюстративну анімацію процедури сканування</string>
+	<string name="onfido_video_intro_button_play_accessibility">Відтворити ілюстративну анімацію процедури сканування</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Два нижні рядки не видно</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Повторити сканування</string>
+	<string name="onfido_nfc_scan_error_button_primary">Почати сканування</string>
     <string name="onfido_nfc_scan_error_button_secondary">Отримати підтвердження без NFC</string>
     <string name="onfido_nfc_scan_error_title">Не вдалося відсканувати документ</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Прикладіть ваш документ до телефону. Можливо, вам доведеться повільно пересувати ваш документ по телефону.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Переставте ваш документ так, щоб він торкався вашого телефону, щоб знайти чіп.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Почати сканування</string>
+	<string name="onfido_video_alert_video_too_long_title">Відео занадто довге</string>
+	<string name="onfido_video_alert_video_too_long_detail">Ваше відео занадто довге для надсилання. Будь ласка, знову запишіть відео.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Повторити</string>
+	<string name="onfido_retry_feedback_id_expired_title">Строк дії документа закінчився</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Непідтримуваний документ</string>
+	<string name="onfido_retry_feedback_id_generic_title">З вашим документом виникла проблема</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">З вашим селфі виникла проблема</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Повторіть спробу, надавши дійсне посвідчення особи з фотографією, і переконайтеся, що всі ваші дані чітко видно</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Повторіть спробу, надавши дійсне посвідчення особи з фотографією, і переконайтеся, що всі ваші дані чітко видно</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Повторіть спробу, надавши дійсне посвідчення особи з фотографією, і переконайтеся, що всі ваші дані чітко видно</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Спробуйте ще раз і переконайтеся, що ваше обличчя добре видно й воно добре освітлене</string>
+	<string name="onfido_retry_feedback_button_primary">Повторити спробу</string>
+	<string name="onfido_retry_feedback_custom_title">Строк дії документа закінчився</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Повторіть спробу, надавши дійсне посвідчення особи з фотографією, і переконайтеся, що всі ваші дані чітко видно</string>
 </resources>

@@ -9,12 +9,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
-## [21.1.1] - 2024-09-02
+## [21.2.0] - 2024-08-30
+
+### Added
+
+- Added `BiometricTokenCallback` for handling biometric token on the client's side
+
+### Changed
+
+- Removed Motion confirmation screen
+- Updated the Studio retry step to support all languages
+- Updated the Studio retry step to support custom translations
+- Clarified the error message with improved customer guidance and UX when Liveness video upload fails due to large file size
 
 ### Fixed
 
+- Fixed the issue where a 'No Face Detection' warning was incorrectly displayed on devices that do not support face detection
 - Fixed the issue when the document capture Studio task was not completing for clients with Document Video report disabled
-- Fixed an issue where Studio flow terminates when user completes or skips NFC 
+- Fixed the Studio Retry task behaviour which was incorrectly resulting in "Unsupported Task" error messages and/or infinite loading screens
+- Fixed an issue where the Studio flows terminate when the user completes or skips NFC 
 
 ## [21.1.0] - 2024-08-15
 

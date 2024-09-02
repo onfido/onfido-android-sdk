@@ -152,8 +152,8 @@
 	<string name="onfido_video_capture_header_challenge_turn_right_accessibility">Derecha</string>
 	<string name="onfido_video_confirmation_button_play_and_pause_accessibility">Reproducir o pausar</string>
 	<string name="onfido_doc_capture_button_accessibility">Tomar una foto</string>
-	<string name="onfido_video_intro_button_pause_accessibility">Pausar video</string>
-	<string name="onfido_video_intro_button_play_accessibility">Reproducir video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pausar la animación ilustrativa del procedimiento de escaneo</string>
+	<string name="onfido_video_intro_button_play_accessibility">Reproducir animación ilustrativa del procedimiento de escaneo</string>
 
     <!-- Document Error -->
 	<string name="onfido_doc_capture_alert_no_mrz_title">Las dos líneas inferiores no son visibles</string>
@@ -490,15 +490,15 @@
 	<string name="onfido_doc_confirmation_alert_odp_detail">Por favor, use su documento original. No se aceptan fotos de pantalla ni fotocopias</string>
 	<string name="onfido_interactive_task_waiting_subtitle_1">Por favor, espere un poco más para que la tarea termine.</string>
 	<string name="onfido_interactive_task_waiting_subtitle_2">La tarea aún está en ejecución, se agradece su paciencia.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compiling data...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">We are compiling the data collected, please wait.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Securing data...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">We are securing your information, please wait.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Securing your data is important, please wait a moment for this task to finish.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Processing data...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">We are processing your information, please wait.</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Processing in progress...</string>
-	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Please wait a little longer for this process to finish, your patience is appreciated.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_1">Compilando datos...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_1">Estamos compilando los datos recopilados, por favor espera.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_2">Asegurando los datos...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_2">Estamos asegurando su información, por favor espere.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_3">Asegurar tus datos es importante, por favor espera un momento para que esta tarea termine.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_3">Procesando datos...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_4">Estamos procesando su información, por favor espere.</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_title_4">Procesamiento en curso...</string>
+	<string name="onfido_studio_between_interactive_tasks_waiting_subtitle_5">Por favor espere un poco más para que este proceso termine, su paciencia es apreciada.</string>
 	<string name="onfido_nfc_scan_welcome_card_title">Escanea tu documento</string>
 	<string name="onfido_nfc_fail_passport_list_item_1">Intenta quitar la cubierta de tu pasaporte o la funda de tu teléfono. Esto es para evitar interferencias con el chip.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Cierra tu pasaporte y colócalo en una superficie plana con el lado frontal hacia arriba.</string>
@@ -536,4 +536,18 @@
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloca tu teléfono contra tu pasaporte. Para localizar el chip, es posible que necesites deslizar tu teléfono hacia arriba y hacia abajo contra tu pasaporte.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Una vez que se detecta el chip, mantén tu teléfono y pasaporte quietos.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Una vez que comienza el escaneo, mantenga su teléfono y pasaporte quietos.</string>
+	<string name="onfido_video_alert_video_too_long_title">Video demasiado largo</string>
+	<string name="onfido_video_alert_video_too_long_detail">Tu video es demasiado largo para ser enviado. Por favor, graba el video nuevamente.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Reintentar</string>
+	<string name="onfido_retry_feedback_id_expired_title">Tu documento venció</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Documento no aceptado</string>
+	<string name="onfido_retry_feedback_id_generic_title">Hubo un problema con tu documento</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Hubo un problema con tu selfi</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Inténtalo de nuevo con una ID con foto válida y asegúrate de que tu información sea claramente visible</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Inténtalo de nuevo con una ID con foto válida y asegúrate de que tu información sea claramente visible</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Inténtalo de nuevo con una ID con foto válida y asegúrate de que tu información sea claramente visible</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Inténtalo de nuevo y asegúrate de que tu rostro sea visible y con buena iluminación</string>
+	<string name="onfido_retry_feedback_button_primary">Inténtalo de nuevo</string>
+	<string name="onfido_retry_feedback_custom_title">Tu documento venció</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Inténtalo de nuevo con una ID con foto válida y asegúrate de que tu información sea claramente visible</string>
 </resources>

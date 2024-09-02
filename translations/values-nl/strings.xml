@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Rechts</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Afspelen of pauzeren</string>
 	<string name="onfido_doc_capture_button_accessibility">Neem een foto</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Filmpje pauzeren</string>
-    <string name="onfido_video_intro_button_play_accessibility">Filmpje afspelen</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pauzeer illustratieve animatie van scanprocedure</string>
+	<string name="onfido_video_intro_button_play_accessibility">Speel illustratieve animatie van scanprocedure af</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Onderste twee regels niet zichtbaar</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Probeer opnieuw te scannen</string>
+	<string name="onfido_nfc_scan_error_button_primary">Start scan</string>
 	<string name="onfido_nfc_scan_error_button_secondary">Word geverifieerd zonder NFC</string>
     <string name="onfido_nfc_scan_error_title">We konden uw document niet scannen</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Plaats uw document tegen uw telefoon. U moet mogelijk uw document langzaam op en neer tegen uw telefoon schuiven.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Plaats uw document opnieuw in contact met uw telefoon om de chip te lokaliseren.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Start scan</string>
+	<string name="onfido_video_alert_video_too_long_title">Video te lang</string>
+	<string name="onfido_video_alert_video_too_long_detail">Uw video is te lang om in te dienen. Neem de video alstublieft opnieuw op.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Opnieuw proberen</string>
+	<string name="onfido_retry_feedback_id_expired_title">Uw document is verlopen</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Niet-geaccepteerd document</string>
+	<string name="onfido_retry_feedback_id_generic_title">Er is iets misgegaan met uw document</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Er is iets misgegaan met uw selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Probeer het opnieuw met een geldig identiteitsbewijs met foto en zorg ervoor dat uw gegevens duidelijk leesbaar zijn</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Probeer het opnieuw met een geldig identiteitsbewijs met foto en zorg ervoor dat uw gegevens duidelijk leesbaar zijn</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Probeer het opnieuw met een geldig identiteitsbewijs met foto en zorg ervoor dat uw gegevens duidelijk leesbaar zijn</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Probeer het opnieuw en zorg ervoor dat uw gezicht goed zichtbaar en verlicht is</string>
+	<string name="onfido_retry_feedback_button_primary">Probeer het opnieuw</string>
+	<string name="onfido_retry_feedback_custom_title">Uw document is verlopen</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Probeer het opnieuw met een geldig identiteitsbewijs met foto en zorg ervoor dat uw gegevens duidelijk leesbaar zijn</string>
 </resources>

@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Dreapta</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Redați sau puneți pe pauză</string>
 	<string name="onfido_doc_capture_button_accessibility">Faceți o poză</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Puneți pe pauză clipul video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Redați clip video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pauză animație ilustrativă a procedurii de scanare</string>
+	<string name="onfido_video_intro_button_play_accessibility">Redă animația ilustrativă a procedurii de scanare</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Cele două linii de jos nu sunt vizibile</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Reîncercați scanarea</string>
+	<string name="onfido_nfc_scan_error_button_primary">Începeți scanarea</string>
     <string name="onfido_nfc_scan_error_button_secondary">Obțineți verificarea fără NFC</string>
     <string name="onfido_nfc_scan_error_title">Nu am putut scana documentul dvs.</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Puneți documentul pe telefonul dvs. S-ar putea să fie nevoie să glisați încet documentul pe telefonul dvs.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Repoziționați documentul în contact cu telefonul dvs. pentru a localiza cipul.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Începeți scanarea</string>
+	<string name="onfido_video_alert_video_too_long_title">Video prea lung</string>
+	<string name="onfido_video_alert_video_too_long_detail">Clipul dvs. video este prea lung pentru a fi trimis. Vă rugăm să înregistrați din nou video.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Încercați din nou</string>
+	<string name="onfido_retry_feedback_id_expired_title">Documentul dvs. a expirat</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Document neacceptat</string>
+	<string name="onfido_retry_feedback_id_generic_title">A survenit o problemă cu documentul dvs.</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">A survenit o problemă cu poza dvs. selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Vă rugăm să încercați din nou cu un document de identitate cu poză valabil și asigurați-vă că informațiile dvs. sunt clar vizibile</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Vă rugăm să încercați din nou cu un document de identitate cu poză valabil și asigurați-vă că informațiile dvs. sunt clar vizibile</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Vă rugăm să încercați din nou cu un document de identitate cu poză valabil și asigurați-vă că informațiile dvs. sunt clar vizibile</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Vă rugăm să încercați din nou și asigurați-vă că fața dvs. este vizibilă și bine luminată</string>
+	<string name="onfido_retry_feedback_button_primary">Încercați din nou</string>
+	<string name="onfido_retry_feedback_custom_title">Documentul dvs. a expirat</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Vă rugăm să încercați din nou cu un document de identitate cu poză valabil și asigurați-vă că informațiile dvs. sunt clar vizibile</string>
 </resources>

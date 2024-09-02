@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Աջ</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Նվագարկել կամ դադարեցնել</string>
 	<string name="onfido_doc_capture_button_accessibility">Լուսանկարել</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Դադարեցնել տեսանյութը</string>
-    <string name="onfido_video_intro_button_play_accessibility">Դիտել տեսանյութը</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Դադարեցրեք սկանավորման ընթացքի պատկերավորման անիմացիան</string>
+	<string name="onfido_video_intro_button_play_accessibility">Նվագարկեք սկանավորման ընթացակարգի պարզապես անիմացիան</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Ներքևի երկու տողերը չեն երևում</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Կրկին սկանավորել</string>
+	<string name="onfido_nfc_scan_error_button_primary">Սկսել սկանավորումը</string>
     <string name="onfido_nfc_scan_error_button_secondary">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Տեղադրեք ձեր փաստաթուղթը ձեր հեռախոսի դեմ։ Ձեզ կարող է պետք լինել դանդաղ սարքել ձեր փաստաթուղթը ձեր հեռախոսի դեմ։</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Վերադասավորեք ձեր փաստաթղթը ձեր հեռախոսի հետ կապված, որպեսզի գտնեք չիպը:</string>
 	<string name="onfido_nfc_fail_button_primary_card">Սկսել սկանավորումը</string>
+	<string name="onfido_video_alert_video_too_long_title">Տեսանյութը շատ երկար է</string>
+	<string name="onfido_video_alert_video_too_long_detail">Ձեր տեսանյութը չափազանց երկար է ու չի կարող ներկայացվել։ Խնդրում ենք վերանայել տեսանյութը։</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Կրկին փորձել</string>
+	<string name="onfido_retry_feedback_id_expired_title">Ձեր փաստաթղթի ժամկետը սպառվել է</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Անվավեր փաստաթուղթ</string>
+	<string name="onfido_retry_feedback_id_generic_title">Ձեր փաստաթղթի հետ խնդիր է առաջացել</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Ձեր սելֆիի հետ խնդիր է առաջացել</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Կրկին փորձեք լուսանկար պարունակող, վավեր անձը հաստատող փաստաթղթով և համոզվեք, որ ձեր տվյալները հստակ երևում են</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Կրկին փորձեք լուսանկար պարունակող, վավեր անձը հաստատող փաստաթղթով և համոզվեք, որ ձեր տվյալները հստակ երևում են</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Կրկին փորձեք լուսանկար պարունակող, վավեր անձը հաստատող փաստաթղթով և համոզվեք, որ ձեր տվյալները հստակ երևում են</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Խնդրում ենք կրկին փորձել և համոզվել, որ ձեր դեմքը երևում է և լավ լուսավորված է</string>
+	<string name="onfido_retry_feedback_button_primary">Կրկին փորձել</string>
+	<string name="onfido_retry_feedback_custom_title">Ձեր փաստաթղթի ժամկետը սպառվել է</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Կրկին փորձեք լուսանկար պարունակող, վավեր անձը հաստատող փաստաթղթով և համոզվեք, որ ձեր տվյալները հստակ երևում են</string>
 </resources>

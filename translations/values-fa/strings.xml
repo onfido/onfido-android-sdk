@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">راست</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">پخش یا مکث</string>
 	<string name="onfido_doc_capture_button_accessibility">یک عکس بگیرید</string>
-    <string name="onfido_video_intro_button_pause_accessibility">مکث ویدئو</string>
-    <string name="onfido_video_intro_button_play_accessibility">پخش ویدئو</string>
+	<string name="onfido_video_intro_button_pause_accessibility">توقف انیمیشن توضیحی روند اسکن</string>
+	<string name="onfido_video_intro_button_play_accessibility">انیمیشن توضیحی روند اسکن را اجرا کنید</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">دو سطر پایین قابل رویت نیستد</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">اسکن مجدد</string>
+	<string name="onfido_nfc_scan_error_button_primary">شروع اسکن</string>
     <string name="onfido_nfc_scan_error_button_secondary">بدون NFC تأیید شوید</string>
     <string name="onfido_nfc_scan_error_title">نتوانستیم مدرک شما را اسکن کنیم</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">سند خود را بر روی تلفن خود قرار دهید. ممکن است نیاز باشد به آرامی سند خود را بر روی تلفن خود بکشید.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">سند خود را در تماس با تلفن خود قرار دهید تا تراشه را پیدا کنید.</string>
 	<string name="onfido_nfc_fail_button_primary_card">شروع اسکن</string>
+	<string name="onfido_video_alert_video_too_long_title">ویدیو بسیار طولانی است</string>
+	<string name="onfido_video_alert_video_too_long_detail">ویدیوی شما برای ارسال خیلی طولانی است. لطفاً ویدیو را دوباره ضبط کنید.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">سعی مجدد‌</string>
+	<string name="onfido_retry_feedback_id_expired_title">مدرک شما منقضی شده است</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">مدرک غیر قابل قبول است</string>
+	<string name="onfido_retry_feedback_id_generic_title">مدرک شما مشکل دارد</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">سلفی شما مشکل دارد</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">لطفاً با یک کارت شناسایی عکس‌دار معتبر دوباره امتحان کنید و مطمئن شوید که اطلاعات شما به وضوح قابل مشاهده است</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">لطفاً با یک کارت شناسایی عکس‌دار معتبر دوباره امتحان کنید و مطمئن شوید که اطلاعات شما به وضوح قابل مشاهده است</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">لطفاً با یک کارت شناسایی عکس‌دار معتبر دوباره امتحان کنید و مطمئن شوید که اطلاعات شما به وضوح قابل مشاهده است</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">لطفاً دوباره سعی کنید و مطمئن شوید که چهره شما قابل مشاهده بوده و محیط دارای نور مناسب است</string>
+	<string name="onfido_retry_feedback_button_primary">سعی مجدد</string>
+	<string name="onfido_retry_feedback_custom_title">مدرک شما منقضی شده است</string>
+	<string name="onfido_retry_feedback_custom_subtitle">لطفاً با یک کارت شناسایی عکس‌دار معتبر دوباره امتحان کنید و مطمئن شوید که اطلاعات شما به وضوح قابل مشاهده است</string>
 </resources>

@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Направо</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Воспроизведение или пауза</string>
 	<string name="onfido_doc_capture_button_accessibility">Сделайте снимок</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Приостановить видео</string>
-    <string name="onfido_video_intro_button_play_accessibility">Воспроизвести видео</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Приостановить иллюстративную анимацию процедуры сканирования</string>
+	<string name="onfido_video_intro_button_play_accessibility">Воспроизвести иллюстративную анимацию процедуры сканирования</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Две нижние строки не видны</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Повторить сканирование</string>
+	<string name="onfido_nfc_scan_error_button_primary">Начать сканирование</string>
     <string name="onfido_nfc_scan_error_button_secondary">Получить верификацию без NFC</string>
     <string name="onfido_nfc_scan_error_title">Не удалось отсканировать документ</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Приложите ваш документ к вашему телефону. Возможно, вам придется медленно перемещать ваш документ по телефону.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Переместите ваш документ так, чтобы он соприкасался с вашим телефоном, чтобы найти чип.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Начать сканирование</string>
+	<string name="onfido_video_alert_video_too_long_title">Видео слишком долгое</string>
+	<string name="onfido_video_alert_video_too_long_detail">Ваше видео слишком длинное для отправки. Пожалуйста, запишите видео заново.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Повторить</string>
+	<string name="onfido_retry_feedback_id_expired_title">Срок действия вашего документа истек</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Непринятый документ</string>
+	<string name="onfido_retry_feedback_id_generic_title">Возникла проблема с Вашим документом</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Возникла проблема с Вашими селфи</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Попробуйте еще раз с действительным удостоверением личности с фотографией и убедитесь, что Ваши данные хорошо видны</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Попробуйте еще раз с действительным удостоверением личности с фотографией и убедитесь, что Ваши данные хорошо видны</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Попробуйте еще раз с действительным удостоверением личности с фотографией и убедитесь, что Ваши данные хорошо видны</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Попробуйте еще раз и убедитесь, что Ваше лицо видно и хорошо освещено</string>
+	<string name="onfido_retry_feedback_button_primary">Попробовать еще раз</string>
+	<string name="onfido_retry_feedback_custom_title">Срок действия вашего документа истек</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Попробуйте еще раз с действительным удостоверением личности с фотографией и убедитесь, что Ваши данные хорошо видны</string>
 </resources>

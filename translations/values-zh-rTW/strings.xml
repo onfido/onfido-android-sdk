@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">右側</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">播放或暫停</string>
 	<string name="onfido_doc_capture_button_accessibility">拍張照片</string>
-    <string name="onfido_video_intro_button_pause_accessibility">暫停影片</string>
-    <string name="onfido_video_intro_button_play_accessibility">播放影片</string>
+	<string name="onfido_video_intro_button_pause_accessibility">暫停掃描程序的示範動畫</string>
+	<string name="onfido_video_intro_button_play_accessibility">播放掃描程序的示範動畫</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">底部兩條線無法清晰辨識</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">重新進行掃描</string>
+	<string name="onfido_nfc_scan_error_button_primary">開始掃描</string>
     <string name="onfido_nfc_scan_error_button_secondary">無需NFC即可獲得驗證</string>
     <string name="onfido_nfc_scan_error_title">我們無法掃描您的文件</string>
 
@@ -542,4 +542,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">將您的文件放在您的手機上。您可能需要慢慢地將您的文件在手機上滑動。</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">將您的文件重新放置在與您的手機接觸的位置以找到芯片。</string>
 	<string name="onfido_nfc_fail_button_primary_card">開始掃描</string>
+	<string name="onfido_video_alert_video_too_long_title">影片過長</string>
+	<string name="onfido_video_alert_video_too_long_detail">您的影片太長，無法提交。請重新錄製影片。</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">重試</string>
+	<string name="onfido_retry_feedback_id_expired_title">您的文件已過期</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">不接受的文件</string>
+	<string name="onfido_retry_feedback_id_generic_title">您的文件有問題</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">您的自拍照有問題</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">請使用含有相片的有效 ID 重試，並確保您的資料清楚可見</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">請使用含有相片的有效 ID 重試，並確保您的資料清楚可見</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">請使用含有相片的有效 ID 重試，並確保您的資料清楚可見</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">請再試一次，並確保臉部清楚可見，光線充足</string>
+	<string name="onfido_retry_feedback_button_primary">再試一次</string>
+	<string name="onfido_retry_feedback_custom_title">您的文件已過期</string>
+	<string name="onfido_retry_feedback_custom_subtitle">請使用含有相片的有效 ID 重試，並確保您的資料清楚可見</string>
 </resources>

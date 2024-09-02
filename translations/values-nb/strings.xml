@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Høyre</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Spill av eller sett på pause</string>
 	<string name="onfido_doc_capture_button_accessibility">Ta et bilde</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Pauser video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Spill av video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pause illustrativ animasjon av skanningsprosedyre</string>
+	<string name="onfido_video_intro_button_play_accessibility">Spill illustrativ animasjon av skanningsprosedyre</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">De to nederste linjene er ikke synlige</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Prøv skanning på nytt</string>
+	<string name="onfido_nfc_scan_error_button_primary">Start skanning</string>
     <string name="onfido_nfc_scan_error_button_secondary">Bli verifisert uten NFC</string>
     <string name="onfido_nfc_scan_error_title">Vi kunne ikke skanne dokumentet ditt</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Plasser dokumentet ditt mot telefonen din. Du må kanskje sakte skyve dokumentet ditt mot telefonen din.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Posisjoner dokumentet ditt i kontakt med telefonen din for å finne chipen.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Start skanning</string>
+	<string name="onfido_video_alert_video_too_long_title">Videoen er for lang</string>
+	<string name="onfido_video_alert_video_too_long_detail">Videoen din er for lang til å bli sendt inn. Vennligst ta opp videoen på nytt.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Prøv igjen</string>
+	<string name="onfido_retry_feedback_id_expired_title">Dokumentet ditt er utløpt</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Ikke akseptert dokument</string>
+	<string name="onfido_retry_feedback_id_generic_title">Det oppstod et problem med dokumentet ditt</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Det var et problem med selfien din</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Vennligst prøv igjen med en gyldig bilde-ID og sørg for at informasjonen din er godt synlig</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Vennligst prøv igjen med en gyldig bilde-ID og sørg for at informasjonen din er godt synlig</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Vennligst prøv igjen med en gyldig bilde-ID og sørg for at informasjonen din er godt synlig</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Prøv på nytt og sørg for at ansiktet ditt er synlig og godt opplyst</string>
+	<string name="onfido_retry_feedback_button_primary">Prøv på nytt</string>
+	<string name="onfido_retry_feedback_custom_title">Dokumentet ditt er utløpt</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Vennligst prøv igjen med en gyldig bilde-ID og sørg for at informasjonen din er godt synlig</string>
 </resources>

@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Rechts</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Abspielen oder Pause</string>
 	<string name="onfido_doc_capture_button_accessibility">Ein Foto machen</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Video anhalten</string>
-    <string name="onfido_video_intro_button_play_accessibility">Video abspielen</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pause der illustrativen Animation des Scanvorgangs</string>
+	<string name="onfido_video_intro_button_play_accessibility">Abspielen der illustrativen Animation des Scanvorgangs</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Die unteren beiden Zeilen sind nicht sichtbar</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Scannen wiederholen</string>
+	<string name="onfido_nfc_scan_error_button_primary">Starten Sie mit dem Scannen</string>
     <string name="onfido_nfc_scan_error_button_secondary">Lassen Sie sich ohne NFC verifizieren</string>
     <string name="onfido_nfc_scan_error_title">Wir konnten Ihr Dokument nicht scannen</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Legen Sie Ihr Dokument gegen Ihr Telefon. Sie müssen möglicherweise Ihr Dokument langsam gegen Ihr Telefon schieben.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Positionieren Sie Ihr Dokument erneut in Kontakt mit Ihrem Telefon, um den Chip zu lokalisieren.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Starten Sie mit dem Scannen</string>
+	<string name="onfido_video_alert_video_too_long_title">Video zu lang</string>
+	<string name="onfido_video_alert_video_too_long_detail">Ihr Video ist zu lang für die Einreichung. Bitte nehmen Sie das Video erneut auf.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Erneut versuchen</string>
+	<string name="onfido_retry_feedback_id_expired_title">Ihr Ausweis ist ungültig</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Ausweis wird nicht akzeptiert</string>
+	<string name="onfido_retry_feedback_id_generic_title">Es gab ein Problem mit Ihrem Ausweis</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Es gab ein Problem mit Ihrem Selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Versuchen Sie es mit einem gültigen Lichtbildausweis erneut und stellen Sie sicher, dass die Angaben zu Ihrer Person gut sichtbar sind</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Versuchen Sie es mit einem gültigen Lichtbildausweis erneut und stellen Sie sicher, dass die Angaben zu Ihrer Person gut sichtbar sind</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Versuchen Sie es mit einem gültigen Lichtbildausweis erneut und stellen Sie sicher, dass die Angaben zu Ihrer Person gut sichtbar sind</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Versuchen Sie es erneut und stellen Sie sicher, dass Ihr Gesicht sichtbar und gut beleuchtet ist</string>
+	<string name="onfido_retry_feedback_button_primary">Versuchen Sie es erneut.</string>
+	<string name="onfido_retry_feedback_custom_title">Ihr Ausweis ist ungültig</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Versuchen Sie es mit einem gültigen Lichtbildausweis erneut und stellen Sie sicher, dass die Angaben zu Ihrer Person gut sichtbar sind</string>
 </resources>

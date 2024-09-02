@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Sağa</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Oynat veya duraklat</string>
 	<string name="onfido_doc_capture_button_accessibility">Bir resim çekin</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Videoyu durdur</string>
-    <string name="onfido_video_intro_button_play_accessibility">Videoyu oynat</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Tarama işlemi örneğinin animasyonunu duraklat</string>
+	<string name="onfido_video_intro_button_play_accessibility">Tarama işlemi ile ilgili örneklendirici animasyonu oynat</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Alt iki satır görünür değil</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Taramayı yeniden deneyin</string>
+	<string name="onfido_nfc_scan_error_button_primary">Taramayı başlat</string>
     <string name="onfido_nfc_scan_error_button_secondary">NFC olmadan doğrulanın</string>
     <string name="onfido_nfc_scan_error_title">Belgenizi tarayamadık</string>
 
@@ -428,7 +428,7 @@
 	<string name="onfido_poa_guidance_subtitle_benefits_letter">Son 12 ay içinde düzenlenmiş olmalıdır</string>
 	<string name="onfido_poa_guidance_subtitle_tax_letter">Son 12 ay içinde düzenlenmiş olmalıdır</string>
     <string name="onfido_poa_guidance_subtitle_address_card">Geçerli bir adres kartı olmalıdır</string>
-	<string name="onfido_poa_guidance_instructions_label">Készítsen fényképet a teljes dokumentumról, és győződjön meg arról, hogy tisztán látszik:</string>
+	<string name="onfido_poa_guidance_instructions_label">Tüm belgeyi yakalayın ve açıkça gösterdiğinden emin olun:</string>
 	<string name="onfido_poa_guidance_instructions_logo">Logo</string>
 	<string name="onfido_poa_guidance_instructions_full_name">Ad soyadı</string>
 	<string name="onfido_poa_guidance_instructions_address">Geçerli adres</string>
@@ -544,4 +544,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Belgenizi telefonunuza yerleştirin. Belgenizi telefonunuza yavaşça kaydırmanız gerekebilir.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Çipi bulmak için belgenizi telefonunuzla temas halinde yeniden konumlandırın.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Taramayı başlat</string>
+	<string name="onfido_video_alert_video_too_long_title">Video çok uzun</string>
+	<string name="onfido_video_alert_video_too_long_detail">Video\'nuz gönderilmek için çok uzun. Lütfen videoyu tekrar kaydedin.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Yeniden dene</string>
+	<string name="onfido_retry_feedback_id_expired_title">Belgenizin süresi doldu</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Belge kabul edilmiyor</string>
+	<string name="onfido_retry_feedback_id_generic_title">Belgenizle ilgili bir sorun oluştu</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Selfie\'nizle ilgili bir sorun oluştu</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Lütfen tekrar deneyin ve yüzünüzün görünür ve iyi aydınlatılmış olduğundan emin olun</string>
+	<string name="onfido_retry_feedback_button_primary">Tekrar deneyin</string>
+	<string name="onfido_retry_feedback_custom_title">Belgenizin süresi doldu</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun</string>
 </resources>

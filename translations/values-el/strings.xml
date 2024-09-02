@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Δεξιά</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Αναπαραγωγή ή παύση</string>
 	<string name="onfido_doc_capture_button_accessibility">Τραβήξτε μια φωτογραφία</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Παύση βίντεο</string>
-    <string name="onfido_video_intro_button_play_accessibility">Αναπαραγωγή βίντεο</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Παύση εικονογραφημένης ανάλυσης της διαδικασίας σάρωσης</string>
+	<string name="onfido_video_intro_button_play_accessibility">Αναπαραγωγή επεξηγηματικού animation της διαδικασίας σάρωσης</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Οι δύο τελευταίες γραμμές δεν είναι ορατές</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Επανάληψη σάρωσης</string>
+	<string name="onfido_nfc_scan_error_button_primary">Έναρξη σάρωσης</string>
     <string name="onfido_nfc_scan_error_button_secondary">Επαληθεύστε χωρίς NFC</string>
     <string name="onfido_nfc_scan_error_title">Δεν ήταν δυνατή η σάρωση του εγγράφου σας</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Τοποθετήστε το έγγραφό σας στο τηλέφωνό σας. Ίσως χρειαστεί να σύρετε αργά το έγγραφό σας στο τηλέφωνό σας.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Τοποθετήστε ξανά το έγγραφό σας σε επαφή με το τηλέφωνό σας για να εντοπίσετε το τσιπ.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Έναρξη σάρωσης</string>
+	<string name="onfido_video_alert_video_too_long_title">Το βίντεο είναι πολύ μεγάλο</string>
+	<string name="onfido_video_alert_video_too_long_detail">Το βίντεο σας είναι πολύ μεγάλο για να υποβληθεί. Παρακαλώ ηχογραφήστε ξανά το βίντεο.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Προσπαθήστε ξανά</string>
+	<string name="onfido_retry_feedback_id_expired_title">Το έγγραφό σας έχει λήξει</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Μη αποδεκτό έγγραφο</string>
+	<string name="onfido_retry_feedback_id_generic_title">Παρουσιάστηκε πρόβλημα με το έγγραφό σας</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Παρουσιάστηκε πρόβλημα με τη selfie σας</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Δοκιμάστε ξανά και βεβαιωθείτε ότι το πρόσωπό σας είναι ορατό και καλά φωτισμένο</string>
+	<string name="onfido_retry_feedback_button_primary">Προσπαθήστε ξανά</string>
+	<string name="onfido_retry_feedback_custom_title">Το έγγραφό σας έχει λήξει</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα</string>
 </resources>

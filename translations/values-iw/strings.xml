@@ -7,7 +7,7 @@
     <string name="onfido_app_title_doc_capture_license_fr">רישיון נהיגה צרפתי</string>
     <string name="onfido_doc_capture_prompt_button_paper">מסמך נייר</string>
     <string name="onfido_doc_capture_prompt_button_card">כרטיס פלסטיק</string>
-    <string name="onfido_doc_capture_prompt_title_license">איזה סוג הרישיון יש לך?</string>
+	<string name="onfido_doc_capture_prompt_title_license">איזה סוג רישיון יש לך?</string>
     <string name="onfido_doc_capture_prompt_title_id">איזה סוג תעודת זהות יש לך?</string>
     <string name="onfido_doc_capture_detail_folded_doc_front">הנח את המסמך על המשטח, כולל כל הדפים הפנימיים (התמונה שלך חייבת להופיע)</string>
     <string name="onfido_doc_capture_detail_folded_doc_back">הנח את המסמך על המשטח, כולל כל הדפים החיצוניים</string>
@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">ימינה</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">הפעל או השהה</string>
 	<string name="onfido_doc_capture_button_accessibility">צלם תמונה</string>
-    <string name="onfido_video_intro_button_pause_accessibility">השהה סרטון</string>
-    <string name="onfido_video_intro_button_play_accessibility">נגן סרטון</string>
+	<string name="onfido_video_intro_button_pause_accessibility">השהייה של האנימציה הממחישה את תהליך הסריקה</string>
+	<string name="onfido_video_intro_button_play_accessibility">הפעל אנימציה ממחישה של תהליך הסריקה</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">שתי השורות התחתונות אינן גלויות</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">נסה לבצע סריקה חוזרת</string>
+	<string name="onfido_nfc_scan_error_button_primary">התחל סריקה</string>
     <string name="onfido_nfc_scan_error_button_secondary">אימות ללא NFC</string>
     <string name="onfido_nfc_scan_error_title">לא הצלחנו לסרוק את המסמך</string>
 
@@ -444,7 +444,7 @@
 	<string name="onfido_poa_capture_redo">צלם תמונה מחדש</string>
 	<string name="onfido_doc_confirmation_body">ודא שהעלית את עמוד המסמך בשלמותו ושהפרטים ברורים לקריאה ללא טשטוש או השתקפות</string>
 	<string name="onfido_poa_capture_enlarge">הגדל מסמך</string>
-	<string name="onfido_poa_capture_enlarge_move">הזז את האצבע על המסךכווץ כדי לשנות את גודל התצוגה.</string>
+	<string name="onfido_poa_capture_enlarge_move">הזז את האצבע על המסך. כווץ כדי לשנות את גודל התצוגה.</string>
 	<string name="onfido_poa_capture_enlarge_close">סגור</string>
 	<string name="onfido_poa_capture_instructions">צד קדמי של מסמך המציג כתובת</string>
     <string name="onfido_poa_doc_capture_empty"></string>
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">הנח את המסמך שלך על הטלפון שלך. ייתכן ותצטרך להזיז לאט את המסמך שלך נגד הטלפון שלך.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">ממקם מחדש את המסמך שלך במגע עם הטלפון שלך כדי לאתר את השבב.</string>
 	<string name="onfido_nfc_fail_button_primary_card">התחל סריקה</string>
+	<string name="onfido_video_alert_video_too_long_title">הסרטון ארוך מדי</string>
+	<string name="onfido_video_alert_video_too_long_detail">הסרטון שלך ארוך מדי לשליחה. אנא הקלט את הסרטון שוב.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">נסה שוב</string>
+	<string name="onfido_retry_feedback_id_expired_title">תוקף המסמך שלך פג</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">מסמך לא מקובל</string>
+	<string name="onfido_retry_feedback_id_generic_title">הייתה בעיה עם המסמך שלך</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">הייתה בעיה עם תמונת הסלפי שלך</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">נסה שוב עם תעודה מזהה חוקית שכוללת תמונה וודא שהפרטים מופיעים בבירור</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">נסה שוב עם תעודה מזהה חוקית שכוללת תמונה וודא שהפרטים מופיעים בבירור</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">נסה שוב עם תעודה מזהה חוקית שכוללת תמונה וודא שהפרטים מופיעים בבירור</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">נסה שוב וודא שהפנים שלך גלויות ומוארות היטב</string>
+	<string name="onfido_retry_feedback_button_primary">נסה שוב</string>
+	<string name="onfido_retry_feedback_custom_title">תוקף המסמך שלך פג</string>
+	<string name="onfido_retry_feedback_custom_subtitle">נסה שוב עם תעודה מזהה חוקית שכוללת תמונה וודא שהפרטים מופיעים בבירור</string>
 </resources>

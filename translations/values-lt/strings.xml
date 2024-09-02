@@ -104,7 +104,7 @@
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Leisti prieigą prie kameros</string>
-    <string name="onfido_permission_subtitle_cam">Kai būsite paraginti, turite įjungti prieigą prie kameros, kad galėtumėte tęsti</string>
+	<string name="onfido_permission_subtitle_cam">Kai būsite paprašyti, turite suteikti prieigą prie kameros, kad galėtumėte tęsti</string>
 	<string name="onfido_permission_body_cam">Negalime Jūsų patvirtinti be prieigos prie kameros</string>
     <string name="onfido_permission_button_primary_cam">Įjungti kamerą</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Negalime Jūsų patvirtinti be prieigos prie kameros</string>
@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Dešinė</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Leisti arba sustabdyti</string>
 	<string name="onfido_doc_capture_button_accessibility">Fotografuoti</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Padaryti vaizdo įrašo pauzę</string>
-    <string name="onfido_video_intro_button_play_accessibility">Paleisti vaizdo įrašą</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pauzė iliustracinėje nuskaitomo procedūros animacijoje</string>
+	<string name="onfido_video_intro_button_play_accessibility">Rodyti iliustracinę nuskaitomojo procedūros animaciją</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Dvi apatinės eilutės nėra matomos</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Bandyti nuskaityti dar kartą</string>
+	<string name="onfido_nfc_scan_error_button_primary">Pradėti nuskaitymą</string>
     <string name="onfido_nfc_scan_error_button_secondary">Gauti patvirtinimą be NFC</string>
     <string name="onfido_nfc_scan_error_title">Nepavyko nuskaityti jūsų dokumento</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Prispauskite savo dokumentą prie telefono. Gali tekti lėtai judinti savo dokumentą prie telefono.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Perkelkite savo dokumentą taip, kad jis būtų kontakto su jūsų telefonu, kad rastumėte lustą.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Pradėti nuskaitymą</string>
+	<string name="onfido_video_alert_video_too_long_title">Video per ilgas</string>
+	<string name="onfido_video_alert_video_too_long_detail">Jūsų vaizdo įrašas per ilgas, kad būtų pateiktas. Prašome įrašyti vaizdo įrašą iš naujo.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Bandyti dar kartą</string>
+	<string name="onfido_retry_feedback_id_expired_title">Jūsų dokumentas nebegalioja</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Nepriimtinas dokumentas</string>
+	<string name="onfido_retry_feedback_id_generic_title">Iškilo su jūsų dokumentu susijusi problema</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Iškilo problema dėl jūsų asmenukės</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Bandykite dar kartą naudodami galiojantį asmens tapatybės dokumentą su nuotrauka ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Bandykite dar kartą naudodami galiojantį asmens tapatybės dokumentą su nuotrauka ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Bandykite dar kartą naudodami galiojantį asmens tapatybės dokumentą su nuotrauka ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Bandykite dar kartą ir įsitikinkite, kad jūsų veidas matomas ir gerai apšviestas</string>
+	<string name="onfido_retry_feedback_button_primary">Bandyti dar kartą</string>
+	<string name="onfido_retry_feedback_custom_title">Jūsų dokumentas nebegalioja</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Bandykite dar kartą naudodami galiojantį asmens tapatybės dokumentą su nuotrauka ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
 </resources>

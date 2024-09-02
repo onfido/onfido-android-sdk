@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">오른쪽</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">재생 또는 일시 중지</string>
 	<string name="onfido_doc_capture_button_accessibility">사진 촬영하기</string>
-    <string name="onfido_video_intro_button_pause_accessibility">동영상 일시 중지</string>
-    <string name="onfido_video_intro_button_play_accessibility">동영상 재생</string>
+	<string name="onfido_video_intro_button_pause_accessibility">스캔 절차의 설명 애니메이션 일시 중지</string>
+	<string name="onfido_video_intro_button_play_accessibility">스캔 절차의 설명 애니메이션 재생</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">하단의 두 줄이 보이지 않습니다</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">스캔 재시도</string>
+	<string name="onfido_nfc_scan_error_button_primary">스캔 시작</string>
     <string name="onfido_nfc_scan_error_button_secondary">NFC 없이 인증 받기</string>
     <string name="onfido_nfc_scan_error_title">서류를 스캔할 수 없습니다</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">문서를 휴대폰에 대해 놓으세요. 문서를 휴대폰에 대해 천천히 움직여야 할 수도 있습니다.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">칩을 찾기 위해 휴대폰에 신분증을 다시 위치시키세요.</string>
 	<string name="onfido_nfc_fail_button_primary_card">스캔 시작</string>
+	<string name="onfido_video_alert_video_too_long_title">비디오가 너무 깁니다</string>
+	<string name="onfido_video_alert_video_too_long_detail">제출하기에 비디오가 너무 길습니다. 비디오를 다시 녹화해 주세요.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">재시도</string>
+	<string name="onfido_retry_feedback_id_expired_title">서류가 만료되었습니다</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">허용되지 않는 서류</string>
+	<string name="onfido_retry_feedback_id_generic_title">서류에 문제가 있습니다</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">셀카 이미지에 문제가 있습니다</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">사진이 부착된 유효한 신분증으로 다시 시도하고 정보가 선명하게 보이는지 확인하세요</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">사진이 부착된 유효한 신분증으로 다시 시도하고 정보가 선명하게 보이는지 확인하세요</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">사진이 부착된 유효한 신분증으로 다시 시도하고 정보가 선명하게 보이는지 확인하세요</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">조명이 밝고 얼굴이 선명하게 나타나도록 하여 다시 시도해주세요</string>
+	<string name="onfido_retry_feedback_button_primary">다시 시도하기</string>
+	<string name="onfido_retry_feedback_custom_title">서류가 만료되었습니다</string>
+	<string name="onfido_retry_feedback_custom_subtitle">사진이 부착된 유효한 신분증으로 다시 시도하고 정보가 선명하게 보이는지 확인하세요</string>
 </resources>

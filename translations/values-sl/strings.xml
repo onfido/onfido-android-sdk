@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Desno</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Predvajaj ali ustavi</string>
 	<string name="onfido_doc_capture_button_accessibility">Posnemi fotografijo</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Zaustavi videoposnetek</string>
-    <string name="onfido_video_intro_button_play_accessibility">Predvajaj videoposnetek</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Začasno ustavi ilustrativno animacijo postopka skeniranja</string>
+	<string name="onfido_video_intro_button_play_accessibility">Predvajaj ilustrativno animacijo postopka skeniranja</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Spodnji dve vrstici nista vidni</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Ponovi skeniranje</string>
+	<string name="onfido_nfc_scan_error_button_primary">Začni skeniranje</string>
     <string name="onfido_nfc_scan_error_button_secondary">Preveri brez NFC</string>
     <string name="onfido_nfc_scan_error_title">Dokumenta ni bilo mogoče skenirati</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Postavite svoj dokument ob telefon. Morda boste morali počasi premikati svoj dokument gor in dol ob telefonu.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Ponovno postavite svoj dokument v stik s telefonom, da najdete čip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Začni skeniranje</string>
+	<string name="onfido_video_alert_video_too_long_title">Video je predolg</string>
+	<string name="onfido_video_alert_video_too_long_detail">Vaš video je predolg za oddajo. Prosim, posnemite video ponovno.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Poskusite znova</string>
+	<string name="onfido_retry_feedback_id_expired_title">Vaš dokument je potekel</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Nesprejet dokument</string>
+	<string name="onfido_retry_feedback_id_generic_title">Prišlo je do težave z vašim dokumentom</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Prišlo je do težave z vašim selfijem</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Poskusite znova z veljavnim osebnim dokumentom s fotografijo in preverite, ali so vaši podatki jasno vidni</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Poskusite znova z veljavnim osebnim dokumentom s fotografijo in preverite, ali so vaši podatki jasno vidni</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Poskusite znova z veljavnim osebnim dokumentom s fotografijo in preverite, ali so vaši podatki jasno vidni</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Poskusite znova in poskrbite, da bo vaš obraz viden in dobro osvetljen</string>
+	<string name="onfido_retry_feedback_button_primary">Poskusite znova</string>
+	<string name="onfido_retry_feedback_custom_title">Vaš dokument je potekel</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Poskusite znova z veljavnim osebnim dokumentom s fotografijo in preverite, ali so vaši podatki jasno vidni</string>
 </resources>

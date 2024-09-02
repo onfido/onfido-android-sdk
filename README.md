@@ -97,7 +97,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 11.51 Mb  |
+| armeabi-v7a | 11.55 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -121,7 +121,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.51 Mb  |
+| core-armeabi-v7a | 11.55 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -596,6 +596,8 @@ override fun onException(exception: OnfidoWorkflow.WorkflowException) {
         // This happens when an unexpected error occurs. Please contact [support@onfido.com](support@onfido.com?Subject=ISSUE%3A) when this happens
         is WorkflowAbandonedException ->
         // This happens when workflow run is abandoned. In this case a new workflow run has to be created
+        is WorkflowBiometricTokenRetrievalException ->
+        // This happens when workflow task encounters an error during biometric token retrieval
         else -> 
         // Necessary because of Kotlin
     }
@@ -1331,6 +1333,65 @@ For a full list of events, see [TRACKED_EVENTS.md](TRACKED_EVENTS.md).
 #### Using the data
 
 You can use the data to keep track of how many users reach each screen in your flow. You can do this by storing the number of users that reach each screen and comparing that to the number of users who reached the `Welcome` screen.
+
+## Custom biometric token storage
+
+When using the decentralized authentication solution, by default the SDK manages biometric token storage. The SDK also allows the clients to take control of the token lifecycle and exposes an API to override the default implementation to read and write the token, so it can be stored on device, in cloud, in a keystore or on your premises.
+
+#### Implementation
+1. Provide a custom implementation for `BiometricTokenCallback`
+   Please note that `BiometricTokenCallback` uses `customerUserHash` parameter. This is a unique identifier for the user that can be used as a key for token storage. Feel free to ignore it if you have your own identifier.
+
+Kotlin
+```kotlin
+class CustomBiometricCallback: BiometricTokenCallback {
+
+    override fun onTokenGenerated(customerUserHash: String, biometricToken: String) {
+        // Called when new biometric token is generated during onboarding
+        // Use this callback to securely store the biometric token
+        // Please ensure that customerUserHash to biometricToken relationship is 1:1
+    }
+
+    override fun onTokenRequested(customerUserHash: String, provideToken: (String) -> Unit) {
+         // Called when biometric token is requested during re-authentication
+         // Provide the token to the SDK via provideToken(<biometricToken>)
+    }
+}
+```
+Java
+```java
+class CustomBiometricCallback implements BiometricTokenCallback {
+
+    @Override
+    public void onTokenGenerated(String customerUserHash, String biometricToken) {
+        // Called when new biometric token is generated during onboarding
+        // Use this callback to securely store the biometric token
+        // Please ensure that customerUserHash to biometricToken relationship is 1:1
+    }
+
+    @Override
+    public void onTokenRequested(String customerUserHash, @NotNull Function1<? super String, Unit> provideToken) {
+         // Called when biometric token is requested during re-authentication
+         // Provide the token to the SDK via provideToken.invoke(<biometricToken>);
+    }
+}
+```
+
+2. Set your implementation of `BiometricTokenCallback` in `WorkflowConfig.Builder`
+Kotlin
+```kotlin
+        val builder = WorkflowConfig.Builder(
+            // ...
+        )
+        builder.withBiometricCallback(customBiometricTokenCallback)
+```
+Java
+```java
+        WorkflowConfig.Builder builder = new WorkflowConfig.Builder(
+            // ...
+        );
+        builder.withBiometricCallback(customBiometricTokenCallback);
+```
 
 ## Cross platform frameworks
 

@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Kanan</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Main atau jeda</string>
 	<string name="onfido_doc_capture_button_accessibility">Ambil gambar</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Jeda video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Main video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Jeda animasi ilustratif prosedur pengimbasan</string>
+	<string name="onfido_video_intro_button_play_accessibility">Mainkan animasi ilustratif prosedur pengimbasan</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Dua baris terbawah tidak kelihatan</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Cuba semula pengimbasan</string>
+	<string name="onfido_nfc_scan_error_button_primary">Mulakan imbasan</string>
     <string name="onfido_nfc_scan_error_button_secondary">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_title">Kami tidak dapat mengimbas dokumen anda</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Letakkan dokumen anda melawan telefon anda. Anda mungkin perlu untuk perlahan-lahan menggeser dokumen anda melawan telefon anda.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Posisikan semula dokumen anda berhubung dengan telefon anda untuk mencari cip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Mulakan imbasan</string>
+	<string name="onfido_video_alert_video_too_long_title">Video terlalu panjang</string>
+	<string name="onfido_video_alert_video_too_long_detail">Video anda terlalu panjang untuk dihantar. Sila rakam video tersebut sekali lagi.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Cuba Semula</string>
+	<string name="onfido_retry_feedback_id_expired_title">Dokumen anda telah tamat tempoh</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Dokumen tidak diterima</string>
+	<string name="onfido_retry_feedback_id_generic_title">Terdapat masalah dengan dokumen anda</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Terdapat masalah dengan swafoto anda</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Sila cuba lagi dengan ID bergambar yang sah dan pastikan maklumat anda kelihatan dengan jelas</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Sila cuba lagi dengan ID bergambar yang sah dan pastikan maklumat anda kelihatan dengan jelas</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Sila cuba lagi dengan ID bergambar yang sah dan pastikan maklumat anda kelihatan dengan jelas</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Sila cuba lagi serta pastikan wajah anda kelihatan dan terang</string>
+	<string name="onfido_retry_feedback_button_primary">Cuba lagi</string>
+	<string name="onfido_retry_feedback_custom_title">Dokumen anda telah tamat tempoh</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Sila cuba lagi dengan ID bergambar yang sah dan pastikan maklumat anda kelihatan dengan jelas</string>
 </resources>

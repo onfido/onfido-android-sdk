@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Droite</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Lecture ou pause</string>
 	<string name="onfido_doc_capture_button_accessibility">Prendre une photo</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Mettre la vidéo en pause</string>
-    <string name="onfido_video_intro_button_play_accessibility">Lire la vidéo</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pause de l\'animation illustrative de la procédure de numérisation</string>
+	<string name="onfido_video_intro_button_play_accessibility">Jouer une animation illustrative de la procédure de numérisation</string>
 
     <!-- Document Error -->
 	<string name="onfido_doc_capture_alert_no_mrz_title">Les deux lignes inférieures sont non visibles</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Réessayer la numérisation</string>
+	<string name="onfido_nfc_scan_error_button_primary">Démarrer la numérisation</string>
     <string name="onfido_nfc_scan_error_button_secondary">Vérifier sans NFC</string>
     <string name="onfido_nfc_scan_error_title">Impossible de numériser votre document</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Placez votre document contre votre téléphone. Vous devrez peut-être faire glisser lentement votre document contre votre téléphone.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Repositionnez votre document en contact avec votre téléphone pour localiser la puce.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Démarrer la numérisation</string>
+	<string name="onfido_video_alert_video_too_long_title">Vidéo trop longue</string>
+	<string name="onfido_video_alert_video_too_long_detail">Votre vidéo est trop longue pour être soumise. Veuillez enregistrer la vidéo à nouveau.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Réessayer</string>
+	<string name="onfido_retry_feedback_id_expired_title">Votre document est expiré</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Document non accepté</string>
+	<string name="onfido_retry_feedback_id_generic_title">Un problème est survenu avec votre document</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Il y a eu un problème avec votre égoportrait</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Veuillez réessayer avec une pièce d\'identité avec photo valide et assurez-vous que vos informations sont clairement visibles</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Veuillez réessayer avec une pièce d\'identité avec photo valide et assurez-vous que vos informations sont clairement visibles</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Veuillez réessayer avec une pièce d\'identité avec photo valide et assurez-vous que vos informations sont clairement visibles</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Veuillez réessayer, et assurez-vous que votre visage est visible et bien éclairé</string>
+	<string name="onfido_retry_feedback_button_primary">Réessayer</string>
+	<string name="onfido_retry_feedback_custom_title">Votre document est expiré</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Veuillez réessayer avec une pièce d\'identité avec photo valide et assurez-vous que vos informations sont clairement visibles</string>
 </resources>

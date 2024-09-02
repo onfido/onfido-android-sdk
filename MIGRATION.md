@@ -4,7 +4,35 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
-## `20.5.0` -> `21.0.0`
+## `21.1.0` -> `21.2.0`
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_retry_feedback_id_expired_title` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_id_unaccepted_title` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_id_generic_title` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_selfie_generic_title` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_id_expired_subtitle` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_id_unaccepted_subtitle` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_id_generic_subtitle` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_selfie_generic_subtitle` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_custom_title` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_custom_subtitle` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_retry_feedback_button_primary` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)## `20.5.0` -> `21.0.0`
 
 ### Platform Changes
 

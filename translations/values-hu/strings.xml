@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Jobbra</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Lejátszás vagy szünet</string>
 	<string name="onfido_doc_capture_button_accessibility">Készítsen képet</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Videó szüneteltetése</string>
-    <string name="onfido_video_intro_button_play_accessibility">Videó lejátszása</string>
+	<string name="onfido_video_intro_button_pause_accessibility">A beolvasási eljárás illusztratív animációjának szüneteltetése</string>
+	<string name="onfido_video_intro_button_play_accessibility">A beolvasási eljárás szemléltető animációjának lejátszása</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Az alsó két sor nem látható</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">A beolvasás megismétlése</string>
+	<string name="onfido_nfc_scan_error_button_primary">Beolvasás indítása</string>
     <string name="onfido_nfc_scan_error_button_secondary">Ellenőrzés NFC nélkül</string>
     <string name="onfido_nfc_scan_error_title">Nem tudtuk beolvasni a dokumentumát</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Helyezze az okmányát a telefonja mellé. Lehet, hogy lassan végig kell húznia az okmányát a telefonján.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Helyezze újra az okmányát a telefonjához, hogy megtalálja a chipet.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Beolvasás indítása</string>
+	<string name="onfido_video_alert_video_too_long_title">Túl hosszú videó</string>
+	<string name="onfido_video_alert_video_too_long_detail">A videója túl hosszú a beküldéshez. Kérjük, rögzítse újra a videót.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Próbálja újra</string>
+	<string name="onfido_retry_feedback_id_expired_title">A dokumentuma lejárt</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Nem elfogadott dokumentum</string>
+	<string name="onfido_retry_feedback_id_generic_title">Probléma merült fel a dokumentumával kapcsolatban</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Probléma merült fel a szelfijével kapcsolatban</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Próbálkozzon újra, és ügyeljen, hogy arca látható és jól megvilágított legyen</string>
+	<string name="onfido_retry_feedback_button_primary">Próbálja újra</string>
+	<string name="onfido_retry_feedback_custom_title">A dokumentuma lejárt</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
 </resources>

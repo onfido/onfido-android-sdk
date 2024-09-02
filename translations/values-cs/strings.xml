@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Vpravo</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Přehrát nebo pozastavit</string>
 	<string name="onfido_doc_capture_button_accessibility">Vyfoťte se</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Pozastavit video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Přehrát video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pozastavit ilustrativní animaci skenovacího postupu</string>
+	<string name="onfido_video_intro_button_play_accessibility">Přehrát ilustrativní animaci skenovacího postupu</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Spodní dva řádky nejsou viditelné</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Opakování skenování</string>
+	<string name="onfido_nfc_scan_error_button_primary">Spuštění skenování</string>
     <string name="onfido_nfc_scan_error_button_secondary">Získej ověření bez NFC</string>
     <string name="onfido_nfc_scan_error_title">Váš dokument se nám nepodařilo naskenovat</string>
 
@@ -542,4 +542,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Umístěte svůj dokument na svůj telefon. Možná budete muset svůj dokument pomalu posouvat podél svého telefonu.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Přesuňte svůj dokument do kontaktu s vaším telefonem, abyste našli čip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Spuštění skenování</string>
+	<string name="onfido_video_alert_video_too_long_title">Video je příliš dlouhé</string>
+	<string name="onfido_video_alert_video_too_long_detail">Vaše video je příliš dlouhé na odeslání. Prosím, nahrajte video znovu.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Opakování</string>
+	<string name="onfido_retry_feedback_id_expired_title">Platnost Vašeho dokumentu vypršela</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Neakceptovatelný dokument</string>
+	<string name="onfido_retry_feedback_id_generic_title">Došlo k problému ve Vašem dokumentu</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Došlo k problému s vaším selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Zkuste to znovu a ujistěte se, že je Váš obličej viditelný a dobře osvětlený.</string>
+	<string name="onfido_retry_feedback_button_primary">Zkuste to znovu</string>
+	<string name="onfido_retry_feedback_custom_title">Platnost Vašeho dokumentu vypršela</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.</string>
 </resources>

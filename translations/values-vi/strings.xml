@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Phải</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Phát hoặc tạm dừng</string>
 	<string name="onfido_doc_capture_button_accessibility">Chụp ảnh</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Tạm dừng video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Phát video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Tạm dừng hoạt hình minh họa quy trình quét</string>
+	<string name="onfido_video_intro_button_play_accessibility">Phát hoạt hình minh họa về quy trình quét</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Không thể xác định hai dòng dưới cùng</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Thử quét lại</string>
+	<string name="onfido_nfc_scan_error_button_primary">Bắt đầu quét</string>
     <string name="onfido_nfc_scan_error_button_secondary">Được xác minh mà không cần NFC</string>
     <string name="onfido_nfc_scan_error_title">Chúng tôi không thể quét giấy tờ của bạn</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Đặt tài liệu của bạn lên điện thoại. Bạn có thể cần phải từ từ trượt tài liệu của bạn lên và xuống so với điện thoại.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Đặt lại tài liệu của bạn vào liên lạc với điện thoại của bạn để tìm chip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Bắt đầu quét</string>
+	<string name="onfido_video_alert_video_too_long_title">Video quá dài</string>
+	<string name="onfido_video_alert_video_too_long_detail">Video của bạn quá dài để gửi. Vui lòng quay lại video.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Thử lại</string>
+	<string name="onfido_retry_feedback_id_expired_title">Giấy tờ của bạn đã hết hạn</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Giấy tờ chưa được chấp nhận</string>
+	<string name="onfido_retry_feedback_id_generic_title">Đã xảy ra sự cố với giấy tờ của bạn</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Đã xảy ra sự cố với ảnh selfie của bạn</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Vui lòng thử lại với giấy tờ tùy thân có ảnh hợp lệ và đảm bảo thông tin của bạn được hiển thị rõ ràng</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Vui lòng thử lại với giấy tờ tùy thân có ảnh hợp lệ và đảm bảo thông tin của bạn được hiển thị rõ ràng</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Vui lòng thử lại với giấy tờ tùy thân có ảnh hợp lệ và đảm bảo thông tin của bạn được hiển thị rõ ràng</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Vui lòng thử lại và đảm bảo khuôn mặt của bạn được hiển thị rõ ràng và có đủ ánh sáng</string>
+	<string name="onfido_retry_feedback_button_primary">Thử lại</string>
+	<string name="onfido_retry_feedback_custom_title">Giấy tờ của bạn đã hết hạn</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Vui lòng thử lại với giấy tờ tùy thân có ảnh hợp lệ và đảm bảo thông tin của bạn được hiển thị rõ ràng</string>
 </resources>

@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">ขวา</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">เล่นหรือหยุดชั่วคราว</string>
 	<string name="onfido_doc_capture_button_accessibility">ถ่ายภาพ</string>
-    <string name="onfido_video_intro_button_pause_accessibility">หยุดวิดีโอชั่วคราว</string>
-    <string name="onfido_video_intro_button_play_accessibility">เล่นวิดีโอ</string>
+	<string name="onfido_video_intro_button_pause_accessibility">หยุดภาพประกอบการทำงานของกระบวนการสแกนชั่วคราว</string>
+	<string name="onfido_video_intro_button_play_accessibility">เล่นภาพเคลื่อนไหวเพื่อแสดงกระบวนการสแกน</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">ไม่เห็น 2 บรรทัดด้านล่าง</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">ลองสแกนอีกครั้ง</string>
+	<string name="onfido_nfc_scan_error_button_primary">เริ่มสแกน</string>
     <string name="onfido_nfc_scan_error_button_secondary">รับการตรวจสอบโดยไม่มี NFC</string>
     <string name="onfido_nfc_scan_error_title">เราสแกนเอกสารของคุณไม่ได้</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">วางเอกสารของคุณบนโทรศัพท์ของคุณ คุณอาจจำเป็นต้องเลื่อนเอกสารของคุณบนโทรศัพท์ของคุณอย่างช้าๆ</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">จัดตำแหน่งเอกสารของคุณให้สัมผัสกับโทรศัพท์เพื่อค้นหาชิป</string>
 	<string name="onfido_nfc_fail_button_primary_card">เริ่มสแกน</string>
+	<string name="onfido_video_alert_video_too_long_title">วิดีโอยาวเกินไป</string>
+	<string name="onfido_video_alert_video_too_long_detail">วิดีโอของคุณยาวเกินไปที่จะส่งได้ กรุณาบันทึกวิดีโออีกครั้ง</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_retry_feedback_id_expired_title">เอกสารของคุณหมดอายุแล้ว</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">เอกสารที่ไม่ยอมรับ</string>
+	<string name="onfido_retry_feedback_id_generic_title">เอกสารของคุณมีปัญหา</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">รูปเซลฟี่ของคุณมีปัญหา</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">โปรดลองอีกครั้ง และเช็คให้แน่ใจว่ามองเห็นใบหน้าของคุณได้ชัดเจนและมีแสงสว่างเพียงพอ</string>
+	<string name="onfido_retry_feedback_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_retry_feedback_custom_title">เอกสารของคุณหมดอายุแล้ว</string>
+	<string name="onfido_retry_feedback_custom_subtitle">โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน</string>
 </resources>

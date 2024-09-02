@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Right</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Play or pause</string>
 	<string name="onfido_doc_capture_button_accessibility">Take a picture</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Pause video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Play video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pause illustrative animation of scanning procedure</string>
+	<string name="onfido_video_intro_button_play_accessibility">Play illustrative animation of scanning procedure</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Bottom two lines not visible</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Retry scanning</string>
+	<string name="onfido_nfc_scan_error_button_primary">Start scan</string>
     <string name="onfido_nfc_scan_error_button_secondary">Get verified without NFC</string>
 	<string name="onfido_nfc_scan_error_title">We couldn\'t scan your document</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Position your document against your device. You may need to slowly slide your document against your device.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Reposition your document in contact with your phone to locate the chip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Start scan</string>
+	<string name="onfido_video_alert_video_too_long_title">Video too long</string>
+	<string name="onfido_video_alert_video_too_long_detail">Your video is too long to be submitted. Please record the video again.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Retry</string>
+	<string name="onfido_retry_feedback_id_expired_title">Your document has expired</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Unaccepted document</string>
+	<string name="onfido_retry_feedback_id_generic_title">There was a problem with your document</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">There was a problem with your selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Please try again with a valid photo ID and make sure your information is clearly visible</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Please try again with a valid photo ID and make sure your information is clearly visible</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Please try again with a valid photo ID and make sure your information is clearly visible</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Please try again, and make sure your face is visible and well lit</string>
+	<string name="onfido_retry_feedback_button_primary">Try again</string>
+	<string name="onfido_retry_feedback_custom_title">Your document has expired</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Please try again with a valid photo ID and make sure your information is clearly visible</string>
 </resources>

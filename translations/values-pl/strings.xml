@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">W prawo</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Odtwórz lub wstrzymaj</string>
 	<string name="onfido_doc_capture_button_accessibility">Zrób zdjęcie</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Wstrzymaj wideo</string>
-    <string name="onfido_video_intro_button_play_accessibility">Odtwórz wideo</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Zatrzymaj ilustracyjną animację procedury skanowania</string>
+	<string name="onfido_video_intro_button_play_accessibility">Odtwórz ilustracyjną animację procedury skanowania</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Nie widać dwóch dolnych linii</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Ponów skanowanie</string>
+	<string name="onfido_nfc_scan_error_button_primary">Rozpocznij skanowanie</string>
     <string name="onfido_nfc_scan_error_button_secondary">Uzyskaj weryfikację bez NFC</string>
     <string name="onfido_nfc_scan_error_title">Nie mogliśmy zeskanować Twojego dokumentu</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Umieść swój dokument na telefonie. Może być konieczne powolne przesuwanie dokumentu względem telefonu.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Umieść ponownie swój dokument w kontakcie z telefonem, aby zlokalizować chip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Rozpocznij skanowanie</string>
+	<string name="onfido_video_alert_video_too_long_title">Wideo jest zbyt długie</string>
+	<string name="onfido_video_alert_video_too_long_detail">Twoje wideo jest zbyt długie do przesłania. Proszę nagraj wideo ponownie.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Spróbuj ponownie</string>
+	<string name="onfido_retry_feedback_id_expired_title">Twój dokument stracił ważność</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Dokument nie został zaakceptowany</string>
+	<string name="onfido_retry_feedback_id_generic_title">Wystąpił problem z Twoim dokumentem</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Wystąpił problem z Twoim selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Spróbuj ponownie z ważnym dokumentem tożsamości ze zdjęciem i upewnij się, że Twoje dane są wyraźnie widoczne</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Spróbuj ponownie z ważnym dokumentem tożsamości ze zdjęciem i upewnij się, że Twoje dane są wyraźnie widoczne</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Spróbuj ponownie z ważnym dokumentem tożsamości ze zdjęciem i upewnij się, że Twoje dane są wyraźnie widoczne</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Spróbuj ponownie i upewnij się, że twarz jest widoczna i dobrze oświetlona</string>
+	<string name="onfido_retry_feedback_button_primary">Spróbuj ponownie</string>
+	<string name="onfido_retry_feedback_custom_title">Twój dokument stracił ważność</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Spróbuj ponownie z ważnym dokumentem tożsamości ze zdjęciem i upewnij się, że Twoje dane są wyraźnie widoczne</string>
 </resources>

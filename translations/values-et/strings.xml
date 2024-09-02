@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Paremale</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Esita või peata</string>
 	<string name="onfido_doc_capture_button_accessibility">Tehke pilt</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Peata video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Esita video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Peata skaneerimisprotseduuri illustreeriv animatsioon</string>
+	<string name="onfido_video_intro_button_play_accessibility">Esita skaneerimisprotseduuri illustreeriv animatsioon</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Kaks alumist rida ei ole nähtavad</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Proovige uuesti skannida</string>
+	<string name="onfido_nfc_scan_error_button_primary">Alustage skannimist</string>
     <string name="onfido_nfc_scan_error_button_secondary">Kinnitamine ilma NFC-ta</string>
     <string name="onfido_nfc_scan_error_title">Teie dokumendi skannimine ei õnnestunud</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Asetage oma dokument telefoni vastu. Võib-olla peate oma dokumenti aeglaselt telefoni vastu liigutama.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Paigutage oma dokument oma telefoni lähedusse, et kiip üles leida.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Alustage skannimist</string>
+	<string name="onfido_video_alert_video_too_long_title">Video on liiga pikk</string>
+	<string name="onfido_video_alert_video_too_long_detail">Teie video on liiga pikk esitamiseks. Palun salvestage video uuesti.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Proovige uuesti</string>
+	<string name="onfido_retry_feedback_id_expired_title">Teie dokument on aegunud</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Mittesobiv dokument</string>
+	<string name="onfido_retry_feedback_id_generic_title">Teie dokumendiga tekkis probleem</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Teie selfiga tekkis probleem</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Proovige uuesti, kasutades kehtiva fotoga isikutunnistust ja veenduge, et teie andmed on selgelt nähtavad</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Proovige uuesti, kasutades kehtiva fotoga isikutunnistust ja veenduge, et teie andmed on selgelt nähtavad</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Proovige uuesti, kasutades kehtiva fotoga isikutunnistust ja veenduge, et teie andmed on selgelt nähtavad</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Proovige uuesti ja veenduge, et teie nägu on nähtav ja hästi valgustatud</string>
+	<string name="onfido_retry_feedback_button_primary">Proovige uuesti</string>
+	<string name="onfido_retry_feedback_custom_title">Teie dokument on aegunud</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Proovige uuesti, kasutades kehtiva fotoga isikutunnistust ja veenduge, et teie andmed on selgelt nähtavad</string>
 </resources>

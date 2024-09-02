@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Höger</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Spela upp eller pausa</string>
 	<string name="onfido_doc_capture_button_accessibility">Ta ett foto</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Pausa video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Spela upp video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pausa illustrativ animation av skanningsproceduren</string>
+	<string name="onfido_video_intro_button_play_accessibility">Spela illustrativ animation av skanningsproceduren</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">De två nedre linjerna är inte synliga</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Försök igen med skanning</string>
+	<string name="onfido_nfc_scan_error_button_primary">Starta skanning</string>
     <string name="onfido_nfc_scan_error_button_secondary">Bli verifierad utan NFC</string>
     <string name="onfido_nfc_scan_error_title">Vi kunde inte skanna ditt dokument</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Placera ditt dokument mot din telefon. Du kan behöva sakta dra ditt dokument upp och ner mot din telefon.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Placera om ditt dokument i kontakt med din telefon för att hitta chippet.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Starta skanning</string>
+	<string name="onfido_video_alert_video_too_long_title">Videon är för lång</string>
+	<string name="onfido_video_alert_video_too_long_detail">Din video är för lång för att skickas in. Vänligen spela in videon igen.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Försök igen</string>
+	<string name="onfido_retry_feedback_id_expired_title">Ditt dokument har gått ut</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Dokumentet accepteras inte</string>
+	<string name="onfido_retry_feedback_id_generic_title">Det uppstod ett problem med ditt dokument</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Det uppstod ett problem med din selfie</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Försök igen med ett giltigt foto-ID och se till att din information syns tydligt</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Försök igen med ett giltigt foto-ID och se till att din information syns tydligt</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Försök igen med ett giltigt foto-ID och se till att din information syns tydligt</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Försök igen och se till att ditt ansikte är synligt och välbelyst</string>
+	<string name="onfido_retry_feedback_button_primary">Försök igen</string>
+	<string name="onfido_retry_feedback_custom_title">Ditt dokument har gått ut</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Försök igen med ett giltigt foto-ID och se till att din information syns tydligt</string>
 </resources>

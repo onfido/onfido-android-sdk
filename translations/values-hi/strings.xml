@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">दाएँ</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">चलाएँ या रोकें</string>
 	<string name="onfido_doc_capture_button_accessibility">तस्वीर लें</string>
-    <string name="onfido_video_intro_button_pause_accessibility">वीडियो रोकें</string>
-    <string name="onfido_video_intro_button_play_accessibility">वीडियो चलाएँ</string>
+	<string name="onfido_video_intro_button_pause_accessibility">स्कैन प्रक्रिया के आदर्श एनिमेशन को रोकें</string>
+	<string name="onfido_video_intro_button_play_accessibility">स्कैन प्रक्रिया का वर्णनात्मक एनिमेशन चलाएं</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">नीचे की दो लाइनें नहीं दिख रही हैं</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">फिर से स्कैन करें</string>
+	<string name="onfido_nfc_scan_error_button_primary">स्कैन शुरू करें</string>
     <string name="onfido_nfc_scan_error_button_secondary">एनएफसी के बिना सत्यापित हो जाओ</string>
     <string name="onfido_nfc_scan_error_title">हम आपका डॉक्यूमेंट स्कैन नहीं कर सके</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">अपने दस्तावेज़ को अपने फ़ोन के खिलाफ रखें। आपको शायद अपने दस्तावेज़ को अपने फ़ोन के खिलाफ धीरे-धीरे स्लाइड करने की आवश्यकता हो सकती है।</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">चिप का स्थान ढूंढने के लिए अपने फ़ोन के संपर्क में अपने दस्तावेज़ को पुनः स्थापित करें।</string>
 	<string name="onfido_nfc_fail_button_primary_card">स्कैन शुरू करें</string>
+	<string name="onfido_video_alert_video_too_long_title">वीडियो बहुत लंबी है</string>
+	<string name="onfido_video_alert_video_too_long_detail">आपका वीडियो जमा करने के लिए बहुत लंबा है। कृपया वीडियो को फिर से रिकॉर्ड करें।</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">फिर से कोशिश करें</string>
+	<string name="onfido_retry_feedback_id_expired_title">आपके डॉक्यूमेंट की समय-अवधि खत्म हो गई है</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">स्वीकार नहीं किए जाने वाले डॉक्यूमेंट</string>
+	<string name="onfido_retry_feedback_id_generic_title">आपके डॉक्यूमेंट में कोई समस्या थी</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">आपकी सेल्फ़ी में कोई समस्या थी</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">कृपया एक मान्य फ़ोटो आईडी के साथ फिर से कोशिश करें और पक्का करें कि आपकी जानकारी साफ़-साफ़ दिख रही है</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">कृपया एक मान्य फ़ोटो आईडी के साथ फिर से कोशिश करें और पक्का करें कि आपकी जानकारी साफ़-साफ़ दिख रही है</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">कृपया एक मान्य फ़ोटो आईडी के साथ फिर से कोशिश करें और पक्का करें कि आपकी जानकारी साफ़-साफ़ दिख रही है</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">कृपया फिर से कोशिश करें और पक्का करें कि आपका चेहरे पर अच्छी रोशनी पड़ रही है और वह दिख रहा है</string>
+	<string name="onfido_retry_feedback_button_primary">फिर से कोशिश करें</string>
+	<string name="onfido_retry_feedback_custom_title">आपके डॉक्यूमेंट की समय-अवधि खत्म हो गई है</string>
+	<string name="onfido_retry_feedback_custom_subtitle">कृपया एक मान्य फ़ोटो आईडी के साथ फिर से कोशिश करें और पक्का करें कि आपकी जानकारी साफ़-साफ़ दिख रही है</string>
 </resources>

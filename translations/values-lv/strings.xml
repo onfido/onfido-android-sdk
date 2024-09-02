@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">labi</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Atskaņot vai apturēt</string>
 	<string name="onfido_doc_capture_button_accessibility">Uzņemt fotoattēlu</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Apturēt video</string>
-    <string name="onfido_video_intro_button_play_accessibility">Atskaņot video</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Pauzēt ilustratīvu animāciju par skenēšanas procedūru</string>
+	<string name="onfido_video_intro_button_play_accessibility">Atskaņot ilustratīvu animāciju par skenēšanas procedūru</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Divas apakšējās rindas nav redzamas</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Mēģiniet noskenēt atkārtoti</string>
+	<string name="onfido_nfc_scan_error_button_primary">Sākt skenēšanu</string>
     <string name="onfido_nfc_scan_error_button_secondary">Iegūt verifikāciju bez NFC</string>
     <string name="onfido_nfc_scan_error_title">Mēs nevarējām noskenēt jūsu dokumentu</string>
 
@@ -543,4 +543,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Novietojiet savu dokumentu pret savu tālruni. Jums var nākties pakāpeniski pārvietot savu dokumentu pa tālruni.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Pārvietojiet savu dokumentu, lai tas saskartos ar jūsu tālruni un atrastu mikroshēmu.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Sākt skenēšanu</string>
+	<string name="onfido_video_alert_video_too_long_title">Video ir pārāk garš</string>
+	<string name="onfido_video_alert_video_too_long_detail">Jūsu video ir pārāk garš, lai to iesniegtu. Lūdzu, ierakstiet video vēlreiz.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Mēģināt vēlreiz</string>
+	<string name="onfido_retry_feedback_id_expired_title">Jūsu dokumenta derīguma termiņš ir beidzies</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Nepieņemts dokuments</string>
+	<string name="onfido_retry_feedback_id_generic_title">Radās problēma ar jūsu dokumentu</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Radās problēma ar jūsu selfiju</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Mēģiniet vēlreiz, izmantojot derīgu ID ar fotoattēlu, un pārliecinieties, ka jūsu informācija ir skaidri redzama</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Mēģiniet vēlreiz, izmantojot derīgu ID ar fotoattēlu, un pārliecinieties, ka jūsu informācija ir skaidri redzama</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Mēģiniet vēlreiz, izmantojot derīgu ID ar fotoattēlu, un pārliecinieties, ka jūsu informācija ir skaidri redzama</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Mēģiniet vēlreiz un pārliecinieties, ka jūsu seja ir redzama un labi apgaismota</string>
+	<string name="onfido_retry_feedback_button_primary">Mēģināt vēlreiz</string>
+	<string name="onfido_retry_feedback_custom_title">Jūsu dokumenta derīguma termiņš ir beidzies</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Mēģiniet vēlreiz, izmantojot derīgu ID ar fotoattēlu, un pārliecinieties, ka jūsu informācija ir skaidri redzama</string>
 </resources>

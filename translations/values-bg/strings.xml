@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Надясно</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Възпроизвеждане или пауза</string>
 	<string name="onfido_doc_capture_button_accessibility">Направете снимка</string>
-    <string name="onfido_video_intro_button_pause_accessibility">Пауза на видеото</string>
-    <string name="onfido_video_intro_button_play_accessibility">Възпроизвеждане на видеото</string>
+	<string name="onfido_video_intro_button_pause_accessibility">Пауза на илюстративната анимация на процедурата за сканиране</string>
+	<string name="onfido_video_intro_button_play_accessibility">Пуснете илюстративна анимация на процедурата за сканиране</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">Долните два реда не се виждат</string>
@@ -168,7 +168,7 @@
     <string name="onfido_user_consent_prompt_button_secondary">Прегледайте отново</string>
 
     <!-- Doc Liveness -->
-    <string name="onfido_doc_video_capture_stepper">Стъпка°%1$d от %2$d</string>
+	<string name="onfido_doc_video_capture_stepper">Стъпка %1$d от %2$d</string>
 
     <string name="onfido_doc_confirmation_button_primary_passport">Подаване на снимката</string>
     <string name="onfido_doc_confirmation_button_secondary_passport">Повторно заснемане</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">Повторен опит за сканиране</string>
+	<string name="onfido_nfc_scan_error_button_primary">Стартиране на сканиране</string>
     <string name="onfido_nfc_scan_error_button_secondary">Получаване на потвърждение без NFC</string>
     <string name="onfido_nfc_scan_error_title">Не можахме да сканираме документа ви</string>
 
@@ -422,10 +422,10 @@
 	<string name="onfido_doc_select_button_benefits_letter_detail">Официални удостоверения за получаване на помощи за домакинства, като напр. Финансова помощ при безработица, жилищна помощ, данъчни кредити</string>
     <string name="onfido_doc_select_button_address_card">Адресна карта</string>
     <string name="onfido_doc_select_button_address_card_detail">Приемат се временни и постоянни карти</string>
-	<string name="onfido_poa_guidance_subtitle_bank_statement">Трябва да е издаден през последните 3°месеца</string>
-	<string name="onfido_poa_guidance_subtitle_bill">Трябва да е издаден през последните 3°месеца</string>
+	<string name="onfido_poa_guidance_subtitle_bank_statement">Трябва да е издаден през последните 3 месеца</string>
+	<string name="onfido_poa_guidance_subtitle_bill">Трябва да е издаден през последните 3 месеца</string>
 	<string name="onfido_poa_guidance_subtitle_benefits_letter">Трябва да е издаден през последните 12</string>
-	<string name="onfido_poa_guidance_subtitle_tax_letter">Трябва да е издаден през последните 12°месеца</string>
+	<string name="onfido_poa_guidance_subtitle_tax_letter">Трябва да е издаден през последните 12 месеца</string>
     <string name="onfido_poa_guidance_subtitle_address_card">Адресната карта трябва да е валидна</string>
 	<string name="onfido_poa_guidance_instructions_label">Заснемете целия документ и се уверете, че той ясно показва:</string>
 	<string name="onfido_poa_guidance_instructions_logo">Лого</string>
@@ -542,4 +542,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Поставете вашия документ върху вашия телефон. Може да се наложи бавно да плъзгате вашия документ по телефона си.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Позиционирайте вашия документ в контакт с телефона си, за да намерите чипа.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Стартиране на сканиране</string>
+	<string name="onfido_video_alert_video_too_long_title">Видеото е твърде дълго</string>
+	<string name="onfido_video_alert_video_too_long_detail">Видеото ви е твърде дълго за изпращане. Моля, запишете видеото отново.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">Повторен опит</string>
+	<string name="onfido_retry_feedback_id_expired_title">Документът ви е с изтекла валидност</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">Не приемаме този тип документ</string>
+	<string name="onfido_retry_feedback_id_generic_title">Възникна проблем с документа ви</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">Възникна проблем със селфито ви</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">Опитайте отново с валиден документ за самоличност със снимка и се уверете, че информацията ви се вижда ясно</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">Опитайте отново с валиден документ за самоличност със снимка и се уверете, че информацията ви се вижда ясно</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">Опитайте отново с валиден документ за самоличност със снимка и се уверете, че информацията ви се вижда ясно</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">Опитайте отново и се уверете, че лицето ви се вижда и е добре осветено</string>
+	<string name="onfido_retry_feedback_button_primary">Опитайте отново</string>
+	<string name="onfido_retry_feedback_custom_title">Документът ви е с изтекла валидност</string>
+	<string name="onfido_retry_feedback_custom_subtitle">Опитайте отново с валиден документ за самоличност със снимка и се уверете, че информацията ви се вижда ясно</string>
 </resources>

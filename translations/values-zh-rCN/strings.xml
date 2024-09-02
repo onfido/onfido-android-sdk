@@ -152,8 +152,8 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">右</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">播放或暂停</string>
 	<string name="onfido_doc_capture_button_accessibility">拍摄照片</string>
-    <string name="onfido_video_intro_button_pause_accessibility">暂停视频</string>
-    <string name="onfido_video_intro_button_play_accessibility">播放视频</string>
+	<string name="onfido_video_intro_button_pause_accessibility">暂停扫描程序的示意动画</string>
+	<string name="onfido_video_intro_button_play_accessibility">播放扫描程序的说明性动画</string>
 
     <!-- Document Error -->
     <string name="onfido_doc_capture_alert_no_mrz_title">底部两行不可见</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">重试扫描</string>
+	<string name="onfido_nfc_scan_error_button_primary">开始扫描</string>
     <string name="onfido_nfc_scan_error_button_secondary">不用NFC获得验证</string>
     <string name="onfido_nfc_scan_error_title">我们无法扫描您的证明文件</string>
 
@@ -542,4 +542,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">将您的文件放在您的手机上。您可能需要将您的文件在手机上缓慢地滑动。</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">将您的证件重新放置在您的手机上以找到芯片。</string>
 	<string name="onfido_nfc_fail_button_primary_card">开始扫描</string>
+	<string name="onfido_video_alert_video_too_long_title">视频过长</string>
+	<string name="onfido_video_alert_video_too_long_detail">您的视频过长，无法提交。请重新录制视频。</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">重试</string>
+	<string name="onfido_retry_feedback_id_expired_title">您的证明文件已过期</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">未接受的证明文件</string>
+	<string name="onfido_retry_feedback_id_generic_title">您的证明文件有问题</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">您的自拍照有问题</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">请使用带照片的有效身份证件重试，并确保您的信息清晰可见</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">请使用带照片的有效身份证件重试，并确保您的信息清晰可见</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">请使用带照片的有效身份证件重试，并确保您的信息清晰可见</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">请重试，并确保您的面部清晰且光线充足</string>
+	<string name="onfido_retry_feedback_button_primary">请重试</string>
+	<string name="onfido_retry_feedback_custom_title">您的证明文件已过期</string>
+	<string name="onfido_retry_feedback_custom_subtitle">请使用带照片的有效身份证件重试，并确保您的信息清晰可见</string>
 </resources>

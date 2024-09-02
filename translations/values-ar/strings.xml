@@ -283,15 +283,15 @@
 
     <string name="onfido_welcome_list_header">استخدم جهازك من أجل:</string>
     <string name="onfido_welcome_list_item_doc_photo">التقط صورة لمستند هويتك</string>
-    <string name="onfido_welcome_list_item_doc_generic">قم بتسجيل فيديو لمستند هويتك</string>
-    <string name="onfido_welcome_list_item_face_photo">التقط صورة لوجهك</string>
+	<string name="onfido_welcome_list_item_doc_generic">تسجيل فيديو لمستند هويتك</string>
+	<string name="onfido_welcome_list_item_face_photo">التقاط صورة لوجهك</string>
     <string name="onfido_welcome_list_item_face_video">سجِّل فيديو لوجهك</string>
 
     <string name="onfido_doc_capture_alert_no_mrz3_title">الأسطر الثلاثة السفلية غير مرئية</string>
 
     <!-- NFC -->
 
-    <string name="onfido_nfc_scan_error_button_primary">إعادة محاولة المسح الضوئي</string>
+	<string name="onfido_nfc_scan_error_button_primary">ابدأ المسح</string>
     <string name="onfido_nfc_scan_error_button_secondary">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_title">لم نتمكن من مسح المستند ضوئيًا</string>
 
@@ -542,4 +542,18 @@
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">ضع المستند الخاص بك ضد هاتفك. قد تحتاج إلى تحريك المستند الخاص بك ببطء ضد هاتفك.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">أعد توجيه مستندك بالاتصال بهاتفك لتحديد موقع الشريحة.</string>
 	<string name="onfido_nfc_fail_button_primary_card">ابدأ المسح</string>
+	<string name="onfido_video_alert_video_too_long_title">الفيديو طويل جدا</string>
+	<string name="onfido_video_alert_video_too_long_detail">فيديوك طويل جدًا ليتم تقديمه. يرجى تسجيل الفيديو مرة أخرى.</string>
+	<string name="onfido_video_alert_video_too_long_button_primary">إعادة المحاولة</string>
+	<string name="onfido_retry_feedback_id_expired_title">انتهت صلاحية مستندك</string>
+	<string name="onfido_retry_feedback_id_unaccepted_title">مستند غير مقبول</string>
+	<string name="onfido_retry_feedback_id_generic_title">حدثت مشكلة في مستندك</string>
+	<string name="onfido_retry_feedback_selfie_generic_title">كان هناك مشكلة مع صورتك السيلفي</string>
+	<string name="onfido_retry_feedback_id_expired_subtitle">يُرجى المحاولة مرة أخرى باستخدام بطاقة هوية صالحة تحمل صورة والتأكد من أن معلوماتك مرئية بوضوح</string>
+	<string name="onfido_retry_feedback_id_unaccepted_subtitle">يُرجى المحاولة مرة أخرى باستخدام بطاقة هوية صالحة تحمل صورة والتأكد من أن معلوماتك مرئية بوضوح</string>
+	<string name="onfido_retry_feedback_id_generic_subtitle">يُرجى المحاولة مرة أخرى باستخدام بطاقة هوية صالحة تحمل صورة والتأكد من أن معلوماتك مرئية بوضوح</string>
+	<string name="onfido_retry_feedback_selfie_generic_subtitle">يرجى المحاولة مرة أخرى، والتأكد من أن وجهك مرئي ومضاء جيدًا</string>
+	<string name="onfido_retry_feedback_button_primary">إعادة المحاولة</string>
+	<string name="onfido_retry_feedback_custom_title">انتهت صلاحية مستندك</string>
+	<string name="onfido_retry_feedback_custom_subtitle">يُرجى المحاولة مرة أخرى باستخدام بطاقة هوية صالحة تحمل صورة والتأكد من أن معلوماتك مرئية بوضوح</string>
 </resources>
