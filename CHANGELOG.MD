@@ -9,7 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
-## [21.2.0] - 2024-08-30
+## [21.2.1] - 2024-09-27
+
+### Changed
+
+- Added type, issuing country and side metadata to document video uploads
+
+### Fixed
+
+- Fixed a publication issue within our SDK modules, which caused our `.aar`s to be missing from Maven central for the `onfido-capture-sdk` module (none of the other modules were impacted). Consequently, SDK integrations that were only importing this dependency were failing to compile: the dependencies were not correctly pulled and therefore imports were failing. Note: this was only happening when *not* using Onfido Studio (i.e. the `onfido-workflow` dependency being added was masking/working around the problem)
+
+## [21.2.0] - 2024-09-03
 
 ### Added
 
