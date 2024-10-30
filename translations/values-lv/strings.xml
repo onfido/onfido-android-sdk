@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Parādiet tikai savu seju, mums nav jāredz jūsu ID</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Parādiet tikai savu seju, mums nav jāredz jūsu personu apliecinošais dokuments</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Sākt ierakstu no jauna</string>
-	<string name="onfido_avc_confirmation_title">Ieraksts pabeigts</string>
-	<string name="onfido_avc_confirmation_subtitle">Jūsu sejas videoklips ir veiksmīgi ierakstīts</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Augšupielādēt ierakstu</string>
 	<string name="onfido_avc_connection_error_title">Savienojuma kļūda</string>
 	<string name="onfido_avc_connection_error_subtitle">Pārbaudiet, vai savienojums ir stabils, un pēc tam mēģiniet vēlreiz</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Seja nav centrēta</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Mēģināt vēlreiz</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio ierakstu atskaņo cita lietotne</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lūdzu, ieraksta laikā savā ierīcē neatskaņojiet citus audio ierakstus</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lēnām virziet savu dokumentu lejup un augšup pret savu tālruni, lai atrastu čipu.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">Mēģināt vēlreiz</string>
 	<string name="onfido_retry_feedback_custom_title">Jūsu dokumenta derīguma termiņš ir beidzies</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Mēģiniet vēlreiz, izmantojot derīgu ID ar fotoattēlu, un pārliecinieties, ka jūsu informācija ir skaidri redzama</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lēnām virziet savu dokumentu lejup un augšup pret savu tālruni, lai atrastu čipu.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informācija:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informācija:</string>
+	<string name="onfido_generic_footer_branding">Onfido īstā identitāte</string>
+	<string name="onfido_qes_error_misconfigured">Diemžēl ir radusies kļūda. Lūdzu, sazinieties ar savu atbalsta dienestu.</string>
+	<string name="onfido_permission_button_primary_both_label">Iespējojiet gan kameru, gan mikrofonu</string>
+	<string name="onfido_qes_consent_introduction_validation">Nepieciešama piekrišana</string>
 </resources>

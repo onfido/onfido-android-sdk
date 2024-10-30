@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">חשוב להציג רק את הפנים, אנחנו לא צריכים לראות את התעודה המזהה שלכם</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">חשוב להציג רק את הפנים, אין צורך להציג את התעודה המזהה שלכם</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">צלם מחדש</string>
-	<string name="onfido_avc_confirmation_title">הצילום הושלם</string>
-	<string name="onfido_avc_confirmation_subtitle">סרטון של הפנים שלך צולם בהצלחה</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">העלאת סרטון</string>
 	<string name="onfido_avc_connection_error_title">שגיאה בחיבור</string>
 	<string name="onfido_avc_connection_error_subtitle">ודא שהחיבור שלך יציב ונסה שוב</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">הפנים לא מופיעות במרכז</string>
@@ -472,7 +469,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">אל תפעיל אודיו במכשיר שלך במהלך ההקלטה</string>
 	<string name="onfido_doc_capture_header_recording_video">מקליט וידאו</string>
 	<string name="onfido_doc_capture_header_recording_complete">הצילום הושלם</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">השתמש בטלפון שלך כדי לסרוק את השבב במסמך שלך</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">הניחו את המסמך שלכם על גב המכשיר שלכם כך שהם מגעים</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">החלק את המסמך שלך למטה ולמעלה מול הטלפון שלך באופן איטי כדי לאתר את השבב.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">לאחר שהסריקה מתחילה, המשך להחזיק במקום כדי שהסריקה תוכל להסתיים</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">נסה שוב</string>
 	<string name="onfido_retry_feedback_custom_title">תוקף המסמך שלך פג</string>
 	<string name="onfido_retry_feedback_custom_subtitle">נסה שוב עם תעודה מזהה חוקית שכוללת תמונה וודא שהפרטים מופיעים בבירור</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">השתמש בטלפון שלך כדי לסרוק את השבב במסמך שלך</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">החלק את המסמך שלך למטה ולמעלה מול הטלפון שלך באופן איטי כדי לאתר את השבב.</string>
+	<string name="onfido_generic_icon_info_accessibility">מידע:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">מידע:</string>
+	<string name="onfido_generic_footer_branding">זהות אמיתית של Onfido</string>
+	<string name="onfido_qes_error_misconfigured">למרבה הצער, אירעה שגיאה. אנא צור קשר עם התמיכה שלך.</string>
+	<string name="onfido_permission_button_primary_both_label">אפשר את המצלמה והמיקרופון</string>
+	<string name="onfido_qes_consent_introduction_validation">נדרשת הסכמה</string>
 </resources>

@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Βεβαιωθείτε ότι έχετε δείξει μόνο το πρόσωπό σας, δεν χρειάζεται να δούμε την ταυτότητά σας</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Βεβαιωθείτε ότι έχετε δείξει μόνο το πρόσωπό σας, δεν χρειάζεται να δούμε το έγγραφο ταυτότητας</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Επανεκκίνηση εγγραφής</string>
-	<string name="onfido_avc_confirmation_title">Η εγγραφή ολοκληρώθηκε</string>
-	<string name="onfido_avc_confirmation_subtitle">Ένα βίντεο του προσώπου σας έχει εγγραφεί με επιτυχία</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Αποστολή εγγραφής</string>
 	<string name="onfido_avc_connection_error_title">Σφάλμα σύνδεσης</string>
 	<string name="onfido_avc_connection_error_subtitle">Βεβαιωθείτε ότι η σύνδεσή σας είναι σταθερή και, στη συνέχεια, δοκιμάστε ξανά</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Πρόσωπο μη κεντραρισμένο</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Προσπαθήστε ξανά</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Γίνεται αναπαραγωγή ήχου από άλλη εφαρμογή</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Μην κάνετε αναπαραγωγή ήχου στη συσκευή σας κατά τη διάρκεια της εγγραφής</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Τοποθετήστε το έγγραφό σας στο πίσω μέρος της συσκευής σας</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Μετακινήστε αργά το έγγραφό σας πάνω και κάτω εναντίον του τηλεφώνου σας για να εντοπίσετε το chip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Όταν ξεκινήσει η σάρωση, μην κινείστε για να μπορέσει να ολοκληρωθεί</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">Προσπαθήστε ξανά</string>
 	<string name="onfido_retry_feedback_custom_title">Το έγγραφό σας έχει λήξει</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Δοκιμάστε ξανά με μια έγκυρη φωτογραφία ταυτότητας και βεβαιωθείτε ότι τα στοιχεία σας είναι ευδιάκριτα</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Χρησιμοποιήστε το τηλέφωνό σας για να σαρώσετε το τσιπ στο έγγραφό σας</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Μετακινήστε αργά το έγγραφό σας πάνω και κάτω εναντίον του τηλεφώνου σας για να εντοπίσετε το chip.</string>
+	<string name="onfido_generic_icon_info_accessibility">Πληροφορίες:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Πληροφορίες:</string>
+	<string name="onfido_generic_footer_branding">Πραγματική ταυτότητα Onfido</string>
+	<string name="onfido_qes_error_misconfigured">Δυστυχώς, παρουσιάστηκε ένα σφάλμα. Παρακαλώ επικοινωνήστε με την υποστήριξή σας.</string>
+	<string name="onfido_permission_button_primary_both_label">Ενεργοποιήστε τόσο την κάμερα όσο και το μικρόφωνο</string>
+	<string name="onfido_qes_consent_introduction_validation">Απαιτείται συγκατάθεση</string>
 </resources>

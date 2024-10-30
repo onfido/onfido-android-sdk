@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Zorg ervoor dat u alleen uw gezicht laat zien, we hoeven uw identiteitsbewijs niet te zien</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Zorg ervoor dat u alleen uw gezicht laat zien, wij hoeven uw identiteitsbewijs niet te zien</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Opname opnieuw starten</string>
-	<string name="onfido_avc_confirmation_title">Opname voltooid</string>
-	<string name="onfido_avc_confirmation_subtitle">Er is met succes een video van uw gezicht opgenomen</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Opname uploaden</string>
 	<string name="onfido_avc_connection_error_title">Verbindingsfout</string>
 	<string name="onfido_avc_connection_error_subtitle">Controleer of u een stabiele verbinding heeft en probeer het daarna opnieuw</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Gezicht niet gecentreerd</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Opnieuw proberen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio wordt door een andere app afgespeeld</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Speel tijdens de opname geen audio af op uw apparaat.</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Gebruik uw telefoon om de chip in uw document te scannen</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Plaats uw document tegen de achterkant van uw apparaat zodat ze elkaar raken</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Schuif je document langzaam omlaag en omhoog tegen je telefoon om de chip te vinden.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Zodra de scan begint, blijf stil zodat de scan kan voltooien</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">Probeer het opnieuw</string>
 	<string name="onfido_retry_feedback_custom_title">Uw document is verlopen</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Probeer het opnieuw met een geldig identiteitsbewijs met foto en zorg ervoor dat uw gegevens duidelijk leesbaar zijn</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Gebruik uw telefoon om de chip in uw document te scannen</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Schuif je document langzaam omlaag en omhoog tegen je telefoon om de chip te vinden.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informatie:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informatie:</string>
+	<string name="onfido_generic_footer_branding">Onfido echte identiteit</string>
+	<string name="onfido_qes_error_misconfigured">Helaas is er een fout opgetreden. Neem alstublieft contact op met uw ondersteuning.</string>
+	<string name="onfido_permission_button_primary_both_label">Schakel zowel de camera als de microfoon in</string>
+	<string name="onfido_qes_consent_introduction_validation">Toestemming vereist</string>
 </resources>

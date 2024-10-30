@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Ukážte len svoju tvár, nepotrebujeme vidieť váš doklad totožnosti</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Ukážte len svoju tvár, nepotrebujeme vidieť váš doklad totožnosti</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Spustiť záznam znova</string>
-	<string name="onfido_avc_confirmation_title">Zaznamenávanie je ukončené</string>
-	<string name="onfido_avc_confirmation_subtitle">Video vašej tváre bolo úspešne zaznamenané</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Nahrať záznam</string>
 	<string name="onfido_avc_connection_error_title">Chyba pripojenia</string>
 	<string name="onfido_avc_connection_error_subtitle">Skontrolujte, či je vaše pripojenie stabilné, a potom to skúste znova</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Tvár nie je v strede</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Skúsiť znova</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Zvuk prehráva iná aplikácia</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Počas zaznamenávania neprehrávajte v zariadení žiadne zvuky</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Použite svoj telefón na skenovanie čipu vo vašom dokumente</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Umiestnite svoj dokument na zadnú stranu vášho zariadenia tak, aby sa dotýkali</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pomaly posúvajte svoj dokument nadol a nahor oproti telefónu, aby ste našli čip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Akonáhle sa začne skenovanie, nehybte sa, aby mohlo skenovanie prebehnúť</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">Skúsiť znova</string>
 	<string name="onfido_retry_feedback_custom_title">Platnosť dokladu vypršala</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Skúste to znova s platným dokladom totožnosti s fotkou a uistite sa, že vaše údaje sú jasne viditeľné</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Použite svoj telefón na skenovanie čipu vo vašom dokumente</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Pomaly posúvajte svoj dokument nadol a nahor oproti telefónu, aby ste našli čip.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informácie:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informácie:</string>
+	<string name="onfido_generic_footer_branding">Skutočná identita Onfido</string>
+	<string name="onfido_qes_error_misconfigured">Bohužiaľ, došlo k chybe. Prosím, kontaktujte svoju podporu.</string>
+	<string name="onfido_permission_button_primary_both_label">Povoľte kameru aj mikrofón</string>
+	<string name="onfido_qes_consent_introduction_validation">Vyžadovaný súhlas</string>
 </resources>

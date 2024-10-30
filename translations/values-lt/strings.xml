@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Įsitikinkite, kad matomas tik Jūsų veidas. Asmens tapatybės dokumentas nuotraukai nereikalingas</string>
 	<string name="onfido_avc_no_face_detected_list_item_face_accessibility">Įsitikinkite, kad matosi tik jūsų veidas – mums nereikia matyti jūsų asmens tapatybės dokumento</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Iš naujo pradėti įrašymą</string>
-	<string name="onfido_avc_confirmation_title">Įrašymas baigtas</string>
-	<string name="onfido_avc_confirmation_subtitle">Jūsų veido vaizdo įrašas sėkmingai padarytas</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Įkelti įrašą</string>
 	<string name="onfido_avc_connection_error_title">Ryšio klaida</string>
 	<string name="onfido_avc_connection_error_subtitle">Patikrinkite, ar ryšys stabilus, tada bandykite dar kartą</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Veidas nėra centre</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Bandyti dar kartą</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Garso įrašą groja kita programėlė</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Įrašymo metu savo įrenginyje negrokite jokių garso įrašų</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Padėkite savo dokumentą prie savo įrenginio galo, kad jie liestųsi</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lėtai stumkite savo dokumentą žemyn ir aukštyn prieš savo telefoną, kad rastumėte lustą.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kai prasideda skenavimas, nesijudinkite, kad skenavimas galėtų būti užbaigtas</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">Bandyti dar kartą</string>
 	<string name="onfido_retry_feedback_custom_title">Jūsų dokumentas nebegalioja</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Bandykite dar kartą naudodami galiojantį asmens tapatybės dokumentą su nuotrauka ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Naudokite savo telefoną, kad nuskaitytumėte lustą savo dokumente</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lėtai stumkite savo dokumentą žemyn ir aukštyn prieš savo telefoną, kad rastumėte lustą.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informacija:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informacija:</string>
+	<string name="onfido_generic_footer_branding">Onfido tikra tapatybė</string>
+	<string name="onfido_qes_error_misconfigured">Deja, įvyko klaida. Prašome susisiekti su savo palaikymu.</string>
+	<string name="onfido_permission_button_primary_both_label">Įjunkite kamerą ir mikrofoną</string>
+	<string name="onfido_qes_consent_introduction_validation">Reikalingas sutikimas</string>
 </resources>

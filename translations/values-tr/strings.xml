@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Sadece yüzünüzü gösterdiğinizden emin olun, kimliğinizi görmemize gerek yok</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Sadece yüzünüzü gösterdiğinizden emin olun, Kimlik Belgenizi görmemize gerek yok</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Kaydı yeniden başlat</string>
-	<string name="onfido_avc_confirmation_title">Kayıt tamamlandı</string>
-	<string name="onfido_avc_confirmation_subtitle">Yüzünüzün bir videosu başarıyla kaydedildi</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Kaydı yükle</string>
 	<string name="onfido_avc_connection_error_title">Bağlantı hatası</string>
 	<string name="onfido_avc_connection_error_subtitle">Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Yüz ortalanmamış</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yeniden dene</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Ses başka bir uygulama tarafından oynatılıyor</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lütfen kayıt sırasında cihazınızda herhangi bir ses oynatmayın</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Telefonunuzu kullanarak belgenizdeki çipi tarayın</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Cihazınızın arkasına belgenizi yerleştirin, böylece birbirine değsinler</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Kimlik belgenizi telefonunuzun üzerinde yavaşça aşağı ve yukarı kaydırın, çipi bulmak için.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Tarama başladığında, taramanın tamamlanabilmesi için hareketsiz durun</string>
@@ -558,4 +554,12 @@
 	<string name="onfido_retry_feedback_button_primary">Tekrar deneyin</string>
 	<string name="onfido_retry_feedback_custom_title">Belgenizin süresi doldu</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Lütfen geçerli bir fotoğraflı kimlikle tekrar deneyin ve bilgilerinizin net bir şekilde göründüğünden emin olun</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Telefonunuzu kullanarak belgenizdeki çipi tarayın</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Kimlik belgenizi telefonunuzun üzerinde yavaşça aşağı ve yukarı kaydırın, çipi bulmak için.</string>
+	<string name="onfido_generic_icon_info_accessibility">Bilgi:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Bilgi:</string>
+	<string name="onfido_generic_footer_branding">Onfido gerçek kimlik</string>
+	<string name="onfido_qes_error_misconfigured">Maalesef, bir hata oluştu. Lütfen destek ekibinizle iletişime geçin.</string>
+	<string name="onfido_permission_button_primary_both_label">Hem kamerayı hem de mikrofonu etkinleştir</string>
+	<string name="onfido_qes_consent_introduction_validation">Onay gerekli</string>
 </resources>

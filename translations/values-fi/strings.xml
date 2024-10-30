@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Varmista, että näytät vain kasvosi, meidän ei tarvitse nähdä ID:täsi</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Varmista, että näytät vain kasvosi, meidän ei tarvitse nähdä henkilötodistustasi</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Aloita tallennus uud.</string>
-	<string name="onfido_avc_confirmation_title">Tallennus valmis</string>
-	<string name="onfido_avc_confirmation_subtitle">Videon tallennus kasvoistasi onnistui</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Lataa tallenne</string>
 	<string name="onfido_avc_connection_error_title">Yhteysvirhe</string>
 	<string name="onfido_avc_connection_error_subtitle">Tarkista, että yhteys on vakaa, ja yritä sitten uudelleen</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Kasvot eivät ole keskellä</string>
@@ -470,7 +467,6 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yritä uudelleen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Jokin toinen sovellus toistaa ääntä</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Älä toista laitteellasi mitään ääntä tallennuksen aikana</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Käytä puhelintasi skannaamaan siru dokumentissasi</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Aseta dokumenttisi laitteesi taakse niin, että ne koskettavat toisiaan</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Liu\'uta asiakirjaasi hitaasti alas ja ylös puhelintasi vasten löytääksesi sirun.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun</string>
@@ -557,4 +553,12 @@
 	<string name="onfido_retry_feedback_button_primary">Yritä uud.</string>
 	<string name="onfido_retry_feedback_custom_title">Asiakirjasi on vanhentunut</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Yritä uudelleen voimassa olevalla kuvallisella ID:llä ja varmista, että tietosi näkyvät selvästi</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Käytä puhelintasi skannaamaan siru dokumentissasi</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Liu\'uta asiakirjaasi hitaasti alas ja ylös puhelintasi vasten löytääksesi sirun.</string>
+	<string name="onfido_generic_icon_info_accessibility">Tietoa:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Tietoa:</string>
+	<string name="onfido_generic_footer_branding">Onfido todellinen identiteetti</string>
+	<string name="onfido_qes_error_misconfigured">Valitettavasti on tapahtunut virhe. Ota yhteyttä tukeesi.</string>
+	<string name="onfido_permission_button_primary_both_label">Ota sekä kamera että mikrofoni käyttöön</string>
+	<string name="onfido_qes_consent_introduction_validation">Suostumus vaaditaan</string>
 </resources>

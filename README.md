@@ -62,11 +62,11 @@ Our configuration is currently set to the following:
 - `minSdkVersion = 21`
 - `targetSdkVersion = 34`
 - `android.useAndroidX=true`
-- `Kotlin = 1.7.10+` (**Please note**: Kotlin 2.0 is **not** supported)
+- `Kotlin = 1.9.22+` (this includes support for Kotlin 2.0.0)
 ```
   compileOptions {
-    sourceCompatibility JavaVersion.VERSION_1_8
-    targetCompatibility JavaVersion.VERSION_1_8
+    sourceCompatibility JavaVersion.VERSION_11
+    targetCompatibility JavaVersion.VERSION_11
   }
 ```
 
@@ -97,7 +97,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 14.66 Mb  |
+| armeabi-v7a | 14.71 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -121,7 +121,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.55 Mb  |
+| core-armeabi-v7a | 11.61 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -296,9 +296,9 @@ The Android SDK supports the customization of colors, buttons, icons, fonts, wid
 
 #### Appearance and Colors
 
-You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoActivityTheme` 
+You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoLightTheme` 
 and `OnfidoDarkTheme`) in your `themes.xml` or `styles.xml` files.
-Make sure to set `OnfidoBaseActivityTheme` as the parent of `OnfidoActivityTheme` and  `OnfidoBaseDarkTheme` as the parent of `OnfidoDarkTheme` in your style definition.
+Make sure to set `OnfidoBaseActivityTheme` as the parent of `OnfidoLightTheme` and  `OnfidoBaseDarkTheme` as the parent of `OnfidoDarkTheme` in your style definition.
 
 All colors referenced in the themes should be defined in your `colors.xml` file.  Alternatively, you can use hexadecimal 
 color values directly in the themes. When customizing fonts, all referenced fonts must be added to your project first. 
@@ -310,7 +310,7 @@ color:
 
 ```xml
 <!-- Light theme -->
-<style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
+<style name="OnfidoLightTheme" parent="OnfidoBaseActivityTheme">
     <item name="onfidoColorToolbarBackground">@color/brand_dark_blue</item>
     <item name="onfidoColorActionMain">@color/brand_accent_color</item>
 </style>
@@ -349,22 +349,22 @@ You can customize the appearance of some widgets in your `dimens.xml` file by ov
 
 #### Typography
 
-You can customize the SDK's fonts by providing [font XML resources](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) to the theme by setting the `OnfidoActivityTheme` attribute.
+You can customize the SDK's fonts by providing [font XML resources](https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml) to the theme by setting the `OnfidoLightTheme` attribute.
 
 For example:
 
 In your application's `styles.xml` file:
 ```xml
-<style name="OnfidoActivityTheme" parent="OnfidoBaseActivityTheme">
-        <item name="onfidoFontFamilyTitleAttr">@font/montserrat_semibold</item>
-        <item name="onfidoFontFamilyBodyAttr">@font/font_montserrat</item>
+<style name="OnfidoLightTheme" parent="OnfidoBaseActivityTheme">
+        <item name="onfidoFontFamilyTitle">@font/montserrat_semibold</item>
+        <item name="onfidoFontFamilyBody">@font/font_montserrat</item>
 
         <!-- You can also make the dialog buttons follow another fontFamily like a regular button -->
-        <item name="onfidoFontFamilyDialogButtonAttr">?onfidoFontFamilyButton</item>
+        <item name="onfidoFontFamilyDialogButton">?onfidoFontFamilyButton</item>
 
-        <item name="onfidoFontFamilySubtitleAttr">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyButtonAttr">@font/font_montserrat</item>
-        <item name="onfidoFontFamilyToolbarTitleAttr">@font/font_montserrat_semibold</item>
+        <item name="onfidoFontFamilySubtitle">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyButton">@font/font_montserrat</item>
+        <item name="onfidoFontFamilyToolbarTitle">@font/font_montserrat_semibold</item>
 </style>
 ```
 
@@ -598,6 +598,8 @@ override fun onException(exception: OnfidoWorkflow.WorkflowException) {
         // This happens when workflow run is abandoned. In this case a new workflow run has to be created
         is WorkflowBiometricTokenRetrievalException ->
         // This happens when workflow task encounters an error during biometric token retrieval
+        is WorkflowBiometricTokenStorageException ->
+        // This happens when workflow task encounters an error while storing biometric token
         else -> 
         // Necessary because of Kotlin
     }
@@ -1065,8 +1067,8 @@ Document:
 Face:
         Face(id=face_id, variant=PHOTO) 
         
-Proof of address:
-        Poa(id=poa_id, type=UTILITY_BILL, issuing_country=UK)    
+Proof of address:   
+        ProofOfAddress(type=UTILITY_BILL, front = (id = front_side_id, type = (optional)), back = (id = back_side_id, type = (optional))) 
 ```
 **Note**: the `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
@@ -1336,7 +1338,7 @@ You can use the data to keep track of how many users reach each screen in your f
 
 ## Custom biometric token storage
 
-When using the decentralized authentication solution, by default the SDK manages biometric token storage. The SDK also allows the clients to take control of the token lifecycle and exposes an API to override the default implementation to read and write the token, so it can be stored on device, in cloud, in a keystore or on your premises.
+When using the authentication with local storage solution, by default the SDK manages biometric token storage. The SDK also allows the clients to take control of the token lifecycle and exposes an API to override the default implementation to read and write the token, so it can be stored on device, in cloud, in a keystore or on your premises.
 
 #### Implementation
 1. Provide a custom implementation for `BiometricTokenCallback`
