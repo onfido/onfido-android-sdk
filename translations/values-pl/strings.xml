@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Upewnij się, że pokazujesz tylko swoją twarz, nie musimy widzieć Twojego dokumentu tożsamości</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Upewnij się, że pokazujesz tylko swoją twarz, nie musimy widzieć Twojego dokumentu tożsamości</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Nagraj ponownie</string>
+	<string name="onfido_avc_confirmation_title">Nagrywanie zakończone</string>
+	<string name="onfido_avc_confirmation_subtitle">Udało się nagrać film wideo przedstawiający Twoją twarz</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Prześlij nagranie</string>
 	<string name="onfido_avc_connection_error_title">Błąd połączenia</string>
 	<string name="onfido_avc_connection_error_subtitle">Sprawdź, czy połączenie z internetem jest stabilne, a następnie spróbuj ponownie</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Twarz nie jest wyśrodkowana</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Spróbuj ponownie</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Dźwięk jest odtwarzany przez inną aplikację</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Nie odtwarzaj żadnego dźwięku na urządzeniu podczas nagrywania</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Użyj swojego telefonu do zeskanowania chipa w twoim dokumencie</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Umieść swój dokument na tyle swojego urządzenia, tak aby się dotykały</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Powoli przesuwaj dokument w dół i w górę przy telefonie, aby zlokalizować chip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Gdy rozpocznie się skanowanie, zachowaj nieruchomość, aby skanowanie mogło się zakończyć</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Spróbuj ponownie</string>
 	<string name="onfido_retry_feedback_custom_title">Twój dokument stracił ważność</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Spróbuj ponownie z ważnym dokumentem tożsamości ze zdjęciem i upewnij się, że Twoje dane są wyraźnie widoczne</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Użyj swojego telefonu do zeskanowania chipa w twoim dokumencie</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Powoli przesuwaj dokument w dół i w górę przy telefonie, aby zlokalizować chip.</string>
-	<string name="onfido_generic_icon_info_accessibility">Informacja:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informacja:</string>
-	<string name="onfido_generic_footer_branding">Prawdziwa tożsamość Onfido</string>
-	<string name="onfido_qes_error_misconfigured">Niestety, wystąpił błąd. Proszę skontaktować się z działem wsparcia.</string>
-	<string name="onfido_permission_button_primary_both_label">Włącz zarówno kamerę, jak i mikrofon</string>
-	<string name="onfido_qes_consent_introduction_validation">Wymagana zgoda</string>
 </resources>

@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Đảm bảo chỉ hiển thị khuôn mặt của bạn, chúng tôi không cần xem giấy tờ tùy thân của bạn</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Đảm bảo chỉ hiển thị khuôn mặt của bạn, chúng tôi không cần xem giấy tờ tùy thân của bạn</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Quay lại video</string>
+	<string name="onfido_avc_confirmation_title">Ghi hình đã hoàn tất</string>
+	<string name="onfido_avc_confirmation_subtitle">Video về khuôn mặt của bạn đã được ghi lại thành công</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Tải bản ghi lên</string>
 	<string name="onfido_avc_connection_error_title">Lỗi kết nối</string>
 	<string name="onfido_avc_connection_error_subtitle">Kiểm tra xem kết nối của bạn và thử lại</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Khuôn mặt không được căn giữa</string>
@@ -469,6 +472,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vui lòng không phát bất kỳ âm thanh nào trên thiết bị của bạn trong khi ghi âm</string>
 	<string name="onfido_doc_capture_header_recording_video">Ghi video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Ghi hình đã hoàn tất</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Sử dụng điện thoại của bạn để quét chip trong tài liệu của bạn</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Đặt tài liệu của bạn vào phía sau của thiết bị để chúng tiếp xúc với nhau</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Từ từ trượt tài liệu của bạn lên xuống trên điện thoại để tìm chip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Thử lại</string>
 	<string name="onfido_retry_feedback_custom_title">Giấy tờ của bạn đã hết hạn</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Vui lòng thử lại với giấy tờ tùy thân có ảnh hợp lệ và đảm bảo thông tin của bạn được hiển thị rõ ràng</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Sử dụng điện thoại của bạn để quét chip trong tài liệu của bạn</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Từ từ trượt tài liệu của bạn lên xuống trên điện thoại để tìm chip.</string>
-	<string name="onfido_generic_icon_info_accessibility">Thông tin:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Thông tin:</string>
-	<string name="onfido_generic_footer_branding">Onfido danh tính thực</string>
-	<string name="onfido_qes_error_misconfigured">Rất tiếc, đã xảy ra lỗi. Vui lòng liên hệ với bộ phận hỗ trợ của bạn.</string>
-	<string name="onfido_permission_button_primary_both_label">Bật cả camera và micro</string>
-	<string name="onfido_qes_consent_introduction_validation">Yêu cầu sự đồng ý</string>
 </resources>

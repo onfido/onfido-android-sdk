@@ -8,7 +8,7 @@
     <string name="onfido_doc_capture_prompt_button_paper">Document hârtie</string>
     <string name="onfido_doc_capture_prompt_button_card">Card de plastic</string>
     <string name="onfido_doc_capture_prompt_title_license">Ce tip de permis de conducere aveți?</string>
-	<string name="onfido_doc_capture_prompt_title_id">Ce tip de carte de identitate aveți?</string>
+	<string name="onfido_doc_capture_prompt_title_id">Ce tip de cărții de identitate aveți?</string>
     <string name="onfido_doc_capture_detail_folded_doc_front">Poziționați documentul dvs. pe o suprafață plană, includeți toate paginile interne (trebuie să conțină poza dvs.)</string>
     <string name="onfido_doc_capture_detail_folded_doc_back">Poziționați documentul dvs. pe o suprafață plană, includeți toate paginile externe</string>
 
@@ -28,7 +28,7 @@
     <string name="onfido_doc_select_button_passport">Pașaport</string>
     <string name="onfido_doc_select_button_visa">Viză</string>
     <string name="onfido_doc_select_button_license">Permis de conducere</string>
-	<string name="onfido_doc_select_button_id">Carte de identitate națională</string>
+	<string name="onfido_doc_select_button_id">Cărții de identitate național</string>
     <string name="onfido_doc_select_button_permit">Permis de ședere</string>
 	<string name="onfido_doc_select_button_permit_work">Permis de muncă</string>
 
@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Asigurați-vă că vă arătați doar fața, nu trebuie să vedem documentul dvs. de identitate</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Asigurați-vă că vă arătați doar fața, nu trebuie să vedem documentul dumneavoastră de identitate</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Începeți din nou înregistrarea</string>
+	<string name="onfido_avc_confirmation_title">Înregistrare finalizată</string>
+	<string name="onfido_avc_confirmation_subtitle">Un clip video cu fața dvs. a fost înregistrat cu succes</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Încărcați înregistrarea</string>
 	<string name="onfido_avc_connection_error_title">Eroare de conectare</string>
 	<string name="onfido_avc_connection_error_subtitle">Verificați stabilitatea conexiunii dvs. și apoi încercați din nou</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Fața nu este centrată</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Încercați din nou</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Semnalul audio este redat de altă aplicație</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vă rugăm să nu redați semnal audio pe dispozitivul dvs. pe parcursul înregistrării video</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Folosiți telefonul pentru a scana cipul din documentul dvs.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Puneți documentul dvs. împotriva părții din spate a dispozitivului dvs. astfel încât să se atingă</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Glisați încet documentul în jos și în sus pe telefonul dvs. pentru a localiza cipul.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Încercați din nou</string>
 	<string name="onfido_retry_feedback_custom_title">Documentul dvs. a expirat</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Vă rugăm să încercați din nou cu un document de identitate cu poză valabil și asigurați-vă că informațiile dvs. sunt clar vizibile</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Folosiți telefonul pentru a scana cipul din documentul dvs.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Glisați încet documentul în jos și în sus pe telefonul dvs. pentru a localiza cipul.</string>
-	<string name="onfido_generic_icon_info_accessibility">Informație:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informație:</string>
-	<string name="onfido_generic_footer_branding">Identitate reală Onfido</string>
-	<string name="onfido_qes_error_misconfigured">Din păcate, a apărut o eroare. Vă rugăm să contactați suportul dvs.</string>
-	<string name="onfido_permission_button_primary_both_label">Activează atât camera, cât și microfonul</string>
-	<string name="onfido_qes_consent_introduction_validation">Consimțământ necesar</string>
 </resources>

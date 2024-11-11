@@ -381,6 +381,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Make sure to only show your face, we don’t need to see your ID</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Make sure to only show your face, we don’t need to see your Identity Document</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Restart recording</string>
+	<string name="onfido_avc_confirmation_title">Recording complete</string>
+	<string name="onfido_avc_confirmation_subtitle">A video of your face has been recorded successfully</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Upload recording</string>
 	<string name="onfido_avc_connection_error_title">Connection error</string>
 	<string name="onfido_avc_connection_error_subtitle">Check that your connection is stable, then try again</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Face not centered</string>
@@ -465,6 +468,7 @@
     <string name="onfido_doc_select_subtitle_photo_page">Photo page</string>
 	<string name="onfido_doc_select_subtitle_front_back">Front and back</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Select issuing country</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Use your phone to scan the chip in your document</string>
     <string name="onfido_nfc_scan_welcome_card_list_item">Place your document against the back of your phone.</string>
     <string name="onfido_nfc_scan_welcome_card_list_item_2">Slowly slide your document up and down against your phone to locate the chip.</string>
     <string name="onfido_nfc_scan_welcome_card_list_item_3">Once the chip is detected, keep your phone and document still.</string>
@@ -552,12 +556,4 @@
 	<string name="onfido_retry_feedback_button_primary">Try again</string>
 	<string name="onfido_retry_feedback_custom_title">Your document has expired</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Please try again with a valid photo ID and make sure your information is clearly visible</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Use your phone to scan the chip in your document</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Slowly slide your document up and down against your phone to locate the chip.</string>
-	<string name="onfido_generic_icon_info_accessibility">Information:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Information:</string>
-	<string name="onfido_generic_footer_branding">Onfido real identity</string>
-	<string name="onfido_qes_error_misconfigured">Unfortunately, an error has occurred. Please contact your support.</string>
-	<string name="onfido_permission_button_primary_both_label">Enable both the camera and microphone</string>
-	<string name="onfido_qes_consent_introduction_validation">Consent required</string>
 </resources>

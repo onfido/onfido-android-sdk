@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Obavezno pokažite samo svoje lice, ne moramo vidjeti vašu osobnu iskaznicu</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Obavezno pokažite samo svoje lice, ne moramo vidjeti vaš identifikacijski dokument</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Ponovno započnite snimanje</string>
+	<string name="onfido_avc_confirmation_title">Snimanje je završeno</string>
+	<string name="onfido_avc_confirmation_subtitle">Videozapis vašeg lica uspješno je snimljen</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Prenesite snimku</string>
 	<string name="onfido_avc_connection_error_title">Došlo je do pogreške pri povezivanju</string>
 	<string name="onfido_avc_connection_error_subtitle">Provjerite je li veza stabilna pa pokušajte ponovno</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Lice nije centrirano</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Pokušajte ponovno</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Zvuk reproducira druga aplikacija</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Nemojte reproducirati zvuk na svojem uređaju tijekom snimanja</string>
+    <string name="onfido_nfc_scan_welcome_card_subtitle">Skenirati ćemo NFC čip vašeg dokumenta</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Stavite dokument na stražnju stranu uređaja</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Polako klizite svoj dokument gore i dolje uz svoj telefon kako biste locirali čip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Jednom kada skeniranje započne, ostanite mirni kako bi se skeniranje moglo dovršiti</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Pokušajte ponovno</string>
 	<string name="onfido_retry_feedback_custom_title">Vaš je dokumen istekao</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Pokušajte ponovno s važećim identifikacijskim dokumentom s fotografijom i provjerite jesu li vaši podaci jasno vidljivi</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Skenirati ćemo NFC čip vašeg dokumenta</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Polako klizite svoj dokument gore i dolje uz svoj telefon kako biste locirali čip.</string>
-	<string name="onfido_generic_icon_info_accessibility">Informacija:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informacija:</string>
-	<string name="onfido_generic_footer_branding">Onfido stvarni identitet</string>
-	<string name="onfido_qes_error_misconfigured">Nažalost, došlo je do pogreške. Molimo vas da se obratite svojoj podršci.</string>
-	<string name="onfido_permission_button_primary_both_label">Omogućite kameru i mikrofon</string>
-	<string name="onfido_qes_consent_introduction_validation">Potrebna suglasnost</string>
 </resources>

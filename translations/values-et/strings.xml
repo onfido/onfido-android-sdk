@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Veenduge, et näitate ainult oma nägu – me ei pea teie isikutunnistust nägema</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Veenduge, et näitate ainult nägu – me ei pea teie isikutunnistust nägema</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Alustage salvestamist uuesti</string>
+	<string name="onfido_avc_confirmation_title">Salvestamine lõpetatud</string>
+	<string name="onfido_avc_confirmation_subtitle">Teie näost video tegemine õnnestus</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Laadige salvestis üles</string>
 	<string name="onfido_avc_connection_error_title">Ühenduse viga</string>
 	<string name="onfido_avc_connection_error_subtitle">Kontrollige, kas ühendus on stabiilne ning proovige uuesti</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Nägu pole kaadri keskel</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Proovige uuesti</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Heli mängitakse teisest rakendusest</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Palun ärge mängige salvestamise ajal oma seadmes mingit heli</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Kasuta oma telefoni, et skaneerida kiip oma dokumendis</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Asetage oma dokument oma seadme tagakülje vastu nii, et need puutuvad kokku</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Libistage oma dokumendi aeglaselt alla ja üles oma telefoni vastu, et kiipi leida.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kui skaneerimine algab, püsige paigal, et skaneerimine saaks lõpule viia</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Proovige uuesti</string>
 	<string name="onfido_retry_feedback_custom_title">Teie dokument on aegunud</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Proovige uuesti, kasutades kehtiva fotoga isikutunnistust ja veenduge, et teie andmed on selgelt nähtavad</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Kasuta oma telefoni, et skaneerida kiip oma dokumendis</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Libistage oma dokumendi aeglaselt alla ja üles oma telefoni vastu, et kiipi leida.</string>
-	<string name="onfido_generic_icon_info_accessibility">Teave:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Teave:</string>
-	<string name="onfido_generic_footer_branding">Onfido tegelik identiteet</string>
-	<string name="onfido_qes_error_misconfigured">Kahjuks on ilmnenud viga. Palun võtke ühendust oma toega.</string>
-	<string name="onfido_permission_button_primary_both_label">Luba nii kaamera kui ka mikrofon</string>
-	<string name="onfido_qes_consent_introduction_validation">Nõusolek vajalik</string>
 </resources>

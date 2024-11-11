@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Zeigen Sie nur Ihr Gesicht, Ihr Ausweis wird nicht benötigt</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Zeigen Sie nur Ihr Gesicht, Ihr Ausweis wird nicht benötigt</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Aufnahme neu starten</string>
+	<string name="onfido_avc_confirmation_title">Aufnahme abgeschlossen</string>
+	<string name="onfido_avc_confirmation_subtitle">Ein Video von Ihrem Gesicht wurde erfolgreich aufgenommen</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Aufnahme hochladen</string>
 	<string name="onfido_avc_connection_error_title">Verbindungsfehler</string>
 	<string name="onfido_avc_connection_error_subtitle">Prüfen Sie, ob Ihre Internetverbindung stabil ist, und versuchen Sie es dann erneut</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Gesicht nicht mittig</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Erneut versuchen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio wird von einer anderen App abgespielt</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Bitte spielen Sie während der Aufnahme kein Audio auf Ihrem Gerät</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Verwenden Sie Ihr Telefon, um den Chip in Ihrem Dokument zu scannen</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Legen Sie Ihr Dokument gegen die Rückseite Ihres Geräts, sodass sie sich berühren</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Schieben Sie Ihr Dokument langsam nach unten und oben gegen Ihr Handy, um den Chip zu lokalisieren.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Sobald der Scan beginnt, halten Sie still, damit der Scan abgeschlossen werden kann</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Versuchen Sie es erneut.</string>
 	<string name="onfido_retry_feedback_custom_title">Ihr Ausweis ist ungültig</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Versuchen Sie es mit einem gültigen Lichtbildausweis erneut und stellen Sie sicher, dass die Angaben zu Ihrer Person gut sichtbar sind</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Verwenden Sie Ihr Telefon, um den Chip in Ihrem Dokument zu scannen</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Schieben Sie Ihr Dokument langsam nach unten und oben gegen Ihr Handy, um den Chip zu lokalisieren.</string>
-	<string name="onfido_generic_icon_info_accessibility">Information:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Information:</string>
-	<string name="onfido_generic_footer_branding">Onfido echte Identität</string>
-	<string name="onfido_qes_error_misconfigured">Leider ist ein Fehler aufgetreten. Bitte kontaktieren Sie Ihren Support.</string>
-	<string name="onfido_permission_button_primary_both_label">Aktivieren Sie sowohl die Kamera als auch das Mikrofon</string>
-	<string name="onfido_qes_consent_introduction_validation">Zustimmung erforderlich</string>
 </resources>

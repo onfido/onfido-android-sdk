@@ -4,31 +4,6 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
-## `21.2.0` -> `22.0.0`
-
-### Breaking API Changes
-
-- Updated the captures object in the userCompleted(captures) callback to support two-sided Proof of address documents.
-The object went from:
- ProofOfAddress(id=poa_id, type=UTILITY_BILL, issuing_country=UK)  
-to
-ProofOfAddress(type=UTILITY_BILL, front = (id = front_side_id, type = (optional)), back = (id = back_side_id, type = (optional))) 
-- Removed `EnterpriseFeatures`'s deprecated constructor. Use the builder instead
-- Removed the deprecated `CAMERA_PERMISSION_DENIED` SDK exit code. This case is now handled by the SDK
-- Removed `OnfidoConfig.Builder`'s deprecated methods: `withNFCReadFeature()` and `disableNFC()`. Use `withNFC(option: NFCOptions)` instead
-- `OnfidoActivityTheme` has been renamed to `OnfidoLightTheme` for consistency with `OnfidoDarkTheme`
-- The `attr` suffix has been removed from all font family theme attributes for consistency with other attribute names
-
-### String Changes
-
-#### Removed
-
-The following string keys have been **removed**:
-
-- `onfido_avc_confirmation_title` ()
-- `onfido_avc_confirmation_subtitle` ()
-- `onfido_avc_confirmation_button_primary_upload` ()
-
 ## `21.1.0` -> `21.2.0`
 
 ### String Changes

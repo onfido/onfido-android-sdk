@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">身分証明書の提示は必要ありませんので、必ず顔だけを見せてください</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">身分証明書の提示は必要ありません。必ず顔だけを見せてください</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">録画を再開する</string>
+	<string name="onfido_avc_confirmation_title">記録が完了しました</string>
+	<string name="onfido_avc_confirmation_subtitle">顔の動画が正常に記録されました</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">録画をアップロード</string>
 	<string name="onfido_avc_connection_error_title">接続エラー</string>
 	<string name="onfido_avc_connection_error_subtitle">接続が安定していることを確認してから、もう一度お試しください</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">顔が中央に配置されていません</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">再試行</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">音声が別のアプリで再生されています</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">録画中はデバイスの音声を再生しないでください</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">あなたの電話を使って、ドキュメント内のチップをスキャンしてください</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">あなたのドキュメントをあなたのデバイスの背面に置いて、それらが触れるようにしてください</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">チップを見つけるために、あなたの身分証明書をゆっくりとスマートフォンに対して上下にスライドさせてください。</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">再試行</string>
 	<string name="onfido_retry_feedback_custom_title">ドキュメントの有効期限が切れています</string>
 	<string name="onfido_retry_feedback_custom_subtitle">有効な写真付き身分証明書で再度お試しいただき、情報がはっきりと見えるようにしてください</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">あなたの電話を使って、ドキュメント内のチップをスキャンしてください</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">チップを見つけるために、あなたの身分証明書をゆっくりとスマートフォンに対して上下にスライドさせてください。</string>
-	<string name="onfido_generic_icon_info_accessibility">情報:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">情報:</string>
-	<string name="onfido_generic_footer_branding">Onfido リアルアイデンティティ</string>
-	<string name="onfido_qes_error_misconfigured">残念ながら、エラーが発生しました。サポートに連絡してください。</string>
-	<string name="onfido_permission_button_primary_both_label">カメラとマイクの両方を有効にする</string>
-	<string name="onfido_qes_consent_introduction_validation">同意が必要です</string>
 </resources>

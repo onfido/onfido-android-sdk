@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">केवल अपना चेहरा ही दिखाएँ, हमें आपकी आईडी नहीं देखनी है</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">केवल अपना चेहरा ही दिखाएँ, हमें आपकी पहचान से जुड़ा डॉक्यूमेंट नहीं देखना है</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">रिकॉर्डिंग फिर से शुरू करें</string>
+	<string name="onfido_avc_confirmation_title">रिकॉर्डिंग पूरी हुई</string>
+	<string name="onfido_avc_confirmation_subtitle">आपके चेहरे का वीडियो सफलतापूर्वक रिकॉर्ड हो गया है</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">रिकॉर्डिंग अपलोड करें</string>
 	<string name="onfido_avc_connection_error_title">कनेक्शन में त्रुटि</string>
 	<string name="onfido_avc_connection_error_subtitle">जाँच करें कि आपका कनेक्शन स्थिर है और फिर कोशिश करें</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">चेहरा बीच में नहीं है</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">फिर से कोशिश करें</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">ऑडियो किसी दूसरे ऐप से चलाया जा रहा है</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">कृपया रिकॉर्डिंग के दौरान अपने डिवाइस पर कोई भी ऑडियो न चलाएँ</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">अपने दस्तावेज में चिप को स्कैन करने के लिए अपने फ़ोन का उपयोग करें</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">अपने दस्तावेज़ को अपनी उपकरण के पीछे रखें ताकि वे छू रहें हों</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">अपने फ़ोन के खिलाफ अपने दस्तावेज़ को धीरे-धीरे ऊपर और नीचे की ओर स्लाइड करें ताकि चिप का पता लग सके।</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">एक बार स्कैन शुरू हो जाए, तो स्थिर रहें ताकि स्कैनिंग पूरी हो सके</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">फिर से कोशिश करें</string>
 	<string name="onfido_retry_feedback_custom_title">आपके डॉक्यूमेंट की समय-अवधि खत्म हो गई है</string>
 	<string name="onfido_retry_feedback_custom_subtitle">कृपया एक मान्य फ़ोटो आईडी के साथ फिर से कोशिश करें और पक्का करें कि आपकी जानकारी साफ़-साफ़ दिख रही है</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">अपने दस्तावेज में चिप को स्कैन करने के लिए अपने फ़ोन का उपयोग करें</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">अपने फ़ोन के खिलाफ अपने दस्तावेज़ को धीरे-धीरे ऊपर और नीचे की ओर स्लाइड करें ताकि चिप का पता लग सके।</string>
-	<string name="onfido_generic_icon_info_accessibility">सूचना:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">सूचना:</string>
-	<string name="onfido_generic_footer_branding">Onfido वास्तविक पहचान</string>
-	<string name="onfido_qes_error_misconfigured">दुर्भाग्यवश, एक त्रुटि हुई है। कृपया अपने सहायता से संपर्क करें।</string>
-	<string name="onfido_permission_button_primary_both_label">कैमरा और माइक्रोफोन दोनों को सक्षम करें</string>
-	<string name="onfido_qes_consent_introduction_validation">अनुमति आवश्यक</string>
 </resources>

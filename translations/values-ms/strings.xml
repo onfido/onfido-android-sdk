@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Pastikan anda hanya menunjukkan wajah anda, kami tidak perlu melihat ID anda</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Pastikan anda hanya menunjukkan wajah anda, kami tidak perlu melihat Dokumen Pengenalan anda</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Mulakan semula rakaman</string>
+	<string name="onfido_avc_confirmation_title">Rakaman selesai</string>
+	<string name="onfido_avc_confirmation_subtitle">Video wajah anda telah berjaya dirakam</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Muat naik rakaman</string>
 	<string name="onfido_avc_connection_error_title">Ralat sambungan</string>
 	<string name="onfido_avc_connection_error_subtitle">Sila periksa sama ada sambungan anda stabil dan cuba lagi kemudian</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Wajah tidak berada pada bahagian tengah</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Cuba Semula</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio sedang dimainkan oleh aplikasi lain</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan mainkan apa-apa audio pada peranti anda semasa rakaman dibuat</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telefon anda untuk mengimbas cip dalam dokumen anda</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Posisikan dokumen anda sehingga menyentuh bahagian belakang peranti anda</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pelan-pelan geser dokumen anda ke atas dan ke bawah di atas telefon anda untuk mencari cip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Apabila proses pemindaian dimulakan, jangan bergerak supaya pemindaian dapat dilakukan dengan sempurna</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Cuba lagi</string>
 	<string name="onfido_retry_feedback_custom_title">Dokumen anda telah tamat tempoh</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Sila cuba lagi dengan ID bergambar yang sah dan pastikan maklumat anda kelihatan dengan jelas</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telefon anda untuk mengimbas cip dalam dokumen anda</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Pelan-pelan geser dokumen anda ke atas dan ke bawah di atas telefon anda untuk mencari cip.</string>
-	<string name="onfido_generic_icon_info_accessibility">Maklumat:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Maklumat:</string>
-	<string name="onfido_generic_footer_branding">Identiti sebenar Onfido</string>
-	<string name="onfido_qes_error_misconfigured">Malangnya, ralat telah berlaku. Sila hubungi sokongan anda.</string>
-	<string name="onfido_permission_button_primary_both_label">Benarkan kedua-dua kamera dan mikrofon</string>
-	<string name="onfido_qes_consent_introduction_validation">Persetujuan diperlukan</string>
 </resources>

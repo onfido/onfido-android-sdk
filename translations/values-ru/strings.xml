@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Убедитесь, что показываете только свое лицо, нам не нужно видеть Ваше удостоверение личности</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Убедитесь, что показываете только свое лицо, нам не нужно видеть Ваше удостоверение личности</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Перезапустить запись</string>
+	<string name="onfido_avc_confirmation_title">Запись завершена</string>
+	<string name="onfido_avc_confirmation_subtitle">Видео Вашего лица успешно записано</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">Загрузить запись</string>
 	<string name="onfido_avc_connection_error_title">Ошибка соединения</string>
 	<string name="onfido_avc_connection_error_subtitle">Убедитесь, что соединение стабильно, затем повторите попытку</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Лицо не по центру</string>
@@ -467,6 +470,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Повторить</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Аудио воспроизводится другим приложением</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Не воспроизводите звук на вашем устройстве во время записи</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Используйте свой телефон для сканирования чипа в вашем документе</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">Поместите ваш документ на заднюю сторону вашего устройства так, чтобы они соприкасались</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Медленно перемещайте ваш документ вниз и вверх по телефону, чтобы найти чип.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Как только начнется сканирование, оставайтесь неподвижными, чтобы сканирование могло завершиться</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">Попробовать еще раз</string>
 	<string name="onfido_retry_feedback_custom_title">Срок действия вашего документа истек</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Попробуйте еще раз с действительным удостоверением личности с фотографией и убедитесь, что Ваши данные хорошо видны</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Используйте свой телефон для сканирования чипа в вашем документе</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Медленно перемещайте ваш документ вниз и вверх по телефону, чтобы найти чип.</string>
-	<string name="onfido_generic_icon_info_accessibility">Информация:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Информация:</string>
-	<string name="onfido_generic_footer_branding">Onfido реальная идентичность</string>
-	<string name="onfido_qes_error_misconfigured">К сожалению, произошла ошибка. Пожалуйста, свяжитесь со службой поддержки.</string>
-	<string name="onfido_permission_button_primary_both_label">Включите как камеру, так и микрофон</string>
-	<string name="onfido_qes_consent_introduction_validation">Требуется согласие</string>
 </resources>

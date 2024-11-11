@@ -9,27 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
-## [22.0.0] - 2024-09-19
+## [21.2.2] - 2024-11-11
 
-### Added
+### Fixed
 
-- Updated the Proof of address module to the latest functionality
-
-### Changed
-
-- Updated the Kotlin version used from 1.7 to 1.9, as well as the Java version from 8 to 11
-- Renamed `OnfidoActivityTheme` to `OnfidoLightTheme` for consistency with `OnfidoDarkTheme`. Also dropped `attr` suffix from font family theme attributes for consistency with other attribute names
-
-### Removed
-
-- Removed deprecated APIs. Refer to our [migration guide](https://documentation.onfido.com/sdk/android/migration/) for specific details
-- Removed unused translations keys
+- Fixed a native-level crash occurring during emulator-based testing.
 
 ## [21.2.1] - 2024-09-27
 
 ### Changed
 
-- Added `type`, `issuing_country` and `side` metadata to document video uploads
+- Added type, issuing country and side metadata to document video uploads
 
 ### Fixed
 

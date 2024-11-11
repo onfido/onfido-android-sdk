@@ -375,6 +375,9 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">فقط صورت خود را نشان دهید، نیازی به دیدن کارت شناسایی شما نداریم</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">فقط چهره خود را نشان دهید، نیازی به دیدن مدرک شناسایی شما نداریم</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">شروع مجدد ضبط</string>
+	<string name="onfido_avc_confirmation_title">ضبط کامل شد</string>
+	<string name="onfido_avc_confirmation_subtitle">یک ویدئو از چهره شما با موفقیت ضبط شد</string>
+	<string name="onfido_avc_confirmation_button_primary_upload">فایل ضبط شده را بارگذاری کنید</string>
 	<string name="onfido_avc_connection_error_title">خطای ارتباط</string>
 	<string name="onfido_avc_connection_error_subtitle">بررسی کنید که اتصال اینترنت برقرار است، سپس دوباره سعی کنید</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">چهره در مرکز نیست</string>
@@ -469,6 +472,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">سعی مجدد‌</string>
 	<string name="onfido_doc_capture_header_recording_video">ضبط ویدیو</string>
 	<string name="onfido_doc_capture_header_recording_complete">ضبط کامل شد</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">از تلفن خود برای اسکن کردن تراشه موجود در سند خود استفاده کنید</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item">سند خود را به گونه ای در پشت دستگاه خود بگذارید که با هم تماس داشته باشند</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">به آرامی سند خود را بر روی تلفن خود بالا و پایین بکشید تا چیپ را پیدا کنید.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">وقتی اسکن کردن شروع می شود، باید ثابت بمانید تا اسکن کاملاً انجام شود</string>
@@ -553,12 +557,4 @@
 	<string name="onfido_retry_feedback_button_primary">سعی مجدد</string>
 	<string name="onfido_retry_feedback_custom_title">مدرک شما منقضی شده است</string>
 	<string name="onfido_retry_feedback_custom_subtitle">لطفاً با یک کارت شناسایی عکس‌دار معتبر دوباره امتحان کنید و مطمئن شوید که اطلاعات شما به وضوح قابل مشاهده است</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">از تلفن خود برای اسکن کردن تراشه موجود در سند خود استفاده کنید</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">به آرامی سند خود را بر روی تلفن خود بالا و پایین بکشید تا چیپ را پیدا کنید.</string>
-	<string name="onfido_generic_icon_info_accessibility">اطلاعات:</string>
-	<string name="onfido_poa_capture_country_select.icon_info_accessibility">اطلاعات:</string>
-	<string name="onfido_generic_footer_branding">هویت واقعی Onfido</string>
-	<string name="onfido_qes_error_misconfigured">متاسفانه، خطایی رخ داده است. لطفا با پشتیبانی خود تماس بگیرید.</string>
-	<string name="onfido_permission_button_primary_both_label">دوربین و میکروفون را فعال کنید</string>
-	<string name="onfido_qes_consent_introduction_validation">نیاز به رضایت</string>
 </resources>
