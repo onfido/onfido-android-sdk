@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Համոզվեք, որ երևում է միայն ձեր դեմքը, մենք կարիք չունենք տեսնելու ձեր անձը հաստատող փաստաթուղթը</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Համոզվեք, որ երևում է միայն ձեր դեմքը, մենք կարիք չունենք տեսնելու ձեր անձը հաստատող փաստաթուղթը</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Վերսկսել տեսագրությունը</string>
-	<string name="onfido_avc_confirmation_title">Տեսագրումն ավարտված է</string>
-	<string name="onfido_avc_confirmation_subtitle">Ձեր դեմքը հաջողությամբ տեսագրվել է</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Վերբեռնեք տեսագրությունը</string>
 	<string name="onfido_avc_connection_error_title">Կապի խափանում</string>
 	<string name="onfido_avc_connection_error_subtitle">Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Դեմքը կենտրոնում չէ</string>
@@ -470,8 +467,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Կրկին փորձել</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Դանդաղ ձեր փաստաթուղթը վերև ու ներքև սահմանափակեք ձեր հեռախոսի դեմ, որպեսզի գտնեք չիպը:</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Կրկին փորձել</string>
 	<string name="onfido_retry_feedback_custom_title">Ձեր փաստաթղթի ժամկետը սպառվել է</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Կրկին փորձեք լուսանկար պարունակող, վավեր անձը հաստատող փաստաթղթով և համոզվեք, որ ձեր տվյալները հստակ երևում են</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Դանդաղ ձեր փաստաթուղթը վերև ու ներքև սահմանափակեք ձեր հեռախոսի դեմ, որպեսզի գտնեք չիպը:</string>
+	<string name="onfido_generic_icon_info_accessibility">Տեղեկություն:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Տեղեկություն:</string>
+	<string name="onfido_generic_footer_branding">Onfido իրական իսկություն</string>
+	<string name="onfido_qes_error_misconfigured">Ցավոք, սխալ է տեղի ունեցել։ Խնդրում ենք կապվել ձեր աջակցության հետ։</string>
+	<string name="onfido_permission_button_primary_both_label">Միացրեք տեսախցիկը և միկրոֆոնը</string>
+	<string name="onfido_qes_consent_introduction_validation">Համաձայնությունը պահանջվում է</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Հեռացեք</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Պտտեցնել ձեր փաստաթուղթը</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Մոտեցեք</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Շրջեք առջևի կողմը</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Շրջեք հետևի կողմը</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Ցուցադրել միայն լուսանկարի էջը</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Պահեք փաստաթուղթը ուղիղ</string>
 </resources>

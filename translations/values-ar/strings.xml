@@ -374,9 +374,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">تأكد من إظهار وجهك فقط، لسنا بحاجة إلى رؤية هويتك</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">تأكد من إظهار وجهك فقط، لسنا بحاجة إلى رؤية مستند هويتك</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">إعادة بدء التسجيل</string>
-	<string name="onfido_avc_confirmation_title">اكتمل التسجيل</string>
-	<string name="onfido_avc_confirmation_subtitle">تم تسجيل مقطع فيديو لوجهك بنجاح</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">تحميل التسجيل</string>
 	<string name="onfido_avc_connection_error_title">خطأ في الاتصال</string>
 	<string name="onfido_avc_connection_error_subtitle">تحقّق من أن اتصالك مستقر، ثم حاول مرة أخرى</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">الوجه ليس في المنتصف</string>
@@ -469,8 +466,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">إعادة المحاولة</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">جارٍ تشغيل المقطع الصوتي بواسطة تطبيق آخر</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">يرجى عدم تشغيل أي مقاطع صوتية على جهازك أثناء التسجيل</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">استخدم هاتفك لمسح الرقاقة في وثيقتك</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">حرك وثيقتك ببطء للأعلى وللأسفل ضد هاتفك لتحديد موقع الشريحة.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">بمجرد بدء الفحص، ابقى ثابتًا حتى يمكن إكمال الفحص</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">الحصول على التحقق دون NFC</string>
@@ -556,4 +552,19 @@
 	<string name="onfido_retry_feedback_button_primary">إعادة المحاولة</string>
 	<string name="onfido_retry_feedback_custom_title">انتهت صلاحية مستندك</string>
 	<string name="onfido_retry_feedback_custom_subtitle">يُرجى المحاولة مرة أخرى باستخدام بطاقة هوية صالحة تحمل صورة والتأكد من أن معلوماتك مرئية بوضوح</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">استخدم هاتفك لمسح الرقاقة في وثيقتك</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">حرك وثيقتك ببطء للأعلى وللأسفل ضد هاتفك لتحديد موقع الشريحة.</string>
+	<string name="onfido_generic_icon_info_accessibility">معلومات:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">معلومات:</string>
+	<string name="onfido_generic_footer_branding">هوية Onfido الحقيقية</string>
+	<string name="onfido_qes_error_misconfigured">للأسف، حدث خطأ. يرجى الاتصال بالدعم الخاص بك.</string>
+	<string name="onfido_permission_button_primary_both_label">قم بتمكين كل من الكاميرا والميكروفون</string>
+	<string name="onfido_qes_consent_introduction_validation">الموافقة مطلوبة</string>
+	<string name="onfido_doc_capture_alert_too_close_title">تحرك للخلف</string>
+	<string name="onfido_doc_capture_alert_rotated_title">قم بتدوير المستند الخاص بك</string>
+	<string name="onfido_doc_capture_alert_too_far_title">اقترب أكثر</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">اقلبه إلى الجانب الأمامي</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">قلب للجانب الخلفي</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">أظهر صفحة الصور فقط</string>
+	<string name="onfido_doc_capture_alert_tilted_title">أمسك الوثيقة بشكل مستقيم</string>
 </resources>

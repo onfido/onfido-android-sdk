@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Assurez-vous de ne montrer que votre visage, nous n\'avons pas besoin de voir votre pièce d\'identité</string>
 	<string name="onfido_avc_no_face_detected_list_item_face_accessibility">Assurez-vous de ne montrer que votre visage, nous n\'avons pas besoin de voir votre pièce d\'identité</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Redémarrer l’enregistrement</string>
-	<string name="onfido_avc_confirmation_title">Enregistrement terminé</string>
-	<string name="onfido_avc_confirmation_subtitle">Une vidéo de votre visage a bien été enregistrée</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Envoyer l\'enregistrement</string>
 	<string name="onfido_avc_connection_error_title">Erreur de connexion</string>
 	<string name="onfido_avc_connection_error_subtitle">Vérifiez que votre connexion est stable, puis réessayez</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Visage non centré</string>
@@ -470,8 +467,7 @@
     <string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Réessayer</string>
     <string name="onfido_avc_face_capture_alert_audio_conflict_title">Du contenu audio est lu par une autre application</string>
     <string name="onfido_avc_face_capture_alert_audio_conflict_body">Veuillez ne pas lire de contenu audio sur votre appareil pendant l\'enregistrement</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Utilisez votre téléphone pour scanner la puce dans votre document</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Placez votre document contre l\'arrière de votre appareil afin qu\'ils se touchent</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Placez votre document contre l\'arrière de votre appareil afin qu\'ils se touchent</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Faites glisser lentement votre document vers le bas et vers le haut contre votre téléphone pour localiser la puce.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Une fois le scan commencé, restez immobile pour que le scan puisse se terminer</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Vérifier sans NFC</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Réessayer</string>
 	<string name="onfido_retry_feedback_custom_title">Votre document a expiré</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Veuillez réessayer avec une pièce d\'identité valide avec photo et en vous assurant que vos coordonnées sont bien visibles</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Utilisez votre téléphone pour scanner la puce dans votre document</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Faites glisser lentement votre document vers le bas et vers le haut contre votre téléphone pour localiser la puce.</string>
+	<string name="onfido_generic_icon_info_accessibility">Information :</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Information :</string>
+	<string name="onfido_generic_footer_branding">Onfido véritable identité</string>
+	<string name="onfido_qes_error_misconfigured">Malheureusement, une erreur s\'est produite. Veuillez contacter votre support.</string>
+	<string name="onfido_permission_button_primary_both_label">Activer à la fois la caméra et le microphone</string>
+	<string name="onfido_qes_consent_introduction_validation">Consentement requis</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Reculez</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Faites pivoter votre document</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Approchez-vous</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Retournez côté recto</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Retournez côté verso</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Afficher uniquement la page photo</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Tenez le document droit</string>
 </resources>

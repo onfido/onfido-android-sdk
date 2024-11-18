@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">얼굴만 보이도록 해주세요. 신분증을 제시할 필요가 없습니다</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">본인 얼굴만 보이도록 해주세요. 신분증을 제시할 필요가 없습니다</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">녹화 재시작</string>
-	<string name="onfido_avc_confirmation_title">녹화 완료</string>
-	<string name="onfido_avc_confirmation_subtitle">얼굴 동영상이 성공적으로 녹화되었습니다</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">녹화본 업로드</string>
 	<string name="onfido_avc_connection_error_title">연결 오류 발생</string>
 	<string name="onfido_avc_connection_error_subtitle">연결이 안정적인지 확인한 다음 다시 시도하세요</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">얼굴이 중앙에 위치해 있지 않습니다</string>
@@ -470,8 +467,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">재시도</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">다른 앱에서 오디오가 재생 중입니다</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">녹음 중에 장치에서 오디오를 재생하지 마십시오</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">휴대폰을 사용하여 문서에 있는 칩을 스캔하십시오</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">문서를 장치의 뒷면에 닿게 놓으십시오</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">문서를 장치의 뒷면에 닿게 놓으십시오</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">칩을 찾기 위해 신분증을 천천히 휴대폰 위아래로 미끄러지듯 움직이세요.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">스캔이 시작되면 움직이지 말아 스캔이 완료될 수 있도록 하세요</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">NFC 없이 인증 받기</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">다시 시도하기</string>
 	<string name="onfido_retry_feedback_custom_title">서류가 만료되었습니다</string>
 	<string name="onfido_retry_feedback_custom_subtitle">사진이 부착된 유효한 신분증으로 다시 시도하고 정보가 선명하게 보이는지 확인하세요</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">휴대폰을 사용하여 문서에 있는 칩을 스캔하십시오</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">칩을 찾기 위해 신분증을 천천히 휴대폰 위아래로 미끄러지듯 움직이세요.</string>
+	<string name="onfido_generic_icon_info_accessibility">정보:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">정보:</string>
+	<string name="onfido_generic_footer_branding">Onfido 실제 신원</string>
+	<string name="onfido_qes_error_misconfigured">불행히도 오류가 발생했습니다. 지원팀에 연락해 주세요.</string>
+	<string name="onfido_permission_button_primary_both_label">카메라와 마이크를 모두 활성화하세요</string>
+	<string name="onfido_qes_consent_introduction_validation">동의 필요</string>
+	<string name="onfido_doc_capture_alert_too_close_title">좀 더 뒤로 물러나세요</string>
+	<string name="onfido_doc_capture_alert_rotated_title">문서 회전</string>
+	<string name="onfido_doc_capture_alert_too_far_title">더 가까이 다가오세요</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">앞면으로 뒤집기</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">뒷면으로 뒤집기</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">사진 페이지만 표시</string>
+	<string name="onfido_doc_capture_alert_tilted_title">문서를 곧게 들어주세요</string>
 </resources>

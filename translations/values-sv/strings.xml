@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Se till att endast visa ditt ansikte, vi behöver inte se ditt ID</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Se till att endast visa ditt ansikte, vi behöver inte se identitetsdokument</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Starta om inspelningen</string>
-	<string name="onfido_avc_confirmation_title">Inspelning slutförd</string>
-	<string name="onfido_avc_confirmation_subtitle">En video av ditt ansikte har spelats in</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Ladda upp inspelning</string>
 	<string name="onfido_avc_connection_error_title">Anslutningsfel</string>
 	<string name="onfido_avc_connection_error_subtitle">Kontrollera att din anslutning är stabil och försök sedan igen</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Ansiktet är inte centrerat</string>
@@ -470,8 +467,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Försök igen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Ljud spelas upp av en annan app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Spela inte upp något ljud på din enhet under inspelningen</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Använd din telefon för att skanna chipet i ditt dokument</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Placera ditt dokument mot baksidan av din enhet så att de rör vid varandra</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Placera ditt dokument mot baksidan av din enhet så att de rör vid varandra</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Skjut långsamt ditt dokument nedåt och uppåt mot din telefon för att hitta chipet.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">När skanningen startar, håll dig stilla så att skanningen kan slutföras</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Bli verifierad utan NFC</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Försök igen</string>
 	<string name="onfido_retry_feedback_custom_title">Ditt dokument har gått ut</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Försök igen med ett giltigt foto-ID och se till att din information syns tydligt</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Använd din telefon för att skanna chipet i ditt dokument</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Skjut långsamt ditt dokument nedåt och uppåt mot din telefon för att hitta chipet.</string>
+	<string name="onfido_generic_icon_info_accessibility">Information:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Information:</string>
+	<string name="onfido_generic_footer_branding">Onfido verklig identitet</string>
+	<string name="onfido_qes_error_misconfigured">Tyvärr har ett fel inträffat. Vänligen kontakta din support.</string>
+	<string name="onfido_permission_button_primary_both_label">Aktivera både kameran och mikrofonen</string>
+	<string name="onfido_qes_consent_introduction_validation">Samtycke krävs</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Flytta bakåt</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Rotera ditt dokument</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Flytta närmare</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Vänd till framsidan</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Vänd till baksidan</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Visa endast fotosida</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Håll dokumentet rakt</string>
 </resources>

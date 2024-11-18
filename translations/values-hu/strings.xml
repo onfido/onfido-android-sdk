@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Ügyeljen rá, hogy csak az arca látszódjon, nem kell látnunk a személyazonosító okmányát</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Ügyeljen rá, hogy csak az arca látszódjon, nem kell látnunk a személyazonosító okmányát</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Rögzítés újraindítása</string>
-	<string name="onfido_avc_confirmation_title">Felvétel kész</string>
-	<string name="onfido_avc_confirmation_subtitle">Az arcáról készült videót sikeresen rögzítettük</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Felvétel feltöltése</string>
 	<string name="onfido_avc_connection_error_title">Kapcsolati hiba</string>
 	<string name="onfido_avc_connection_error_subtitle">Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Arca nincs középen</string>
@@ -470,8 +467,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Próbálja újra</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">A hangot egy másik alkalmazás játsza le</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Kérjük, felvétel közben ne játsszon le semmilyen hangot a készülékén</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Használja a telefonját a dokumentumában lévő chip beolvasásához</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lassan csúsztassa az okmányát le és fel a telefonja előtt, hogy megtalálja a chipet.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Ellenőrzés NFC nélkül</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Próbálja újra</string>
 	<string name="onfido_retry_feedback_custom_title">A dokumentuma lejárt</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Használja a telefonját a dokumentumában lévő chip beolvasásához</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lassan csúsztassa az okmányát le és fel a telefonja előtt, hogy megtalálja a chipet.</string>
+	<string name="onfido_generic_icon_info_accessibility">Információ:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Információ:</string>
+	<string name="onfido_generic_footer_branding">Onfido valódi identitás</string>
+	<string name="onfido_qes_error_misconfigured">Sajnos hiba történt. Kérjük, lépjen kapcsolatba a támogatásával.</string>
+	<string name="onfido_permission_button_primary_both_label">Engedélyezze mind a kamerát, mind a mikrofont</string>
+	<string name="onfido_qes_consent_introduction_validation">Hozzájárulás szükséges</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Távolodjon</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Forgassa el a dokumentumot</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Közelítsen</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Fordítsa az elülső oldalra</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Fordítsa meg a dokumentumot</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Mutassa csak a fényképes oldalt</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Tartsa egyenesen az okmányt</string>
 </resources>

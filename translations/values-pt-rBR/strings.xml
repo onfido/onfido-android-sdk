@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Certifique-se de mostrar apenas o seu rosto, não precisamos ver o seu documento</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Certifique-se de mostrar apenas o seu rosto, não precisamos ver o seu documento de identificação</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Reiniciar gravação</string>
-	<string name="onfido_avc_confirmation_title">Gravação concluída</string>
-	<string name="onfido_avc_confirmation_subtitle">Um vídeo do seu rosto foi gravado com sucesso</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Carregar gravação</string>
 	<string name="onfido_avc_connection_error_title">Erro de conexão</string>
 	<string name="onfido_avc_connection_error_subtitle">Verifique se a sua conexão está estável e tente novamente</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Rosto não centralizado</string>
@@ -470,8 +467,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Tentar novamente</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">O áudio está sendo reproduzido por outro app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Não reproduza nenhum áudio em seu dispositivo durante a gravação</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Use seu telefone para escanear o chip em seu documento</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Coloque seu documento na parte de trás do seu dispositivo para que eles estejam se tocando</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Coloque seu documento na parte de trás do seu dispositivo para que eles estejam se tocando</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Deslize lentamente o seu documento para cima e para baixo contra o seu celular para localizar o chip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Uma vez que a varredura começa, fique imóvel para que a varredura possa ser concluída</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Seja verificado sem NFC</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Tentar novamente</string>
 	<string name="onfido_retry_feedback_custom_title">Seu documento expirou</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Tente novamente com um ID com foto válido e certifique-se de que as suas informações estão claramente visíveis</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Use seu telefone para escanear o chip em seu documento</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Deslize lentamente o seu documento para cima e para baixo contra o seu celular para localizar o chip.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informação:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informação:</string>
+	<string name="onfido_generic_footer_branding">Onfido identidade real</string>
+	<string name="onfido_qes_error_misconfigured">Infelizmente, ocorreu um erro. Por favor, entre em contato com o seu suporte.</string>
+	<string name="onfido_permission_button_primary_both_label">Ative tanto a câmera quanto o microfone</string>
+	<string name="onfido_qes_consent_introduction_validation">Consentimento necessário</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Afaste-se</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Gire seu documento</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Aproxime-se</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Virar para a frente</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Vire para trás</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Mostre apenas a página da foto</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Mantenha o documento reto</string>
 </resources>

@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Продемонструйте лише своє обличчя. Нам не потрібно бачити ваше посвідчення особи</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Продемонструйте лише своє обличчя. Нам не потрібно бачити ваше посвідчення особи</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Перезапустити запис</string>
-	<string name="onfido_avc_confirmation_title">Запис завершено</string>
-	<string name="onfido_avc_confirmation_subtitle">Відео вашого обличчя успішно записано</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Передати запис</string>
 	<string name="onfido_avc_connection_error_title">Помилка з’єднання</string>
 	<string name="onfido_avc_connection_error_subtitle">Перевірте, чи з’єднання стабільне, а потім спробуйте ще раз</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Обличчя розташоване не в центрі</string>
@@ -470,8 +467,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Повторити</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Аудіо відтворюється іншим застосунком</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Не відтворюйте звук на вашому пристрої під час запису</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Використовуйте свій телефон для сканування чіпа у вашому документі</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Розташуйте ваш документ на задній частині вашого пристрою так, щоб вони торкалися</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Розташуйте ваш документ на задній частині вашого пристрою так, щоб вони торкалися</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Повільно переміщайте ваш документ униз і вгору біля вашого телефону, щоб знайти чіп.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Одразу після початку сканування, залишайтеся нерухомим, щоб сканування могло завершитися</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Отримати підтвердження без NFC</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Повторити спробу</string>
 	<string name="onfido_retry_feedback_custom_title">Строк дії документа закінчився</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Повторіть спробу, надавши дійсне посвідчення особи з фотографією, і переконайтеся, що всі ваші дані чітко видно</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Використовуйте свій телефон для сканування чіпа у вашому документі</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Повільно переміщайте ваш документ униз і вгору біля вашого телефону, щоб знайти чіп.</string>
+	<string name="onfido_generic_icon_info_accessibility">Інформація:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Інформація:</string>
+	<string name="onfido_generic_footer_branding">Справжня ідентичність Onfido</string>
+	<string name="onfido_qes_error_misconfigured">На жаль, сталася помилка. Будь ласка, зверніться до служби підтримки.</string>
+	<string name="onfido_permission_button_primary_both_label">Увімкніть камеру та мікрофон</string>
+	<string name="onfido_qes_consent_introduction_validation">Потрібна згода</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Відійдіть назад</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Поверніть документ</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Підійдіть ближче</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Переверніть на лицьову сторону</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Переверніть на зворотний бік</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Показувати лише сторінку з фото</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Тримайте документ прямо</string>
 </resources>

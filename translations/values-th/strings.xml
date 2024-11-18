@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">เช็คให้แน่ใจว่าเห็นใบหน้าของคุณเท่านั้น ไม่ต้องเห็นบัตรประจำตัว</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">เช็คให้แน่ใจว่าเห็นใบหน้าของคุณเท่านั้น ไม่ต้องเห็นเอกสารประจำตัว</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">รีสตาร์ทการบันทึก</string>
-	<string name="onfido_avc_confirmation_title">บันทึกเสร็จสมบูรณ์</string>
-	<string name="onfido_avc_confirmation_subtitle">บันทึกวิดีโอใบหน้าของคุณเรียบร้อยแล้ว</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">อัปโหลดบันทึก</string>
 	<string name="onfido_avc_connection_error_title">เกิดข้อผิดพลาดในการเชื่อมต่อ</string>
 	<string name="onfido_avc_connection_error_subtitle">เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">ใบหน้าไม่อยู่ตรงกลาง</string>
@@ -472,8 +469,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">ลองอีกครั้ง</string>
 	<string name="onfido_doc_capture_header_recording_video">กำลังบันทึกวิดีโอ</string>
 	<string name="onfido_doc_capture_header_recording_complete">บันทึกเสร็จสมบูรณ์</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">ใช้โทรศัพท์ของคุณสแกนชิปที่อยู่ในเอกสารของคุณ</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">วางเอกสารของคุณให้สัมผัสกับด้านหลังของอุปกรณ์</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">วางเอกสารของคุณให้สัมผัสกับด้านหลังของอุปกรณ์</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">เลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนโทรศัพท์ของคุณเพื่อค้นหาชิป</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">เมื่อการสแกนเริ่มต้น โปรดอยู่นิ่งเพื่อให้การสแกนเสร็จสิ้น</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">รับการตรวจสอบโดยไม่มี NFC</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">ลองอีกครั้ง</string>
 	<string name="onfido_retry_feedback_custom_title">เอกสารของคุณหมดอายุแล้ว</string>
 	<string name="onfido_retry_feedback_custom_subtitle">โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">ใช้โทรศัพท์ของคุณสแกนชิปที่อยู่ในเอกสารของคุณ</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">เลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนโทรศัพท์ของคุณเพื่อค้นหาชิป</string>
+	<string name="onfido_generic_icon_info_accessibility">ข้อมูล:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">ข้อมูล:</string>
+	<string name="onfido_generic_footer_branding">Onfido ตัวตนจริง</string>
+	<string name="onfido_qes_error_misconfigured">ขออภัย, มีข้อผิดพลาดเกิดขึ้น กรุณาติดต่อฝ่ายสนับสนุนของคุณ</string>
+	<string name="onfido_permission_button_primary_both_label">เปิดใช้งานทั้งกล้องและไมโครโฟน</string>
+	<string name="onfido_qes_consent_introduction_validation">ต้องได้รับความยินยอม</string>
+	<string name="onfido_doc_capture_alert_too_close_title">ถอยออกไปเล็กน้อย</string>
+	<string name="onfido_doc_capture_alert_rotated_title">หมุนเอกสารของคุณ</string>
+	<string name="onfido_doc_capture_alert_too_far_title">ขยับเข้ามาใกล้ๆ</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">พลิกไปด้านหน้า</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">พลิกไปด้านหลัง</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">แสดงหน้ารูปเท่านั้น</string>
+	<string name="onfido_doc_capture_alert_tilted_title">ถือเอกสารให้ตรง</string>
 </resources>

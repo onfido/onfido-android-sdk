@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Prikažite samo svoje lice; ne moramo da vidimo vaš ID</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Prikažite samo svoje lice; ne moramo da vidimo vaš identifikacioni dokument</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Ponovo započnite snimanje</string>
-	<string name="onfido_avc_confirmation_title">Snimanje je završeno</string>
-	<string name="onfido_avc_confirmation_subtitle">Video vašeg lica je uspešno snimljen</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Otpremite snimak</string>
 	<string name="onfido_avc_connection_error_title">Greška pri povezivanju</string>
 	<string name="onfido_avc_connection_error_subtitle">Proverite da li je veza stabilna, a zatim probajte ponovo</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Lice nije centrirano</string>
@@ -472,8 +469,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Probajte ponovo</string>
 	<string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
 	<string name="onfido_doc_capture_header_recording_complete">Snimanje je završeno</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Koristite svoj telefon da skenirate čip u vašem dokumentu</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Поставите свој документ на задњу страну уређаја тако да се додирују</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Поставите свој документ на задњу страну уређаја тако да се додирују</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Polako pomerajte vaš dokument gore i dole prema vašem telefonu da biste locirali čip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kada započne skeniranje, ne pomerajte se kako bi se proces mogao uspešno završiti</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Verifikujte bez NFC-a</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Probajte ponovo</string>
 	<string name="onfido_retry_feedback_custom_title">Vaš dokument je istekao</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Probajte ponovo sa važećim ID-jem sa fotografijom i proverite da li se podaci jasno vide</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Koristite svoj telefon da skenirate čip u vašem dokumentu</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Polako pomerajte vaš dokument gore i dole prema vašem telefonu da biste locirali čip.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informacije:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informacije:</string>
+	<string name="onfido_generic_footer_branding">Onfido prava identifikacija</string>
+	<string name="onfido_qes_error_misconfigured">Nažalost, došlo je do greške. Molimo vas da kontaktirate vašu podršku.</string>
+	<string name="onfido_permission_button_primary_both_label">Omogućite i kameru i mikrofon</string>
+	<string name="onfido_qes_consent_introduction_validation">Potrebna saglasnost</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Odaljite se</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Ротирајте документ</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Priđite bliže</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Окрените на предњу страну</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Окрените на задњу страну</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Prikaži samo stranicu sa fotografijom</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Držite dokument pravo</string>
 </resources>

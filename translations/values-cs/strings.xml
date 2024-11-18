@@ -374,9 +374,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Stačí, když se ukážete, nepotřebujeme vidět Váš průkaz totožnosti.</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Stačí, když se ukážete, nepotřebujeme vidět Váš průkaz totožnosti.</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Restart nahrávání</string>
-	<string name="onfido_avc_confirmation_title">Nahrávání bylo dokončeno</string>
-	<string name="onfido_avc_confirmation_subtitle">Video Vašeho obličeje bylo úspěšně nahráno</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Nahrávání záznamu</string>
 	<string name="onfido_avc_connection_error_title">Chyba připojení</string>
 	<string name="onfido_avc_connection_error_subtitle">Zkontrolujte, zda je připojení stabilní, a opakujte akci</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Obličej není vycentrovaný</string>
@@ -469,8 +466,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Opakování</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audiozáznam se přehrává na jiné aplikaci</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Během nahrávání nepřehrávejte na svém zařízení žádný audiozáznam</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Použijte svůj telefon k naskenování čipu ve vašem dokumentu</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Umístěte svůj dokument na zadní stranu svého zařízení, aby se dotýkaly</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Umístěte svůj dokument na zadní stranu svého zařízení, aby se dotýkaly</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pomalu posouvejte svůj dokument dolů a nahoru proti svému telefonu, abyste našli čip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Jakmile se skenování spustí, zůstaňte v klidu, aby mohlo skenování proběhnout</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Získej ověření bez NFC</string>
@@ -556,4 +552,19 @@
 	<string name="onfido_retry_feedback_button_primary">Zkuste to znovu</string>
 	<string name="onfido_retry_feedback_custom_title">Platnost Vašeho dokumentu vypršela</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Zkuste to znovu s platným průkazem totožnosti s fotografií a ujistěte se, že jsou Vaše údaje jasně viditelné.</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Použijte svůj telefon k naskenování čipu ve vašem dokumentu</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Pomalu posouvejte svůj dokument dolů a nahoru proti svému telefonu, abyste našli čip.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informace:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informace:</string>
+	<string name="onfido_generic_footer_branding">Onfido skutečná identita</string>
+	<string name="onfido_qes_error_misconfigured">Bohužel došlo k chybě. Kontaktujte prosím vaši podporu.</string>
+	<string name="onfido_permission_button_primary_both_label">Povolit kameru i mikrofon</string>
+	<string name="onfido_qes_consent_introduction_validation">Vyžadován souhlas</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Posuňte se dozadu</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Otočte dokument</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Přibližte se</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Překlopte na přední stranu</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Překlopte na zadní stranu</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Zobrazit pouze stránku s fotografiemi</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Držte dokument rovně</string>
 </resources>

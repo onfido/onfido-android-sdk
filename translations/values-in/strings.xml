@@ -375,9 +375,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">Pastikan hanya menampilkan wajah Anda, kami tidak perlu melihat identitas Anda</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">Pastikan hanya menampilkan wajah Anda, kami tidak perlu melihat Dokumen Identitas Anda</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">Mulai ulang perekaman</string>
-	<string name="onfido_avc_confirmation_title">Perekaman selesai</string>
-	<string name="onfido_avc_confirmation_subtitle">Video wajah Anda berhasil direkam</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">Unggah rekaman</string>
 	<string name="onfido_avc_connection_error_title">Koneksi terganggu</string>
 	<string name="onfido_avc_connection_error_subtitle">Periksa apakah koneksi Anda stabil, lalu coba lagi</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">Wajah tidak berada di tengah</string>
@@ -472,8 +469,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan memutar audio apa pun di perangkat Anda selama perekaman</string>
 	<string name="onfido_doc_capture_header_recording_video">Merekam video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Perekaman selesai</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telepon Anda untuk memindai chip di dokumen Anda</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">Letakkan dokumen Anda di belakang perangkat Anda sehingga mereka saling menyentuh</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">Letakkan dokumen Anda di belakang perangkat Anda sehingga mereka saling menyentuh</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Geser perlahan dokumen Anda ke bawah dan ke atas di ponsel Anda untuk menemukan chip.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan verifikasi tanpa NFC</string>
@@ -557,4 +553,19 @@
 	<string name="onfido_retry_feedback_button_primary">Coba lagi</string>
 	<string name="onfido_retry_feedback_custom_title">Dokumen Anda telah kedaluwarsa</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Harap coba lagi dengan foto identitas yang valid dan pastikan informasi Anda terlihat jelas</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telepon Anda untuk memindai chip di dokumen Anda</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Geser perlahan dokumen Anda ke bawah dan ke atas di ponsel Anda untuk menemukan chip.</string>
+	<string name="onfido_generic_icon_info_accessibility">Informasi:</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informasi:</string>
+	<string name="onfido_generic_footer_branding">Identitas asli Onfido</string>
+	<string name="onfido_qes_error_misconfigured">Sayangnya, terjadi kesalahan. Silakan hubungi dukungan Anda.</string>
+	<string name="onfido_permission_button_primary_both_label">Aktifkan kamera dan mikrofon</string>
+	<string name="onfido_qes_consent_introduction_validation">Persetujuan diperlukan</string>
+	<string name="onfido_doc_capture_alert_too_close_title">Mundur</string>
+	<string name="onfido_doc_capture_alert_rotated_title">Putar dokumen Anda</string>
+	<string name="onfido_doc_capture_alert_too_far_title">Mendekatlah</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">Balik ke sisi depan</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">Balik ke sisi belakang</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">Tampilkan halaman foto saja</string>
+	<string name="onfido_doc_capture_alert_tilted_title">Tahan dokumen dengan lurus</string>
 </resources>

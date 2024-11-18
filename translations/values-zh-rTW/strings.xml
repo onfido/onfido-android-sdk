@@ -374,9 +374,6 @@
 	<string name="onfido_avc_no_face_detected_list_item_face">請務必只顯示您的臉部，我們不需要看到您的身分證件</string>
     <string name="onfido_avc_no_face_detected_list_item_face_accessibility">請務必只顯示您的臉部，我們不需要看到您的身分證件</string>
 	<string name="onfido_avc_no_face_detected_button_primary_restart">重新開始錄製</string>
-	<string name="onfido_avc_confirmation_title">錄製完成</string>
-	<string name="onfido_avc_confirmation_subtitle">已成功錄製您的臉部影片</string>
-	<string name="onfido_avc_confirmation_button_primary_upload">上傳錄製</string>
 	<string name="onfido_avc_connection_error_title">連線錯誤</string>
 	<string name="onfido_avc_connection_error_subtitle">請檢查您的連線是否穩定，然後再試一次</string>
     <string name="onfido_avc_face_alignment_feedback_not_centered">臉部未在中心位置</string>
@@ -469,8 +466,7 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">重試</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">其他應用程式正在播放音訊</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">錄製期間請勿在裝置上播放任何音訊</string>
-	<string name="onfido_nfc_scan_welcome_card_subtitle">使用您的手機掃描您文件中的晶片</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item">將您的文件放在您的設備背面，使它們接觸</string>
+    <string name="onfido_nfc_scan_welcome_card_list_item">將您的文件放在您的設備背面，使它們接觸</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">慢慢地將您的證件在手機上下滑動以找到晶片。</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_3">掃描開始後，請保持不動以便掃描能完成</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">無需NFC即可獲得驗證</string>
@@ -556,4 +552,19 @@
 	<string name="onfido_retry_feedback_button_primary">再試一次</string>
 	<string name="onfido_retry_feedback_custom_title">您的文件已過期</string>
 	<string name="onfido_retry_feedback_custom_subtitle">請使用含有相片的有效 ID 重試，並確保您的資料清楚可見</string>
+	<string name="onfido_nfc_scan_welcome_card_subtitle">使用您的手機掃描您文件中的晶片</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">慢慢地將您的證件在手機上下滑動以找到晶片。</string>
+	<string name="onfido_generic_icon_info_accessibility">資訊：</string>
+	<string name="onfido_poa_capture_country_select.icon_info_accessibility">資訊：</string>
+	<string name="onfido_generic_footer_branding">Onfido真實身份</string>
+	<string name="onfido_qes_error_misconfigured">很不幸，發生了一個錯誤。請聯繫您的支援。</string>
+	<string name="onfido_permission_button_primary_both_label">啟用相機和麥克風</string>
+	<string name="onfido_qes_consent_introduction_validation">需要同意</string>
+	<string name="onfido_doc_capture_alert_too_close_title">向後移動</string>
+	<string name="onfido_doc_capture_alert_rotated_title">旋轉文檔</string>
+	<string name="onfido_doc_capture_alert_too_far_title">靠近一些</string>
+	<string name="onfido_doc_capture_alert_wrong_side_front_title">翻到正面</string>
+	<string name="onfido_doc_capture_alert_wrong_side_back_title">翻到背面</string>
+	<string name="onfido_doc_capture_alert_photo_page_title">僅顯示照片頁面</string>
+	<string name="onfido_doc_capture_alert_tilted_title">保持文件直立</string>
 </resources>
