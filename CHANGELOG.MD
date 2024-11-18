@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+[21.2.2] - 2024-11-11
+
+### Fixed
+
+- Fixed a native-level crash occurring during emulator-based testing
+
 ## [22.0.0] - 2024-09-19
 
 ### Added
