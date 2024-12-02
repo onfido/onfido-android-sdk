@@ -51,7 +51,7 @@ Once you are satisfied with your integration and are ready to go live, please co
 
 Check that you have entered correct billing details inside your [Onfido Dashboard](https://onfido.com/dashboard/), before going live.
 
-## Adding the SDK dependency 
+## Adding the SDK dependency
 
 The SDK supports API level 21 and above ([refer to the distribution stats](https://developer.android.com/about/dashboards/index.html)).
 
@@ -97,7 +97,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 14.71 Mb  |
+| armeabi-v7a | 14.81 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -121,7 +121,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.61 Mb  |
+| core-armeabi-v7a | 11.70 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -167,7 +167,7 @@ android {
 ```
 Read the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits) for more information.
 
-**Note**: To further reduce the footprint of the SDK beyond the lightweight `onfido-capture-sdk-core`, you can integrate the Android SDK as a Dynamic Feature Module. You'll find more details about this in the dedicated section below. 
+**Note**: To further reduce the footprint of the SDK beyond the lightweight `onfido-capture-sdk-core`, you can integrate the Android SDK as a Dynamic Feature Module. You'll find more details about this in the dedicated section below.
 
 ## Initializing the SDK
 
@@ -249,7 +249,7 @@ class YourCustomApplication : MultiDexApplication() {
 	    if (isOnfidoProcess()) {
 	        return
 	    }
-	    
+
 	    // Your custom initialization calls ...
 	 }
 }
@@ -296,16 +296,16 @@ The Android SDK supports the customization of colors, buttons, icons, fonts, wid
 
 #### Appearance and Colors
 
-You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoLightTheme` 
+You can customize colors and other appearance attributes by overriding Onfido themes (`OnfidoLightTheme`
 and `OnfidoDarkTheme`) in your `themes.xml` or `styles.xml` files.
 Make sure to set `OnfidoBaseActivityTheme` as the parent of `OnfidoLightTheme` and  `OnfidoBaseDarkTheme` as the parent of `OnfidoDarkTheme` in your style definition.
 
-All colors referenced in the themes should be defined in your `colors.xml` file.  Alternatively, you can use hexadecimal 
-color values directly in the themes. When customizing fonts, all referenced fonts must be added to your project first. 
+All colors referenced in the themes should be defined in your `colors.xml` file.  Alternatively, you can use hexadecimal
+color values directly in the themes. When customizing fonts, all referenced fonts must be added to your project first.
 Further instructions for adding fonts can be found in the [Android documentation](https://developer.android.com/develop/ui/views/text-and-emoji/fonts-in-xml).
 
 
-For example, you can add these themes to your `themes.xml` to change the toolbar background and primary buttons' 
+For example, you can add these themes to your `themes.xml` to change the toolbar background and primary buttons'
 color:
 
 ```xml
@@ -326,9 +326,9 @@ For a complete list and visualizations of the customizable attributes, refer to 
 
 #### Dark theme
 
-Starting from [version 19.1.0](https://documentation.onfido.com/sdk/android/migration/#no--1900---1910), the Android SDK supports the dark theme. By default, the user's active device theme will be 
-automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time 
-and instead set a theme statically at the build time as shown below. In this case, the flow will always be displayed 
+Starting from [version 19.1.0](https://documentation.onfido.com/sdk/android/migration/#no--1900---1910), the Android SDK supports the dark theme. By default, the user's active device theme will be
+automatically applied to the Onfido SDK. However, you can opt out from dynamic theme switching at run time
+and instead set a theme statically at the build time as shown below. In this case, the flow will always be displayed
 in the selected theme regardless of the user's device theme.
 
 To force select dark theme:
@@ -486,9 +486,9 @@ For the full list of languages supported by Onfido, please refer to our [SDK cus
 
 **Custom language**
 
-The Android SDK also allows for the selection of a specific custom language for locales that Onfido does not currently support. You can have an additional XML strings file inside your resources folder for the desired locale (for example, `res/values-it/onfido_strings.xml` for 🇮🇹 translation), with the content of our [strings.xml](strings.xml) file, translated for that locale.
+The Android SDK also allows for the selection of a specific custom language for locales that Onfido does not currently support. You can have an additional XML strings file inside your resources folder for the desired locale (for example, `res/values-it/onfido_strings.xml` for 🇮🇹 translation), with the content of our `strings.xml` file ([reference](https://github.com/onfido/onfido-android-sdk/blob/master/translations/values/strings.xml)) file, translated for that locale.
 
-When adding custom translations, please make sure you add the whole set of keys we have on [strings.xml](strings.xml). 
+When adding custom translations, please make sure you add the whole set of keys we have on `strings.xml`.
 
 **Note**: If the strings translations change, it will result in a minor version change. If you have custom translations, you are responsible for testing your translated layout.
 
@@ -506,7 +506,7 @@ For more information on how to configure NFC and the list of supported documents
 
 ### Handling callbacks
 
-When the Onfido SDK session concludes, a range of callback functions may be triggered. The callbacks detailed in this section apply to identity verification workflows orchestrated using Onfido Studio. For callbacks for manually-defined verification flows implemented without Onfido Studio, please refer to the [section below](#callbacks-for-manually-defined-verification-flows). 
+When the Onfido SDK session concludes, a range of callback functions may be triggered. The callbacks detailed in this section apply to identity verification workflows orchestrated using Onfido Studio. For callbacks for manually-defined verification flows implemented without Onfido Studio, please refer to the [section below](#callbacks-for-manually-defined-verification-flows).
 
 For advanced callbacks used for user analytics and returning submitted media, please refer to the [Custom Media Callbacks](#custom-media-callbacks) and [User Analytics](#user-analytics) sections of this document.
 
@@ -600,7 +600,7 @@ override fun onException(exception: OnfidoWorkflow.WorkflowException) {
         // This happens when workflow task encounters an error during biometric token retrieval
         is WorkflowBiometricTokenStorageException ->
         // This happens when workflow task encounters an error while storing biometric token
-        else -> 
+        else ->
         // Necessary because of Kotlin
     }
 }
@@ -756,18 +756,18 @@ This information is used to optimize the capture experience, as well as inform t
 This selection screen is dynamic, and will be automatically hidden where the end user is not required to indicate which
 document will be captured.
 
-You can specify allowed issuing countries and document types for the document capture step in one of three ways: 
+You can specify allowed issuing countries and document types for the document capture step in one of three ways:
 *   If you are using Onfido Studio, this is configured within a Document Capture task, documented in the [Studio Product Guide](https://documentation.onfido.com/getting-started/onfido-studio-product#document-capture-task)
 *   Otherwise, the recommended approach is to apply this configuration globally in your [Dashboard](https://dashboard.onfido.com/) under Accounts \ Supported Documents, or hard code it into your SDK integration. Both of these options are documented below.
 
-##### Country and document type selection by Dashboard 
+##### Country and document type selection by Dashboard
 
 Configuring the issuing country and document type selection step using your Dashboard is the **recommended method** of integration (available from [iOS SDK](https://documentation.onfido.com/sdk/ios/) version 28.0.0 and [Android SDK](https://documentation.onfido.com/sdk/android/) version 16.0.0 onwards), as this configuration is also applied to your Document Reports. Any document that has been uploaded by an end user against your guidance will result in a Document Report sub-result of "rejected" and be flagged as `Image Integrity` > `Supported Document`.
 
 _We will be rolling out Dashboard-based configuration of allowed documents soon. In the meantime, contact Onfido's [Customer Support](mailto:support@onfido.com) or your Customer Support Manager to request access to this feature_.
 
 *   Open the Accounts tab on your [Dashboard](https://dashboard.onfido.com/), then click Supported Documents
-*   You will be presented with a list of all available countries and their associated supported documents. Make your selection, then click Save Change. 
+*   You will be presented with a list of all available countries and their associated supported documents. Make your selection, then click Save Change.
 
 ![Dashboard country and document selection](dashboard-supported-docs.png)
 
@@ -834,7 +834,7 @@ onfidoConfigBuilder.withAllowedDocumentTypes(documentTypes)
 
 The configuration function allows you to specify the document's country of origin. If a document country is specified for a document type, the selection screen is displayed with the preselected country.
 
-**Note**: You can specify a country for all document types except `PASSPORT`. This is because passports have the same format worldwide so the SDK does not require this additional information.     
+**Note**: You can specify a country for all document types except `PASSPORT`. This is because passports have the same format worldwide so the SDK does not require this additional information.
 
 For example, to only capture UK driving licences:
 
@@ -998,7 +998,7 @@ implementation ("com.onfido.sdk:onfido-<variant>:19.1.0"){
  implementation ("the other library that conflicts with Onfido on BouncyCastle") {
      exclude group: "org.bouncycastle"
  }
- 
+
  implementation "org.bouncycastle:bcprov-jdk15to18:1.69"
  implementation "org.bouncycastle:bcutil-jdk15to18:1.69"
 ```
@@ -1069,12 +1069,12 @@ Document:
         Front: DocumentSide(id=document_id, side=FRONT, type=DRIVING_LICENCE, nfcSupported=false)
         Back: DocumentSide(id=document_id, side=BACK, type=DRIVING_LICENCE, nfcSupported=false)
         Type: DRIVING_LICENCE
-            
+
 Face:
-        Face(id=face_id, variant=PHOTO) 
-        
-Proof of address:   
-        ProofOfAddress(type=UTILITY_BILL, front = (id = front_side_id, type = (optional)), back = (id = back_side_id, type = (optional))) 
+        Face(id=face_id, variant=PHOTO)
+
+Proof of address:
+        ProofOfAddress(type=UTILITY_BILL, front = (id = front_side_id, type = (optional)), back = (id = back_side_id, type = (optional)))
 ```
 **Note**: the `type` property refers to `DocumentType`, variant refers to `FaceCaptureVariant`
 
@@ -1209,7 +1209,7 @@ class OnfidoEventListener implements OnfidoAnalyticsEventListener {
 
     private final Context applicationContext;
     private final Storage storage;
-        
+
     OnfidoEventListener(Context applicationContext, Storage storage) {
         this.applicationContext = applicationContext;
         this.storage = storage;
@@ -1264,7 +1264,7 @@ class OnfidoEventListener implements OnfidoAnalyticsEventListener {
 
     private final Context applicationContext;
     private final Storage storage;
-        
+
     OnfidoEventListener(Context applicationContext, Storage storage) {
         this.applicationContext = applicationContext;
         this.storage = storage;
@@ -1454,7 +1454,7 @@ Further information about the Onfido API is available in our [API reference](htt
 
 ## Support
 
-Should you encounter any technical issues during integration, please contact Onfido's Customer Support team via [email](mailto:support@onfido.com), including the word ISSUE at the start of the subject line. 
+Should you encounter any technical issues during integration, please contact Onfido's Customer Support team via [email](mailto:support@onfido.com), including the word ISSUE at the start of the subject line.
 
 Alternatively, you can search the support documentation available via the customer experience portal, [public.support.onfido.com](https://public.support.onfido.com/s/).
 

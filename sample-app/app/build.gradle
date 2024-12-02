@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '22.0.0'
-def versionCodeNumber = 2200
+def sdkVersion = '22.1.0'
+def versionCodeNumber = 2210
 
 android {
     namespace 'com.onfido.android.app.sample'
-    compileSdkVersion 34
+    compileSdk 34
     defaultConfig {
         applicationId "com.onfido.sampleapp"
         minSdkVersion 21
@@ -19,8 +19,8 @@ android {
         abortOnError false
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_19
+        targetCompatibility JavaVersion.VERSION_19
     }
     buildTypes {
         debug {

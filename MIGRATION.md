@@ -4,6 +4,12 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
+## `22.0.0` -> `22.1.0`
+
+### Deprecated API Changes
+
+- Usage of manually-generated SDK tokens alongside Studio workflows is deprecated. Please use Studio tokens returned in the payload when creating a workflow run. For more details see: https://documentation.onfido.com/api/latest/#sdk-tokens
+
 ## `21.2.0` -> `22.0.0`
 
 ### Breaking API Changes
@@ -18,6 +24,7 @@ ProofOfAddress(type=UTILITY_BILL, front = (id = front_side_id, type = (optional)
 - Removed `OnfidoConfig.Builder`'s deprecated methods: `withNFCReadFeature()` and `disableNFC()`. Use `withNFC(option: NFCOptions)` instead
 - `OnfidoActivityTheme` has been renamed to `OnfidoLightTheme` for consistency with `OnfidoDarkTheme`
 - The `attr` suffix has been removed from all font family theme attributes for consistency with other attribute names
+- Removed `withBaseUrl` API from the `OnfidoConfig` public APIs
 
 ### String Changes
 

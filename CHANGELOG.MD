@@ -9,6 +9,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [22.1.0] - 2024-12-02
+
+### Changed
+
+- Handled an option to skip Motion Intro screen in Studio flow
+- Added API to skip Motion Intro screen in Classic flow via `.withIntro(false)`
+- The country names listed in the document selection screen are now translated according to the device locale
+- Added a deprecation warning log for usage of manually-generated SDK tokens (in favour of using Studio tokens) alongside `workflowRunIDs`
+
+### Fixed
+
+- Fixed minor bugs with the new Capture codebase
+- Fixed document capture showing document type screen after capturing document and moving to next step
+- Fixed a publication issue within our SDK modules, which caused our `.aar`s to be missing from Maven central for the `onfido-capture-sdk` module (none of the other modules were impacted). Consequently, SDK integrations that were only importing this dependency were failing to compile: the dependencies were not correctly pulled and therefore imports were failing. Note: this was only happening when *not* using Onfido Studio (i.e. the `onfido-workflow` dependency being added was masking/working around the problem)
+- Fixed a crash caused by a certain setup including aggressive Proguard rules. Note: only one customer was affected
+
 ## [21.2.2] - 2024-11-11
 
 ### Fixed
@@ -25,6 +41,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 - Updated the Kotlin version used from 1.7 to 1.9, as well as the Java version from 8 to 11
 - Renamed `OnfidoActivityTheme` to `OnfidoLightTheme` for consistency with `OnfidoDarkTheme`. Also dropped `attr` suffix from font family theme attributes for consistency with other attribute names
+- Removed `withBaseUrl` API from the `OnfidoConfig` public APIs
 
 ### Removed
 

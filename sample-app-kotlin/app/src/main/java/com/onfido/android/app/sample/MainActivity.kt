@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         client!!.startActivityForResult(this@MainActivity, 1, onfidoConfig)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         client!!.handleActivityResult(resultCode, data, object : Onfido.OnfidoResultListener {
