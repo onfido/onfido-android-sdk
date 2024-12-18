@@ -569,4 +569,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Arka tarafa çevir</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Sadece fotoğraf sayfasını göster</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Belgeyi düz tutun</string>
+    <string name="onfido_generic_icon_error_accessibility">Hata:</string>
 </resources>

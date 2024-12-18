@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Перевернуть на обратную сторону</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Показать только страницу с фотографией</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Держите документ прямо</string>
+    <string name="onfido_generic_icon_error_accessibility">Ошибка:</string>
 </resources>

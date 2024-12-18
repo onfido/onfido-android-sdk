@@ -567,4 +567,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">قلب للجانب الخلفي</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">أظهر صفحة الصور فقط</string>
 	<string name="onfido_doc_capture_alert_tilted_title">أمسك الوثيقة بشكل مستقيم</string>
+    <string name="onfido_generic_icon_error_accessibility">خطأ:</string>
 </resources>

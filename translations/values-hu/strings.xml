@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Fordítsa meg a dokumentumot</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Mutassa csak a fényképes oldalt</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Tartsa egyenesen az okmányt</string>
+    <string name="onfido_generic_icon_error_accessibility">Hiba:</string>
 </resources>

@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Okrenite na stražnju stranu</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Prikaži samo stranicu s fotografijama</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Držite dokument ravno</string>
+    <string name="onfido_generic_icon_error_accessibility">Pogreška:</string>
 </resources>

@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Întoarceți în spate</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Afișează doar pagina cu fotografie</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Ține documentul drept</string>
+    <string name="onfido_generic_icon_error_accessibility">Eroare:</string>
 </resources>

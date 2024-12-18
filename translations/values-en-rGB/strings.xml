@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Flip to back side</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Show photo page only</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Hold document straight</string>
+    <string name="onfido_generic_icon_error_accessibility">Error:</string>
 </resources>

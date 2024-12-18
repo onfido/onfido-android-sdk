@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">به سمت عقب برگردانید</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">فقط صفحه عکس را نشان دهید</string>
 	<string name="onfido_doc_capture_alert_tilted_title">سند را راست نگه دارید</string>
+    <string name="onfido_generic_icon_error_accessibility">خطا:</string>
 </resources>

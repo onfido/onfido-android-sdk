@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Otočte na zadnú stranu</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Zobraziť iba stránku s fotografiou</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Držte dokument rovno</string>
+    <string name="onfido_generic_icon_error_accessibility">Chyba:</string>
 </resources>

@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Lật sang mặt sau</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Chỉ hiển thị trang ảnh</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Giữ tài liệu thẳng</string>
+    <string name="onfido_generic_icon_error_accessibility">Lỗi:</string>
 </resources>

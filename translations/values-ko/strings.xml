@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">뒷면으로 뒤집기</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">사진 페이지만 표시</string>
 	<string name="onfido_doc_capture_alert_tilted_title">문서를 곧게 들어주세요</string>
+    <string name="onfido_generic_icon_error_accessibility">오류:</string>
 </resources>

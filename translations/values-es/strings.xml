@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Voltear hacia atrás</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Mostrar solo la página de la foto</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Sostenga el documento recto</string>
+    <string name="onfido_generic_icon_error_accessibility">Error:</string>
 </resources>

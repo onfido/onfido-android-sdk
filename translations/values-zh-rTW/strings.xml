@@ -567,4 +567,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">翻到背面</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">僅顯示照片頁面</string>
 	<string name="onfido_doc_capture_alert_tilted_title">保持文件直立</string>
+    <string name="onfido_generic_icon_error_accessibility">錯誤：</string>
 </resources>

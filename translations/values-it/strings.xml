@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Capovolgi sul retro</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Mostra solo la pagina della foto</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Tieni il documento dritto</string>
+    <string name="onfido_generic_icon_error_accessibility">Errore:</string>
 </resources>

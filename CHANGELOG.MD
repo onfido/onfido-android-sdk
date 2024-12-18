@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [22.2.0] - 2024-12-18
+
+### Changed
+
+- Added an informative prompt for users indicating the need to realign the device if the NFC connection is lost during chip authentication
+- Changed Ukraine endonym from Ukraїna to Україна
+- Added the accessibility announcement for the error and warning icons on the document capture confirmation screen
+
+### Fixed
+
+- Fixed an infinite loading issue on back press in the Studio workflow permissions screen
+- Fixed a custom theming issue for the OTP (One-Time-Password), QES (Qualified Electronic Signature) and Proof of Address modules
+- Fixed a bug with permission handling when the user has permanently denied the permissions
+
 ## [22.1.0] - 2024-12-02
 
 ### Changed

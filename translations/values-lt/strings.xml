@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Apverskite į galinę pusę</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Rodyti tik nuotraukos puslapį</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Laikykite dokumentą tiesiai</string>
+    <string name="onfido_generic_icon_error_accessibility">Klaida:</string>
 </resources>

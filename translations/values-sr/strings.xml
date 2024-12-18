@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Окрените на задњу страну</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Prikaži samo stranicu sa fotografijom</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Držite dokument pravo</string>
+    <string name="onfido_generic_icon_error_accessibility">Greška:</string>
 </resources>

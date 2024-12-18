@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">Balikkan ke bahagian belakang</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">Paparkan halaman foto sahaja</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Pegang dokumen dengan lurus</string>
+    <string name="onfido_generic_icon_error_accessibility">Ralat:</string>
 </resources>

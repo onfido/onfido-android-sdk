@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">पीछे की तरफ पलटें</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">केवल फ़ोटो पेज दिखाएं</string>
 	<string name="onfido_doc_capture_alert_tilted_title">दस्तावेज़ को सीधा रखें</string>
+    <string name="onfido_generic_icon_error_accessibility">त्रुटि:</string>
 </resources>

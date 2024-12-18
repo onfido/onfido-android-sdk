@@ -568,4 +568,5 @@
 	<string name="onfido_doc_capture_alert_wrong_side_back_title">裏側に裏返す</string>
 	<string name="onfido_doc_capture_alert_photo_page_title">写真ページのみを表示</string>
 	<string name="onfido_doc_capture_alert_tilted_title">書類をまっすぐに保持してください</string>
+    <string name="onfido_generic_icon_error_accessibility">エラー:</string>
 </resources>
