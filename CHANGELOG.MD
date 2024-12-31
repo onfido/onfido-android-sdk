@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 are responsible for testing your translated layout in case you are using custom
 translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [22.2.1] - 2024-12-30
+
+### Fixed
+
+- Fixed a crash in the document capture feature when camera is not available
+
 ## [22.2.0] - 2024-12-18
 
 ### Changed
