@@ -533,8 +533,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Çipi bulmak için telefonunuzu pasaportunuza karşı yeniden konumlandırın.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Telefonunuzu pasaportunuza dayayın. Çipi bulmak için telefonunuzu pasaportunuzda yukarı ve aşağı kaydırmanız gerekebilir.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Çip algılandığında, telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Tarama başladığında, telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Taramayı başlat</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Taramayı başlat</string>
 	<string name="onfido_nfc_fail_passport_title">Çipi tarayamıyoruz. Yardıma mı ihtiyacınız var?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Telefonunuz pasaportunuzdaki çipi algıladığında, tarama otomatik olarak başlayacaktır. Taramanın tamamlanabilmesi için telefonunuzu ve pasaportunuzu hareketsiz tutun.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Belgenizi telefonunuza yerleştirin. Belgenizi telefonunuza yavaşça kaydırmanız gerekebilir.</string>

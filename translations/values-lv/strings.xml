@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Pārvietojiet savu telefonu pret pasi, lai atrastu mikroshēmu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Novietojiet tālruni pret savu pasi. Lai atrastu čipu, var būt nepieciešams slidināt tālruni uz augšu un uz leju pa savu pasi.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Tiklīdz tiek atklāta čipa klātbūtne, turiet tālruni un pasi nemainīgi.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Tiklīdz skenēšana sākas, turiet savu telefonu un pasi nekustīgi.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Sākt skenēšanu</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Sākt skenēšanu</string>
 	<string name="onfido_nfc_fail_passport_title">Nevar skenēt mikroshēmu. Vajadzīga palīdzība?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Tiklīdz jūsu tālrunis atpazīs pasē esošo mikroshēmu, skenēšana sāksies automātiski. Turiet tālruni un pasi nemainīgi, lai skenēšana varētu pabeigties.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Novietojiet savu dokumentu pret savu tālruni. Jums var nākties pakāpeniski pārvietot savu dokumentu pa tālruni.</string>

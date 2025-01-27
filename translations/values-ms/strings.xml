@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Posisikan semula telefon anda terhadap pasport anda untuk mencari cip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Letakkan telefon anda di atas pasport anda. Untuk mencari cip, anda mungkin perlu menggeser telefon anda naik dan turun di atas pasport anda.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Setelah cip dikesan, kekalkan telefon dan pasport anda dalam keadaan diam.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Setelah pemindaian bermula, kekalkan kedudukan telefon dan pasport anda.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Mulakan imbasan</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Mulakan imbasan</string>
 	<string name="onfido_nfc_fail_passport_title">Tidak dapat mengimbas cip. Perlukan bantuan?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Setelah telefon anda mengesan cip dalam pasport anda, pengimbasan akan bermula secara automatik. Kekalkan telefon dan pasport anda dalam keadaan diam supaya pengimbasan dapat diselesaikan.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Letakkan dokumen anda melawan telefon anda. Anda mungkin perlu untuk perlahan-lahan menggeser dokumen anda melawan telefon anda.</string>

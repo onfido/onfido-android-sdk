@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Siirrä puhelimesi passiasi vasten löytääksesi sirun.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Aseta puhelimesi passiasi vasten. Sirun paikantamiseksi saatat joutua liu\'uttamaan puhelintasi ylös ja alas passiasi vasten.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kun siru on havaittu, pidä puhelimesi ja passisi paikallaan.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kun skannaus alkaa, pidä puhelimesi ja passisi paikallaan.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Aloita skannaus</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Aloita skannaus</string>
 	<string name="onfido_nfc_fail_passport_title">Sirun skannaaminen ei onnistu. Tarvitsetko apua?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Kun puhelimesi havaitsee passissasi olevan sirun, skannaus alkaa automaattisesti. Pidä puhelimesi ja passisi paikallaan, jotta skannaus voidaan suorittaa loppuun.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Aseta dokumenttisi puhelinta vasten. Saatat joutua liikuttamaan dokumenttiasi hitaasti puhelinta vasten.</string>

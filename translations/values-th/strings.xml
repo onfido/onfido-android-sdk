@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">จัดตำแหน่งโทรศัพท์ของคุณให้ตรงกับพาสปอร์ตเพื่อค้นหาชิป</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">วางโทรศัพท์ของคุณลงบนพาสปอร์ตของคุณ หากต้องการหาชิป คุณอาจจำเป็นต้องเลื่อนโทรศัพท์ของคุณขึ้นและลงบนพาสปอร์ตของคุณ</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">เมื่อตรวจจับชิปแล้ว ให้คุณรักษาโทรศัพท์และพาสปอร์ตของคุณให้นิ่ง</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">เมื่อการสแกนเริ่มต้นแล้ว ให้คุณรักษาโทรศัพท์และหนังสือเดินทางให้นิ่ง</string>
-	<string name="onfido_nfc_fail_passport_button_primary">เริ่มสแกน</string>
+    <string name="onfido_nfc_fail_passport_button_primary">เริ่มสแกน</string>
 	<string name="onfido_nfc_fail_passport_title">ไม่สามารถสแกนชิปได้ ต้องการความช่วยเหลือหรือไม่?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">เมื่อโทรศัพท์ของคุณตรวจจับชิปในพาสปอร์ตของคุณ การสแกนจะเริ่มทำงานโดยอัตโนมัติ รักษาให้โทรศัพท์และพาสปอร์ตของคุณอยู่นิ่งเพื่อให้การสแกนสามารถเสร็จสิ้นได้</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">วางเอกสารของคุณบนโทรศัพท์ของคุณ คุณอาจจำเป็นต้องเลื่อนเอกสารของคุณบนโทรศัพท์ของคุณอย่างช้าๆ</string>

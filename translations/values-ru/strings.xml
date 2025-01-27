@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Переставьте ваш телефон на ваш паспорт, чтобы найти чип.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Приложите телефон к паспорту. Чтобы найти чип, вам может потребоваться перемещать телефон вверх и вниз по паспорту.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Как только чип обнаружен, держите телефон и паспорт неподвижно.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Как только начнется сканирование, держите ваш телефон и паспорт неподвижно.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Начать сканирование</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Начать сканирование</string>
 	<string name="onfido_nfc_fail_passport_title">Не удалось отсканировать чип. Нужна помощь?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Как только ваш телефон обнаружит чип в вашем паспорте, сканирование начнется автоматически. Держите ваш телефон и паспорт неподвижно, чтобы сканирование могло завершиться.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Приложите ваш документ к вашему телефону. Возможно, вам придется медленно перемещать ваш документ по телефону.</string>

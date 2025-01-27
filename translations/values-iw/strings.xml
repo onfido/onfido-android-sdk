@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">מקמו מחדש את הטלפון שלכם על הדרכון שלכם כדי לאתר את השבב.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">מקם את הטלפון שלך על הדרכון שלך. כדי לאתר את השבב, ייתכן שתצטרך להחליק את הטלפון שלך למעלה ולמטה על הדרכון שלך.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">לאחר שהשבב מזוהה, ודא שהטלפון והדרכון נשארים במקום.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">לאחר שהסריקה מתחילה, השאר את הטלפון והדרכון שלך במקום.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">התחל סריקה</string>
+    <string name="onfido_nfc_fail_passport_button_primary">התחל סריקה</string>
 	<string name="onfido_nfc_fail_passport_title">לא מצליחים לסרוק את השבב. צריכים עזרה?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">ברגע שהטלפון שלך מזהה את השבב בדרכון שלך, הסריקה תתחיל אוטומטית. השאר את הטלפון והדרכון שלך במקום כדי שהסריקה תוכל להסתיים.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">הנח את המסמך שלך על הטלפון שלך. ייתכן ותצטרך להזיז לאט את המסמך שלך נגד הטלפון שלך.</string>

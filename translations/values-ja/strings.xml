@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">チップを見つけるために、パスポートに対して電話を再配置してください。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">パスポートに対してスマートフォンを置いてください。チップを見つけるためには、パスポートに対してスマートフォンを上下にスライドさせる必要があるかもしれません。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">チップが検出されたら、スマートフォンとパスポートを静止させてください。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">スキャンが開始されたら、携帯電話とパスポートを静止させてください。</string>
-	<string name="onfido_nfc_fail_passport_button_primary">スキャンを開始</string>
+    <string name="onfido_nfc_fail_passport_button_primary">スキャンを開始</string>
 	<string name="onfido_nfc_fail_passport_title">チップをスキャンできません。ヘルプが必要ですか？</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">電話がパスポートのチップを検出すると、スキャンが自動的に開始されます。スキャンが完了するまで、電話とパスポートを静止させてください。</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">あなたのドキュメントをあなたの電話に対して置いてください。ドキュメントを電話に対してゆっくりとスライドさせる必要があるかもしれません。</string>

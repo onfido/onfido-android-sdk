@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Reposicione seu telefone contra o seu passaporte para localizar o chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloque seu celular contra o seu passaporte. Para localizar o chip, você pode precisar deslizar seu celular para cima e para baixo contra o seu passaporte.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Uma vez que o chip é detectado, mantenha seu celular e passaporte imóveis.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Uma vez que a varredura comece, mantenha seu telefone e passaporte imóveis.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Iniciar digitalização</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Iniciar digitalização</string>
 	<string name="onfido_nfc_fail_passport_title">Incapaz de digitalizar o chip. Precisa de ajuda?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Uma vez que seu telefone detecta o chip no seu passaporte, a digitalização começará automaticamente. Mantenha seu telefone e passaporte imóveis para que a digitalização possa ser concluída.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Coloque o seu documento contra o seu telefone. Você pode precisar deslizar lentamente o seu documento contra o seu telefone.</string>

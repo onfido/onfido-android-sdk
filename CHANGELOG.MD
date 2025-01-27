@@ -1,13 +1,29 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
+This changelog documents all notable modifications made to the Android Smart Capture SDK over time. The purpose of this record is to provide transparency and traceability surrounding the evolution of the SDK.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-**Note**: If the strings translations change it will result in a MINOR version change, therefore you
-are responsible for testing your translated layout in case you are using custom
-translations. [More on language localisation](https://documentation.onfido.com/sdk/android/#language-localization)
+**Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
+
+## [22.3.0] - 2025-01-27
+
+### Added
+- Added 'onfidoColorMotionHeadTurnCompletedTick' and 'onfidoColorMotionHeadTurnCompletedTickBackground' attributes for Motion completion tick UI customization 
+
+### Changed
+
+- Ensured font consistency across native and web modules
+- Improved the accessibility around the NFC scanning process
+- Cleared document files from cache after capture to optimize storage
+- Updated the steps on the NFC intro screen
+
+### Fixed
+
+- Fixed translations for Selfie when launched via Studio
+- Fixed possible conflicts with default Android FileProvider
+- Fixed issue preventing back navigation to the document selection screen from the document capture screen in Studio flows
 
 ## [22.2.1] - 2024-12-30
 
@@ -17,11 +33,14 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ## [22.2.0] - 2024-12-18
 
-### Changed
+### Added
 
 - Added an informative prompt for users indicating the need to realign the device if the NFC connection is lost during chip authentication
-- Changed Ukraine endonym from Ukraїna to Україна
 - Added the accessibility announcement for the error and warning icons on the document capture confirmation screen
+
+### Changed
+
+- Changed Ukraine endonym from Ukraїna to Україна
 
 ### Fixed
 
@@ -29,14 +48,23 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 - Fixed a custom theming issue for the OTP (One-Time-Password), QES (Qualified Electronic Signature) and Proof of Address modules
 - Fixed a bug with permission handling when the user has permanently denied the permissions
 
+## [22.1.1] - 2025-01-07
+
+### Fixed
+
+- Fixed a crash in the document capture feature when camera is not available
+
 ## [22.1.0] - 2024-12-02
+
+### Added
+
+- Added API to skip Motion Intro screen in Classic flow via `.withIntro(false)`
+- Added a deprecation warning log for usage of manually-generated SDK tokens (in favour of using Studio tokens) alongside `workflowRunIDs`
 
 ### Changed
 
 - Handled an option to skip Motion Intro screen in Studio flow
-- Added API to skip Motion Intro screen in Classic flow via `.withIntro(false)`
-- The country names listed in the document selection screen are now translated according to the device locale
-- Added a deprecation warning log for usage of manually-generated SDK tokens (in favour of using Studio tokens) alongside `workflowRunIDs`
+- The countries listed in the country selection screen are now localized in the device's configured locale
 
 ### Fixed
 
@@ -55,22 +83,22 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Added
 
-- Updated the Proof of address module to the latest functionality
+- Updated the Proof of Address module to the latest functionality
 
 ### Changed
 
 - Updated the Kotlin version used from 1.7 to 1.9, as well as the Java version from 8 to 11
 - Renamed `OnfidoActivityTheme` to `OnfidoLightTheme` for consistency with `OnfidoDarkTheme`. Also dropped `attr` suffix from font family theme attributes for consistency with other attribute names
-- Removed `withBaseUrl` API from the `OnfidoConfig` public APIs
 
 ### Removed
 
-- Removed deprecated APIs. Refer to our [migration guide](https://documentation.onfido.com/sdk/android/migration/) for specific details
-- Removed unused translations keys
+- Removed `withBaseUrl` API from the `OnfidoConfig` public APIs
+- Removed deprecated APIs. Refer to our [migration guide](https://documentation.onfido.com/sdk/android/migration/#2120---2200) for specific details
+- Removed unused translations keys. Refer to our [migration guide](https://documentation.onfido.com/sdk/android/migration/#2120---2200) for specific details
 
 ## [21.2.1] - 2024-09-27
 
-### Changed
+### Added
 
 - Added `type`, `issuing_country` and `side` metadata to document video uploads
 
@@ -121,38 +149,41 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Added
 
-- Added support for electronic id verification (eID)
+- Added support for [Electronic ID Verification](https://documentation.onfido.com/guide/eid-verification/) (eID)
 - Added a fallback for any unsupported Studio task to fallback to as a capture module
 
 ### Changed
 
-- Removed deprecated Motion capture fallback API
 - Deprecated APIs are now marked with Error deprecation Level
-- Bumped Android target SDK version to 34. This update indirectly means that Java version 17 is required to build the project. Details: https://developer.android.com/build/jdks
+- Bumped Android target SDK version to 34. This update indirectly means that Java version 17 is required to build the project. Find more details [here](https://developer.android.com/build/jdks)
 - Updated JMRTD and SCUBA library versions to latest, to account for the deprecated functions on Android API 34
-- Removed the deprecated `withNFCReadFeature` and `disableNFC` attributes
 
 ### Fixed
 
 - Fixed an issue with the `TokenExpirationHandler` for Studio, where the `onException` callback was triggered instead of the refresh token set in the expiration handler
 - Fixed a crash when user enables NFC after entering the NFC intro screen
 
+### Removed
+
+- Removed deprecated Motion capture fallback API
+- Removed the deprecated `withNFCReadFeature` and `disableNFC` attributes
+
 ## [20.5.0] - 2024-07-02
 
 ### Added
 
 - Added `withNFC(Disabled, Optional, Required)` when configuring NFC in `OnfidoConfig`
-- Deprecated `disableNFC()`, use `withNFC(NFCOptions.Disabled)` instead
-
-### Changed
-
 - Added handling for the Studio workflows with abandoned or error state
-- Fixed the ANR (Application Not Responding) issue that occurred when NFC scanning was canceled.
+- Added Proguard rules for `androidx.window` Sidecar classes to avoid them being removed by R8 which causes crashes in some devices with abstract method `void androidx.window.sidecar.SidecarInterface$SidecarCallback.onDeviceStateChanged`
+
+### Deprecated
+
+- Deprecated `disableNFC()`, use `withNFC(NFCOptions.Disabled)` instead. Refer to our [migration guide](https://documentation.onfido.com/sdk/android/migration/#2040---2050)
 
 ### Fixed
 
+- Fixed the ANR (Application Not Responding) issue that occurred when NFC scanning was canceled
 - Fixed tapping back from proof of address landing page exits the flow
-- Added proguard rules for `androidx.window` Sidecar classes to avoid them being removed by R8 which causes crashes in some devices with abstract method `void androidx.window.sidecar.SidecarInterface$SidecarCallback.onDeviceStateChanged`
 
 ## [20.2.2] - 2024-06-25
 
@@ -165,7 +196,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 ### Fixed
 
 - Removed all toolbar titles from classic and studio
-- Fixed ImageCaptureException (shutter button disappears) during Document capture
+- Fixed `ImageCaptureException` (shutter button disappears) during Document capture
 
 ## [20.4.0] - 2024-05-27
 
@@ -177,27 +208,27 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 ### Changed
 
 - Updated NFC intro instructions
-- Handled the NFC scanning interruption. The NFC scanning process will resume from the point where the user left off.
+- Handled the NFC scanning interruption. The NFC scanning process will resume from the point where the user left off
 
 ### Fixed
 
-- Fixed LoadingFragment IllegalStateException on capture screen.
+- Fixed `LoadingFragment IllegalStateException` on capture screen
 - Fixed the issue where the shutter button would disappear during document capture
-- Updated the search icon's stroke color attribute from `onfidoColorContentMain` to `onfidoColorIconStroke` to align with other icons and improve UI customization. This icon is used in the country selection screen.
-- Fixed proof of address file not found crash
-- Fixed an issue where the Token expiration handler was not called for Studio integrations
+- Updated the search icon's stroke color attribute from `onfidoColorContentMain` to `onfidoColorIconStroke` to align with other icons and improve UI customization. This icon is used in the country selection screen
+- Fixed Proof of Address file not found crash
+- Fixed an issue where the token expiration handler was not called for Studio integrations
 
 ## [20.3.0] - 2024-05-15
 
 ### Added
 
-- Implemented user flow exit button on studio flows
+- Implemented user flow exit button on Studio flows
 
 ## [20.2.1] - 2024-06-04
 
 ### Fixed
 
-- Fixed the issue where the shutter button would disappear during document capture.
+- Fixed the issue where the shutter button would disappear during document capture
 
 ## [20.2.0] - 2024-04-16
 
@@ -207,22 +238,25 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ## [20.1.0] - 2024-04-08
 
+### Added
+
+- Added missing `VIEW` event type to analytics documentation
+- Added a `ContentProvider` so that the initialization of the Onfido process happens earlier than any other potential Android component
+
 ### Changed
 
-- Added missing VIEW event type to analytics documentation 
 - Integrated CameraX into the Motion feature
 
 ### Fixed
 
 - Fixed upload error for Kosovo documents
-- Fixed an accessibility issue in the Country selection screen, where the 'Can't find your country' button used to behave incorrectly
+- Fixed an accessibility issue in the country selection screen, where the 'Can't find your country' button used to behave incorrectly
 - Fixed the Search icon not visible in dark mode
-- Fixed a crash at SDK initialization time for customers using WebViews and initializing their directory inside the onCreate method of the Application class
-- Added a ContentProvider so that the initialization of the Onfido process happens earlier than any other potential Android component
+- Fixed a crash at SDK initialization time for customers using WebViews and initializing their directory inside the `onCreate` method of the `Application` class
 - Fixed `IllegalStateException` when launching SDK
 - Fixed displaying problems with the "Invalid file" dialog in the Proof of Address flows 
 - Fixed Liveness back navigation
-- Fixed hidden non functional back button in studio flows
+- Fixed hidden non functional back button in Studio flows
 - Fixed crash in Motion Upload screen when recovered from process death
 - Fixed accessibility issues around focus for TalkBack navigation
 - Enabled Accessibility system wide set font sizes on camera screen texts
@@ -231,7 +265,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Fixed
 
-- Fixed an issue where a `NoSuchFieldError` error occurred when utilizing Gradle plugin version 8.3 or later.
+- Fixed an issue where a `NoSuchFieldError` error occurred when utilizing Gradle plugin version 8.3 or later
 
 ## [20.0.1] - 2024-03-21
 
@@ -244,15 +278,18 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Changed
 
-- Separated Onfido SDK and Workflow APIs to onfido-public-api and onfido-workflow-api respectively, with no API or integration change
+- Separated Onfido SDK and Workflow APIs to `onfido-public-api` and `onfido-workflow-api` respectively, with no API or integration change
 - Updated documentation on how to integrate and use the SDK as a Dynamic Feature Module
 - Improved Resolution Selection Algorithm
-- Removed dfm-base module and merged it with onfido-public-api
+
+### Removed
+
+- Removed `dfm-base` module and merged it with `onfido-public-api`
 
 ### Fixed
 
 - Fixed visible toolbar back navigation while SDK is initializing
-- Fixed a crash due to a FileNotFoundException, when launching Motion on certain devices by disabling compression of essential asset files
+- Fixed a crash due to a `FileNotFoundException`, when launching Motion on certain devices by disabling compression of essential asset files
 
 ## [19.6.1] - 2024-02-29
 
@@ -290,7 +327,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 ### Fixed
 
 - Fixed Camera Lifecycle Related Issues
-- Enhanced the stability of the SDK during initial startup and when resuming after being in the background. This update ensures a smoother, more reliable experience both when launching the app and returning to it after multitasking.
+- Enhanced the stability of the SDK during initial startup and when resuming after being in the background. This update ensures a smoother, more reliable experience both when launching the app and returning to it after multitasking
 
 ## [19.5.0] - 2023-12-04
 
@@ -314,7 +351,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 - Fixed flow termination when user clicks cancel during NFC scanning process
 - Fixed an issue with the Submit button being visible on document confirmation screen when image quality error is returned for the first time
 - Fixed a Studio issue where, in case the capture was cancelled by the user, the `onError` callback was being triggered instead of `userExited` in a specific navigation scenario
-- Fixed a Studio issue where the workflow-run-id was kept between successive executions of the same workflow
+- Fixed a Studio issue where the `workflow-run-id` was kept between successive executions of the same workflow
 - Fixed NPE occurring during `isOnfidoProcess` check
 - Fixed crashes during the Proof of Address capture
 - Fixed missing translation for voice-over text on selfie preview screen
@@ -363,11 +400,11 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 ### Added
 
 - Added a new artifact to facilitate integration in Dynamic Feature Modules
+- Added `installActivity` to allow Dynamic Feature Modules
 
 ### Changed
 
 - Increased Motion device coverage to devices that don't have Play Services
-- Added `installActivity` to allow Dynamic Feaature Modules
 - The compile sdk version has been upgraded to 33 to meet Google Play's target API level requirement
 
 ### Fixed
@@ -381,21 +418,21 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Changed
 
-- Updated serializers to supported lower versions of the Kotlinx.Serialization library
+- Updated serializers to supported lower versions of the `Kotlinx.Serialization` library
 
 ### Fixed
 
-- Fix UI customization issues
+- Fixed UI customization issues
 
 ## [19.2.0] - 2023-08-22
 
 ### Changed
 
-- Fixed the extended white screen issue when the SDK flow starts and finishes.
+- Fixed the extended white screen issue when the SDK flow starts and finishes
 
 ### Fixed
 
-- Fix Driving license was not displayed for Haiti.
+- Fixed an issue where driving license was not displayed for Haiti
 
 ## [19.1.0] - 2023-07-26
 
@@ -406,14 +443,16 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Changed
 
-- Added NFC dependencies to the SDK by default
-- Please check documentation if you don't need NFC and want to exclude corresponding dependencies
+- Added NFC dependencies to the SDK by default. Please check documentation if you don't need NFC and want to exclude corresponding dependencies
+
+### Removed
+
 - Removed `Multiple substitutions specified in non-positional format of string resource` warnings
 
 ### Fixed
 
-- Fixed last two countries in the countries list are not visible
-- Fixed the BadTokenException crashes that occurred when users moved the app to the background while capturing
+- Fixed an issue where the last two countries in the country selection list are not visible
+- Fixed the `BadTokenException` crashes that occurred when users moved the app to the background while capturing
 - Fixed the crash occurs when decoding bitmap
 - Fixed the Fatal 6 signal error after the document capture
 - Fixed `IllegalArgumentException` crash occurring during image cropping operations
@@ -424,26 +463,32 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Added
 
-- Payload signing for Selfie and Liveness 1.0 (aka Video)
+- Added payload signing for Selfie and Liveness 1.0 (aka Video)
 - Updated Consent screen. Disabled Accept and Reject buttons until the consent is read
 - Added `isOnfidoProcess` extension function to the Application class to prevent reinitialization in the custom application classes. More info [here](https://documentation.onfido.com/sdk/android/#custom-application-class)
 
 ### Changed
 
-- Remove `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application.
-- Remove `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application.
-- Remove `Parcelable` implementation from `MediaCallback` and run it in the same process with the application
-- Deprecated `withNFCReadFeature()` in `OnfidoConfig`
 - Enabled NFC by default in `OnfidoConfig`. Added `disableNFC()` for disabling it
-- Remove Document Liveness deprecated feature
-- Update supported locals in public documentation
-- Update OpenCV library version to 4.7.0
-- Add all translations to github public documentation
+- Updated supported locales in public documentation
+- Updated OpenCV library version to 4.7.0
+- Added all translations to Github public documentation
 
 ### Fixed
 
 - Fixed transparent PDF rendering issue in the PoA screen
 - Fixed recording completion on Android 5 Samsung Galaxy 4 for Motion
+
+### Removed
+
+- Removed `Parcelable` implementation from `OnfidoAnalyticsEventListener` and run it in the same process with the application
+- Removed `Parcelable` implementation from `TokenExpirationHandler` and run it in the same process with the application
+- Removed `Parcelable` implementation from `MediaCallback` and run it in the same process with the application
+- Removed Document Liveness deprecated feature
+
+### Deprecated
+
+- Deprecated `withNFCReadFeature()` in `OnfidoConfig`
 
 ## [18.0.0] - 2023-05-25
 
@@ -469,7 +514,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 ### Added
 
 - After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK. - After the release of version 17.0.0, Onfido Android SDK runs in a separate process. This means that when the callback is triggered, the body of that callback will run in the Onfido SDK process rather than the main application process. Therefore, any actions performed in the callback, such as accessing memory or modifying UI, will be executed within the SDK process. It is important to keep this in mind when designing and implementing callbacks in order to ensure the proper functioning and performance of the SDK. Having Onfido SDK run in its own process adds extra reliability to customer applications as it avoids crashes on the customer app. It also brings better error logging support.
-- Add explicit support for the Nynorsk language
+- Added explicit support for the Nynorsk language
 
 ### Changed
 
@@ -487,7 +532,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Changed
 
-- Added default value to `DocumentSide#nfcSupported` to support backward compatibility.
+- Added default value to `DocumentSide#nfcSupported` to support backward compatibility
 
 ## [16.3.0] - 2023-04-13
 
@@ -497,11 +542,11 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 
 ### Fixed
 
-- Fix duplicated FACIAL_INTRO event 
+- Fixed duplicated `FACIAL_INTRO` event 
 - Fixed the invalid picture size exception
 - Fixed theme hierarchy
 - Fixed the crash that occurs during dismissing progress dialog
-- Enable color customisation for Motion upload ProgressBar
+- Enabled color customisation for Motion upload ProgressBar
 
 ## [16.2.0] - 2023-03-24
 
@@ -519,7 +564,7 @@ translations. [More on language localisation](https://documentation.onfido.com/s
 ### Fixed
 
 - Fixed colour inconsistence of icons on document selection screen
-- Fixed the issue related to the `userExited` callback when Onfido SDK launching is canceled early.
+- Fixed the issue related to the `userExited` callback when Onfido SDK launching is canceled early
 - Fixed loop in back navigation in Capture screen when permissions are granted via settings screen
 
 ## [16.1.0] - 2023-03-06

@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի դեմ չիպը գտնելու համար:</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի վրա։ Չիպը գտնելու համար ձեզ կարող է պետք լինել ձեր հեռախոսը ձեր անձնագրի վրա վերև-ներև սահմանել։</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Հայտնաբերվելուց հետո չիպը, պահեք ձեր հեռախոսը և անձնագիրը անշարժ:</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Երբ սկանավորումը սկսվում է, պահեք ձեր հեռախոսը և անձնագիրը անշարժ։</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Սկսել սկանավորումը</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Սկսել սկանավորումը</string>
 	<string name="onfido_nfc_fail_passport_title">Չիպը սկանավորելը չի հաջողվում։ Օգտագործել օգնությունը՞</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Այն պահից, երբ ձեր հեռախոսը հայտնաբերում է ձեր անձնագրի չիպը, սկանավորումը ավտոմատ կսկսվի։ Պահեք ձեր հեռախոսը և անձնագիրը անշարժ, որպեսզի սկանավորումը կարողանա ավարտվել։</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Տեղադրեք ձեր փաստաթուղթը ձեր հեռախոսի դեմ։ Ձեզ կարող է պետք լինել դանդաղ սարքել ձեր փաստաթուղթը ձեր հեռախոսի դեմ։</string>

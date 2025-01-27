@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">تلفن خود را روی گذرنامه خود قرار دهید تا چیپ را پیدا کنید.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">گوشی خود را به گذرنامه خود بچسبانید. برای پیدا کردن چیپ، ممکن است نیاز باشد گوشی خود را بر روی گذرنامه خود بالا و پایین بکشید.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">پس از شناسایی چیپ، تلفن و گذرنامه خود را ثابت نگه دارید.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">هنگامی که اسکن شروع می شود، تلفن و گذرنامه خود را ساکت نگه دارید.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">شروع اسکن</string>
+    <string name="onfido_nfc_fail_passport_button_primary">شروع اسکن</string>
 	<string name="onfido_nfc_fail_passport_title">قادر به اسکن کردن چیپ نیستید. نیاز به کمک دارید؟</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">هنگامی که تلفن شما چیپ را در گذرنامه تان تشخیص می دهد، اسکن به صورت خودکار شروع می شود. تلفن و گذرنامه خود را ثابت نگه دارید تا اسکن کامل شود.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">سند خود را بر روی تلفن خود قرار دهید. ممکن است نیاز باشد به آرامی سند خود را بر روی تلفن خود بکشید.</string>

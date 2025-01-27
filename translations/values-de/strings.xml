@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Positionieren Sie Ihr Telefon erneut gegen Ihren Reisepass, um den Chip zu finden.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Legen Sie Ihr Telefon gegen Ihren Reisepass. Um den Chip zu finden, müssen Sie möglicherweise Ihr Telefon auf und ab gegen Ihren Reisepass schieben.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Sobald der Chip erkannt wird, halten Sie Ihr Telefon und Ihren Reisepass still.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Sobald der Scan beginnt, halten Sie Ihr Telefon und Ihren Pass still.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Starten Sie mit dem Scannen</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Starten Sie mit dem Scannen</string>
 	<string name="onfido_nfc_fail_passport_title">Unfähig, den Chip zu scannen. Brauchen Sie Hilfe?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Sobald Ihr Telefon den Chip in Ihrem Reisepass erkennt, beginnt der Scan automatisch. Halten Sie Ihr Telefon und Ihren Reisepass still, damit der Scan abgeschlossen werden kann.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Legen Sie Ihr Dokument gegen Ihr Telefon. Sie müssen möglicherweise Ihr Dokument langsam gegen Ihr Telefon schieben.</string>

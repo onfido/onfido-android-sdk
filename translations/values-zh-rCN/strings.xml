@@ -531,8 +531,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">重新放置您的手机靠近您的护照以找到芯片。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">将手机放在护照上。要找到芯片，您可能需要在护照上下滑动手机。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">一旦检测到芯片，保持手机和护照静止不动。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">一旦开始扫描，保持您的手机和护照静止。</string>
-	<string name="onfido_nfc_fail_passport_button_primary">开始扫描</string>
+    <string name="onfido_nfc_fail_passport_button_primary">开始扫描</string>
 	<string name="onfido_nfc_fail_passport_title">无法扫描芯片。需要帮助吗？</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">一旦您的手机检测到护照中的芯片，扫描将自动开始。请保持您的手机和护照静止，以便扫描能够完成。</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">将您的文件放在您的手机上。您可能需要将您的文件在手机上缓慢地滑动。</string>

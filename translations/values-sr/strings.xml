@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Pozicionirajte svoj telefon prema vašem pasošu da biste locirali čip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Postavite svoj telefon na pasoš. Da biste locirali čip, možda će biti potrebno da klizite telefon gore-dole po pasošu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kada se čip detektuje, držite svoj telefon i pasoš mirno.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Jednom kada skeniranje počne, držite svoj telefon i pasoš mirno.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Započnite skeniranje</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Započnite skeniranje</string>
 	<string name="onfido_nfc_fail_passport_title">Nije moguće skenirati čip. Treba vam pomoć?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Jednom kada vaš telefon detektuje čip u vašem pasošu, skeniranje će početi automatski. Držite svoj telefon i pasoš mirno kako bi skeniranje moglo da se završi.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Postavite svoj dokument na svoj telefon. Možda ćete morati polako da klizite svoj dokument uz telefon.</string>

@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Paigutage oma telefon uuesti passi vastu, et kiipi leida.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Asetage telefon oma passi vastu. Kiibi asukoha leidmiseks võite vajada telefoni üles-alla liigutamist passi vastu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kui kiip on tuvastatud, hoidke oma telefoni ja passi paigal.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kui skaneerimine algab, hoidke oma telefoni ja passi paigal.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Alustage skannimist</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Alustage skannimist</string>
 	<string name="onfido_nfc_fail_passport_title">Ei suuda kiipi skaneerida. Kas vajate abi?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Kui teie telefon tuvastab passis oleva kiibi, algab skaneerimine automaatselt. Hoidke oma telefoni ja passi paigal, et skaneerimine saaks lõpule viia.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Asetage oma dokument telefoni vastu. Võib-olla peate oma dokumenti aeglaselt telefoni vastu liigutama.</string>

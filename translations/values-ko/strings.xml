@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">칩을 찾기 위해 휴대폰을 여권에 다시 위치시키십시오.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">휴대폰을 여권에 대고 놓으세요. 칩을 찾으려면 휴대폰을 여권에 대고 위아래로 움직일 수도 있습니다.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">칩이 감지되면 휴대폰과 여권을 움직이지 마세요.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">스캔이 시작되면 휴대폰과 여권을 움직이지 마세요.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">스캔 시작</string>
+    <string name="onfido_nfc_fail_passport_button_primary">스캔 시작</string>
 	<string name="onfido_nfc_fail_passport_title">칩을 스캔할 수 없습니다. 도움이 필요하신가요?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">휴대폰이 여권의 칩을 감지하면 스캔이 자동으로 시작됩니다. 스캔이 완료될 수 있도록 휴대폰과 여권을 움직이지 마세요.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">문서를 휴대폰에 대해 놓으세요. 문서를 휴대폰에 대해 천천히 움직여야 할 수도 있습니다.</string>

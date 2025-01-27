@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Posisikan kembali ponsel Anda ke paspor Anda untuk menemukan chip tersebut.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Tempatkan ponsel Anda di paspor Anda. Untuk menemukan chip, Anda mungkin perlu menggeser ponsel Anda naik dan turun di paspor Anda.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Setelah chip terdeteksi, jaga agar ponsel dan paspor Anda tetap diam.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Setelah pemindaian dimulai, tetapkan posisi ponsel dan paspor Anda.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Mulai pemindaian</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Mulai pemindaian</string>
 	<string name="onfido_nfc_fail_passport_title">Tidak dapat memindai chip. Butuh bantuan?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Setelah ponsel Anda mendeteksi chip di paspor Anda, pemindaian akan dimulai secara otomatis. Tetapkan ponsel dan paspor Anda agar pemindaian dapat selesai.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Tempatkan dokumen Anda di telepon Anda. Anda mungkin perlu pelankan geser dokumen Anda di telepon Anda.</string>

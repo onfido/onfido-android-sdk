@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Τοποθετήστε ξανά το τηλέφωνό σας πάνω στο διαβατήριό σας για να εντοπίσετε το chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Τοποθετήστε το τηλέφωνό σας πάνω στο διαβατήριό σας. Για να εντοπίσετε το chip, μπορεί να χρειαστεί να κινήσετε το τηλέφωνό σας πάνω και κάτω πάνω στο διαβατήριό σας.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Μόλις ανιχνευτεί το chip, κρατήστε το τηλέφωνό σας και το διαβατήριό σας ακίνητα.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Μόλις ξεκινήσει η σάρωση, κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Έναρξη σάρωσης</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Έναρξη σάρωσης</string>
 	<string name="onfido_nfc_fail_passport_title">Αδυναμία σάρωσης του τσιπ. Χρειάζεστε βοήθεια;</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Μόλις το τηλέφωνό σας ανιχνεύσει το chip στο διαβατήριό σας, η σάρωση θα ξεκινήσει αυτόματα. Κρατήστε το τηλέφωνο και το διαβατήριό σας ακίνητα, ώστε η σάρωση να ολοκληρωθεί.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Τοποθετήστε το έγγραφό σας στο τηλέφωνό σας. Ίσως χρειαστεί να σύρετε αργά το έγγραφό σας στο τηλέφωνό σας.</string>

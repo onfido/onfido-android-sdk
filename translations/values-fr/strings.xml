@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Repositionnez votre téléphone contre votre passeport pour localiser la puce.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Placez votre téléphone contre votre passeport. Pour localiser la puce, vous devrez peut-être faire glisser votre téléphone de haut en bas contre votre passeport.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Une fois la puce détectée, maintenez votre téléphone et votre passeport immobiles.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Une fois le scan commencé, gardez votre téléphone et votre passeport immobiles.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Démarrer le scan</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Démarrer le scan</string>
 	<string name="onfido_nfc_fail_passport_title">Incapable de scanner la puce. Besoin d\'aide?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Une fois que votre téléphone détecte la puce dans votre passeport, le scan commencera automatiquement. Gardez votre téléphone et votre passeport immobiles pour que le scan puisse se terminer.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Placez votre document contre votre téléphone. Vous devrez peut-être faire glisser lentement votre document contre votre téléphone.</string>

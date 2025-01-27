@@ -531,8 +531,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Placer din telefon mod dit pas for at finde chippen.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Placer din telefon mod dit pas. For at finde chippen, skal du muligvis glide din telefon op og ned mod dit pas.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Når chippen er registreret, skal du holde din telefon og dit pas stille.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Når scanningen starter, skal du holde din telefon og pas stille.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Start scanning</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Start scanning</string>
 	<string name="onfido_nfc_fail_passport_title">Ikke i stand til at scanne chippen. Har du brug for hjælp?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Når din telefon registrerer chippen i dit pas, starter scanningen automatisk. Hold din telefon og pas stille, så scanningen kan fuldføres.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Placer dit dokument mod din telefon. Du skal muligvis bevæge dit dokument langsomt op og ned mod din telefon.</string>

@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">चिप को खोजने के लिए अपने पासपोर्ट के खिलाफ अपने फोन को पुनः स्थापित करें।</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">अपने फ़ोन को अपने पासपोर्ट के खिलाफ रखें। चिप का पता लगाने के लिए, आपको शायद अपने फ़ोन को अपने पासपोर्ट के खिलाफ ऊपर और नीचे स्लाइड करने की आवश्यकता हो सकती है।</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">एक बार चिप का पता चल जाए, तो अपने फ़ोन और पासपोर्ट को स्थिर रखें।</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">एक बार स्कैन शुरू हो जाए, अपने फ़ोन और पासपोर्ट को स्थिर रखें।</string>
-	<string name="onfido_nfc_fail_passport_button_primary">स्कैन शुरू करें</string>
+    <string name="onfido_nfc_fail_passport_button_primary">स्कैन शुरू करें</string>
 	<string name="onfido_nfc_fail_passport_title">चिप स्कैन करने में असमर्थ। क्या मदद चाहिए?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">एक बार जब आपका फ़ोन आपके पासपोर्ट में चिप को पहचान लेता है, तो स्कैन स्वचालित रूप से शुरू हो जाएगा। स्कैन पूरा होने तक अपने फ़ोन और पासपोर्ट को स्थिर रखें।</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">अपने दस्तावेज़ को अपने फ़ोन के खिलाफ रखें। आपको शायद अपने दस्तावेज़ को अपने फ़ोन के खिलाफ धीरे-धीरे स्लाइड करने की आवश्यकता हो सकती है।</string>

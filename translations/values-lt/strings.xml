@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Pakoreguokite savo telefoną prie savo paso, kad rastumėte lustą.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Prispauskite telefoną prie savo paso. Norėdami rasti lustą, gali tekti slinkti telefonu aukštyn ir žemyn prie savo paso.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kai lustas aptinkamas, laikykite telefoną ir pasą nejudant.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kai prasidės skenavimas, laikykite savo telefoną ir pasą nejudant.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Pradėti nuskaitymą</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Pradėti nuskaitymą</string>
 	<string name="onfido_nfc_fail_passport_title">Nepavyko nuskaityti lusto. Reikia pagalbos?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Kai jūsų telefonas aptinka lustą jūsų pase, nuskaitymas prasidės automatiškai. Laikykite savo telefoną ir pasą nejudant, kad nuskaitymas būtų baigtas.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Prispauskite savo dokumentą prie telefono. Gali tekti lėtai judinti savo dokumentą prie telefono.</string>

@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Repoziționați telefonul împotriva pașaportului dvs. pentru a localiza cipul.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Plasați telefonul dvs. împotriva pașaportului dvs. Pentru a localiza cipul, este posibil să fie nevoie să alunecați telefonul dvs. în sus și în jos pe pașaportul dvs.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Odată ce cipul este detectat, mențineți telefonul și pașaportul dvs. nemișcate.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Odată ce scanarea începe, țineți telefonul și pașaportul nemișcate.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Începeți scanarea</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Începeți scanarea</string>
 	<string name="onfido_nfc_fail_passport_title">Imposibil de scanat cipul. Aveți nevoie de ajutor?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Odată ce telefonul dvs. detectează cipul din pașaport, scanarea va începe automat. Mențineți telefonul și pașaportul nemișcate pentru ca scanarea să se poată finaliza.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Puneți documentul pe telefonul dvs. S-ar putea să fie nevoie să glisați încet documentul pe telefonul dvs.</string>

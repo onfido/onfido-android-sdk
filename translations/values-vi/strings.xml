@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Đặt lại điện thoại của bạn lên hộ chiếu để tìm chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Đặt điện thoại lên hộ chiếu của bạn. Để tìm chip, bạn có thể cần di chuyển điện thoại lên và xuống trên hộ chiếu của bạn.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Một khi chip được phát hiện, hãy giữ điện thoại và hộ chiếu của bạn không động.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Một khi quá trình quét bắt đầu, hãy giữ điện thoại và hộ chiếu của bạn không động.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Bắt đầu quét</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Bắt đầu quét</string>
 	<string name="onfido_nfc_fail_passport_title">Không thể quét chip. Cần sự giúp đỡ?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Một khi điện thoại của bạn phát hiện chip trong hộ chiếu, quá trình quét sẽ tự động bắt đầu. Hãy giữ điện thoại và hộ chiếu ở trạng thái không động để quá trình quét có thể hoàn tất.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Đặt tài liệu của bạn lên điện thoại. Bạn có thể cần phải từ từ trượt tài liệu của bạn lên và xuống so với điện thoại.</string>

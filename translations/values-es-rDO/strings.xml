@@ -531,8 +531,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Reposiciona tu teléfono contra tu pasaporte para localizar el chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloca tu teléfono contra tu pasaporte. Para localizar el chip, es posible que necesites deslizar tu teléfono hacia arriba y hacia abajo contra tu pasaporte.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Una vez que se detecta el chip, mantén tu teléfono y pasaporte quietos.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Una vez que comienza el escaneo, mantenga su teléfono y pasaporte quietos.</string>
-	<string name="onfido_video_alert_video_too_long_title">Video demasiado largo</string>
+    <string name="onfido_video_alert_video_too_long_title">Video demasiado largo</string>
 	<string name="onfido_video_alert_video_too_long_detail">Tu video es demasiado largo para ser enviado. Por favor, graba el video nuevamente.</string>
 	<string name="onfido_video_alert_video_too_long_button_primary">Reintentar</string>
 	<string name="onfido_retry_feedback_id_expired_title">Tu documento venció</string>

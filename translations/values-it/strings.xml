@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Riposiziona il tuo telefono sul tuo passaporto per localizzare il chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Posizioni il telefono accanto al passaporto. Per localizzare il chip, potrebbe essere necessario far scorrere il telefono su e giù contro il passaporto.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Una volta rilevato il chip, tieni il telefono e il passaporto fermi.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Una volta avviata la scansione, tieni fermo il tuo telefono e il passaporto.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Inizia la scansione</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Inizia la scansione</string>
 	<string name="onfido_nfc_fail_passport_title">Impossibile eseguire la scansione del chip. Hai bisogno di aiuto?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Una volta che il tuo telefono rileva il chip nel tuo passaporto, la scansione inizierà automaticamente. Tieni fermo il tuo telefono e il passaporto affinché la scansione possa completarsi.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Posiziona il tuo documento contro il tuo telefono. Potrebbe essere necessario far scorrere lentamente il tuo documento contro il tuo telefono.</string>

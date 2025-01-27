@@ -531,8 +531,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">重新放置您的手機靠近您的護照以找到晶片。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">請將手機放在護照上。要找到晶片，您可能需要在護照上下滑動您的手機。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">一旦偵測到晶片，請保持您的手機和護照靜止不動。</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">掃描開始後，請保持您的手機和護照靜止。</string>
-	<string name="onfido_nfc_fail_passport_button_primary">開始掃描</string>
+    <string name="onfido_nfc_fail_passport_button_primary">開始掃描</string>
 	<string name="onfido_nfc_fail_passport_title">無法掃描晶片。需要幫助嗎？</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">一旦您的手機偵測到護照上的晶片，掃描將自動開始。請保持您的手機和護照靜止，以便掃描可以完成。</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">將您的文件放在您的手機上。您可能需要慢慢地將您的文件在手機上滑動。</string>

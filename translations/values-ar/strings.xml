@@ -531,8 +531,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">أعد توجيه هاتفك نحو جواز سفرك للعثور على الرقاقة.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">ضع هاتفك على جواز سفرك. للعثور على الشريحة، قد تحتاج إلى تحريك هاتفك لأعلى ولأسفل على جواز سفرك.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">بمجرد اكتشاف الرقاقة، ابق هاتفك وجواز سفرك على الاتصال.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">بمجرد بدء الفحص، حافظ على هاتفك وجواز سفرك ثابتين.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">ابدأ المسح</string>
+    <string name="onfido_nfc_fail_passport_button_primary">ابدأ المسح</string>
 	<string name="onfido_nfc_fail_passport_title">غير قادر على مسح الرقاقة. هل تحتاج إلى مساعدة؟</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">بمجرد أن يكتشف هاتفك الرقاقة في جواز سفرك، سيبدأ المسح تلقائيًا. حافظ على ثبات هاتفك وجواز سفرك حتى يتمكن المسح من الاكتمال.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">ضع المستند الخاص بك ضد هاتفك. قد تحتاج إلى تحريك المستند الخاص بك ببطء ضد هاتفك.</string>

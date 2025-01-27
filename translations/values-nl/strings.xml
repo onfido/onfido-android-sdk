@@ -532,8 +532,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Plaats uw telefoon opnieuw tegen uw paspoort om de chip te vinden.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Leg uw telefoon tegen uw paspoort. Om de chip te vinden, moet u mogelijk uw telefoon op en neer schuiven tegen uw paspoort.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Zodra de chip is gedetecteerd, houd uw telefoon en paspoort stil.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Zodra de scan begint, houd je telefoon en paspoort stil.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Start scan</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Start scan</string>
 	<string name="onfido_nfc_fail_passport_title">Niet in staat om de chip te scannen. Hulp nodig?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Zodra uw telefoon de chip in uw paspoort detecteert, start de scan automatisch. Houd uw telefoon en paspoort stil, zodat de scan kan voltooien.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Plaats uw document tegen uw telefoon. U moet mogelijk uw document langzaam op en neer tegen uw telefoon schuiven.</string>

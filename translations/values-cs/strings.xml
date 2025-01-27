@@ -531,8 +531,7 @@
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Přesuňte svůj telefon proti svému pasu, abyste našli čip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Přiložte telefon k pasu. Pro nalezení čipu možná budete muset telefonem jezdit nahoru a dolů po pasu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Jakmile je čip detekován, udržujte telefon a pas v klidu.</string>
-	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Jakmile se skenování spustí, nechte svůj telefon a pas na místě.</string>
-	<string name="onfido_nfc_fail_passport_button_primary">Spuštění skenování</string>
+    <string name="onfido_nfc_fail_passport_button_primary">Spuštění skenování</string>
 	<string name="onfido_nfc_fail_passport_title">Nelze naskenovat čip. Potřebujete pomoc?</string>
 	<string name="onfido_nfc_fail_passport_list_item_5">Jakmile Váš telefon detekuje čip ve Vašem pasu, skenování se spustí automaticky. Držte telefon a pas stále, aby mohlo skenování proběhnout.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Umístěte svůj dokument na svůj telefon. Možná budete muset svůj dokument pomalu posouvat podél svého telefonu.</string>
