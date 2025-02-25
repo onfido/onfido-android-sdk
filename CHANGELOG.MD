@@ -7,6 +7,20 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [22.4.0] - 2025-02-25
+
+### Fixed
+
+- Fixed an infinite loading screen after navigating back from the NFC screen in Studio
+- Fixed an issue where the close icon was not visible on the Document Capture screen in Studio
+- Fixed lifecycle-related issues on the Document Capture screen
+
+## [22.3.1] - 2025-02-12
+
+### Fixed
+
+- Fixed a couple of visual bugs in the Proof of Address screens, where buttons were not correctly rounded and the secondary button was shown with a wrong black background
+
 ## [22.3.0] - 2025-01-27
 
 ### Added
