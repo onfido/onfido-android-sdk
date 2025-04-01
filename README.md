@@ -121,7 +121,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.80 Mb  |
+| core-armeabi-v7a | 11.81 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -897,7 +897,7 @@ The Face step has 3 variants:
 
 **Motion**
 
-Motion supports audio recording, but it is disabled by default. In order to enable it use `.withAudio(true)`.
+Motion supports audio recording, but it is disabled by default. In order to enable it use `.withAudio(true)`. If a user does not opt into granting microphone permissions, they cannot proceed with the Motion flow, and no video can be created or uploaded.
 
 ```java
 FlowStep faceCaptureStep = FaceCaptureStepBuilder.forMotion()
