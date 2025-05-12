@@ -3,8 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 
-def sdkVersion = '22.7.0'
-def versionCodeNumber = 2270
+def sdkVersion = '22.8.0'
+def versionCodeNumber = 2280
 
 android {
     namespace 'com.onfido.android.app.sample'

@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Gatavs skenēšanai</string>
     <string name="onfido_nfc_sheet_button_secondary">Atcelt</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skenē...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Turiet tālruni un pasi nekustīgi</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Skenēšana izdevās</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Saglabājiet savu tālruni un pasi nekustīgus.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Skenēšana veiksmīga.</string>
     <string name="onfido_nfc_permission_title">Ieslēgt NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Mēs nevaram noskenēt jūsu pasi bez NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Ieslēgt NFC ierīces iestatījumos</string>
+	<string name="onfido_nfc_permission_subtitle">Mums ir jāizmanto jūsu telefona NFC lasītājs, lai skenētu mikroshēmu jūsu dokumentā.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Lūdzu, pieskarieties pogai zemāk un ieslēdziet NFC savos iestatījumos.</string>
     <string name="onfido_nfc_permission_button_primary">Atvērt iestatījumus</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Iesniegt fotoattēlu</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Mēģināt vēlreiz</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio ierakstu atskaņo cita lietotne</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Lūdzu, ieraksta laikā savā ierīcē neatskaņojiet citus audio ierakstus</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Novietojiet savu dokumentu pret savas ierīces aizmuguri, lai tie saskartos</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Novietojiet savu dokumentu pret telefona aizmuguri, netālu no augšas.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lēnām virziet savu dokumentu lejup un augšup pret savu tālruni, lai atrastu čipu.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kad mikroshēma ir atklāta, turiet savu tālruni un dokumentu nekustīgi.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Iegūt verifikāciju bez NFC</string>
     <string name="onfido_nfc_scan_error_final_title">Mēs nevarējām verificēt šo dokumentu</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Šim dokumentam ir nepieciešama NFC skenēšana, taču to nevarēja pabeigt.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Nevar skenēt mikroshēmu. Vajadzīga palīdzība?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Mēģiniet noņemt apvalku no sava tālruņa. Tas ir, lai izvairītos no traucējumiem ar mikroshēmu.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Novietojiet savu dokumentu pret telefona aizmuguri, tā, lai tie saskartos.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Pakāpeniski pārvietojiet savu dokumentu uz augšu un leju pa ierīci, līdz sākas skenēšana</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Tiklīdz skenēšana sākas, palieciet nekustīgs, lai skenēšana varētu pabeigt</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Jums var būt nepieciešams lēnām slīdēt savu dokumentu uz augšu un leju pret tālruni, līdz atrodat mikroshēmu.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Kad jūsu tālrunis atklāj mikroshēmu jūsu dokumentā, skenēšana sāksies automātiski. Turiet tālruni un dokumentu nekustīgi, lai skenēšana varētu pabeigties.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Apliecināt bez skenēšanas</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Izejas pārbaude</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Jums var lūgt ievadīt CAN, pirms turpināt skenēšanu</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Jums var nākties atkārtoti sākt verifikācijas procesu, ja jūs atgriezīsities.</string>
 	<string name="onfido_generic_close_sdk_exit">Iziet</string>
 	<string name="onfido_generic_close_sdk_cancel">Atcelt</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Skenēšana pārtraukta</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Skenēšana pārtraukta.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Aizveriet savu pasi un novietojiet to uz plakana virsmas ar priekšpusi uz augšu.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Pārvietojiet savu telefonu pret pasi, lai atrastu mikroshēmu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Novietojiet tālruni pret savu pasi. Lai atrastu čipu, var būt nepieciešams slidināt tālruni uz augšu un uz leju pa savu pasi.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Tiklīdz tiek atklāta čipa klātbūtne, turiet tālruni un pasi nemainīgi.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Sākt skenēšanu</string>
 	<string name="onfido_nfc_fail_passport_title">Nevar skenēt mikroshēmu. Vajadzīga palīdzība?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Tiklīdz jūsu tālrunis atpazīs pasē esošo mikroshēmu, skenēšana sāksies automātiski. Turiet tālruni un pasi nemainīgi, lai skenēšana varētu pabeigties.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Kad jūsu tālrunis atklāj čipu jūsu pasē, skenēšana sāksies automātiski. Turiet tālruni un pasi nekustīgi, lai skenēšana varētu pabeigties.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Novietojiet savu dokumentu pret savu tālruni. Jums var nākties pakāpeniski pārvietot savu dokumentu pa tālruni.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Pārvietojiet savu dokumentu, lai tas saskartos ar jūsu tālruni un atrastu mikroshēmu.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Sākt skenēšanu</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Jūsu dokumenta derīguma termiņš ir beidzies</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Mēģiniet vēlreiz, izmantojot derīgu ID ar fotoattēlu, un pārliecinieties, ka jūsu informācija ir skaidri redzama</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Izmantojiet savu telefonu, lai noskanētu čipu savā dokumentā</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lēnām virziet savu dokumentu lejup un augšup pret savu tālruni, lai atrastu čipu.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lēnām slīdiet savu dokumentu uz augšu un uz leju pret tālruni, lai atrastu mikroshēmu.</string>
 	<string name="onfido_generic_icon_info_accessibility">Informācija:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informācija:</string>
 	<string name="onfido_generic_footer_branding">Onfido īstā identitāte</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Rādīt tikai foto lapu</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Turiet dokumentu taisni</string>
     <string name="onfido_generic_icon_error_accessibility">Kļūda:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Novietojiet tālruni pret pasi, tā, lai tie saskaras.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kad čips ir atklāts, turiet tālruni un pasi nekustīgi.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Atvainojiet, mēs neatbalstām šo valsts kodu</string>
+	<string name="onfido_generic_icon_warning_accessibility">Brīdinājums:</string>
+	<string name="onfido_generic_icon_success_accessibility">Veiksmīgi:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Atveriet savu pasi uz pēdējās lapas un novietojiet to uz līdzenas virsmas.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Atveriet savu pasi uz pēdējās lapas un novietojiet to uz līdzenas virsmas. Jums vajadzētu redzēt aizmugurējā vāka iekšpusi ar ilustrāciju un svītrkodu.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Jums, iespējams, būs nepieciešams lēnām slīdēt tālruni uz augšu un leju pret iekšējo aizmugurējo vāku, līdz atrodat čipu.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Novietojiet tālruni pret aizmugurējo vāciņu. Lai atrastu čipu, jums var būt nepieciešams pabīdīt tālruni uz augšu un uz leju pret vāciņu.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Novietojiet tālruni pret aizmugurējo vāku. Jums var būt nepieciešams pabīdīt tālruni uz augšu un uz leju pret vāku.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Novietojiet tālruni pret aizmugurējo vāku, lai atrastu čipu.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Novietojiet tālruni pret iekšējo aizmugurējo vāku, lai tie saskartos.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Novietojiet tālruni pret savu pasi. Jums var būt nepieciešams lēnām slidināt tālruni pret pasi.</string>
 </resources>

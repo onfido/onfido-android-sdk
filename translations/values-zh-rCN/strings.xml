@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">扫描已准备就绪</string>
     <string name="onfido_nfc_sheet_button_secondary">取消</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">正在扫描......</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">保持你的手机和护照不动</string>
-    <string name="onfido_nfc_sheet_success_subtitle">扫描成功</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">保持手机和护照不动。</string>
+	<string name="onfido_nfc_sheet_success_subtitle">扫描成功。</string>
     <string name="onfido_nfc_permission_title">开启NFC</string>
-	<string name="onfido_nfc_permission_subtitle">如果没有NFC，我们就无法扫描您的护照</string>
-    <string name="onfido_nfc_permission_list_item_nfc">从您的设备设置中打开NFC</string>
+	<string name="onfido_nfc_permission_subtitle">我们需要使用您手机的NFC读取器来扫描您身份文件中的芯片。</string>
+	<string name="onfido_nfc_permission_list_item_nfc">请点击下面的按钮，并在设置中打开NFC。</string>
     <string name="onfido_nfc_permission_button_primary">打开设置</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">提交照片</string>
@@ -466,9 +466,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">重试</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">音频正在被另一个应用播放</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">录制期间请勿在您的设备上播放任何音频</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">将您的文件放在设备的背面，使它们接触</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">将您的证件放在手机背面靠近顶部的位置。</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">慢慢地将您的证件在手机上下滑动以找到芯片。</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">一旦扫描开始，保持不动以便扫描能够完成</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">一旦检测到芯片，请保持手机和身份证件不动。</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">不用NFC获得验证</string>
     <string name="onfido_nfc_scan_error_final_title">我们无法验证此文档</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">此文档需要 NFC 扫描，但无法完成。</string>
@@ -511,8 +511,8 @@
 	<string name="onfido_nfc_fail_card_title">无法扫描芯片。需要帮助吗？</string>
 	<string name="onfido_nfc_fail_card_list_item_1">尝试取下手机的保护壳。这是为了避免与芯片产生干扰。</string>
 	<string name="onfido_nfc_fail_card_list_item_2">将您的文档放在手机的背面，使它们接触。</string>
-	<string name="onfido_nfc_fail_card_list_item_3">慢慢地将您的文档在设备上上下滑动，直到扫描开始</string>
-	<string name="onfido_nfc_fail_card_list_item_4">一旦扫描开始，保持不动以便扫描能够完成</string>
+	<string name="onfido_nfc_fail_card_list_item_3">您可能需要慢慢地将您的身份证件在手机上上下滑动，直到找到芯片。</string>
+	<string name="onfido_nfc_fail_card_list_item_4">一旦您的手机检测到您文件中的芯片，扫描将自动开始。请保持手机和文件静止，以便扫描完成。</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">无需扫描即可验证</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">退出验证</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">在继续扫描之前，您可能会被提示输入CAN</string>
@@ -526,14 +526,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">如果您返回，可能需要重新启动验证过程。</string>
 	<string name="onfido_generic_close_sdk_exit">退出</string>
 	<string name="onfido_generic_close_sdk_cancel">取消</string>
-    <string name="onfido_nfc_scan_doc_realign_title">扫描中断</string>
+	<string name="onfido_nfc_scan_doc_realign_title">扫描中断。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">请关闭您的护照，并将其正面朝上放在平面上。</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">重新放置您的手机靠近您的护照以找到芯片。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">将手机放在护照上。要找到芯片，您可能需要在护照上下滑动手机。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">一旦检测到芯片，保持手机和护照静止不动。</string>
     <string name="onfido_nfc_fail_passport_button_primary">开始扫描</string>
 	<string name="onfido_nfc_fail_passport_title">无法扫描芯片。需要帮助吗？</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">一旦您的手机检测到护照中的芯片，扫描将自动开始。请保持您的手机和护照静止，以便扫描能够完成。</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">一旦您的手机检测到护照中的芯片，扫描将自动开始。请保持手机和护照静止，以便扫描完成。</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">将您的文件放在您的手机上。您可能需要将您的文件在手机上缓慢地滑动。</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">将您的证件重新放置在您的手机上以找到芯片。</string>
 	<string name="onfido_nfc_fail_button_primary_card">开始扫描</string>
@@ -552,7 +552,7 @@
 	<string name="onfido_retry_feedback_custom_title">您的证明文件已过期</string>
 	<string name="onfido_retry_feedback_custom_subtitle">请使用带照片的有效身份证件重试，并确保您的信息清晰可见</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">使用您的手机扫描您的文档中的芯片</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">慢慢地将您的证件在手机上下滑动以找到芯片。</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">慢慢地将您的身份证件在手机上上下滑动以定位芯片。</string>
 	<string name="onfido_generic_icon_info_accessibility">信息：</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">信息：</string>
 	<string name="onfido_generic_footer_branding">Onfido真实身份</string>
@@ -567,4 +567,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">仅显示照片页面</string>
 	<string name="onfido_doc_capture_alert_tilted_title">保持文件直立</string>
     <string name="onfido_generic_icon_error_accessibility">错误：</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">将手机放在护照上，使它们接触。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">一旦检测到芯片，请保持手机和护照不动。</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">抱歉，我们不支持此国家代码</string>
+	<string name="onfido_generic_icon_warning_accessibility">警告：</string>
+	<string name="onfido_generic_icon_success_accessibility">成功：</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">打开护照的最后一页，并将其放在平坦的表面上。</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">打开护照的最后一页，并将其放在平坦的表面上。您应该看到封底内侧的插图和条形码。</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">您可能需要将手机在内侧后盖上慢慢上下滑动，直到找到芯片。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">将手机放在封面背面。为了找到芯片，您可能需要在封面上下滑动手机。</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">将手机放在封面背面。您可能需要在封面上下滑动手机。</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">将手机重新放在背面以定位芯片。</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">将手机靠在封底内侧，使它们相互接触。</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">将手机靠近护照。您可能需要缓慢地将手机在护照上滑动。</string>
 </resources>

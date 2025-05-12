@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Valmis skannaukseen</string>
     <string name="onfido_nfc_sheet_button_secondary">Peruuta</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skannataan...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Pidä puhelimesi ja passisi paikallaan</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Skannaus onnistui</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Pidä puhelimesi ja passisi paikallaan.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Skannaus onnistui.</string>
     <string name="onfido_nfc_permission_title">Kytke NFC päälle</string>
-	<string name="onfido_nfc_permission_subtitle">Emme voi skannata passiasi ilman NFC:tä</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Kytke NFC päälle laitteesi asetuksista</string>
+	<string name="onfido_nfc_permission_subtitle">Meidän täytyy käyttää puhelimesi NFC-lukijaa skannaamaan asiakirjasi siru.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Napauta alla olevaa painiketta ja kytke NFC päälle asetuksissasi.</string>
     <string name="onfido_nfc_permission_button_primary">Avaa asetukset</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Lähetä kuva</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Yritä uudelleen</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Jokin toinen sovellus toistaa ääntä</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Älä toista laitteellasi mitään ääntä tallennuksen aikana</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Aseta dokumenttisi laitteesi taakse niin, että ne koskettavat toisiaan</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Aseta asiakirjasi puhelimesi taakse, lähelle yläosaa.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Liu\'uta asiakirjaasi hitaasti alas ja ylös puhelintasi vasten löytääksesi sirun.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kun siru on havaittu, pidä puhelin ja asiakirja paikallaan.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Vahvista ilman NFC: tä</string>
     <string name="onfido_nfc_scan_error_final_title">Emme voineet vahvistaa tätä asiakirjaa</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Tämä asiakirja edellyttää NFC-skannausta, mutta sitä ei voitu suorittaa loppuun.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Sirun skannaaminen ei onnistu. Tarvitsetko apua?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Yritä poistaa suojakotelo puhelimestasi. Tämä on välttääksemme häiriöitä sirun kanssa.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Aseta asiakirja puhelimesi takaosaa vasten, niin että ne koskettavat toisiaan.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Liuta dokumenttiasi hitaasti ylös ja alas laitetta vasten, kunnes skannaus alkaa</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Kun skannaus alkaa, pysy paikallasi, jotta skannaus voidaan suorittaa loppuun</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Saatat joutua hitaasti liu\'uttamaan asiakirjaasi ylös ja alas puhelintasi vasten, kunnes löydät sirun.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Kun puhelimesi havaitsee asiakirjasi sirun, skannaus alkaa automaattisesti. Pidä puhelin ja asiakirja paikallaan, jotta skannaus voi valmistua.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Vahvista skannaamatta</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Poistumisvarmennus</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Sinua saatetaan pyytää syöttämään CAN ennen kuin jatkat skannaukseen</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Saatat joutua aloittamaan tunnistautumisprosessin alusta, jos palaat takaisin.</string>
 	<string name="onfido_generic_close_sdk_exit">Poistu</string>
 	<string name="onfido_generic_close_sdk_cancel">Peruuta</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Skannaus keskeytettiin</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Skannaus keskeytyi.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Sulje passisi ja aseta se tasaiselle pinnalle etupuoli ylöspäin.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Siirrä puhelimesi passiasi vasten löytääksesi sirun.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Aseta puhelimesi passiasi vasten. Sirun paikantamiseksi saatat joutua liu\'uttamaan puhelintasi ylös ja alas passiasi vasten.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kun siru on havaittu, pidä puhelimesi ja passisi paikallaan.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Aloita skannaus</string>
 	<string name="onfido_nfc_fail_passport_title">Sirun skannaaminen ei onnistu. Tarvitsetko apua?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Kun puhelimesi havaitsee passissasi olevan sirun, skannaus alkaa automaattisesti. Pidä puhelimesi ja passisi paikallaan, jotta skannaus voidaan suorittaa loppuun.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Kun puhelimesi havaitsee sirun passissasi, skannaus alkaa automaattisesti. Pidä puhelin ja passi paikallaan, jotta skannaus voi valmistua.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Aseta dokumenttisi puhelinta vasten. Saatat joutua liikuttamaan dokumenttiasi hitaasti puhelinta vasten.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Aseta asiakirjasi uudelleen puhelimesi kosketukseen sirun paikantamiseksi.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Aloita skannaus</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Asiakirjasi on vanhentunut</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Yritä uudelleen voimassa olevalla kuvallisella ID:llä ja varmista, että tietosi näkyvät selvästi</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Käytä puhelintasi skannaamaan siru dokumentissasi</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Liu\'uta asiakirjaasi hitaasti alas ja ylös puhelintasi vasten löytääksesi sirun.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Liikuta henkilöllisyystodistustasi hitaasti ylös ja alas puhelintasi vasten löytääksesi sirun.</string>
 	<string name="onfido_generic_icon_info_accessibility">Tietoa:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Tietoa:</string>
 	<string name="onfido_generic_footer_branding">Onfido todellinen identiteetti</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Näytä vain valokuvasivu</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Pidä asiakirja suorassa</string>
     <string name="onfido_generic_icon_error_accessibility">Virhe:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Aseta puhelimesi passisi vasten, niin että ne koskettavat toisiaan.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kun siru on havaittu, pidä puhelin ja passi paikallaan.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Valitettavasti emme tue tätä maatunnusta</string>
+	<string name="onfido_generic_icon_warning_accessibility">Varoitus:</string>
+	<string name="onfido_generic_icon_success_accessibility">Onnistuminen:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Avaa passisi viimeiselle sivulle ja aseta se tasaiselle pinnalle.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Avaa passisi viimeiselle sivulle ja aseta se tasaiselle pinnalle. Sinun pitäisi nähdä takakannen sisäpuoli, jossa on kuvitus ja viivakoodi.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Saatat joutua liu\'uttamaan puhelintasi hitaasti ylös ja alas takakannen sisäpuolta vasten, kunnes löydät sirun.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Aseta puhelimesi takakantta vasten. Sirun löytämiseksi saatat joutua liu\'uttamaan puhelintasi ylös ja alas kantta vasten.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Aseta puhelimesi takakantta vasten. Saatat joutua liu\'uttamaan puhelintasi ylös ja alas kantta vasten.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Aseta puhelimesi uudelleen takakantta vasten löytääksesi sirun.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Aseta puhelimesi takakannen sisäpuolta vasten niin, että ne koskettavat toisiaan.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Aseta puhelimesi passiasi vasten. Saatat joutua hitaasti liu\'uttamaan puhelintasi passiasi vasten.</string>
 </resources>

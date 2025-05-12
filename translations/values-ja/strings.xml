@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">スキャンの準備ができました</string>
     <string name="onfido_nfc_sheet_button_secondary">キャンセル</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">スキャンしています...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">スマートフォンとパスポートを動かさないでください</string>
-    <string name="onfido_nfc_sheet_success_subtitle">スキャンに成功しました</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">携帯電話とパスポートを動かさないでください。</string>
+	<string name="onfido_nfc_sheet_success_subtitle">スキャンが成功しました。</string>
     <string name="onfido_nfc_permission_title">NFCをオンにする</string>
-	<string name="onfido_nfc_permission_subtitle">NFCなしではパスポートをスキャンできません</string>
-    <string name="onfido_nfc_permission_list_item_nfc">デバイス設定からNFCをオンにする</string>
+	<string name="onfido_nfc_permission_subtitle">お使いの携帯電話のNFCリーダーを使用して、書類内のチップをスキャンする必要があります。</string>
+	<string name="onfido_nfc_permission_list_item_nfc">下のボタンをタップして、設定でNFCをオンにしてください。</string>
     <string name="onfido_nfc_permission_button_primary">設定を開く</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">写真を提出する</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">パスポートのチップをスキャンします</string>
     <string name="onfido_nfc_intro_subtitle">以下の手順に従ってください</string>
-    <string name="onfido_nfc_intro_button_primary">スキャンを開始する</string>
+	<string name="onfido_nfc_intro_button_primary">スキャンを開始</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">パスポートのスキャンに成功しました</string>
     <string name="onfido_nfc_sheet_success_instruction_card">カードのスキャンに成功しました</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">再試行</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">音声が別のアプリで再生されています</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">録画中はデバイスの音声を再生しないでください</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">あなたのドキュメントをあなたのデバイスの背面に置いて、それらが触れるようにしてください</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">ドキュメントを携帯電話の背面、上部付近に置いてください。</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">チップを見つけるために、あなたの身分証明書をゆっくりとスマートフォンに対して上下にスライドさせてください。</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">チップが検出されたら、携帯電話と身分証明書を動かさないでください。</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">NFCなしで認証を受ける</string>
     <string name="onfido_nfc_scan_error_final_title">この文書を確認できませんでした</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">このドキュメントには NFC スキャンが必要ですが、完了できませんでした。</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">チップをスキャンできません。ヘルプが必要ですか？</string>
 	<string name="onfido_nfc_fail_card_list_item_1">スマートフォンのケースを取り外してみてください。これはチップの干渉を避けるためです。</string>
 	<string name="onfido_nfc_fail_card_list_item_2">ドキュメントを電話の背面に押し当てて、触れるように置きます。</string>
-	<string name="onfido_nfc_fail_card_list_item_3">スキャンが開始するまで、ドキュメントをデバイスに対してゆっくりと上下にスライドさせてください</string>
-	<string name="onfido_nfc_fail_card_list_item_4">スキャンが開始されたら、スキャンが完了するまでじっとしてください</string>
+	<string name="onfido_nfc_fail_card_list_item_3">ドキュメントをゆっくりと上下にスライドさせて、チップを見つける必要があるかもしれません。</string>
+	<string name="onfido_nfc_fail_card_list_item_4">携帯電話が書類のチップを検出すると、スキャンが自動的に開始されます。スキャンが完了するまで、携帯電話と書類を静止させてください。</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">スキャンせずに確認する</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">退出確認</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">スキャンに進む前にCANを入力するように求められる場合があります</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">戻る場合、確認プロセスを再開する必要があるかもしれません。</string>
 	<string name="onfido_generic_close_sdk_exit">終了</string>
 	<string name="onfido_generic_close_sdk_cancel">キャンセル</string>
-    <string name="onfido_nfc_scan_doc_realign_title">スキャンが中断されました</string>
+	<string name="onfido_nfc_scan_doc_realign_title">スキャンが中断されました。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">パスポートを閉じて、表面が上になるように平らな面に置いてください。</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">チップを見つけるために、パスポートに対して電話を再配置してください。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">パスポートに対してスマートフォンを置いてください。チップを見つけるためには、パスポートに対してスマートフォンを上下にスライドさせる必要があるかもしれません。</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">チップが検出されたら、スマートフォンとパスポートを静止させてください。</string>
     <string name="onfido_nfc_fail_passport_button_primary">スキャンを開始</string>
 	<string name="onfido_nfc_fail_passport_title">チップをスキャンできません。ヘルプが必要ですか？</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">電話がパスポートのチップを検出すると、スキャンが自動的に開始されます。スキャンが完了するまで、電話とパスポートを静止させてください。</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">パスポートのチップが携帯電話に検出されると、スキャンが自動的に開始されます。スキャンが完了するまで、携帯電話とパスポートを静止させてください。</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">あなたのドキュメントをあなたの電話に対して置いてください。ドキュメントを電話に対してゆっくりとスライドさせる必要があるかもしれません。</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">チップを見つけるために、あなたの書類をあなたの電話に接触させて位置を調整してください。</string>
 	<string name="onfido_nfc_fail_button_primary_card">スキャンを開始</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">ドキュメントの有効期限が切れています</string>
 	<string name="onfido_retry_feedback_custom_subtitle">有効な写真付き身分証明書で再度お試しいただき、情報がはっきりと見えるようにしてください</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">あなたの電話を使って、ドキュメント内のチップをスキャンしてください</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">チップを見つけるために、あなたの身分証明書をゆっくりとスマートフォンに対して上下にスライドさせてください。</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">ゆっくりと身分証明書をスマートフォンに対して上下に動かし、チップを見つけてください。</string>
 	<string name="onfido_generic_icon_info_accessibility">情報:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">情報:</string>
 	<string name="onfido_generic_footer_branding">Onfido リアルアイデンティティ</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">写真ページのみを表示</string>
 	<string name="onfido_doc_capture_alert_tilted_title">書類をまっすぐに保持してください</string>
     <string name="onfido_generic_icon_error_accessibility">エラー:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">スマートフォンをパスポートに対して置き、触れるようにしてください。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">チップが検出されたら、携帯電話とパスポートを動かさないでください。</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">申し訳ありませんが、この国コードには対応していません。</string>
+	<string name="onfido_generic_icon_warning_accessibility">警告:</string>
+	<string name="onfido_generic_icon_success_accessibility">成功:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">パスポートを最後のページまで開き、平らな面に置いてください。</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">パスポートを最後のページまで開き、平らな面に置いてください。裏表紙の内側にイラストとバーコードが見えるはずです。</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">チップを見つけるまで、携帯電話を内側の裏表紙に沿ってゆっくりと上下にスライドさせる必要があるかもしれません。</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">携帯電話を裏表紙に当ててください。チップを見つけるために、携帯電話を表紙に沿って上下にスライドさせる必要があるかもしれません。</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">携帯電話を裏表紙に当ててください。カバーに沿って携帯電話を上下にスライドさせる必要があるかもしれません。</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">携帯電話を背面カバーに再配置して、チップを見つけてください。</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">携帯電話を内側の裏表紙に当てて、接触させてください。</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">パスポートにスマートフォンをかざしてください。スマートフォンをパスポートにゆっくりと滑らせる必要があるかもしれません。</string>
 </resources>

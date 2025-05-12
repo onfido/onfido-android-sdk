@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Pronto para digitalizar</string>
     <string name="onfido_nfc_sheet_button_secondary">Cancelar</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Digitalizando...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Mantenha seu celular e passaporte parados</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Digitalização bem-sucedida</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Mantenha seu telefone e passaporte imóveis.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Leitura bem-sucedida.</string>
     <string name="onfido_nfc_permission_title">Ativar o NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Não podemos digitalizar seu passaporte sem NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Ative o NFC nas configurações do seu dispositivo</string>
+	<string name="onfido_nfc_permission_subtitle">Precisamos usar o leitor NFC do seu telefone para escanear o chip no seu documento.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Por favor, toque no botão abaixo e ative o NFC nas suas configurações.</string>
     <string name="onfido_nfc_permission_button_primary">Abrir configurações</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Enviar foto</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">Escaneie o chip do seu passaporte</string>
     <string name="onfido_nfc_intro_subtitle">Siga as instruções abaixo</string>
-    <string name="onfido_nfc_intro_button_primary">Iniciar digitalização</string>
+	<string name="onfido_nfc_intro_button_primary">Iniciar verificação</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Digitalizamos seu passaporte com sucesso</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Digitalizamos seu cartão com sucesso</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Tentar novamente</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">O áudio está sendo reproduzido por outro app</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Não reproduza nenhum áudio em seu dispositivo durante a gravação</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Coloque seu documento na parte de trás do seu dispositivo para que eles estejam se tocando</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Coloque seu documento na parte de trás do seu telefone, próximo ao topo.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Deslize lentamente o seu documento para cima e para baixo contra o seu celular para localizar o chip.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Uma vez que a varredura começa, fique imóvel para que a varredura possa ser concluída</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Uma vez que o chip for detectado, mantenha seu telefone e documento parados.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Seja verificado sem NFC</string>
     <string name="onfido_nfc_scan_error_final_title">Não foi possível verificar este documento</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">A verificação NFC é necessária para este documento, mas não pôde ser concluída.</string>
@@ -512,8 +512,8 @@
 	<string name="onfido_nfc_fail_card_title">Incapaz de digitalizar o chip. Precisa de ajuda?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Tente remover a capa do seu celular. Isso é para evitar interferências com o chip.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Coloque o seu documento na parte de trás do seu telefone, de modo que eles estejam se tocando.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Deslize lentamente o seu documento para cima e para baixo contra o dispositivo até que a digitalização comece</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Uma vez que a varredura começar, fique imóvel para que a varredura possa ser concluída</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Pode ser necessário deslizar lentamente seu documento para cima e para baixo contra o seu telefone até localizar o chip.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Assim que seu telefone detectar o chip no seu documento, a digitalização começará automaticamente. Mantenha seu telefone e documento parados para que a digitalização possa ser concluída.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifique sem escanear</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Saída da verificação</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Você pode ser solicitado a inserir o CAN antes de continuar para a digitalização</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Você pode precisar reiniciar o processo de verificação se retornar.</string>
 	<string name="onfido_generic_close_sdk_exit">Sair</string>
 	<string name="onfido_generic_close_sdk_cancel">Cancelar</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Varredura interrompida</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Leitura interrompida.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Feche seu passaporte e coloque-o em uma superfície plana com a frente para cima.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Reposicione seu telefone contra o seu passaporte para localizar o chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloque seu celular contra o seu passaporte. Para localizar o chip, você pode precisar deslizar seu celular para cima e para baixo contra o seu passaporte.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Uma vez que o chip é detectado, mantenha seu celular e passaporte imóveis.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Iniciar digitalização</string>
 	<string name="onfido_nfc_fail_passport_title">Incapaz de digitalizar o chip. Precisa de ajuda?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Uma vez que seu telefone detecta o chip no seu passaporte, a digitalização começará automaticamente. Mantenha seu telefone e passaporte imóveis para que a digitalização possa ser concluída.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Assim que seu telefone detectar o chip no seu passaporte, a leitura começará automaticamente. Mantenha seu telefone e passaporte imóveis para que a leitura possa ser concluída.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Coloque o seu documento contra o seu telefone. Você pode precisar deslizar lentamente o seu documento contra o seu telefone.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Reposicione seu documento em contato com seu telefone para localizar o chip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Iniciar digitalização</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Seu documento expirou</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Tente novamente com um ID com foto válido e certifique-se de que as suas informações estão claramente visíveis</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Use seu telefone para escanear o chip em seu documento</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Deslize lentamente o seu documento para cima e para baixo contra o seu celular para localizar o chip.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Deslize lentamente seu documento para cima e para baixo contra o seu telefone para localizar o chip.</string>
 	<string name="onfido_generic_icon_info_accessibility">Informação:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informação:</string>
 	<string name="onfido_generic_footer_branding">Onfido identidade real</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Mostre apenas a página da foto</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Mantenha o documento reto</string>
     <string name="onfido_generic_icon_error_accessibility">Erro:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Coloque seu celular contra seu passaporte, para que eles estejam se tocando.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Uma vez que o chip for detectado, mantenha seu telefone e passaporte imóveis.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Desculpe, não oferecemos suporte para este código de país</string>
+	<string name="onfido_generic_icon_warning_accessibility">Aviso:</string>
+	<string name="onfido_generic_icon_success_accessibility">Sucesso:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Abra seu passaporte na última página e coloque-o em uma superfície plana.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Abra seu passaporte na última página e coloque-o em uma superfície plana. Você deve ver o interior da contracapa com uma ilustração e um código de barras.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Pode ser necessário deslizar lentamente o seu telefone para cima e para baixo contra a parte interna da capa traseira até localizar o chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Posicione seu telefone contra a contracapa. Para localizar o chip, você pode precisar deslizar seu telefone para cima e para baixo contra a capa.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Posicione seu telefone contra a contracapa. Você pode precisar deslizar seu telefone para cima e para baixo contra a capa.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Reposicione seu telefone contra a capa traseira para localizar o chip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Posicione seu telefone contra a parte interna da contracapa, de modo que eles se toquem.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Posicione seu telefone contra seu passaporte. Pode ser necessário deslizar lentamente seu telefone contra seu passaporte.</string>
 </resources>

@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">स्कैन करने के लिए तैयार</string>
     <string name="onfido_nfc_sheet_button_secondary">कैंसिल करें</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">स्कैन हो रहा है...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">अपना फ़ोन और पासपोर्ट स्थिर रखें</string>
-    <string name="onfido_nfc_sheet_success_subtitle">स्कैन हो गया</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">अपने फोन और पासपोर्ट को स्थिर रखें।</string>
+	<string name="onfido_nfc_sheet_success_subtitle">स्कैन सफल।</string>
     <string name="onfido_nfc_permission_title">NFC चालू करें</string>
-	<string name="onfido_nfc_permission_subtitle">हम NFC के बिना अपना पासपोर्ट स्कैन नहीं कर सकते</string>
-    <string name="onfido_nfc_permission_list_item_nfc">अपनी डिवाइस सेटिंग से NFC चालू करें</string>
+	<string name="onfido_nfc_permission_subtitle">हमें आपके फोन के NFC रीडर का उपयोग करके आपके दस्तावेज़ में चिप को स्कैन करने की आवश्यकता है।</string>
+	<string name="onfido_nfc_permission_list_item_nfc">कृपया नीचे दिए गए बटन को टैप करें और अपनी सेटिंग्स में NFC चालू करें।</string>
     <string name="onfido_nfc_permission_button_primary">सेटिंग खोलें</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">फ़ोटो सबमिट करें</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">अपने पासपोर्ट की चिप स्कैन करें</string>
     <string name="onfido_nfc_intro_subtitle">नीचे दिए गए निर्देशों का पालन करें</string>
-    <string name="onfido_nfc_intro_button_primary">स्कैन करना शुरू करें</string>
+	<string name="onfido_nfc_intro_button_primary">स्कैन शुरू करें</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">हमने आपका पासपोर्ट स्कैन कर लिया है</string>
     <string name="onfido_nfc_sheet_success_instruction_card">हमने आपका कार्ड स्कैन कर लिया है</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">फिर से कोशिश करें</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">ऑडियो किसी दूसरे ऐप से चलाया जा रहा है</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">कृपया रिकॉर्डिंग के दौरान अपने डिवाइस पर कोई भी ऑडियो न चलाएँ</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">अपने दस्तावेज़ को अपनी उपकरण के पीछे रखें ताकि वे छू रहें हों</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">अपने दस्तावेज़ को अपने फ़ोन के पीछे, ऊपर की ओर रखें।</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">अपने फ़ोन के खिलाफ अपने दस्तावेज़ को धीरे-धीरे ऊपर और नीचे की ओर स्लाइड करें ताकि चिप का पता लग सके।</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">एक बार स्कैन शुरू हो जाए, तो स्थिर रहें ताकि स्कैनिंग पूरी हो सके</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">एक बार चिप का पता चलने पर, अपने फोन और दस्तावेज़ को स्थिर रखें।</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">एनएफसी के बिना सत्यापित हो जाओ</string>
     <string name="onfido_nfc_scan_error_final_title">हम इस दस्तावेज़ की पुष्टि नहीं कर सके</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">इस दस्‍तावेज़ के लिए NFC स्‍कैनिंग आवश्‍यक है, लेकिन पूरा नहीं किया जा सका.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">चिप स्कैन करने में असमर्थ। क्या मदद चाहिए?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">अपने फ़ोन से कवर हटाने की कोशिश करें। यह चिप के साथ हस्तक्षेप से बचने के लिए है।</string>
 	<string name="onfido_nfc_fail_card_list_item_2">अपने दस्तावेज़ को अपने फ़ोन के पीछे रखें, ताकि वे छू रहें हों।</string>
-	<string name="onfido_nfc_fail_card_list_item_3">धीरे-धीरे अपने दस्तावेज़ को उपकरण के खिलाफ ऊपर और नीचे स्लाइड करें जब तक स्कैन शुरू नहीं हो जाता</string>
-	<string name="onfido_nfc_fail_card_list_item_4">एक बार स्कैन शुरू हो जाए, तब तक शांत रहें जब तक स्कैनिंग पूरी नहीं हो जाती</string>
+	<string name="onfido_nfc_fail_card_list_item_3">आपको अपने दस्तावेज़ को धीरे-धीरे अपने फोन के खिलाफ ऊपर और नीचे स्लाइड करने की आवश्यकता हो सकती है जब तक कि आप चिप का पता नहीं लगा लेते।</string>
+	<string name="onfido_nfc_fail_card_list_item_4">एक बार जब आपका फोन आपके दस्तावेज़ में चिप का पता लगा लेता है, तो स्कैन स्वचालित रूप से शुरू हो जाएगा। स्कैन पूरा होने के लिए अपने फोन और दस्तावेज़ को स्थिर रखें।</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">स्कैन किए बिना सत्यापित करें</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">पहचान सत्यापन से बाहर निकलें</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">आपको स्कैन करने के लिए जारी रखने से पहले CAN दर्ज करने के लिए संकेत दिया जा सकता है</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">यदि आप वापस आते हैं तो आपको सत्यापन प्रक्रिया को पुनः शुरू करने की आवश्यकता हो सकती है।</string>
 	<string name="onfido_generic_close_sdk_exit">बाहर जाएं</string>
 	<string name="onfido_generic_close_sdk_cancel">कैंसिल करें</string>
-    <string name="onfido_nfc_scan_doc_realign_title">स्कैन विच्छेदित</string>
+	<string name="onfido_nfc_scan_doc_realign_title">स्कैन बाधित।</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">अपना पासपोर्ट बंद करें और इसे समतल सतह पर सामने की ओर ऊपर रखें।</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">चिप को खोजने के लिए अपने पासपोर्ट के खिलाफ अपने फोन को पुनः स्थापित करें।</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">अपने फ़ोन को अपने पासपोर्ट के खिलाफ रखें। चिप का पता लगाने के लिए, आपको शायद अपने फ़ोन को अपने पासपोर्ट के खिलाफ ऊपर और नीचे स्लाइड करने की आवश्यकता हो सकती है।</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">एक बार चिप का पता चल जाए, तो अपने फ़ोन और पासपोर्ट को स्थिर रखें।</string>
     <string name="onfido_nfc_fail_passport_button_primary">स्कैन शुरू करें</string>
 	<string name="onfido_nfc_fail_passport_title">चिप स्कैन करने में असमर्थ। क्या मदद चाहिए?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">एक बार जब आपका फ़ोन आपके पासपोर्ट में चिप को पहचान लेता है, तो स्कैन स्वचालित रूप से शुरू हो जाएगा। स्कैन पूरा होने तक अपने फ़ोन और पासपोर्ट को स्थिर रखें।</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">एक बार जब आपका फोन आपके पासपोर्ट में चिप का पता लगा लेता है, तो स्कैन अपने आप शुरू हो जाएगा। स्कैन पूरा होने के लिए अपने फोन और पासपोर्ट को स्थिर रखें।</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">अपने दस्तावेज़ को अपने फ़ोन के खिलाफ रखें। आपको शायद अपने दस्तावेज़ को अपने फ़ोन के खिलाफ धीरे-धीरे स्लाइड करने की आवश्यकता हो सकती है।</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">चिप का स्थान ढूंढने के लिए अपने फ़ोन के संपर्क में अपने दस्तावेज़ को पुनः स्थापित करें।</string>
 	<string name="onfido_nfc_fail_button_primary_card">स्कैन शुरू करें</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">आपके डॉक्यूमेंट की समय-अवधि खत्म हो गई है</string>
 	<string name="onfido_retry_feedback_custom_subtitle">कृपया एक मान्य फ़ोटो आईडी के साथ फिर से कोशिश करें और पक्का करें कि आपकी जानकारी साफ़-साफ़ दिख रही है</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">अपने दस्तावेज में चिप को स्कैन करने के लिए अपने फ़ोन का उपयोग करें</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">अपने फ़ोन के खिलाफ अपने दस्तावेज़ को धीरे-धीरे ऊपर और नीचे की ओर स्लाइड करें ताकि चिप का पता लग सके।</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">धीरे-धीरे अपने दस्तावेज़ को अपने फोन के खिलाफ ऊपर और नीचे स्लाइड करें ताकि चिप का पता लगाया जा सके।</string>
 	<string name="onfido_generic_icon_info_accessibility">सूचना:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">सूचना:</string>
 	<string name="onfido_generic_footer_branding">Onfido वास्तविक पहचान</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">केवल फ़ोटो पेज दिखाएं</string>
 	<string name="onfido_doc_capture_alert_tilted_title">दस्तावेज़ को सीधा रखें</string>
     <string name="onfido_generic_icon_error_accessibility">त्रुटि:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">अपने फ़ोन को अपने पासपोर्ट से छूने के लिए रखें, ताकि वे छू जाएं।</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">एक बार चिप का पता चलने पर, अपने फोन और पासपोर्ट को स्थिर रखें।</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">क्षमा करें, हम इस देश कोड का समर्थन नहीं करते हैं</string>
+	<string name="onfido_generic_icon_warning_accessibility">चेतावनी:</string>
+	<string name="onfido_generic_icon_success_accessibility">सफलता:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">अपने पासपोर्ट को अंतिम पृष्ठ पर खोलें और इसे एक समतल सतह पर रखें।</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">अपने पासपोर्ट को अंतिम पृष्ठ पर खोलें और इसे एक समतल सतह पर रखें। आपको पिछले कवर के अंदर की ओर एक चित्र और एक बारकोड दिखाई देना चाहिए।</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">आपको चिप का पता लगाने के लिए अपने फोन को धीरे-धीरे ऊपर और नीचे अंदर के पिछले कवर के खिलाफ स्लाइड करना पड़ सकता है।</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">अपने फोन को पीछे के कवर के खिलाफ रखें। चिप का पता लगाने के लिए, आपको अपने फोन को कवर के खिलाफ ऊपर और नीचे स्लाइड करने की आवश्यकता हो सकती है।</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">अपने फोन को पीछे के कवर के खिलाफ रखें। आपको अपने फोन को कवर के खिलाफ ऊपर और नीचे स्लाइड करने की आवश्यकता हो सकती है।</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">चिप का पता लगाने के लिए अपने फोन को पीछे के कवर के खिलाफ पुनः स्थिति में रखें।</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">अपने फोन को अंदर के पिछले कवर के खिलाफ रखें, ताकि वे एक-दूसरे को छू रहे हों।</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">अपने फोन को अपने पासपोर्ट के खिलाफ रखें। आपको अपने फोन को धीरे-धीरे अपने पासपोर्ट के खिलाफ स्लाइड करने की आवश्यकता हो सकती है।</string>
 </resources>

@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Szkennelésre kész</string>
     <string name="onfido_nfc_sheet_button_secondary">Mégse</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Beolvasás…</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Tartsa a telefonját és útlevelét egy helyben</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Sikeres beolvasás</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Tartsa mozdulatlanul a telefonját és az útlevelét.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Sikeres beolvasás.</string>
 	<string name="onfido_nfc_permission_title">Engedélyezze az NFC-t</string>
-	<string name="onfido_nfc_permission_subtitle">NFC nélkül nem tudjuk beolvasni az útlevelét</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Kapcsolja be az NFC-t az eszköz beállításaiban</string>
+	<string name="onfido_nfc_permission_subtitle">Szükségünk van a telefonod NFC olvasójára, hogy beolvassuk a chipet az okmányodban.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Kérjük, érintse meg az alábbi gombot, és kapcsolja be az NFC-t a beállításokban.</string>
     <string name="onfido_nfc_permission_button_primary">Beállítások megnyitása</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Küldje el a fényképet</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">Olvassa le az útlevelének chipjét</string>
     <string name="onfido_nfc_intro_subtitle">Kövesse az alábbi utasításokat</string>
-    <string name="onfido_nfc_intro_button_primary">Szkennelés indítása</string>
+	<string name="onfido_nfc_intro_button_primary">Indítási szkennelés</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Sikeresen beolvastuk az útlevelét</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Sikeresen beszkenneltük a kártyáját</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Próbálja újra</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">A hangot egy másik alkalmazás játsza le</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Kérjük, felvétel közben ne játsszon le semmilyen hangot a készülékén</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Helyezze a dokumentumot az eszköze hátuljára, hogy érintkezzenek</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Helyezze a dokumentumot a telefon hátuljához, közel a tetejéhez.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Lassan csúsztassa az okmányát le és fel a telefonja előtt, hogy megtalálja a chipet.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Amint a chipet észlelik, tartsa mozdulatlanul a telefonját és az okmányt.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Ellenőrzés NFC nélkül</string>
     <string name="onfido_nfc_scan_error_final_title">Nem tudtuk ellenőrizni dokumentumát</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Dokumentuma ellenőrzéséhez NFC szükséges, de a szkennelés sikertelen volt.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Nem sikerült a chip beolvasása. Segítségre van szüksége?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Próbálja meg eltávolítani a tokot a telefonjáról. Ez azért szükséges, hogy elkerülje a chip zavarását.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Illessze a dokumentumát a telefonja hátuljához, úgy, hogy érintkezzenek.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Lassan húzza fel és le a dokumentumot az eszközön, amíg a beolvasás el nem kezdődik</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Amint a szkennelés elindul, maradjon mozdulatlanul, hogy a szkennelés befejeződhessen</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Lehet, hogy lassan fel és le kell csúsztatnia az okmányát a telefonján, amíg meg nem találja a chipet.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Amint a telefonja érzékeli a dokumentumban lévő chipet, a beolvasás automatikusan elindul. Tartsa mozdulatlanul a telefonját és a dokumentumot, hogy a beolvasás befejeződhessen.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Ellenőrizze beolvasás nélkül</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Azonosítás megszakítása</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Előfordulhat, hogy a folytatás előtt be kell írnia a CAN számát a szkenneléshez</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Lehet, hogy újra el kell indítania az azonosítási folyamatot, ha visszatér.</string>
 	<string name="onfido_generic_close_sdk_exit">Kilépés</string>
 	<string name="onfido_generic_close_sdk_cancel">Mégse</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Szkennelés megszakítva</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Szüneteltetett szkennelés.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Csukja be az útlevelét és helyezze azt egy sík felületre az előlap felfelé.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Helyezze újra a telefonját az útleveléhez, hogy megtalálja a chipet.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Helyezze a telefonját az útlevelére. A chip megtalálásához lehet, hogy fel-le kell csúsztatnia a telefonját az útlevelén.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Amint a chipet felismeri, tartsa mozdulatlanul a telefonját és az útlevelét.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Beolvasás indítása</string>
 	<string name="onfido_nfc_fail_passport_title">Nem sikerült a chipet beolvasni. Segítségre van szüksége?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Amint a telefonja felismeri az útlevelében található chipet, a szkennelés automatikusan megkezdődik. Tartsa mozdulatlanul a telefonját és az útlevelét, hogy a szkennelés sikeresen befejeződjön.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Amint a telefonod érzékeli a chipet az útleveledben, a beolvasás automatikusan elindul. Tartsd mozdulatlanul a telefonodat és az útleveledet, hogy a beolvasás befejeződhessen.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Helyezze az okmányát a telefonja mellé. Lehet, hogy lassan végig kell húznia az okmányát a telefonján.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Helyezze újra az okmányát a telefonjához, hogy megtalálja a chipet.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Beolvasás indítása</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">A dokumentuma lejárt</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Próbálkozzon újra érvényes fényképes személyazonosító okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Használja a telefonját a dokumentumában lévő chip beolvasásához</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lassan csúsztassa az okmányát le és fel a telefonja előtt, hogy megtalálja a chipet.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Lassan csúsztassa fel és le az okmányt a telefonján, hogy megtalálja a chipet.</string>
 	<string name="onfido_generic_icon_info_accessibility">Információ:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Információ:</string>
 	<string name="onfido_generic_footer_branding">Onfido valódi identitás</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Mutassa csak a fényképes oldalt</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Tartsa egyenesen az okmányt</string>
     <string name="onfido_generic_icon_error_accessibility">Hiba:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Helyezze a telefonját az útlevelére, úgy hogy érintkezzenek.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Amint a chip észlelésre kerül, tartsa mozdulatlanul a telefonját és az útlevelét.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Sajnáljuk, nem támogatjuk ezt az országkódot</string>
+	<string name="onfido_generic_icon_warning_accessibility">Figyelem:</string>
+	<string name="onfido_generic_icon_success_accessibility">Siker:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Nyissa ki az útlevelét az utolsó oldalon, és helyezze egy sík felületre.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Nyissa ki az útlevelét az utolsó oldalra, és helyezze egy sík felületre. Látnia kell a hátsó borító belsejét egy illusztrációval és egy vonalkóddal.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Lehet, hogy lassan fel és le kell csúsztatnia a telefonját a belső hátsó borító mentén, amíg meg nem találja a chipet.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Helyezze a telefonját a hátlaphoz. A chip megtalálásához lehet, hogy fel és le kell csúsztatnia a telefonját a hátlapon.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Helyezze a telefonját a hátlaphoz. Lehet, hogy fel és le kell csúsztatnia a telefonját a hátlapon.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Helyezze át a telefonját a hátlaphoz, hogy megtalálja a chipet.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Helyezze a telefonját a belső hátsó borítóhoz, hogy érintkezzenek.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Helyezze a telefonját az útlevelére. Lehet, hogy lassan kell csúsztatnia a telefonját az útlevelén.</string>
 </resources>

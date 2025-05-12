@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Sedia untuk diimbas</string>
     <string name="onfido_nfc_sheet_button_secondary">Batal</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Mengimbas...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Pastikan telefon dan pasport anda tidak bergerak</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Imbas berjaya dilakukan</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Pastikan telefon dan pasport anda tidak bergerak.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Imbasan berjaya.</string>
     <string name="onfido_nfc_permission_title">Hidupkan NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Kami tidak boleh mengimbas pasport anda tanpa NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Hidupkan NFC dari tetapan peranti anda</string>
+	<string name="onfido_nfc_permission_subtitle">Kami perlu menggunakan pembaca NFC telefon anda untuk mengimbas cip dalam dokumen pengenalan anda.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Sila ketik butang di bawah dan hidupkan NFC dalam tetapan anda.</string>
     <string name="onfido_nfc_permission_button_primary">Buka tetapan</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Hantar gambar</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">Imbas cip pasport anda</string>
     <string name="onfido_nfc_intro_subtitle">Ikut arahan di bawah</string>
-    <string name="onfido_nfc_intro_button_primary">Mula mengimbas</string>
+	<string name="onfido_nfc_intro_button_primary">Mulakan imbasan</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Kami telah berjaya mengimbas pasport anda</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Kami telah berjaya mengimbas kad anda</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Cuba Semula</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Audio sedang dimainkan oleh aplikasi lain</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan mainkan apa-apa audio pada peranti anda semasa rakaman dibuat</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Posisikan dokumen anda sehingga menyentuh bahagian belakang peranti anda</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Letakkan dokumen anda di bahagian belakang telefon anda, berhampiran bahagian atas.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Pelan-pelan geser dokumen anda ke atas dan ke bawah di atas telefon anda untuk mencari cip.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Apabila proses pemindaian dimulakan, jangan bergerak supaya pemindaian dapat dilakukan dengan sempurna</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Setelah cip dikesan, pastikan telefon dan dokumen anda tidak bergerak.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_final_title">Kami tidak dapat mengesahkan dokumen ini</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Pengimbasan NFC diperlukan untuk dokumen ini, tetapi tidak dapat diselesaikan.</string>
@@ -512,8 +512,8 @@
 	<string name="onfido_nfc_fail_card_title">Tidak dapat mengimbas cip. Perlukan bantuan?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Cuba keluarkan kes dari telefon anda. Ini adalah untuk mengelakkan gangguan dengan cip.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Posisikan dokumen anda sehingga menyentuh bahagian belakang telefon anda.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Pelan-pelan geser dokumen anda naik dan turun melawan peranti sehingga pemindaian bermula</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Sekali imbasan bermula, kekal diam supaya imbasan dapat diselesaikan</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Anda mungkin perlu perlahan-lahan menggeser dokumen anda ke atas dan ke bawah pada telefon anda sehingga anda menemui cip.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Sebaik sahaja telefon anda mengesan cip dalam dokumen anda, imbasan akan bermula secara automatik. Pastikan telefon dan dokumen anda tidak bergerak supaya imbasan dapat diselesaikan.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Sahkan tanpa mengimbas</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Pengesahan keluar</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Anda mungkin diminta untuk memasukkan CAN sebelum meneruskan ke imbasan</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Anda mungkin perlu memulakan semula proses pengesahan identiti jika anda kembali.</string>
 	<string name="onfido_generic_close_sdk_exit">Keluar</string>
 	<string name="onfido_generic_close_sdk_cancel">Batalkan</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Imbasan terganggu</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Imbasan terganggu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Tutup pasport anda dan letakkan di atas permukaan yang rata dengan bahagian depan menghadap ke atas.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Posisikan semula telefon anda terhadap pasport anda untuk mencari cip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Letakkan telefon anda di atas pasport anda. Untuk mencari cip, anda mungkin perlu menggeser telefon anda naik dan turun di atas pasport anda.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Setelah cip dikesan, kekalkan telefon dan pasport anda dalam keadaan diam.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Mulakan imbasan</string>
 	<string name="onfido_nfc_fail_passport_title">Tidak dapat mengimbas cip. Perlukan bantuan?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Setelah telefon anda mengesan cip dalam pasport anda, pengimbasan akan bermula secara automatik. Kekalkan telefon dan pasport anda dalam keadaan diam supaya pengimbasan dapat diselesaikan.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Sebaik sahaja telefon anda mengesan cip dalam pasport anda, imbasan akan bermula secara automatik. Pastikan telefon dan pasport anda tidak bergerak supaya imbasan dapat diselesaikan.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Letakkan dokumen anda melawan telefon anda. Anda mungkin perlu untuk perlahan-lahan menggeser dokumen anda melawan telefon anda.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Posisikan semula dokumen anda berhubung dengan telefon anda untuk mencari cip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Mulakan imbasan</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Dokumen anda telah tamat tempoh</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Sila cuba lagi dengan ID bergambar yang sah dan pastikan maklumat anda kelihatan dengan jelas</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telefon anda untuk mengimbas cip dalam dokumen anda</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Pelan-pelan geser dokumen anda ke atas dan ke bawah di atas telefon anda untuk mencari cip.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Perlahan-lahan geser dokumen anda ke atas dan ke bawah pada telefon anda untuk mencari cip.</string>
 	<string name="onfido_generic_icon_info_accessibility">Maklumat:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Maklumat:</string>
 	<string name="onfido_generic_footer_branding">Identiti sebenar Onfido</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Paparkan halaman foto sahaja</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Pegang dokumen dengan lurus</string>
     <string name="onfido_generic_icon_error_accessibility">Ralat:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Letakkan telefon anda menentang pasport anda, sehingga mereka bersentuhan.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Setelah cip dikesan, kekalkan telefon dan pasport anda dalam keadaan pegun.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Maaf, kami tidak menyokong kod negara ini</string>
+	<string name="onfido_generic_icon_warning_accessibility">Amaran:</string>
+	<string name="onfido_generic_icon_success_accessibility">Berjaya:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Buka pasport anda ke halaman terakhir dan letakkan di permukaan rata.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Buka pasport anda ke halaman terakhir dan letakkan di permukaan rata. Anda sepatutnya melihat bahagian dalam penutup belakang dengan ilustrasi dan kod bar.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Anda mungkin perlu perlahan-lahan menggeser telefon anda ke atas dan ke bawah pada bahagian dalam penutup belakang sehingga anda menemui cip tersebut.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Letakkan telefon anda pada penutup belakang. Untuk mencari cip, anda mungkin perlu menggerakkan telefon anda ke atas dan ke bawah pada penutup.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Letakkan telefon anda pada penutup belakang. Anda mungkin perlu menggerakkan telefon anda ke atas dan ke bawah pada penutup tersebut.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Letakkan semula telefon anda pada penutup belakang untuk mencari cip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Letakkan telefon anda pada bahagian dalam penutup belakang, supaya ia bersentuhan.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Letakkan telefon anda pada pasport anda. Anda mungkin perlu perlahan-lahan menggeser telefon anda pada pasport anda.</string>
 </resources>

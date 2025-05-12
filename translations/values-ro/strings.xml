@@ -28,7 +28,7 @@
     <string name="onfido_doc_select_button_passport">Pașaport</string>
     <string name="onfido_doc_select_button_visa">Viză</string>
     <string name="onfido_doc_select_button_license">Permis de conducere</string>
-	<string name="onfido_doc_select_button_id">Carte de identitate națională</string>
+	<string name="onfido_doc_select_button_id">Carte de identitate național</string>
     <string name="onfido_doc_select_button_permit">Permis de ședere</string>
 	<string name="onfido_doc_select_button_permit_work">Permis de muncă</string>
 
@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Gata de scanare</string>
 	<string name="onfido_nfc_sheet_button_secondary">Anulează</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Scanare în curs...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Țineți nemișcat telefonul și pașaportul dvs.</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Scanare cu succes</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Țineți telefonul și pașaportul nemișcate.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Scanare reușită.</string>
     <string name="onfido_nfc_permission_title">Porniți NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Nu putem scana pașaportul dvs. fără NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Porniți NFC din setările dispozitivului dvs.</string>
+	<string name="onfido_nfc_permission_subtitle">Trebuie să folosim cititorul NFC al telefonului tău pentru a scana cipul din documentul tău.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Vă rugăm să apăsați butonul de mai jos și să activați NFC în setările dumneavoastră.</string>
     <string name="onfido_nfc_permission_button_primary">Deschideți setări</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Trimiteți poză</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">Scanați cipul din pașaportul dvs.</string>
     <string name="onfido_nfc_intro_subtitle">Urmați instrucțiunile de mai jos</string>
-    <string name="onfido_nfc_intro_button_primary">Începeți scanarea</string>
+	<string name="onfido_nfc_intro_button_primary">Începe scanarea</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Am scanat cu succes pașaportul dvs.</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Am scanat cu succes cardul dvs.</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Încercați din nou</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Semnalul audio este redat de altă aplicație</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vă rugăm să nu redați semnal audio pe dispozitivul dvs. pe parcursul înregistrării video</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Puneți documentul dvs. împotriva părții din spate a dispozitivului dvs. astfel încât să se atingă</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Așezați documentul pe spatele telefonului, aproape de partea de sus.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Glisați încet documentul în jos și în sus pe telefonul dvs. pentru a localiza cipul.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Odată ce cipul este detectat, țineți telefonul și documentul nemișcate.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Obțineți verificarea fără NFC</string>
     <string name="onfido_nfc_scan_error_final_title">Nu am putut verifica acest document</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Scanarea NFC este necesară pentru acest document, dar nu a putut fi finalizată.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Imposibil de scanat cipul. Aveți nevoie de ajutor?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Încercați să îndepărtați carcasa de pe telefonul dvs. Acest lucru este pentru a evita interferențele cu cipul.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Puneți documentul dvs. împotriva părții din spate a telefonului dvs., astfel încât să se atingă.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Glisați încet documentul în sus și în jos pe dispozitiv până când începe scanarea</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Odată ce scanarea începe, stați nemișcat pentru ca scanarea să se poată finaliza</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Este posibil să fie nevoie să glisați încet documentul în sus și în jos pe telefonul dvs. până când localizați cipul.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Odată ce telefonul detectează cipul din documentul tău, scanarea va începe automat. Ține telefonul și documentul nemișcate pentru ca scanarea să se finalizeze.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifică fără scanare</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Ieşire din verificare</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">S-ar putea să vi se solicite să introduceți CAN înainte de a continua cu scanarea</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">S-ar putea să fie nevoie să reporniți procesul de verificare dacă vă întoarceți.</string>
 	<string name="onfido_generic_close_sdk_exit">Ieșire</string>
 	<string name="onfido_generic_close_sdk_cancel">Anulați</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Scanare întreruptă</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Scanare întreruptă.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Închideți pașaportul și așezați-l pe o suprafață plană cu fața în sus.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Repoziționați telefonul împotriva pașaportului dvs. pentru a localiza cipul.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Plasați telefonul dvs. împotriva pașaportului dvs. Pentru a localiza cipul, este posibil să fie nevoie să alunecați telefonul dvs. în sus și în jos pe pașaportul dvs.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Odată ce cipul este detectat, mențineți telefonul și pașaportul dvs. nemișcate.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Începeți scanarea</string>
 	<string name="onfido_nfc_fail_passport_title">Imposibil de scanat cipul. Aveți nevoie de ajutor?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Odată ce telefonul dvs. detectează cipul din pașaport, scanarea va începe automat. Mențineți telefonul și pașaportul nemișcate pentru ca scanarea să se poată finaliza.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Odată ce telefonul detectează cipul din pașaportul tău, scanarea va începe automat. Ține telefonul și pașaportul nemișcate pentru ca scanarea să se poată finaliza.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Puneți documentul pe telefonul dvs. S-ar putea să fie nevoie să glisați încet documentul pe telefonul dvs.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Repoziționați documentul în contact cu telefonul dvs. pentru a localiza cipul.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Începeți scanarea</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Documentul dvs. a expirat</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Vă rugăm să încercați din nou cu un document de identitate cu poză valabil și asigurați-vă că informațiile dvs. sunt clar vizibile</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Folosiți telefonul pentru a scana cipul din documentul dvs.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Glisați încet documentul în jos și în sus pe telefonul dvs. pentru a localiza cipul.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Glisați încet documentul de identitate în sus și în jos pe telefon pentru a localiza cipul.</string>
 	<string name="onfido_generic_icon_info_accessibility">Informație:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informație:</string>
 	<string name="onfido_generic_footer_branding">Identitate reală Onfido</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Afișează doar pagina cu fotografie</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Ține documentul drept</string>
     <string name="onfido_generic_icon_error_accessibility">Eroare:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Puneți telefonul dvs. împotriva pașaportului dvs., astfel încât să se atingă.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Odată ce cipul este detectat, mențineți telefonul și pașaportul nemișcate.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Ne pare rău, nu acceptăm acest cod de țară</string>
+	<string name="onfido_generic_icon_warning_accessibility">Avertisment:</string>
+	<string name="onfido_generic_icon_success_accessibility">Succes:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Deschideți pașaportul la ultima pagină și așezați-l pe o suprafață plană.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Deschideți pașaportul la ultima pagină și așezați-l pe o suprafață plană. Ar trebui să vedeți interiorul copertei din spate cu o ilustrație și un cod de bare.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Este posibil să fie necesar să glisați încet telefonul în sus și în jos pe partea interioară a copertei din spate până când localizați cipul.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Așezați telefonul pe coperta din spate. Pentru a localiza cipul, ar putea fi necesar să glisați telefonul în sus și în jos pe copertă.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Așezați telefonul pe coperta din spate. Este posibil să fie nevoie să glisați telefonul în sus și în jos pe copertă.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Repoziționați telefonul pe coperta din spate pentru a localiza cipul.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Așezați telefonul pe coperta din spate, astfel încât să se atingă.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Așezați telefonul pe pașaport. Este posibil să fie nevoie să glisați încet telefonul pe pașaport.</string>
 </resources>

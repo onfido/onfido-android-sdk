@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Ready to scan</string>
     <string name="onfido_nfc_sheet_button_secondary">Cancel</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Scanning...</string>
-    <string name="onfido_nfc_sheet_scanning_instruction">Keep your phone and passport still</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Scan successful</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Keep your phone and passport still.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Scan successful.</string>
     <string name="onfido_nfc_permission_title">Turn on NFC</string>
-	<string name="onfido_nfc_permission_subtitle">We can’t scan your passport without NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Turn on NFC from your device settings</string>
+	<string name="onfido_nfc_permission_subtitle">We need to use your phone\'s NFC reader to scan the chip in your document.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Please tap the button below and turn on NFC in your settings.</string>
     <string name="onfido_nfc_permission_button_primary">Open settings</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Submit photo</string>
@@ -297,7 +297,7 @@
 
     <string name="onfido_nfc_intro_title_passport">Scan your passport’s chip</string>
     <string name="onfido_nfc_intro_subtitle">Follow the instructions below</string>
-    <string name="onfido_nfc_intro_button_primary">Start scanning</string>
+	<string name="onfido_nfc_intro_button_primary">Start scan</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">We’ve successfully scanned your passport</string>
     <string name="onfido_nfc_sheet_success_instruction_card">We’ve successfully scanned your card</string>
@@ -307,7 +307,7 @@
 
     <string name="onfido_nfc_select_button_primary_card">Use NFC card</string>
 
-    <string name="onfido_nfc_intro_sheet_fail_instructions_card">Keep your phone and passport still</string>
+	<string name="onfido_nfc_intro_sheet_fail_instructions_card">Keep your phone and passport still.</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_card">Lost contact with card</string>
     <string name="onfido_nfc_intro_sheet_fail_subtitle_passport">Lost contact with passport</string>
     <string name="onfido_nfc_intro_sheet_fail_instructions_passport">Move your phone slightly up or down</string>
@@ -465,7 +465,7 @@
     <string name="onfido_doc_select_subtitle_photo_page">Photo page</string>
 	<string name="onfido_doc_select_subtitle_front_back">Front and back</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Select issuing country</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Place your document against the back of your phone.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Place your document against the back of your phone, near the top.</string>
     <string name="onfido_nfc_scan_welcome_card_list_item_2">Slowly slide your document up and down against your phone to locate the chip.</string>
     <string name="onfido_nfc_scan_welcome_card_list_item_3">Once the chip is detected, keep your phone and document still.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Get verified without NFC</string>
@@ -527,7 +527,7 @@
 	<string name="onfido_generic_close_sdk_cancel">Cancel</string>
 
     <string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Close your passport and place it on a flat surface with the front side up.</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Scan interrupted</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Scan interrupted.</string>
     <string name="onfido_nfc_capture_scan_doc_realign_body">Reposition your phone against your passport to locate the chip.</string>
     <string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Place your phone against your passport. To locate the chip, you may need to slide your phone up and down against your passport.</string>
     <string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Once the chip is detected, keep your phone and passport still.</string>
@@ -567,4 +567,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Show photo page only</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Hold document straight</string>
     <string name="onfido_generic_icon_error_accessibility">Error:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Place your phone against your passport, so they’re touching.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Once the chip is detected, keep your phone and passport still.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Sorry, we do not support this country code</string>
+	<string name="onfido_generic_icon_warning_accessibility">Warning:</string>
+	<string name="onfido_generic_icon_success_accessibility">Success:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Open your passport to the last page and place it on a flat surface.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Open your passport to the last page and place it on a flat surface. You should see the inside of the back cover with an illustration and a barcode.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">You may need to slowly slide your phone up and down against the inside back cover until you locate the chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Place your phone against the back cover. To locate the chip, you may need to slide your phone up and down against the cover.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Place your phone against the back cover. You may need to slide your phone up and down against the cover.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Reposition your phone against the back cover to locate the chip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Place your phone against the inside back cover, so they’re touching.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Place your phone against your passport. You may need to slowly slide your phone against your passport.</string>
 </resources>

@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Պատրաստ է սկանավորման</string>
     <string name="onfido_nfc_sheet_button_secondary">Չեղարկել</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Սկանավորվում է․․․</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Ձեր հեռախոսը և անձնագիրը անշարժ պահեք</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Սկանավորումը հաջողվեց</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Պահեք ձեր հեռախոսը և անձնագիրը անշարժ։</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Սկանավորումը հաջողվեց։</string>
     <string name="onfido_nfc_permission_title">Միացնել NFC-ն</string>
-	<string name="onfido_nfc_permission_subtitle">Մենք չենք կարող սկանավորել ձեր անձնագիրն առանց NFC-ի</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Միացրեք NFC-ն ձեր սարքի կարգավորումներից</string>
+	<string name="onfido_nfc_permission_subtitle">Մենք պետք է օգտագործենք ձեր հեռախոսի NFC ընթերցիչը՝ ձեր փաստաթղթի չիպը սկանավորելու համար։</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Խնդրում ենք սեղմել ներքևի կոճակը և միացնել NFC-ն ձեր կարգավորումներում։</string>
     <string name="onfido_nfc_permission_button_primary">Բացել կարգավորումները</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Ուղարկել լուսանկարը</string>
@@ -467,9 +467,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Կրկին փորձել</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">Աուդիոֆայլը նվագարկվում է մեկ այլ հավելվածի կողմից</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Ձայնագրության ընթացքում մի նվագարկեք աուդիոֆայլ ձեր սարքի վրա</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Տեղադրեք ձեր փաստաթուղթը ձեր սարքի հետևի մասում</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Տեղադրեք ձեր փաստաթուղթը հեռախոսի հետևի մասում, վերևի մոտ։</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Դանդաղ ձեր փաստաթուղթը վերև ու ներքև սահմանափակեք ձեր հեռախոսի դեմ, որպեսզի գտնեք չիպը:</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Սկանավորման սկսման պահից, պահանջվում է չշարժվել, որպեսզի սկանավորումը ավարտվի:</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Երբ չիպը հայտնաբերվի, պահեք ձեր հեռախոսը և փաստաթուղթը անշարժ։</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_final_title">Մենք չկարողացանք ստուգել այս փաստաթուղթը</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">NFC-ի սկանավորումն անհրաժեշտ է այս փաստաթղթի համար, սակայն չհաջողվեց ավարտել:</string>
@@ -512,8 +512,8 @@
 	<string name="onfido_nfc_fail_card_title">Չիպը սկանավորելը չի հաջողվում։ Օգտագործել օգնությունը՞</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Փորձեք հեռացնել ձեր հեռախոսի պատճառը։ Սա անհրաժեշտ է, որպեսզի չիպի հետ չհատվի խախտումներ։</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Տեղադրեք ձեր փաստաթուղթը ձեր հեռախոսի հետևի մասում, որպեսզի նրանք շփվեն:</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Դանդաղ սարքեք ձեր փաստաթուղթը վերև և ներքև սարքի դեմ, մինչդեռ սկանավորումը չսկսվի:</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Երբ սկանավորումը սկսվում է, պահեք անշարժ, որպեսզի սկանավորումը ավարտվի</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Դուք կարող եք դանդաղ սահեցնել ձեր փաստաթուղթը վեր ու վար ձեր հեռախոսի վրա, մինչև գտնեք չիպը։</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Երբ ձեր հեռախոսը հայտնաբերի ձեր փաստաթղթի չիպը, սկանավորումը կսկսվի ինքնաբերաբար։ Պահեք ձեր հեռախոսը և փաստաթուղթը անշարժ, որպեսզի սկանավորումը ավարտվի։</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Ստուգել սկանավորման առանց</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Ելքի ստուգում</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Ձեզ կարող է խնդրվել մուտքագրել CAN-ը, մինչև շարունակել սկանավորումը</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Դուք կարող եք պահանջվել վերսկսել հաստատման գործընթացը, եթե վերադառնաք։</string>
 	<string name="onfido_generic_close_sdk_exit">Ելք</string>
 	<string name="onfido_generic_close_sdk_cancel">Չեղարկել</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Սկանավո</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Սքանավորումը ընդհատվեց։</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Փակեք ձեր անձնագիրը և դնեք այն հարթ մակերեսում մեջտեղով վերև։</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի դեմ չիպը գտնելու համար:</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի վրա։ Չիպը գտնելու համար ձեզ կարող է պետք լինել ձեր հեռախոսը ձեր անձնագրի վրա վերև-ներև սահմանել։</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Հայտնաբերվելուց հետո չիպը, պահեք ձեր հեռախոսը և անձնագիրը անշարժ:</string>
     <string name="onfido_nfc_fail_passport_button_primary">Սկսել սկանավորումը</string>
 	<string name="onfido_nfc_fail_passport_title">Չիպը սկանավորելը չի հաջողվում։ Օգտագործել օգնությունը՞</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Այն պահից, երբ ձեր հեռախոսը հայտնաբերում է ձեր անձնագրի չիպը, սկանավորումը ավտոմատ կսկսվի։ Պահեք ձեր հեռախոսը և անձնագիրը անշարժ, որպեսզի սկանավորումը կարողանա ավարտվել։</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Երբ ձեր հեռախոսը հայտնաբերի չիպը ձեր անձնագրում, սկանավորումը կսկսվի ավտոմատ կերպով։ Պահեք ձեր հեռախոսը և անձնագիրը անշարժ, որպեսզի սկանավորումը ավարտվի։</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Տեղադրեք ձեր փաստաթուղթը ձեր հեռախոսի դեմ։ Ձեզ կարող է պետք լինել դանդաղ սարքել ձեր փաստաթուղթը ձեր հեռախոսի դեմ։</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Վերադասավորեք ձեր փաստաթղթը ձեր հեռախոսի հետ կապված, որպեսզի գտնեք չիպը:</string>
 	<string name="onfido_nfc_fail_button_primary_card">Սկսել սկանավորումը</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Ձեր փաստաթղթի ժամկետը սպառվել է</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Կրկին փորձեք լուսանկար պարունակող, վավեր անձը հաստատող փաստաթղթով և համոզվեք, որ ձեր տվյալները հստակ երևում են</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Օգտագործեք ձեր հեռախոսը ձեր փաստաթղթի չիպը սկանավորելու համար</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Դանդաղ ձեր փաստաթուղթը վերև ու ներքև սահմանափակեք ձեր հեռախոսի դեմ, որպեսզի գտնեք չիպը:</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Դանդաղ սահեցրեք ձեր փաստաթուղթը վերև և ներքև ձեր հեռախոսի վրա՝ չիպը գտնելու համար։</string>
 	<string name="onfido_generic_icon_info_accessibility">Տեղեկություն:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Տեղեկություն:</string>
 	<string name="onfido_generic_footer_branding">Onfido իրական իսկություն</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Ցուցադրել միայն լուսանկարի էջը</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Պահեք փաստաթուղթը ուղիղ</string>
     <string name="onfido_generic_icon_error_accessibility">Սխալ:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի դեմ, որպեսզի նրանք շփոթվեն։</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Երբ չիպը հայտնաբերվի, պահեք ձեր հեռախոսը և անձնագիրը անշարժ։</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Ներեցեք, մենք չենք աջակցում այս երկրի կոդը</string>
+	<string name="onfido_generic_icon_warning_accessibility">Զգուշացում:</string>
+	<string name="onfido_generic_icon_success_accessibility">Հաջողություն:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Բացեք ձեր անձնագիրը վերջին էջին և դրեք այն հարթ մակերեսի վրա։</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Բացեք ձեր անձնագիրը վերջին էջին և դրեք այն հարթ մակերեսի վրա։ Դուք պետք է տեսնեք հետևի կազմի ներսը նկարազարդմամբ և շտրիխ կոդով։</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Դուք կարող եք դանդաղ սահեցնել ձեր հեռախոսը վերև և ներքև դեպի ներքին հետևի կազմը, մինչև գտնեք չիպը։</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Տեղադրեք ձեր հեռախոսը հետևի կափարիչի վրա։ Չիպը գտնելու համար, հնարավոր է, որ անհրաժեշտ լինի սահեցնել ձեր հեռախոսը վերև և ներքև կափարիչի վրա։</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Տեղադրեք ձեր հեռախոսը հետևի կափարիչի վրա։ Հնարավոր է, որ անհրաժեշտ լինի սահեցնել ձեր հեռախոսը վերև և ներքև կափարիչի վրա։</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Տեղափոխեք ձեր հեռախոսը դեպի հետևի կափարիչը՝ չիպը գտնելու համար։</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Տեղադրեք ձեր հեռախոսը ներսի հետևի կազմի դեմ, որպեսզի դրանք շփվեն։</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի դեմ: Հնարավոր է, որ անհրաժեշտ լինի դանդաղ սահեցնել ձեր հեռախոսը ձեր անձնագրի դեմ:</string>
 </resources>

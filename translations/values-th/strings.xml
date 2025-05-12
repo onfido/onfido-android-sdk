@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">พร้อมสแกน</string>
     <string name="onfido_nfc_sheet_button_secondary">ยกเลิก</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">กำลังสแกน...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">ถือโทรศัพท์และพาสปอร์ตของคุณไว้นิ่งๆ</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">เก็บโทรศัพท์และหนังสือเดินทางของคุณให้นิ่ง</string>
     <string name="onfido_nfc_sheet_success_subtitle">สแกนสำเร็จ</string>
     <string name="onfido_nfc_permission_title">เปิด NFC</string>
-	<string name="onfido_nfc_permission_subtitle">เราสแกนหนังสือเดินทางของคุณไม่ได้หากไม่มี NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">เปิด NFC จากการตั้งค่าอุปกรณ์ของคุณ</string>
+	<string name="onfido_nfc_permission_subtitle">เราจำเป็นต้องใช้เครื่องอ่าน NFC ของโทรศัพท์คุณเพื่อสแกนชิปในเอกสารของคุณ</string>
+	<string name="onfido_nfc_permission_list_item_nfc">กรุณาแตะปุ่มด้านล่างและเปิด NFC ในการตั้งค่าของคุณ</string>
     <string name="onfido_nfc_permission_button_primary">เปิดการตั้งค่า</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">ส่งรูปภาพ</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">สแกนชิปในพาสปอร์ตของคุณ</string>
     <string name="onfido_nfc_intro_subtitle">ทำตามคำแนะนำด้านล่าง</string>
-    <string name="onfido_nfc_intro_button_primary">เริ่มสแกน</string>
+	<string name="onfido_nfc_intro_button_primary">เริ่มการสแกน</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">เราสแกนหนังสือเดินทางของคุณเรียบร้อยแล้ว</string>
     <string name="onfido_nfc_sheet_success_instruction_card">เราสแกนบัตรของคุณเรียบร้อยแล้ว</string>
@@ -469,9 +469,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">ลองอีกครั้ง</string>
 	<string name="onfido_doc_capture_header_recording_video">กำลังบันทึกวิดีโอ</string>
 	<string name="onfido_doc_capture_header_recording_complete">บันทึกเสร็จสมบูรณ์</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">วางเอกสารของคุณให้สัมผัสกับด้านหลังของอุปกรณ์</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">วางเอกสารของคุณไว้ที่ด้านหลังของโทรศัพท์ ใกล้กับด้านบน</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">เลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนโทรศัพท์ของคุณเพื่อค้นหาชิป</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">เมื่อการสแกนเริ่มต้น โปรดอยู่นิ่งเพื่อให้การสแกนเสร็จสิ้น</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">เมื่อชิปถูกตรวจพบ ให้ถือโทรศัพท์และเอกสารของคุณให้นิ่ง</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">รับการตรวจสอบโดยไม่มี NFC</string>
     <string name="onfido_nfc_scan_error_final_title">เราไม่สามารถยืนยันเอกสารนี้ได้</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">จำเป็นต้องมีการสแกน NFC สำหรับเอกสารนี้ แต่ไม่สามารถทำได้</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">ไม่สามารถสแกนชิปได้ ต้องการความช่วยเหลือหรือไม่?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">ลองถอดเคสออกจากโทรศัพท์ของคุณ นี่เพื่อหลีกเลี่ยงการรบกวนชิป</string>
 	<string name="onfido_nfc_fail_card_list_item_2">วางเอกสารของคุณให้สัมผัสกับด้านหลังของโทรศัพท์ของคุณ</string>
-	<string name="onfido_nfc_fail_card_list_item_3">เลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนอุปกรณ์จนกว่าการสแกนจะเริ่มต้น</string>
-	<string name="onfido_nfc_fail_card_list_item_4">เมื่อการสแกนเริ่มต้นแล้ว โปรดอยู่นิ่งเพื่อให้การสแกนสมบูรณ์</string>
+	<string name="onfido_nfc_fail_card_list_item_3">คุณอาจจำเป็นต้องเลื่อนเอกสารของคุณขึ้นและลงช้าๆ บนโทรศัพท์ของคุณจนกว่าจะพบชิป</string>
+	<string name="onfido_nfc_fail_card_list_item_4">เมื่อโทรศัพท์ของคุณตรวจพบชิปในเอกสารของคุณ การสแกนจะเริ่มต้นโดยอัตโนมัติ ให้คงโทรศัพท์และเอกสารของคุณให้นิ่งเพื่อให้การสแกนเสร็จสมบูรณ์</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">ตรวจสอบโดยไม่ต้องสแกน</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">การตรวจสอบการออก</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">คุณอาจจะถูกขอให้ป้อน CAN ก่อนที่จะดำเนินการสแกนต่อไป</string>
@@ -534,7 +534,7 @@
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">เมื่อตรวจจับชิปแล้ว ให้คุณรักษาโทรศัพท์และพาสปอร์ตของคุณให้นิ่ง</string>
     <string name="onfido_nfc_fail_passport_button_primary">เริ่มสแกน</string>
 	<string name="onfido_nfc_fail_passport_title">ไม่สามารถสแกนชิปได้ ต้องการความช่วยเหลือหรือไม่?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">เมื่อโทรศัพท์ของคุณตรวจจับชิปในพาสปอร์ตของคุณ การสแกนจะเริ่มทำงานโดยอัตโนมัติ รักษาให้โทรศัพท์และพาสปอร์ตของคุณอยู่นิ่งเพื่อให้การสแกนสามารถเสร็จสิ้นได้</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">เมื่อโทรศัพท์ของคุณตรวจพบชิปในหนังสือเดินทาง การสแกนจะเริ่มต้นโดยอัตโนมัติ กรุณาถือโทรศัพท์และหนังสือเดินทางให้นิ่งเพื่อให้การสแกนเสร็จสมบูรณ์</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">วางเอกสารของคุณบนโทรศัพท์ของคุณ คุณอาจจำเป็นต้องเลื่อนเอกสารของคุณบนโทรศัพท์ของคุณอย่างช้าๆ</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">จัดตำแหน่งเอกสารของคุณให้สัมผัสกับโทรศัพท์เพื่อค้นหาชิป</string>
 	<string name="onfido_nfc_fail_button_primary_card">เริ่มสแกน</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">เอกสารของคุณหมดอายุแล้ว</string>
 	<string name="onfido_retry_feedback_custom_subtitle">โปรดลองอีกครั้งโดยใช้บัตรประจำตัวที่มีรูปถ่ายที่ถูกต้อง และตรวจให้แน่ใจว่าเห็นข้อมูลของคุณได้อย่างชัดเจน</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">ใช้โทรศัพท์ของคุณสแกนชิปที่อยู่ในเอกสารของคุณ</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">เลื่อนเอกสารของคุณขึ้นและลงอย่างช้าๆ บนโทรศัพท์ของคุณเพื่อค้นหาชิป</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">ค่อยๆ เลื่อนเอกสารของคุณขึ้นและลงกับโทรศัพท์ของคุณเพื่อค้นหาชิป</string>
 	<string name="onfido_generic_icon_info_accessibility">ข้อมูล:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">ข้อมูล:</string>
 	<string name="onfido_generic_footer_branding">Onfido ตัวตนจริง</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">แสดงหน้ารูปเท่านั้น</string>
 	<string name="onfido_doc_capture_alert_tilted_title">ถือเอกสารให้ตรง</string>
     <string name="onfido_generic_icon_error_accessibility">ข้อผิดพลาด:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">วางโทรศัพท์ของคุณลงบนหนังสือเดินทางของคุณให้สัมผัสกัน</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">เมื่อชิปถูกตรวจพบแล้ว ให้ถือโทรศัพท์และหนังสือเดินทางของคุณให้นิ่ง</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">ขออภัย เราไม่รองรับรหัสประเทศนี้</string>
+	<string name="onfido_generic_icon_warning_accessibility">คำเตือน:</string>
+	<string name="onfido_generic_icon_success_accessibility">สำเร็จ:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">เปิดหนังสือเดินทางของคุณไปที่หน้าสุดท้ายและวางบนพื้นผิวเรียบ</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">เปิดหนังสือเดินทางของคุณไปที่หน้าสุดท้ายและวางบนพื้นผิวเรียบ คุณควรเห็นด้านในของปกหลังที่มีภาพประกอบและบาร์โค้ด</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">คุณอาจต้องเลื่อนโทรศัพท์ของคุณขึ้นและลงช้า ๆ กับด้านในของปกหลังจนกว่าคุณจะพบชิป</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">วางโทรศัพท์ของคุณไว้ที่ฝาหลัง เพื่อหาชิป คุณอาจต้องเลื่อนโทรศัพท์ขึ้นและลงกับฝา</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">วางโทรศัพท์ของคุณไว้ที่ฝาหลัง คุณอาจต้องเลื่อนโทรศัพท์ขึ้นและลงกับฝา</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">ปรับตำแหน่งโทรศัพท์ของคุณให้ตรงกับฝาหลังเพื่อค้นหาชิป</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">วางโทรศัพท์ของคุณไว้ที่ด้านในของปกหลัง เพื่อให้สัมผัสกัน</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">วางโทรศัพท์ของคุณแนบกับหนังสือเดินทางของคุณ คุณอาจต้องค่อยๆ เลื่อนโทรศัพท์ของคุณแนบกับหนังสือเดินทางของคุณ</string>
 </resources>

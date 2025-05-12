@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Sẵn sàng quét</string>
     <string name="onfido_nfc_sheet_button_secondary">Hủy</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Đang quét...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Giữ yên điện thoại và hộ chiếu của bạn</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Quét thành công</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Giữ điện thoại và hộ chiếu của bạn yên.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Quét thành công.</string>
     <string name="onfido_nfc_permission_title">Bật NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Chúng tôi không thể quét hộ chiếu của bạn mà không có NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Bật NFC trong phần cài đặt thiết bị của bạn</string>
+	<string name="onfido_nfc_permission_subtitle">Chúng tôi cần sử dụng đầu đọc NFC của điện thoại bạn để quét chip trong tài liệu nhận dạng của bạn.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Vui lòng nhấn vào nút bên dưới và bật NFC trong cài đặt của bạn.</string>
     <string name="onfido_nfc_permission_button_primary">Mở phần cài đặt</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Gửi ảnh</string>
@@ -469,9 +469,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Vui lòng không phát bất kỳ âm thanh nào trên thiết bị của bạn trong khi ghi âm</string>
 	<string name="onfido_doc_capture_header_recording_video">Ghi video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Ghi hình đã hoàn tất</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Đặt tài liệu của bạn vào phía sau của thiết bị để chúng tiếp xúc với nhau</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Đặt tài liệu của bạn vào mặt sau của điện thoại, gần phía trên.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Từ từ trượt tài liệu của bạn lên xuống trên điện thoại để tìm chip.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Khi chip được phát hiện, hãy giữ điện thoại và tài liệu của bạn ổn định.</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Được xác minh mà không cần NFC</string>
     <string name="onfido_nfc_scan_error_final_title">Chúng tôi không thể xác minh tài liệu này</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Cần quét NFC đối với tài liệu này nhưng không thể hoàn tất.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Không thể quét chip. Cần trợ giúp?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Thử gỡ bỏ ốp lưng khỏi điện thoại của bạn. Điều này nhằm tránh gây nhiễu cho chip.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Đặt tài liệu của bạn vào phía sau điện thoại, sao cho chúng tiếp xúc với nhau.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Từ từ trượt tài liệu của bạn lên và xuống so với thiết bị cho đến khi quét bắt đầu</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Một khi quá trình quét bắt đầu, hãy giữ nguyên không di chuyển để quá trình quét có thể hoàn thành</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Bạn có thể cần từ từ trượt tài liệu của mình lên và xuống trên điện thoại cho đến khi bạn tìm thấy chip.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Khi điện thoại của bạn phát hiện chip trong tài liệu của bạn, quá trình quét sẽ tự động bắt đầu. Giữ điện thoại và tài liệu của bạn yên để quá trình quét có thể hoàn tất.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Xác minh mà không cần quét</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Xác minh thoát</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Bạn có thể được yêu cầu nhập CAN trước khi tiếp tục quét</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Bạn có thể cần khởi động lại quá trình xác minh nếu bạn quay trở lại.</string>
 	<string name="onfido_generic_close_sdk_exit">Thoát</string>
 	<string name="onfido_generic_close_sdk_cancel">Hủy</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Quét bị gián đoạn</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Quét bị gián đoạn.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Đóng hộ chiếu của bạn và đặt nó trên một bề mặt phẳng với mặt trước hướng lên.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Đặt lại điện thoại của bạn lên hộ chiếu để tìm chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Đặt điện thoại lên hộ chiếu của bạn. Để tìm chip, bạn có thể cần di chuyển điện thoại lên và xuống trên hộ chiếu của bạn.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Một khi chip được phát hiện, hãy giữ điện thoại và hộ chiếu của bạn không động.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Bắt đầu quét</string>
 	<string name="onfido_nfc_fail_passport_title">Không thể quét chip. Cần sự giúp đỡ?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Một khi điện thoại của bạn phát hiện chip trong hộ chiếu, quá trình quét sẽ tự động bắt đầu. Hãy giữ điện thoại và hộ chiếu ở trạng thái không động để quá trình quét có thể hoàn tất.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Khi điện thoại của bạn phát hiện chip trong hộ chiếu, quá trình quét sẽ tự động bắt đầu. Giữ điện thoại và hộ chiếu của bạn yên để quá trình quét có thể hoàn tất.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Đặt tài liệu của bạn lên điện thoại. Bạn có thể cần phải từ từ trượt tài liệu của bạn lên và xuống so với điện thoại.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Đặt lại tài liệu của bạn vào liên lạc với điện thoại của bạn để tìm chip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Bắt đầu quét</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Giấy tờ của bạn đã hết hạn</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Vui lòng thử lại với giấy tờ tùy thân có ảnh hợp lệ và đảm bảo thông tin của bạn được hiển thị rõ ràng</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Sử dụng điện thoại của bạn để quét chip trong tài liệu của bạn</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Từ từ trượt tài liệu của bạn lên xuống trên điện thoại để tìm chip.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Từ từ trượt tài liệu của bạn lên và xuống trên điện thoại để xác định vị trí chip.</string>
 	<string name="onfido_generic_icon_info_accessibility">Thông tin:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Thông tin:</string>
 	<string name="onfido_generic_footer_branding">Onfido danh tính thực</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Chỉ hiển thị trang ảnh</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Giữ tài liệu thẳng</string>
     <string name="onfido_generic_icon_error_accessibility">Lỗi:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Đặt điện thoại của bạn lên hộ chiếu, sao cho chúng đang chạm vào nhau.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Khi chip được phát hiện, hãy giữ điện thoại và hộ chiếu của bạn ổn định.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Xin lỗi, chúng tôi không hỗ trợ mã quốc gia này</string>
+	<string name="onfido_generic_icon_warning_accessibility">Cảnh báo:</string>
+	<string name="onfido_generic_icon_success_accessibility">Thành công:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Mở hộ chiếu của bạn đến trang cuối cùng và đặt nó trên một bề mặt phẳng.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Mở hộ chiếu của bạn đến trang cuối cùng và đặt nó trên một bề mặt phẳng. Bạn sẽ thấy bên trong bìa sau với một hình minh họa và một mã vạch.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Bạn có thể cần từ từ trượt điện thoại của mình lên xuống dọc theo mặt trong của bìa sau cho đến khi bạn tìm thấy chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Đặt điện thoại của bạn lên mặt sau của bìa. Để xác định vị trí chip, bạn có thể cần trượt điện thoại lên và xuống trên bìa.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Đặt điện thoại của bạn lên mặt sau của bìa. Bạn có thể cần trượt điện thoại lên và xuống trên bìa.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Đặt lại điện thoại của bạn vào mặt sau để định vị chip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Đặt điện thoại của bạn áp vào mặt trong của bìa sau, sao cho chúng chạm vào nhau.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Đặt điện thoại của bạn lên hộ chiếu của bạn. Bạn có thể cần từ từ trượt điện thoại của mình lên hộ chiếu.</string>
 </resources>

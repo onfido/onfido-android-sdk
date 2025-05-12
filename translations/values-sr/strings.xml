@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Spremno za skeniranje</string>
     <string name="onfido_nfc_sheet_button_secondary">Otkaži</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Skenira se...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Mirno držite telefon i pasoš</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Skeniranje je uspelo</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Држите телефон и пасош мирно.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Skeniranje uspešno.</string>
     <string name="onfido_nfc_permission_title">Uključi NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Ne možemo da skeniramo vaš pasoš bez NFC-a</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Uključite NFC u podešavanjima uređaja</string>
+	<string name="onfido_nfc_permission_subtitle">Potrebno je da koristimo NFC čitač vašeg telefona da bismo skenirali čip u vašem dokumentu.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Molimo vas da dodirnete dugme ispod i uključite NFC u vašim podešavanjima.</string>
     <string name="onfido_nfc_permission_button_primary">Otvori podešavanja</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Pošalji fotografiju</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">Skenirajte čip na vašem pasošu</string>
     <string name="onfido_nfc_intro_subtitle">Sledite uputstva u nastavku</string>
-    <string name="onfido_nfc_intro_button_primary">Započnite skeniranje</string>
+	<string name="onfido_nfc_intro_button_primary">Pokreni skeniranje</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Uspešno smo skenirali vaš pasoš</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Uspešno smo skenirali vašu karticu</string>
@@ -469,9 +469,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">Probajte ponovo</string>
 	<string name="onfido_doc_capture_header_recording_video">Snimanje videa</string>
 	<string name="onfido_doc_capture_header_recording_complete">Snimanje je završeno</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Поставите свој документ на задњу страну уређаја тако да се додирују</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Postavite svoj dokument na zadnju stranu telefona, blizu vrha.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Polako pomerajte vaš dokument gore i dole prema vašem telefonu da biste locirali čip.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kada započne skeniranje, ne pomerajte se kako bi se proces mogao uspešno završiti</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Kada se čip detektuje, držite telefon i dokument mirno.</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Verifikujte bez NFC-a</string>
     <string name="onfido_nfc_scan_error_final_title">Нисмо могли да верификујемо овај документ</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">НФЦ скенирање је потребно за овај документ, али није могло да се заврши.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Nije moguće skenirati čip. Treba vam pomoć?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Pokušajte da skinete futrolu sa svog telefona. Ovo je da bi se izbegle smetnje sa čipom.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Поставите свој документ на задњу страну телефона тако да се додирују.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Polako klizite svoj dokument gore-dole uz uređaj dok skeniranje ne počne</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Jednom kada skeniranje počne, držite se mirno kako bi skeniranje moglo da se završi</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Možda ćete morati polako kliziti vašim dokumentom gore-dole uz telefon dok ne locirate čip.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Kada vaš telefon detektuje čip u vašem dokumentu, skeniranje će automatski početi. Držite telefon i dokument mirno kako bi skeniranje moglo da se završi.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifikuj bez skeniranja</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Izlazna verifikacija</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Može vam biti zatraženo da unesete CAN pre nego što nastavite sa skeniranjem</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Možda ćete morati ponovo da pokrenete proces verifikacije ako se vratite.</string>
 	<string name="onfido_generic_close_sdk_exit">Izlaz</string>
 	<string name="onfido_generic_close_sdk_cancel">Otkaži</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Prekinuto skeniranje</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Скенирање прекинуто.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Zatvorite svoj pasoš i stavite ga na ravnu površinu sa prednjom stranom prema gore.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Pozicionirajte svoj telefon prema vašem pasošu da biste locirali čip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Postavite svoj telefon na pasoš. Da biste locirali čip, možda će biti potrebno da klizite telefon gore-dole po pasošu.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Kada se čip detektuje, držite svoj telefon i pasoš mirno.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Započnite skeniranje</string>
 	<string name="onfido_nfc_fail_passport_title">Nije moguće skenirati čip. Treba vam pomoć?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Jednom kada vaš telefon detektuje čip u vašem pasošu, skeniranje će početi automatski. Držite svoj telefon i pasoš mirno kako bi skeniranje moglo da se završi.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Kada vaš telefon detektuje čip u vašem pasošu, skeniranje će se automatski pokrenuti. Držite telefon i pasoš mirno kako bi skeniranje moglo da se završi.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Postavite svoj dokument na svoj telefon. Možda ćete morati polako da klizite svoj dokument uz telefon.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Pozicionirajte svoj dokument u kontaktu sa svojim telefonom da biste locirali čip.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Započnite skeniranje</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Vaš dokument je istekao</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Probajte ponovo sa važećim ID-jem sa fotografijom i proverite da li se podaci jasno vide</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Koristite svoj telefon da skenirate čip u vašem dokumentu</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Polako pomerajte vaš dokument gore i dole prema vašem telefonu da biste locirali čip.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Polako pomerajte vaš dokument gore-dole uz telefon kako biste locirali čip.</string>
 	<string name="onfido_generic_icon_info_accessibility">Informacije:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informacije:</string>
 	<string name="onfido_generic_footer_branding">Onfido prava identifikacija</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Prikaži samo stranicu sa fotografijom</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Držite dokument pravo</string>
     <string name="onfido_generic_icon_error_accessibility">Greška:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Stavite svoj telefon na svoj pasoš, tako da se dodiruju.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Kada se čip detektuje, držite telefon i pasoš mirno.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Žao nam je, ne podržavamo ovaj kod zemlje</string>
+	<string name="onfido_generic_icon_warning_accessibility">Upozorenje:</string>
+	<string name="onfido_generic_icon_success_accessibility">Uspeh:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Otvorite svoj pasoš na poslednjoj stranici i postavite ga na ravnu površinu.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Otvorite svoj pasoš na poslednjoj strani i postavite ga na ravnu površinu. Trebalo bi da vidite unutrašnjost zadnje korice sa ilustracijom i barkodom.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Možda ćete morati polako kliziti telefonom gore-dole uz unutrašnju zadnju koricu dok ne locirate čip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Postavite telefon uz zadnju stranu korice. Da biste locirali čip, možda ćete morati da pomerate telefon gore-dole uz koricu.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Postavite telefon uz zadnju stranu korice. Možda ćete morati da pomerate telefon gore-dole uz koricu.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Pomerite telefon prema zadnjoj strani da pronađete čip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Postavite telefon uz unutrašnju zadnju koricu, tako da se dodiruju.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Postavite telefon uz vaš pasoš. Možda ćete morati polako da klizite telefonom uz pasoš.</string>
 </resources>

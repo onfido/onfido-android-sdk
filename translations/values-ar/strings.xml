@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">مستعد للفحص</string>
     <string name="onfido_nfc_sheet_button_secondary">إلغاء</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">جارٍ المسح الضوئي...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">حافظ على هاتفك وجواز سفرك ثابتًا</string>
-    <string name="onfido_nfc_sheet_success_subtitle">تم المسح الضوئي بنجاح</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">احتفظ بهاتفك وجواز سفرك ثابتين.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">تمت عملية المسح بنجاح.</string>
     <string name="onfido_nfc_permission_title">شغّل NFC</string>
-	<string name="onfido_nfc_permission_subtitle">لا يمكننا مسح جواز سفرك ضوئيًا من دون NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">شغّل NFC من إعدادات جهازك</string>
+	<string name="onfido_nfc_permission_subtitle">نحتاج إلى استخدام قارئ NFC في هاتفك لمسح الشريحة في وثيقتك.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">يرجى النقر على الزر أدناه وتفعيل NFC في الإعدادات الخاصة بك.</string>
     <string name="onfido_nfc_permission_button_primary">افتح الإعدادات</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">أرسِل صورة</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">قم بمسح رقاقة جواز سفرك</string>
     <string name="onfido_nfc_intro_subtitle">اتبع التعليمات أدناه</string>
-    <string name="onfido_nfc_intro_button_primary">بدء المسح الضوئي</string>
+	<string name="onfido_nfc_intro_button_primary">ابدأ المسح</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">لقد قمنا بمسح جواز سفرك بنجاح</string>
     <string name="onfido_nfc_sheet_success_instruction_card">لقد مسحنا بطاقتك ضوئيًا بنجاح</string>
@@ -466,9 +466,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_button_primary">إعادة المحاولة</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_title">جارٍ تشغيل المقطع الصوتي بواسطة تطبيق آخر</string>
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">يرجى عدم تشغيل أي مقاطع صوتية على جهازك أثناء التسجيل</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">ضع وثيقتك على ظهر جهازك بحيث يكونان على اتصال</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">ضع المستند الخاص بك على الجزء الخلفي من هاتفك، بالقرب من الأعلى.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">حرك وثيقتك ببطء للأعلى وللأسفل ضد هاتفك لتحديد موقع الشريحة.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">بمجرد بدء الفحص، ابقى ثابتًا حتى يمكن إكمال الفحص</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">بمجرد اكتشاف الشريحة، حافظ على هاتفك والوثيقة ثابتين.</string>
     <string name="onfido_nfc_scan_welcome_card_secondary_button">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_final_title">لم نستطع التحقق من هذا المستند</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">المسح الضوئي عن طريق NFC مطلوب لهذا المستند ، لكن تعذر إكماله.</string>
@@ -511,8 +511,8 @@
 	<string name="onfido_nfc_fail_card_title">غير قادر على مسح الرقاقة. هل تحتاج إلى مساعدة؟</string>
 	<string name="onfido_nfc_fail_card_list_item_1">حاول إزالة الغطاء من هاتفك. هذا لتجنب التداخل مع الرقاقة.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">ضع المستند الخاص بك على الجزء الخلفي من هاتفك، بحيث يكونان على اتصال.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">قم بإنزلاق المستند ببطء لأعلى ولأسفل ضد الجهاز حتى يبدأ الفحص</string>
-	<string name="onfido_nfc_fail_card_list_item_4">بمجرد بدء الفحص، ابق في مكانك حتى يتم الانتهاء من الفحص</string>
+	<string name="onfido_nfc_fail_card_list_item_3">قد تحتاج إلى تحريك وثيقتك ببطء لأعلى ولأسفل مقابل هاتفك حتى تعثر على الشريحة.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">بمجرد أن يكتشف هاتفك الشريحة في وثيقتك، سيبدأ المسح تلقائيًا. حافظ على ثبات هاتفك والوثيقة حتى يكتمل المسح.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">تحقق بدون مسح</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">التحقق عند الخروج</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">قد يتم مطالبتك بإدخال الCAN قبل الاستمرار في الفحص</string>
@@ -526,14 +526,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">قد تحتاج إلى إعادة بدء عملية التحقق من الهوية إذا عدت.</string>
 	<string name="onfido_generic_close_sdk_exit">خروج</string>
 	<string name="onfido_generic_close_sdk_cancel">إلغاء</string>
-    <string name="onfido_nfc_scan_doc_realign_title">تم إيقاف الفحص</string>
+	<string name="onfido_nfc_scan_doc_realign_title">تم إيقاف المسح.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">أغلق جواز سفرك وضعه على سطح مستوي مع الجهة الأمامية للأعلى.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">أعد توجيه هاتفك نحو جواز سفرك للعثور على الرقاقة.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">ضع هاتفك على جواز سفرك. للعثور على الشريحة، قد تحتاج إلى تحريك هاتفك لأعلى ولأسفل على جواز سفرك.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">بمجرد اكتشاف الرقاقة، ابق هاتفك وجواز سفرك على الاتصال.</string>
     <string name="onfido_nfc_fail_passport_button_primary">ابدأ المسح</string>
 	<string name="onfido_nfc_fail_passport_title">غير قادر على مسح الرقاقة. هل تحتاج إلى مساعدة؟</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">بمجرد أن يكتشف هاتفك الرقاقة في جواز سفرك، سيبدأ المسح تلقائيًا. حافظ على ثبات هاتفك وجواز سفرك حتى يتمكن المسح من الاكتمال.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">بمجرد أن يكتشف هاتفك الشريحة في جواز سفرك، سيبدأ الفحص تلقائيًا. حافظ على ثبات هاتفك وجواز سفرك حتى يكتمل الفحص.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">ضع المستند الخاص بك ضد هاتفك. قد تحتاج إلى تحريك المستند الخاص بك ببطء ضد هاتفك.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">أعد توجيه مستندك بالاتصال بهاتفك لتحديد موقع الشريحة.</string>
 	<string name="onfido_nfc_fail_button_primary_card">ابدأ المسح</string>
@@ -552,7 +552,7 @@
 	<string name="onfido_retry_feedback_custom_title">انتهت صلاحية مستندك</string>
 	<string name="onfido_retry_feedback_custom_subtitle">يُرجى المحاولة مرة أخرى باستخدام بطاقة هوية صالحة تحمل صورة والتأكد من أن معلوماتك مرئية بوضوح</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">استخدم هاتفك لمسح الرقاقة في وثيقتك</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">حرك وثيقتك ببطء للأعلى وللأسفل ضد هاتفك لتحديد موقع الشريحة.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">قم بتحريك المستند ببطء لأعلى ولأسفل مقابل هاتفك لتحديد موقع الشريحة.</string>
 	<string name="onfido_generic_icon_info_accessibility">معلومات:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">معلومات:</string>
 	<string name="onfido_generic_footer_branding">هوية Onfido الحقيقية</string>
@@ -567,4 +567,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">أظهر صفحة الصور فقط</string>
 	<string name="onfido_doc_capture_alert_tilted_title">أمسك الوثيقة بشكل مستقيم</string>
     <string name="onfido_generic_icon_error_accessibility">خطأ:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">ضع هاتفك على جواز سفرك، بحيث يكونان على اتصال.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">بمجرد اكتشاف الشريحة، حافظ على ثبات هاتفك وجواز سفرك.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">عذرًا، لا ندعم رمز البلد هذا</string>
+	<string name="onfido_generic_icon_warning_accessibility">تحذير:</string>
+	<string name="onfido_generic_icon_success_accessibility">نجاح:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">افتح جواز سفرك على الصفحة الأخيرة وضعه على سطح مستوٍ.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">افتح جواز سفرك إلى الصفحة الأخيرة وضعه على سطح مستوٍ. يجب أن ترى الجزء الداخلي من الغلاف الخلفي مع رسم توضيحي وباركود.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">قد تحتاج إلى تحريك هاتفك ببطء لأعلى ولأسفل مقابل الغلاف الخلفي الداخلي حتى تعثر على الشريحة.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">ضع هاتفك مقابل الغلاف الخلفي. لتحديد موقع الشريحة، قد تحتاج إلى تحريك هاتفك لأعلى ولأسفل مقابل الغلاف.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">ضع هاتفك مقابل الغلاف الخلفي. قد تحتاج إلى تحريك هاتفك لأعلى ولأسفل مقابل الغلاف.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">أعد وضع هاتفك مقابل الغلاف الخلفي لتحديد موقع الشريحة.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">ضع هاتفك مقابل الغلاف الخلفي الداخلي، بحيث يكونان متلامسين.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">ضع هاتفك مقابل جواز سفرك. قد تحتاج إلى تحريك هاتفك ببطء مقابل جواز سفرك.</string>
 </resources>

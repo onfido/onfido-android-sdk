@@ -183,11 +183,11 @@
     <string name="onfido_nfc_sheet_ready_subtitle">Siap memindai</string>
     <string name="onfido_nfc_sheet_button_secondary">Batalkan</string>
     <string name="onfido_nfc_intro_sheet_scanning_subtitle">Memindai...</string>
-	<string name="onfido_nfc_sheet_scanning_instruction">Jaga ponsel dan paspor Anda agar tidak goyang</string>
-    <string name="onfido_nfc_sheet_success_subtitle">Pemindaian berhasil</string>
+	<string name="onfido_nfc_sheet_scanning_instruction">Tetap pegang ponsel dan paspor Anda dengan stabil.</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Pindai berhasil.</string>
     <string name="onfido_nfc_permission_title">Aktifkan NFC</string>
-	<string name="onfido_nfc_permission_subtitle">Kami tidak dapat memindai paspor Anda tanpa NFC</string>
-    <string name="onfido_nfc_permission_list_item_nfc">Aktifkan NFC dari pengaturan perangkat Anda</string>
+	<string name="onfido_nfc_permission_subtitle">Kami perlu menggunakan pembaca NFC di ponsel Anda untuk memindai chip dalam dokumen identitas Anda.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Silakan ketuk tombol di bawah dan nyalakan NFC di pengaturan Anda.</string>
     <string name="onfido_nfc_permission_button_primary">Buka pengaturan</string>
 
     <string name="onfido_doc_confirmation_button_primary_permit">Kirim foto</string>
@@ -297,7 +297,7 @@
 
 	<string name="onfido_nfc_intro_title_passport">Pindai chip paspor Anda</string>
     <string name="onfido_nfc_intro_subtitle">Ikuti petunjuk di bawah ini</string>
-    <string name="onfido_nfc_intro_button_primary">Mulai memindai</string>
+	<string name="onfido_nfc_intro_button_primary">Mulai pemindaian</string>
 
     <string name="onfido_nfc_sheet_success_instruction_passport">Kami berhasil memindai paspor Anda</string>
     <string name="onfido_nfc_sheet_success_instruction_card">Kami berhasil memindai kartu Anda</string>
@@ -469,9 +469,9 @@
 	<string name="onfido_avc_face_capture_alert_audio_conflict_body">Jangan memutar audio apa pun di perangkat Anda selama perekaman</string>
 	<string name="onfido_doc_capture_header_recording_video">Merekam video</string>
 	<string name="onfido_doc_capture_header_recording_complete">Perekaman selesai</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Letakkan dokumen Anda di belakang perangkat Anda sehingga mereka saling menyentuh</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Tempatkan dokumen Anda di bagian belakang ponsel Anda, dekat bagian atas.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Geser perlahan dokumen Anda ke bawah dan ke atas di ponsel Anda untuk menemukan chip.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Setelah chip terdeteksi, jaga agar ponsel dan dokumen Anda tetap diam.</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Dapatkan verifikasi tanpa NFC</string>
     <string name="onfido_nfc_scan_error_final_title">Kami tidak dapat memverifikasi dokumen ini</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Pemindaian NFC diperlukan untuk dokumen ini, tetapi tidak dapat diselesaikan.</string>
@@ -513,8 +513,8 @@
 	<string name="onfido_nfc_fail_card_title">Tidak dapat memindai chip. Butuh bantuan?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Coba lepaskan casing dari ponsel Anda. Ini untuk menghindari gangguan dengan chip.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Tempatkan dokumen Anda di bagian belakang telepon Anda, sehingga mereka saling menyentuh.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Pelankan geser dokumen Anda naik dan turun melawan perangkat sampai pemindaian dimulai</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Setelah pemindaian dimulai, tetap diam agar pemindaian dapat selesai</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Anda mungkin perlu perlahan-lahan menggeser dokumen Anda ke atas dan ke bawah pada ponsel Anda sampai Anda menemukan chip tersebut.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Setelah ponsel Anda mendeteksi chip dalam dokumen Anda, pemindaian akan dimulai secara otomatis. Jaga agar ponsel dan dokumen tetap diam agar pemindaian dapat selesai.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verifikasi tanpa pemindaian</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Verifikasi keluar</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Anda mungkin diminta untuk memasukkan CAN sebelum melanjutkan ke pemindaian</string>
@@ -527,14 +527,14 @@
 	<string name="onfido_generic_close_sdk_subtitle">Anda mungkin perlu memulai ulang proses verifikasi jika Anda kembali.</string>
 	<string name="onfido_generic_close_sdk_exit">Keluar</string>
 	<string name="onfido_generic_close_sdk_cancel">Batalkan</string>
-    <string name="onfido_nfc_scan_doc_realign_title">Pemindaian terganggu</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Pemindaian terputus.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Tutup paspor Anda dan letakkan di permukaan datar dengan sisi depan menghadap ke atas.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Posisikan kembali ponsel Anda ke paspor Anda untuk menemukan chip tersebut.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Tempatkan ponsel Anda di paspor Anda. Untuk menemukan chip, Anda mungkin perlu menggeser ponsel Anda naik dan turun di paspor Anda.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Setelah chip terdeteksi, jaga agar ponsel dan paspor Anda tetap diam.</string>
     <string name="onfido_nfc_fail_passport_button_primary">Mulai pemindaian</string>
 	<string name="onfido_nfc_fail_passport_title">Tidak dapat memindai chip. Butuh bantuan?</string>
-	<string name="onfido_nfc_fail_passport_list_item_5">Setelah ponsel Anda mendeteksi chip di paspor Anda, pemindaian akan dimulai secara otomatis. Tetapkan ponsel dan paspor Anda agar pemindaian dapat selesai.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Setelah ponsel Anda mendeteksi chip di paspor Anda, pemindaian akan dimulai secara otomatis. Jaga agar ponsel dan paspor Anda tetap diam agar pemindaian dapat selesai.</string>
 	<string name="onfido_nfc_capture_scan_intro_card_scan_guide_android">Tempatkan dokumen Anda di telepon Anda. Anda mungkin perlu pelankan geser dokumen Anda di telepon Anda.</string>
 	<string name="onfido_nfc_capture_scan_card_realign_body">Posisikan kembali dokumen Anda agar bersentuhan dengan telepon Anda untuk menemukan chipnya.</string>
 	<string name="onfido_nfc_fail_button_primary_card">Mulai pemindaian</string>
@@ -553,7 +553,7 @@
 	<string name="onfido_retry_feedback_custom_title">Dokumen Anda telah kedaluwarsa</string>
 	<string name="onfido_retry_feedback_custom_subtitle">Harap coba lagi dengan foto identitas yang valid dan pastikan informasi Anda terlihat jelas</string>
 	<string name="onfido_nfc_scan_welcome_card_subtitle">Gunakan telepon Anda untuk memindai chip di dokumen Anda</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Geser perlahan dokumen Anda ke bawah dan ke atas di ponsel Anda untuk menemukan chip.</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_android_2">Perlahan geser dokumen Anda ke atas dan ke bawah pada ponsel Anda untuk menemukan chip.</string>
 	<string name="onfido_generic_icon_info_accessibility">Informasi:</string>
 	<string name="onfido_poa_capture_country_select.icon_info_accessibility">Informasi:</string>
 	<string name="onfido_generic_footer_branding">Identitas asli Onfido</string>
@@ -568,4 +568,17 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Tampilkan halaman foto saja</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Tahan dokumen dengan lurus</string>
     <string name="onfido_generic_icon_error_accessibility">Kesalahan:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Tempatkan ponsel Anda di bagian atas paspor Anda, sehingga mereka saling menyentuh.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Setelah chip terdeteksi, jaga agar ponsel dan paspor Anda tetap diam.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Maaf, kami tidak mendukung kode negara ini</string>
+	<string name="onfido_generic_icon_warning_accessibility">Peringatan:</string>
+	<string name="onfido_generic_icon_success_accessibility">Berhasil:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Buka paspor Anda ke halaman terakhir dan letakkan di permukaan datar.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Buka paspor Anda ke halaman terakhir dan letakkan di permukaan datar. Anda harus melihat bagian dalam sampul belakang dengan ilustrasi dan barcode.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Anda mungkin perlu perlahan-lahan menggeser ponsel Anda ke atas dan ke bawah di bagian dalam penutup belakang hingga Anda menemukan chip tersebut.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Tempatkan ponsel Anda di bagian belakang penutup. Untuk menemukan chip, Anda mungkin perlu menggeser ponsel Anda ke atas dan ke bawah pada penutup.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Tempatkan ponsel Anda di bagian belakang penutup. Anda mungkin perlu menggeser ponsel Anda ke atas dan ke bawah di penutup.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Posisikan ulang ponsel Anda ke penutup belakang untuk menemukan chip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Letakkan ponsel Anda di bagian dalam sampul belakang, sehingga keduanya bersentuhan.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Letakkan ponsel Anda di atas paspor Anda. Anda mungkin perlu perlahan-lahan menggeser ponsel Anda di atas paspor Anda.</string>
 </resources>

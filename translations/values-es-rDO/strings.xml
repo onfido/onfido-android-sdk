@@ -184,10 +184,10 @@
 	<string name="onfido_nfc_sheet_button_secondary">Cancelar</string>
 	<string name="onfido_nfc_intro_sheet_scanning_subtitle">Escaneando...</string>
 	<string name="onfido_nfc_sheet_scanning_instruction">Mantén tu teléfono y pasaporte quietos.</string>
-	<string name="onfido_nfc_sheet_success_subtitle">Escaneo exitoso</string>
+	<string name="onfido_nfc_sheet_success_subtitle">Escaneo exitoso.</string>
 	<string name="onfido_nfc_permission_title">Activar NFC</string>
-	<string name="onfido_nfc_permission_subtitle">No se puede escanear tu pasaporte sin NFC</string>
-	<string name="onfido_nfc_permission_list_item_nfc">Activa NFC desde la configuración de tu dispositivo</string>
+	<string name="onfido_nfc_permission_subtitle">Necesitamos usar el lector NFC de tu teléfono para escanear el chip en tu documento de identidad.</string>
+	<string name="onfido_nfc_permission_list_item_nfc">Por favor, toca el botón de abajo y activa NFC en tus ajustes.</string>
 	<string name="onfido_nfc_permission_button_primary">Abrir configuración</string>
 
 	<string name="onfido_doc_confirmation_button_primary_permit">Enviar foto</string>
@@ -465,9 +465,9 @@
 	<string name="onfido_doc_select_subtitle_photo_page">Página con foto</string>
 	<string name="onfido_doc_select_subtitle_front_back">Delantero y Trasero</string>
 	<string name="onfido_doc_select_section_input_placeholder_country">Seleccionar país emisor</string>
-    <string name="onfido_nfc_scan_welcome_card_list_item">Coloque su documento contra la parte trasera de su dispositivo para que estén en contacto</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item">Coloca tu documento contra la parte trasera de tu teléfono, cerca de la parte superior.</string>
 	<string name="onfido_nfc_scan_welcome_card_list_item_2">Desliza lentamente tu documento hacia arriba y hacia abajo contra tu teléfono para localizar el chip.</string>
-	<string name="onfido_nfc_scan_welcome_card_list_item_3">Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse</string>
+	<string name="onfido_nfc_scan_welcome_card_list_item_3">Una vez que se detecte el chip, mantén tu teléfono y documento quietos.</string>
 	<string name="onfido_nfc_scan_welcome_card_secondary_button">Obtener verificación sin NFC</string>
 	<string name="onfido_nfc_scan_error_final_title">No pudimos verificar este documento</string>
 	<string name="onfido_nfc_scan_error_final_subtitle">Se requiere escaneo NFC para este documento, pero no se pudo completar.</string>
@@ -510,8 +510,8 @@
 	<string name="onfido_nfc_fail_card_title">No se puede escanear el chip. ¿Necesitas ayuda?</string>
 	<string name="onfido_nfc_fail_card_list_item_1">Intenta quitar la funda de tu teléfono. Esto es para evitar interferencias con el chip.</string>
 	<string name="onfido_nfc_fail_card_list_item_2">Coloca tu documento contra la parte trasera de tu teléfono, de modo que estén en contacto.</string>
-	<string name="onfido_nfc_fail_card_list_item_3">Deslice lentamente su documento hacia arriba y hacia abajo contra el dispositivo hasta que comience el escaneo</string>
-	<string name="onfido_nfc_fail_card_list_item_4">Una vez que comienza el escaneo, manténgase quieto para que el escaneo pueda completarse</string>
+	<string name="onfido_nfc_fail_card_list_item_3">Es posible que necesite deslizar lentamente su documento hacia arriba y hacia abajo contra su teléfono hasta que localice el chip.</string>
+	<string name="onfido_nfc_fail_card_list_item_4">Una vez que tu teléfono detecte el chip en tu documento, la lectura comenzará automáticamente. Mantén tu teléfono y documento quietos para que la lectura pueda completarse.</string>
 	<string name="onfido_nfc_scan_error_final_possible_card_secondary_button">Verificar sin escanear</string>
 	<string name="onfido_nfc_scan_error_final_required_card_secondary_button">Verificación de salida</string>
 	<string name="onfido_nfc_scan_welcome_card_disclaimer">Puede que se le solicite ingresar el CAN antes de continuar con el escaneo</string>
@@ -527,7 +527,7 @@
 	<string name="onfido_generic_close_sdk_cancel">Cancelar</string>
 
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_1">Cierra tu pasaporte y colócalo sobre una superficie plana con el frente hacia arriba.</string>
-	<string name="onfido_nfc_scan_doc_realign_title">Escaneo interrumpido</string>
+	<string name="onfido_nfc_scan_doc_realign_title">Escaneo interrumpido.</string>
 	<string name="onfido_nfc_capture_scan_doc_realign_body">Reposiciona tu teléfono contra tu pasaporte para localizar el chip.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_2">Coloca tu teléfono contra tu pasaporte. Para localizar el chip, es posible que necesites deslizar tu teléfono hacia arriba y hacia abajo contra tu pasaporte.</string>
 	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_3">Una vez que se detecta el chip, mantén tu teléfono y pasaporte quietos.</string>
@@ -561,4 +561,18 @@
 	<string name="onfido_doc_capture_alert_photo_page_title">Mostrar solo la página de la foto</string>
 	<string name="onfido_doc_capture_alert_tilted_title">Sostenga el documento recto</string>
     <string name="onfido_generic_icon_error_accessibility">Error:</string>
+	<string name="onfido_nfc_fail_passport_list_item_3">Coloca tu teléfono contra tu pasaporte, de manera que estén en contacto.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_scan_guide_android_4">Una vez que se detecte el chip, mantén tu teléfono y pasaporte quietos.</string>
+	<string name="onfido_nfc_fail_passport_list_item_5">Una vez que tu teléfono detecte el chip en tu pasaporte, la lectura comenzará automáticamente. Mantén tu teléfono y pasaporte quietos para que la lectura pueda completarse.</string>
+	<string name="onfido_otp_send_code_error_phone_number_blocked">Lo sentimos, no admitimos este código de país</string>
+	<string name="onfido_generic_icon_warning_accessibility">Advertencia:</string>
+	<string name="onfido_generic_icon_success_accessibility">Éxito:</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_1">Abra su pasaporte en la última página y colóquelo sobre una superficie plana.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_2">Abra su pasaporte en la última página y colóquelo sobre una superficie plana. Debería ver el interior de la contraportada con una ilustración y un código de barras.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_4">Es posible que necesites deslizar lentamente tu teléfono hacia arriba y hacia abajo contra la parte interior de la contraportada hasta que localices el chip.</string>
+	<string name="onfido_nfc_capture_scan_intro_passport_usa_scan_guide_2">Coloca tu teléfono contra la tapa trasera. Para localizar el chip, es posible que necesites deslizar tu teléfono hacia arriba y hacia abajo contra la tapa.</string>
+	<string name="onfido_nfc_capture_scan_passport_usa_sheet">Coloca tu teléfono contra la tapa trasera. Es posible que necesites deslizar tu teléfono hacia arriba y hacia abajo contra la tapa.</string>
+	<string name="onfido_nfc_passport_scan_doc_realign_body">Reposiciona tu teléfono contra la tapa trasera para localizar el chip.</string>
+	<string name="onfido_nfc_fail_passport_usa_list_item_3">Coloca tu teléfono contra la parte interior de la contraportada, de modo que estén en contacto.</string>
+	<string name="onfido_nfc_capture_scan_passport_sheet">Coloca tu teléfono contra tu pasaporte. Es posible que necesites deslizar lentamente tu teléfono contra tu pasaporte.</string>
 </resources>
