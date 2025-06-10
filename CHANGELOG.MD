@@ -7,6 +7,17 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [22.9.1] - 2025-06-10
+
+### Changed
+
+- Implemented fallback to 16:9 video recording when 4:3 aspect ratio is unsupported. On certain devices and environments, the requested aspect ratio for video capture may not be supported, resulting in [a known error](https://issuetracker.google.com/issues/348499743) when no suitable resolution can be found. To prevent this issue and ensure reliable video recording, we automatically fall back to a default aspect ratio
+
+### Fixed
+
+- Fixed the missing document type and country result in the media callback
+- Fixed an issue where the camera fallback mechanism did not function as expected
+
 ## [22.9.0] - 2025-06-03
 
 ### Changed
