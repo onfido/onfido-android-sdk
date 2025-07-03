@@ -7,6 +7,18 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [22.10.0] - 2025-07-03
+
+### Changed
+
+- Changed Store on-device biometrics task input to take an encrypted biometric token
+- Upgraded CameraX from version 1.3.4 to version 1.4.2 to ensure compatibility with the latest features and improvement
+
+### Fixed
+
+- Fixed an issue where NFC didn't launch for several documents
+- Fixed back navigation issue when permissions screen is the flow landing screen.
+
 ## [22.9.2] - 2025-06-17
 
 ### Changed
