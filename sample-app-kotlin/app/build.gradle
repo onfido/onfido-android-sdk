@@ -3,16 +3,16 @@ plugins {
     id 'kotlin-android'
 }
 
-def sdkVersion = '22.10.0'
-def versionCodeNumber = 22100
+def sdkVersion = '23.0.0'
+def versionCodeNumber = 2300
 
 android {
     namespace 'com.onfido.android.app.sample'
-    compileSdk 34
+    compileSdk 35
     defaultConfig {
         applicationId "com.onfido.sampleapp"
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode versionCodeNumber
         versionName "$versionCode-sdk:$sdkVersion"
         multiDexEnabled true

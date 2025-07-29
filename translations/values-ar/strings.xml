@@ -35,7 +35,7 @@
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">التحقق من هويتك</string>
     <string name="onfido_welcome_title">التحقق من هويتك</string>
-    <string name="onfido_welcome_subtitle">ستأخذ بعض الوقت</string>
+	<string name="onfido_welcome_subtitle">ستأخذ العملية بعض الوقت</string>
 	<string name="onfido_selfie_capture_button_accessibility">مصراع</string>
     <string name="onfido_selfie_intro_title">التقط صورة سيلفي</string>
     <string name="onfido_country_select_bottom_sheet_title">لا يمكنك العثور على بلدك؟</string>
@@ -406,13 +406,13 @@
 	<string name="onfido_poa_intro_subtitle">ستحتاج إلى مستند:</string>
 	<string name="onfido_poa_intro_list_shows_address">يظهر عنوانك الحالي</string>
 	<string name="onfido_poa_intro_list_matches_signup">يطابق العنوان الذي استخدمته عند الاشتراك</string>
-	<string name="onfido_poa_intro_list_most_recent">هو أحدث وثيقة لك</string>
+	<string name="onfido_poa_intro_list_most_recent">حديث</string>
 	<string name="onfido_poa_type_selection_title_uk">حدد مستندًا من المملكة المتحدة</string>
 	<string name="onfido_poa_type_selection_title">اختر مستندًا</string>
 	<string name="onfido_doc_select_subtitle_poa">هذه هي الوثائق الأكثر احتمالاً لإظهار العنوان الحالي لمسكنك</string>
 	<string name="onfido_doc_select_button_bank_statement">بيان البنك أو مؤسسة تمويل عقاري</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">كشف حساب مصرف</string>
-	<string name="onfido_doc_select_extra_estatements_ok">البيانات الإلكترونية مقبولة</string>
+	<string name="onfido_doc_select_extra_estatements_ok">البيانات الإلكترونية مقبولة </string>
 	<string name="onfido_doc_select_button_bill">فواتير المرافق</string>
 	<string name="onfido_doc_select_button_tax_letter">رسالة ضريبة الحكومة المحلية</string>
 	<string name="onfido_doc_select_button_benefits_letter">خطاب المنافع</string>
@@ -425,7 +425,7 @@
 	<string name="onfido_poa_guidance_subtitle_tax_letter">يجب أن يكون قد صدر في آخر 12 شهرًا</string>
     <string name="onfido_poa_guidance_subtitle_address_card">يجب أن تكون بطاقة عنوان صالحة</string>
 	<string name="onfido_poa_guidance_instructions_label">التقط المستند بأكمله وتأكد من أنه يُظهر بوضوح:</string>
-	<string name="onfido_poa_guidance_instructions_logo">شعار</string>
+	<string name="onfido_poa_guidance_instructions_logo">الشعار</string>
 	<string name="onfido_poa_guidance_instructions_full_name">الاسم الكامل</string>
 	<string name="onfido_poa_guidance_instructions_address">العنوان الحالي</string>
 	<string name="onfido_poa_guidance_instructions_issue_date">تاريخ الإصدار أو فترة الملخص</string>
@@ -447,7 +447,7 @@
     <string name="onfido_poa_err_invalid_file_title">ملف غير صالح</string>
 	<string name="onfido_poa_err_invalid_file_message">يُرجى اختيار ملف مختلف.</string>
 	<string name="onfido_poa_err_invalid_file_ok">موافق</string>
-    <string name="onfido_poa_welcome_text">التقط صورة لمستند بعنوانك</string>
+	<string name="onfido_poa_welcome_text">التقاط صورة لمستند يحمل عنوانك</string>
 	<string name="onfido_country_select_error_no_country_body">إننا نعمل على إضافة المزيد من البلدان إلى القائمة. في هذه الأثناء، حاول استخدام مستند بديل.</string>
     <string name="onfido_doc_select_button_bill_detail">غاز أو كهرباء أو مياه أو هاتف أرضي أو النطاق العريض</string>
 
