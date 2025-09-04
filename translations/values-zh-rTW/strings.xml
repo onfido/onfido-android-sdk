@@ -580,4 +580,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">重新將手機放在背面以定位晶片。</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">請將您的手機靠在內頁背面，使兩者相互接觸。</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">將您的手機靠近護照。您可能需要緩慢地將手機在護照上滑動。</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">保持您的手機和證件不動。</string>
 </resources>

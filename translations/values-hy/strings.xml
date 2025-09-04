@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Տեղափոխեք ձեր հեռախոսը դեպի հետևի կափարիչը՝ չիպը գտնելու համար։</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Տեղադրեք ձեր հեռախոսը ներսի հետևի կազմի դեմ, որպեսզի դրանք շփվեն։</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի դեմ: Հնարավոր է, որ անհրաժեշտ լինի դանդաղ սահեցնել ձեր հեռախոսը ձեր անձնագրի դեմ:</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Պահեք ձեր հեռախոսը և փաստաթուղթը անշարժ:</string>
 </resources>

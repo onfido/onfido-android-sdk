@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Đặt lại điện thoại của bạn vào mặt sau để định vị chip.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Đặt điện thoại của bạn áp vào mặt trong của bìa sau, sao cho chúng chạm vào nhau.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Đặt điện thoại của bạn lên hộ chiếu của bạn. Bạn có thể cần từ từ trượt điện thoại của mình lên hộ chiếu.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Giữ điện thoại và giấy tờ của bạn ở trạng thái cố định.</string>
 </resources>

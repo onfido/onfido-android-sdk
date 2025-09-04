@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Перемістіть телефон до задньої обкладинки, щоб знайти чип.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Прикладіть телефон до внутрішньої сторони задньої обкладинки так, щоб вони торкалися.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Прикладіть телефон до паспорта. Можливо, вам потрібно буде повільно провести телефоном по паспорту.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Тримайте свій телефон та документ нерухомо.</string>
 </resources>

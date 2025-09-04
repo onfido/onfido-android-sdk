@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Posisikan ulang ponsel Anda ke penutup belakang untuk menemukan chip.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Letakkan ponsel Anda di bagian dalam sampul belakang, sehingga keduanya bersentuhan.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Letakkan ponsel Anda di atas paspor Anda. Anda mungkin perlu perlahan-lahan menggeser ponsel Anda di atas paspor Anda.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Jaga agar ponsel dan dokumen Anda tetap diam.</string>
 </resources>

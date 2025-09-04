@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Helyezze át a telefonját a hátlaphoz, hogy megtalálja a chipet.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Helyezze a telefonját a belső hátsó borítóhoz, hogy érintkezzenek.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Helyezze a telefonját az útlevelére. Lehet, hogy lassan kell csúsztatnia a telefonját az útlevelén.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Tartsa nyugton a telefonját és az okmányát.</string>
 </resources>

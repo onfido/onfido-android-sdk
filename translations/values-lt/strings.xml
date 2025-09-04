@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Perkelkite telefoną prie galinio dangtelio, kad rastumėte lustą.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Padėkite telefoną prie vidinio galinio viršelio, kad jie liestųsi.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Padėkite telefoną prie savo paso. Gali tekti lėtai slysti telefonu per pasą.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Laikykite savo telefoną ir dokumentą nejudant.</string>
 </resources>

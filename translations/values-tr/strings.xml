@@ -582,4 +582,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Çipi bulmak için telefonunuzu arka kapağa yeniden yerleştirin.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Telefonunuzu iç arka kapağa dokunacak şekilde yerleştirin.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Telefonunuzu pasaportunuza yerleştirin. Telefonunuzu pasaportunuza yavaşça kaydırmanız gerekebilir.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Telefonunuzu ve belgenizi sabit tutun.</string>
 </resources>

@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Novietojiet tālruni pret aizmugurējo vāku, lai atrastu čipu.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Novietojiet tālruni pret iekšējo aizmugurējo vāku, lai tie saskartos.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Novietojiet tālruni pret savu pasi. Jums var būt nepieciešams lēnām slidināt tālruni pret pasi.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Turiet savu telefonu un dokumentu nekustīgu.</string>
 </resources>

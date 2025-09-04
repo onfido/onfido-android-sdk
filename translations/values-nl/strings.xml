@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Plaats uw telefoon opnieuw tegen de achterkant om de chip te lokaliseren.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Plaats uw telefoon tegen de achterkant van de omslag, zodat ze elkaar raken.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Plaats uw telefoon tegen uw paspoort. U moet mogelijk uw telefoon langzaam langs uw paspoort schuiven.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Houd uw telefoon en document stil.</string>
 </resources>

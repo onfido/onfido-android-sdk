@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">מקם מחדש את הטלפון שלך כנגד הכיסוי האחורי כדי לאתר את השבב.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">הנח את הטלפון שלך כנגד החלק הפנימי של הכריכה האחורית, כך שהם נוגעים.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">הנח את הטלפון שלך כנגד הדרכון שלך. ייתכן שתצטרך להחליק את הטלפון שלך לאט כנגד הדרכון שלך.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">השאירו את הטלפון והמסמך שלכם במקום.</string>
 </resources>

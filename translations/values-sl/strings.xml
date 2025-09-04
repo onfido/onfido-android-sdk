@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Premaknite telefon proti zadnjemu pokrovu, da najdete čip.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Postavite telefon ob notranjo zadnjo platnico, tako da se dotikata.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Postavite telefon ob potni list. Morda boste morali počasi drseti s telefonom ob potni list.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Držite telefon in dokument mirno.</string>
 </resources>

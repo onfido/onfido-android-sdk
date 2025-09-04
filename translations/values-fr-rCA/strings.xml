@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Repositionnez votre téléphone contre la couverture arrière pour localiser la puce.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Placez votre téléphone contre la couverture arrière intérieure pour qu\'ils se touchent.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Placez votre téléphone contre votre passeport. Vous devrez peut-être faire glisser lentement votre téléphone contre votre passeport.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Gardez votre téléphone et votre document immobiles.</string>
 </resources>

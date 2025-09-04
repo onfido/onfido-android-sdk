@@ -580,4 +580,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Преместете телефона си към задната корица, за да намерите чипа.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Поставете телефона си срещу вътрешната задна корица, така че да се докосват.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Поставете телефона си срещу паспорта. Може да се наложи бавно да плъзнете телефона срещу паспорта.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Дръжте телефона си и документа неподвижни.</string>
 </resources>

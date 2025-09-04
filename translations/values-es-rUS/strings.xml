@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Reubica tu teléfono contra la cubierta trasera para localizar el chip.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Coloca tu teléfono contra la parte interior de la contraportada, de modo que estén en contacto.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Coloca tu teléfono contra tu pasaporte. Es posible que necesites deslizar lentamente tu teléfono contra tu pasaporte.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Mantén tu teléfono y documento quietos.</string>
 </resources>

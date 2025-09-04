@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">گوشی خود را در مقابل جلد پشتی قرار دهید تا تراشه را پیدا کنید.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">گوشی خود را به قسمت داخلی جلد پشتی قرار دهید، به طوری که با هم تماس داشته باشند.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">گوشی خود را در مقابل گذرنامه خود قرار دهید. ممکن است لازم باشد گوشی خود را به آرامی در مقابل گذرنامه خود بکشید.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">تلفن و سند خود را ساکت نگه دارید.</string>
 </resources>

@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Plasser telefonen mot baksiden for å finne brikken.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Plasser telefonen mot innsiden av bakdekselet, slik at de berører hverandre.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Plasser telefonen mot passet ditt. Du må kanskje sakte skyve telefonen mot passet ditt.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Hold telefonen og dokumentet ditt i ro.</string>
 </resources>

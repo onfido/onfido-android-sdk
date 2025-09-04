@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Repoziționați telefonul pe coperta din spate pentru a localiza cipul.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Așezați telefonul pe coperta din spate, astfel încât să se atingă.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Așezați telefonul pe pașaport. Este posibil să fie nevoie să glisați încet telefonul pe pașaport.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Păstrați telefonul și documentul nemișcate.</string>
 </resources>

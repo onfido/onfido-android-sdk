@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">칩을 찾기 위해 휴대폰을 뒷면 커버에 다시 위치시키세요.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">휴대폰을 안쪽 뒷면 커버에 대어 서로 닿도록 하세요.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">휴대폰을 여권에 대세요. 천천히 휴대폰을 여권에 밀어야 할 수도 있습니다.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">휴대폰과 신분증을 가만히 두세요.</string>
 </resources>

@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">चिप का पता लगाने के लिए अपने फोन को पीछे के कवर के खिलाफ पुनः स्थिति में रखें।</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">अपने फोन को अंदर के पिछले कवर के खिलाफ रखें, ताकि वे एक-दूसरे को छू रहे हों।</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">अपने फोन को अपने पासपोर्ट के खिलाफ रखें। आपको अपने फोन को धीरे-धीरे अपने पासपोर्ट के खिलाफ स्लाइड करने की आवश्यकता हो सकती है।</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">अपने फ़ोन और दस्तावेज़ को स्थिर रखें।</string>
 </resources>

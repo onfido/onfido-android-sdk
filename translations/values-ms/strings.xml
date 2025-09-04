@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Letakkan semula telefon anda pada penutup belakang untuk mencari cip.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Letakkan telefon anda pada bahagian dalam penutup belakang, supaya ia bersentuhan.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Letakkan telefon anda pada pasport anda. Anda mungkin perlu perlahan-lahan menggeser telefon anda pada pasport anda.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Kekalkan telefon dan dokumen anda dalam keadaan tetap.</string>
 </resources>

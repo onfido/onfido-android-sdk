@@ -580,4 +580,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Flyt din telefon mod bagsiden for at finde chippen.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Placér din telefon mod indersiden af bagcoveret, så de rører hinanden.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Placér din telefon mod dit pas. Du skal muligvis langsomt glide din telefon mod dit pas.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Hold din telefon og dokument stille.</string>
 </resources>

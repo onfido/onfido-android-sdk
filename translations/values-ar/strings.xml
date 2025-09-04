@@ -580,4 +580,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">أعد وضع هاتفك مقابل الغلاف الخلفي لتحديد موقع الشريحة.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">ضع هاتفك مقابل الغلاف الخلفي الداخلي، بحيث يكونان متلامسين.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">ضع هاتفك مقابل جواز سفرك. قد تحتاج إلى تحريك هاتفك ببطء مقابل جواز سفرك.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">حافظ على هاتفك ووثيقتك ثابتين.</string>
 </resources>

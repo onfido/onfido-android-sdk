@@ -4,6 +4,16 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
+## `23.1.0` -> `23.2.0`
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_nfc_capture_scan_card_scanning_sheet_2` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
 ## `22.1.0` -> `22.2.0`
 
 ### String Changes

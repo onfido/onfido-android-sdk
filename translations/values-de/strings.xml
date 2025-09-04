@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">Positionieren Sie Ihr Telefon erneut gegen die Rückseite, um den Chip zu lokalisieren.</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Halten Sie Ihr Telefon an die Innenseite des hinteren Covers, sodass sie sich berühren.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Halten Sie Ihr Telefon an Ihren Reisepass. Möglicherweise müssen Sie Ihr Telefon langsam an Ihrem Reisepass entlang gleiten.</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Halten Sie Ihr Telefon und Ihr Dokument still.</string>
 </resources>

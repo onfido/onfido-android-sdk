@@ -581,4 +581,5 @@
 	<string name="onfido_nfc_passport_scan_doc_realign_body">携帯電話を背面カバーに再配置して、チップを見つけてください。</string>
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">携帯電話を内側の裏表紙に当てて、接触させてください。</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">パスポートにスマートフォンをかざしてください。スマートフォンをパスポートにゆっくりと滑らせる必要があるかもしれません。</string>
+	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">あなたの電話と身分証明書を静止させてください。</string>
 </resources>
