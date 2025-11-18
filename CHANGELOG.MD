@@ -7,6 +7,13 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.3.0] - 2025-11-18
+
+### Fixed
+
+- Improved handling of camera not found errors. Now shows a user-friendly message when no camera is available
+- Fixed the missing document video issue
+
 ## [23.2.0] - 2025-09-04
 
 ### Changed
