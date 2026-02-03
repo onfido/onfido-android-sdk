@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">מדינה</string>
     <string name="onfido_country_select_list_header_all">כל הארצות</string>
-    <string name="onfido_app_title_country_select_search">חפש</string>
+	<string name="onfido_app_title_country_select_search">חיפוש</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">נסה לצלם תמונה באופן ידני</string>
     <string name="onfido_doc_confirmation_alert_blur_title">זוהתה תמונה מטושטשת</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">הברקוד לא זוהה</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">הישאר במקום מואר היטב וקרב את הכרטיס למצלמה</string>
-    <string name="onfido_permission_recovery_button_primary">הפעל בהגדרות</string>
+	<string name="onfido_permission_recovery_button_primary">פתח הגדרות</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">אפשר גישה למצלמה</string>
     <string name="onfido_permission_subtitle_cam">כאשר תתבקש, עליך לאפשר גישה עבור שניהם כדי להמשיך</string>
 	<string name="onfido_permission_body_cam">אנחנו לא יכולים לאמת את זהותך בלי המצלמה שלך</string>
-    <string name="onfido_permission_button_primary_cam">הפעל מצלמה</string>
+	<string name="onfido_permission_button_primary_cam">המשך</string>
 	<string name="onfido_permission_recovery_subtitle_cam">אנחנו לא יכולים לאמת את זהותך בלי המצלמה שלך</string>
     <string name="onfido_permission_recovery_list_item_action_cam">עבור להגדרות האפליקציה והפעל גישה למצלמה עבור אפליקציה זו</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">אפשר לשחזר את הגישה למצלמה דרך הגדרות המכשיר</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">אפשר גישה למיקרופון</string>
     <string name="onfido_permission_subtitle_mic">כאשר תתבקש, עליך לאפשר גישה לשניהם כדי להמשיך</string>
-    <string name="onfido_permission_button_primary_mic">הפעל מיקרופון</string>
+	<string name="onfido_permission_button_primary_mic">המשך</string>
     <string name="onfido_permission_recovery_title_mic">הגישה למיקרופון נדחתה</string>
     <string name="onfido_permission_body_mic">לא ניתן לאמת אותך בלי להשתמש גם במצלמה וגם במיקרופון</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">ניתן לשחזר את הגישה למצלמה דרך הגדרות המכשיר</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">ודא שהחיבור שלך יציב ונסה שוב</string>
 	<string name="onfido_generic_back">חזור</string>
     <string name="onfido_permission_body_both">לא ניתן לאמת את זהותך בלי להשתמש גם במצלמה וגם במיקרופון</string>
-    <string name="onfido_permission_button_primary_both">הפעל את שניהם</string>
+	<string name="onfido_permission_button_primary_both">המשך</string>
 	<string name="onfido_permission_recovery_subtitle_both">שחזר גישה למצלמה כדי לצלם סרטון ולהשלים את תהליך האימות</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">ניתן לשחזר את הגישה למצלמה דרך הגדרות המכשיר</string>
     <string name="onfido_permission_recovery_list_item_action_both">עבור להגדרות האפליקציה והפעל גישה למצלמה עבור אפליקציה זו</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">התחל סריקה</string>
+	<string name="onfido_nfc_scan_error_button_primary">נסה לסרוק מחדש</string>
     <string name="onfido_nfc_scan_error_button_secondary">אימות ללא NFC</string>
     <string name="onfido_nfc_scan_error_title">לא הצלחנו לסרוק את המסמך</string>
 
@@ -507,7 +507,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">בחר מסמך אחר</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">אימות יציאה</string>
 	<string name="onfido_nfc_scan_error_device_title">התקן שאינו נתמך</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">מצטערים על אי הנוחות. אנא השתמש במכשיר אחר כדי לאמת את זהותך</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">אנא השתמש במכשיר התומך ב-NFC כדי לקרוא את השבב במסמך הזיהוי שלך.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">אימות יציאה</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">אנו מקבלים רק מסמכים עם שבב. חפש את הסמל הזה על המסמך שלך</string>
 	<string name="onfido_nfc_fail_card_title">לא ניתן לסרוק את השבב. צריך עזרה?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">הנח את הטלפון שלך כנגד החלק הפנימי של הכריכה האחורית, כך שהם נוגעים.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">הנח את הטלפון שלך כנגד הדרכון שלך. ייתכן שתצטרך להחליק את הטלפון שלך לאט כנגד הדרכון שלך.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">השאירו את הטלפון והמסמך שלכם במקום.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">אנא השתמש במסמך אחר שתומך ב-NFC. חפש את הסמל הזה</string>
+	<string name="onfido_country_select_list_header_supported">מדינות נתמכות</string>
+	<string name="onfido_country_select_search_results">תוצאות</string>
+	<string name="onfido_nfc_upload_error_title">שגיאה בחיבור</string>
+	<string name="onfido_nfc_upload_error_subtitle">ודא שהחיבור שלך יציב ונסה שוב</string>
+	<string name="onfido_nfc_upload_error_button_primary">נסה להעלות שוב</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">הייתה בעיה עם המסמך שלך</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">אנא נסה שוב עם מסמך תקף וודא שהמידע שלך נראה בבירור</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">נסה שוב</string>
+
+    <string name="onfido_country_selection_select_hint_accessibility">הקש פעמיים כדי לבחור מדינה</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">נבקש ממך את קוד ה-PIN בן %d ספרות של המסמך שלך לפני סריקת השבב.</string>
+	<string name="onfido_enter_pin_subtitle">זה נדרש כדי לקרוא בצורה מאובטחת את שבב ה-NFC. יצרת מספר בן %d ספרות זה כאשר המסמך שלך הונפק.</string>
+	<string name="onfido_enter_pin_title">הזן את קוד ה-PIN של המסמך שלך</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN שגוי</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d ניסיונות נותרו</string>
+	<string name="onfido_enter_pin_helper_final_attempt">נותר ניסיון אחד. השבב שלך ייחסם לאחר הניסיון הכושל הבא</string>
+	<string name="onfido_chip_blocked_title">שבב NFC חסום</string>
+	<string name="onfido_chip_blocked_subtitle">זהו אמצעי אבטחה למניעת הונאה. צור קשר עם הרשות המנפיקה המקומית שלך כדי לבטל את החסימה של השבב.</string>
+	<string name="onfido_chip_blocked_button_help">פורטל ממשלתי</string>
+	<string name="onfido_motion_passive_intro_title">לסרוק את הפנים שלך</string>
+	<string name="onfido_motion_passive_intro_subtitle">אשר את זהותך כדי לשמור על חשבונך מאובטח</string>
+	<string name="onfido_motion_passive_intro_list_item_one">ודא שאתה נמצא במקום עם תאורה טובה</string>
+	<string name="onfido_motion_passive_intro_list_item_two">הסר פריטים המכסים את פניך, משקפיים מותרים</string>
+	<string name="onfido_motion_passive_intro_list_item_three">מקמו את הפנים שלכם במסגרת כדי להתחיל את הסריקה</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">אני מוכן</string>
+	<string name="onfido_motion_passive_error_generic_title">משהו השתבש</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">אנא חזור מאוחר יותר כדי לנסות שוב.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">יציאה מאימות</string>
+	<string name="onfido_motion_passive_retry_title">אימות נכשל</string>
+	<string name="onfido_motion_passive_retry_subtitle">נסה שוב</string>
+	<string name="onfido_motion_passive_retry_button_primary">נסה שוב</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">מאמת…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">מאמת...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">מאומת</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">מאומת</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">האימות נכשל</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">האימות נכשל</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">סורק</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d ניסיונות נותרו. דלג על שלב זה למטה.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d ניסיונות נותרו לפני שצ\'יפ ה-NFC שלך ייחסם. דלג על שלב זה למטה.</string>
+	<string name="onfido_enter_pin_button_primary">המשך</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">דלג על סריקת שבב NFC</string>
+	<string name="onfido_chip_blocked_optional_title">המשך ללא סריקת שבב</string>
+	<string name="onfido_chip_blocked_optional_subtitle">יותר מדי ניסיונות שגויים להזנת קוד PIN חסמו את שבב ה-NFC שלך, לכן נדלג על שלב זה. צור קשר עם הרשויות כדי לאפס את קוד ה-PIN שלך לשימוש עתידי.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">המשך</string>
 </resources>

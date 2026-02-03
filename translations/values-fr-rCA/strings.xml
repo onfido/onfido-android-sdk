@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Pays suggérés</string>
     <string name="onfido_country_select_list_header_all">Tous les pays</string>
-    <string name="onfido_app_title_country_select_search">Chercher</string>
+	<string name="onfido_app_title_country_select_search">Rechercher</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">Essayez de prendre une photo manuellement</string>
     <string name="onfido_doc_confirmation_alert_blur_title">Photo floue détectée</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Code-barres non détecté</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Restez dans un endroit bien éclairé et rapprochez la carte de la caméra</string>
-    <string name="onfido_permission_recovery_button_primary">Activez dans les Paramètres</string>
+	<string name="onfido_permission_recovery_button_primary">Ouvrir paramètres</string>
 
     <!-- Camera Permissions -->
 	<string name="onfido_permission_title_cam">Autoriser l\'accès à l\'appareil photo</string>
 	<string name="onfido_permission_subtitle_cam">Lorsque vous y êtes invité, vous devez autoriser l\'accès à la caméra</string>
 	<string name="onfido_permission_body_cam">Nous ne pouvons pas vous authentifier sans votre caméra</string>
-    <string name="onfido_permission_button_primary_cam">Activer la caméra</string>
+	<string name="onfido_permission_button_primary_cam">Continuer</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Nous ne pouvons pas vous authentifier sans votre caméra</string>
 	<string name="onfido_permission_recovery_list_item_action_cam">Accédez aux paramètres de l\'application et activez l\'accès à la caméra pour cette application</string>
 	<string name="onfido_permission_recovery_list_item_how_to_cam">Vous pouvez récupérer l\'accès à la caméra via les paramètres de votre appareil</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
 	<string name="onfido_permission_title_mic">Autoriser l\'accès au microphone</string>
 	<string name="onfido_permission_subtitle_mic">Lorsque vous y êtes invité, vous devez autoriser l\'accès aux deux pour continuer</string>
-    <string name="onfido_permission_button_primary_mic">Activer le microphone</string>
+	<string name="onfido_permission_button_primary_mic">Continuer</string>
     <string name="onfido_permission_recovery_title_mic">Accès au microphone refusé</string>
     <string name="onfido_permission_body_mic">Nous ne pouvons pas vous authentifier sans utiliser votre microphone</string>
 	<string name="onfido_permission_recovery_list_item_how_to_mic">Vous pouvez récupérer l\'accès au microphone via les paramètres de votre appareil</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Vérifiez que votre connexion est stable, puis réessayez</string>
 	<string name="onfido_generic_back">revenir</string>
     <string name="onfido_permission_body_both">Nous ne pouvons pas vous vérifier sans utiliser votre appareil photo et votre microphone</string>
-    <string name="onfido_permission_button_primary_both">Activez les deux</string>
+	<string name="onfido_permission_button_primary_both">Continuer</string>
 	<string name="onfido_permission_recovery_subtitle_both">Récupérer l\'accès à la caméra pour prendre une vidéo et terminer le processus de vérification</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Vous pouvez récupérer l\'accès à la caméra et au micophone via les paramètres de votre appareil</string>
 	<string name="onfido_permission_recovery_list_item_action_both">Accédez aux paramètres de l\'application et activez l\'accès à la caméra et au microphone pour cette application</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Démarrer le scan</string>
+	<string name="onfido_nfc_scan_error_button_primary">Réessayer le scan</string>
     <string name="onfido_nfc_scan_error_button_secondary">Vérifier sans NFC</string>
     <string name="onfido_nfc_scan_error_title">Impossible de numériser votre document</string>
 
@@ -507,7 +507,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">Choisissez un autre document</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Sortie de vérification</string>
 	<string name="onfido_nfc_scan_error_device_title">Appareil non pris en charge</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Désolé pour tout inconvénient. Veuillez utiliser un autre appareil pour vérifier votre identité</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Veuillez utiliser un appareil compatible NFC pour lire la puce de votre document d\'identité.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Sortie de vérification</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Nous n\'acceptons que les documents avec une puce. Cherchez cette icône sur votre document</string>
 	<string name="onfido_nfc_fail_card_title">Incapable de numériser la puce. Besoin d\'aide?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Placez votre téléphone contre la couverture arrière intérieure pour qu\'ils se touchent.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Placez votre téléphone contre votre passeport. Vous devrez peut-être faire glisser lentement votre téléphone contre votre passeport.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Gardez votre téléphone et votre document immobiles.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Veuillez utiliser un autre document avec NFC activé. Recherchez cette icône</string>
+	<string name="onfido_country_select_list_header_supported">Pays pris en charge</string>
+	<string name="onfido_country_select_search_results">Résultats</string>
+	<string name="onfido_nfc_upload_error_title">Erreur de connexion</string>
+	<string name="onfido_nfc_upload_error_subtitle">Vérifiez que votre connexion est stable, puis réessayez</string>
+	<string name="onfido_nfc_upload_error_button_primary">Essayez de téléverser à nouveau</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Il y avait un problème avec votre document</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Veuillez réessayer avec un document valide et assurez-vous que vos informations sont clairement visibles</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Réessayer</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Appuyez deux fois pour sélectionner un pays</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Nous vous demanderons le NIP à %d chiffres de votre document avant de numériser la puce.</string>
+	<string name="onfido_enter_pin_subtitle">Ceci est nécessaire pour lire de manière sécurisée la puce NFC. Vous avez créé ce nombre à %d chiffres lors de l\'émission de votre document.</string>
+	<string name="onfido_enter_pin_title">Entrez le NIP de votre document</string>
+	<string name="onfido_enter_pin_title_incorrect">NIP incorrect</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d tentatives restantes</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Il reste 1 tentative. Votre puce sera bloquée après le prochain échec</string>
+	<string name="onfido_chip_blocked_title">Puce NFC bloquée</string>
+	<string name="onfido_chip_blocked_subtitle">Il s\'agit d\'une mesure de sécurité pour prévenir la fraude. Communiquez avec l\'autorité émettrice locale pour débloquer votre puce.</string>
+	<string name="onfido_chip_blocked_button_help">Portail gouvernemental</string>
+	<string name="onfido_motion_passive_intro_title">Numériser votre visage</string>
+	<string name="onfido_motion_passive_intro_subtitle">Confirmez votre identité pour protéger votre compte</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Assurez-vous d\'être dans un endroit bien éclairé</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Retirez les articles qui couvrent votre visage, les lunettes sont acceptables</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Positionnez votre visage dans le cadre pour commencer la numérisation</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Je suis prêt</string>
+	<string name="onfido_motion_passive_error_generic_title">Quelque chose a mal tourné</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Veuillez revenir plus tard pour réessayer.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Quitter l\'authentification</string>
+	<string name="onfido_motion_passive_retry_title">Échec de l\'authentification</string>
+	<string name="onfido_motion_passive_retry_subtitle">Veuillez essayer de nouveau</string>
+	<string name="onfido_motion_passive_retry_button_primary">Réessayer</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Authentification…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Vérification...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Authentifié</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Vérifié</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Échec de l\'authentification</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Échec de la vérification</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Numérisation</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d tentatives restantes. Passez cette étape ci-dessous.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d tentative restante avant que votre puce NFC soit bloquée. Passez cette étape ci-dessous.</string>
+	<string name="onfido_enter_pin_button_primary">Continuer</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Ignorer la lecture de la puce NFC</string>
+	<string name="onfido_chip_blocked_optional_title">Continuer sans numériser la puce</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Trop de saisies de NIP incorrectes ont bloqué votre puce NFC, nous allons donc passer cette étape. Contactez vos autorités pour réinitialiser votre NIP pour une utilisation future.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Continuer</string>
 </resources>

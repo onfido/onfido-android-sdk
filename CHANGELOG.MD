@@ -7,6 +7,21 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.4.0] - 2026-02-03
+
+### Changed
+
+- Improved camera compatibility with Android emulators for enhanced development and testing experience
+- Enhanced accessibility for the country selection on the document selection screen
+- Improved handling of camera not found errors. Now shows a user-friendly message when no camera is available
+- Updating the retry task to be able to handle the POA case
+- 
+### Fixed
+
+- Fixed `UndeliverableException` when closing the SDK during launch 
+- Fixed the missing document video issue
+- Fixed a blank screen issue on back press in the permissions screen
+
 ## [23.3.0] - 2025-11-18
 
 ### Fixed

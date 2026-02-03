@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">तस्वीर धुंधली है</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">बारकोड नहीं मिला</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">बढ़िया रोशनी वाली जगह में रहें और कार्ड को कैमरे के करीब लाएँ</string>
-    <string name="onfido_permission_recovery_button_primary">सेटिंग में चालू करें</string>
+	<string name="onfido_permission_recovery_button_primary">सेटिंग खोलें</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">कैमरा ऐक्सेस की अनुमति दें</string>
     <string name="onfido_permission_subtitle_cam">कहे जाने पर, जारी रखने के लिए आपको कैमरे का ऐक्सेस चालू करना होगा</string>
 	<string name="onfido_permission_body_cam">आपके कैमरे के बिना हम आपको वेरिफ़ाई नहीं कर सकते</string>
-    <string name="onfido_permission_button_primary_cam">कैमरा चालू करें</string>
+	<string name="onfido_permission_button_primary_cam">जारी रखें</string>
 	<string name="onfido_permission_recovery_subtitle_cam">आपके कैमरे के बिना हम आपको वेरिफ़ाई नहीं कर सकते</string>
     <string name="onfido_permission_recovery_list_item_action_cam">ऐप सेटिंग पर जाएँ और इस ऐप के लिए कैमरे का ऐक्सेस चालू करें</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">आप अपनी डिवाइस सेटिंग के ज़रिए कैमरे का ऐक्सेस रिकवर कर सकते हैं</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">माइक्रोफ़ोन ऐक्सेस की अनुमति दें</string>
     <string name="onfido_permission_subtitle_mic">कहे जाने पर, आगे बढ़ने के लिए आप माइक्रोफ़ोन का ऐक्सेस दें</string>
-    <string name="onfido_permission_button_primary_mic">माइक्रोफ़ोन चालू करें</string>
+	<string name="onfido_permission_button_primary_mic">जारी रखें</string>
     <string name="onfido_permission_recovery_title_mic">माइक्रोफ़ोन का ऐक्सेस नहीं मिला</string>
     <string name="onfido_permission_body_mic">जब तक आप अपना माइक्रोफ़ोन इस्तेमाल नहीं करेंगे, तब तक हम आपको वेरिफ़ाई नहीं कर पाएँगे</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">आप अपनी डिवाइस सेटिंग के ज़रिए माइक्रोफ़ोन का ऐक्सेस रिकवर कर सकते हैं</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">जाँच करें कि आपका कनेक्शन स्थिर है और फिर कोशिश करें</string>
 	<string name="onfido_generic_back">पीछे जाएँ</string>
     <string name="onfido_permission_body_both">जब तक आप अपने कैमरे और माइक्रोफ़ोन दोनों का इस्तेमाल नहीं करेंगे, तब तक हम आपको वेरिफ़ाई नहीं कर पाएँगे</string>
-    <string name="onfido_permission_button_primary_both">दोनों चालू करें</string>
+	<string name="onfido_permission_button_primary_both">जारी रखें</string>
 	<string name="onfido_permission_recovery_subtitle_both">वीडियो लेने और वेरिफ़िकेशन प्रोसेस पूरी करने के लिए कैमरा और माइक्रोफ़ोन ऐक्सेस रिकवर करें</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">आप अपनी डिवाइस सेटिंग के ज़रिए कैमरे और माइक्रोफ़ोन का ऐक्सेस रिकवर कर सकते हैं</string>
     <string name="onfido_permission_recovery_list_item_action_both">ऐप सेटिंग पर जाएँ और इस ऐप के लिए कैमरे और माइक्रोफ़ोन दोनों का ऐक्सेस चालू करें</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">स्कैन शुरू करें</string>
+	<string name="onfido_nfc_scan_error_button_primary">स्कैन फिर से करें</string>
     <string name="onfido_nfc_scan_error_button_secondary">एनएफसी के बिना सत्यापित हो जाओ</string>
     <string name="onfido_nfc_scan_error_title">हम आपका डॉक्यूमेंट स्कैन नहीं कर सके</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">अपने पासपोर्ट से कवर या अपने फोन से केस हटाने की कोशिश करें। यह चिप के साथ हस्तक्षेप से बचने के लिए है।</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">अपने पासपोर्ट को बंद करें और उसे सपाट सतह पर सामने की ओर ऊपर रखें।</string>
     <string name="onfido_nfc_fail_passport_list_item_4">आपको अपने पासपोर्ट के खिलाफ अपने फ़ोन को धीरे-धीरे ऊपर और नीचे की ओर स्लाइड करने की आवश्यकता हो सकती है, जब तक आप चिप का पता नहीं लगा लेते।</string>
-	<string name="onfido_nfc_scan_error_document_title">दस्तावेज़ समर्थित नहीं है</string>
+	<string name="onfido_nfc_scan_error_document_title">असमर्थित दस्तावेज़</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">कृपया दूसरे दस्तावेज़ के साथ प्रयास करें</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">एक अन्य दस्तावेज़ चुनें</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">पहचान सत्यापन से बाहर निकलें</string>
 	<string name="onfido_nfc_scan_error_device_title">असमर्थित उपकरण</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">किसी भी असुविधा के लिए खेद है। कृपया अपनी पहचान सत्यापित करने के लिए एक अलग उपकरण का उपयोग करें</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">कृपया अपने पहचान दस्तावेज़ में चिप को पढ़ने के लिए NFC-सक्षम डिवाइस का उपयोग करें।</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">पहचान सत्यापन से बाहर निकलें</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">हम केवल चिप के साथ दस्तावेज़ स्वीकार करते हैं। अपने दस्तावेज़ पर इस आइकन की खोज करें</string>
 	<string name="onfido_nfc_fail_card_title">चिप स्कैन करने में असमर्थ। क्या मदद चाहिए?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">अपने फोन को अंदर के पिछले कवर के खिलाफ रखें, ताकि वे एक-दूसरे को छू रहे हों।</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">अपने फोन को अपने पासपोर्ट के खिलाफ रखें। आपको अपने फोन को धीरे-धीरे अपने पासपोर्ट के खिलाफ स्लाइड करने की आवश्यकता हो सकती है।</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">अपने फ़ोन और दस्तावेज़ को स्थिर रखें।</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">कृपया किसी अन्य दस्तावेज़ का उपयोग करें जिसमें NFC सक्षम हो। इस आइकन को देखें</string>
+	<string name="onfido_country_select_list_header_supported">समर्थित देश</string>
+	<string name="onfido_country_select_search_results">परिणाम</string>
+	<string name="onfido_nfc_upload_error_title">कनेक्शन में त्रुटि</string>
+	<string name="onfido_nfc_upload_error_subtitle">जाँच करें कि आपका कनेक्शन स्थिर है और फिर कोशिश करें</string>
+	<string name="onfido_nfc_upload_error_button_primary">फिर से अपलोड करें</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">आपके दस्तावेज़ में एक समस्या थी</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">कृपया एक वैध दस्तावेज़ के साथ पुनः प्रयास करें और सुनिश्चित करें कि आपकी जानकारी स्पष्ट रूप से दिखाई दे रही है</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">फिर से कोशिश करें</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">देश चुनने के लिए डबल टैप करें</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">हम चिप को स्कैन करने से पहले आपसे आपके दस्तावेज़ का %d-अंकों वाला PIN मांगेंगे।</string>
+	<string name="onfido_enter_pin_subtitle">यह NFC चिप को सुरक्षित रूप से पढ़ने के लिए आवश्यक है। आपने यह %d-अंकीय संख्या अपने दस्तावेज़ जारी होने के समय बनाई थी।</string>
+	<string name="onfido_enter_pin_title">अपना दस्तावेज़ PIN दर्ज करें</string>
+	<string name="onfido_enter_pin_title_incorrect">गलत पिन</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d प्रयास शेष हैं</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 प्रयास शेष है। अगले असफल प्रयास के बाद आपकी चिप ब्लॉक हो जाएगी</string>
+	<string name="onfido_chip_blocked_title">NFC चिप अवरुद्ध</string>
+	<string name="onfido_chip_blocked_subtitle">यह धोखाधड़ी को रोकने के लिए एक सुरक्षा उपाय है। अपनी चिप को अनब्लॉक करने के लिए अपने स्थानीय जारीकर्ता प्राधिकरण से संपर्क करें।</string>
+	<string name="onfido_chip_blocked_button_help">सरकारी पोर्टल</string>
+	<string name="onfido_motion_passive_intro_title">अपना चेहरा स्कैन करें</string>
+	<string name="onfido_motion_passive_intro_subtitle">अपने खाते को सुरक्षित रखने के लिए अपनी पहचान की पुष्टि करें</string>
+	<string name="onfido_motion_passive_intro_list_item_one">सुनिश्चित करें कि आप अच्छी रोशनी वाली जगह पर हैं</string>
+	<string name="onfido_motion_passive_intro_list_item_two">अपने चेहरे को ढकने वाली वस्तुओं को हटाएं, चश्मा ठीक है</string>
+	<string name="onfido_motion_passive_intro_list_item_three">स्कैन शुरू करने के लिए अपने चेहरे को फ्रेम में रखें</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">मैं तैयार हूँ</string>
+	<string name="onfido_motion_passive_error_generic_title">कुछ गलत हो गया है</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">कृपया बाद में पुनः प्रयास करने के लिए वापस आएं।</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">प्रमाणीकरण से बाहर निकलें</string>
+	<string name="onfido_motion_passive_retry_title">प्रमाणीकरण विफल</string>
+	<string name="onfido_motion_passive_retry_subtitle">कृपया फिर से कोशिश करें</string>
+	<string name="onfido_motion_passive_retry_button_primary">फिर से कोशिश करें</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">प्रमाणीकरण हो रहा है…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">सत्यापित किया जा रहा है...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">प्रमाणित</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">सत्यापित</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">प्रमाणीकरण विफल</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">सत्यापन विफल</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">स्कैन किया जा रहा है</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d प्रयास शेष हैं। नीचे यह चरण छोड़ें।</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d प्रयास शेष है इससे पहले कि आपकी NFC चिप ब्लॉक हो जाए। नीचे इस चरण को छोड़ें।</string>
+	<string name="onfido_enter_pin_button_primary">जारी रखें</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">NFC चिप स्कैनिंग छोड़ें</string>
+	<string name="onfido_chip_blocked_optional_title">चिप स्कैन किए बिना जारी रखें</string>
+	<string name="onfido_chip_blocked_optional_subtitle">बहुत अधिक गलत पिन प्रविष्टियों के कारण आपकी NFC चिप ब्लॉक हो गई है, इसलिए हम इस चरण को छोड़ देंगे। भविष्य में उपयोग के लिए अपना पिन रीसेट करने के लिए अपने अधिकारियों से संपर्क करें।</string>
+	<string name="onfido_chip_blocked_optional_button_primary">जारी रखें</string>
 </resources>

@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">ตรวจพบรูปภาพเบลอ</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">ไม่พบบาร์โค้ด</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">อยู่ในที่ที่มีแสงสว่างเพียงพอ และนำบัตรมาใกล้ๆ กล้อง</string>
-    <string name="onfido_permission_recovery_button_primary">เปิดใช้งานในการตั้งค่า</string>
+	<string name="onfido_permission_recovery_button_primary">เปิดการตั้งค่า</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">อนุญาตให้เข้าถึงกล้อง</string>
     <string name="onfido_permission_subtitle_cam">เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงกล้องเพื่อดำเนินการต่อ</string>
 	<string name="onfido_permission_body_cam">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้อง</string>
-    <string name="onfido_permission_button_primary_cam">เปิดใช้งานกล้อง</string>
+	<string name="onfido_permission_button_primary_cam">ดำเนินการต่อ</string>
 	<string name="onfido_permission_recovery_subtitle_cam">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้อง</string>
     <string name="onfido_permission_recovery_list_item_action_cam">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงกล้องสำหรับแอปนี้</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">คุณกู้คืนสิทธิ์การเข้าถึงกล้องได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">อนุญาตให้เข้าถึงไมโครโฟน</string>
     <string name="onfido_permission_subtitle_mic">เมื่อได้รับแจ้ง คุณต้องอนุญาตการเข้าถึงไมโครโฟนเพื่อดำเนินการต่อ</string>
-    <string name="onfido_permission_button_primary_mic">เปิดใช้งานไมโครโฟน</string>
+	<string name="onfido_permission_button_primary_mic">ดำเนินการต่อ</string>
     <string name="onfido_permission_recovery_title_mic">การเข้าถึงไมโครโฟนถูกปฏิเสธ</string>
     <string name="onfido_permission_body_mic">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้ไมโครโฟน</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">คุณกู้คืนสิทธิ์การเข้าถึงไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง</string>
 	<string name="onfido_generic_back">ย้อนกลับ</string>
     <string name="onfido_permission_body_both">เรายืนยันตัวตนคุณไม่ได้ หากไม่ใช้กล้องและไมโครโฟน</string>
-    <string name="onfido_permission_button_primary_both">เปิดใช้งานทั้ง 2 อย่าง</string>
+	<string name="onfido_permission_button_primary_both">ดำเนินการต่อ</string>
 	<string name="onfido_permission_recovery_subtitle_both">กู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟน เพื่อถ่ายวิดีโอและดำเนินการตามขั้นตอนยืนยันให้เสร็จ</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">คุณกู้คืนสิทธิ์การเข้าถึงกล้องและไมโครโฟนได้ทางการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="onfido_permission_recovery_list_item_action_both">ไปที่การตั้งค่าแอปและให้สิทธิ์เข้าถึงทั้งกล้องและไมโครโฟนสำหรับแอปนี้</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">เริ่มสแกน</string>
+	<string name="onfido_nfc_scan_error_button_primary">สแกนอีกครั้ง</string>
     <string name="onfido_nfc_scan_error_button_secondary">รับการตรวจสอบโดยไม่มี NFC</string>
     <string name="onfido_nfc_scan_error_title">เราสแกนเอกสารของคุณไม่ได้</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">ลองถอดปกจากพาสปอร์ตของคุณหรือเคสจากโทรศัพท์ของคุณ นี่เพื่อหลีกเลี่ยงการรบกวนชิป</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">ปิดหนังสือเดินทางของคุณและวางลงบนพื้นผิวราบด้วยด้านหน้าอยู่ด้านบน</string>
     <string name="onfido_nfc_fail_passport_list_item_4">คุณอาจจำเป็นต้องเลื่อนโทรศัพท์ของคุณลงและขึ้นช้าๆ บนพาสปอร์ตของคุณจนกว่าคุณจะพบชิป</string>
-	<string name="onfido_nfc_scan_error_document_title">เอกสารไม่รองรับ</string>
+	<string name="onfido_nfc_scan_error_document_title">เอกสารที่ไม่รองรับ</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">โปรดลองใช้เอกสารอื่น</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">เลือกเอกสารอื่น</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">การตรวจสอบการออก</string>
 	<string name="onfido_nfc_scan_error_device_title">อุปกรณ์ที่ไม่รองรับ</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">ขออภัยในความไม่สะดวก กรุณาใช้อุปกรณ์อื่นเพื่อยืนยันตัวตนของคุณ</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">โปรดใช้ อุปกรณ์ที่รองรับ NFC เพื่ออ่านชิปในเอกสารแสดงตัวตนของคุณ</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">การตรวจสอบการออก</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">เรายอมรับเฉพาะเอกสารที่มีชิป หาไอคอนนี้บนเอกสารของคุณ</string>
 	<string name="onfido_nfc_fail_card_title">ไม่สามารถสแกนชิปได้ ต้องการความช่วยเหลือหรือไม่?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">วางโทรศัพท์ของคุณไว้ที่ด้านในของปกหลัง เพื่อให้สัมผัสกัน</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">วางโทรศัพท์ของคุณแนบกับหนังสือเดินทางของคุณ คุณอาจต้องค่อยๆ เลื่อนโทรศัพท์ของคุณแนบกับหนังสือเดินทางของคุณ</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">เก็บโทรศัพท์และเอกสารของคุณให้นิ่ง</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">โปรดใช้เอกสารอื่นที่รองรับ NFC มองหาไอคอนนี้</string>
+	<string name="onfido_country_select_list_header_supported">ประเทศที่รองรับ</string>
+	<string name="onfido_country_select_search_results">ผลลัพธ์</string>
+	<string name="onfido_nfc_upload_error_title">เกิดข้อผิดพลาดในการเชื่อมต่อ</string>
+	<string name="onfido_nfc_upload_error_subtitle">เช็คว่าการเชื่อมต่อของคุณเสถียร แล้วลองอีกครั้ง</string>
+	<string name="onfido_nfc_upload_error_button_primary">ลองอัปโหลดอีกครั้ง</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">เกิดปัญหากับเอกสารของคุณ</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">โปรดลองอีกครั้งด้วยเอกสารที่ถูกต้องและตรวจสอบให้แน่ใจว่าข้อมูลของคุณมองเห็นได้ชัดเจน</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">ลองอีกครั้ง</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">แตะสองครั้งเพื่อเลือกประเทศ</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">เราจะขอ PIN %d หลักของเอกสารของคุณก่อนสแกนชิป</string>
+	<string name="onfido_enter_pin_subtitle">สิ่งนี้จำเป็นสำหรับการอ่านชิป NFC อย่างปลอดภัย คุณได้สร้างหมายเลข %d หลักนี้เมื่อเอกสารของคุณถูกออก</string>
+	<string name="onfido_enter_pin_title">ป้อนรหัส PIN ของเอกสารของคุณ</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN ไม่ถูกต้อง</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d ครั้งที่เหลืออยู่</string>
+	<string name="onfido_enter_pin_helper_final_attempt">เหลือความพยายาม 1 ครั้ง ชิปของคุณจะถูกบล็อกหลังจากความพยายามครั้งถัดล้มเหลว</string>
+	<string name="onfido_chip_blocked_title">ชิป NFC ถูกบล็อก</string>
+	<string name="onfido_chip_blocked_subtitle">นี่เป็นมาตรการรักษาความปลอดภัยเพื่อป้องกันการฉ้อโกง โปรดติดต่อหน่วยงานออกเอกสารในพื้นที่ของคุณเพื่อปลดล็อกชิป</string>
+	<string name="onfido_chip_blocked_button_help">พอร์ทัลของรัฐบาล</string>
+	<string name="onfido_motion_passive_intro_title">สแกนใบหน้าของคุณ</string>
+	<string name="onfido_motion_passive_intro_subtitle">ยืนยันตัวตนของคุณเพื่อรักษาความปลอดภัยให้บัญชีของคุณ</string>
+	<string name="onfido_motion_passive_intro_list_item_one">ตรวจสอบให้แน่ใจว่าคุณอยู่ในสถานที่ที่มีแสงสว่างเพียงพอ</string>
+	<string name="onfido_motion_passive_intro_list_item_two">ถอดสิ่งของที่บังใบหน้าออก แว่นตาสามารถใส่ได้</string>
+	<string name="onfido_motion_passive_intro_list_item_three">วางใบหน้าของคุณในกรอบเพื่อเริ่มการสแกน</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">ฉันพร้อมแล้ว</string>
+	<string name="onfido_motion_passive_error_generic_title">มีบางอย่างผิดพลาด</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">กรุณากลับมาลองใหม่อีกครั้งในภายหลัง</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">ออกจากการยืนยันตัวตน</string>
+	<string name="onfido_motion_passive_retry_title">การยืนยันตัวตนล้มเหลว</string>
+	<string name="onfido_motion_passive_retry_subtitle">โปรดลองอีกครั้ง</string>
+	<string name="onfido_motion_passive_retry_button_primary">ลองอีกครั้ง</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">กำลังตรวจสอบสิทธิ์…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">กำลังตรวจสอบ...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">ยืนยันตัวตนแล้ว</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">ยืนยันแล้ว</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">การยืนยันตัวตนล้มเหลว</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">การยืนยันล้มเหลว</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">กำลังสแกน</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d ครั้งที่เหลืออยู่ ข้ามขั้นตอนนี้ด้านล่าง</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d ครั้งที่เหลืออยู่ก่อนที่ชิป NFC ของคุณจะถูกบล็อก ข้ามขั้นตอนนี้ด้านล่าง</string>
+	<string name="onfido_enter_pin_button_primary">ดำเนินการต่อ</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">ข้ามการสแกนชิป NFC</string>
+	<string name="onfido_chip_blocked_optional_title">ดำเนินการต่อโดยไม่ต้องสแกนชิป</string>
+	<string name="onfido_chip_blocked_optional_subtitle">การป้อน PIN ผิดหลายครั้งเกินไปทำให้ชิป NFC ของคุณถูกบล็อก ดังนั้นเราจะข้ามขั้นตอนนี้ กรุณาติดต่อหน่วยงานที่เกี่ยวข้องเพื่อรีเซ็ต PIN ของคุณสำหรับการใช้งานในอนาคต</string>
+	<string name="onfido_chip_blocked_optional_button_primary">ดำเนินการต่อ</string>
 </resources>

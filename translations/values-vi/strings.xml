@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Phát hiện ảnh mờ</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Không tìm thấy mã vạch</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ở nơi có ánh sáng tốt và đưa thẻ đến gần máy ảnh</string>
-    <string name="onfido_permission_recovery_button_primary">Bật trong phần cài đặt</string>
+	<string name="onfido_permission_recovery_button_primary">Mở phần cài đặt</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Đồng ý kết nối máy ảnh</string>
     <string name="onfido_permission_subtitle_cam">Khi được hỏi, vui lòng bật quyền truy cập máy ảnh để tiếp tục</string>
 	<string name="onfido_permission_body_cam">Chúng tôi không thể xác minh bạn mà không có máy ảnh</string>
-    <string name="onfido_permission_button_primary_cam">Bật máy ảnh</string>
+	<string name="onfido_permission_button_primary_cam">Tiếp tục</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Chúng tôi không thể xác minh bạn mà không có máy ảnh</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Vào phần cài đặt ứng dụng và bật quyền truy cập vào máy ảnh cho ứng dụng này</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Bạn có thể khôi phục quyền truy cập máy ảnh thông qua phần cài đặt thiết bị</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Cho phép truy cập micrô</string>
     <string name="onfido_permission_subtitle_mic">Khi được hỏi, vui lòng bật quyền truy cập micrô để tiếp tục</string>
-    <string name="onfido_permission_button_primary_mic">Bật micrô</string>
+	<string name="onfido_permission_button_primary_mic">Tiếp tục</string>
     <string name="onfido_permission_recovery_title_mic">Quyền truy cập micrô bị từ chối</string>
     <string name="onfido_permission_body_mic">Chúng tôi không thể xác minh bạn mà không sử dụng cả máy ảnh và micrô</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Bạn có thể khôi phục quyền truy cập micrô thông qua phần cài đặt thiết bị</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Kiểm tra xem kết nối của bạn và thử lại</string>
 	<string name="onfido_generic_back">quay lại</string>
     <string name="onfido_permission_body_both">Chúng tôi không thể xác minh bạn mà không sử dụng cả máy ảnh và micrô</string>
-    <string name="onfido_permission_button_primary_both">Cho phép cả hai</string>
+	<string name="onfido_permission_button_primary_both">Tiếp tục</string>
 	<string name="onfido_permission_recovery_subtitle_both">Khôi phục quyền truy cập máy ảnh và micrô để quay video và hoàn tất quy trình xác minh</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Bạn có thể khôi phục quyền truy cập máy ảnh và micrô thông qua phần cài đặt thiết bị</string>
     <string name="onfido_permission_recovery_list_item_action_both">Vào phần cài đặt ứng dụng và bật quyền truy cập vào máy ảnh và micrô cho ứng dụng này</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Bắt đầu quét</string>
+	<string name="onfido_nfc_scan_error_button_primary">Quét lại</string>
     <string name="onfido_nfc_scan_error_button_secondary">Được xác minh mà không cần NFC</string>
     <string name="onfido_nfc_scan_error_title">Chúng tôi không thể quét giấy tờ của bạn</string>
 
@@ -507,7 +507,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">Chọn một tài liệu khác</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Xác minh thoát</string>
 	<string name="onfido_nfc_scan_error_device_title">Thiết bị không được hỗ trợ</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Xin lỗi vì bất kỳ sự bất tiện nào. Vui lòng sử dụng một thiết bị khác để xác minh danh tính của bạn</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Vui lòng sử dụng thiết bị có hỗ trợ NFC để đọc chip trong giấy tờ tùy thân của bạn.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Xác minh thoát</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Chúng tôi chỉ chấp nhận các tài liệu có chip. Hãy tìm biểu tượng này trên tài liệu của bạn</string>
 	<string name="onfido_nfc_fail_card_title">Không thể quét chip. Cần trợ giúp?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Đặt điện thoại của bạn áp vào mặt trong của bìa sau, sao cho chúng chạm vào nhau.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Đặt điện thoại của bạn lên hộ chiếu của bạn. Bạn có thể cần từ từ trượt điện thoại của mình lên hộ chiếu.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Giữ điện thoại và giấy tờ của bạn ở trạng thái cố định.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Vui lòng sử dụng một giấy tờ tùy thân khác có hỗ trợ NFC. Hãy tìm biểu tượng này</string>
+	<string name="onfido_country_select_list_header_supported">Các quốc gia được hỗ trợ</string>
+	<string name="onfido_country_select_search_results">Kết quả</string>
+	<string name="onfido_nfc_upload_error_title">Lỗi kết nối</string>
+	<string name="onfido_nfc_upload_error_subtitle">Kiểm tra xem kết nối của bạn và thử lại</string>
+	<string name="onfido_nfc_upload_error_button_primary">Thử tải lên lại</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Có vấn đề với tài liệu của bạn</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Vui lòng thử lại với giấy tờ hợp lệ và đảm bảo thông tin của bạn hiển thị rõ ràng</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Thử lại</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Chạm hai lần để chọn quốc gia</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Chúng tôi sẽ yêu cầu bạn nhập mã PIN %d chữ số của tài liệu trước khi quét chip.</string>
+	<string name="onfido_enter_pin_subtitle">Điều này cần thiết để đọc chip NFC một cách an toàn. Bạn đã tạo số gồm %d chữ số này khi tài liệu của bạn được cấp.</string>
+	<string name="onfido_enter_pin_title">Nhập mã PIN tài liệu của bạn</string>
+	<string name="onfido_enter_pin_title_incorrect">Mã PIN không đúng</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d lần thử còn lại</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Còn 1 lần thử. Chip của bạn sẽ bị khóa sau lần thử thất bại tiếp theo</string>
+	<string name="onfido_chip_blocked_title">Chip NFC bị chặn</string>
+	<string name="onfido_chip_blocked_subtitle">Đây là biện pháp bảo mật nhằm ngăn chặn gian lận. Vui lòng liên hệ với cơ quan cấp phát tại địa phương để mở khóa chip của bạn.</string>
+	<string name="onfido_chip_blocked_button_help">Cổng thông tin chính phủ</string>
+	<string name="onfido_motion_passive_intro_title">Quét khuôn mặt của bạn</string>
+	<string name="onfido_motion_passive_intro_subtitle">Xác nhận danh tính của bạn để giữ tài khoản an toàn</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Đảm bảo bạn đang ở nơi có ánh sáng tốt</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Tháo bỏ các vật che khuất khuôn mặt của bạn, kính mắt thì không sao</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Đặt khuôn mặt của bạn vào khung hình để bắt đầu quét</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Tôi đã sẵn sàng</string>
+	<string name="onfido_motion_passive_error_generic_title">Có gì đó đã sai</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Vui lòng quay lại sau để thử lại.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Thoát xác thực</string>
+	<string name="onfido_motion_passive_retry_title">Xác thực không thành công</string>
+	<string name="onfido_motion_passive_retry_subtitle">Vui lòng thử lại</string>
+	<string name="onfido_motion_passive_retry_button_primary">Thử lại</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Đang xác thực…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Đang xác minh...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Đã xác thực</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Đã xác minh</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Xác thực không thành công</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Xác minh thất bại</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Đang quét</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">Còn %d lần thử. Bỏ qua bước này bên dưới.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">Còn %d lần thử trước khi chip NFC của bạn bị khóa. Bỏ qua bước này bên dưới.</string>
+	<string name="onfido_enter_pin_button_primary">Tiếp tục</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Bỏ qua quét chip NFC</string>
+	<string name="onfido_chip_blocked_optional_title">Tiếp tục mà không quét chip</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Bạn đã nhập mã PIN sai quá nhiều lần khiến chip NFC của bạn bị khóa, vì vậy chúng tôi sẽ bỏ qua bước này. Vui lòng liên hệ với cơ quan có thẩm quyền để đặt lại mã PIN cho lần sử dụng sau.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Tiếp tục</string>
 </resources>

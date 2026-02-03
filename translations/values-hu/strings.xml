@@ -100,13 +100,13 @@
 	<string name="onfido_doc_confirmation_alert_blur_title">Homályos kép észlelve</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Vonalkód nem észlelhető</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Tartózkodjon jól megvilágított helyen, és tartsa közelebb a kártyát a fényképezőgéphez</string>
-    <string name="onfido_permission_recovery_button_primary">Engedélyezés a beállításokban</string>
+	<string name="onfido_permission_recovery_button_primary">Beállítások megnyitása</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Kamerához való hozzáférés engedélyezése</string>
     <string name="onfido_permission_subtitle_cam">Ha a rendszer kéri, a folytatáshoz engedélyeznie kell a kamerához való hozzáférést</string>
 	<string name="onfido_permission_body_cam">A kamera nélkül nem tudjuk igazolni a személyazonosságát</string>
-    <string name="onfido_permission_button_primary_cam">Kamera engedélyezése</string>
+	<string name="onfido_permission_button_primary_cam">Tovább</string>
 	<string name="onfido_permission_recovery_subtitle_cam">A kamera nélkül nem tudjuk igazolni a személyazonosságát</string>
     <string name="onfido_permission_recovery_list_item_action_cam">A beállításokban engedélyezze a kamerához való hozzáférést az alkalmazás számára</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Az eszköz beállításaiban visszaállíthatja a kamerához való hozzáférést</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Mikrofon-hozzáférés engedélyezése</string>
     <string name="onfido_permission_subtitle_mic">Ha a rendszer kéri, a folytatáshoz engedélyeznie kell a mikrofonhoz való hozzáférést</string>
-    <string name="onfido_permission_button_primary_mic">Mikrofon engedélyezése</string>
+	<string name="onfido_permission_button_primary_mic">Tovább</string>
     <string name="onfido_permission_recovery_title_mic">Mikrofon-hozzáférés megtagadva</string>
     <string name="onfido_permission_body_mic">A mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Az eszköz beállításaiban visszaállíthatja a mikrofonhoz való hozzáférést</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra</string>
 	<string name="onfido_generic_back">vissza</string>
     <string name="onfido_permission_body_both">A fényképezőgép és a mikrofon használata nélkül nem tudjuk ellenőrizni a személyazonosságát</string>
-    <string name="onfido_permission_button_primary_both">Mindkettő engedélyezése</string>
+	<string name="onfido_permission_button_primary_both">Tovább</string>
 	<string name="onfido_permission_recovery_subtitle_both">Videó készítéséhez és az ellenőrzési folyamat befejezéséhez állítsa vissza a kamera és a mikrofon hozzáférését</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Az eszköz beállításaiban visszaállíthatja a kamerához és a mikrofonhoz való hozzáférést</string>
     <string name="onfido_permission_recovery_list_item_action_both">A beállításokban engedélyezze mind a kamerához, mind a mikrofonhoz való hozzáférést az alkalmazás számára</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Beolvasás indítása</string>
+	<string name="onfido_nfc_scan_error_button_primary">Próbálja meg újra a szkennelést</string>
     <string name="onfido_nfc_scan_error_button_secondary">Ellenőrzés NFC nélkül</string>
     <string name="onfido_nfc_scan_error_title">Nem tudtuk beolvasni a dokumentumát</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Próbálja meg eltávolítani az útlevelének a borítóját vagy a telefonjának a tokját. Ez azért szükséges, hogy elkerülje a chip zavarását.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Csukja be az útlevelét és helyezze azt egy sima felületre az előlapjával felfelé.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Lehet, hogy lassan csúsztatnia kell a telefont le és fel az útlevélén, amíg megtalálja a chipet.</string>
-	<string name="onfido_nfc_scan_error_document_title">Dokumentum nem támogatott</string>
+	<string name="onfido_nfc_scan_error_document_title">Nem támogatott okmány</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Kérjük, próbálkozzon egy másik dokumentummal</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Válasszon egy másik dokumentumot</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Azonosítás megszakítása</string>
 	<string name="onfido_nfc_scan_error_device_title">Nem támogatott eszköz</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Elnézést a kellemetlenségért. Kérjük, használjon egy másik eszközt azonosításának megerősítéséhez</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Kérjük, használjon NFC-képes eszközt az igazolványában található chip beolvasásához.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Azonosítás megszakítása</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Csak chippel rendelkező dokumentumokat fogadunk el. Keressen erre az ikonra a dokumentumán</string>
 	<string name="onfido_nfc_fail_card_title">Nem sikerült a chip beolvasása. Segítségre van szüksége?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Helyezze a telefonját a belső hátsó borítóhoz, hogy érintkezzenek.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Helyezze a telefonját az útlevelére. Lehet, hogy lassan kell csúsztatnia a telefonját az útlevelén.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Tartsa nyugton a telefonját és az okmányát.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Kérjük, használjon egy másik, NFC-kompatibilis okmányt. Keresse ezt az ikont</string>
+	<string name="onfido_country_select_list_header_supported">Támogatott országok</string>
+	<string name="onfido_country_select_search_results">Eredmények</string>
+	<string name="onfido_nfc_upload_error_title">Kapcsolati hiba</string>
+	<string name="onfido_nfc_upload_error_subtitle">Ellenőrizze, hogy stabil-e a kapcsolat, majd próbálja újra</string>
+	<string name="onfido_nfc_upload_error_button_primary">Próbálja újra feltölteni</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Probléma merült fel a dokumentumával</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Próbálja meg újra egy érvényes okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Próbálja újra</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Koppintson duplán egy ország kiválasztásához</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">A chip beolvasása előtt kérni fogjuk a dokumentum %d számjegyű PIN-kódját.</string>
+	<string name="onfido_enter_pin_subtitle">Ez szükséges az NFC‑chip biztonságos leolvasásához. Ezt a %d számjegyű számot a dokumentuma kiállításakor hozta létre.</string>
+	<string name="onfido_enter_pin_title">Adja meg a dokumentum PIN-kódját</string>
+	<string name="onfido_enter_pin_title_incorrect">Helytelen PIN-kód</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d próbálkozás van hátra</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Még 1 próbálkozás maradt. A chip blokkolva lesz a következő sikertelen próbálkozás után</string>
+	<string name="onfido_chip_blocked_title">NFC-chip blokkolva</string>
+	<string name="onfido_chip_blocked_subtitle">Ez egy biztonsági intézkedés a csalás megelőzésére. Lépjen kapcsolatba a helyi okmánykiállító hatósággal, hogy feloldja a chip zárolását.</string>
+	<string name="onfido_chip_blocked_button_help">Kormányzati portál</string>
+	<string name="onfido_motion_passive_intro_title">Szkennelje az arcát</string>
+	<string name="onfido_motion_passive_intro_subtitle">Erősítse meg személyazonosságát fiókja biztonságban tartásához</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Győződjön meg róla, hogy jól megvilágított helyen van</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Távolítson el minden arcát takaró tárgyat, a szemüveg maradhat</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Igazítsa az arcát a keretbe a beolvasás megkezdéséhez</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Készen állok</string>
+	<string name="onfido_motion_passive_error_generic_title">Valami hiba történt</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Kérjük, térjen vissza később, és próbálja meg újra.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Kilépés a hitelesítésből</string>
+	<string name="onfido_motion_passive_retry_title">Sikertelen hitelesítés</string>
+	<string name="onfido_motion_passive_retry_subtitle">Kérjük, próbálja újra</string>
+	<string name="onfido_motion_passive_retry_button_primary">Próbálja újra</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Hitelesítés folyamatban…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Ellenőrzés folyamatban...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Hitelesítve</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Ellenőrizve</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Sikertelen hitelesítés</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">A hitelesítés nem sikerült</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Beolvasás</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d próbálkozás maradt. Hagyja ki ezt a lépést lentebb.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d próbálkozása maradt, mielőtt az NFC-chipje zárolásra kerül. Az alábbi lépéssel kihagyhatja ezt.</string>
+	<string name="onfido_enter_pin_button_primary">Tovább</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">NFC-chipolvasás kihagyása</string>
+	<string name="onfido_chip_blocked_optional_title">Folytatás chipolvasás nélkül</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Túl sok hibás PIN-kód beírása letiltotta az Ön NFC‑chipjét, ezért ezt a lépést most kihagyjuk. Kérjük, lépjen kapcsolatba az illetékes hatóságokkal a PIN-kód jövőbeli használathoz szükséges visszaállításához.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Tovább</string>
 </resources>

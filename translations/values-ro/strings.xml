@@ -100,13 +100,13 @@
 	<string name="onfido_doc_confirmation_alert_blur_title">Pozǎ neclarǎ detectatǎ</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Codul de bare nu a fost detectat</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Stați într-un loc bine luminat și aduceți cardul mai aproape de camera video</string>
-    <string name="onfido_permission_recovery_button_primary">Activați în setări</string>
+	<string name="onfido_permission_recovery_button_primary">Deschideți setări</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Permiteți accesul la camera video</string>
     <string name="onfido_permission_subtitle_cam">Când vi se solicită, trebuie să activați accesul la camera video pentru a continua</string>
 	<string name="onfido_permission_body_cam">Nu vă putem verifica fără camera dvs. video</string>
-    <string name="onfido_permission_button_primary_cam">Activați camera video</string>
+	<string name="onfido_permission_button_primary_cam">Continuați</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Nu vă putem verifica fără camera dvs. video</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Mergeți în setările aplicației și activați accesul la camera video pentru această aplicație</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Puteți recupera accesul la camera video din setările dispozitivului dvs.</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Permiteți accesul la microfon</string>
     <string name="onfido_permission_subtitle_mic">Când vi se solicită, trebuie să activați accesul la microfon pentru a continua</string>
-    <string name="onfido_permission_button_primary_mic">Activați microfonul</string>
+	<string name="onfido_permission_button_primary_mic">Continuați</string>
     <string name="onfido_permission_recovery_title_mic">Accesul la microfon este refuzat</string>
     <string name="onfido_permission_body_mic">Nu vă putem verifica fără a utiliza microfonul dvs.</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Puteți recupera accesul la microfon din setările dispozitivului dvs.</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Verificați stabilitatea conexiunii dvs. și apoi încercați din nou</string>
 	<string name="onfido_generic_back">înapoi</string>
     <string name="onfido_permission_body_both">Nu vă putem verifica fără a utiliza atât camera video, cât și microfonul dvs.</string>
-    <string name="onfido_permission_button_primary_both">Activați ambele</string>
+	<string name="onfido_permission_button_primary_both">Continuați</string>
 	<string name="onfido_permission_recovery_subtitle_both">Recuperați accesul la camera video și microfon pentru a face un clip video și a finaliza procesul de verificare</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Puteți recupera accesul la camera video și microfon din setările dispozitivului dvs.</string>
     <string name="onfido_permission_recovery_list_item_action_both">Mergeți în setările aplicației și activați atât accesul la camera video, cât și la microfon pentru această aplicație</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Începeți scanarea</string>
+	<string name="onfido_nfc_scan_error_button_primary">Reîncercați scanarea</string>
     <string name="onfido_nfc_scan_error_button_secondary">Obțineți verificarea fără NFC</string>
     <string name="onfido_nfc_scan_error_title">Nu am putut scana documentul dvs.</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Încercați să îndepărtați coperta de pe pașaport sau husa de pe telefon. Acest lucru este pentru a evita interferențele cu cipul.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Închideți pașaportul și așezați-l pe o suprafață plană cu fața în sus.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">S-ar putea să fie nevoie să glisați încet telefonul în jos și în sus pe pașaportul dvs. până localizați cipul.</string>
-	<string name="onfido_nfc_scan_error_document_title">Documentul nu este suportat</string>
+	<string name="onfido_nfc_scan_error_document_title">Document neacceptat</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Vă rugăm să încercați cu un alt document</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Ieșire din verificare</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Ieşire din verificare</string>
 	<string name="onfido_nfc_scan_error_device_title">Dispozitiv nesuportat</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Ne pare rău pentru orice neplăcere. Vă rugăm să utilizați un alt dispozitiv pentru a vă verifica identitatea</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Vă rugăm să utilizați un dispozitiv cu NFC activat pentru a citi cipul din documentul dumneavoastră de identitate.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Ieşire din verificare</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Acceptăm doar documente cu un cip. Căutați această pictogramă pe documentul dumneavoastră</string>
 	<string name="onfido_nfc_fail_card_title">Imposibil de scanat cipul. Aveți nevoie de ajutor?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Așezați telefonul pe coperta din spate, astfel încât să se atingă.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Așezați telefonul pe pașaport. Este posibil să fie nevoie să glisați încet telefonul pe pașaport.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Păstrați telefonul și documentul nemișcate.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Vă rugăm să folosiți un alt document care are NFC activat. Căutați această pictogramă</string>
+	<string name="onfido_country_select_list_header_supported">Țări acceptate</string>
+	<string name="onfido_country_select_search_results">Rezultate</string>
+	<string name="onfido_nfc_upload_error_title">Eroare de conectare</string>
+	<string name="onfido_nfc_upload_error_subtitle">Verificați stabilitatea conexiunii dvs. și apoi încercați din nou</string>
+	<string name="onfido_nfc_upload_error_button_primary">Încercați din nou să încărcați</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">A apărut o problemă cu documentul dumneavoastră</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Reîncercați folosind un document valid și asigurați-vă că informațiile dumneavoastră sunt clar vizibile</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Încercați din nou</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Atinge de două ori pentru a selecta o țară</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Vă vom cere codul PIN din %d cifre al documentului înainte de a scana cipul.</string>
+	<string name="onfido_enter_pin_subtitle">Este necesar pentru a citi în siguranță cipul NFC. Ați creat acest număr de %d cifre atunci când a fost emis documentul.</string>
+	<string name="onfido_enter_pin_title">Introduceți codul PIN al documentului</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN incorect</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d încercări rămase</string>
+	<string name="onfido_enter_pin_helper_final_attempt">A mai rămas 1 încercare. Cipul va fi blocat după următoarea încercare eșuată</string>
+	<string name="onfido_chip_blocked_title">Cip NFC blocat</string>
+	<string name="onfido_chip_blocked_subtitle">Aceasta este o măsură de securitate pentru prevenirea fraudei. Contactați autoritatea emitentă locală pentru a debloca cipul.</string>
+	<string name="onfido_chip_blocked_button_help">Portal guvernamental</string>
+	<string name="onfido_motion_passive_intro_title">Scanați fața dvs.</string>
+	<string name="onfido_motion_passive_intro_subtitle">Confirmați-vă identitatea pentru a vă menține contul în siguranță</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Asigură-te că te afli într-un loc cu o bună iluminare</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Îndepărtează obiectele care îți acoperă fața; ochelarii sunt în regulă</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Poziționează-ți fața în chenar pentru a începe scanarea</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Sunt gata</string>
+	<string name="onfido_motion_passive_error_generic_title">Ceva nu a mers bine</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Te rugăm să revii mai târziu pentru a încerca din nou.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Ieșire autentificare</string>
+	<string name="onfido_motion_passive_retry_title">Autentificare eșuată</string>
+	<string name="onfido_motion_passive_retry_subtitle">Vă rugăm să încercați din nou</string>
+	<string name="onfido_motion_passive_retry_button_primary">Încercați din nou</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Se autentifică…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Se verifică...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Autentificat</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Verificat</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentificare eșuată</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Verificare eșuată</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Scanare</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d încercări rămase. Omiteți acest pas mai jos.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d încercare rămasă înainte ca cipul dvs. NFC să fie blocat. Săriți peste acest pas mai jos.</string>
+	<string name="onfido_enter_pin_button_primary">Continuați</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Omiteți scanarea cipului NFC</string>
+	<string name="onfido_chip_blocked_optional_title">Continuați fără scanarea cipului</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Prea multe introduceri greșite ale PIN-ului v-au blocat cipul NFC, așa că vom sări peste acest pas. Contactați autoritățile pentru a reseta PIN-ul pentru utilizări viitoare.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Continuați</string>
 </resources>

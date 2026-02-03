@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Ehdotettu maa</string>
     <string name="onfido_country_select_list_header_all">Kaikki maat</string>
-    <string name="onfido_app_title_country_select_search">Hae</string>
+	<string name="onfido_app_title_country_select_search">Haku</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">Kokeile ottaa kuva manuaalisesti</string>
     <string name="onfido_doc_confirmation_alert_blur_title">Epäselvä kuva havaittu</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Viivakoodia ei havaittu</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ole hyvin valaistussa paikassa ja tuo kortti lähemmäs kameraa</string>
-    <string name="onfido_permission_recovery_button_primary">Ota käyttöön asetuksissa</string>
+	<string name="onfido_permission_recovery_button_primary">Avaa asetukset</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Salli kameran käyttö</string>
     <string name="onfido_permission_subtitle_cam">Kun sinua pyydetään, sinun on sallittava kameran käyttö jatkaaksesi</string>
 	<string name="onfido_permission_body_cam">Emme voi vahvistaa sinua ilman kameraasi</string>
-    <string name="onfido_permission_button_primary_cam">Ota kamera käyttöön</string>
+	<string name="onfido_permission_button_primary_cam">Jatka</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Emme voi vahvistaa sinua ilman kameraasi</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Siirry sovellusasetuksiin ja salli kameran käyttö tässä sovelluksessa</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Voit palauttaa kameran käyttöoikeuden laitteesi asetuksista</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Salli mikrofonin käyttö</string>
     <string name="onfido_permission_subtitle_mic">Kun sinua pyydetään, sinun on sallittava mikrofonin käyttö jatkaaksesi</string>
-    <string name="onfido_permission_button_primary_mic">Ota mikrofoni käyttöön</string>
+	<string name="onfido_permission_button_primary_mic">Jatka</string>
     <string name="onfido_permission_recovery_title_mic">Mikrofonin käyttö estetty</string>
     <string name="onfido_permission_body_mic">Emme voi vahvistaa sinua käyttämättä mikrofoniasi</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Voit palauttaa mikrofonin käyttöoikeuden laitteesi asetuksista</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Tarkista, että yhteys on vakaa, ja yritä sitten uudelleen</string>
 	<string name="onfido_generic_back">edell</string>
     <string name="onfido_permission_body_both">Emme voi vahvistaa sinua käyttämättä sekä kameraasi että mikrofoniasi</string>
-    <string name="onfido_permission_button_primary_both">Ota molemm. käytt.</string>
+	<string name="onfido_permission_button_primary_both">Jatka</string>
 	<string name="onfido_permission_recovery_subtitle_both">Palauta kameran ja mikrofonin käyttöoikeus videon kuvaamiseksi ja vahvistusprosessin viimeistelemiseksi</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Voit palauttaa kameran ja mikrofonin käyttöoikeuden laitteesi asetuksista</string>
     <string name="onfido_permission_recovery_list_item_action_both">Siirry sovellusasetuksiin ja salli kameran ja mikrofonin käyttö tässä sovelluksessa</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Aloita skannaus</string>
+	<string name="onfido_nfc_scan_error_button_primary">Yritä skannausta uudelleen</string>
     <string name="onfido_nfc_scan_error_button_secondary">Vahvista ilman NFC: tä</string>
     <string name="onfido_nfc_scan_error_title">Asiakirjaasi ei voitu skannata</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Yritä poistaa passin suojus tai puhelimen kuori. Tämä on välttämätöntä, jotta siru ei häiriintyisi.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Sulje passisi ja aseta se tasaiselle alustalle etupuoli ylöspäin.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Saatat joutua liu\'uttamaan puhelintasi hitaasti alas ja ylös passiasi vasten, kunnes löydät sirun.</string>
-	<string name="onfido_nfc_scan_error_document_title">Asiakirjaa ei tueta</string>
+	<string name="onfido_nfc_scan_error_document_title">Tukematon asiakirja</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Yritä toisella asiakirjalla</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Valitse toinen asiakirja</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Poistumisvarmennus</string>
 	<string name="onfido_nfc_scan_error_device_title">Tuettamaton laite</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Pahoittelemme mahdollista haittaa. Käytä toista laitetta tunnistautumiseen</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Käytäthän NFC-yhteensopivaa laitetta lukeaksesi henkilöllisyystodistuksesi sirun.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Poistumisvarmennus</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Hyväksymme vain sirulliset asiakirjat. Etsi tätä kuvaketta asiakirjastasi</string>
 	<string name="onfido_nfc_fail_card_title">Sirun skannaaminen ei onnistu. Tarvitsetko apua?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Aseta puhelimesi takakannen sisäpuolta vasten niin, että ne koskettavat toisiaan.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Aseta puhelimesi passiasi vasten. Saatat joutua hitaasti liu\'uttamaan puhelintasi passiasi vasten.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Pidä puhelimesi ja asiakirjasi paikallaan.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Käytä toista asiakirjaa, jossa on NFC-ominaisuus. Etsi tämä kuvake</string>
+	<string name="onfido_country_select_list_header_supported">Tuetut maat</string>
+	<string name="onfido_country_select_search_results">Tulokset</string>
+	<string name="onfido_nfc_upload_error_title">Yhteysvirhe</string>
+	<string name="onfido_nfc_upload_error_subtitle">Tarkista, että yhteys on vakaa, ja yritä sitten uudelleen</string>
+	<string name="onfido_nfc_upload_error_button_primary">Yritä ladata uud.</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Asiakirjassasi oli ongelma</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Yritä uudelleen kelvollisella asiakirjalla ja varmista, että tietosi näkyvät selkeästi</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Yritä uud.</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Kaksoisnapauta valitaksesi maan</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Pyydämme asiakirjasi %d-numeroista PIN-koodia ennen sirun lukemista.</string>
+	<string name="onfido_enter_pin_subtitle">Tätä tarvitaan NFC-sirun turvalliseen lukemiseen. Loit tämän %d-numeroisen luvun, kun asiakirjasi myönnettiin.</string>
+	<string name="onfido_enter_pin_title">Anna asiakirjasi PIN-koodi</string>
+	<string name="onfido_enter_pin_title_incorrect">Virheellinen PIN-koodi</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d yritystä jäljellä</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 yritys jäljellä. Siru estetään seuraavan epäonnistuneen yrityksen jälkeen</string>
+	<string name="onfido_chip_blocked_title">NFC-siru estetty</string>
+	<string name="onfido_chip_blocked_subtitle">Tämä on turvatoimi petosten estämiseksi. Ota yhteyttä paikalliseen myöntävään viranomaiseen poistaaksesi sirun lukituksen.</string>
+	<string name="onfido_chip_blocked_button_help">Viranomaisportaali</string>
+	<string name="onfido_motion_passive_intro_title">skannataksesi kasvosi</string>
+	<string name="onfido_motion_passive_intro_subtitle">Vahvista henkilöllisyytesi suojataksesi tilisi</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Varmista, että olet paikassa, jossa on hyvä valaistus</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Poista kasvojasi peittävät esineet, silmälasit ovat ok</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Aseta kasvosi kehyksen sisään aloittaaksesi skannauksen</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Olen valmis</string>
+	<string name="onfido_motion_passive_error_generic_title">Jokin meni pieleen</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Palaa myöhemmin ja yritä uudelleen.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Poistu tunnistautumisesta</string>
+	<string name="onfido_motion_passive_retry_title">Todennus epäonnistui</string>
+	<string name="onfido_motion_passive_retry_subtitle">Yritä uudelleen</string>
+	<string name="onfido_motion_passive_retry_button_primary">Yritä uud.</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Tunnistaudutaan…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Vahvistetaan...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Todennettu</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Vahvistettu</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Todennus epäonnistui</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Vahvistus epäonnistui</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Skannataan</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d yritystä jäljellä. Ohita tämä vaihe alla.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d yritys jäljellä ennen kuin NFC-sirusi estetään. Ohita tämä vaihe alla.</string>
+	<string name="onfido_enter_pin_button_primary">Jatka</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Ohita NFC-sirun skannaus</string>
+	<string name="onfido_chip_blocked_optional_title">Jatka ilman sirun lukemista</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Liian monet virheelliset PIN-koodin syötöt ovat estäneet NFC-sirusi, joten ohitamme tämän vaiheen. Ota yhteyttä viranomaisiin PIN-koodisi nollaamiseksi tulevaa käyttöä varten.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Jatka</string>
 </resources>

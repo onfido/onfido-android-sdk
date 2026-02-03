@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">البلد المقترح</string>
     <string name="onfido_country_select_list_header_all">جميع البلدان</string>
-    <string name="onfido_app_title_country_select_search">البحث</string>
+	<string name="onfido_app_title_country_select_search">بحث</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">حاول التقاط الصورة يدويًا</string>
     <string name="onfido_doc_confirmation_alert_blur_title">تم كشف صورة ضبابية</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">لم يتم الكشف عن الباركود</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">ابقَ في مكان جيد الإضاءة واجعل البطاقة أقرب إلى الكاميرا</string>
-    <string name="onfido_permission_recovery_button_primary">تمكين في الإعدادات</string>
+	<string name="onfido_permission_recovery_button_primary">افتح الإعدادات</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">السماح باستخدام الكاميرا</string>
     <string name="onfido_permission_subtitle_cam">عند المطالبة، يجب تمكين الوصول إلى الكاميرا للمتابعة</string>
 	<string name="onfido_permission_body_cam">لا يمكننا التحقق منك بدون الكاميرا</string>
-    <string name="onfido_permission_button_primary_cam">تمكين الكاميرا</string>
+	<string name="onfido_permission_button_primary_cam">استمر</string>
 	<string name="onfido_permission_recovery_subtitle_cam">لا يمكننا التحقق منك بدون الكاميرا</string>
     <string name="onfido_permission_recovery_list_item_action_cam">انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى الكاميرا لهذا التطبيق</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">يمكنك استرداد الوصول إلى الكاميرا من خلال إعدادات جهازك</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">السماح باستخدام الميكروفون</string>
     <string name="onfido_permission_subtitle_mic">عند المطالبة، يجب تمكين الوصول إلى الميكروفون للمتابعة</string>
-    <string name="onfido_permission_button_primary_mic">تمكين الميكروفون</string>
+	<string name="onfido_permission_button_primary_mic">استمر</string>
     <string name="onfido_permission_recovery_title_mic">تم رفض الوصول إلى الميكروفون</string>
     <string name="onfido_permission_body_mic">لا يمكننا التحقق منك من دون استخدام الميكروفون</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">يمكنك استعادة الوصول إلى الميكروفون من خلال إعدادات جهازك</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">تحقّق من أن اتصالك مستقر، ثم حاول مرة أخرى</string>
 	<string name="onfido_generic_back">عودة</string>
     <string name="onfido_permission_body_both">لا يمكننا التحقق منك من دون استخدام كل من الكاميرا والميكروفون</string>
-    <string name="onfido_permission_button_primary_both">تمكين كلا الإثنين</string>
+	<string name="onfido_permission_button_primary_both">استمر</string>
 	<string name="onfido_permission_recovery_subtitle_both">استعادة الوصول إلى الكاميرا والميكروفون لالتقاط مقطع فيديو وإكمال عملية التحقق</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">يمكنك استرداد الوصول إلى الكاميرا والميكروفون من خلال إعدادات جهازك</string>
     <string name="onfido_permission_recovery_list_item_action_both">انتقل إلى إعدادات التطبيق وقم بتمكين الوصول إلى كل من الكاميرا والميكروفون لهذا التطبيق</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">ابدأ المسح</string>
+	<string name="onfido_nfc_scan_error_button_primary">إعادة محاولة المسح</string>
     <string name="onfido_nfc_scan_error_button_secondary">الحصول على التحقق دون NFC</string>
     <string name="onfido_nfc_scan_error_title">لم نتمكن من مسح المستند ضوئيًا</string>
 
@@ -500,12 +500,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">حاول إزالة الغطاء من جواز سفرك أو الغلاف من هاتفك. هذا لتجنب التداخل مع الرقاقة.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">أغلق جواز سفرك وضعه على سطح مستو مع الجهة الأمامية للأعلى.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">قد تحتاج إلى تحريك هاتفك ببطء للأعلى وللأسفل على جواز سفرك حتى تجد الشريحة.</string>
-	<string name="onfido_nfc_scan_error_document_title">الوثيقة غير مدعومة</string>
+	<string name="onfido_nfc_scan_error_document_title">وثيقة غير مدعومة</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">يرجى المحاولة مع وثيقة أخرى</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">اختر وثيقة أخرى</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">التحقق عند الخروج</string>
 	<string name="onfido_nfc_scan_error_device_title">جهاز غير مدعوم</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">عذرًا على أي إزعاج. يرجى استخدام جهاز مختلف للتحقق من هويتك</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">يرجى استخدام جهاز يدعم NFC لقراءة الشريحة في وثيقة هويتك.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">التحقق عند الخروج</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">نحن نقبل فقط الوثائق التي تحتوي على رقاقة. ابحث عن هذا الرمز على وثيقتك</string>
 	<string name="onfido_nfc_fail_card_title">غير قادر على مسح الرقاقة. هل تحتاج إلى مساعدة؟</string>
@@ -581,4 +581,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">ضع هاتفك مقابل الغلاف الخلفي الداخلي، بحيث يكونان متلامسين.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">ضع هاتفك مقابل جواز سفرك. قد تحتاج إلى تحريك هاتفك ببطء مقابل جواز سفرك.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">حافظ على هاتفك ووثيقتك ثابتين.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">يرجى استخدام مستند آخر يدعم NFC. ابحث عن هذا الرمز</string>
+	<string name="onfido_country_select_list_header_supported">الدول المدعومة</string>
+	<string name="onfido_country_select_search_results">النتائج</string>
+	<string name="onfido_nfc_upload_error_title">خطأ في الاتصال</string>
+	<string name="onfido_nfc_upload_error_subtitle">تحقّق من أن اتصالك مستقر، ثم حاول مرة أخرى</string>
+	<string name="onfido_nfc_upload_error_button_primary">إعادة محاولة التحميل</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">كان هناك مشكلة في وثيقتك</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">يرجى المحاولة مرة أخرى باستخدام مستند صالح والتأكد من أن معلوماتك واضحة ومقروءة</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">إعادة المحاولة</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">انقر مرتين لاختيار دولة</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">سنطلب منك رقم التعريف الشخصي (PIN) المكوّن من %d أرقام لوثيقتك قبل مسح الشريحة.</string>
+	<string name="onfido_enter_pin_subtitle">هذا ضروري لقراءة شريحة NFC بأمان. لقد أنشأت هذا الرقم المكوَّن من %d أرقام عند إصدار مستندك.</string>
+	<string name="onfido_enter_pin_title">أدخل الرقم السري لوثيقتك</string>
+	<string name="onfido_enter_pin_title_incorrect">رمز PIN غير صحيح</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d محاولات متبقية</string>
+	<string name="onfido_enter_pin_helper_final_attempt">محاولة واحدة متبقية. سيتم حظر الشريحة بعد المحاولة الفاشلة التالية</string>
+	<string name="onfido_chip_blocked_title">شريحة NFC محظورة</string>
+	<string name="onfido_chip_blocked_subtitle">هذا إجراء أمني لمنع الاحتيال. يرجى التواصل مع الجهة المُصدِرة المحلية لفك حظر الشريحة الخاصة بك.</string>
+	<string name="onfido_chip_blocked_button_help">بوابة حكومية</string>
+	<string name="onfido_motion_passive_intro_title">قم بمسح ضوئي لوجهك</string>
+	<string name="onfido_motion_passive_intro_subtitle">تأكيد هويتك للحفاظ على أمان حسابك</string>
+	<string name="onfido_motion_passive_intro_list_item_one">تأكد من أنك في مكان ذي إضاءة جيدة</string>
+	<string name="onfido_motion_passive_intro_list_item_two">أزل أي شيء يغطي وجهك، النظارات الطبية مسموح بها</string>
+	<string name="onfido_motion_passive_intro_list_item_three">ضع وجهك داخل الإطار لبدء المسح</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">أنا مستعد</string>
+	<string name="onfido_motion_passive_error_generic_title">حدث خطأ ما</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">يرجى العودة لاحقًا للمحاولة مرة أخرى.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">خروج من المصادقة</string>
+	<string name="onfido_motion_passive_retry_title">فشل التحقق من الهوية</string>
+	<string name="onfido_motion_passive_retry_subtitle">يُرجى إعادة المحاولة</string>
+	<string name="onfido_motion_passive_retry_button_primary">إعادة المحاولة</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">جارٍ التحقق من الهوية…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">جارٍ التحقّق...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">مصادق عليه</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">تم التحقق</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">فشل التحقق من الهوية</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">فشل التحقق</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">جارٍ المسح</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d محاولات متبقية. تخطَّ هذه الخطوة أدناه.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d محاولة متبقية قبل حظر شريحة NFC الخاصة بك. تخطَّ هذه الخطوة أدناه.</string>
+	<string name="onfido_enter_pin_button_primary">استمر</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">تخطي مسح شريحة NFC</string>
+	<string name="onfido_chip_blocked_optional_title">المتابعة بدون مسح الشريحة</string>
+	<string name="onfido_chip_blocked_optional_subtitle">عدد كبير جدًا من محاولات إدخال رقم التعريف الشخصي غير الصحيح أدى إلى حظر شريحة NFC، لذا سنتجاوز هذه الخطوة. يُرجى الاتصال بالجهات المختصة لإعادة تعيين رقم التعريف الشخصي للاستخدام في المستقبل.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">استمر</string>
 </resources>

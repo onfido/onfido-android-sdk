@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Soovitatud riik</string>
     <string name="onfido_country_select_list_header_all">Kõik riigid</string>
-    <string name="onfido_app_title_country_select_search">Otsing</string>
+	<string name="onfido_app_title_country_select_search">Otsi</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">Pildistage käsitsi</string>
     <string name="onfido_doc_confirmation_alert_blur_title">Tuvastati hägune foto</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Vöötkoodi ei tuvastatud</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Püsige hästi valgustatud kohas ja liigutage kaarti kaamerale lähemale</string>
-    <string name="onfido_permission_recovery_button_primary">Lubage sätetes</string>
+	<string name="onfido_permission_recovery_button_primary">Avage sätted</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Lubage juurdepääs kaamerale</string>
     <string name="onfido_permission_subtitle_cam">Kui küsitakse juurdepääsuluba, peate jätkamiseks lubama juurdepääsu kaamerale</string>
 	<string name="onfido_permission_body_cam">Isiku kinnitamine ilma kaamerata ei ole võimalik</string>
-    <string name="onfido_permission_button_primary_cam">Lubage kaamera</string>
+	<string name="onfido_permission_button_primary_cam">Jätkake</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Isiku kinnitamine ilma kaamerata ei ole võimalik</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Juurdepääsu kaamerale saate taastada seadme sätete kaudu</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Lubage juurdepääs mikrofonile</string>
     <string name="onfido_permission_subtitle_mic">Kui küsitakse juurdepääsuluba, peate jätkamiseks lubama juurdepääsu mikrofonile</string>
-    <string name="onfido_permission_button_primary_mic">Lubage mikrofon</string>
+	<string name="onfido_permission_button_primary_mic">Jätkake</string>
     <string name="onfido_permission_recovery_title_mic">Mikrofoni juurdepääs keelatud</string>
     <string name="onfido_permission_body_mic">Me ei saa teie isikut kinnitada ilma mikrofoni kasutamata</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Juurdepääsu mikrofonile saate taastada seadme sätete kaudu</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Kontrollige, kas ühendus on stabiilne ning proovige uuesti</string>
 	<string name="onfido_generic_back">tagasi</string>
     <string name="onfido_permission_body_both">Me ei saa teie isikut kinnitada ilma nii kaamerat kui ka mikrofoni kasutamata</string>
-    <string name="onfido_permission_button_primary_both">Lubage mõlemad</string>
+	<string name="onfido_permission_button_primary_both">Jätkake</string>
 	<string name="onfido_permission_recovery_subtitle_both">Võimaldage juurdepääs kaamerale ja mikrofonile video tegemiseks ja kinnitamise lõpuleviimiseks</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Juurdepääsu kaamerale ja mikrofonile saate taastada seadme sätete kaudu</string>
     <string name="onfido_permission_recovery_list_item_action_both">Avage rakenduse sätted ja lubage selle rakenduse jaoks juurdepääs kaamerale ning mikrofonile</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Alustage skannimist</string>
+	<string name="onfido_nfc_scan_error_button_primary">Proovi skannimist uuesti</string>
     <string name="onfido_nfc_scan_error_button_secondary">Kinnitamine ilma NFC-ta</string>
     <string name="onfido_nfc_scan_error_title">Teie dokumendi skannimine ei õnnestunud</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Proovige eemaldada oma passilt kate või oma telefonilt ümbris. See on vajalik, et vältida kiibi töö häireid.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Sulgege oma pass ja asetage see tasasele pinnale esiküljega ülespoole.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Võib-olla peate libistama telefoni aeglaselt alla ja üles oma passi vastu, kuni leiate kiibi.</string>
-	<string name="onfido_nfc_scan_error_document_title">Dokumenti ei toetata</string>
+	<string name="onfido_nfc_scan_error_document_title">Toetamata dokument</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Palun proovige mõne teise dokumendiga</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Vali teine dokument</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Väljumise kontroll</string>
 	<string name="onfido_nfc_scan_error_device_title">Toetatud seade</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Vabandame ebamugavuste pärast. Palun kasutage oma identiteedi kinnitamiseks mõnda teist seadet</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Palun kasutage NFC-toega seadet, et lugeda oma isikut tõendava dokumendi kiipi.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Väljumise kontroll</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Me aktsepteerime ainult kiibiga dokumente. Otsige seda ikooni oma dokumendilt</string>
 	<string name="onfido_nfc_fail_card_title">Ei suuda kiipi skaneerida. Vajate abi?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Asetage oma telefon vastu tagakaane sisekülge, nii et need puutuvad kokku.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Asetage oma telefon passi vastu. Võimalik, et peate telefoni aeglaselt passi vastu libistama.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Hoia oma telefoni ja dokumenti paigal.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Palun kasutage teist dokumenti, millel on NFC-toetus. Otsige seda ikooni</string>
+	<string name="onfido_country_select_list_header_supported">Toetatud riigid</string>
+	<string name="onfido_country_select_search_results">Tulemused</string>
+	<string name="onfido_nfc_upload_error_title">Ühenduse viga</string>
+	<string name="onfido_nfc_upload_error_subtitle">Kontrollige, kas ühendus on stabiilne ning proovige uuesti</string>
+	<string name="onfido_nfc_upload_error_button_primary">Proovige üleslaadimist uuesti</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Teie dokumendiga oli probleem</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Palun proovige uuesti kehtiva dokumendiga ja veenduge, et teie andmed oleksid selgelt nähtavad</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Proovige uuesti</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Riigi valimiseks topeltpuudutage</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Enne kiibilt lugemist küsime teie dokumendi %d-kohalist PIN-koodi.</string>
+	<string name="onfido_enter_pin_subtitle">See on vajalik NFC-kibi turvaliseks lugemiseks. Lõite selle %d-kohalise numbri, kui teie dokument väljastati.</string>
+	<string name="onfido_enter_pin_title">Sisestage oma dokumendi PIN-kood</string>
+	<string name="onfido_enter_pin_title_incorrect">Vale PIN-kood</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d katset jäänud</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 katse jäänud. Teie kiip blokeeritakse pärast järgmist ebaõnnestunud katset</string>
+	<string name="onfido_chip_blocked_title">NFC kiip blokeeritud</string>
+	<string name="onfido_chip_blocked_subtitle">See on turvameede pettuse vältimiseks. Kiibistiku blokeeringu eemaldamiseks võtke ühendust kohaliku väljaandva asutusega.</string>
+	<string name="onfido_chip_blocked_button_help">Valitsusportaal</string>
+	<string name="onfido_motion_passive_intro_title">Näo skannimine</string>
+	<string name="onfido_motion_passive_intro_subtitle">Kinnitage oma isik, et hoida oma konto turvalisena</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Veenduge, et olete hea valgustusega kohas</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Eemaldage esemed, mis katavad teie nägu, prillid on lubatud</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Skaneerimise alustamiseks aseta oma nägu kaadri sisse</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Olen valmis</string>
+	<string name="onfido_motion_passive_error_generic_title">Midagi läks valesti</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Palun tulge hiljem tagasi ja proovige uuesti.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Välju autentimisest</string>
+	<string name="onfido_motion_passive_retry_title">Autentimine ebaõnnestus</string>
+	<string name="onfido_motion_passive_retry_subtitle">Proovige uuesti</string>
+	<string name="onfido_motion_passive_retry_button_primary">Proovige uuesti</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autentimine…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Kontrollimine...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Autenditud</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Kinnitatud</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentimine ebaõnnestus</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Kinnitamine ebaõnnestus</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Skaneerimine</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d katset jäänud. Jäta see samm vahele allpool.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d katse jäänud enne NFC-kibi blokeerimist. Jäta see samm vahele allpool.</string>
+	<string name="onfido_enter_pin_button_primary">Jätkake</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Jäta NFC-kiibiskaneerimine vahele</string>
+	<string name="onfido_chip_blocked_optional_title">Jätka ilma kiibi skaneerimiseta</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Liiga paljud valed PIN-koodi sisestused on teie NFC-kiibil blokeerinud, seega jätame selle sammu vahele. Võtke ühendust oma ametiasutustega, et tulevikus kasutamiseks oma PIN-kood lähtestada.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Jätkake</string>
 </resources>

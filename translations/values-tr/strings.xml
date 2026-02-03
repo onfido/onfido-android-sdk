@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Bulanık fotoğraf tespit edildi</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Barkod tespit edilemedi</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">İyi aydınlatılmış bir yerde durun ve kartı kameraya yaklaştırın</string>
-    <string name="onfido_permission_recovery_button_primary">Ayarlarda etkinleştir</string>
+	<string name="onfido_permission_recovery_button_primary">Ayarları aç</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Kamera erişimine izin ver</string>
     <string name="onfido_permission_subtitle_cam">İstendiğinde, devam etmek için kamera erişimini etkinleştirmeniz gerekir</string>
 	<string name="onfido_permission_body_cam">Kamera erişimi olmadan sizi doğrulayamayız</string>
-    <string name="onfido_permission_button_primary_cam">Kamerayı etkinleştir</string>
+	<string name="onfido_permission_button_primary_cam">Devam et</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Kamera erişimi olmadan sizi doğrulayamayız</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Uygulama ayarlarına gidin ve bu uygulama için kamera erişimini etkinleştirin</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Cihaz ayarlarınızdan kamera erişimini kurtarabilirsiniz</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Mikrofon erişimine izin ver</string>
     <string name="onfido_permission_subtitle_mic">İstendiğinde, devam etmek için mikrofon erişimini etkinleştirmeniz gerekir</string>
-    <string name="onfido_permission_button_primary_mic">Mikrofonu etkinleştir</string>
+	<string name="onfido_permission_button_primary_mic">Devam et</string>
     <string name="onfido_permission_recovery_title_mic">Mikrofon erişimi reddedildi</string>
     <string name="onfido_permission_body_mic">Mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Cihaz ayarlarınızdan mikrofon erişimini kurtarabilirsiniz</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin</string>
 	<string name="onfido_generic_back">geri</string>
     <string name="onfido_permission_body_both">Hem kameranızı hem de mikrofonunuzu kullanmadan sizi doğrulayamayız</string>
-    <string name="onfido_permission_button_primary_both">Her ikisini de etkinleştir</string>
+	<string name="onfido_permission_button_primary_both">Devam et</string>
 	<string name="onfido_permission_recovery_subtitle_both">Video çekmek ve hem kamera hem de doğrulama sürecini tamamlamak için kamera erişimini sağlayın</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Kamera ve mikrofon erişimini cihaz ayarlarınızdan kurtarabilirsiniz</string>
     <string name="onfido_permission_recovery_list_item_action_both">Uygulama ayarlarına gidin ve bu uygulama için hem kamera hem de mikrofon erişimini etkinleştirin</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Taramayı başlat</string>
+	<string name="onfido_nfc_scan_error_button_primary">Taramayı yeniden dene</string>
     <string name="onfido_nfc_scan_error_button_secondary">NFC olmadan doğrulanın</string>
     <string name="onfido_nfc_scan_error_title">Belgenizi tarayamadık</string>
 
@@ -503,12 +503,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Pasaportunuzun kılıfını veya telefonunuzun kılıfını çıkarmayı deneyin. Bu, çiple olan müdahaleleri önlemek içindir.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Pasaportunuzu kapatın ve ön yüzü yukarıda olacak şekilde düz bir yüzeye koyun.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Çipin yerini bulana kadar pasaportunuzun üzerinde telefonunuzu yavaşça aşağı ve yukarı kaydırmanız gerekebilir.</string>
-	<string name="onfido_nfc_scan_error_document_title">Belge desteklenmiyor</string>
+	<string name="onfido_nfc_scan_error_document_title">Desteklenmeyen belge</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Lütfen başka bir belge ile deneyin</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Başka bir belge seçin</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Çıkış doğrulaması</string>
 	<string name="onfido_nfc_scan_error_device_title">Desteklenmeyen cihaz</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Herhangi bir rahatsızlık için özür dileriz. Lütfen kimliğinizi doğrulamak için farklı bir cihaz kullanın</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Lütfen kimlik belgenizdeki çipi okumak için NFC özellikli bir cihaz kullanın.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Çıkış doğrulaması</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Yalnızca çip içeren belgeleri kabul ediyoruz. Belgenizde bu simgeyi arayın</string>
 	<string name="onfido_nfc_fail_card_title">Çipi tarayamıyoruz. Yardıma mı ihtiyacınız var?</string>
@@ -583,4 +583,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Telefonunuzu iç arka kapağa dokunacak şekilde yerleştirin.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Telefonunuzu pasaportunuza yerleştirin. Telefonunuzu pasaportunuza yavaşça kaydırmanız gerekebilir.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Telefonunuzu ve belgenizi sabit tutun.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Lütfen NFC özellikli başka bir belge kullanın. Bu simgeye bakın</string>
+	<string name="onfido_country_select_list_header_supported">Desteklenen ülkeler</string>
+	<string name="onfido_country_select_search_results">Sonuçlar</string>
+	<string name="onfido_nfc_upload_error_title">Bağlantı hatası</string>
+	<string name="onfido_nfc_upload_error_subtitle">Bağlantınızın kararlı olup olmadığını kontrol edin, ardından tekrar deneyin</string>
+	<string name="onfido_nfc_upload_error_button_primary">Yüklemeyi yeniden dene</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Belgenizle ilgili bir sorun oldu</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Lütfen geçerli bir belge ile tekrar deneyin ve bilgilerinizin net bir şekilde görülebildğinden emin olun</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Tekrar deneyin</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Bir ülke seçmek için iki kez dokunun</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Çipi taramadan önce belgenizin %d haneli PIN kodunu isteyeceğiz.</string>
+	<string name="onfido_enter_pin_subtitle">Bu, NFC çipini güvenli bir şekilde okumak için gereklidir. Bu %d haneli numarayı belgeniz düzenlendiğinde oluşturdunuz.</string>
+	<string name="onfido_enter_pin_title">Belge PIN\'inizi girin</string>
+	<string name="onfido_enter_pin_title_incorrect">Yanlış PIN</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d deneme hakkı kaldı</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 deneme hakkı kaldı. Bir sonraki başarısız denemeden sonra çipiniz engellenecektir</string>
+	<string name="onfido_chip_blocked_title">NFC çipi engellendi</string>
+	<string name="onfido_chip_blocked_subtitle">Bu, dolandırıcılığı önlemek için alınan bir güvenlik önlemidir. Çipinizin engelini kaldırmak için yerel düzenleyici kurumunuzla iletişime geçin.</string>
+	<string name="onfido_chip_blocked_button_help">Devlet portalı</string>
+	<string name="onfido_motion_passive_intro_title">Yüzünüzü tarayın</string>
+	<string name="onfido_motion_passive_intro_subtitle">Hesabınızı güvende tutmak için kimliğinizi doğrulayın</string>
+	<string name="onfido_motion_passive_intro_list_item_one">İyi aydınlatmaya sahip bir yerde olduğunuzdan emin olun</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Yüzünüzü kapatan eşyaları çıkarın, gözlükler sorun değil</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Taramaya başlamak için yüzünüzü çerçeveye konumlandırın</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Hazırım</string>
+	<string name="onfido_motion_passive_error_generic_title">Bir şeyler yanlış gitti</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Lütfen daha sonra tekrar deneyin.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Kimlik doğrulamadan çık</string>
+	<string name="onfido_motion_passive_retry_title">Kimlik doğrulama başarısız oldu</string>
+	<string name="onfido_motion_passive_retry_subtitle">Lütfen tekrar deneyin</string>
+	<string name="onfido_motion_passive_retry_button_primary">Tekrar deneyin</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Kimlik doğrulanıyor…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Doğrulanıyor...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Kimliği Doğrulanmış</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Doğrulandı</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Kimlik doğrulama başarısız oldu</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Doğrulama başarısız oldu</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Taranıyor</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d deneme hakkı kaldı. Bu adımı aşağıdan atlayın.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d deneme hakkınız kaldı, sonrasında NFC çipiniz bloke edilecek. Bu adımı aşağıdan atlayın.</string>
+	<string name="onfido_enter_pin_button_primary">Devam et</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">NFC çip taramasını atla</string>
+	<string name="onfido_chip_blocked_optional_title">Çip taraması olmadan devam et</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Çok fazla hatalı PIN girişi NFC çipinizi engelledi, bu nedenle bu adımı atlayacağız. Gelecekte kullanmak üzere PIN\'inizi sıfırlamak için yetkili makamlarınızla iletişime geçin.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Devam et</string>
 </resources>

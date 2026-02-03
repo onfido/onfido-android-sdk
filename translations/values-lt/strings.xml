@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Aptikta neryški nuotrauka</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Brūkšninis kodas neaptiktas</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Būkite gerai apšviestoje vietoje ir priartinkite kortelę prie kameros</string>
-    <string name="onfido_permission_recovery_button_primary">Įjungti nustatymuose</string>
+	<string name="onfido_permission_recovery_button_primary">Atidaryti nustatymus</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Leisti prieigą prie kameros</string>
 	<string name="onfido_permission_subtitle_cam">Kai būsite paprašyti, turite suteikti prieigą prie kameros, kad galėtumėte tęsti</string>
 	<string name="onfido_permission_body_cam">Negalime Jūsų patvirtinti be prieigos prie kameros</string>
-    <string name="onfido_permission_button_primary_cam">Įjungti kamerą</string>
+	<string name="onfido_permission_button_primary_cam">Tęsti</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Negalime Jūsų patvirtinti be prieigos prie kameros</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Eikite į programėlės nustatymus ir įjunkite šios programėlės prieigą prie kameros</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Prieigą prie kameros galite atkurti įrenginio nustatymuose</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Leisti prieigą prie mikrofono</string>
     <string name="onfido_permission_subtitle_mic">Kai būsite paraginti, turėsite įgalinti prieigą prie mikrofono, kad galėtumėte tęsti</string>
-    <string name="onfido_permission_button_primary_mic">Įjungti mikrofoną</string>
+	<string name="onfido_permission_button_primary_mic">Tęsti</string>
     <string name="onfido_permission_recovery_title_mic">Prieiga prie mikrofono uždrausta</string>
     <string name="onfido_permission_body_mic">Negalime jūsų patvirtinti nenaudojant mikrofono</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Prieigą prie mikrofono galite atkurti naudodami įrenginio nustatymus</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Patikrinkite, ar ryšys stabilus, tada bandykite dar kartą</string>
 	<string name="onfido_generic_back">atgal</string>
     <string name="onfido_permission_body_both">Negalime jūsų patvirtinti, jei kamera ir mikrofonas nenaudojami kartu</string>
-    <string name="onfido_permission_button_primary_both">Įjungti abu</string>
+	<string name="onfido_permission_button_primary_both">Tęsti</string>
 	<string name="onfido_permission_recovery_subtitle_both">Atkurkite prieigą prie kameros ir mikrofono, kad galėtumėte padaryti vaizdo įrašą ir užbaigti patvirtinimo procesą</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Prieigą prie kameros ir mikrofono galite atkurti naudodami įrenginio nustatymus</string>
     <string name="onfido_permission_recovery_list_item_action_both">Eikite į programėlės nustatymus ir šiai programėlei įjunkite prieigą ir prie kameros, ir prie mikrofono</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Pradėti nuskaitymą</string>
+	<string name="onfido_nfc_scan_error_button_primary">Pakartoti nuskaitymą</string>
     <string name="onfido_nfc_scan_error_button_secondary">Gauti patvirtinimą be NFC</string>
     <string name="onfido_nfc_scan_error_title">Nepavyko nuskaityti jūsų dokumento</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Pabandykite nuimti dangtelį nuo savo paso arba dėklą nuo savo telefono. Tai padės išvengti trikdžių su lustu.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Uždarykite pasą ir padėkite jį ant lygaus paviršiaus priekinė puse į viršų.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Jums gali tekti lėtai stumkite telefoną žemyn ir aukštyn prie savo paso, kol surasite lustą.</string>
-	<string name="onfido_nfc_scan_error_document_title">Dokumentas nepalaikomas</string>
+	<string name="onfido_nfc_scan_error_document_title">Nepalaikomas dokumentas</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Prašome bandyti su kitu dokumentu</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Pasirinkite kitą dokumentą</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Išeiti iš patvirtinimo</string>
 	<string name="onfido_nfc_scan_error_device_title">Nepalaikomas įrenginys</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Atsiprašome už bet kokius nepatogumus. Prašome naudoti kitą įrenginį, kad patvirtintumėte savo tapatybę</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Prašome naudoti NFC palaikantį įrenginį, kad nuskaitytumėte lustą savo tapatybės dokumente.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Išeiti iš patvirtinimo</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Mes priimame tik dokumentus su lustu. Ieškokite šios piktogramos savo dokumente</string>
 	<string name="onfido_nfc_fail_card_title">Nepavyko nuskaityti lusto. Reikia pagalbos?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Padėkite telefoną prie vidinio galinio viršelio, kad jie liestųsi.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Padėkite telefoną prie savo paso. Gali tekti lėtai slysti telefonu per pasą.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Laikykite savo telefoną ir dokumentą nejudant.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Prašome naudoti kitą dokumentą, kuris palaiko NFC. Ieškokite šios piktogramos</string>
+	<string name="onfido_country_select_list_header_supported">Palaikomos šalys</string>
+	<string name="onfido_country_select_search_results">Rezultatai</string>
+	<string name="onfido_nfc_upload_error_title">Ryšio klaida</string>
+	<string name="onfido_nfc_upload_error_subtitle">Patikrinkite, ar ryšys stabilus, tada bandykite dar kartą</string>
+	<string name="onfido_nfc_upload_error_button_primary">Bandyti įkelti dar kartą</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Su jūsų dokumentu kilo problema</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Bandykite dar kartą su galiojančiu dokumentu ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Bandyti dar kartą</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Dukart bakstelėkite, kad pasirinktumėte šalį</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Prieš nuskaitydami lustą paprašysime jūsų dokumento %d skaitmenų PIN kodo.</string>
+	<string name="onfido_enter_pin_subtitle">To reikia, kad būtų galima saugiai nuskaityti NFC lustą. Šį %d skaitmenų numerį sukūrėte, kai buvo išduotas jūsų dokumentas.</string>
+	<string name="onfido_enter_pin_title">Įveskite savo dokumento PIN kodą</string>
+	<string name="onfido_enter_pin_title_incorrect">Neteisingas PIN</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d bandymai liko</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Liko 1 bandymas. Po kito nesėkmingo bandymo jūsų lustas bus užblokuotas</string>
+	<string name="onfido_chip_blocked_title">NFC mikroschema užblokuota</string>
+	<string name="onfido_chip_blocked_subtitle">Tai yra saugumo priemonė sukčiavimui užkirsti. Susisiekite su savo vietine dokumentų išdavimo institucija, kad atblokuotumėte lustą.</string>
+	<string name="onfido_chip_blocked_button_help">Valstybinis portalas</string>
+	<string name="onfido_motion_passive_intro_title">Nuskaitykite savo veidą</string>
+	<string name="onfido_motion_passive_intro_subtitle">Patvirtinkite savo tapatybę, kad apsaugotumėte paskyrą</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Įsitikinkite, kad esate vietoje, kurioje yra geras apšvietimas</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Nuimkite daiktus, dengiančius jūsų veidą; akiniai yra tinkami</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Padėkite veidą rėmelyje, kad pradėtumėte nuskaitymą</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Aš pasiruošęs</string>
+	<string name="onfido_motion_passive_error_generic_title">Kažkas nepavyko</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Prašome sugrįžti vėliau ir bandyti dar kartą.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Išeiti iš autentifikacijos</string>
+	<string name="onfido_motion_passive_retry_title">Autentifikavimas nepavyko</string>
+	<string name="onfido_motion_passive_retry_subtitle">Bandykite dar kartą</string>
+	<string name="onfido_motion_passive_retry_button_primary">Bandyti dar kartą</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autentifikuojama…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Tikrinama...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Autentifikuota</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Patvirtinta</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentifikavimas nepavyko</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Patvirtinimas nepavyko</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Skenuojama</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d bandymų liko. Praleiskite šį veiksmą žemiau.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">Likęs bandymų skaičius: %d. Po to jūsų NFC lustas bus užblokuotas. Praleiskite šį veiksmą žemiau.</string>
+	<string name="onfido_enter_pin_button_primary">Tęsti</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Praleisti NFC lustų nuskaitymą</string>
+	<string name="onfido_chip_blocked_optional_title">Tęsti be mikroschemos nuskaitymo</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Per daug neteisingai įvestų PIN kodų užblokavo jūsų NFC lustą, todėl šį žingsnį praleisime. Susisiekite su atitinkamomis institucijomis, kad ateityje galėtumėte iš naujo nustatyti PIN kodą.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Tęsti</string>
 </resources>

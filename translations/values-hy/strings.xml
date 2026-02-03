@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Գտնվել է խավար լուսանկար</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Շտրիխ կոդը չի գտնվել</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Կանգնեք լավ լուսավորված տեղում և քարտը մոտեցրեք տեսախցիկին</string>
-    <string name="onfido_permission_recovery_button_primary">Ակտիվացնել կարգավորումների միջոցով</string>
+	<string name="onfido_permission_recovery_button_primary">Բացել կարգավորումները</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Թույլատրել մուտքը դեպի տեսախցիկ</string>
     <string name="onfido_permission_subtitle_cam">Հարցումը ստանալուն պես՝ պետք է թույլատրեք խոսափողի հասանելիությունը, որպեսզի կարողանաք շարունակել</string>
 	<string name="onfido_permission_body_cam">Մենք չենք կարող նույնականացնել ձեզ առանց ձեր տեսախցիկի</string>
-    <string name="onfido_permission_button_primary_cam">Միացնել տեսախցիկը</string>
+	<string name="onfido_permission_button_primary_cam">Շարունակել</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Մենք չենք կարող նույնականացնել ձեզ առանց ձեր տեսախցիկի</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Դուք կարող եք վերականգնել տեսախցիկի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Թույլատրել մուտքը դեպի խոսափող</string>
     <string name="onfido_permission_subtitle_mic">Հարցումը ստանալուն պես պետք է թույլատրեք խոսափողի հասանելիությունը, որպեսզի կարողանաք շարունակել</string>
-    <string name="onfido_permission_button_primary_mic">Միացնել խոսափողը</string>
+	<string name="onfido_permission_button_primary_mic">Շարունակել</string>
     <string name="onfido_permission_recovery_title_mic">Խոսափողի հասանելիությունը մերժվել է</string>
     <string name="onfido_permission_body_mic">Մենք չենք կարող նույնականացնել ձեզ առանց խոսափողի առկայության</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք</string>
 	<string name="onfido_generic_back">հետ</string>
     <string name="onfido_permission_body_both">Մենք չենք կարող նույնականացնել ձեզ առանց տեսախցիկի և խոսափողի առկայության</string>
-    <string name="onfido_permission_button_primary_both">Երկուսն էլ միացնել</string>
+	<string name="onfido_permission_button_primary_both">Շարունակել</string>
 	<string name="onfido_permission_recovery_subtitle_both">Վերականգնեք տեսախցիկի և խոսափողի հասանելիությունը՝ տեսանյութը նկարահանելու և հաստատման գործընթացն ավարտելու համար</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Դուք կարող եք վերականգնել խոսափողի հասանելիությունը ձեր սարքի կարգավորումների միջոցով</string>
     <string name="onfido_permission_recovery_list_item_action_both">Բացեք հավելվածի կարգավորումները և ակտիվացրեք տեսախցիկի հասանելիությունն այս հավելվածի համար</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Սկսել սկանավորումը</string>
+	<string name="onfido_nfc_scan_error_button_primary">Կրկին սկան անել</string>
     <string name="onfido_nfc_scan_error_button_secondary">Ստացեք հաստատում առանց NFC - ի</string>
     <string name="onfido_nfc_scan_error_title">Ձեր փաստաթուղթը չհաջողվեց սկանավորել</string>
 
@@ -501,12 +501,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Փորձեք հեռացնել ձեր անձնագրի կազմը կամ ձեր հեռախոսի պատճառը։ Սա անհրաժեշտ է չիպի հետ խախտումները խուսափելու համար։</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Փակեք ձեր անձնագիրը և դրեք այն հարթ մակերեսի վրա, դեմքով վերև։</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Դուք կարող եք պահանջվել դանդաղ սահեցրել ձեր հեռախոսը ներքև և վերև ձեր անձնագրի դեմ, մինչև գտնեք չիպը:</string>
-	<string name="onfido_nfc_scan_error_document_title">Փաստաթուղթը չի աջակցվում</string>
+	<string name="onfido_nfc_scan_error_document_title">Չաջակցվող փաստաթուղթ</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Փորձեք այլ փաստաթուղթով</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Ընտրեք մեկ այլ փաստաթուղթ</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Ելքի ստուգում</string>
 	<string name="onfido_nfc_scan_error_device_title">Չաջակցվող սարք</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Ներողություն ամենայն անհարմարության համար։ Խնդրում ենք օգտագործել այլ սարքը ձեր իսկությունը հաստատելու համար</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Խնդրում ենք օգտագործել NFC-ով հագեցած սարք՝ ձեր ինքնության փաստաթղթում գտնվող չիպը կարդալու համար։</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Ելքի ստուգում</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Մենք ընդունում ենք միայն շերտեր չիպով։ Որոնեք այս պատկերը ձեր շերտում</string>
 	<string name="onfido_nfc_fail_card_title">Չիպը սկանավորելը չի հաջողվում։ Օգտագործել օգնությունը՞</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Տեղադրեք ձեր հեռախոսը ներսի հետևի կազմի դեմ, որպեսզի դրանք շփվեն։</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Տեղադրեք ձեր հեռախոսը ձեր անձնագրի դեմ: Հնարավոր է, որ անհրաժեշտ լինի դանդաղ սահեցնել ձեր հեռախոսը ձեր անձնագրի դեմ:</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Պահեք ձեր հեռախոսը և փաստաթուղթը անշարժ:</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Խնդրում ենք օգտագործել NFC-ով ակտիվացված այլ փաստաթուղթ։ Փնտրեք այս պատկերակը</string>
+	<string name="onfido_country_select_list_header_supported">Աջակցվող երկրներ</string>
+	<string name="onfido_country_select_search_results">Արդյունքներ</string>
+	<string name="onfido_nfc_upload_error_title">Կապի խափանում</string>
+	<string name="onfido_nfc_upload_error_subtitle">Համոզվեք, որ ձեր կապը կայուն է, ապա կրկին փորձեք</string>
+	<string name="onfido_nfc_upload_error_button_primary">Կրկին վերբեռնել</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Ձեր փաստաթուղթի հետ խնդիր է եղել</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Խնդրում ենք կրկին փորձել վավեր փաստաթղթով և համոզվել, որ ձեր տվյալները հստակ տեսանելի են</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Կրկին փորձել</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Երկու անգամ թփթփացրեք՝ ընտրելու երկրի անունը</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Մինչ չիպի սկանավորումը, մենք կխնդրենք տրամադրել ձեր փաստաթղթի %d-անիշ PIN կոդը։</string>
+	<string name="onfido_enter_pin_subtitle">Սա անհրաժեշտ է NFC չիպը անվտանգ կարդալու համար։ Դուք ստեղծել եք այս %d-նիշանոց թիվը, երբ ձեր փաստաթուղթը տրվել է։</string>
+	<string name="onfido_enter_pin_title">Մուտքագրեք ձեր փաստաթղթի PIN կոդը</string>
+	<string name="onfido_enter_pin_title_incorrect">Սխալ PIN</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d փորձ մնաց</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Մնացել է 1 փորձ։ Ձեր չիպը կհակարգելվի հաջորդ անհաջող փորձից հետո</string>
+	<string name="onfido_chip_blocked_title">NFC չիպը արգելափակված է</string>
+	<string name="onfido_chip_blocked_subtitle">Սա անվտանգության միջոցառում է խարդախությունը կանխելու համար։ Կապվեք ձեր տեղական տրամադրող մարմնի հետ՝ չիպը ապաբլոկավորելու համար։</string>
+	<string name="onfido_chip_blocked_button_help">Կառավարական պորտալ</string>
+	<string name="onfido_motion_passive_intro_title">Սկանավորեք ձեր դեմքը</string>
+	<string name="onfido_motion_passive_intro_subtitle">Հաստատեք ձեր ինքնությունը՝ ձեր հաշիվը պաշտպանված պահելու համար</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Համոզվեք, որ գտնվում եք լավ լուսավորությամբ վայրում</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Հեռացրեք այն պարագաները, որոնք ծածկում են ձեր դեմքը, ակնոցները կարող եք թողնել</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Դիրքավորեք ձեր դեմքը շրջանակի մեջ՝ սկանավորումը սկսելու համար</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Ես պատրաստ եմ</string>
+	<string name="onfido_motion_passive_error_generic_title">Ինչ-որ բանը սխալ է եղել</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Խնդրում ենք վերադառնալ ավելի ուշ և կրկին փորձել։</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Ելք նույնականացումից</string>
+	<string name="onfido_motion_passive_retry_title">Նույնականացումը ձախողվեց</string>
+	<string name="onfido_motion_passive_retry_subtitle">Խնդրում ենք կրկին փորձել</string>
+	<string name="onfido_motion_passive_retry_button_primary">Կրկին փորձել</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Նույնականացում․․․</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Ստուգվում է...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Նույնականացված</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Ստուգված</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Նույնականացումը ձախողվեց</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Ստուգումը ձախողվեց</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Սկանավորում</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d փորձ է մնացել։ Բաց թողեք այս քայլը ստորև։</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d փորձ է մնացել, մինչ ձեր NFC չիպը կարգելափակվի։ Բաց թողեք այս քայլը ներքևում։</string>
+	<string name="onfido_enter_pin_button_primary">Շարունակել</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Բաց թողնել NFC չիպի սկանավորումը</string>
+	<string name="onfido_chip_blocked_optional_title">Շարունակել առանց չիպը սկանավորելու</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Շատ սխալ մուտքագրված PIN-ների պատճառով ձեր NFC չիպը արգելափակվել է, այդ պատճառով մենք կանցնենք այս քայլը։ Կապվեք համապատասխան մարմինների հետ՝ ձեր PIN-ը ապագայում օգտագործելու համար վերականգնելու նպատակով։</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Շարունակել</string>
 </resources>

@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Обнаружена размытая фотография</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Штрих-код не обнаружен</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Оставайтесь на хорошо освещенном месте и поднесите карточку ближе к камере</string>
-    <string name="onfido_permission_recovery_button_primary">Включить в настройках</string>
+	<string name="onfido_permission_recovery_button_primary">Открыть настройки</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Разрешить доступ к камере</string>
     <string name="onfido_permission_subtitle_cam">При появлении запроса Вы должны разрешить доступ к камере, чтобы продолжить</string>
 	<string name="onfido_permission_body_cam">Мы не можем верифицировать Вас без камеры</string>
-    <string name="onfido_permission_button_primary_cam">Резрешить доступ</string>
+	<string name="onfido_permission_button_primary_cam">Продолжить</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Мы не можем верифицировать Вас без камеры</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Перейдите в настройки приложения и включите доступ к камере для этого приложения</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Доступ к камере можно восстановить с помощью настроек устройства</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Разрешить доступ к микрофону</string>
     <string name="onfido_permission_subtitle_mic">При появлении запроса Вы должны разрешить доступ к микрофону, чтобы продолжить</string>
-    <string name="onfido_permission_button_primary_mic">Включить микрофон</string>
+	<string name="onfido_permission_button_primary_mic">Продолжить</string>
     <string name="onfido_permission_recovery_title_mic">Доступ к микрофону запрещен</string>
     <string name="onfido_permission_body_mic">Мы не можем верифицировать Вас без использования микрофона</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Доступ к микрофону можно восстановить с помощью настроек устройства</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Убедитесь, что соединение стабильно, затем повторите попытку</string>
 	<string name="onfido_generic_back">Назад</string>
     <string name="onfido_permission_body_both">Мы не можем верифицировать Вас без использования камеры и микрофона</string>
-    <string name="onfido_permission_button_primary_both">Включить камеру и микрофон</string>
+	<string name="onfido_permission_button_primary_both">Продолжить</string>
 	<string name="onfido_permission_recovery_subtitle_both">Восстановите доступ к камере и микрофону, чтобы сделать видео и завершить процесс верификации</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Доступ к камере и микрофону можно восстановить с помощью настроек устройства</string>
     <string name="onfido_permission_recovery_list_item_action_both">Перейдите в настройки приложения и включите доступ к камере и микрофону для этого приложения</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Начать сканирование</string>
+	<string name="onfido_nfc_scan_error_button_primary">Повторить сканирование</string>
     <string name="onfido_nfc_scan_error_button_secondary">Получить верификацию без NFC</string>
     <string name="onfido_nfc_scan_error_title">Не удалось отсканировать документ</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Попробуйте снять обложку с вашего паспорта или чехол с вашего телефона. Это нужно, чтобы избежать помех с чипом.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Закройте паспорт и положите его на ровную поверхность лицевой стороной вверх.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Возможно, вам придется медленно перемещать телефон вниз и вверх по паспорту, пока вы не найдете чип.</string>
-	<string name="onfido_nfc_scan_error_document_title">Документ не поддерживается</string>
+	<string name="onfido_nfc_scan_error_document_title">Неподдерживаемый документ</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Пожалуйста, попробуйте с другим документом</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Выберите другой документ</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Выход из проверки</string>
 	<string name="onfido_nfc_scan_error_device_title">Неподдерживаемое устройство</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Извините за любые неудобства. Пожалуйста, используйте другое устройство для подтверждения вашей личности</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Пожалуйста, используйте устройство с поддержкой NFC для считывания чипа в вашем удостоверении личности.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Выход из проверки</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Мы принимаем только документы с чипом. Ищите этот значок на вашем документе</string>
 	<string name="onfido_nfc_fail_card_title">Не удалось отсканировать чип. Нужна помощь?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Поместите телефон к внутренней стороне задней обложки, чтобы они соприкасались.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Поместите телефон к вашему паспорту. Возможно, вам потребуется медленно провести телефоном по паспорту.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Держите ваш телефон и документ неподвижно.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Пожалуйста, используйте другой документ с поддержкой NFC. Ищите этот значок</string>
+	<string name="onfido_country_select_list_header_supported">Поддерживаемые страны</string>
+	<string name="onfido_country_select_search_results">Результаты</string>
+	<string name="onfido_nfc_upload_error_title">Ошибка соединения</string>
+	<string name="onfido_nfc_upload_error_subtitle">Убедитесь, что соединение стабильно, затем повторите попытку</string>
+	<string name="onfido_nfc_upload_error_button_primary">Повторите загрузку</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Возникла проблема с вашим документом</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Повторите попытку с действительным документом и убедитесь, что ваши данные хорошо видны</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Попробовать еще раз</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Дважды коснитесь, чтобы выбрать страну</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Мы попросим вас ввести %d-значный PIN-код вашего документа перед сканированием чипа.</string>
+	<string name="onfido_enter_pin_subtitle">Это необходимо для безопасного считывания чипа NFC. Вы создали этот %d-значный номер при выдаче документа.</string>
+	<string name="onfido_enter_pin_title">Введите PIN-код документа</string>
+	<string name="onfido_enter_pin_title_incorrect">Неверный PIN-код</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d попыток осталось</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Осталась 1 попытка. Ваш чип будет заблокирован после следующей неудачной попытки</string>
+	<string name="onfido_chip_blocked_title">Чип NFC заблокирован</string>
+	<string name="onfido_chip_blocked_subtitle">Это мера безопасности для предотвращения мошенничества. Обратитесь в местный орган, выдавший документ, чтобы разблокировать чип.</string>
+	<string name="onfido_chip_blocked_button_help">Государственный портал</string>
+	<string name="onfido_motion_passive_intro_title">Отсканировать лицо</string>
+	<string name="onfido_motion_passive_intro_subtitle">Подтвердите свою личность, чтобы обеспечить безопасность вашей учетной записи</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Убедитесь, что вы находитесь в месте с хорошим освещением</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Уберите предметы, закрывающие лицо, очки можно оставить</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Расположите лицо в кадре, чтобы начать сканирование</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Я готов</string>
+	<string name="onfido_motion_passive_error_generic_title">Что-то пошло не так</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Пожалуйста, вернитесь позже и попробуйте снова.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Выход из аутентификации</string>
+	<string name="onfido_motion_passive_retry_title">Ошибка аутентификации</string>
+	<string name="onfido_motion_passive_retry_subtitle">Повторите попытку</string>
+	<string name="onfido_motion_passive_retry_button_primary">Попробовать еще раз</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Аутентификация…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Проверка...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Аутентифицирован</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Подтверждено</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Ошибка аутентификации</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Ошибка проверки</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Сканирование</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d попыток осталось. Пропустите этот шаг ниже.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d попытка осталась до блокировки вашего NFC-чипа. Пропустите этот шаг ниже.</string>
+	<string name="onfido_enter_pin_button_primary">Продолжить</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Пропустить сканирование NFC-чипа</string>
+	<string name="onfido_chip_blocked_optional_title">Продолжить без сканирования чипа</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Слишком много неправильных попыток ввода PIN-кода заблокировали ваш NFC-чип, поэтому мы пропустим этот шаг. Свяжитесь с соответствующими органами, чтобы сбросить PIN-код для дальнейшего использования.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Продолжить</string>
 </resources>

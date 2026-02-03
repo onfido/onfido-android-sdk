@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
 	<string name="onfido_country_select_list_header_suggested">País recomendado</string>
 	<string name="onfido_country_select_list_header_all">Todas las naciones</string>
-    <string name="onfido_app_title_country_select_search">Buscar en</string>
+	<string name="onfido_app_title_country_select_search">Buscar</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">Pruebe a hacer la foto de manera manual</string>
 	<string name="onfido_doc_confirmation_alert_blur_title">Se detectó una foto borrosa</string>
 	<string name="onfido_doc_capture_alert_no_barcode_title">No se detectó el código de barras</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Manténganse en un área bien iluminada y acerque el carnet a la cámara</string>
-    <string name="onfido_permission_recovery_button_primary">Habilitar en la configuración</string>
+	<string name="onfido_permission_recovery_button_primary">Abrir configuración</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Permitir acceso a la cámara</string>
     <string name="onfido_permission_subtitle_cam">Deberá activar la cámara para continuar</string>
 	<string name="onfido_permission_body_cam">No le podemos verificar sin usar su cámara</string>
-    <string name="onfido_permission_button_primary_cam">Activar cámara</string>
+	<string name="onfido_permission_button_primary_cam">Continuar</string>
 	<string name="onfido_permission_recovery_subtitle_cam">No le podemos verificar sin usar su cámara</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Vaya a la configuración de la aplicación y habilite el acceso a la cámara para esta aplicación</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Puede recuperar el acceso a la cámara a través de la configuración de su dispositivo</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
 	<string name="onfido_permission_title_mic">Permitir el acceso al micrófono</string>
     <string name="onfido_permission_subtitle_mic">Deberá conceder acceso al micrófono para continuar</string>
-	<string name="onfido_permission_button_primary_mic">Habilitar micrófono</string>
+	<string name="onfido_permission_button_primary_mic">Continuar</string>
     <string name="onfido_permission_recovery_title_mic">Acceso al micrófono denegado</string>
     <string name="onfido_permission_body_mic">No le podemos verificar sin acceso a su micrófono</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Puede recuperar el acceso al micrófono a través de la configuración de su dispositivo</string>
@@ -125,15 +125,15 @@
 
     <!-- Camera + Microphone Permissions -->
 	<string name="onfido_permission_title_both">Permitir el acceso al micrófono y a la cámara</string>
-    <string name="onfido_permission_subtitle_both">Deberá conceder acceso a ambos para continuar</string>
+	<string name="onfido_permission_subtitle_both">Deberá permitir acceso a ambos para continuar</string>
     <string name="onfido_permission_recovery_title_both">Acceso denegado a la cámara y al micrófono</string>
 	<string name="onfido_video_capture_alert_wrong_side">Lado equivocado</string>
 	<string name="onfido_video_capture_prompt_button_primary_network_timeout">Instrucciones de recarga</string>
 	<string name="onfido_video_capture_prompt_network_timeout_title">Tiempo de conexión agotado</string>
-	<string name="onfido_video_capture_prompt_network_timeout_detail">Asegúrese de que su conexión es estable, luego intente de nuevo</string>
+	<string name="onfido_video_capture_prompt_network_timeout_detail">Asegúrese de que su conexión es estable, vuelva a intentarlo</string>
 	<string name="onfido_generic_back">atrás</string>
     <string name="onfido_permission_body_both">No lo podemos verificar sin acceso a su cámara y micrófono</string>
-    <string name="onfido_permission_button_primary_both">Conceder acceso a ambos</string>
+	<string name="onfido_permission_button_primary_both">Continuar</string>
 	<string name="onfido_permission_recovery_subtitle_both">Recupere acceso a la cámara y el micrófono para grabar un video y completar el proceso de verificación</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Puede recuperar el acceso a la cámara y al micrófono a través de la configuración de su dispositivo</string>
     <string name="onfido_permission_recovery_list_item_action_both">Vaya a la configuración de la aplicación y habilite el acceso a la cámara y al micrófono para esta aplicación</string>
@@ -255,7 +255,7 @@
     <string name="onfido_doc_capture_header_id_back">Ponga la parte trasera de su documento en el marco</string>
     <string name="onfido_doc_capture_header_permit_work_front">Coloque la parte frontal del documento dentro del cuadro</string>
     <string name="onfido_doc_capture_header_permit_work_back">Ponga la parte trasera de su documento en el marco</string>
-    <string name="onfido_doc_capture_header_visa_front">Coloque la página del visado del documento dentro del cuadro</string>
+	<string name="onfido_doc_capture_header_visa_front">Coloque la página del visado del documento en el recuadro</string>
     <string name="onfido_doc_capture_header_generic_front">Coloque la parte frontal del documento dentro del cuadro</string>
     <string name="onfido_doc_capture_header_generic_back">Ponga la parte trasera de su documento en el marco</string>
     <string name="onfido_doc_capture_header_passport">Coloque la página del documento con fotografía dentro del cuadro</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Iniciar escaneo</string>
+	<string name="onfido_nfc_scan_error_button_primary">Reintentar escaneo</string>
     <string name="onfido_nfc_scan_error_button_secondary">Verifícate sin NFC</string>
     <string name="onfido_nfc_scan_error_title">No hemos podido escanear su documento</string>
 
@@ -507,7 +507,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">Elija otro documento</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Salir de la verificación</string>
 	<string name="onfido_nfc_scan_error_device_title">Dispositivo no compatible</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Lo siento por cualquier inconveniente. Por favor, use un dispositivo diferente para verificar su identidad</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Por favor, utiliza un dispositivo con NFC para leer el chip de tu documento de identidad.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Salir de la verificación</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Solo aceptamos documentos con un chip. Busque este ícono en su documento</string>
 	<string name="onfido_nfc_fail_card_title">No se puede escanear el chip. ¿Necesita ayuda?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Coloca tu teléfono contra la parte interior de la contraportada, de modo que estén en contacto.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Coloca tu teléfono contra tu pasaporte. Es posible que necesites deslizar lentamente tu teléfono contra tu pasaporte.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Mantén tu teléfono y documento quietos.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Por favor, utiliza otro documento que sea compatible con NFC. Busca este icono</string>
+	<string name="onfido_country_select_list_header_supported">Países compatibles</string>
+	<string name="onfido_country_select_search_results">Resultados</string>
+	<string name="onfido_nfc_upload_error_title">Error de conexión</string>
+	<string name="onfido_nfc_upload_error_subtitle">Compruebe que la conexión sea estable e inténtelo de nuevo</string>
+	<string name="onfido_nfc_upload_error_button_primary">Reintentar la subida</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Hubo un problema con tu documento</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Vuelve a intentarlo con un documento válido y asegúrate de que tu información sea claramente visible</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Intentar otra vez</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Toca dos veces para seleccionar un país</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Te pediremos el PIN de %d dígitos de tu documento antes de escanear el chip.</string>
+	<string name="onfido_enter_pin_subtitle">Esto es necesario para leer de forma segura el chip NFC. Creaste este número de %d dígitos cuando se emitió tu documento.</string>
+	<string name="onfido_enter_pin_title">Introduce el PIN de tu documento</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN incorrecto</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d intentos restantes</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Queda 1 intento. Su chip se bloqueará después del próximo intento fallido</string>
+	<string name="onfido_chip_blocked_title">Chip NFC bloqueado</string>
+	<string name="onfido_chip_blocked_subtitle">Esta es una medida de seguridad para prevenir el fraude. Ponte en contacto con la autoridad emisora local para desbloquear tu chip.</string>
+	<string name="onfido_chip_blocked_button_help">Portal gubernamental</string>
+	<string name="onfido_motion_passive_intro_title">Escanear su cara</string>
+	<string name="onfido_motion_passive_intro_subtitle">Confirma tu identidad para mantener tu cuenta segura</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Asegúrate de estar en un lugar con buena iluminación</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Retira cualquier objeto que cubra tu rostro; las gafas están bien.</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Coloca tu rostro dentro del marco para comenzar el escaneo</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Estoy listo</string>
+	<string name="onfido_motion_passive_error_generic_title">Algo ha salido mal</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Vuelve más tarde para intentarlo de nuevo.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Salir de la autenticación</string>
+	<string name="onfido_motion_passive_retry_title">Error de autenticación</string>
+	<string name="onfido_motion_passive_retry_subtitle">Inténtelo de nuevo</string>
+	<string name="onfido_motion_passive_retry_button_primary">Intentar otra vez</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autenticando…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Verificando...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Autenticado</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Verificado</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autenticación fallida</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Error de verificación</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Escaneando</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d intentos restantes. Omite este paso a continuación.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d intento restante antes de que se bloquee tu chip NFC. Omite este paso a continuación.</string>
+	<string name="onfido_enter_pin_button_primary">Continuar</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Omitir el escaneo del chip NFC</string>
+	<string name="onfido_chip_blocked_optional_title">Continuar sin escanear el chip</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Demasiados intentos incorrectos de PIN han bloqueado tu chip NFC, así que omitiremos este paso. Ponte en contacto con las autoridades para restablecer tu PIN para usos futuros.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Continuar</string>
 </resources>

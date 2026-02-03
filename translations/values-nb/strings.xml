@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Uskarpt bilde oppdaget</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Strekkode ikke oppdaget</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Hold deg på et godt opplyst sted og plasser kortet nærmere kameraet</string>
-    <string name="onfido_permission_recovery_button_primary">Akiver i innstillingene</string>
+	<string name="onfido_permission_recovery_button_primary">Åpne innstillinger</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Tillat kameratilgang</string>
     <string name="onfido_permission_subtitle_cam">Når du blir bedt om det, må du aktivere kameratilgangen for å fortsette</string>
 	<string name="onfido_permission_body_cam">Vi kan ikke verifisere deg uten kameraet ditt</string>
-    <string name="onfido_permission_button_primary_cam">Aktiver kamera</string>
+	<string name="onfido_permission_button_primary_cam">Fortsett</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Vi kan ikke verifisere deg uten kameraet ditt</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Gå til appinnstillinger og aktiver kameratilgang for denne appen</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Du kan gjenopprette kameratilgang via enhetsinnstillingene</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Tillat mikrofontilgang</string>
     <string name="onfido_permission_subtitle_mic">Når du blir bedt om det, må du aktivere tilgang til begge for å fortsette</string>
-    <string name="onfido_permission_button_primary_mic">Aktiver mikrofon</string>
+	<string name="onfido_permission_button_primary_mic">Fortsett</string>
     <string name="onfido_permission_recovery_title_mic">Mikrofontilgang nektet</string>
     <string name="onfido_permission_body_mic">Vi kan ikke verifisere deg uten å bruke mikrofonen din</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Du kan gjenopprette mikrofontilgangen via enhetsinnstillingene</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Kontroller at tilkoblingen er stabil og prøv på nytt</string>
 	<string name="onfido_generic_back">tilbake</string>
     <string name="onfido_permission_body_both">Vi kan ikke verifisere deg uten å bruke både kameraet og mikrofonen din</string>
-    <string name="onfido_permission_button_primary_both">Aktiver begge</string>
+	<string name="onfido_permission_button_primary_both">Fortsett</string>
 	<string name="onfido_permission_recovery_subtitle_both">Gjenopprett kameratilgang for å ta en video og fullfør verifiseringsprosessen</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Du kan gjenopprette kamera- og mikrofontilgang via enhetsinnstillingene</string>
     <string name="onfido_permission_recovery_list_item_action_both">Gå til appinnstillinger og aktiver kamera- og mikrofontilgang for denne appen</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Start skanning</string>
+	<string name="onfido_nfc_scan_error_button_primary">Prøv skanningen på nytt</string>
     <string name="onfido_nfc_scan_error_button_secondary">Bli verifisert uten NFC</string>
     <string name="onfido_nfc_scan_error_title">Vi kunne ikke skanne dokumentet ditt</string>
 
@@ -501,12 +501,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Prøv å fjerne dekselet fra passet ditt eller etuiet fra telefonen din. Dette er for å unngå forstyrrelser med chipen.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Lukk passet ditt og legg det på et flatt underlag med forsiden opp.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Du må kanskje skyve telefonen sakte opp og ned mot passet ditt til du finner chipen.</string>
-	<string name="onfido_nfc_scan_error_document_title">Dokument støttes ikke</string>
+	<string name="onfido_nfc_scan_error_document_title">Ikke støttet dokument</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Vennligst prøv med et annet dokument</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Velg et annet dokument</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Avslutt verifisering</string>
 	<string name="onfido_nfc_scan_error_device_title">Ustøttet enhet</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Beklager eventuelle ulemper. Vennligst bruk en annen enhet for å verifisere identiteten din</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Vennligst bruk en enhet med NFC for å lese chipen i identitetsdokumentet ditt.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Avslutt verifisering</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Vi godtar bare dokumenter med en chip. Se etter dette ikonet på dokumentet ditt</string>
 	<string name="onfido_nfc_fail_card_title">Kan ikke skanne chipen. Trenger du hjelp?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Plasser telefonen mot innsiden av bakdekselet, slik at de berører hverandre.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Plasser telefonen mot passet ditt. Du må kanskje sakte skyve telefonen mot passet ditt.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Hold telefonen og dokumentet ditt i ro.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Vennligst bruk et annet dokument som har NFC. Se etter dette ikonet</string>
+	<string name="onfido_country_select_list_header_supported">Støttede land</string>
+	<string name="onfido_country_select_search_results">Resultater</string>
+	<string name="onfido_nfc_upload_error_title">Tilkoblingsfeil</string>
+	<string name="onfido_nfc_upload_error_subtitle">Kontroller at tilkoblingen er stabil og prøv på nytt</string>
+	<string name="onfido_nfc_upload_error_button_primary">Prøv å laste opp på nytt</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Det var et problem med dokumentet ditt</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Prøv igjen med et gyldig dokument, og sørg for at opplysningene dine er tydelig synlige</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Prøv på nytt</string>
+
+    <string name="onfido_country_selection_select_hint_accessibility">Dobbelttrykk for å velge et land</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Vi ber deg oppgi dokumentets %d-sifrede PIN-kode før vi skanner chipen.</string>
+	<string name="onfido_enter_pin_subtitle">Dette er nødvendig for å lese NFC-brikken på en sikker måte. Du opprettet dette %d-sifrede nummeret da dokumentet ditt ble utstedt.</string>
+	<string name="onfido_enter_pin_title">Skriv inn PIN-koden for dokumentet ditt</string>
+	<string name="onfido_enter_pin_title_incorrect">Feil PIN-kode</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d forsøk igjen</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 forsøk igjen. Brikken din blir blokkert etter neste mislykkede forsøk</string>
+	<string name="onfido_chip_blocked_title">NFC-brikke blokkert</string>
+	<string name="onfido_chip_blocked_subtitle">Dette er et sikkerhetstiltak for å forhindre svindel. Kontakt din lokale utstedende myndighet for å åpne brikken igjen.</string>
+	<string name="onfido_chip_blocked_button_help">Offentlig portal</string>
+	<string name="onfido_motion_passive_intro_title">Skann ansiktet ditt</string>
+	<string name="onfido_motion_passive_intro_subtitle">Bekreft identiteten din for å holde kontoen din trygg</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Sørg for at du er et sted med god belysning</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Fjern gjenstander som dekker ansiktet ditt, briller går fint</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Plasser ansiktet ditt i rammen for å starte skanningen</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Jeg er klar</string>
+	<string name="onfido_motion_passive_error_generic_title">Noe har gått galt</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Kom tilbake senere for å prøve igjen.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Avslutt autentisering</string>
+	<string name="onfido_motion_passive_retry_title">Autentisering mislyktes</string>
+	<string name="onfido_motion_passive_retry_subtitle">Prøv på nytt</string>
+	<string name="onfido_motion_passive_retry_button_primary">Prøv på nytt</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autentiserer …</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Verifiserer...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Autentisert</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Bekreftet</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentisering mislyktes</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Verifisering mislyktes</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Skanner</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d forsøk igjen. Hopp over dette trinnet nedenfor.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d forsøk igjen før NFC-brikken din blir blokkert. Hopp over dette trinnet nedenfor.</string>
+	<string name="onfido_enter_pin_button_primary">Fortsett</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Hopp over skanning av NFC-brikke</string>
+	<string name="onfido_chip_blocked_optional_title">Fortsett uten å skanne brikke</string>
+	<string name="onfido_chip_blocked_optional_subtitle">For mange feil PIN-oppføringer har blokkert NFC-brikken din, så vi hopper over dette trinnet. Kontakt myndighetene for å tilbakestille PIN-koden din for videre bruk.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Fortsett</string>
 </resources>

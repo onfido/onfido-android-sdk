@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">عکس تار است</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">بارکد شناسایی نشد</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">در مکانی با نور مناسب باشید و کارت را به دوربین نزدیک کنید</string>
-    <string name="onfido_permission_recovery_button_primary">فعالسازی در بخش تنظیمات</string>
+	<string name="onfido_permission_recovery_button_primary">باز کردن تنظیمات</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">اجازه استفاده از دوربین را بدهید</string>
     <string name="onfido_permission_subtitle_cam">وقتی از شما درخواست شد، برای ادامه کار، باید دسترسی به دوربین را فعال کنید</string>
 	<string name="onfido_permission_body_cam">ما نمی‌توانیم بدون دوربین هویت شما را تأیید کنیم</string>
-    <string name="onfido_permission_button_primary_cam">فعال کردن دوربین</string>
+	<string name="onfido_permission_button_primary_cam">ادامه</string>
 	<string name="onfido_permission_recovery_subtitle_cam">ما نمی‌توانیم بدون دوربین هویت شما را تأیید کنیم</string>
     <string name="onfido_permission_recovery_list_item_action_cam">به بخش تنظیمات برنامه بروید و دسترسی به دوربین را برای این برنامه فعال کنید</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">از بخش تنظیمات مرورگر خود، مجوز دسترسی به دوربین و میکروفون را بدهید</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">اجازه دسترسی به میکروفون را بدهید</string>
     <string name="onfido_permission_subtitle_mic">وقتی از شما درخواست شد، برای ادامه کار، باید دسترسی به میکروفون را فعال کنید</string>
-    <string name="onfido_permission_button_primary_mic">میکروفون را فعال کنید</string>
+	<string name="onfido_permission_button_primary_mic">ادامه</string>
     <string name="onfido_permission_recovery_title_mic">دسترسی به میکروفون رد شد</string>
     <string name="onfido_permission_body_mic">ما نمی‌توانیم بدون استفاده از میکروفون، هویت شما را تأیید کنیم</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">می‌توانید از طریق تنظیمات دستگاه خود دسترسی به میکروفون را مجدداً فعال کنید</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">بررسی کنید که اتصال اینترنت برقرار است، سپس دوباره سعی کنید</string>
 	<string name="onfido_generic_back">بازگشت</string>
     <string name="onfido_permission_body_both">ما نمی‌توانیم بدون استفاده از دوربین و میکروفون، هویت شما را تأیید کنیم</string>
-    <string name="onfido_permission_button_primary_both">دسترسی به هر دو را فعال کنید</string>
+	<string name="onfido_permission_button_primary_both">ادامه</string>
 	<string name="onfido_permission_recovery_subtitle_both">برای فیلم‌برداری و تکمیل فرآیند تأیید هویت، دسترسی به دوربین و میکروفن را مجدداً فعال کنید</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">می‌توانید از طریق تنظیمات دستگاه خود دسترسی به دوربین و میکروفون را مجدداً فعال کنید</string>
     <string name="onfido_permission_recovery_list_item_action_both">به بخش تنظیمات برنامه بروید و دسترسی به دوربین و میکروفون را برای این برنامه فعال کنید</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">شروع اسکن</string>
+	<string name="onfido_nfc_scan_error_button_primary">اسکن را دوباره تلاش کنید</string>
     <string name="onfido_nfc_scan_error_button_secondary">بدون NFC تأیید شوید</string>
     <string name="onfido_nfc_scan_error_title">نتوانستیم مدرک شما را اسکن کنیم</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">سعی کنید کاور گذرنامه خود را بردارید یا قاب تلفن خود را بردارید. این برای جلوگیری از تداخل با چیپ است.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">گذرنامه خود را ببندید و آن را روی یک سطح صاف با رویه جلو به بالا قرار دهید.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">ممکن است نیاز باشد که به آرامی گوشی خود را به پایین و بالا روی پاسپورت خود حرکت دهید تا چیپ را پیدا کنید.</string>
-	<string name="onfido_nfc_scan_error_document_title">سند پشتیبانی نمی شود</string>
+	<string name="onfido_nfc_scan_error_document_title">مدرک پشتیبانی‌نشده</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">لطفا با یک سند دیگر امتحان کنید</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">یک سند دیگر انتخاب کنید</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">تأیید خروج</string>
 	<string name="onfido_nfc_scan_error_device_title">دستگاه پشتیبانی نشده</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">با عرض پوزش برای هرگونه ناراحتی. لطفا از یک دستگاه دیگر برای تأیید هویت خود استفاده کنید</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">لطفاً از یک دستگاه مجهز به NFC برای خواندن چیپ موجود در مدرک هویتی خود استفاده کنید.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">تأیید خروج</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">ما فقط اسنادی را که چیپ دارند، پذیرفته می کنیم. به دنبال این آیکون در سند خود بگردید</string>
 	<string name="onfido_nfc_fail_card_title">قادر به اسکن کردن چیپ نیستید. نیاز به کمک دارید؟</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">گوشی خود را به قسمت داخلی جلد پشتی قرار دهید، به طوری که با هم تماس داشته باشند.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">گوشی خود را در مقابل گذرنامه خود قرار دهید. ممکن است لازم باشد گوشی خود را به آرامی در مقابل گذرنامه خود بکشید.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">تلفن و سند خود را ساکت نگه دارید.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">لطفاً از یک مدرک شناسایی دیگر که دارای قابلیت NFC است استفاده کنید. به دنبال این آیکون باشید</string>
+	<string name="onfido_country_select_list_header_supported">کشورهای پشتیبانی‌شده</string>
+	<string name="onfido_country_select_search_results">نتایج</string>
+	<string name="onfido_nfc_upload_error_title">خطای ارتباط</string>
+	<string name="onfido_nfc_upload_error_subtitle">بررسی کنید که اتصال اینترنت برقرار است، سپس دوباره سعی کنید</string>
+	<string name="onfido_nfc_upload_error_button_primary">بارگذاری مجدد</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">مشکلی با سند شما وجود داشت</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">لطفاً دوباره با یک مدرک معتبر تلاش کنید و مطمئن شوید که اطلاعات شما به‌وضوح قابل مشاهده است</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">سعی مجدد</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">برای انتخاب یک کشور، دو بار ضربه بزنید</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">پیش از اسکن تراشه، از شما می‌خواهیم %d رقمِ PIN سند خود را وارد کنید.</string>
+	<string name="onfido_enter_pin_subtitle">این مورد برای خواندن امن تراشه NFC لازم است. شما این عدد %d رقمی را زمانی ایجاد کردید که سند شما صادر شد.</string>
+	<string name="onfido_enter_pin_title">رمز پین سند خود را وارد کنید</string>
+	<string name="onfido_enter_pin_title_incorrect">رمز عبور نادرست</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d تلاش باقی‌مانده</string>
+	<string name="onfido_enter_pin_helper_final_attempt">۱ تلاش باقی مانده است. در صورت ناموفق بودن تلاش بعدی، چیپ شما مسدود خواهد شد</string>
+	<string name="onfido_chip_blocked_title">تراشه NFC مسدود شد</string>
+	<string name="onfido_chip_blocked_subtitle">این یک اقدام امنیتی برای جلوگیری از تقلب است. برای باز کردن قفل چیپ خود، با مرجع صادرکننده محلی‌تان تماس بگیرید.</string>
+	<string name="onfido_chip_blocked_button_help">درگاه دولتی</string>
+	<string name="onfido_motion_passive_intro_title">چهره خود را اسکن کنید</string>
+	<string name="onfido_motion_passive_intro_subtitle">برای حفظ امنیت حسابتان، هویت خود را تأیید کنید</string>
+	<string name="onfido_motion_passive_intro_list_item_one">مطمئن شوید در مکانی با نور مناسب قرار دارید</string>
+	<string name="onfido_motion_passive_intro_list_item_two">مواردی را که صورتتان را می‌پوشانند بردارید، عینک اشکالی ندارد</string>
+	<string name="onfido_motion_passive_intro_list_item_three">صورت خود را در قاب قرار دهید تا اسکن آغاز شود</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">من آماده‌ام</string>
+	<string name="onfido_motion_passive_error_generic_title">چیزی اشتباه شده است</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">لطفاً بعداً برگردید و دوباره امتحان کنید.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">خروج از احراز هویت</string>
+	<string name="onfido_motion_passive_retry_title">احراز هویت ناموفق بود</string>
+	<string name="onfido_motion_passive_retry_subtitle">لطفاً دوباره سعی کنید</string>
+	<string name="onfido_motion_passive_retry_button_primary">سعی مجدد</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">در حال احراز هویت…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">در حال تأیید...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">احراز هویت شد</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">تأیید شده</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">احراز هویت ناموفق بود</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">تأیید ناموفق بود</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">در حال اسکن</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d تلاش باقی مانده است. از مرحلهٔ زیر صرف‌نظر کنید.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d تلاش دیگر تا زمانی که تراشه NFC شما مسدود شود باقی مانده است. این مرحله را در زیر رد کنید.</string>
+	<string name="onfido_enter_pin_button_primary">ادامه</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">رد کردن اسکن تراشه NFC</string>
+	<string name="onfido_chip_blocked_optional_title">ادامه بدون اسکن تراشه</string>
+	<string name="onfido_chip_blocked_optional_subtitle">تعداد زیاد ورود نادرست PIN باعث مسدود شدن تراشه NFC شما شده است، بنابراین این مرحله را رد می‌کنیم. برای تنظیم مجدد PIN جهت استفاده‌های بعدی، با مراجع مربوطه تماس بگیرید.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">ادامه</string>
 </resources>

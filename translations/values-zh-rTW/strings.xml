@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">偵測到模糊的相片</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">未偵測到條碼</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">請放在光線充足的地方，並將卡片靠近相機</string>
-    <string name="onfido_permission_recovery_button_primary">在設定中啟用</string>
+	<string name="onfido_permission_recovery_button_primary">開啟設定</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">允許相機存取</string>
     <string name="onfido_permission_subtitle_cam">出現提示時，您必須允許使用相機才能繼續</string>
 	<string name="onfido_permission_body_cam">不使用相機，我們無法驗證您的身份</string>
-    <string name="onfido_permission_button_primary_cam">啟用相機</string>
+	<string name="onfido_permission_button_primary_cam">繼續</string>
 	<string name="onfido_permission_recovery_subtitle_cam">不使用相機，我們無法驗證您的身份</string>
     <string name="onfido_permission_recovery_list_item_action_cam">前往應用程式設定，為此應用程式啟用相機存取功能</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">您可以透過裝置設定恢復相機存取權限</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">允許麥克風存取</string>
     <string name="onfido_permission_subtitle_mic">出現提示時，您必須啟用麥克風存取權限才能繼續</string>
-    <string name="onfido_permission_button_primary_mic">啟用麥克風</string>
+	<string name="onfido_permission_button_primary_mic">繼續</string>
     <string name="onfido_permission_recovery_title_mic">麥克風存取被拒絕</string>
     <string name="onfido_permission_body_mic">若不使用麥克風，我們無法驗證您的身份</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">您可以透過裝置設定恢復麥克風存取權限</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">請檢查您的連線是否穩定，然後再試一次</string>
 	<string name="onfido_generic_back">返回</string>
     <string name="onfido_permission_body_both">若不同時使用相機和麥克風，我們無法驗證您的身份</string>
-    <string name="onfido_permission_button_primary_both">同時啟用兩者</string>
+	<string name="onfido_permission_button_primary_both">繼續</string>
 	<string name="onfido_permission_recovery_subtitle_both">恢復相機和麥克風存取權限，以拍攝影片，並完成驗證流程</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">您可以透過裝置設定恢復相機和麥克風存取權限</string>
     <string name="onfido_permission_recovery_list_item_action_both">前往應用程式設定，為此應用程式啟用相機和麥克風存取權限</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">開始掃描</string>
+	<string name="onfido_nfc_scan_error_button_primary">重新掃描</string>
     <string name="onfido_nfc_scan_error_button_secondary">無需NFC即可獲得驗證</string>
     <string name="onfido_nfc_scan_error_title">我們無法掃描您的文件</string>
 
@@ -500,12 +500,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">嘗試從您的護照上移除保護套，或從您的手機上移除殼。這是為了避免與晶片產生干擾。</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">將您的護照關閉，並將其正面朝上放在平坦的表面上。</string>
     <string name="onfido_nfc_fail_passport_list_item_4">您可能需要慢慢地將手機向上和向下滑動在您的護照上，直到您找到晶片。</string>
-	<string name="onfido_nfc_scan_error_document_title">不支援的文件</string>
+	<string name="onfido_nfc_scan_error_document_title">不支援的證件</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">請嘗試使用另一份文件</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">選擇另一份文件</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">退出驗證</string>
 	<string name="onfido_nfc_scan_error_device_title">不支援的裝置</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">對於任何不便，我們深感抱歉。請使用不同的裝置來驗證您的身份</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">請使用支援 NFC 功能的裝置來讀取您身分證件中的晶片。</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">退出驗證</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">我們只接受帶有晶片的文件。請在您的文件上尋找此圖標</string>
 	<string name="onfido_nfc_fail_card_title">無法掃描晶片。需要幫助嗎？</string>
@@ -581,4 +581,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">請將您的手機靠在內頁背面，使兩者相互接觸。</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">將您的手機靠近護照。您可能需要緩慢地將手機在護照上滑動。</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">保持您的手機和證件不動。</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">請使用另一份具有 NFC 功能的證件。請尋找此圖示</string>
+	<string name="onfido_country_select_list_header_supported">支援的國家</string>
+	<string name="onfido_country_select_search_results">結果</string>
+	<string name="onfido_nfc_upload_error_title">連線錯誤</string>
+	<string name="onfido_nfc_upload_error_subtitle">請檢查您的連線是否穩定，然後再試一次</string>
+	<string name="onfido_nfc_upload_error_button_primary">重新嘗試上傳</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">您的文件出現了問題</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">請使用有效的證件重試,並確保您的資訊清晰可見</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">再試一次</string>
+
+    <string name="onfido_country_selection_select_hint_accessibility">點兩下以選擇國家</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">我們會在掃描晶片前要求您提供文件的 %d 位數 PIN 碼。</string>
+	<string name="onfido_enter_pin_subtitle">這是安全讀取 NFC 晶片所需的資訊。您在文件核發時建立了這組 %d 位數的號碼。</string>
+	<string name="onfido_enter_pin_title">輸入您的文件 PIN 碼</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN 碼錯誤</string>
+	<string name="onfido_enter_pin_helper_attempts_left">剩餘 %d 次嘗試機會</string>
+	<string name="onfido_enter_pin_helper_final_attempt">剩餘 1 次嘗試機會。下次嘗試失敗後,您的晶片將被鎖定</string>
+	<string name="onfido_chip_blocked_title">NFC 晶片已被封鎖</string>
+	<string name="onfido_chip_blocked_subtitle">這是防止詐欺的安全措施。請聯絡您當地的核發機關以解除晶片封鎖。</string>
+	<string name="onfido_chip_blocked_button_help">政府入口網站</string>
+	<string name="onfido_motion_passive_intro_title">掃描您的臉部</string>
+	<string name="onfido_motion_passive_intro_subtitle">確認您的身分以保護您的帳戶安全</string>
+	<string name="onfido_motion_passive_intro_list_item_one">確保您處於光線充足的地方</string>
+	<string name="onfido_motion_passive_intro_list_item_two">移除遮蓋臉部的物品,眼鏡可以保留</string>
+	<string name="onfido_motion_passive_intro_list_item_three">將您的臉部置於框架內以開始掃描</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">我準備好了</string>
+	<string name="onfido_motion_passive_error_generic_title">出了些問題</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">請稍後再試。</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">結束驗證</string>
+	<string name="onfido_motion_passive_retry_title">驗證失敗</string>
+	<string name="onfido_motion_passive_retry_subtitle">請再試一次</string>
+	<string name="onfido_motion_passive_retry_button_primary">再試一次</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">正在驗證…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">驗證中...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">已驗證</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">已驗證</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">驗證失敗</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">驗證失敗</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">掃描中</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d 次嘗試機會。在下方跳過此步驟。</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d 次嘗試機會後,您的 NFC 晶片將被鎖定。請在下方跳過此步驟。</string>
+	<string name="onfido_enter_pin_button_primary">繼續</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">略過 NFC 晶片掃描</string>
+	<string name="onfido_chip_blocked_optional_title">不掃描晶片繼續</string>
+	<string name="onfido_chip_blocked_optional_subtitle">由於 PIN 碼輸入錯誤次數過多,您的 NFC 晶片已被鎖定,因此我們將跳過此步驟。請聯絡相關機構重設您的 PIN 碼以供日後使用。</string>
+	<string name="onfido_chip_blocked_optional_button_primary">繼續</string>
 </resources>

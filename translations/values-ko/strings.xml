@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">흐릿한 사진이 감지되었습니다</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">바코드가 감지되지 않습니다</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">조명이 밝은 곳에 자리를 잡고 카드를 카메라 가까이로 가져가세요</string>
-    <string name="onfido_permission_recovery_button_primary">설정에서 접근 허용</string>
+	<string name="onfido_permission_recovery_button_primary">설정 열기</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">카메라 접근 권한 허용</string>
     <string name="onfido_permission_subtitle_cam">계속하려면 안내 메시지가 표시될 때 카메라에 대한 접근 권한을 허용하셔야 합니다</string>
 	<string name="onfido_permission_body_cam">카메라 없이는 본인 인증 작업을 진행할 수 없습니다</string>
-    <string name="onfido_permission_button_primary_cam">카메라 활성화</string>
+	<string name="onfido_permission_button_primary_cam">계속</string>
 	<string name="onfido_permission_recovery_subtitle_cam">카메라 없이는 본인 인증 작업을 진행할 수 없습니다</string>
     <string name="onfido_permission_recovery_list_item_action_cam">앱 설정으로 이동하여 이 앱에 카메라 접근 권한을 허용하세요</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">기기 설정에서 카메라 접근 권한을 복원할 수 있습니다</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">마이크에 대한 접근 권한 허용</string>
     <string name="onfido_permission_subtitle_mic">계속하려면 안내 메시지가 표시될 때 마이크에 대한 접근 권한을 허용하셔야 합니다</string>
-    <string name="onfido_permission_button_primary_mic">마이크 사용하기</string>
+	<string name="onfido_permission_button_primary_mic">계속</string>
     <string name="onfido_permission_recovery_title_mic">마이크 접근 권한이 거부되었습니다</string>
     <string name="onfido_permission_body_mic">마이크를 사용하지 않고서는 본인 인증 절차를 진행할 수 없습니다</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">기기 설정에서 마이크 접근 권한을 복원할 수 있습니다</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">연결이 안정적인지 확인한 다음 다시 시도하세요</string>
 	<string name="onfido_generic_back">뒤로</string>
     <string name="onfido_permission_body_both">카메라와 마이크 기능 둘 다를 사용하지 않고서는 본인 인증 절차를 진행할 수 없습니다</string>
-    <string name="onfido_permission_button_primary_both">둘 다 사용</string>
+	<string name="onfido_permission_button_primary_both">계속</string>
 	<string name="onfido_permission_recovery_subtitle_both">동영상을 촬영하고 인증 절차를 완료하려면 카메라 및 마이크에 대한 접근 권한을 복원하세요</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">기기 설정에서 카메라와 마이크 접근 권한을 복원할 수 있습니다</string>
     <string name="onfido_permission_recovery_list_item_action_both">앱 설정으로 이동하여 이 앱에 카메라와 마이크 접근 권한을 허용하세요</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">스캔 시작</string>
+	<string name="onfido_nfc_scan_error_button_primary">스캔 다시 시도</string>
     <string name="onfido_nfc_scan_error_button_secondary">NFC 없이 인증 받기</string>
     <string name="onfido_nfc_scan_error_title">서류를 스캔할 수 없습니다</string>
 
@@ -507,7 +507,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">다른 문서를 선택하십시오</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">출구 확인</string>
 	<string name="onfido_nfc_scan_error_device_title">지원되지 않는 장치</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">불편을 드려 죄송합니다. 다른 장치를 사용하여 본인 확인을 해주십시오</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">NFC 기능이 지원되는 기기를 사용하여 신분증의 칩을 읽어주세요.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">출구 확인</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">우리는 칩이 있는 문서만을 받아들입니다. 문서에서 이 아이콘을 찾아보세요</string>
 	<string name="onfido_nfc_fail_card_title">칩을 스캔할 수 없습니다. 도움이 필요하신가요?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">휴대폰을 안쪽 뒷면 커버에 대어 서로 닿도록 하세요.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">휴대폰을 여권에 대세요. 천천히 휴대폰을 여권에 밀어야 할 수도 있습니다.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">휴대폰과 신분증을 가만히 두세요.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">NFC 기능이 있는 다른 신분증을 사용해 주세요. 이 아이콘을 찾아보세요</string>
+	<string name="onfido_country_select_list_header_supported">지원되는 국가</string>
+	<string name="onfido_country_select_search_results">결과</string>
+	<string name="onfido_nfc_upload_error_title">연결 오류 발생</string>
+	<string name="onfido_nfc_upload_error_subtitle">연결이 안정적인지 확인한 다음 다시 시도하세요</string>
+	<string name="onfido_nfc_upload_error_button_primary">다시 업로드 시도하기</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">문서에 문제가 있었습니다</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">유효한 문서로 다시 시도하고, 정보가 또렷하게 보이도록 해주세요</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">다시 시도하기</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">국가를 선택하려면 두 번 탭하세요</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">칩을 스캔하기 전에 문서의 %d자리 PIN을 요청합니다.</string>
+	<string name="onfido_enter_pin_subtitle">이는 NFC 칩을 안전하게 읽기 위해 필요합니다. 이 %d자리 숫자는 문서가 발급될 때 사용자가 생성한 것입니다.</string>
+	<string name="onfido_enter_pin_title">문서 PIN을 입력하세요</string>
+	<string name="onfido_enter_pin_title_incorrect">잘못된 PIN</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d번 남음</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1번의 시도만 남았습니다. 다음 시도가 실패하면 칩이 차단됩니다</string>
+	<string name="onfido_chip_blocked_title">NFC 칩이 차단됨</string>
+	<string name="onfido_chip_blocked_subtitle">이는 사기를 방지하기 위한 보안 조치입니다. 칩 잠금을 해제하려면 가까운 발급 기관에 문의하세요.</string>
+	<string name="onfido_chip_blocked_button_help">정부 포털</string>
+	<string name="onfido_motion_passive_intro_title">얼굴을 스캔합니다</string>
+	<string name="onfido_motion_passive_intro_subtitle">본인 확인으로 계정을 안전하게 보호하세요</string>
+	<string name="onfido_motion_passive_intro_list_item_one">조명이 잘 갖춰진 장소에 있는지 확인하세요</string>
+	<string name="onfido_motion_passive_intro_list_item_two">얼굴을 가리는 물건은 제거하세요. 안경은 괜찮습니다.</string>
+	<string name="onfido_motion_passive_intro_list_item_three">스캔을 시작하려면 얼굴을 프레임 안에 맞춰 주세요</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">준비됐어요</string>
+	<string name="onfido_motion_passive_error_generic_title">무언가 잘못되었습니다</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">나중에 다시 시도하러 와 주세요.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">인증 종료</string>
+	<string name="onfido_motion_passive_retry_title">인증에 실패했습니다</string>
+	<string name="onfido_motion_passive_retry_subtitle">다시 시도해주세요</string>
+	<string name="onfido_motion_passive_retry_button_primary">다시 시도하기</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">인증하는 중…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">확인하는 중...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">인증됨</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">인증됨</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">인증에 실패했습니다</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">인증에 실패했습니다</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">스캔하는 중</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d회 남았습니다. 아래에서 이 단계를 건너뛰세요.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d번 남으면 NFC 칩이 차단됩니다. 아래에서 이 단계를 건너뛰세요.</string>
+	<string name="onfido_enter_pin_button_primary">계속</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">NFC 칩 스캔 건너뛰기</string>
+	<string name="onfido_chip_blocked_optional_title">칩 스캔 없이 계속하기</string>
+	<string name="onfido_chip_blocked_optional_subtitle">PIN을 여러 번 잘못 입력하여 NFC 칩이 차단되었으므로, 이 단계를 건너뛰겠습니다. 앞으로 사용하시려면 PIN 재설정을 위해 관계 기관에 문의하세요.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">계속</string>
 </resources>

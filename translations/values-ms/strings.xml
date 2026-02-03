@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Negara cadangan</string>
     <string name="onfido_country_select_list_header_all">Semua negara</string>
-    <string name="onfido_app_title_country_select_search">Carian</string>
+	<string name="onfido_app_title_country_select_search">Cari</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">Cuba ambil gambar secara manual</string>
     <string name="onfido_doc_confirmation_alert_blur_title">Gambar kabur dikesan</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Kod bar tidak dikesan</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Berada di tempat yang terang dan dekatkan kad dengan kamera</string>
-    <string name="onfido_permission_recovery_button_primary">Dayakannya pada tetapan</string>
+	<string name="onfido_permission_recovery_button_primary">Buka tetapan</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Benarkan akses kamera</string>
     <string name="onfido_permission_subtitle_cam">Apabila digesa, anda mesti mendayakan akses kamera untuk meneruskannya</string>
 	<string name="onfido_permission_body_cam">Kami tidak dapat mengesahkan anda tanpa kamera anda</string>
-    <string name="onfido_permission_button_primary_cam">Dayakan kamera</string>
+	<string name="onfido_permission_button_primary_cam">Sambung</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Kami tidak dapat mengesahkan anda tanpa kamera anda</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Pergi ke tetapan aplikasi dan dayakan akses kamera untuk aplikasi ini</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Anda boleh mengembalikan akses kamera melalui tetapan peranti anda</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Benarkan akses mikrofon</string>
     <string name="onfido_permission_subtitle_mic">Apabila digesa, anda mesti mendayakan akses mikrofon untuk meneruskannya</string>
-    <string name="onfido_permission_button_primary_mic">Dayakan mikrofon</string>
+	<string name="onfido_permission_button_primary_mic">Sambung</string>
     <string name="onfido_permission_recovery_title_mic">Akses mikrofon tidak dibenarkan</string>
     <string name="onfido_permission_body_mic">Kami tidak dapat mengesahkan anda tanpa menggunakan mikrofon anda</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Anda boleh mengembalikan akses mikrofon melalui tetapan peranti anda</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Sila periksa sama ada sambungan anda stabil dan cuba lagi kemudian</string>
 	<string name="onfido_generic_back">belakang</string>
     <string name="onfido_permission_body_both">Kami tidak dapat mengesahkan anda tanpa menggunakan kamera dan juga mikrofon anda</string>
-    <string name="onfido_permission_button_primary_both">Dayakan kedua-duanya</string>
+	<string name="onfido_permission_button_primary_both">Sambung</string>
 	<string name="onfido_permission_recovery_subtitle_both">Kembalikan akses kamera dan mikrofon untuk merakam video dan melengkapkan proses pengesahan</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Anda boleh mengembalikan semula akses mikrofon melalui tetapan peranti anda</string>
     <string name="onfido_permission_recovery_list_item_action_both">Pergi ke tetapan aplikasi dan dayakan akses kamera dan mikrofon untuk aplikasi ini</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Mulakan imbasan</string>
+	<string name="onfido_nfc_scan_error_button_primary">Cuba imbas semula</string>
     <string name="onfido_nfc_scan_error_button_secondary">Dapatkan pengesahan tanpa NFC</string>
     <string name="onfido_nfc_scan_error_title">Kami tidak dapat mengimbas dokumen anda</string>
 
@@ -506,7 +506,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">Pilih dokumen lain</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Pengesahan keluar</string>
 	<string name="onfido_nfc_scan_error_device_title">Peranti tidak disokong</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Maaf atas sebarang kesulitan. Sila gunakan peranti yang berbeza untuk mengesahkan identiti anda</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Sila gunakan peranti yang menyokong NFC untuk membaca cip dalam dokumen pengenalan anda.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Pengesahan keluar</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Kami hanya menerima dokumen dengan cip. Cari ikon ini pada dokumen anda</string>
 	<string name="onfido_nfc_fail_card_title">Tidak dapat mengimbas cip. Perlukan bantuan?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Letakkan telefon anda pada bahagian dalam penutup belakang, supaya ia bersentuhan.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Letakkan telefon anda pada pasport anda. Anda mungkin perlu perlahan-lahan menggeser telefon anda pada pasport anda.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Kekalkan telefon dan dokumen anda dalam keadaan tetap.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Sila gunakan dokumen lain yang mempunyai NFC. Cari ikon ini</string>
+	<string name="onfido_country_select_list_header_supported">Negara yang disokong</string>
+	<string name="onfido_country_select_search_results">Keputusan</string>
+	<string name="onfido_nfc_upload_error_title">Ralat sambungan</string>
+	<string name="onfido_nfc_upload_error_subtitle">Sila periksa sama ada sambungan anda stabil dan cuba lagi kemudian</string>
+	<string name="onfido_nfc_upload_error_button_primary">Cuba muat naik semula</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Ada masalah dengan dokumen anda</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Sila cuba lagi dengan dokumen yang sah dan pastikan maklumat anda jelas kelihatan</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Cuba lagi</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Dwi ketik untuk memilih negara</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Kami akan meminta PIN %d digit untuk dokumen anda sebelum mengimbas cip.</string>
+	<string name="onfido_enter_pin_subtitle">Ini diperlukan untuk membaca cip NFC dengan selamat. Anda mencipta nombor %d digit ini apabila dokumen anda dikeluarkan.</string>
+	<string name="onfido_enter_pin_title">Masukkan PIN dokumen anda</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN tidak betul</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d percubaan berbaki</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 percubaan berbaki. Cip anda akan disekat selepas percubaan gagal seterusnya</string>
+	<string name="onfido_chip_blocked_title">Cip NFC disekat</string>
+	<string name="onfido_chip_blocked_subtitle">Ini adalah langkah keselamatan untuk mencegah penipuan. Hubungi pihak berkuasa pengeluar tempatan anda untuk menyahsekat cip anda.</string>
+	<string name="onfido_chip_blocked_button_help">Portal kerajaan</string>
+	<string name="onfido_motion_passive_intro_title">Imbas wajah anda</string>
+	<string name="onfido_motion_passive_intro_subtitle">Sahkan identiti anda untuk memastikan akaun anda kekal selamat</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Pastikan anda berada di tempat dengan pencahayaan yang baik</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Tanggalkan barang yang menutupi muka anda, cermin mata dibenarkan</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Posisikan muka anda dalam bingkai untuk memulakan imbasan</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Saya sudah bersedia</string>
+	<string name="onfido_motion_passive_error_generic_title">Sesuatu telah berlaku salah</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Sila datang semula kemudian untuk mencuba lagi.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Keluar pengesahan</string>
+	<string name="onfido_motion_passive_retry_title">Pengesahan gagal</string>
+	<string name="onfido_motion_passive_retry_subtitle">Sila cuba lagi</string>
+	<string name="onfido_motion_passive_retry_button_primary">Cuba lagi</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Mengesahkan…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Mengelaskan...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Disahkan</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Disahkan</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Pengesahan gagal</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Pengesahan gagal</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Mengimbas</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d percubaan berbaki. Langkau langkah ini di bawah.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d percubaan berbaki sebelum cip NFC anda disekat. Langkau langkah ini di bawah.</string>
+	<string name="onfido_enter_pin_button_primary">Sambung</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Langkau pengimbasan cip NFC</string>
+	<string name="onfido_chip_blocked_optional_title">Teruskan tanpa mengimbas cip</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Terlalu banyak percubaan PIN yang salah telah menyekat cip NFC anda, jadi kami akan melangkau langkah ini. Hubungi pihak berkuasa anda untuk menetapkan semula PIN anda bagi penggunaan pada masa hadapan.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Sambung</string>
 </resources>

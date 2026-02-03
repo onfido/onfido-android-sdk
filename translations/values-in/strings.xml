@@ -100,13 +100,13 @@
     <string name="onfido_doc_confirmation_alert_blur_title">Foto buram terdeteksi</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Barcode tidak terdeteksi</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Tetap di tempat yang terang dan dekatkan kartu ke kamera</string>
-    <string name="onfido_permission_recovery_button_primary">Aktifkan di pengaturan</string>
+	<string name="onfido_permission_recovery_button_primary">Buka pengaturan</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Izinkan akses kamera</string>
     <string name="onfido_permission_subtitle_cam">Saat diminta, Anda harus mengaktifkan akses kamera untuk melanjutkan</string>
 	<string name="onfido_permission_body_cam">Kami tidak dapat memverifikasi Anda tanpa kamera Anda</string>
-    <string name="onfido_permission_button_primary_cam">Aktifkan kamera</string>
+	<string name="onfido_permission_button_primary_cam">Lanjutkan</string>
 	<string name="onfido_permission_recovery_subtitle_cam">Kami tidak dapat memverifikasi Anda tanpa kamera Anda</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Buka pengaturan aplikasi dan aktifkan akses kamera untuk aplikasi ini</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">Anda dapat memulihkan akses kamera melalui pengaturan perangkat Anda</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Izinkan akses mikrofon</string>
     <string name="onfido_permission_subtitle_mic">Saat diminta, Anda harus mengaktifkan akses mikrofon untuk melanjutkan</string>
-    <string name="onfido_permission_button_primary_mic">Aktifkan mikrofon</string>
+	<string name="onfido_permission_button_primary_mic">Lanjutkan</string>
     <string name="onfido_permission_recovery_title_mic">Akses mikrofon ditolak</string>
     <string name="onfido_permission_body_mic">Kami tidak dapat memverifikasi Anda tanpa menggunakan mikrofon Anda</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">Anda dapat memulihkan akses mikrofon melalui pengaturan perangkat Anda</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Periksa apakah koneksi Anda stabil, lalu coba lagi</string>
 	<string name="onfido_generic_back">kembali</string>
     <string name="onfido_permission_body_both">Kami tidak dapat memverifikasi Anda tanpa menggunakan kamera dan mikrofon Anda</string>
-    <string name="onfido_permission_button_primary_both">Aktifkan keduanya</string>
+	<string name="onfido_permission_button_primary_both">Lanjutkan</string>
 	<string name="onfido_permission_recovery_subtitle_both">Pulihkan akses kamera dan mikrofon untuk mengambil video dan selesaikan proses verifikasi</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">Anda dapat memulihkan akses kamera dan mikrofon melalui pengaturan perangkat Anda</string>
     <string name="onfido_permission_recovery_list_item_action_both">Buka pengaturan aplikasi dan aktifkan akses kamera dan mikrofon untuk aplikasi ini</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Mulai pemindaian</string>
+	<string name="onfido_nfc_scan_error_button_primary">Coba pindai lagi</string>
     <string name="onfido_nfc_scan_error_button_secondary">Dapatkan verifikasi tanpa NFC</string>
     <string name="onfido_nfc_scan_error_title">Kami tidak dapat memindai dokumen Anda</string>
 
@@ -507,7 +507,7 @@
 	<string name="onfido_nfc_scan_error_document_primary_button">Pilih dokumen lain</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Verifikasi keluar</string>
 	<string name="onfido_nfc_scan_error_device_title">Perangkat tidak didukung</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Maaf atas ketidaknyamanan. Silakan gunakan perangkat lain untuk memverifikasi identitas Anda</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Silakan gunakan perangkat yang mendukung NFC untuk membaca chip pada dokumen identitas Anda.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Verifikasi keluar</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">Kami hanya menerima dokumen dengan chip. Cari ikon ini pada dokumen Anda</string>
 	<string name="onfido_nfc_fail_card_title">Tidak dapat memindai chip. Butuh bantuan?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Letakkan ponsel Anda di bagian dalam sampul belakang, sehingga keduanya bersentuhan.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Letakkan ponsel Anda di atas paspor Anda. Anda mungkin perlu perlahan-lahan menggeser ponsel Anda di atas paspor Anda.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Jaga agar ponsel dan dokumen Anda tetap diam.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Silakan gunakan dokumen lain yang mendukung NFC. Cari ikon ini</string>
+	<string name="onfido_country_select_list_header_supported">Negara yang didukung</string>
+	<string name="onfido_country_select_search_results">Hasil</string>
+	<string name="onfido_nfc_upload_error_title">Koneksi terganggu</string>
+	<string name="onfido_nfc_upload_error_subtitle">Periksa apakah koneksi Anda stabil, lalu coba lagi</string>
+	<string name="onfido_nfc_upload_error_button_primary">Coba unggah lagi</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Ada masalah dengan dokumen Anda</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Silakan coba lagi dengan dokumen yang valid dan pastikan informasi Anda terlihat dengan jelas</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Coba lagi</string>
+
+    <string name="onfido_country_selection_select_hint_accessibility">Ketuk dua kali untuk memilih negara</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">Kami akan meminta PIN %d digit dokumen Anda sebelum memindai chip.</string>
+	<string name="onfido_enter_pin_subtitle">Ini diperlukan untuk membaca chip NFC dengan aman. Anda membuat nomor %d digit ini saat dokumen Anda diterbitkan.</string>
+	<string name="onfido_enter_pin_title">Masukkan PIN dokumen Anda</string>
+	<string name="onfido_enter_pin_title_incorrect">PIN Salah</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d percobaan tersisa</string>
+	<string name="onfido_enter_pin_helper_final_attempt">Tersisa 1 percobaan. Chip Anda akan diblokir setelah percobaan gagal berikutnya</string>
+	<string name="onfido_chip_blocked_title">Chip NFC diblokir</string>
+	<string name="onfido_chip_blocked_subtitle">Ini adalah langkah keamanan untuk mencegah penipuan. Hubungi otoritas penerbit setempat Anda untuk membuka blokir chip Anda.</string>
+	<string name="onfido_chip_blocked_button_help">Portal pemerintah</string>
+	<string name="onfido_motion_passive_intro_title">Memindai wajah Anda</string>
+	<string name="onfido_motion_passive_intro_subtitle">Konfirmasi identitas Anda untuk menjaga keamanan akun Anda</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Pastikan Anda berada di tempat dengan pencahayaan yang baik</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Lepaskan benda yang menutupi wajah Anda, kacamata tidak masalah</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Posisikan wajah Anda di dalam bingkai untuk memulai pemindaian</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Saya siap</string>
+	<string name="onfido_motion_passive_error_generic_title">Ada yang salah</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Silakan kembali lagi nanti untuk mencoba kembali.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Keluar autentikasi</string>
+	<string name="onfido_motion_passive_retry_title">Autentikasi gagal</string>
+	<string name="onfido_motion_passive_retry_subtitle">Silakan mencoba lagi</string>
+	<string name="onfido_motion_passive_retry_button_primary">Coba lagi</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Mengautentikasi…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Memverifikasi...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Terautentikasi</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Terverifikasi</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentikasi gagal</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Verifikasi gagal</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Memindai</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d percobaan tersisa. Lewati langkah ini di bawah.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d percobaan tersisa sebelum chip NFC Anda diblokir. Lewati langkah ini di bawah.</string>
+	<string name="onfido_enter_pin_button_primary">Lanjutkan</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">Lewati pemindaian chip NFC</string>
+	<string name="onfido_chip_blocked_optional_title">Lanjutkan tanpa memindai chip</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Terlalu banyak entri PIN yang salah telah memblokir chip NFC Anda, jadi kami akan melewati langkah ini. Hubungi pihak berwenang Anda untuk mengatur ulang PIN Anda untuk penggunaan di masa mendatang.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Lanjutkan</string>
 </resources>

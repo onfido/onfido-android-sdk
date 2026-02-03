@@ -95,18 +95,18 @@
     <!-- Country Suggestion/Selection -->
     <string name="onfido_country_select_list_header_suggested">Voorgesteld land</string>
     <string name="onfido_country_select_list_header_all">Alle landen</string>
-    <string name="onfido_app_title_country_select_search">Zoek op</string>
+	<string name="onfido_app_title_country_select_search">Zoeken</string>
     <string name="onfido_doc_capture_alert_manual_capture_title">Probeer handmatig een foto te nemen</string>
     <string name="onfido_doc_confirmation_alert_blur_title">Onscherpe foto gedetecteerd</string>
     <string name="onfido_doc_capture_alert_no_barcode_title">Streepjescode niet gedetecteerd</string>
     <string name="onfido_doc_capture_alert_no_barcode_detail">Ga op een goed verlichte plek staan en houd de kaart dichter bij de camera</string>
-    <string name="onfido_permission_recovery_button_primary">Inschakelen in instellingen</string>
+	<string name="onfido_permission_recovery_button_primary">Open instellingen</string>
 
     <!-- Camera Permissions -->
     <string name="onfido_permission_title_cam">Toegang tot camera toestaan</string>
     <string name="onfido_permission_subtitle_cam">Als u daarom gevraagd wordt, moet u toegang tot de camera inschakelen om door te gaan</string>
 	<string name="onfido_permission_body_cam">We kunnen u niet verifiëren zonder camera</string>
-    <string name="onfido_permission_button_primary_cam">Camera inschakelen</string>
+	<string name="onfido_permission_button_primary_cam">Doorgaan</string>
 	<string name="onfido_permission_recovery_subtitle_cam">We kunnen u niet verifiëren zonder camera</string>
     <string name="onfido_permission_recovery_list_item_action_cam">Ga naar de instellingen van de app en schakel toegang tot de camera in voor deze app</string>
     <string name="onfido_permission_recovery_list_item_how_to_cam">U kunt toegang tot de camera herstellen via de instellingen van uw apparaat</string>
@@ -116,7 +116,7 @@
     <!-- Microphone Permissions -->
     <string name="onfido_permission_title_mic">Sta toegang toe tot microfoon</string>
     <string name="onfido_permission_subtitle_mic">Als u daarom gevraagd wordt, moet u toegang tot de microfoon inschakelen om door te gaan</string>
-    <string name="onfido_permission_button_primary_mic">Schakel microfoon in</string>
+	<string name="onfido_permission_button_primary_mic">Doorgaan</string>
     <string name="onfido_permission_recovery_title_mic">Toegang tot microfoon geweigerd</string>
     <string name="onfido_permission_body_mic">We kunnen u niet verifiëren zonder uw microfoon te gebruiken</string>
     <string name="onfido_permission_recovery_list_item_how_to_mic">U kunt toegang tot de microfoon herstellen via de instellingen van uw apparaat</string>
@@ -133,7 +133,7 @@
     <string name="onfido_video_capture_prompt_network_timeout_detail">Controleer of uw verbinding stabiel is en probeer het nog eens</string>
 	<string name="onfido_generic_back">terug</string>
     <string name="onfido_permission_body_both">We kunnen u niet verifiëren zonder uw camera en microfoon te gebruiken</string>
-    <string name="onfido_permission_button_primary_both">Allebei inschakelen</string>
+	<string name="onfido_permission_button_primary_both">Doorgaan</string>
 	<string name="onfido_permission_recovery_subtitle_both">Herstel toegang tot de camera en de microfoon om een filmpje op te nemen en de verificatie van uw gezicht te voltooien</string>
 	<string name="onfido_permission_recovery_list_item_how_to_both">U kunt toegang tot de camera en de microfoon herstellen via de instellingen van uw apparaat</string>
     <string name="onfido_permission_recovery_list_item_action_both">Ga naar de instellingen van de app en schakel toegang tot zowel de camera als de microfoon in voor deze app</string>
@@ -291,7 +291,7 @@
 
     <!-- NFC -->
 
-	<string name="onfido_nfc_scan_error_button_primary">Start scan</string>
+	<string name="onfido_nfc_scan_error_button_primary">Scan opnieuw</string>
 	<string name="onfido_nfc_scan_error_button_secondary">Word geverifieerd zonder NFC</string>
     <string name="onfido_nfc_scan_error_title">We konden uw document niet scannen</string>
 
@@ -502,12 +502,12 @@
 	<string name="onfido_nfc_fail_passport_list_item_1">Probeer de hoes van uw paspoort of de hoes van uw telefoon te verwijderen. Dit is om interferentie met de chip te voorkomen.</string>
 	<string name="onfido_nfc_fail_passport_list_item_2">Sluit uw paspoort en leg het op een plat oppervlak met de voorkant naar boven.</string>
     <string name="onfido_nfc_fail_passport_list_item_4">Je moet mogelijk je telefoon langzaam omlaag en omhoog schuiven tegen je paspoort totdat je de chip vindt.</string>
-	<string name="onfido_nfc_scan_error_document_title">Document niet ondersteund</string>
+	<string name="onfido_nfc_scan_error_document_title">Niet-ondersteund document</string>
 	<string name="onfido_nfc_scan_error_document_subtitle">Probeer het met een ander document</string>
 	<string name="onfido_nfc_scan_error_document_primary_button">Kies een ander document</string>
 	<string name="onfido_nfc_scan_error_document_secondary_button">Verificatie afsluiten</string>
 	<string name="onfido_nfc_scan_error_device_title">Niet-ondersteund apparaat</string>
-	<string name="onfido_nfc_scan_error_device_subtitle">Onze excuses voor het ongemak. Gebruik alstublieft een ander apparaat om uw identiteit te verifiëren</string>
+	<string name="onfido_nfc_scan_error_device_subtitle">Gebruik een NFC-compatibel apparaat om de chip in uw identiteitsdocument uit te lezen.</string>
 	<string name="onfido_nfc_scan_error_device_primary_button">Verificatie afsluiten</string>
 	<string name="onfido_nfc_scan_doc_selection_disclaimer">We accepteren alleen documenten met een chip. Zoek naar dit pictogram op uw document</string>
 	<string name="onfido_nfc_fail_card_title">Niet in staat om de chip te scannen. Hulp nodig?</string>
@@ -582,4 +582,50 @@
 	<string name="onfido_nfc_fail_passport_usa_list_item_3">Plaats uw telefoon tegen de achterkant van de omslag, zodat ze elkaar raken.</string>
 	<string name="onfido_nfc_capture_scan_passport_sheet">Plaats uw telefoon tegen uw paspoort. U moet mogelijk uw telefoon langzaam langs uw paspoort schuiven.</string>
 	<string name="onfido_nfc_capture_scan_card_scanning_sheet_2">Houd uw telefoon en document stil.</string>
+	<string name="onfido_nfc_scan_error_document_unsupported_subtitle">Gebruik een ander document dat NFC-compatibel is. Zoek naar dit pictogram</string>
+	<string name="onfido_country_select_list_header_supported">Ondersteunde landen</string>
+	<string name="onfido_country_select_search_results">Resultaten</string>
+	<string name="onfido_nfc_upload_error_title">Verbindingsfout</string>
+	<string name="onfido_nfc_upload_error_subtitle">Controleer of u een stabiele verbinding heeft en probeer het daarna opnieuw</string>
+	<string name="onfido_nfc_upload_error_button_primary">Upload opnieuw proberen</string>
+	<string name="onfido_retry_headline_generic_proof_of_address_issue">Er was een probleem met uw document</string>
+	<string name="onfido_retry_description_generic_proof_of_address_issue">Probeer het opnieuw met een geldig document en zorg ervoor dat uw gegevens duidelijk zichtbaar zijn</string>
+	<string name="onfido_retry_button_generic_proof_of_address_issue">Probeer het opnieuw</string>
+
+	<string name="onfido_country_selection_select_hint_accessibility">Dubbel tikken om een land te selecteren</string>
+	<string name="onfido_nfc_scan_pin_disclaimer">We vragen je om de %d-cijferige pincode van je document voordat we de chip scannen.</string>
+	<string name="onfido_enter_pin_subtitle">Dit is nodig om de NFC-chip veilig uit te lezen. Je hebt dit %d-cijferige nummer aangemaakt toen je document werd uitgegeven.</string>
+	<string name="onfido_enter_pin_title">Voer uw document-pincode in</string>
+	<string name="onfido_enter_pin_title_incorrect">Onjuiste pincode</string>
+	<string name="onfido_enter_pin_helper_attempts_left">%d pogingen resterend</string>
+	<string name="onfido_enter_pin_helper_final_attempt">1 poging over. Uw chip wordt geblokkeerd na de volgende mislukte poging</string>
+	<string name="onfido_chip_blocked_title">NFC-chip geblokkeerd</string>
+	<string name="onfido_chip_blocked_subtitle">Dit is een veiligheidsmaatregel om fraude te voorkomen. Neem contact op met uw lokale uitgevende instantie om uw chip te deblokkeren.</string>
+	<string name="onfido_chip_blocked_button_help">Overheidsportaal</string>
+	<string name="onfido_motion_passive_intro_title">Scan uw gezicht</string>
+	<string name="onfido_motion_passive_intro_subtitle">Bevestig uw identiteit om uw account veilig te houden</string>
+	<string name="onfido_motion_passive_intro_list_item_one">Zorg ervoor dat je op een plek bent met goede verlichting</string>
+	<string name="onfido_motion_passive_intro_list_item_two">Verwijder alles wat je gezicht bedekt; een bril is oké</string>
+	<string name="onfido_motion_passive_intro_list_item_three">Plaats uw gezicht in het kader om de scan te starten</string>
+	<string name="onfido_motion_passive_intro_button_primary_ready">Ik ben er klaar voor</string>
+	<string name="onfido_motion_passive_error_generic_title">Iets is misgegaan</string>
+	<string name="onfido_motion_passive_error_generic_subtitle">Kom later terug om het opnieuw te proberen.</string>
+	<string name="onfido_motion_passive_error_generic_button_primary">Verificatie afsluiten</string>
+	<string name="onfido_motion_passive_retry_title">Verificatie mislukt</string>
+	<string name="onfido_motion_passive_retry_subtitle">Probeer het opnieuw</string>
+	<string name="onfido_motion_passive_retry_button_primary">Probeer het opnieuw</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Verifiëren…</string>
+	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Bezig met verifiëren...</string>
+	<string name="onfido_motion_passive_face_capture_title_success_auth">Geverifieerd</string>
+	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Geverifieerd</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_auth">Authenticatie mislukt</string>
+	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Verificatie mislukt</string>
+	<string name="onfido_motion_passive_face_capture_title_recording">Scannen</string>
+	<string name="onfido_enter_pin_optional_helper_attempts_left">%d pogingen over. Sla deze stap hieronder over.</string>
+	<string name="onfido_enter_pin_optional_helper_final_attempt">%d poging resterend voordat uw NFC-chip wordt geblokkeerd. Sla deze stap hieronder over.</string>
+	<string name="onfido_enter_pin_button_primary">Doorgaan</string>
+	<string name="onfido_enter_pin_optional_button_tertiary">NFC-chips scannen overslaan</string>
+	<string name="onfido_chip_blocked_optional_title">Doorgaan zonder chip te scannen</string>
+	<string name="onfido_chip_blocked_optional_subtitle">Te veel onjuiste pincode‑invoer heeft uw NFC‑chip geblokkeerd, dus we slaan deze stap over. Neem contact op met de bevoegde instantie om uw pincode te laten resetten voor toekomstig gebruik.</string>
+	<string name="onfido_chip_blocked_optional_button_primary">Doorgaan</string>
 </resources>
