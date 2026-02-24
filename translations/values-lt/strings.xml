@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Bandykite dar kartą su galiojančiu dokumentu ir įsitikinkite, kad jūsų informacija aiškiai matoma</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Bandyti dar kartą</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Dukart bakstelėkite, kad pasirinktumėte šalį</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Prieš nuskaitydami lustą paprašysime jūsų dokumento %d skaitmenų PIN kodo.</string>
 	<string name="onfido_enter_pin_subtitle">To reikia, kad būtų galima saugiai nuskaityti NFC lustą. Šį %d skaitmenų numerį sukūrėte, kai buvo išduotas jūsų dokumentas.</string>
 	<string name="onfido_enter_pin_title">Įveskite savo dokumento PIN kodą</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC mikroschema užblokuota</string>
 	<string name="onfido_chip_blocked_subtitle">Tai yra saugumo priemonė sukčiavimui užkirsti. Susisiekite su savo vietine dokumentų išdavimo institucija, kad atblokuotumėte lustą.</string>
 	<string name="onfido_chip_blocked_button_help">Valstybinis portalas</string>
-	<string name="onfido_motion_passive_intro_title">Nuskaitykite savo veidą</string>
-	<string name="onfido_motion_passive_intro_subtitle">Patvirtinkite savo tapatybę, kad apsaugotumėte paskyrą</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Įsitikinkite, kad esate vietoje, kurioje yra geras apšvietimas</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Nuimkite daiktus, dengiančius jūsų veidą; akiniai yra tinkami</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Padėkite veidą rėmelyje, kad pradėtumėte nuskaitymą</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Aš pasiruošęs</string>
-	<string name="onfido_motion_passive_error_generic_title">Kažkas nepavyko</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Prašome sugrįžti vėliau ir bandyti dar kartą.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Išeiti iš autentifikacijos</string>
-	<string name="onfido_motion_passive_retry_title">Autentifikavimas nepavyko</string>
-	<string name="onfido_motion_passive_retry_subtitle">Bandykite dar kartą</string>
-	<string name="onfido_motion_passive_retry_button_primary">Bandyti dar kartą</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autentifikuojama…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Tikrinama...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Autentifikuota</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Patvirtinta</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentifikavimas nepavyko</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Patvirtinimas nepavyko</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Skenuojama</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d bandymų liko. Praleiskite šį veiksmą žemiau.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">Likęs bandymų skaičius: %d. Po to jūsų NFC lustas bus užblokuotas. Praleiskite šį veiksmą žemiau.</string>
 	<string name="onfido_enter_pin_button_primary">Tęsti</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Tęsti be mikroschemos nuskaitymo</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Per daug neteisingai įvestų PIN kodų užblokavo jūsų NFC lustą, todėl šį žingsnį praleisime. Susisiekite su atitinkamomis institucijomis, kad ateityje galėtumėte iš naujo nustatyti PIN kodą.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tęsti</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Dukart bakstelėkite, kad pasirinktumėte šalį</string>
 </resources>

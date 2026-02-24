@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Palun proovige uuesti kehtiva dokumendiga ja veenduge, et teie andmed oleksid selgelt nähtavad</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Proovige uuesti</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Riigi valimiseks topeltpuudutage</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Enne kiibilt lugemist küsime teie dokumendi %d-kohalist PIN-koodi.</string>
 	<string name="onfido_enter_pin_subtitle">See on vajalik NFC-kibi turvaliseks lugemiseks. Lõite selle %d-kohalise numbri, kui teie dokument väljastati.</string>
 	<string name="onfido_enter_pin_title">Sisestage oma dokumendi PIN-kood</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC kiip blokeeritud</string>
 	<string name="onfido_chip_blocked_subtitle">See on turvameede pettuse vältimiseks. Kiibistiku blokeeringu eemaldamiseks võtke ühendust kohaliku väljaandva asutusega.</string>
 	<string name="onfido_chip_blocked_button_help">Valitsusportaal</string>
-	<string name="onfido_motion_passive_intro_title">Näo skannimine</string>
-	<string name="onfido_motion_passive_intro_subtitle">Kinnitage oma isik, et hoida oma konto turvalisena</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Veenduge, et olete hea valgustusega kohas</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Eemaldage esemed, mis katavad teie nägu, prillid on lubatud</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Skaneerimise alustamiseks aseta oma nägu kaadri sisse</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Olen valmis</string>
-	<string name="onfido_motion_passive_error_generic_title">Midagi läks valesti</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Palun tulge hiljem tagasi ja proovige uuesti.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Välju autentimisest</string>
-	<string name="onfido_motion_passive_retry_title">Autentimine ebaõnnestus</string>
-	<string name="onfido_motion_passive_retry_subtitle">Proovige uuesti</string>
-	<string name="onfido_motion_passive_retry_button_primary">Proovige uuesti</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autentimine…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Kontrollimine...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Autenditud</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Kinnitatud</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentimine ebaõnnestus</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Kinnitamine ebaõnnestus</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Skaneerimine</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d katset jäänud. Jäta see samm vahele allpool.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d katse jäänud enne NFC-kibi blokeerimist. Jäta see samm vahele allpool.</string>
 	<string name="onfido_enter_pin_button_primary">Jätkake</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Jätka ilma kiibi skaneerimiseta</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Liiga paljud valed PIN-koodi sisestused on teie NFC-kiibil blokeerinud, seega jätame selle sammu vahele. Võtke ühendust oma ametiasutustega, et tulevikus kasutamiseks oma PIN-kood lähtestada.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Jätkake</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Riigi valimiseks topeltpuudutage</string>
 </resources>

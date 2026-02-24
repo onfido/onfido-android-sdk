@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Veuillez réessayer avec un document valide et assurez-vous que vos informations sont clairement visibles</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Réessayer</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Appuyez deux fois pour sélectionner un pays</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Nous vous demanderons le NIP à %d chiffres de votre document avant de numériser la puce.</string>
 	<string name="onfido_enter_pin_subtitle">Ceci est nécessaire pour lire de manière sécurisée la puce NFC. Vous avez créé ce nombre à %d chiffres lors de l\'émission de votre document.</string>
 	<string name="onfido_enter_pin_title">Entrez le NIP de votre document</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">Puce NFC bloquée</string>
 	<string name="onfido_chip_blocked_subtitle">Il s\'agit d\'une mesure de sécurité pour prévenir la fraude. Communiquez avec l\'autorité émettrice locale pour débloquer votre puce.</string>
 	<string name="onfido_chip_blocked_button_help">Portail gouvernemental</string>
-	<string name="onfido_motion_passive_intro_title">Numériser votre visage</string>
-	<string name="onfido_motion_passive_intro_subtitle">Confirmez votre identité pour protéger votre compte</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Assurez-vous d\'être dans un endroit bien éclairé</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Retirez les articles qui couvrent votre visage, les lunettes sont acceptables</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Positionnez votre visage dans le cadre pour commencer la numérisation</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Je suis prêt</string>
-	<string name="onfido_motion_passive_error_generic_title">Quelque chose a mal tourné</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Veuillez revenir plus tard pour réessayer.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Quitter l\'authentification</string>
-	<string name="onfido_motion_passive_retry_title">Échec de l\'authentification</string>
-	<string name="onfido_motion_passive_retry_subtitle">Veuillez essayer de nouveau</string>
-	<string name="onfido_motion_passive_retry_button_primary">Réessayer</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Authentification…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Vérification...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Authentifié</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Vérifié</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Échec de l\'authentification</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Échec de la vérification</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Numérisation</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d tentatives restantes. Passez cette étape ci-dessous.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d tentative restante avant que votre puce NFC soit bloquée. Passez cette étape ci-dessous.</string>
 	<string name="onfido_enter_pin_button_primary">Continuer</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Continuer sans numériser la puce</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Trop de saisies de NIP incorrectes ont bloqué votre puce NFC, nous allons donc passer cette étape. Contactez vos autorités pour réinitialiser votre NIP pour une utilisation future.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Continuer</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Appuyez deux fois pour sélectionner un pays</string>
 </resources>

@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Повторите попытку с действительным документом и убедитесь, что ваши данные хорошо видны</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Попробовать еще раз</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Дважды коснитесь, чтобы выбрать страну</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Мы попросим вас ввести %d-значный PIN-код вашего документа перед сканированием чипа.</string>
 	<string name="onfido_enter_pin_subtitle">Это необходимо для безопасного считывания чипа NFC. Вы создали этот %d-значный номер при выдаче документа.</string>
 	<string name="onfido_enter_pin_title">Введите PIN-код документа</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">Чип NFC заблокирован</string>
 	<string name="onfido_chip_blocked_subtitle">Это мера безопасности для предотвращения мошенничества. Обратитесь в местный орган, выдавший документ, чтобы разблокировать чип.</string>
 	<string name="onfido_chip_blocked_button_help">Государственный портал</string>
-	<string name="onfido_motion_passive_intro_title">Отсканировать лицо</string>
-	<string name="onfido_motion_passive_intro_subtitle">Подтвердите свою личность, чтобы обеспечить безопасность вашей учетной записи</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Убедитесь, что вы находитесь в месте с хорошим освещением</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Уберите предметы, закрывающие лицо, очки можно оставить</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Расположите лицо в кадре, чтобы начать сканирование</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Я готов</string>
-	<string name="onfido_motion_passive_error_generic_title">Что-то пошло не так</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Пожалуйста, вернитесь позже и попробуйте снова.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Выход из аутентификации</string>
-	<string name="onfido_motion_passive_retry_title">Ошибка аутентификации</string>
-	<string name="onfido_motion_passive_retry_subtitle">Повторите попытку</string>
-	<string name="onfido_motion_passive_retry_button_primary">Попробовать еще раз</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Аутентификация…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Проверка...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Аутентифицирован</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Подтверждено</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Ошибка аутентификации</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Ошибка проверки</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Сканирование</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d попыток осталось. Пропустите этот шаг ниже.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d попытка осталась до блокировки вашего NFC-чипа. Пропустите этот шаг ниже.</string>
 	<string name="onfido_enter_pin_button_primary">Продолжить</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Продолжить без сканирования чипа</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Слишком много неправильных попыток ввода PIN-кода заблокировали ваш NFC-чип, поэтому мы пропустим этот шаг. Свяжитесь с соответствующими органами, чтобы сбросить PIN-код для дальнейшего использования.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Продолжить</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Дважды коснитесь, чтобы выбрать страну</string>
 </resources>

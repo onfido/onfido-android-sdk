@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Próbálja meg újra egy érvényes okmánnyal, és győződjön meg róla, hogy az adatai jól láthatók</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Próbálja újra</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Koppintson duplán egy ország kiválasztásához</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">A chip beolvasása előtt kérni fogjuk a dokumentum %d számjegyű PIN-kódját.</string>
 	<string name="onfido_enter_pin_subtitle">Ez szükséges az NFC‑chip biztonságos leolvasásához. Ezt a %d számjegyű számot a dokumentuma kiállításakor hozta létre.</string>
 	<string name="onfido_enter_pin_title">Adja meg a dokumentum PIN-kódját</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC-chip blokkolva</string>
 	<string name="onfido_chip_blocked_subtitle">Ez egy biztonsági intézkedés a csalás megelőzésére. Lépjen kapcsolatba a helyi okmánykiállító hatósággal, hogy feloldja a chip zárolását.</string>
 	<string name="onfido_chip_blocked_button_help">Kormányzati portál</string>
-	<string name="onfido_motion_passive_intro_title">Szkennelje az arcát</string>
-	<string name="onfido_motion_passive_intro_subtitle">Erősítse meg személyazonosságát fiókja biztonságban tartásához</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Győződjön meg róla, hogy jól megvilágított helyen van</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Távolítson el minden arcát takaró tárgyat, a szemüveg maradhat</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Igazítsa az arcát a keretbe a beolvasás megkezdéséhez</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Készen állok</string>
-	<string name="onfido_motion_passive_error_generic_title">Valami hiba történt</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Kérjük, térjen vissza később, és próbálja meg újra.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Kilépés a hitelesítésből</string>
-	<string name="onfido_motion_passive_retry_title">Sikertelen hitelesítés</string>
-	<string name="onfido_motion_passive_retry_subtitle">Kérjük, próbálja újra</string>
-	<string name="onfido_motion_passive_retry_button_primary">Próbálja újra</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Hitelesítés folyamatban…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Ellenőrzés folyamatban...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Hitelesítve</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Ellenőrizve</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Sikertelen hitelesítés</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">A hitelesítés nem sikerült</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Beolvasás</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d próbálkozás maradt. Hagyja ki ezt a lépést lentebb.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d próbálkozása maradt, mielőtt az NFC-chipje zárolásra kerül. Az alábbi lépéssel kihagyhatja ezt.</string>
 	<string name="onfido_enter_pin_button_primary">Tovább</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Folytatás chipolvasás nélkül</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Túl sok hibás PIN-kód beírása letiltotta az Ön NFC‑chipjét, ezért ezt a lépést most kihagyjuk. Kérjük, lépjen kapcsolatba az illetékes hatóságokkal a PIN-kód jövőbeli használathoz szükséges visszaállításához.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tovább</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Koppintson duplán egy ország kiválasztásához</string>
 </resources>

@@ -593,7 +593,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Lütfen geçerli bir belge ile tekrar deneyin ve bilgilerinizin net bir şekilde görülebildğinden emin olun</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Tekrar deneyin</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Bir ülke seçmek için iki kez dokunun</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Çipi taramadan önce belgenizin %d haneli PIN kodunu isteyeceğiz.</string>
 	<string name="onfido_enter_pin_subtitle">Bu, NFC çipini güvenli bir şekilde okumak için gereklidir. Bu %d haneli numarayı belgeniz düzenlendiğinde oluşturdunuz.</string>
 	<string name="onfido_enter_pin_title">Belge PIN\'inizi girin</string>
@@ -603,25 +602,6 @@
 	<string name="onfido_chip_blocked_title">NFC çipi engellendi</string>
 	<string name="onfido_chip_blocked_subtitle">Bu, dolandırıcılığı önlemek için alınan bir güvenlik önlemidir. Çipinizin engelini kaldırmak için yerel düzenleyici kurumunuzla iletişime geçin.</string>
 	<string name="onfido_chip_blocked_button_help">Devlet portalı</string>
-	<string name="onfido_motion_passive_intro_title">Yüzünüzü tarayın</string>
-	<string name="onfido_motion_passive_intro_subtitle">Hesabınızı güvende tutmak için kimliğinizi doğrulayın</string>
-	<string name="onfido_motion_passive_intro_list_item_one">İyi aydınlatmaya sahip bir yerde olduğunuzdan emin olun</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Yüzünüzü kapatan eşyaları çıkarın, gözlükler sorun değil</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Taramaya başlamak için yüzünüzü çerçeveye konumlandırın</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Hazırım</string>
-	<string name="onfido_motion_passive_error_generic_title">Bir şeyler yanlış gitti</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Lütfen daha sonra tekrar deneyin.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Kimlik doğrulamadan çık</string>
-	<string name="onfido_motion_passive_retry_title">Kimlik doğrulama başarısız oldu</string>
-	<string name="onfido_motion_passive_retry_subtitle">Lütfen tekrar deneyin</string>
-	<string name="onfido_motion_passive_retry_button_primary">Tekrar deneyin</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Kimlik doğrulanıyor…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Doğrulanıyor...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Kimliği Doğrulanmış</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Doğrulandı</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Kimlik doğrulama başarısız oldu</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Doğrulama başarısız oldu</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Taranıyor</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d deneme hakkı kaldı. Bu adımı aşağıdan atlayın.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d deneme hakkınız kaldı, sonrasında NFC çipiniz bloke edilecek. Bu adımı aşağıdan atlayın.</string>
 	<string name="onfido_enter_pin_button_primary">Devam et</string>
@@ -629,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_title">Çip taraması olmadan devam et</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Çok fazla hatalı PIN girişi NFC çipinizi engelledi, bu nedenle bu adımı atlayacağız. Gelecekte kullanmak üzere PIN\'inizi sıfırlamak için yetkili makamlarınızla iletişime geçin.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Devam et</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Bir ülke seçmek için iki kez dokunun</string>
 </resources>

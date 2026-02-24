@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">유효한 문서로 다시 시도하고, 정보가 또렷하게 보이도록 해주세요</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">다시 시도하기</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">국가를 선택하려면 두 번 탭하세요</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">칩을 스캔하기 전에 문서의 %d자리 PIN을 요청합니다.</string>
 	<string name="onfido_enter_pin_subtitle">이는 NFC 칩을 안전하게 읽기 위해 필요합니다. 이 %d자리 숫자는 문서가 발급될 때 사용자가 생성한 것입니다.</string>
 	<string name="onfido_enter_pin_title">문서 PIN을 입력하세요</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC 칩이 차단됨</string>
 	<string name="onfido_chip_blocked_subtitle">이는 사기를 방지하기 위한 보안 조치입니다. 칩 잠금을 해제하려면 가까운 발급 기관에 문의하세요.</string>
 	<string name="onfido_chip_blocked_button_help">정부 포털</string>
-	<string name="onfido_motion_passive_intro_title">얼굴을 스캔합니다</string>
-	<string name="onfido_motion_passive_intro_subtitle">본인 확인으로 계정을 안전하게 보호하세요</string>
-	<string name="onfido_motion_passive_intro_list_item_one">조명이 잘 갖춰진 장소에 있는지 확인하세요</string>
-	<string name="onfido_motion_passive_intro_list_item_two">얼굴을 가리는 물건은 제거하세요. 안경은 괜찮습니다.</string>
-	<string name="onfido_motion_passive_intro_list_item_three">스캔을 시작하려면 얼굴을 프레임 안에 맞춰 주세요</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">준비됐어요</string>
-	<string name="onfido_motion_passive_error_generic_title">무언가 잘못되었습니다</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">나중에 다시 시도하러 와 주세요.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">인증 종료</string>
-	<string name="onfido_motion_passive_retry_title">인증에 실패했습니다</string>
-	<string name="onfido_motion_passive_retry_subtitle">다시 시도해주세요</string>
-	<string name="onfido_motion_passive_retry_button_primary">다시 시도하기</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">인증하는 중…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">확인하는 중...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">인증됨</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">인증됨</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">인증에 실패했습니다</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">인증에 실패했습니다</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">스캔하는 중</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d회 남았습니다. 아래에서 이 단계를 건너뛰세요.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d번 남으면 NFC 칩이 차단됩니다. 아래에서 이 단계를 건너뛰세요.</string>
 	<string name="onfido_enter_pin_button_primary">계속</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">칩 스캔 없이 계속하기</string>
 	<string name="onfido_chip_blocked_optional_subtitle">PIN을 여러 번 잘못 입력하여 NFC 칩이 차단되었으므로, 이 단계를 건너뛰겠습니다. 앞으로 사용하시려면 PIN 재설정을 위해 관계 기관에 문의하세요.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">계속</string>
+	<string name="onfido_country_selection_select_hint_accessibility">국가를 선택하려면 두 번 탭하세요</string>
 </resources>

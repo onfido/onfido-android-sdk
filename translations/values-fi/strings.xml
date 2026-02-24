@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Yritä uudelleen kelvollisella asiakirjalla ja varmista, että tietosi näkyvät selkeästi</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Yritä uud.</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Kaksoisnapauta valitaksesi maan</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Pyydämme asiakirjasi %d-numeroista PIN-koodia ennen sirun lukemista.</string>
 	<string name="onfido_enter_pin_subtitle">Tätä tarvitaan NFC-sirun turvalliseen lukemiseen. Loit tämän %d-numeroisen luvun, kun asiakirjasi myönnettiin.</string>
 	<string name="onfido_enter_pin_title">Anna asiakirjasi PIN-koodi</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC-siru estetty</string>
 	<string name="onfido_chip_blocked_subtitle">Tämä on turvatoimi petosten estämiseksi. Ota yhteyttä paikalliseen myöntävään viranomaiseen poistaaksesi sirun lukituksen.</string>
 	<string name="onfido_chip_blocked_button_help">Viranomaisportaali</string>
-	<string name="onfido_motion_passive_intro_title">skannataksesi kasvosi</string>
-	<string name="onfido_motion_passive_intro_subtitle">Vahvista henkilöllisyytesi suojataksesi tilisi</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Varmista, että olet paikassa, jossa on hyvä valaistus</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Poista kasvojasi peittävät esineet, silmälasit ovat ok</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Aseta kasvosi kehyksen sisään aloittaaksesi skannauksen</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Olen valmis</string>
-	<string name="onfido_motion_passive_error_generic_title">Jokin meni pieleen</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Palaa myöhemmin ja yritä uudelleen.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Poistu tunnistautumisesta</string>
-	<string name="onfido_motion_passive_retry_title">Todennus epäonnistui</string>
-	<string name="onfido_motion_passive_retry_subtitle">Yritä uudelleen</string>
-	<string name="onfido_motion_passive_retry_button_primary">Yritä uud.</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Tunnistaudutaan…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Vahvistetaan...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Todennettu</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Vahvistettu</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Todennus epäonnistui</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Vahvistus epäonnistui</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Skannataan</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d yritystä jäljellä. Ohita tämä vaihe alla.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d yritys jäljellä ennen kuin NFC-sirusi estetään. Ohita tämä vaihe alla.</string>
 	<string name="onfido_enter_pin_button_primary">Jatka</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Jatka ilman sirun lukemista</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Liian monet virheelliset PIN-koodin syötöt ovat estäneet NFC-sirusi, joten ohitamme tämän vaiheen. Ota yhteyttä viranomaisiin PIN-koodisi nollaamiseksi tulevaa käyttöä varten.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Jatka</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Kaksoisnapauta valitaksesi maan</string>
 </resources>

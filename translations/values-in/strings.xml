@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Silakan coba lagi dengan dokumen yang valid dan pastikan informasi Anda terlihat dengan jelas</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Coba lagi</string>
 
-    <string name="onfido_country_selection_select_hint_accessibility">Ketuk dua kali untuk memilih negara</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Kami akan meminta PIN %d digit dokumen Anda sebelum memindai chip.</string>
 	<string name="onfido_enter_pin_subtitle">Ini diperlukan untuk membaca chip NFC dengan aman. Anda membuat nomor %d digit ini saat dokumen Anda diterbitkan.</string>
 	<string name="onfido_enter_pin_title">Masukkan PIN dokumen Anda</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">Chip NFC diblokir</string>
 	<string name="onfido_chip_blocked_subtitle">Ini adalah langkah keamanan untuk mencegah penipuan. Hubungi otoritas penerbit setempat Anda untuk membuka blokir chip Anda.</string>
 	<string name="onfido_chip_blocked_button_help">Portal pemerintah</string>
-	<string name="onfido_motion_passive_intro_title">Memindai wajah Anda</string>
-	<string name="onfido_motion_passive_intro_subtitle">Konfirmasi identitas Anda untuk menjaga keamanan akun Anda</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Pastikan Anda berada di tempat dengan pencahayaan yang baik</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Lepaskan benda yang menutupi wajah Anda, kacamata tidak masalah</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Posisikan wajah Anda di dalam bingkai untuk memulai pemindaian</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Saya siap</string>
-	<string name="onfido_motion_passive_error_generic_title">Ada yang salah</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Silakan kembali lagi nanti untuk mencoba kembali.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Keluar autentikasi</string>
-	<string name="onfido_motion_passive_retry_title">Autentikasi gagal</string>
-	<string name="onfido_motion_passive_retry_subtitle">Silakan mencoba lagi</string>
-	<string name="onfido_motion_passive_retry_button_primary">Coba lagi</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Mengautentikasi…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Memverifikasi...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Terautentikasi</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Terverifikasi</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentikasi gagal</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Verifikasi gagal</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Memindai</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d percobaan tersisa. Lewati langkah ini di bawah.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d percobaan tersisa sebelum chip NFC Anda diblokir. Lewati langkah ini di bawah.</string>
 	<string name="onfido_enter_pin_button_primary">Lanjutkan</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Lanjutkan tanpa memindai chip</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Terlalu banyak entri PIN yang salah telah memblokir chip NFC Anda, jadi kami akan melewati langkah ini. Hubungi pihak berwenang Anda untuk mengatur ulang PIN Anda untuk penggunaan di masa mendatang.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Lanjutkan</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Ketuk dua kali untuk memilih negara</string>
 </resources>

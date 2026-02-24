@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">有効な書類で再度お試しいただき、情報が明瞭に表示されていることをご確認ください</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">再試行</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">ダブルタップして国を選択</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">書類の%d桁のPINを入力していただいた後、チップをスキャンします。</string>
 	<string name="onfido_enter_pin_subtitle">これは、NFCチップを安全に読み取るために必要です。この%d桁の番号は、書類が発行された際に作成されたものです。</string>
 	<string name="onfido_enter_pin_title">書類のPINを入力してください</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFCチップがブロックされています</string>
 	<string name="onfido_chip_blocked_subtitle">これは不正行為を防止するためのセキュリティ対策です。チップのブロックを解除するには、お住まいの地域の発行機関にお問い合わせください。</string>
 	<string name="onfido_chip_blocked_button_help">政府ポータル</string>
-	<string name="onfido_motion_passive_intro_title">ご自身の顔をスキャンする</string>
-	<string name="onfido_motion_passive_intro_subtitle">アカウントを安全に保つために本人確認を行ってください</string>
-	<string name="onfido_motion_passive_intro_list_item_one">明るい場所にいることを確認してください</string>
-	<string name="onfido_motion_passive_intro_list_item_two">顔を覆うものを外してください。眼鏡は問題ありません</string>
-	<string name="onfido_motion_passive_intro_list_item_three">顔をフレーム内に配置してスキャンを開始してください</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">準備できました</string>
-	<string name="onfido_motion_passive_error_generic_title">何かが間違っています</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">後でもう一度お試しください。</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">認証を終了</string>
-	<string name="onfido_motion_passive_retry_title">認証に失敗しました</string>
-	<string name="onfido_motion_passive_retry_subtitle">再度お試しください</string>
-	<string name="onfido_motion_passive_retry_button_primary">再試行</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">認証中…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">確認中...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">認証済み</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">認証済み</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">認証に失敗しました</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">検証に失敗しました</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">スキャン中</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d 回の試行が残っています。以下でこのステップをスキップしてください。</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d 回の試行が残っています。NFCチップがブロックされる前に、以下でこのステップをスキップしてください。</string>
 	<string name="onfido_enter_pin_button_primary">続行</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">チップをスキャンせずに続行</string>
 	<string name="onfido_chip_blocked_optional_subtitle">PINの入力ミスが多すぎたため、NFCチップがブロックされました。この手順はスキップします。今後の使用のためにPINをリセットするには、当局にお問い合わせください。</string>
 	<string name="onfido_chip_blocked_optional_button_primary">続行</string>
+	<string name="onfido_country_selection_select_hint_accessibility">ダブルタップして国を選択</string>
 </resources>

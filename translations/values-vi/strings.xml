@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Vui lòng thử lại với giấy tờ hợp lệ và đảm bảo thông tin của bạn hiển thị rõ ràng</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Thử lại</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Chạm hai lần để chọn quốc gia</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Chúng tôi sẽ yêu cầu bạn nhập mã PIN %d chữ số của tài liệu trước khi quét chip.</string>
 	<string name="onfido_enter_pin_subtitle">Điều này cần thiết để đọc chip NFC một cách an toàn. Bạn đã tạo số gồm %d chữ số này khi tài liệu của bạn được cấp.</string>
 	<string name="onfido_enter_pin_title">Nhập mã PIN tài liệu của bạn</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">Chip NFC bị chặn</string>
 	<string name="onfido_chip_blocked_subtitle">Đây là biện pháp bảo mật nhằm ngăn chặn gian lận. Vui lòng liên hệ với cơ quan cấp phát tại địa phương để mở khóa chip của bạn.</string>
 	<string name="onfido_chip_blocked_button_help">Cổng thông tin chính phủ</string>
-	<string name="onfido_motion_passive_intro_title">Quét khuôn mặt của bạn</string>
-	<string name="onfido_motion_passive_intro_subtitle">Xác nhận danh tính của bạn để giữ tài khoản an toàn</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Đảm bảo bạn đang ở nơi có ánh sáng tốt</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Tháo bỏ các vật che khuất khuôn mặt của bạn, kính mắt thì không sao</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Đặt khuôn mặt của bạn vào khung hình để bắt đầu quét</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Tôi đã sẵn sàng</string>
-	<string name="onfido_motion_passive_error_generic_title">Có gì đó đã sai</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Vui lòng quay lại sau để thử lại.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Thoát xác thực</string>
-	<string name="onfido_motion_passive_retry_title">Xác thực không thành công</string>
-	<string name="onfido_motion_passive_retry_subtitle">Vui lòng thử lại</string>
-	<string name="onfido_motion_passive_retry_button_primary">Thử lại</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Đang xác thực…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Đang xác minh...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Đã xác thực</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Đã xác minh</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Xác thực không thành công</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Xác minh thất bại</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Đang quét</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">Còn %d lần thử. Bỏ qua bước này bên dưới.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">Còn %d lần thử trước khi chip NFC của bạn bị khóa. Bỏ qua bước này bên dưới.</string>
 	<string name="onfido_enter_pin_button_primary">Tiếp tục</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Tiếp tục mà không quét chip</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Bạn đã nhập mã PIN sai quá nhiều lần khiến chip NFC của bạn bị khóa, vì vậy chúng tôi sẽ bỏ qua bước này. Vui lòng liên hệ với cơ quan có thẩm quyền để đặt lại mã PIN cho lần sử dụng sau.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tiếp tục</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Chạm hai lần để chọn quốc gia</string>
 </resources>

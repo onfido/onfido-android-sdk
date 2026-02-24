@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Δοκιμάστε ξανά με ένα έγκυρο έγγραφο και βεβαιωθείτε ότι οι πληροφορίες σας είναι ευδιάκριτες</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Προσπαθήστε ξανά</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Πατήστε δύο φορές για να επιλέξετε χώρα</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Θα σας ζητήσουμε τον %d-ψήφιο PIN του εγγράφου σας πριν σαρώσουμε το τσιπ.</string>
 	<string name="onfido_enter_pin_subtitle">Αυτό είναι απαραίτητο για την ασφαλή ανάγνωση του NFC chip. Δημιουργήσατε αυτόν τον αριθμό %d ψηφίων όταν εκδόθηκε το έγγραφό σας.</string>
 	<string name="onfido_enter_pin_title">Εισαγάγετε το PIN του εγγράφου σας</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">Το τσιπ NFC έχει αποκλειστεί</string>
 	<string name="onfido_chip_blocked_subtitle">Αυτό είναι ένα μέτρο ασφαλείας για την αποτροπή απάτης. Επικοινωνήστε με την αρμόδια αρχή έκδοσης στην περιοχή σας για να ξεμπλοκάρετε το τσιπ σας.</string>
 	<string name="onfido_chip_blocked_button_help">Κυβερνητική πύλη</string>
-	<string name="onfido_motion_passive_intro_title">Σαρώσετε το πρόσωπό σας</string>
-	<string name="onfido_motion_passive_intro_subtitle">Επιβεβαιώστε την ταυτότητά σας για να διατηρήσετε τον λογαριασμό σας ασφαλή</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Βεβαιωθείτε ότι βρίσκεστε σε χώρο με καλό φωτισμό</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Αφαιρέστε αντικείμενα που καλύπτουν το πρόσωπό σας, τα γυαλιά είναι εντάξει</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Τοποθετήστε το πρόσωπό σας μέσα στο πλαίσιο για να ξεκινήσει η σάρωση</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Είμαι έτοιμος</string>
-	<string name="onfido_motion_passive_error_generic_title">Κάτι πήγε στραβά</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Παρακαλώ επιστρέψτε αργότερα για να δοκιμάσετε ξανά.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Έξοδος από την ταυτοποίηση</string>
-	<string name="onfido_motion_passive_retry_title">Η ταυτοποίηση απέτυχε</string>
-	<string name="onfido_motion_passive_retry_subtitle">Δοκιμάστε ξανά</string>
-	<string name="onfido_motion_passive_retry_button_primary">Προσπαθήστε ξανά</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Γίνεται έλεγχος ταυτότητας…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Επαλήθευση...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Πιστοποιημένο</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Επαληθεύτηκε</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Η ταυτοποίηση απέτυχε</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Η επαλήθευση απέτυχε</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Σάρωση</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d προσπάθειες απομένουν. Παραλείψτε αυτό το βήμα παρακάτω.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d προσπάθεια απομένει πριν αποκλειστεί το NFC τσιπ σας. Παραλείψτε αυτό το βήμα παρακάτω.</string>
 	<string name="onfido_enter_pin_button_primary">Συνέχεια</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Συνέχεια χωρίς σάρωση chip</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Πάρα πολλές λανθασμένες εισαγωγές PIN έχουν μπλοκάρει το NFC chip σας, επομένως θα παραλείψουμε αυτό το βήμα. Επικοινωνήστε με τις αρμόδιες αρχές για να επαναφέρετε το PIN σας για μελλοντική χρήση.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Συνέχεια</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Πατήστε δύο φορές για να επιλέξετε χώρα</string>
 </resources>

@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Probeer het opnieuw met een geldig document en zorg ervoor dat uw gegevens duidelijk zichtbaar zijn</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Probeer het opnieuw</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Dubbel tikken om een land te selecteren</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">We vragen je om de %d-cijferige pincode van je document voordat we de chip scannen.</string>
 	<string name="onfido_enter_pin_subtitle">Dit is nodig om de NFC-chip veilig uit te lezen. Je hebt dit %d-cijferige nummer aangemaakt toen je document werd uitgegeven.</string>
 	<string name="onfido_enter_pin_title">Voer uw document-pincode in</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC-chip geblokkeerd</string>
 	<string name="onfido_chip_blocked_subtitle">Dit is een veiligheidsmaatregel om fraude te voorkomen. Neem contact op met uw lokale uitgevende instantie om uw chip te deblokkeren.</string>
 	<string name="onfido_chip_blocked_button_help">Overheidsportaal</string>
-	<string name="onfido_motion_passive_intro_title">Scan uw gezicht</string>
-	<string name="onfido_motion_passive_intro_subtitle">Bevestig uw identiteit om uw account veilig te houden</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Zorg ervoor dat je op een plek bent met goede verlichting</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Verwijder alles wat je gezicht bedekt; een bril is oké</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Plaats uw gezicht in het kader om de scan te starten</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Ik ben er klaar voor</string>
-	<string name="onfido_motion_passive_error_generic_title">Iets is misgegaan</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Kom later terug om het opnieuw te proberen.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Verificatie afsluiten</string>
-	<string name="onfido_motion_passive_retry_title">Verificatie mislukt</string>
-	<string name="onfido_motion_passive_retry_subtitle">Probeer het opnieuw</string>
-	<string name="onfido_motion_passive_retry_button_primary">Probeer het opnieuw</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Verifiëren…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Bezig met verifiëren...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Geverifieerd</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Geverifieerd</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Authenticatie mislukt</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Verificatie mislukt</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Scannen</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d pogingen over. Sla deze stap hieronder over.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d poging resterend voordat uw NFC-chip wordt geblokkeerd. Sla deze stap hieronder over.</string>
 	<string name="onfido_enter_pin_button_primary">Doorgaan</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Doorgaan zonder chip te scannen</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Te veel onjuiste pincode‑invoer heeft uw NFC‑chip geblokkeerd, dus we slaan deze stap over. Neem contact op met de bevoegde instantie om uw pincode te laten resetten voor toekomstig gebruik.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Doorgaan</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Dubbel tikken om een land te selecteren</string>
 </resources>

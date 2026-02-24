@@ -591,7 +591,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">يرجى المحاولة مرة أخرى باستخدام مستند صالح والتأكد من أن معلوماتك واضحة ومقروءة</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">إعادة المحاولة</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">انقر مرتين لاختيار دولة</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">سنطلب منك رقم التعريف الشخصي (PIN) المكوّن من %d أرقام لوثيقتك قبل مسح الشريحة.</string>
 	<string name="onfido_enter_pin_subtitle">هذا ضروري لقراءة شريحة NFC بأمان. لقد أنشأت هذا الرقم المكوَّن من %d أرقام عند إصدار مستندك.</string>
 	<string name="onfido_enter_pin_title">أدخل الرقم السري لوثيقتك</string>
@@ -601,25 +600,6 @@
 	<string name="onfido_chip_blocked_title">شريحة NFC محظورة</string>
 	<string name="onfido_chip_blocked_subtitle">هذا إجراء أمني لمنع الاحتيال. يرجى التواصل مع الجهة المُصدِرة المحلية لفك حظر الشريحة الخاصة بك.</string>
 	<string name="onfido_chip_blocked_button_help">بوابة حكومية</string>
-	<string name="onfido_motion_passive_intro_title">قم بمسح ضوئي لوجهك</string>
-	<string name="onfido_motion_passive_intro_subtitle">تأكيد هويتك للحفاظ على أمان حسابك</string>
-	<string name="onfido_motion_passive_intro_list_item_one">تأكد من أنك في مكان ذي إضاءة جيدة</string>
-	<string name="onfido_motion_passive_intro_list_item_two">أزل أي شيء يغطي وجهك، النظارات الطبية مسموح بها</string>
-	<string name="onfido_motion_passive_intro_list_item_three">ضع وجهك داخل الإطار لبدء المسح</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">أنا مستعد</string>
-	<string name="onfido_motion_passive_error_generic_title">حدث خطأ ما</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">يرجى العودة لاحقًا للمحاولة مرة أخرى.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">خروج من المصادقة</string>
-	<string name="onfido_motion_passive_retry_title">فشل التحقق من الهوية</string>
-	<string name="onfido_motion_passive_retry_subtitle">يُرجى إعادة المحاولة</string>
-	<string name="onfido_motion_passive_retry_button_primary">إعادة المحاولة</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">جارٍ التحقق من الهوية…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">جارٍ التحقّق...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">مصادق عليه</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">تم التحقق</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">فشل التحقق من الهوية</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">فشل التحقق</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">جارٍ المسح</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d محاولات متبقية. تخطَّ هذه الخطوة أدناه.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d محاولة متبقية قبل حظر شريحة NFC الخاصة بك. تخطَّ هذه الخطوة أدناه.</string>
 	<string name="onfido_enter_pin_button_primary">استمر</string>
@@ -627,4 +607,5 @@
 	<string name="onfido_chip_blocked_optional_title">المتابعة بدون مسح الشريحة</string>
 	<string name="onfido_chip_blocked_optional_subtitle">عدد كبير جدًا من محاولات إدخال رقم التعريف الشخصي غير الصحيح أدى إلى حظر شريحة NFC، لذا سنتجاوز هذه الخطوة. يُرجى الاتصال بالجهات المختصة لإعادة تعيين رقم التعريف الشخصي للاستخدام في المستقبل.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">استمر</string>
+	<string name="onfido_country_selection_select_hint_accessibility">انقر مرتين لاختيار دولة</string>
 </resources>

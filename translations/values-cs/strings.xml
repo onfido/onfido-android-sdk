@@ -591,7 +591,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Zkuste to prosím znovu s platným dokladem a ujistěte se, že vaše údaje jsou jasně viditelné</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Zkuste to znovu</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Dvojitým klepnutím vyberte zemi</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Před skenováním čipu vás požádáme o %dmístný PIN vašeho dokladu.</string>
 	<string name="onfido_enter_pin_subtitle">Toto je potřeba k bezpečnému čtení NFC čipu. Tento %d-místný kód jste vytvořili při vydání vašeho dokladu.</string>
 	<string name="onfido_enter_pin_title">Zadejte PIN dokumentu</string>
@@ -601,25 +600,6 @@
 	<string name="onfido_chip_blocked_title">NFC čip zablokován</string>
 	<string name="onfido_chip_blocked_subtitle">Jedná se o bezpečnostní opatření k prevenci podvodů. Kontaktujte místní vydávající orgán, aby vám odblokoval čip.</string>
 	<string name="onfido_chip_blocked_button_help">Vládní portál</string>
-	<string name="onfido_motion_passive_intro_title">Skenování obličeje</string>
-	<string name="onfido_motion_passive_intro_subtitle">Potvrďte svou identitu, abyste udrželi svůj účet v bezpečí</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Ujistěte se, že jste na místě s dobrým osvětlením</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Odstraňte předměty, které zakrývají váš obličej, brýle jsou v pořádku</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Umístěte obličej do rámečku pro zahájení skenování</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Jsem připraven</string>
-	<string name="onfido_motion_passive_error_generic_title">Něco se pokazilo</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Vraťte se prosím později a zkuste to znovu.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Ukončit ověření</string>
-	<string name="onfido_motion_passive_retry_title">Ověření se nezdařilo</string>
-	<string name="onfido_motion_passive_retry_subtitle">Zkuste to znovu</string>
-	<string name="onfido_motion_passive_retry_button_primary">Zkuste to znovu</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Ověřování…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Ověřování...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Ověřeno</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Ověřeno</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Ověření se nezdařilo</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Ověření se nezdařilo</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Skenování</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d zbývající pokusy. Přeskočte tento krok níže.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d pokus zbývá před zablokováním vašeho NFC čipu. Přeskočte tento krok níže.</string>
 	<string name="onfido_enter_pin_button_primary">Pokračovat</string>
@@ -627,4 +607,5 @@
 	<string name="onfido_chip_blocked_optional_title">Pokračovat bez skenování čipu</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Příliš mnoho nesprávných zadání PIN zzablokovalo váš NFC čip, proto tento krok přeskočíme. Kontaktujte příslušné úřady, aby vám obnovily PIN pro budoucí použití.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Pokračovat</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Dvojitým klepnutím vyberte zemi</string>
 </resources>

@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Bitte versuchen Sie es erneut mit einem gültigen Dokument und stellen Sie sicher, dass Ihre Angaben deutlich sichtbar sind</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Versuchen Sie es erneut.</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Doppeltippen, um ein Land auszuwählen</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Bevor wir den Chip auslesen, fragen wir Sie nach der %d-stelligen PIN Ihres Dokuments.</string>
 	<string name="onfido_enter_pin_subtitle">Dies ist erforderlich, um den NFC-Chip sicher auszulesen. Sie haben diese %d-stellige Nummer erstellt, als Ihr Dokument ausgestellt wurde.</string>
 	<string name="onfido_enter_pin_title">Geben Sie Ihre Dokumenten-PIN ein</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC-Chip gesperrt</string>
 	<string name="onfido_chip_blocked_subtitle">Dies ist eine Sicherheitsmaßnahme zur Verhinderung von Betrug. Wenden Sie sich an Ihre örtliche ausstellende Behörde, um Ihren Chip zu entsperren.</string>
 	<string name="onfido_chip_blocked_button_help">Behördenportal</string>
-	<string name="onfido_motion_passive_intro_title">Scannen Sie Ihr Gesicht</string>
-	<string name="onfido_motion_passive_intro_subtitle">Bestätige deine Identität, um dein Konto zu schützen</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Stellen Sie sicher, dass Sie sich an einem Ort mit guter Beleuchtung befinden</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Entferne Gegenstände, die dein Gesicht verdecken; eine Brille ist in Ordnung.</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Positionieren Sie Ihr Gesicht im Rahmen, um den Scan zu starten</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Ich bin bereit</string>
-	<string name="onfido_motion_passive_error_generic_title">Etwas ist schief gelaufen</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Bitte kommen Sie später wieder, um es erneut zu versuchen.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Authentifizierung beenden</string>
-	<string name="onfido_motion_passive_retry_title">Authentifizierung fehlgeschlagen</string>
-	<string name="onfido_motion_passive_retry_subtitle">Bitte versuchen Sie es erneut</string>
-	<string name="onfido_motion_passive_retry_button_primary">Versuchen Sie es erneut.</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Authentifizierung läuft…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Wird überprüft...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Authentifiziert</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Verifiziert</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Authentifizierung fehlgeschlagen</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Überprüfung fehlgeschlagen</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Scanvorgang</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d Versuche übrig. Überspringen Sie diesen Schritt unten.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d Versuch übrig, bevor Ihr NFC‑Chip gesperrt wird. Überspringen Sie diesen Schritt unten.</string>
 	<string name="onfido_enter_pin_button_primary">Fortfahren</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Ohne Chip-Scan fortfahren</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Zu viele falsche PIN-Eingaben haben Ihren NFC-Chip blockiert, daher überspringen wir diesen Schritt. Wenden Sie sich an die zuständigen Behörden, um Ihre PIN für die zukünftige Nutzung zurückzusetzen.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Fortfahren</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Doppeltippen, um ein Land auszuwählen</string>
 </resources>

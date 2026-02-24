@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">لطفاً دوباره با یک مدرک معتبر تلاش کنید و مطمئن شوید که اطلاعات شما به‌وضوح قابل مشاهده است</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">سعی مجدد</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">برای انتخاب یک کشور، دو بار ضربه بزنید</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">پیش از اسکن تراشه، از شما می‌خواهیم %d رقمِ PIN سند خود را وارد کنید.</string>
 	<string name="onfido_enter_pin_subtitle">این مورد برای خواندن امن تراشه NFC لازم است. شما این عدد %d رقمی را زمانی ایجاد کردید که سند شما صادر شد.</string>
 	<string name="onfido_enter_pin_title">رمز پین سند خود را وارد کنید</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">تراشه NFC مسدود شد</string>
 	<string name="onfido_chip_blocked_subtitle">این یک اقدام امنیتی برای جلوگیری از تقلب است. برای باز کردن قفل چیپ خود، با مرجع صادرکننده محلی‌تان تماس بگیرید.</string>
 	<string name="onfido_chip_blocked_button_help">درگاه دولتی</string>
-	<string name="onfido_motion_passive_intro_title">چهره خود را اسکن کنید</string>
-	<string name="onfido_motion_passive_intro_subtitle">برای حفظ امنیت حسابتان، هویت خود را تأیید کنید</string>
-	<string name="onfido_motion_passive_intro_list_item_one">مطمئن شوید در مکانی با نور مناسب قرار دارید</string>
-	<string name="onfido_motion_passive_intro_list_item_two">مواردی را که صورتتان را می‌پوشانند بردارید، عینک اشکالی ندارد</string>
-	<string name="onfido_motion_passive_intro_list_item_three">صورت خود را در قاب قرار دهید تا اسکن آغاز شود</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">من آماده‌ام</string>
-	<string name="onfido_motion_passive_error_generic_title">چیزی اشتباه شده است</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">لطفاً بعداً برگردید و دوباره امتحان کنید.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">خروج از احراز هویت</string>
-	<string name="onfido_motion_passive_retry_title">احراز هویت ناموفق بود</string>
-	<string name="onfido_motion_passive_retry_subtitle">لطفاً دوباره سعی کنید</string>
-	<string name="onfido_motion_passive_retry_button_primary">سعی مجدد</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">در حال احراز هویت…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">در حال تأیید...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">احراز هویت شد</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">تأیید شده</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">احراز هویت ناموفق بود</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">تأیید ناموفق بود</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">در حال اسکن</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d تلاش باقی مانده است. از مرحلهٔ زیر صرف‌نظر کنید.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d تلاش دیگر تا زمانی که تراشه NFC شما مسدود شود باقی مانده است. این مرحله را در زیر رد کنید.</string>
 	<string name="onfido_enter_pin_button_primary">ادامه</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">ادامه بدون اسکن تراشه</string>
 	<string name="onfido_chip_blocked_optional_subtitle">تعداد زیاد ورود نادرست PIN باعث مسدود شدن تراشه NFC شما شده است، بنابراین این مرحله را رد می‌کنیم. برای تنظیم مجدد PIN جهت استفاده‌های بعدی، با مراجع مربوطه تماس بگیرید.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">ادامه</string>
+	<string name="onfido_country_selection_select_hint_accessibility">برای انتخاب یک کشور، دو بار ضربه بزنید</string>
 </resources>

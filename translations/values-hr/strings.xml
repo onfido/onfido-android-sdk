@@ -592,7 +592,6 @@
 	<string name="onfido_retry_description_generic_proof_of_address_issue">Pokušajte ponovno s valjanim dokumentom i provjerite je li vaša informacija jasno vidljiva</string>
 	<string name="onfido_retry_button_generic_proof_of_address_issue">Pokušajte ponovno</string>
 
-	<string name="onfido_country_selection_select_hint_accessibility">Dvaput dodirnite za odabir države</string>
 	<string name="onfido_nfc_scan_pin_disclaimer">Zatražit ćemo %d-znamenkasti PIN vašeg dokumenta prije skeniranja čipa.</string>
 	<string name="onfido_enter_pin_subtitle">Ovo je potrebno za sigurno očitavanje NFC čipa. Stvorili ste ovaj %d-znamenkasti broj kada je vaš dokument izdan.</string>
 	<string name="onfido_enter_pin_title">Unesite PIN dokumenta</string>
@@ -602,25 +601,6 @@
 	<string name="onfido_chip_blocked_title">NFC čip blokiran</string>
 	<string name="onfido_chip_blocked_subtitle">Ovo je sigurnosna mjera za sprječavanje prijevare. Kontaktirajte svoje lokalno tijelo za izdavanje dokumenata kako biste odblokirali svoj čip.</string>
 	<string name="onfido_chip_blocked_button_help">Državni portal</string>
-	<string name="onfido_motion_passive_intro_title">Skenirajte svoje lice</string>
-	<string name="onfido_motion_passive_intro_subtitle">Potvrdite svoj identitet kako biste zaštitili svoj račun</string>
-	<string name="onfido_motion_passive_intro_list_item_one">Provjerite jeste li na mjestu s dobrim osvjetljenjem</string>
-	<string name="onfido_motion_passive_intro_list_item_two">Uklonite predmete koji pokrivaju vaše lice, naočale su u redu</string>
-	<string name="onfido_motion_passive_intro_list_item_three">Postavite lice u okvir kako biste započeli skeniranje</string>
-	<string name="onfido_motion_passive_intro_button_primary_ready">Spreman sam</string>
-	<string name="onfido_motion_passive_error_generic_title">Nešto je pošlo po zlu</string>
-	<string name="onfido_motion_passive_error_generic_subtitle">Molimo vas da se vratite kasnije i pokušate ponovno.</string>
-	<string name="onfido_motion_passive_error_generic_button_primary">Izlaz iz autentifikacije</string>
-	<string name="onfido_motion_passive_retry_title">Autentifikacija nije uspjela</string>
-	<string name="onfido_motion_passive_retry_subtitle">Pokušajte ponovno</string>
-	<string name="onfido_motion_passive_retry_button_primary">Pokušajte ponovno</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_auth">Autentifikacija…</string>
-	<string name="onfido_motion_passive_face_capture_title_verifying_onboarding">Provjera...</string>
-	<string name="onfido_motion_passive_face_capture_title_success_auth">Autentificirano</string>
-	<string name="onfido_motion_passive_face_capture_title_success_onboarding">Potvrđeno</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_auth">Autentifikacija nije uspjela</string>
-	<string name="onfido_motion_passive_face_capture_title_failed_onboarding">Provjera nije uspjela</string>
-	<string name="onfido_motion_passive_face_capture_title_recording">Skeniranje</string>
 	<string name="onfido_enter_pin_optional_helper_attempts_left">%d preostalih pokušaja. Preskočite ovaj korak u nastavku.</string>
 	<string name="onfido_enter_pin_optional_helper_final_attempt">%d preostali pokušaj prije nego što se vaš NFC čip blokira. Preskočite ovaj korak u nastavku.</string>
 	<string name="onfido_enter_pin_button_primary">Nastavi</string>
@@ -628,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_title">Nastavi bez skeniranja čipa</string>
 	<string name="onfido_chip_blocked_optional_subtitle">Previše netočnih unosa PIN-a blokiralo je vaš NFC čip, stoga ćemo preskočiti ovaj korak. Obratite se nadležnim tijelima kako biste resetirali PIN za buduću upotrebu.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Nastavi</string>
+	<string name="onfido_country_selection_select_hint_accessibility">Dvaput dodirnite za odabir države</string>
 </resources>
