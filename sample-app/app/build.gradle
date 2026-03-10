@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
-def sdkVersion = '23.5.0'
-def versionCodeNumber = 2350
+def sdkVersion = '23.6.0'
+def versionCodeNumber = 2360
 
 android {
     namespace 'com.onfido.android.app.sample'

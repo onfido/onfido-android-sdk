@@ -7,6 +7,12 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.6.0] - 2026-03-10
+
+### Fixed
+
+- Various stability improvements and bug fixes
+
 ## [23.5.0] - 2026-02-24
 
 ### Added
