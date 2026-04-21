@@ -129,7 +129,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 12.12 Mb  |
+| core-armeabi-v7a | 12.13 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
