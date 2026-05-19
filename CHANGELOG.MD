@@ -7,6 +7,20 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.8.0] - 2026-05-19
+
+### Added
+
+- Added support for skipping the document selection screen in Studio workflows via custom inputs
+
+### Changed
+
+- Upgraded OkHttp version to 4.12.0
+
+### Fixed
+
+- Fixed WorkManager crash that happens with big payloads
+
 ## [23.7.0] - 2026-04-21
 
 ### Fixed
