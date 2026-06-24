@@ -7,6 +7,16 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.9.0] - 2026-06-23
+
+### Changed
+
+- Addressed security vulnerabilities (see [CVE-2025-8916](https://www.cve.org/CVERecord?id=CVE-2025-8916)) by upgrading BouncyCastle and removing the deprecated SpongyCastle dependency.
+
+### Fixed
+
+- Fixed web modules displaying incorrect language when using .withLocale
+
 ## [23.8.0] - 2026-05-19
 
 ### Added

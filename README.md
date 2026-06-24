@@ -105,7 +105,7 @@ Average size (with Proguard enabled):
 
 | ABI         |   Size   |
 |-------------|:--------:|
-| armeabi-v7a | 15.24 Mb  |
+| armeabi-v7a | 14.21 Mb  |
 | arm64-v8a   | 13.25 Mb |
 | universal   | 21.20 Mb |
 
@@ -129,7 +129,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 12.13 Mb  |
+| core-armeabi-v7a | 11.10 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -992,7 +992,6 @@ dependencies {
   implementation 'com.onfido.sdk.capture:onfido-capture-sdk:x.y.z' {
     exclude group: 'net.sf.scuba', module: 'scuba-sc-android'
     exclude group: 'org.jmrtd', module: 'jmrtd'
-    exclude group: 'com.madgag.spongycastle', module: 'prov'
   }
 }
 ```
@@ -1000,15 +999,15 @@ dependencies {
 If your application already uses the same libraries that the Onfido SDK needs for the NFC feature, you may encounter some dependency conflicts that will impact and could interfere with the NFC capture in our SDK. In such cases, we propose using the dependency resolution strategy below, by adding the following lines to your `build.gradle` file:
 
 ```gradle
-implementation ("com.onfido.sdk:onfido-<variant>:19.1.0"){
+implementation ("com.onfido.sdk:onfido-<variant>:23.9.0"){
      exclude group: "org.bouncycastle"
  }
  implementation ("the other library that conflicts with Onfido on BouncyCastle") {
      exclude group: "org.bouncycastle"
  }
 
- implementation "org.bouncycastle:bcprov-jdk15to18:1.69"
- implementation "org.bouncycastle:bcutil-jdk15to18:1.69"
+ implementation "org.bouncycastle:bcprov-jdk18on:1.84"
+ implementation "org.bouncycastle:bcutil-jdk18on:1.84"
 ```
 
 ## Callbacks for manually defined verification flows
