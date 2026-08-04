@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val flowStepsWithOptions = arrayOf(
             FlowStep.WELCOME,
             FlowStep.CAPTURE_DOCUMENT,
-            FaceCaptureStepBuilder.forPhoto().build(),
+            FaceCaptureStepBuilder.forMotion().build(),
             FlowStep.FINAL
         )
         startFlow(flowStepsWithOptions)

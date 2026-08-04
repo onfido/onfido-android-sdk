@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Надто багато неправильних введень PIN заблокували ваш NFC-чип, тому ми пропустимо цей крок. Зверніться до відповідних органів, щоб скинути свій PIN для подальшого використання.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Продовжити</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Двічі торкніться, щоб вибрати країну</string>
+    <string name="onfido_doc_select_button_passport_card">Паспортна картка</string>
 </resources>

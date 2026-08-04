@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">बहुत अधिक गलत पिन प्रविष्टियों के कारण आपकी NFC चिप ब्लॉक हो गई है, इसलिए हम इस चरण को छोड़ देंगे। भविष्य में उपयोग के लिए अपना पिन रीसेट करने के लिए अपने अधिकारियों से संपर्क करें।</string>
 	<string name="onfido_chip_blocked_optional_button_primary">जारी रखें</string>
 	<string name="onfido_country_selection_select_hint_accessibility">देश चुनने के लिए डबल टैप करें</string>
+    <string name="onfido_doc_select_button_passport_card">पासपोर्ट कार्ड</string>
 </resources>

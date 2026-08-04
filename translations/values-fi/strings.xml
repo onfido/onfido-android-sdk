@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Liian monet virheelliset PIN-koodin syötöt ovat estäneet NFC-sirusi, joten ohitamme tämän vaiheen. Ota yhteyttä viranomaisiin PIN-koodisi nollaamiseksi tulevaa käyttöä varten.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Jatka</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Kaksoisnapauta valitaksesi maan</string>
+    <string name="onfido_doc_select_button_passport_card">Passikortti</string>
 </resources>

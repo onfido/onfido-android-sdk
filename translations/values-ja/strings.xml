@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">PINの入力ミスが多すぎたため、NFCチップがブロックされました。この手順はスキップします。今後の使用のためにPINをリセットするには、当局にお問い合わせください。</string>
 	<string name="onfido_chip_blocked_optional_button_primary">続行</string>
 	<string name="onfido_country_selection_select_hint_accessibility">ダブルタップして国を選択</string>
+    <string name="onfido_doc_select_button_passport_card">パスポートカード</string>
 </resources>

@@ -31,6 +31,7 @@
 	<string name="onfido_doc_select_button_id">National identity card</string>
     <string name="onfido_doc_select_button_permit">Residence permit</string>
 	<string name="onfido_doc_select_button_permit_work">Work Permit</string>
+    <string name="onfido_doc_select_button_passport_card">Passport card</string>
 
     <!-- Welcome Screen -->
     <string name="onfido_app_title_welcome">Verify your identity</string>

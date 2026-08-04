@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Bạn đã nhập mã PIN sai quá nhiều lần khiến chip NFC của bạn bị khóa, vì vậy chúng tôi sẽ bỏ qua bước này. Vui lòng liên hệ với cơ quan có thẩm quyền để đặt lại mã PIN cho lần sử dụng sau.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tiếp tục</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Chạm hai lần để chọn quốc gia</string>
+    <string name="onfido_doc_select_button_passport_card">Thẻ hộ chiếu</string>
 </resources>

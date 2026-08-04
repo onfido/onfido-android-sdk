@@ -608,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">عدد كبير جدًا من محاولات إدخال رقم التعريف الشخصي غير الصحيح أدى إلى حظر شريحة NFC، لذا سنتجاوز هذه الخطوة. يُرجى الاتصال بالجهات المختصة لإعادة تعيين رقم التعريف الشخصي للاستخدام في المستقبل.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">استمر</string>
 	<string name="onfido_country_selection_select_hint_accessibility">انقر مرتين لاختيار دولة</string>
+    <string name="onfido_doc_select_button_passport_card">بطاقة الجواز</string>
 </resources>

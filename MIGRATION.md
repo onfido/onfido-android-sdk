@@ -4,6 +4,20 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
+## `23.9.0` -> `23.10.0`
+
+### Platform Changes
+
+- A new `PASSPORT_CARD` value has been added to the public `DocumentType` enum. If your integration handles `DocumentType` values exhaustively, make sure the new value is handled
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_select_button_passport_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
 ## `23.1.0` -> `23.2.0`
 
 ### String Changes

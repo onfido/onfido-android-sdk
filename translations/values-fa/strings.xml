@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">تعداد زیاد ورود نادرست PIN باعث مسدود شدن تراشه NFC شما شده است، بنابراین این مرحله را رد می‌کنیم. برای تنظیم مجدد PIN جهت استفاده‌های بعدی، با مراجع مربوطه تماس بگیرید.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">ادامه</string>
 	<string name="onfido_country_selection_select_hint_accessibility">برای انتخاب یک کشور، دو بار ضربه بزنید</string>
+    <string name="onfido_doc_select_button_passport_card">کارت پاسپورت</string>
 </resources>

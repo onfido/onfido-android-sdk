@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Prea multe introduceri greșite ale PIN-ului v-au blocat cipul NFC, așa că vom sări peste acest pas. Contactați autoritățile pentru a reseta PIN-ul pentru utilizări viitoare.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Continuați</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Atinge de două ori pentru a selecta o țară</string>
+	<string name="onfido_doc_select_button_passport_card">Card de pașaport</string>
 </resources>

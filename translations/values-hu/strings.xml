@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Túl sok hibás PIN-kód beírása letiltotta az Ön NFC‑chipjét, ezért ezt a lépést most kihagyjuk. Kérjük, lépjen kapcsolatba az illetékes hatóságokkal a PIN-kód jövőbeli használathoz szükséges visszaállításához.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tovább</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Koppintson duplán egy ország kiválasztásához</string>
+    <string name="onfido_doc_select_button_passport_card">Útlevélkártya</string>
 </resources>

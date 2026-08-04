@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Pārāk daudz nepareizu PIN ievadīšanas mēģinājumu ir bloķējuši jūsu NFC mikroshēmu, tāpēc mēs izlaidīsim šo soli. Sazinieties ar atbildīgo iestādi, lai atiestatītu savu PIN turpmākai lietošanai.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Turpināt</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Veiciet dubultskārienu, lai atlasītu valsti</string>
+    <string name="onfido_doc_select_button_passport_card">Pases karte</string>
 </resources>

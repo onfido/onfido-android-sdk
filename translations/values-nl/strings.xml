@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Te veel onjuiste pincode‑invoer heeft uw NFC‑chip geblokkeerd, dus we slaan deze stap over. Neem contact op met de bevoegde instantie om uw pincode te laten resetten voor toekomstig gebruik.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Doorgaan</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dubbel tikken om een land te selecteren</string>
+    <string name="onfido_doc_select_button_passport_card">Paspoortkaart</string>
 </resources>

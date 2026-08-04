@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Previše netačnih unosa PIN-a je blokiralo vaš NFC čip, pa ćemo preskočiti ovaj korak. Kontaktirajte nadležne organe da resetujete PIN za buduću upotrebu.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Nastavi</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dvaput dodirnite da biste izabrali zemlju</string>
+    <string name="onfido_doc_select_button_passport_card">Пасошка картица</string>
 </resources>

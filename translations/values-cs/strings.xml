@@ -608,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Příliš mnoho nesprávných zadání PIN zzablokovalo váš NFC čip, proto tento krok přeskočíme. Kontaktujte příslušné úřady, aby vám obnovily PIN pro budoucí použití.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Pokračovat</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dvojitým klepnutím vyberte zemi</string>
+    <string name="onfido_doc_select_button_passport_card">Cestovní průkaz</string>
 </resources>

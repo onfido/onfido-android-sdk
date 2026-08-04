@@ -129,7 +129,7 @@ Average size (with Proguard enabled):
 
 | ABI              |   Size   |
 |------------------|:--------:|
-| core-armeabi-v7a | 11.10 Mb  |
+| core-armeabi-v7a | 11.11 Mb  |
 | core-arm64-v8a   | 9.97 Mb  |
 | core-universal   | 14.82 Mb |
 
@@ -176,6 +176,27 @@ android {
 Read the [Android documentation](http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits) for more information.
 
 **Note**: To further reduce the footprint of the SDK beyond the lightweight `onfido-capture-sdk-core`, you can integrate the Android SDK as a Dynamic Feature Module. You'll find more details about this in the dedicated section below.
+
+### Android Gradle Plugin 9 (duplicate `org.tensorflow.lite.support` namespace)
+
+When building with Android Gradle Plugin (AGP) 9.0.0 or higher, the build may fail with a duplicate namespace error:
+
+```
+Namespace 'org.tensorflow.lite.support' is used in multiple modules and/or libraries:
+com.google.ai.edge.litert:litert-support:1.4.x,
+com.google.ai.edge.litert:litert-support-api:1.4.x.
+Please ensure that all modules and libraries have a unique namespace.
+```
+
+This is a known compatibility issue in Google's LiteRT (TensorFlow Lite) library, which the Onfido SDK depends on transitively. It is not specific to the Onfido SDK — it affects any project that uses LiteRT 1.4.x with AGP 9, which enforces `android.uniquePackageNames=true` by default. See the upstream tracking issue [google-ai-edge/LiteRT#6965](https://github.com/google-ai-edge/LiteRT/issues/6965).
+
+As a workaround, add the following line to your project's `gradle.properties`:
+
+```properties
+android.uniquePackageNames=false
+```
+
+This resolves the build error with no functional impact on your application in the context of the LiteRT conflict, as both LiteRT modules contain different, non-overlapping classes that the Onfido SDK requires, so neither can be excluded. Note that `android.uniquePackageNames=false` is a project-wide flag that disables the unique namespace check for all libraries — if your project has other libraries with genuinely overlapping namespaces, those issues would also be suppressed. We are monitoring LiteRT releases and will update the SDK once Google publishes a fixed version.
 
 ## Initializing the SDK
 

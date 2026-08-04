@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Preveč napačnih vnosov PIN-a je blokiralo vaš NFC čip, zato bomo ta korak preskočili. Za ponastavitev PIN-a za prihodnjo uporabo se obrnite na pristojne organe.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Nadaljuj</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dvakrat tapnite za izbiro države</string>
+    <string name="onfido_doc_select_button_passport_card">Potna kartica</string>
 </resources>

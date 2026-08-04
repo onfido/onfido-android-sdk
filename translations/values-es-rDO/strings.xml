@@ -603,4 +603,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Demasiados intentos incorrectos de PIN han bloqueado tu chip NFC, así que omitiremos este paso. Comunícate con las autoridades para restablecer tu PIN para uso futuro.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Continuar</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Toca dos veces para seleccionar un país</string>
+	<string name="onfido_doc_select_button_passport_card">Tarjeta de pasaporte</string>
 </resources>

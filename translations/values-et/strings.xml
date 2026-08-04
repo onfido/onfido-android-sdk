@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Liiga paljud valed PIN-koodi sisestused on teie NFC-kiibil blokeerinud, seega jätame selle sammu vahele. Võtke ühendust oma ametiasutustega, et tulevikus kasutamiseks oma PIN-kood lähtestada.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Jätkake</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Riigi valimiseks topeltpuudutage</string>
+    <string name="onfido_doc_select_button_passport_card">Passikaart</string>
 </resources>

@@ -610,4 +610,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">For mange feil PIN-oppføringer har blokkert NFC-brikken din, så vi hopper over dette trinnet. Kontakt myndighetene for å tilbakestille PIN-koden din for videre bruk.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Fortsett</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dobbelttrykk for å velge et land</string>
+    <string name="onfido_doc_select_button_passport_card">Passkort</string>
 </resources>

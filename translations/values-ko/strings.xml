@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">PIN을 여러 번 잘못 입력하여 NFC 칩이 차단되었으므로, 이 단계를 건너뛰겠습니다. 앞으로 사용하시려면 PIN 재설정을 위해 관계 기관에 문의하세요.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">계속</string>
 	<string name="onfido_country_selection_select_hint_accessibility">국가를 선택하려면 두 번 탭하세요</string>
+    <string name="onfido_doc_select_button_passport_card">여권 카드</string>
 </resources>

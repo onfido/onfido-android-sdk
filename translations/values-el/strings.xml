@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Πάρα πολλές λανθασμένες εισαγωγές PIN έχουν μπλοκάρει το NFC chip σας, επομένως θα παραλείψουμε αυτό το βήμα. Επικοινωνήστε με τις αρμόδιες αρχές για να επαναφέρετε το PIN σας για μελλοντική χρήση.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Συνέχεια</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Πατήστε δύο φορές για να επιλέξετε χώρα</string>
+    <string name="onfido_doc_select_button_passport_card">Κάρτα διαβατηρίου</string>
 </resources>

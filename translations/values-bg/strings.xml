@@ -608,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Твърде много неправилни въвеждания на ПИН код са блокирали вашия NFC чип, затова ще пропуснем тази стъпка. Свържете се с компетентните органи, за да нулирате ПИН кода си за бъдеща употреба.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Продължете</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Докоснете двукратно, за да изберете държава</string>
+    <string name="onfido_doc_select_button_passport_card">Карта за паспорт</string>
 </resources>

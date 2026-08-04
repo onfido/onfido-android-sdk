@@ -610,4 +610,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Çok fazla hatalı PIN girişi NFC çipinizi engelledi, bu nedenle bu adımı atlayacağız. Gelecekte kullanmak üzere PIN\'inizi sıfırlamak için yetkili makamlarınızla iletişime geçin.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Devam et</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Bir ülke seçmek için iki kez dokunun</string>
+    <string name="onfido_doc_select_button_passport_card">Pasaport kartı</string>
 </resources>

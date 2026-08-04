@@ -608,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">PIN 码输入错误次数过多已导致您的 NFC 芯片被锁定,因此我们将跳过此步骤。请联系相关部门重置您的 PIN 码以便日后使用。</string>
 	<string name="onfido_chip_blocked_optional_button_primary">继续</string>
 	<string name="onfido_country_selection_select_hint_accessibility">双击以选择国家/地区</string>
+    <string name="onfido_doc_select_button_passport_card">护照卡</string>
 </resources>

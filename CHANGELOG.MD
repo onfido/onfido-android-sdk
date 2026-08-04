@@ -7,6 +7,23 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.10.0] - 2026-08-03
+
+### Added
+
+- Added support for the Qualified Electronic Signature (QES) assurance level in the electronic signature flow
+
+### Changed
+
+- Documented the Android Gradle Plugin (AGP) 9.0.0 workaround for the duplicate `org.tensorflow.lite.support` namespace error from transitive LiteRT dependencies
+- Removed the paper/folded document format option for Italian national identity cards ahead of its deprecation
+- Added support for Irish Passport Card
+- Addressed a security concern in the native `libNativeBridge.so` by upgrading the bundled OpenCV from 4.7.0 to 4.14.0. This removes the Intel ITT collector loader that could load a library from the fixed insecure `/data/local/tmp/` path into the host application process
+
+### Fixed
+
+- Fixed the Studio retry screen displaying custom text in the wrong language when using `.withLocale`
+
 ## [23.9.0] - 2026-06-23
 
 ### Changed

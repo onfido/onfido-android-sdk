@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         final FlowStep[] flowStepsWithOptions = new FlowStep[]{
                 FlowStep.WELCOME,
                 FlowStep.CAPTURE_DOCUMENT,
-                FaceCaptureStepBuilder.forPhoto().build(),
+                FaceCaptureStepBuilder.forMotion().build(),
                 FlowStep.FINAL
         };
 

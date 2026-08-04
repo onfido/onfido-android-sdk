@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Per daug neteisingai įvestų PIN kodų užblokavo jūsų NFC lustą, todėl šį žingsnį praleisime. Susisiekite su atitinkamomis institucijomis, kad ateityje galėtumėte iš naujo nustatyti PIN kodą.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tęsti</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dukart bakstelėkite, kad pasirinktumėte šalį</string>
+    <string name="onfido_doc_select_button_passport_card">Paso kortelė</string>
 </resources>

@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Zbyt wiele niepoprawnych wpisów kodu PIN zablokowało Twój chip NFC, więc pominiemy ten krok. Skontaktuj się z odpowiednimi instytucjami, aby zresetować swój PIN do przyszłego użytku.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Kontynuuj</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Stuknij dwukrotnie, aby wybrać kraj</string>
+    <string name="onfido_doc_select_button_passport_card">Karta paszportowa</string>
 </resources>

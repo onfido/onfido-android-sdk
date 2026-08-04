@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">יותר מדי ניסיונות שגויים להזנת קוד PIN חסמו את שבב ה-NFC שלך, לכן נדלג על שלב זה. צור קשר עם הרשויות כדי לאפס את קוד ה-PIN שלך לשימוש עתידי.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">המשך</string>
 	<string name="onfido_country_selection_select_hint_accessibility">הקש פעמיים כדי לבחור מדינה</string>
+    <string name="onfido_doc_select_button_passport_card">כרטיס דרכון</string>
 </resources>

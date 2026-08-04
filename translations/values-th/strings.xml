@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">การป้อน PIN ผิดหลายครั้งเกินไปทำให้ชิป NFC ของคุณถูกบล็อก ดังนั้นเราจะข้ามขั้นตอนนี้ กรุณาติดต่อหน่วยงานที่เกี่ยวข้องเพื่อรีเซ็ต PIN ของคุณสำหรับการใช้งานในอนาคต</string>
 	<string name="onfido_chip_blocked_optional_button_primary">ดำเนินการต่อ</string>
 	<string name="onfido_country_selection_select_hint_accessibility">แตะสองครั้งเพื่อเลือกประเทศ</string>
+    <string name="onfido_doc_select_button_passport_card">บัตรหนังสือเดินทาง</string>
 </resources>

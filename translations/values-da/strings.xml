@@ -608,4 +608,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">For mange forkerte PIN-indtastninger har blokeret din NFC-chip, så vi springer dette trin over. Kontakt dine myndigheder for at nulstille din PIN til fremtidig brug.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Fortsæt</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dobbelttryk for at vælge et land</string>
+    <string name="onfido_doc_select_button_passport_card">Pas-kort</string>
 </resources>

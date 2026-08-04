@@ -609,4 +609,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Շատ սխալ մուտքագրված PIN-ների պատճառով ձեր NFC չիպը արգելափակվել է, այդ պատճառով մենք կանցնենք այս քայլը։ Կապվեք համապատասխան մարմինների հետ՝ ձեր PIN-ը ապագայում օգտագործելու համար վերականգնելու նպատակով։</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Շարունակել</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Երկու անգամ թփթփացրեք՝ ընտրելու երկրի անունը</string>
+    <string name="onfido_doc_select_button_passport_card">Անձնագրի քարտ</string>
 </resources>
