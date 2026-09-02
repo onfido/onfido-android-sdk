@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Dokumen terkini anda</string>
 	<string name="onfido_poa_type_selection_title_uk">Pilih dokumen UK</string>
 	<string name="onfido_poa_type_selection_title">Pilih dokumen</string>
-	<string name="onfido_doc_select_subtitle_poa">Ini ialah dokumen-dokumen yang berkemungkinan besar menunjukkan alamat rumah semasa anda</string>
+	<string name="onfido_doc_select_subtitle_poa">Pilih dokumen terkini yang menunjukkan alamat rumah semasa anda</string>
 	<string name="onfido_doc_select_button_bank_statement">Penyata bank atau penyata persatuan pembinaan</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Penyata bank</string>
 	<string name="onfido_doc_select_extra_estatements_ok">e-penyata diterima</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Hantar dokumen</string>
 	<string name="onfido_poa_capture_choose_another">Pilih yang lain</string>
 	<string name="onfido_poa_capture_redo">Ambil semula gambar</string>
-	<string name="onfido_doc_confirmation_body">Pastikan anda telah memuat naik keseluruhan halaman dokumen dan butiran adalah jelas untuk dibaca tanpa kabur atau silau</string>
+	<string name="onfido_doc_confirmation_body">Pastikan keseluruhan dokumen kelihatan dan semua butiran jelas, tanpa kabur atau silau</string>
 	<string name="onfido_poa_capture_enlarge">Besarkan dokumen</string>
 	<string name="onfido_poa_capture_enlarge_move">Bergerak menggunakan satu jari. Jepit untuk mengezum.</string>
 	<string name="onfido_poa_capture_enlarge_close">Tutup</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Terlalu banyak percubaan PIN yang salah telah menyekat cip NFC anda, jadi kami akan melangkau langkah ini. Hubungi pihak berkuasa anda untuk menetapkan semula PIN anda bagi penggunaan pada masa hadapan.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Sambung</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dwi ketik untuk memilih negara</string>
-    <string name="onfido_doc_select_button_passport_card">Kad pasport</string>
+
+	<string name="onfido_doc_intro_address_page_title">Seterusnya, ambil gambar halaman alamat</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Kami memerlukan ini atas sebab-sebab peraturan</string>
+	<string name="onfido_doc_intro_address_page_option_1">Pergi ke halaman terakhir pasport anda</string>
+	<string name="onfido_doc_intro_address_page_option_2">Ambil foto halaman yang mengandungi nama ibu bapa, alamat, dan nombor fail anda</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Ilustrasi halaman alamat dalam Pasport India</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Tangkap gambar</string>
+
+	<string name="onfido_doc_capture_header_address_page">Halaman alamat</string>
+	<string name="onfido_doc_capture_description_address_page">Halaman terakhir pasport</string>
+	<string name="onfido_doc_select_button_passport_card">Kad pasport</string>
 </resources>

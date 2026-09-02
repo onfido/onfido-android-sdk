@@ -7,6 +7,16 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [23.11.0] - 2026-09-02
+
+### Added
+
+- Added address page capture for passports from supported countries
+
+### Fixed
+
+- Fixed an issue where the back button was not displayed on the first screen of a Studio workflow when the studio user flow exit feature was disabled
+
 ## [23.10.0] - 2026-08-03
 
 ### Added

@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">आपका सबसे हाल का डॉक्यूमेंट है</string>
 	<string name="onfido_poa_type_selection_title_uk">यूके का कोई डॉक्यूमेंट चुनें</string>
 	<string name="onfido_poa_type_selection_title">कोई डॉक्यूमेंट चुनें</string>
-	<string name="onfido_doc_select_subtitle_poa">इन डॉक्यूमेंटों पर आपके मौजूदा घर का पता दिखाने की संभावना सबसे ज़्यादा है</string>
+	<string name="onfido_doc_select_subtitle_poa">एक हालिया दस्तावेज़ चुनें जिसमें आपका वर्तमान घर का पता दर्शाया गया हो</string>
 	<string name="onfido_doc_select_button_bank_statement">बैंक या बिल्डिंग सोसाइटी का स्टेटमेंट</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">बैंक स्टेटमेंट</string>
 	<string name="onfido_doc_select_extra_estatements_ok">ई-स्टेटमेंट स्वीकार किए जाते हैं</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">डॉक्यूमेंट सबमिट करें</string>
 	<string name="onfido_poa_capture_choose_another">एक और चुनें</string>
 	<string name="onfido_poa_capture_redo">फ़ोटो फिर से खींचें</string>
-	<string name="onfido_doc_confirmation_body">पक्का करें कि आपने पूरा डॉक्यूमेंट पेज अपलोड कर दिया है। साथ ही, जानकारी धुँधली या उस पर कोई चमक नहीं है और उसे साफ़-साफ़ पढ़ा जा सकता है</string>
+	<string name="onfido_doc_confirmation_body">सुनिश्चित करें कि पूरा दस्तावेज़ दिखाई दे रहा हो और सभी विवरण स्पष्ट हों, कोई धुंधलापन या चमक न हो</string>
 	<string name="onfido_poa_capture_enlarge">डॉक्यूमेंट बड़ा करें</string>
 	<string name="onfido_poa_capture_enlarge_move">एक उंगली के ज़रिए इधर-उधर ले जाएँ पिंच करके ज़ूम करें।</string>
 	<string name="onfido_poa_capture_enlarge_close">बंद करें</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">बहुत अधिक गलत पिन प्रविष्टियों के कारण आपकी NFC चिप ब्लॉक हो गई है, इसलिए हम इस चरण को छोड़ देंगे। भविष्य में उपयोग के लिए अपना पिन रीसेट करने के लिए अपने अधिकारियों से संपर्क करें।</string>
 	<string name="onfido_chip_blocked_optional_button_primary">जारी रखें</string>
 	<string name="onfido_country_selection_select_hint_accessibility">देश चुनने के लिए डबल टैप करें</string>
-    <string name="onfido_doc_select_button_passport_card">पासपोर्ट कार्ड</string>
+
+	<string name="onfido_doc_intro_address_page_title">अब, पता पृष्ठ कैप्चर करें</string>
+	<string name="onfido_doc_intro_address_page_subtitle">हमें यह नियामकीय कारणों से चाहिए</string>
+	<string name="onfido_doc_intro_address_page_option_1">अपने पासपोर्ट के अंतिम पृष्ठ पर जाएँ</string>
+	<string name="onfido_doc_intro_address_page_option_2">उस पृष्ठ की फोटो लें जिसमें आपके माता-पिता के नाम, पता और फाइल नंबर हो</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">भारतीय पासपोर्ट में पता पृष्ठ का एक चित्रण</string>
+	<string name="onfido_doc_intro_address_page_continue_button">फ़ोटो खींचें</string>
+
+	<string name="onfido_doc_capture_header_address_page">पते वाला पृष्ठ</string>
+	<string name="onfido_doc_capture_description_address_page">पासपोर्ट का अंतिम पृष्ठ</string>
+	<string name="onfido_doc_select_button_passport_card">पासपोर्ट कार्ड</string>
 </resources>

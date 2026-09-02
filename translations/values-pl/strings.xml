@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Jest Twoim najnowszym dokumentem</string>
 	<string name="onfido_poa_type_selection_title_uk">Wybierz dokument brytyjski</string>
 	<string name="onfido_poa_type_selection_title">Wybierz dokument</string>
-	<string name="onfido_doc_select_subtitle_poa">Te dokumenty najprawdopodobniej zawierają Twój aktualny adres zamieszkania</string>
+	<string name="onfido_doc_select_subtitle_poa">Wybierz aktualny dokument potwierdzający Twój obecny adres zamieszkania</string>
 	<string name="onfido_doc_select_button_bank_statement">Wyciąg z banku lub spółdzielni budowlanej</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Wyciąg bankowy</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Dokumenty elektroniczne są akceptowane</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Prześlij dokument</string>
 	<string name="onfido_poa_capture_choose_another">Wybierz inny</string>
 	<string name="onfido_poa_capture_redo">Zrób zdjęcie ponownie</string>
-	<string name="onfido_doc_confirmation_body">Upewnij się, że widoczna jest cała strona dokumentu, a szczegóły są czytelne, bez rozmyć i odblasków</string>
+	<string name="onfido_doc_confirmation_body">Upewnij się, że cały dokument jest widoczny, a wszystkie dane są czytelne — bez rozmycia i odblasków</string>
 	<string name="onfido_poa_capture_enlarge">Powiększ dokument</string>
 	<string name="onfido_poa_capture_enlarge_move">Nawiguj, poruszając palcem. Uszczypnij ekran palcami, aby zbliżyć</string>
 	<string name="onfido_poa_capture_enlarge_close">Zamknij</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Zbyt wiele niepoprawnych wpisów kodu PIN zablokowało Twój chip NFC, więc pominiemy ten krok. Skontaktuj się z odpowiednimi instytucjami, aby zresetować swój PIN do przyszłego użytku.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Kontynuuj</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Stuknij dwukrotnie, aby wybrać kraj</string>
-    <string name="onfido_doc_select_button_passport_card">Karta paszportowa</string>
+
+	<string name="onfido_doc_intro_address_page_title">Następnie zrób zdjęcie strony z adresem</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Jest to wymagane ze względów regulacyjnych</string>
+	<string name="onfido_doc_intro_address_page_option_1">Przejdź do ostatniej strony paszportu</string>
+	<string name="onfido_doc_intro_address_page_option_2">Zrób zdjęcie strony zawierającej imiona i nazwiska rodziców, adres oraz numer akt</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Ilustracja strony z adresem w indyjskim paszporcie</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Zrób zdjęcie</string>
+
+	<string name="onfido_doc_capture_header_address_page">Strona z adresem</string>
+	<string name="onfido_doc_capture_description_address_page">Ostatnia strona paszportu</string>
+	<string name="onfido_doc_select_button_passport_card">Karta paszportowa</string>
 </resources>

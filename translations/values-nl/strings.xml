@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Is uw meest recente document...</string>
 	<string name="onfido_poa_type_selection_title_uk">Selecteer een document van het Verenigd Koninkrijk</string>
 	<string name="onfido_poa_type_selection_title">Selecteer een document</string>
-	<string name="onfido_doc_select_subtitle_poa">Dit zijn de meest waarschijnlijke documenten waaruit uw huidige adres blijkt</string>
+	<string name="onfido_doc_select_subtitle_poa">Kies een recent document waarop je huidige huisadres staat</string>
 	<string name="onfido_doc_select_button_bank_statement">Afschriften van de bank of bouwvereniging</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bankafschrift</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Elektronische afschriften geaccepteerd</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Verzend document</string>
 	<string name="onfido_poa_capture_choose_another">Een andere kiezen</string>
 	<string name="onfido_poa_capture_redo">Neem foto opnieuw</string>
-	<string name="onfido_doc_confirmation_body">Zorg ervoor dat u de volledige documentpagina heeft geüpload, en dat de details duidelijk en zonder wazigheid of spiegeling te lezen zijn</string>
+	<string name="onfido_doc_confirmation_body">Zorg dat het hele document zichtbaar is en alle details duidelijk zijn, zonder vervaging of schittering</string>
 	<string name="onfido_poa_capture_enlarge">Document vergroten</string>
 	<string name="onfido_poa_capture_enlarge_move">Beweeg rond met één vinger. Knijp om in te zoomen.</string>
 	<string name="onfido_poa_capture_enlarge_close">Sluiten</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Te veel onjuiste pincode‑invoer heeft uw NFC‑chip geblokkeerd, dus we slaan deze stap over. Neem contact op met de bevoegde instantie om uw pincode te laten resetten voor toekomstig gebruik.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Doorgaan</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dubbel tikken om een land te selecteren</string>
-    <string name="onfido_doc_select_button_passport_card">Paspoortkaart</string>
+
+	<string name="onfido_doc_intro_address_page_title">Maak nu een foto van de adrespagina</string>
+	<string name="onfido_doc_intro_address_page_subtitle">We hebben dit nodig om aan regelgeving te voldoen</string>
+	<string name="onfido_doc_intro_address_page_option_1">Ga naar de laatste pagina van uw paspoort</string>
+	<string name="onfido_doc_intro_address_page_option_2">Maak een foto van de pagina met de namen van uw ouders, uw adres en dossiernummer</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Een illustratie van de adrespagina in het Indiase paspoort</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Foto nemen</string>
+
+	<string name="onfido_doc_capture_header_address_page">Adrespagina</string>
+	<string name="onfido_doc_capture_description_address_page">Laatste pagina van paspoort</string>
+	<string name="onfido_doc_select_button_passport_card">Paspoortkaart</string>
 </resources>

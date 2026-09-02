@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Является вашим самым недавним документом</string>
 	<string name="onfido_poa_type_selection_title_uk">Выбрать документ Великобритании</string>
 	<string name="onfido_poa_type_selection_title">Выбрать документ</string>
-	<string name="onfido_doc_select_subtitle_poa">Именно в этих документах чаще всего указывается Ваш текущий домашний адрес</string>
+	<string name="onfido_doc_select_subtitle_poa">Выберите недавний документ, в котором указан ваш текущий домашний адрес</string>
 	<string name="onfido_doc_select_button_bank_statement">Выписка из банка или строительного общества</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Выписка из банка</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Электронные выписки приняты</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Отправить документ</string>
 	<string name="onfido_poa_capture_choose_another">Выбрать другой</string>
 	<string name="onfido_poa_capture_redo">Переснять фото</string>
-	<string name="onfido_doc_confirmation_body">Убедитесь, что Вы загрузили всю страницу документа, данные четко видны, нет размытия или бликов</string>
+	<string name="onfido_doc_confirmation_body">Убедитесь, что весь документ виден и все данные читаемы, без размытия и бликов</string>
 	<string name="onfido_poa_capture_enlarge">Увеличить документ</string>
 	<string name="onfido_poa_capture_enlarge_move">Выполняйте перемещение одним пальцем. Изменяйте масштаб сведением и разведением пальцев.</string>
 	<string name="onfido_poa_capture_enlarge_close">Закрыть</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Слишком много неправильных попыток ввода PIN-кода заблокировали ваш NFC-чип, поэтому мы пропустим этот шаг. Свяжитесь с соответствующими органами, чтобы сбросить PIN-код для дальнейшего использования.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Продолжить</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Дважды коснитесь, чтобы выбрать страну</string>
-    <string name="onfido_doc_select_button_passport_card">Паспортная карточка</string>
+
+	<string name="onfido_doc_intro_address_page_title">Теперь сделайте снимок страницы с адресом</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Она нужна нам по требованиям регулирования</string>
+	<string name="onfido_doc_intro_address_page_option_1">Перейдите к последней странице вашего паспорта</string>
+	<string name="onfido_doc_intro_address_page_option_2">Сделайте фото страницы с именами ваших родителей, адресом и номером дела</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Иллюстрация страницы с адресом в индийском паспорте</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Сделать фото</string>
+
+	<string name="onfido_doc_capture_header_address_page">Страница с адресом</string>
+	<string name="onfido_doc_capture_description_address_page">Последняя страница паспорта</string>
+	<string name="onfido_doc_select_button_passport_card">Паспортная карточка</string>
 </resources>

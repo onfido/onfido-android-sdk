@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Je to váš najnovší doklad</string>
 	<string name="onfido_poa_type_selection_title_uk">Vyberte doklad zo Spojeného kráľovstva</string>
 	<string name="onfido_poa_type_selection_title">Vyberte doklad</string>
-	<string name="onfido_doc_select_subtitle_poa">Toto sú doklady, na ktorých je s najväčšou pravdepodobnosťou uvedená aktuálna adresa vášho bydliska</string>
+	<string name="onfido_doc_select_subtitle_poa">Vyberte si nedávny dokument, ktorý obsahuje vašu aktuálnu domácu adresu</string>
 	<string name="onfido_doc_select_button_bank_statement">Výpis z banky alebo stavebnej sporiteľne</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Výpis z bankového účtu</string>
 	<string name="onfido_doc_select_extra_estatements_ok">akceptované elektronické výpisy</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Odoslať doklad</string>
 	<string name="onfido_poa_capture_choose_another">Zvoliť iný</string>
 	<string name="onfido_poa_capture_redo">Odfotiť znova</string>
-	<string name="onfido_doc_confirmation_body">Uistite sa, že ste nahrali celú stránku dokladu a údaje sú čitateľné bez rozmazania alebo odleskov</string>
+	<string name="onfido_doc_confirmation_body">Uistite sa, že celý dokument je viditeľný a všetky údaje sú čitateľné, bez rozmazania alebo odleskov</string>
 	<string name="onfido_poa_capture_enlarge">Zväčšiť doklad</string>
 	<string name="onfido_poa_capture_enlarge_move">Pohybujte sa jedným prstom. Priblížte sa stiahnutím prstov.</string>
 	<string name="onfido_poa_capture_enlarge_close">Zatvoriť</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Príliš veľa nesprávnych zadaní PIN zablokovalo váš čip NFC, preto tento krok preskočíme. Obráťte sa na príslušný úrad, aby vám PIN obnovili na budúce použitie.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Pokračovať</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dvojitým ťuknutím vyberte krajinu</string>
-    <string name="onfido_doc_select_button_passport_card">Karta pasu</string>
+
+	<string name="onfido_doc_intro_address_page_title">Ďalej nasnímajte stranu s adresou</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Vyžaduje to regulácia</string>
+	<string name="onfido_doc_intro_address_page_option_1">Prejdite na poslednú stranu pasu</string>
+	<string name="onfido_doc_intro_address_page_option_2">Odfotografujte stranu obsahujúcu mená rodičov, adresu a číslo spisu</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Ilustrácia strany s adresou v indickom pase</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Odfotiť</string>
+
+	<string name="onfido_doc_capture_header_address_page">Stránka s adresou</string>
+	<string name="onfido_doc_capture_description_address_page">Posledná stránka pasu</string>
+	<string name="onfido_doc_select_button_passport_card">Karta pasu</string>
 </resources>

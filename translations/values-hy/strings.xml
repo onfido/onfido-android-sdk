@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Սա ձեր ամենաթարմ փաստաթուղթն է</string>
 	<string name="onfido_poa_type_selection_title_uk">Ընտրել Միացյալ Թագավորության փաստաթուղթ</string>
 	<string name="onfido_poa_type_selection_title">Ընտրել փաստաթուղթը</string>
-	<string name="onfido_doc_select_subtitle_poa">Ամենայն հավանականությամբ, այս փաստաթղթերում գրանցված կլինի ձեր ներկա բնակության վայրի հասցեն</string>
+	<string name="onfido_doc_select_subtitle_poa">Ընտրեք վերջերս ստացված փաստաթուղթ, որտեղ նշված է ձեր ներկայիս տնային հասցեն</string>
 	<string name="onfido_doc_select_button_bank_statement">Բանկից կամ համատիրությունից ստացված քաղվածք</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Բանկային քաղվածք</string>
 	<string name="onfido_doc_select_extra_estatements_ok">էլեկտրոնային քաղվածքներ ընդունվում են</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Ուղարկել փաստաթուղթը</string>
 	<string name="onfido_poa_capture_choose_another">Ընտրել մեկ այլ տարբերակ</string>
 	<string name="onfido_poa_capture_redo">Կրկին լուսանկարել</string>
-	<string name="onfido_doc_confirmation_body">Համոզվեք, որ վերբեռնել եք փաստաթղթի ամբողջական էջը, և տվյալները ընթեռնելի են, պատկերը աղոտ չէ և չի փայլում</string>
+	<string name="onfido_doc_confirmation_body">Համոզվեք, որ ամբողջ փաստաթուղթը երևում է, իսկ բոլոր մանրամասները հստակ են, առանց մշուշվածության կամ փայծաղկման</string>
 	<string name="onfido_poa_capture_enlarge">Մեծացնել փաստաթուղթը</string>
 	<string name="onfido_poa_capture_enlarge_move">Պտտեք տեսախցիկը՝ օգտագործելով մեկ մատը։ Սեղմեք՝ մեծացնելու համար։</string>
 	<string name="onfido_poa_capture_enlarge_close">Փակել</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Շատ սխալ մուտքագրված PIN-ների պատճառով ձեր NFC չիպը արգելափակվել է, այդ պատճառով մենք կանցնենք այս քայլը։ Կապվեք համապատասխան մարմինների հետ՝ ձեր PIN-ը ապագայում օգտագործելու համար վերականգնելու նպատակով։</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Շարունակել</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Երկու անգամ թփթփացրեք՝ ընտրելու երկրի անունը</string>
-    <string name="onfido_doc_select_button_passport_card">Անձնագրի քարտ</string>
+
+	<string name="onfido_doc_intro_address_page_title">Հաջորդը՝ նկարահանեք հասցեի էջը</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Սա մեզ անհրաժեշտ է կարգավորող պահանջների համար</string>
+	<string name="onfido_doc_intro_address_page_option_1">Բացեք ձեր անձնագրի վերջին էջը</string>
+	<string name="onfido_doc_intro_address_page_option_2">Նկարեք այն էջը, որտեղ նշված են ձեր ծնողների անունները, հասցեն և գործի համարը</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Հնդկական անձնագրում հասցեի էջի պատկեր</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Լուսանկարել</string>
+
+	<string name="onfido_doc_capture_header_address_page">Հասցեի էջ</string>
+	<string name="onfido_doc_capture_description_address_page">Անձնագրի վերջին էջ</string>
+	<string name="onfido_doc_select_button_passport_card">Անձնագրի քարտ</string>
 </resources>

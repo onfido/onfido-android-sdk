@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Legfrissebb dokumentuma</string>
 	<string name="onfido_poa_type_selection_title_uk">Válasszon egy Egyesült Királyságbeli dokumentumot</string>
 	<string name="onfido_poa_type_selection_title">Dokumentum kiválasztása</string>
-	<string name="onfido_doc_select_subtitle_poa">Ezek a dokumentumok valószínűleg tartalmazzák a jelenlegi lakcímét</string>
+	<string name="onfido_doc_select_subtitle_poa">Válasszon egy nemrég kiállított dokumentumot, amely tartalmazza az aktuális lakcímét</string>
 	<string name="onfido_doc_select_button_bank_statement">Banki vagy lakás-takarékpénztári számlakivonat</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bankszámlakivonat</string>
 	<string name="onfido_doc_select_extra_estatements_ok">e-nyilatkozatok elfogadottak</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Dokumentum elküldése</string>
 	<string name="onfido_poa_capture_choose_another">Válasszon másikat</string>
 	<string name="onfido_poa_capture_redo">Készítse el a fényképet újra</string>
-	<string name="onfido_doc_confirmation_body">Győződjön meg róla, hogy feltöltötte a teljes dokumentumoldalt, és az adatok tisztán, elmosódás- és tükröződésmentesen olvashatók</string>
+	<string name="onfido_doc_confirmation_body">Győződjön meg róla, hogy a teljes dokumentum látható, és minden adat jól olvasható, elmosódás vagy tükröződés nélkül.</string>
 	<string name="onfido_poa_capture_enlarge">Dokumentum nagyítása</string>
 	<string name="onfido_poa_capture_enlarge_move">Mozgatás egy ujjal. Két ujjával csippentsen a képernyőn a zoomoláshoz.</string>
 	<string name="onfido_poa_capture_enlarge_close">Bezár</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Túl sok hibás PIN-kód beírása letiltotta az Ön NFC‑chipjét, ezért ezt a lépést most kihagyjuk. Kérjük, lépjen kapcsolatba az illetékes hatóságokkal a PIN-kód jövőbeli használathoz szükséges visszaállításához.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tovább</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Koppintson duplán egy ország kiválasztásához</string>
-    <string name="onfido_doc_select_button_passport_card">Útlevélkártya</string>
+
+	<string name="onfido_doc_intro_address_page_title">Ezután készítsen képet a lakcímet tartalmazó oldalról</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Erre szabályozási okokból van szükség</string>
+	<string name="onfido_doc_intro_address_page_option_1">Lépjen az útlevele utolsó oldalára</string>
+	<string name="onfido_doc_intro_address_page_option_2">Készítsen fényképet arról az oldalról, amely a szülei nevét, a címét és az ügyszámot tartalmazza</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Illusztráció az indiai útlevél lakcímet tartalmazó oldaláról</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Készítsen egy fényképet</string>
+
+	<string name="onfido_doc_capture_header_address_page">Lakcím oldal</string>
+	<string name="onfido_doc_capture_description_address_page">Útlevél utolsó oldala</string>
+	<string name="onfido_doc_select_button_passport_card">Útlevélkártya</string>
 </resources>

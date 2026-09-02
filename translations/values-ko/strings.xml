@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">가장 최근 서류여야 합니다</string>
 	<string name="onfido_poa_type_selection_title_uk">영국 서류 선택</string>
 	<string name="onfido_poa_type_selection_title">서류 선택</string>
-	<string name="onfido_doc_select_subtitle_poa">현재 집 주소가 표시될 가능성이 가장 높은 서류입니다</string>
+	<string name="onfido_doc_select_subtitle_poa">현재 거주지 주소가 표시된 최근 문서를 선택하세요</string>
 	<string name="onfido_doc_select_button_bank_statement">통장 입출금 내역서 또는 건설공제조합명세서(building society statement)</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">통장 입출금 내역서</string>
 	<string name="onfido_doc_select_extra_estatements_ok">전자 명세서 허용</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">서류 제출</string>
 	<string name="onfido_poa_capture_choose_another">다른 것 선택하기</string>
 	<string name="onfido_poa_capture_redo">사진 재촬영하기</string>
-	<string name="onfido_doc_confirmation_body">전체 서류 페이지를 업로드했는지 확인하고, 세부 정보가 선명하게 읽히며 빛 반사되는 부분이 없는지 확인하세요</string>
+	<string name="onfido_doc_confirmation_body">문서 전체가 보이고 모든 정보가 선명하며, 흐릿하거나 빛이 반사된 부분이 없도록 해 주세요</string>
 	<string name="onfido_poa_capture_enlarge">서류 확대</string>
 	<string name="onfido_poa_capture_enlarge_move">손가락 하나로 이리저리 움직이세요. 손가락으로 집어서 확대/축소하세요.</string>
 	<string name="onfido_poa_capture_enlarge_close">닫기</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">PIN을 여러 번 잘못 입력하여 NFC 칩이 차단되었으므로, 이 단계를 건너뛰겠습니다. 앞으로 사용하시려면 PIN 재설정을 위해 관계 기관에 문의하세요.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">계속</string>
 	<string name="onfido_country_selection_select_hint_accessibility">국가를 선택하려면 두 번 탭하세요</string>
-    <string name="onfido_doc_select_button_passport_card">여권 카드</string>
+
+	<string name="onfido_doc_intro_address_page_title">다음으로, 주소 페이지를 촬영하세요</string>
+	<string name="onfido_doc_intro_address_page_subtitle">규정상의 이유로 필요한 정보입니다</string>
+	<string name="onfido_doc_intro_address_page_option_1">여권의 마지막 페이지로 이동하세요</string>
+	<string name="onfido_doc_intro_address_page_option_2">부모님 성함, 주소, 파일 번호가 포함된 페이지를 촬영하세요</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">인도 여권 주소 페이지 예시 이미지</string>
+	<string name="onfido_doc_intro_address_page_continue_button">사진 촬영</string>
+
+	<string name="onfido_doc_capture_header_address_page">주소 페이지</string>
+	<string name="onfido_doc_capture_description_address_page">여권 마지막 페이지</string>
+	<string name="onfido_doc_select_button_passport_card">여권 카드</string>
 </resources>

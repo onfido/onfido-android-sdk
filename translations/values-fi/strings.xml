@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">on uusin asiakirjasi</string>
 	<string name="onfido_poa_type_selection_title_uk">Valitse Ison-Britannian asiakirja</string>
 	<string name="onfido_poa_type_selection_title">Valitse asiakirja</string>
-	<string name="onfido_doc_select_subtitle_poa">Nämä asiakirjat näyttävät todennäköisimmin nykyisen kotiosoitteesi</string>
+	<string name="onfido_doc_select_subtitle_poa">Valitse viimeaikainen asiakirja, jossa näkyy nykyinen kotiosoitteesi</string>
 	<string name="onfido_doc_select_button_bank_statement">Pankin tai asuntolainarahaston tiliote</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Tiliote</string>
 	<string name="onfido_doc_select_extra_estatements_ok">hyväksytyt sähköiset tiliotteet</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Lähetä asiakirja</string>
 	<string name="onfido_poa_capture_choose_another">Valitse toinen</string>
 	<string name="onfido_poa_capture_redo">Ota kuva uudelleen</string>
-	<string name="onfido_doc_confirmation_body">Varmista, että olet ladannut asiakirjan koko sivun ja että tiedot ovat luettavissa selkeästi ilman epäselviä tai häikäiseviä kohtia</string>
+	<string name="onfido_doc_confirmation_body">Varmista, että koko asiakirja näkyy selvästi ja kaikki tiedot ovat tarkkoja, ilman sumeutta tai heijastuksia</string>
 	<string name="onfido_poa_capture_enlarge">Suurenna asiakirjaa</string>
 	<string name="onfido_poa_capture_enlarge_move">Liikuta yhdellä sormella. Nipistä zoomataksesi.</string>
 	<string name="onfido_poa_capture_enlarge_close">Sulje</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Liian monet virheelliset PIN-koodin syötöt ovat estäneet NFC-sirusi, joten ohitamme tämän vaiheen. Ota yhteyttä viranomaisiin PIN-koodisi nollaamiseksi tulevaa käyttöä varten.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Jatka</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Kaksoisnapauta valitaksesi maan</string>
-    <string name="onfido_doc_select_button_passport_card">Passikortti</string>
+
+	<string name="onfido_doc_intro_address_page_title">Kuvaa seuraavaksi osoitesivu</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Tarvitsemme tämän sääntelyllisistä syistä</string>
+	<string name="onfido_doc_intro_address_page_option_1">Siirry passin viimeiselle sivulle</string>
+	<string name="onfido_doc_intro_address_page_option_2">Ota kuva sivusta, joka sisältää vanhempiesi nimet, osoitteen ja asianumeron</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Havainnekuva Intian passin osoitesivusta</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Ota valokuva</string>
+
+	<string name="onfido_doc_capture_header_address_page">Osoitesivu</string>
+	<string name="onfido_doc_capture_description_address_page">Passin viimeinen sivu</string>
+	<string name="onfido_doc_select_button_passport_card">Passikortti</string>
 </resources>

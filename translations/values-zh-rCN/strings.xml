@@ -409,7 +409,7 @@
 	<string name="onfido_poa_intro_list_most_recent">是否是您的最新证明文件</string>
 	<string name="onfido_poa_type_selection_title_uk">选择一个英国证明文件</string>
 	<string name="onfido_poa_type_selection_title">选择一个证明文件</string>
-	<string name="onfido_doc_select_subtitle_poa">这些证明文件最有可能显示您当前的家庭地址</string>
+	<string name="onfido_doc_select_subtitle_poa">请选择一份近期文件，该文件须显示您当前的家庭住址</string>
 	<string name="onfido_doc_select_button_bank_statement">银行或房屋互助协会对账单</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">银行对账单</string>
 	<string name="onfido_doc_select_extra_estatements_ok">已接受电子对账单</string>
@@ -438,7 +438,7 @@
 	<string name="onfido_poa_capture_confirm">提交证明文件</string>
 	<string name="onfido_poa_capture_choose_another">选择另一个文件</string>
 	<string name="onfido_poa_capture_redo">重新拍摄照片</string>
-	<string name="onfido_doc_confirmation_body">请确保您已上传整个证明文件页面，且细节清晰可辨，无模糊或眩光</string>
+	<string name="onfido_doc_confirmation_body">请确保整个文件完整可见，且所有信息清晰可读，没有模糊或反光</string>
 	<string name="onfido_poa_capture_enlarge">放大证明文件</string>
 	<string name="onfido_poa_capture_enlarge_move">用一根手指来回移动。捏合手势可缩放。</string>
 	<string name="onfido_poa_capture_enlarge_close">关闭</string>
@@ -608,5 +608,13 @@
 	<string name="onfido_chip_blocked_optional_subtitle">PIN 码输入错误次数过多已导致您的 NFC 芯片被锁定,因此我们将跳过此步骤。请联系相关部门重置您的 PIN 码以便日后使用。</string>
 	<string name="onfido_chip_blocked_optional_button_primary">继续</string>
 	<string name="onfido_country_selection_select_hint_accessibility">双击以选择国家/地区</string>
-    <string name="onfido_doc_select_button_passport_card">护照卡</string>
+	<string name="onfido_doc_select_button_passport_card">护照卡</string>
+	<string name="onfido_doc_intro_address_page_title">接下来，拍摄地址页</string>
+	<string name="onfido_doc_intro_address_page_subtitle">出于合规原因，我们需要此信息</string>
+	<string name="onfido_doc_intro_address_page_option_1">请翻到护照的最后一页</string>
+	<string name="onfido_doc_intro_address_page_option_2">请拍摄包含父母姓名、地址和档案编号的页面</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">印度护照地址页示意图</string>
+	<string name="onfido_doc_intro_address_page_continue_button">拍照</string>
+	<string name="onfido_doc_capture_header_address_page">地址页</string>
+	<string name="onfido_doc_capture_description_address_page">护照最后一页</string>
 </resources>

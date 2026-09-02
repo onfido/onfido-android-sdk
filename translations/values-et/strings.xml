@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">On teie uusim dokument</string>
 	<string name="onfido_poa_type_selection_title_uk">Valige Ühendkuningriigi dokument</string>
 	<string name="onfido_poa_type_selection_title">Valige dokument</string>
-	<string name="onfido_doc_select_subtitle_poa">Need on dokumendid, mis näitavad kõige tõenäolisemalt teie praegust kodust aadressi</string>
+	<string name="onfido_doc_select_subtitle_poa">Valige hiljutine dokument, millel on näidatud teie praegune koduaadress</string>
 	<string name="onfido_doc_select_button_bank_statement">Panga või korteriühistu väljavõte</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Pangakonto väljavõte</string>
 	<string name="onfido_doc_select_extra_estatements_ok">elektroonilised väljavõtted sobivad</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Dokumendi esitamine</string>
 	<string name="onfido_poa_capture_choose_another">Valige uus</string>
 	<string name="onfido_poa_capture_redo">Pildistage uuesti</string>
-	<string name="onfido_doc_confirmation_body">Veenduge, et olete kogu dokumendi lehe üles laadinud ja andmed on loetavad ning ei ole hägused ega ülevalgustatud</string>
+	<string name="onfido_doc_confirmation_body">Veendu, et kogu dokument on näha ja kõik üksikasjad on selged, ilma ähmasuse või pimestuseta</string>
 	<string name="onfido_poa_capture_enlarge">Dokumendi suurendamine</string>
 	<string name="onfido_poa_capture_enlarge_move">Liigutage kaadrit ühe sõrme abil. Suumimiseks viige sõrmed kokku.</string>
 	<string name="onfido_poa_capture_enlarge_close">Sulgege</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Liiga paljud valed PIN-koodi sisestused on teie NFC-kiibil blokeerinud, seega jätame selle sammu vahele. Võtke ühendust oma ametiasutustega, et tulevikus kasutamiseks oma PIN-kood lähtestada.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Jätkake</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Riigi valimiseks topeltpuudutage</string>
-    <string name="onfido_doc_select_button_passport_card">Passikaart</string>
+
+	<string name="onfido_doc_intro_address_page_title">Jäädvustage järgmisena aadressileht</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Seda on vaja regulatiivsetel põhjustel</string>
+	<string name="onfido_doc_intro_address_page_option_1">Minge passi viimasele leheküljele</string>
+	<string name="onfido_doc_intro_address_page_option_2">Tehke foto leheküljest, mis sisaldab vanemate nimesid, aadressi ja toimiku numbrit</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">India passi aadressilehe illustratsioon</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Tehke foto</string>
+
+	<string name="onfido_doc_capture_header_address_page">Aadressileht</string>
+	<string name="onfido_doc_capture_description_address_page">Passi viimane leht</string>
+	<string name="onfido_doc_select_button_passport_card">Passikaart</string>
 </resources>

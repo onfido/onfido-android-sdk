@@ -409,7 +409,7 @@
 	<string name="onfido_poa_intro_list_most_recent">حديث</string>
 	<string name="onfido_poa_type_selection_title_uk">حدد مستندًا من المملكة المتحدة</string>
 	<string name="onfido_poa_type_selection_title">اختر مستندًا</string>
-	<string name="onfido_doc_select_subtitle_poa">هذه هي الوثائق الأكثر احتمالاً لإظهار العنوان الحالي لمسكنك</string>
+	<string name="onfido_doc_select_subtitle_poa">اختر مستندًا حديثًا يوضح عنوان منزلك الحالي</string>
 	<string name="onfido_doc_select_button_bank_statement">بيان البنك أو مؤسسة تمويل عقاري</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">كشف حساب مصرف</string>
 	<string name="onfido_doc_select_extra_estatements_ok">البيانات الإلكترونية مقبولة </string>
@@ -438,7 +438,7 @@
 	<string name="onfido_poa_capture_confirm">إرسال مستند</string>
 	<string name="onfido_poa_capture_choose_another">اختر أخرى</string>
 	<string name="onfido_poa_capture_redo">إعادة التقاط الصورة</string>
-	<string name="onfido_doc_confirmation_body">تأكد من تحميل صفحة المستند بأكملها، وأن التفاصيل واضحة للقراءة دون أي ضبابية أو وهج</string>
+	<string name="onfido_doc_confirmation_body">تأكد من أن المستند بأكمله ظاهر وأن جميع التفاصيل واضحة، بدون أي تشويش أو وهج</string>
 	<string name="onfido_poa_capture_enlarge">تكبير المستند</string>
 	<string name="onfido_poa_capture_enlarge_move">تحرك باستخدام إصبع واحد. اقرص للتكبير.</string>
 	<string name="onfido_poa_capture_enlarge_close">إغلاق</string>
@@ -608,5 +608,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">عدد كبير جدًا من محاولات إدخال رقم التعريف الشخصي غير الصحيح أدى إلى حظر شريحة NFC، لذا سنتجاوز هذه الخطوة. يُرجى الاتصال بالجهات المختصة لإعادة تعيين رقم التعريف الشخصي للاستخدام في المستقبل.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">استمر</string>
 	<string name="onfido_country_selection_select_hint_accessibility">انقر مرتين لاختيار دولة</string>
-    <string name="onfido_doc_select_button_passport_card">بطاقة الجواز</string>
+
+	<string name="onfido_doc_intro_address_page_title">التالي، التقط صورة صفحة العنوان</string>
+	<string name="onfido_doc_intro_address_page_subtitle">نحتاج إلى ذلك لأسباب تنظيمية</string>
+	<string name="onfido_doc_intro_address_page_option_1">انتقل إلى الصفحة الأخيرة من جواز سفرك</string>
+	<string name="onfido_doc_intro_address_page_option_2">التقط صورة للصفحة التي تحتوي على أسماء والديك وعنوانك ورقم الملف</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">رسم توضيحي لصفحة العنوان في جواز السفر الهندي</string>
+	<string name="onfido_doc_intro_address_page_continue_button">التقاط صورة</string>
+
+	<string name="onfido_doc_capture_header_address_page">صفحة العنوان</string>
+	<string name="onfido_doc_capture_description_address_page">الصفحة الأخيرة من جواز السفر</string>
+	<string name="onfido_doc_select_button_passport_card">بطاقة الجواز</string>
 </resources>

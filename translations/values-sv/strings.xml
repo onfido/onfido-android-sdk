@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Är ditt senaste dokument</string>
 	<string name="onfido_poa_type_selection_title_uk">Välj ett dokument från Storbritannien</string>
 	<string name="onfido_poa_type_selection_title">Välj ett dokument</string>
-	<string name="onfido_doc_select_subtitle_poa">Dessa dokument är de som mest sannolikt visar din nuvarande hemadress</string>
+	<string name="onfido_doc_select_subtitle_poa">Välj ett nyligt dokument som visar din nuvarande hemadress</string>
 	<string name="onfido_doc_select_button_bank_statement">Kontoutdrag från bank eller hypoteksinstitut</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bankkontoutdrag</string>
 	<string name="onfido_doc_select_extra_estatements_ok">e-utdrag godtas</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Skicka in dokument</string>
 	<string name="onfido_poa_capture_choose_another">Välj ett annat</string>
 	<string name="onfido_poa_capture_redo">Ta om fotot</string>
-	<string name="onfido_doc_confirmation_body">Se till att du har laddat upp hela dokumentsidan, att detaljerna är tydliga och att det inte finns några oskarpa områden eller ljusreflexer</string>
+	<string name="onfido_doc_confirmation_body">Se till att hela dokumentet är synligt och att alla uppgifter är tydliga, utan oskärpa eller reflexer</string>
 	<string name="onfido_poa_capture_enlarge">Förstora dokument</string>
 	<string name="onfido_poa_capture_enlarge_move">Flytta runt med hjälp av ett finger. Nyp för att zooma.</string>
 	<string name="onfido_poa_capture_enlarge_close">Stäng</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">För många felaktiga PIN-inmatningar har blockerat din NFC-chip, så vi hoppar över detta steg. Kontakta dina myndigheter för att återställa din PIN för framtida användning.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Fortsätt</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dubbeltryck för att välja ett land</string>
-    <string name="onfido_doc_select_button_passport_card">Passkortet</string>
+
+	<string name="onfido_doc_intro_address_page_title">Fotografera sedan adresssidan</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Detta krävs av regulatoriska skäl</string>
+	<string name="onfido_doc_intro_address_page_option_1">Gå till sista sidan i ditt pass</string>
+	<string name="onfido_doc_intro_address_page_option_2">Ta ett foto av sidan som innehåller dina föräldrars namn, adress och ärendenummer</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">En illustration av adresssidan i det indiska passet</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Ta foto</string>
+
+	<string name="onfido_doc_capture_header_address_page">Adresssida</string>
+	<string name="onfido_doc_capture_description_address_page">Sista sidan i passet</string>
+	<string name="onfido_doc_select_button_passport_card">Passkortet</string>
 </resources>

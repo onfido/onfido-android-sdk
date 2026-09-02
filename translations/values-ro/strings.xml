@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Este documentul dvs. recent</string>
 	<string name="onfido_poa_type_selection_title_uk">Selectați un document UK</string>
 	<string name="onfido_poa_type_selection_title">Selectați un document</string>
-	<string name="onfido_doc_select_subtitle_poa">Acestea sunt documente care cel mai probabil indică adresa dvs. de reședință actuală</string>
+	<string name="onfido_doc_select_subtitle_poa">Alege un document recent care arată adresa ta actuală de domiciliu</string>
 	<string name="onfido_doc_select_button_bank_statement">Extras de la bancă sau societatea mutuală de credit</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Extras de cont</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Extrase electronice acceptate</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Trimiteți documentul</string>
 	<string name="onfido_poa_capture_choose_another">Alegeți altul</string>
 	<string name="onfido_poa_capture_redo">Faceți din nou poză</string>
-	<string name="onfido_doc_confirmation_body">Asigurați-vă că ați încărcat întreaga pagină a documentului și că detaliile sunt clare, fără estompări sau luciri, pentru a fi citite</string>
+	<string name="onfido_doc_confirmation_body">Asigură-te că întregul document este vizibil și toate detaliile sunt clare, fără blur sau strălucire puternică</string>
 	<string name="onfido_poa_capture_enlarge">Măriți documentul</string>
 	<string name="onfido_poa_capture_enlarge_move">Mișcați cu un singur deget. Depărtați degetele pentru a mări imaginea. Apropiați degetele pentru a micșora imaginea.</string>
 	<string name="onfido_poa_capture_enlarge_close">Închideți</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Prea multe introduceri greșite ale PIN-ului v-au blocat cipul NFC, așa că vom sări peste acest pas. Contactați autoritățile pentru a reseta PIN-ul pentru utilizări viitoare.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Continuați</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Atinge de două ori pentru a selecta o țară</string>
+
+	<string name="onfido_doc_intro_address_page_title">În continuare, fotografiază pagina cu adresa</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Avem nevoie de aceasta din motive de reglementare</string>
+	<string name="onfido_doc_intro_address_page_option_1">Mergi la ultima pagină a pașaportului tău</string>
+	<string name="onfido_doc_intro_address_page_option_2">Fă o fotografie a paginii care conține numele părinților, adresa și numărul dosarului</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">O ilustrație a paginii cu adresa din pașaportul indian</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Faceți o poză</string>
+
+	<string name="onfido_doc_capture_header_address_page">Pagină de adresă</string>
+	<string name="onfido_doc_capture_description_address_page">Ultima pagină a pașaportului</string>
 	<string name="onfido_doc_select_button_passport_card">Card de pașaport</string>
 </resources>

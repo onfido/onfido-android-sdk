@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">最も直近のドキュメントですか</string>
 	<string name="onfido_poa_type_selection_title_uk">英国のドキュメントを選択</string>
 	<string name="onfido_poa_type_selection_title">ドキュメントを選択</string>
-	<string name="onfido_doc_select_subtitle_poa">次のドキュメントが、現在の自宅の住所を示す可能性の最も高いものです</string>
+	<string name="onfido_doc_select_subtitle_poa">現在の自宅住所が記載された最新の書類を選択してください</string>
 	<string name="onfido_doc_select_button_bank_statement">銀行または住宅金融組合の明細書</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">銀行取引明細書</string>
 	<string name="onfido_doc_select_extra_estatements_ok">受け入れられる電子明細書</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">ドキュメントを送信</string>
 	<string name="onfido_poa_capture_choose_another">別のものを選択してください</string>
 	<string name="onfido_poa_capture_redo">写真の再撮影</string>
-	<string name="onfido_doc_confirmation_body">ドキュメントページ全体をアップロードしており、ぼかしや照り返しがなく、詳細がはっきりしていることを確認してください</string>
+	<string name="onfido_doc_confirmation_body">書類全体が映っていて、すべての内容がはっきりと読み取れ、ぼやけや反射がないことを確認してください</string>
 	<string name="onfido_poa_capture_enlarge">ドキュメントを拡大</string>
 	<string name="onfido_poa_capture_enlarge_move">1本の指で動かしてください。つまむと拡大表示されます。</string>
 	<string name="onfido_poa_capture_enlarge_close">閉じる</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">PINの入力ミスが多すぎたため、NFCチップがブロックされました。この手順はスキップします。今後の使用のためにPINをリセットするには、当局にお問い合わせください。</string>
 	<string name="onfido_chip_blocked_optional_button_primary">続行</string>
 	<string name="onfido_country_selection_select_hint_accessibility">ダブルタップして国を選択</string>
-    <string name="onfido_doc_select_button_passport_card">パスポートカード</string>
+
+	<string name="onfido_doc_intro_address_page_title">次に、住所のページを撮影してください</string>
+	<string name="onfido_doc_intro_address_page_subtitle">規制上の理由で、この情報が必要です</string>
+	<string name="onfido_doc_intro_address_page_option_1">パスポートの一番最後のページを開いてください</string>
+	<string name="onfido_doc_intro_address_page_option_2">ご両親の氏名、住所、ファイル番号が記載されたページを撮影してください</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">インドのパスポートにおける住所ページのイラスト</string>
+	<string name="onfido_doc_intro_address_page_continue_button">写真を撮る</string>
+
+	<string name="onfido_doc_capture_header_address_page">住所ページ</string>
+	<string name="onfido_doc_capture_description_address_page">パスポートの最終ページ</string>
+	<string name="onfido_doc_select_button_passport_card">パスポートカード</string>
 </resources>

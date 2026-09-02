@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">המסמך האחרון שלך</string>
 	<string name="onfido_poa_type_selection_title_uk">בחר מסמך בריטי</string>
 	<string name="onfido_poa_type_selection_title">בחר מסמך</string>
-	<string name="onfido_doc_select_subtitle_poa">אלה המסמכים שהכי סביר שיציגו את כתובת המגורים הנוכחית שלך</string>
+	<string name="onfido_doc_select_subtitle_poa">יש לבחור מסמך עדכני המציג את כתובת המגורים הנוכחית</string>
 	<string name="onfido_doc_select_button_bank_statement">הצהרת בנק או חברת בנייה</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">דף חשבון בנק</string>
 	<string name="onfido_doc_select_extra_estatements_ok">דוחות אלקטרוניים שייתקבלו</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">שלח מסמך</string>
 	<string name="onfido_poa_capture_choose_another">בחר מסמך אחר</string>
 	<string name="onfido_poa_capture_redo">צלם תמונה מחדש</string>
-	<string name="onfido_doc_confirmation_body">ודא שהעלית את עמוד המסמך בשלמותו ושהפרטים ברורים לקריאה ללא טשטוש או השתקפות</string>
+	<string name="onfido_doc_confirmation_body">ודאו שהמסמך כולו גלוי וכל הפרטים ברורים, ללא טשטוש או השתקפות</string>
 	<string name="onfido_poa_capture_enlarge">הגדל מסמך</string>
 	<string name="onfido_poa_capture_enlarge_move">הזז את האצבע על המסך. כווץ כדי לשנות את גודל התצוגה.</string>
 	<string name="onfido_poa_capture_enlarge_close">סגור</string>
@@ -609,5 +609,13 @@
 	<string name="onfido_chip_blocked_optional_subtitle">יותר מדי ניסיונות שגויים להזנת קוד PIN חסמו את שבב ה-NFC שלך, לכן נדלג על שלב זה. צור קשר עם הרשויות כדי לאפס את קוד ה-PIN שלך לשימוש עתידי.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">המשך</string>
 	<string name="onfido_country_selection_select_hint_accessibility">הקש פעמיים כדי לבחור מדינה</string>
-    <string name="onfido_doc_select_button_passport_card">כרטיס דרכון</string>
+	<string name="onfido_doc_select_button_passport_card">כרטיס דרכון</string>
+	<string name="onfido_doc_intro_address_page_title">לאחר מכן, צלמו את דף הכתובת</string>
+	<string name="onfido_doc_intro_address_page_subtitle">הדבר נדרש מסיבות רגולטוריות</string>
+	<string name="onfido_doc_intro_address_page_option_1">עברו לעמוד האחרון בדרכון</string>
+	<string name="onfido_doc_intro_address_page_option_2">צלמו את הדף המכיל את שמות ההורים, הכתובת ומספר התיק</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">איור של דף הכתובת בדרכון ההודי</string>
+	<string name="onfido_doc_intro_address_page_continue_button">צלם תמונה</string>
+	<string name="onfido_doc_capture_header_address_page">דף כתובת</string>
+	<string name="onfido_doc_capture_description_address_page">עמוד אחרון של דרכון</string>
 </resources>

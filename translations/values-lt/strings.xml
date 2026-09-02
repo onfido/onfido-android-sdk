@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">yra jūsų naujausias dokumentas.</string>
 	<string name="onfido_poa_type_selection_title_uk">Pasirinkti JK dokumentą</string>
 	<string name="onfido_poa_type_selection_title">Pasirinkti dokumentą</string>
-	<string name="onfido_doc_select_subtitle_poa">Dokumentai, kuriuose nurodytas Jūsų namų adresas</string>
+	<string name="onfido_doc_select_subtitle_poa">Pasirinkite neseniai išduotą dokumentą, kuriame nurodytas jūsų dabartinis namų adresas</string>
 	<string name="onfido_doc_select_button_bank_statement">Banko arba būstų savininkų bendrijos išrašas</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Banko išrašas</string>
 	<string name="onfido_doc_select_extra_estatements_ok">el. išrašai yra tinkami</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Pateikti dokumentą</string>
 	<string name="onfido_poa_capture_choose_another">Pasirinkti kitą</string>
 	<string name="onfido_poa_capture_redo">Fotografuoti iš naujo</string>
-	<string name="onfido_doc_confirmation_body">Įsitikinkite, kad įkėlėte visą dokumento puslapį ir kad informacija yra aiškiai matoma, kad ją būtų galima perskaityti, nesusiliejusi ir be atspindžių</string>
+	<string name="onfido_doc_confirmation_body">Įsitikinkite, kad visas dokumentas yra matomas ir visos detalės aiškios, be suliejimų ar atspindžių</string>
 	<string name="onfido_poa_capture_enlarge">Padidinti dokumentą</string>
 	<string name="onfido_poa_capture_enlarge_move">Judėkite aplink naudodami vieną pirštą. Braukdami dviem pirštais artyn vienas kito galite priartinti.</string>
 	<string name="onfido_poa_capture_enlarge_close">Uždaryti</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Per daug neteisingai įvestų PIN kodų užblokavo jūsų NFC lustą, todėl šį žingsnį praleisime. Susisiekite su atitinkamomis institucijomis, kad ateityje galėtumėte iš naujo nustatyti PIN kodą.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Tęsti</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dukart bakstelėkite, kad pasirinktumėte šalį</string>
-    <string name="onfido_doc_select_button_passport_card">Paso kortelė</string>
+
+	<string name="onfido_doc_intro_address_page_title">Tada nufotografuokite adreso puslapį</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Tai reikalinga dėl teisinių reikalavimų</string>
+	<string name="onfido_doc_intro_address_page_option_1">Eikite į paskutinį savo paso puslapį</string>
+	<string name="onfido_doc_intro_address_page_option_2">Nufotografuokite puslapį, kuriame yra jūsų tėvų vardai, adresas ir bylos numeris</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Indijos paso adreso puslapio iliustracija</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Fotografuoti</string>
+
+	<string name="onfido_doc_capture_header_address_page">Adreso puslapis</string>
+	<string name="onfido_doc_capture_description_address_page">Paskutinis paso puslapis</string>
+	<string name="onfido_doc_select_button_passport_card">Paso kortelė</string>
 </resources>

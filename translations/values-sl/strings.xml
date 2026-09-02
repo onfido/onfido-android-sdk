@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Je vaš najnovejši dokument</string>
 	<string name="onfido_poa_type_selection_title_uk">Izberite dokument Združenega kraljestva</string>
 	<string name="onfido_poa_type_selection_title">Izberite dokument</string>
-	<string name="onfido_doc_select_subtitle_poa">To so dokumenti, ki bodo najverjetneje prikazali vaš trenutni domači naslov</string>
+	<string name="onfido_doc_select_subtitle_poa">Izberite nedavni dokument, ki prikazuje vaš trenutni domači naslov</string>
 	<string name="onfido_doc_select_button_bank_statement">Izpisek banke ali hranilnice</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bančni izpisek</string>
 	<string name="onfido_doc_select_extra_estatements_ok">sprejeti e-izpiski</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Pošlji dokument</string>
 	<string name="onfido_poa_capture_choose_another">Izberite drugo</string>
 	<string name="onfido_poa_capture_redo">Ponovno posnemi fotografijo</string>
-	<string name="onfido_doc_confirmation_body">Prepričajte se, da ste naložili celotno stran dokumenta in da so podrobnosti jasno berljive, brez zamegljenosti ali bleščanja</string>
+	<string name="onfido_doc_confirmation_body">Preverite, da je celoten dokument viden in da so vse podrobnosti jasne, brez zameglitev ali bleščanja</string>
 	<string name="onfido_poa_capture_enlarge">Povečaj dokument</string>
 	<string name="onfido_poa_capture_enlarge_move">Premikajte se z enim prstom. Stisnite za povečavo.</string>
 	<string name="onfido_poa_capture_enlarge_close">Zapri</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Preveč napačnih vnosov PIN-a je blokiralo vaš NFC čip, zato bomo ta korak preskočili. Za ponastavitev PIN-a za prihodnjo uporabo se obrnite na pristojne organe.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Nadaljuj</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Dvakrat tapnite za izbiro države</string>
-    <string name="onfido_doc_select_button_passport_card">Potna kartica</string>
+
+	<string name="onfido_doc_intro_address_page_title">Nato posnemite stran z naslovom</string>
+	<string name="onfido_doc_intro_address_page_subtitle">To potrebujemo iz regulatornih razlogov</string>
+	<string name="onfido_doc_intro_address_page_option_1">Pojdite na zadnjo stran potnega lista</string>
+	<string name="onfido_doc_intro_address_page_option_2">Fotografirajte stran, ki vsebuje imena staršev, naslov in številko spisa</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Ilustracija strani z naslovom v indijskem potnem listu</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Posnemite fotografijo</string>
+
+	<string name="onfido_doc_capture_header_address_page">Stran z naslovom</string>
+	<string name="onfido_doc_capture_description_address_page">Zadnja stran potnega lista</string>
+	<string name="onfido_doc_select_button_passport_card">Potna kartica</string>
 </resources>

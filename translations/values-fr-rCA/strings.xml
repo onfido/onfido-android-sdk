@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">est votre document le plus récent</string>
 	<string name="onfido_poa_type_selection_title_uk">Sélectionnez un document du Royaume-Uni</string>
 	<string name="onfido_poa_type_selection_title">Sélectionner un document</string>
-	<string name="onfido_doc_select_subtitle_poa">Ce sont les documents les plus susceptibles d\'indiquer l\'adresse de votre domicile actuel</string>
+	<string name="onfido_doc_select_subtitle_poa">Choisissez un document récent indiquant votre adresse domiciliaire actuelle</string>
 	<string name="onfido_doc_select_button_bank_statement">Relevé bancaire ou de société de crédit immobilier</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Relevé bancaire</string>
 	<string name="onfido_doc_select_extra_estatements_ok">Les relevés électroniques autorisés</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">Soumettre le document</string>
 	<string name="onfido_poa_capture_choose_another">Choisissez-en une autre</string>
 	<string name="onfido_poa_capture_redo">Reprendre la photo</string>
-	<string name="onfido_doc_confirmation_body">Assurez-vous que vous avez téléversé la page entière du document et que les détails sont lisibles, sans flou ni reflet</string>
+	<string name="onfido_doc_confirmation_body">Assurez-vous que le document est entièrement visible et que tous les détails sont clairs, sans flou ni reflet</string>
 	<string name="onfido_poa_capture_enlarge">Agrandir le document</string>
 	<string name="onfido_poa_capture_enlarge_move">Bouger avec un seul doigt. Pincez pour agrandir.</string>
 	<string name="onfido_poa_capture_enlarge_close">Fermer</string>
@@ -610,4 +610,12 @@
 	<string name="onfido_chip_blocked_optional_button_primary">Continuer</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Appuyez deux fois pour sélectionner un pays</string>
 	<string name="onfido_doc_select_button_passport_card">Carte‑passeport</string>
+	<string name="onfido_doc_intro_address_page_title">Ensuite, capturez la page d’adresse</string>
+	<string name="onfido_doc_intro_address_page_subtitle">Nous en avons besoin pour des raisons réglementaires</string>
+	<string name="onfido_doc_intro_address_page_option_1">Allez à la dernière page de votre passeport</string>
+	<string name="onfido_doc_intro_address_page_option_2">Prenez une photo de la page contenant les noms de vos parents, l’adresse et le numéro de dossier</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">Illustration de la page d’adresse dans le passeport indien</string>
+	<string name="onfido_doc_intro_address_page_continue_button">Prendre la photo</string>
+	<string name="onfido_doc_capture_header_address_page">Page d’adresse</string>
+	<string name="onfido_doc_capture_description_address_page">Dernière page du passeport</string>
 </resources>

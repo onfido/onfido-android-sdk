@@ -410,7 +410,7 @@
 	<string name="onfido_poa_intro_list_most_recent">เป็นเอกสารล่าสุดของคุณ</string>
 	<string name="onfido_poa_type_selection_title_uk">เลือกเอกสารของสหราชอาณาจักร</string>
 	<string name="onfido_poa_type_selection_title">เลือกเอกสาร</string>
-	<string name="onfido_doc_select_subtitle_poa">เอกสารเหล่านี้น่าจะแสดงที่อยู่ปัจจุบันของคุณ</string>
+	<string name="onfido_doc_select_subtitle_poa">เลือกเอกสารฉบับล่าสุดที่แสดงที่อยู่บ้านปัจจุบันของคุณ</string>
 	<string name="onfido_doc_select_button_bank_statement">รายการเดินบัญชีของธนาคารหรือสหกรณ์ออมทรัพย์เพื่อการเคหะ</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">รายการเดินบัญชีธนาคาร</string>
 	<string name="onfido_doc_select_extra_estatements_ok">จะใช้เอกสารอิเล็กทรอนิกส์ก็ได้</string>
@@ -439,7 +439,7 @@
 	<string name="onfido_poa_capture_confirm">ส่งเอกสาร</string>
 	<string name="onfido_poa_capture_choose_another">เลือกรายการอื่น</string>
 	<string name="onfido_poa_capture_redo">ถ่ายรูปอีกครั้ง</string>
-	<string name="onfido_doc_confirmation_body">เช็คให้แน่ใจว่าคุณอัปโหลดเอกสารทั้งหน้า และสามารถอ่านรายละเอียดได้อย่างชัดเจนโดยไม่มีตัวหนังสือพร่ามัวหรือมีแสงสะท้อน</string>
+	<string name="onfido_doc_confirmation_body">ตรวจสอบให้แน่ใจว่าเอกสารทั้งฉบับมองเห็นได้ชัดเจน และรายละเอียดทั้งหมดอ่านได้ชัด โดยไม่มีภาพเบลอหรือแสงสะท้อน</string>
 	<string name="onfido_poa_capture_enlarge">ขยายเอกสาร</string>
 	<string name="onfido_poa_capture_enlarge_move">เลื่อนไปรอบๆ โดยใช้นิ้วเดียว จีบนิ้วเพื่อซูม</string>
 	<string name="onfido_poa_capture_enlarge_close">ปิด</string>
@@ -609,5 +609,15 @@
 	<string name="onfido_chip_blocked_optional_subtitle">การป้อน PIN ผิดหลายครั้งเกินไปทำให้ชิป NFC ของคุณถูกบล็อก ดังนั้นเราจะข้ามขั้นตอนนี้ กรุณาติดต่อหน่วยงานที่เกี่ยวข้องเพื่อรีเซ็ต PIN ของคุณสำหรับการใช้งานในอนาคต</string>
 	<string name="onfido_chip_blocked_optional_button_primary">ดำเนินการต่อ</string>
 	<string name="onfido_country_selection_select_hint_accessibility">แตะสองครั้งเพื่อเลือกประเทศ</string>
-    <string name="onfido_doc_select_button_passport_card">บัตรหนังสือเดินทาง</string>
+
+	<string name="onfido_doc_intro_address_page_title">ถัดไป ถ่ายภาพหน้าที่อยู่</string>
+	<string name="onfido_doc_intro_address_page_subtitle">จำเป็นต้องใช้ข้อมูลนี้เพื่อวัตถุประสงค์ด้านกฎระเบียบ</string>
+	<string name="onfido_doc_intro_address_page_option_1">ไปที่หน้าสุดท้ายของหนังสือเดินทาง</string>
+	<string name="onfido_doc_intro_address_page_option_2">ถ่ายภาพหน้าที่มีชื่อบิดามารดา ที่อยู่ และหมายเลขแฟ้ม</string>
+	<string name="onfido_doc_intro_address_page_illustration_accessibility">ภาพประกอบหน้าที่อยู่ในหนังสือเดินทางอินเดีย</string>
+	<string name="onfido_doc_intro_address_page_continue_button">ถ่ายรูปภาพ</string>
+
+	<string name="onfido_doc_capture_header_address_page">หน้าที่อยู่</string>
+	<string name="onfido_doc_capture_description_address_page">หน้าสุดท้ายของหนังสือเดินทาง</string>
+	<string name="onfido_doc_select_button_passport_card">บัตรหนังสือเดินทาง</string>
 </resources>

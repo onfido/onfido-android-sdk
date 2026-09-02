@@ -153,6 +153,16 @@
     <string name="onfido_video_capture_header_challenge_turn_right_accessibility">Right</string>
     <string name="onfido_video_confirmation_button_play_and_pause_accessibility">Play or pause</string>
     <string name="onfido_doc_capture_button_accessibility">Take a picture</string>
+
+    <!-- Passport address page (2nd page) intro -->
+    <string name="onfido_doc_intro_address_page_title">Next, capture the address page</string>
+    <string name="onfido_doc_intro_address_page_subtitle">We need this for regulatory reasons</string>
+    <string name="onfido_doc_intro_address_page_option_1">Go to the last page of your passport</string>
+	<string name="onfido_doc_intro_address_page_option_2">Take a photo of the page containing your parents’ names, address, and file number</string>
+    <string name="onfido_doc_intro_address_page_continue_button">Take photo</string>
+    <string name="onfido_doc_capture_header_address_page">Address page</string>
+    <string name="onfido_doc_capture_description_address_page">Last page of passport</string>
+    <string name="onfido_doc_intro_address_page_illustration_accessibility">An illustration of the address page in the Indian Passport</string>
 	<string name="onfido_video_intro_button_pause_accessibility">Pause illustrative animation of scanning procedure</string>
 	<string name="onfido_video_intro_button_play_accessibility">Play illustrative animation of scanning procedure</string>
 
@@ -417,7 +427,7 @@
 	<string name="onfido_poa_intro_list_most_recent">Is your most recent document</string>
 	<string name="onfido_poa_type_selection_title_uk">Select a UK document</string>
 	<string name="onfido_poa_type_selection_title">Select a document</string>
-	<string name="onfido_doc_select_subtitle_poa">These are the documents most likely to show your current home address</string>
+	<string name="onfido_doc_select_subtitle_poa">Choose a recent document that shows your current home address</string>
 	<string name="onfido_doc_select_button_bank_statement">Bank or building society statement</string>
 	<string name="onfido_doc_select_button_bank_statement_non_uk">Bank statement</string>
 	<string name="onfido_doc_select_extra_estatements_ok">e-statements accepted</string>
@@ -446,7 +456,7 @@
 	<string name="onfido_poa_capture_confirm">Submit document</string>
 	<string name="onfido_poa_capture_choose_another">Choose another</string>
 	<string name="onfido_poa_capture_redo">Retake photo</string>
-	<string name="onfido_doc_confirmation_body">Make sure you have uploaded the entire document page, and details are clear to read with no blur or glare</string>
+	<string name="onfido_doc_confirmation_body">Make sure the entire document is visible and all details are clear, with no blur or glare</string>
 	<string name="onfido_poa_capture_enlarge">Enlarge document</string>
 	<string name="onfido_poa_capture_enlarge_move">Move around using one finger. Pinch to zoom.</string>
 	<string name="onfido_poa_capture_enlarge_close">Close</string>
@@ -609,4 +619,5 @@
 	<string name="onfido_chip_blocked_optional_subtitle">Too many incorrect PIN entries have blocked your NFC chip, so we\'ll skip this step. Contact your authorities to reset your PIN for future use.</string>
 	<string name="onfido_chip_blocked_optional_button_primary">Continue</string>
 	<string name="onfido_country_selection_select_hint_accessibility">Double tap to select a country</string>
+
 </resources>
