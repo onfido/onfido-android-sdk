@@ -4,6 +4,162 @@ The guides below are provided to ease the transition of existing applications us
 
 If your migration involves upgrading across multiple SDK versions, be sure to read each individual guide in order to account for all relevant breaking changes.
 
+## `23.12.0` -> `24.0.0`
+
+### String Changes
+
+#### Added
+
+The following string keys have been **added**:
+
+- `onfido_doc_select_button_immigration_status_document` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_tax_id` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_voter_id` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_postal_identity_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_professional_qualification_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_social_security_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_asylum_registration_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_national_health_insurance_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_municipality_identity_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_private_operators_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_proof_of_citizenship` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_indigenous_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_service_id_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_consular_id` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_residence_status_document` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_international_driving_licence` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_identification_number_document` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_travel_document` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_diplomatic_id` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_immigration_status_document_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_tax_id_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_voter_id_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_postal_identity_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_professional_qualification_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_social_security_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_asylum_registration_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_national_health_insurance_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_municipality_identity_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_private_operators_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_proof_of_citizenship_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_indigenous_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_service_id_card_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_consular_id_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_residence_status_document_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_international_driving_licence_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_identification_number_document_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_travel_document_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_select_button_diplomatic_id_detail` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_immigration_status_document_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_immigration_status_document_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_tax_id_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_tax_id_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_voter_id_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_voter_id_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_postal_identity_card` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_professional_qualification_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_professional_qualification_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_social_security_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_social_security_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_asylum_registration_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_asylum_registration_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_national_health_insurance_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_national_health_insurance_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_municipality_identity_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_municipality_identity_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_private_operators_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_private_operators_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_proof_of_citizenship_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_proof_of_citizenship_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_indigenous_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_indigenous_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_service_id_card_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_service_id_card_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_consular_id_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_consular_id_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_residence_status_document_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_residence_status_document_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_international_driving_licence_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_international_driving_licence_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_identification_number_document_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_identification_number_document_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_travel_document` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_diplomatic_id_front` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
+- `onfido_doc_auto_capture_footer_position_diplomatic_id_back` (en, ar, bg, cs, da, de, el, en-rGB, es, es-rDO, es-rUS, et, fa, fi, fr, fr-rCA, hi, hr, hu, hy, in, it, iw, ja, ko, lt, lv, ms, nb, nl, nn, pl, pt, pt-rBR, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh-rCN, zh-rTW)
+
 ## `23.9.0` -> `23.10.0`
 
 ### Platform Changes

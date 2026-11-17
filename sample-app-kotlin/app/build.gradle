@@ -3,8 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 
-def sdkVersion = '23.12.0'
-def versionCodeNumber = 23120
+def sdkVersion = '24.0.0'
+def versionCodeNumber = 2400
 
 android {
     namespace 'com.onfido.android.app.sample'
@@ -48,6 +48,7 @@ android {
     }
 
     packagingOptions.resources.excludes += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
+    packagingOptions.resources.pickFirsts += "META-INF/LICENSE.md"
 }
 
 repositories {

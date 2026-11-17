@@ -7,6 +7,22 @@ and the SDK adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 **Note**: When any of the string translations change, it will result in a MINOR version change. As a result, you are responsible for ensuring the correct layout if you are using custom translations. You can find more documentation on language localization [here](https://documentation.onfido.com/sdk/android/#language-localization)
 
+## [24.0.0] - 2026-11-17
+
+### Added
+
+- Added support for additional document types in Studio workflows
+- Added support for NFC reading of Bangladeshi passports
+
+### Changed
+
+- Updated Bouncy Castle version to 1.86
+
+### Fixed
+
+- Fixed missing space in the Italian retry screen subtitles for expired and custom documents
+- Fixed a crash when returning from the document picker in the Proof of Address flow
+
 ## [23.11.0] - 2026-09-02
 
 ### Added
